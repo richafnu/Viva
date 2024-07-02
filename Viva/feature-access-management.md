@@ -23,7 +23,7 @@ description: "Control who can access features in Microsoft Viva"
 ---
 # Control access to features in Viva
 
-To control who has access to specific Viva features you can create and update policies in the [Microsoft 365 admin center](/Viva/control-access-admin-center) or in [Powershell](/Viva/feature-access-management).
+To control who has access to specific Viva features you can create and update policies in the [Microsoft 365 admin center](/Viva/control-access-admin-center) or in [Powershell](/Viva/manage-access-policies).
 
 Policies are used to enable or disable specific features or types of data processing for users or groups in your tenant.
 

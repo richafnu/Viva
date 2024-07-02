@@ -22,12 +22,12 @@ search.appverid:
 description: "Control who can access features in Microsoft Viva using PowerShell"
 ---
 
-# Control access to features in Viva
+# Control access to features in Viva using PowerShell
 
 You can use access policies in Viva to manage which users can access specific features in Viva apps with PowerShell. Feature access management lets you enable or disable specific features in Viva for specific groups or users in your tenant and so tailor your deployments to meet your local regulatory and business requirements.  
 
 > [!IMPORTANT]
-> You can have multiple access policies for a feature active in your organization. That means that a user or group could be impacted by multiple policies. In that case, the most restrictive policy assigned directly to a user or group takes precedence. For more information, see [How access policies work in Viva](#how-access-policies-work-in-viva).
+> You can have multiple access policies for a feature active in your organization. That means that a user or group could be impacted by multiple policies. In that case, the most restrictive policy assigned directly to a user or group takes precedence. For more information, see [How access policies work in Viva](\viva\feature-access-management#how-access-policies-work-in-viva).
 
 An authorized admin in your tenant can create, assign, and manage access policies from PowerShell. When a user signs into Viva, the policy settings are applied, and they only see the features that haven't been disabled.
 
