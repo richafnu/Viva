@@ -1,10 +1,10 @@
 ---
-title: "Microsoft Viva - Feature access management"
+title: "Microsoft Viva - Feature access management using PowerShell"
 ms.reviewer: elizapo
-ms.author: elizapo
-author: lizap
+ms.author: loreenl
+author: loreenl
 manager: elizapo
-ms.date: 06/17/2024
+ms.date: 07/02/2024
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -19,12 +19,12 @@ ms.collection:
 - tier1
 search.appverid:
 - MET150
-description: "Control who can access features in Microsoft Viva"
+description: "Control who can access features in Microsoft Viva using PowerShell"
 ---
 
 # Control access to features in Viva
 
-You can use access policies in Viva to manage which users can access specific features in Viva apps. Feature access management lets you enable or disable specific features in Viva for specific groups or users in your tenant and so tailor your deployments to meet your local regulatory and business requirements.  
+You can use access policies in Viva to manage which users can access specific features in Viva apps with PowerShell. Feature access management lets you enable or disable specific features in Viva for specific groups or users in your tenant and so tailor your deployments to meet your local regulatory and business requirements.  
 
 > [!IMPORTANT]
 > You can have multiple access policies for a feature active in your organization. That means that a user or group could be impacted by multiple policies. In that case, the most restrictive policy assigned directly to a user or group takes precedence. For more information, see [How access policies work in Viva](#how-access-policies-work-in-viva).
@@ -163,33 +163,7 @@ Remove-VivaModuleFeaturePolicy -ModuleId VivaInsights -FeatureId Reflection -Pol
 
 If you have issues creating or using access policies for Viva app features, confirm the feature you're trying to set a policy for is listed in the [feature table](#features-available-for-feature-access-management) and is available to your tenant.
 
-## How access policies work in Viva
 
-Here's how access policies work in Viva:
-
-:::image type="content" source="./media/vfam-workflow.png" alt-text="Workflow diagram that shows the steps for applying a feature access policy." lightbox="./media/vfam-workflow.png":::
-
-- When a user signs in and accesses Viva, a check is immediately made to see if there’s a policy that applies to the user.
-- If the user is assigned to a policy directly or is a member of a Microsoft Entra group or Microsoft 365 group with an assigned policy, then the policy setting is applied.
-- If the user isn’t assigned a policy directly or isn’t a member of a Microsoft Entra group or Microsoft 365 group that is assigned a policy, then the global default policy is applied. If there is no global default policy, the default enablement state for the feature is applied.
-- If the user has multiple policies assigned to them directly or as a group, then the most restrictive policy applies. (Note that not all features include the ability for a user to opt out.) Here's the order of precedence:
-   1. Feature is disabled.
-   2. Feature is enabled.
-   3. Feature is enabled, and the user can opt out.
-- If users are in nested groups and you apply access policies to the parent group, the users in the nested groups receive the policies. The nested groups and the users in those nested groups must be created in or synchronized to Microsoft Entra ID.
-- Changes to access policies take effect for the user within 24 hours, unless otherwise noted for a specific feature. Changes for Copilot in Viva Engage might take up to 48 hours.
-- When you add users to or remove them from a Microsoft Entra ID or Microsoft 365 Group, it can take 24 hours before changes to their feature access take effect.
-- When an admin removes the option for users to opt out by fully enabling or disabling the feature, the user’s opt in/out preference isn't preserved and will be reset to the default state. If an admin re-enables the option allowing a user to opt out of a feature, users will need to select to opt out of the feature again.
-- Quick changes to the enablement state for a feature in less than 24 hours after making the change may not result in the resetting of user opt in/out preferences.
-- For a history of policy creation, updates, and deletions, see the Viva Feature Access Management (VFAM) change logs for your organization in [Microsoft Purview](/purview/tutorial-purview-audit-logs-diagnostics).
-
-## Additional information and best practices
-
-- Policies are evaluated on a per-user basis.
-- Only one policy per feature can be assigned to *'everyone'.* This policy serves as the global default state for that feature in your organization.
-- As new feature controls are made available in Viva to manage user and group access, they're added to Viva feature access management.
-- When user identities in Microsoft Entra ID are deleted, user data is deleted from Viva feature access management. If user identities are re-enabled during the soft-deleted period, the admin needs to reassign policies to the user.
-- When groups in Microsoft Entra ID and Microsoft 365 are deleted, they're deleted from the stored policies. If groups are re-enabled during the soft-deleted period, the admin needs to reassign policies to the groups.
 
 ## More resources
 
