@@ -25,7 +25,7 @@ description: "Control who can access features in Microsoft Viva using the Micros
 # Control who can access features in Microsoft Viva using the Microsoft 365 admin center
 To control who has access to specific Viva features and tailor your deployments to meet your local regulatory or business requirements, you can create and update policies in the Microsoft 365 admin center.
 
-Policies are used to enable or disable specific features or types of data processing for users or groups in your tenant. [Learn more about policies](/viva/manage-access-policies).
+Policies are used to enable or disable specific features or types of data processing for users or groups in your tenant. [Learn more about policies](/viva/feature-access-management).
 
 > [!NOTE]
 > - You can override your org-wide setting by using custom policies to apply only to specific users or groups. 
@@ -82,7 +82,7 @@ After saving, you'll see that your policy was created.
 - When groups in Microsoft Entra ID and Microsoft 365 are deleted, they’re deleted from the stored policies. If groups are re-enabled during the soft-deleted period, the admin needs to reassign policies to the groups.
 
 ## More resources
-[Manage feature access using PowerShell](/viva/feature-access-management)
+[Manage feature access using PowerShell](/viva/manage-access-policies)
 
 [Microsoft Viva Privacy](/viva/viva-privacy)
 

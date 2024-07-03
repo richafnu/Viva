@@ -70,16 +70,17 @@ Before you can create an access policy in Viva, you need:
 - Access to [Exchange Online PowerShell Version 3.2.0](https://www.powershellgallery.com/packages/ExchangeOnlineManagement/3.2.0) or later
 - User accounts created in or synchronized to Microsoft Entra ID
 - Microsoft 365 groups, Microsoft Entra security groups created in or synchronized to Microsoft Entra ID, or distribution groups. Groups must be mail-enabled (have an associated email address). The membership type can be either dynamic or assigned.
-- The [role required for the specific app and feature](#features-available-for-feature-access-management).
+- The [role required for the specific app and feature](/viva/feature-access-management#features-available-to-manage).
 
 
 > [!IMPORTANT]
 > Viva feature access management isn’t available to customers who have Microsoft 365 GCC, GCC High, or DOD plans.
 
 ## Create and manage access policies for Viva features
+[See which features you can manage and who can manage them](/viva/feature-access-management#features-available-to-manage).
 
 ### Get the featureID for the feature
-Before you can create an access policy, you need to get the **featureID** for the specific feature you want to control access to.
+Before you can create an access policy, use the ModuleID to get the **featureID** for the specific feature you want to control access to.
 
 Use the [**Get-VivaModuleFeature**](/powershell/module/exchange/get-vivamodulefeature) PowerShell cmdlet to get a list of all of the features available in a specific Viva app and their associated IDs.
 
@@ -114,7 +115,7 @@ You can assign a maximum of 10 policies per feature to users and groups. Each po
 
 Run the [Add-VivaModuleFeaturePolicy](/powershell/module/exchange/add-vivamodulefeaturepolicy) cmdlet to create a new access policy.
 
->[!NOTE]
+> [!NOTE]
 > If your feature supports user controls for opt out, make sure you set the *IsUserControlEnabled* parameter when you create the policy. If you don't, user controls for the policy uses the default state for the feature.
 
 For example, run the following to create an access policy, called *UsersAndGroups*, to restrict access to the Reflection feature in Viva Insights.
@@ -122,7 +123,6 @@ For example, run the following to create an access policy, called *UsersAndGroup
    ```powershell
    Add-VivaModuleFeaturePolicy -ModuleId VivaInsights -FeatureId Reflection -Name UsersAndGroups -IsFeatureEnabled $false -GroupIds group1@contoso.com,group2@contoso.com -UserIds user1@contoso.com,user2@contoso.com    
    ```
-   
 This example adds a policy for the Reflection feature in Viva Insights. The policy disables the feature for the specified users and group members. If you want to disable the feature for all users, use the *-Everyone* parameter instead.
 
 
