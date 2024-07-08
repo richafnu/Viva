@@ -29,7 +29,7 @@ You can use access policies in Viva to manage which users can access specific fe
 An authorized admin in your tenant can create, assign, and manage access policies from PowerShell. When a user signs into Viva, the policy settings are applied, and they only see the features that haven't been disabled.
 
 > [!IMPORTANT]
-> You can have multiple access policies for a feature active in your organization. That means that a user or group could be impacted by multiple policies. In that case, the most restrictive policy assigned directly to a user or group takes precedence. For more information, see [How access policies work in Viva](\viva\feature-access-management).
+> You can have multiple access policies for a feature active in your organization. That means that a user or group could be impacted by multiple policies. In that case, the most restrictive policy assigned directly to a user or group takes precedence. For more information, see [How access policies work in Viva](/Viva/feature-access-management).
 
 ## Requirements
 
