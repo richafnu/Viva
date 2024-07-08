@@ -46,7 +46,8 @@ Before you can create an access policy in Viva, you need:
 > Viva feature access management isn’t available to customers who have Microsoft 365 GCC, GCC High, or DOD plans.
 
 ## Create and manage access policies for Viva features
-[See which features you can manage and who can manage them](/viva/feature-access-management#features-available-to-manage)
+[See which features you can manage and who can manage them](/viva/feature-access-management#features-available-to-manage).
+
 > [!NOTE]
 > - You can only disable a subset of features in Viva apps by using feature access management. Restricting the use of one feature might impact the functionality of other features in the app. Be sure to check the app documentation on the specific feature to understand the implications of disabling or enabling access to a feature.
 > - Only some features have the controls available for admins to provide users with the option to opt out.
