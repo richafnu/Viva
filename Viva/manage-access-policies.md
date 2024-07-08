@@ -56,7 +56,7 @@ Besides enabling features, using feature management is the only way to disable a
 > - Changes to the Copilot in Viva Engage feature might take up to 48 hours to take effect. Changes for other features generally take effect within 24 hours.
 
 ### Get the featureID for the feature
-Before you can create an access policy, use the ModuleID to get the **featureID** for the specific feature you want to control access to.
+Before you can create an access policy, use the **ModuleID** to get the **featureID** for the specific feature you want to control access to.
 
 **Module IDs**
 
