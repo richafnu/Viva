@@ -92,7 +92,7 @@ If a user is not assigned a policy as an individual or member of a group, the or
 
 Here's more about how access policies work in Viva:
 
-:::image type="content" source="./media/vfam-workflow.png" alt-text="Workflow diagram that shows the steps for applying a feature access policy." lightbox="./media/vfam-workflow.png":::
+:::image type="content" source="./media/viva_feature_access_workflow" alt-text="Workflow diagram that shows the steps for applying a feature access policy." lightbox="./media/vfam-workflow.png":::
 
 - When a user signs in and accesses Viva, a check is immediately made to see if there’s a policy that applies to the user.
 - If the user is assigned to a policy directly or is a member of a Microsoft Entra group or Microsoft 365 group with an assigned policy, then the policy setting is applied.
