@@ -42,7 +42,6 @@ Before you can create a policy, you need:
 - A [supported version of Microsoft 365 or a Viva Suite license](https://www.microsoft.com/microsoft-viva/pricing)
 - User accounts created in or synchronized to Microsoft Entra ID
 - Microsoft 365 groups, Microsoft Entra security groups created in or synchronized to Microsoft Entra ID, or distribution groups.<br>
- - Groups must be mail-enabled (have an associated email address). Membership can be either dynamic or assigned. If users are in nested groups and you apply access to the parent group, the users in the nested groups must be created in or synchronized to Microsoft Entra ID.  
 - For [PowerShell](/Viva/feature-access-management) access to [Exchange Online PowerShell Version 3.2.0](https://www.powershellgallery.com/packages/ExchangeOnlineManagement/3.2.0) or later. If you need to use non-mail-enabled groups you must have access to Exchange PowerShell version 3.5.1 or later.
 
 ## Features available to manage
