@@ -32,7 +32,7 @@ Policies are used to enable or disable specific features or types of data proces
 
 ## Creating and managing policies  
 
-Policies can be created and managed by a Viva admin who has permissions to do so in the [Microsoft 365 admin center](/Viva/control-access-admin-center) or in [Powershell](/Viva/manage-access-policies). For more information, see the Who can manage access column in the feature table below.
+Policies can be created and managed by a Viva admin who has permissions to do so in the [Microsoft 365 admin center](/Viva/control-access-admin-center) or in [Powershell](/Viva/manage-access-policies). For more information, see the **Who can manage access** column in the feature table below.
 
 Policies for copilots in Viva can also be [managed through the Copilot settings page in the Microsoft 365 admin center](/viva/copilot-in-viva/copilot-access-management). These policies remain in sync with those managed through Viva admin page.  
 
@@ -42,7 +42,7 @@ Before you can create a policy, you need:
 - A [supported version of Microsoft 365 or a Viva Suite license](https://www.microsoft.com/microsoft-viva/pricing)
 - User accounts created in or synchronized to Microsoft Entra ID
 - Microsoft 365 groups, Microsoft Entra security groups created in or synchronized to Microsoft Entra ID, or distribution groups.<br>
- Groups must be mail-enabled (have an associated email address). Membership can be either dynamic or assigned. If users are in nested groups and you apply access to the parent group, the users in the nested groups must be created in or synchronized to Microsoft Entra ID.  
+ - Groups must be mail-enabled (have an associated email address). Membership can be either dynamic or assigned. If users are in nested groups and you apply access to the parent group, the users in the nested groups must be created in or synchronized to Microsoft Entra ID.  
 - For [PowerShell](/Viva/feature-access-management) access to [Exchange Online PowerShell Version 3.2.0](https://www.powershellgallery.com/packages/ExchangeOnlineManagement/3.2.0) or later. If you need to use non-mail-enabled groups you must have access to Exchange PowerShell version 3.5.1 or later.
 
 ## Features available to manage
@@ -101,6 +101,7 @@ If a user is not assigned a policy as an individual or member of a group, the or
 - When groups in Microsoft Entra ID and Microsoft 365 are deleted, they're deleted from the stored policies. If groups are re-enabled during the soft-deleted period, the admin needs to reassign policies to the groups.
 
 ## More
+
 [Learn how to manage access to features in the Microsoft 365 admin center](/viva/control-access-admin-center)
 
 [Learn how to manage access to features using Powershell](/Viva/manage-access-policies)

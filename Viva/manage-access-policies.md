@@ -140,13 +140,13 @@ Remove-VivaModuleFeaturePolicy -ModuleId VivaInsights -FeatureId Reflection -Pol
 ```
 ### Troubleshooting
 
-If you have issues creating or using access policies for Viva app features, confirm the feature you're trying to set a policy for is listed in the [feature table](#features-available-for-feature-access-management) and is available to your tenant.
+If you have issues creating or using access policies for Viva app features, confirm the feature you're trying to set a policy for is listed in the [feature table](/Viva/feature-access-management#features-available-to-manage) and is available to your tenant.
 
 
 
 ## More resources
 
-[Learn more about creating and managing policies](/Viva/feature-access-management.md)
+[Learn more about creating and managing policies](/Viva/feature-access-management)
 
 [Control who can access features in Microsoft Viva using the Microsoft 365 admin center](/viva/control-access-admin-center)
 
