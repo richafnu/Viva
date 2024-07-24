@@ -146,6 +146,8 @@ If you have issues creating or using access policies for Viva app features, conf
 
 ## More resources
 
+[Learn more about creating and managing policies](/Viva/feature-access-management.md)
+
 [Control who can access features in Microsoft Viva using the Microsoft 365 admin center](/viva/control-access-admin-center)
 
 [Microsoft Viva Privacy](/Viva/viva-privacy)
