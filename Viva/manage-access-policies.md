@@ -24,7 +24,7 @@ description: "Control who can access features in Microsoft Viva using PowerShell
 
 # Control access to features in Viva using PowerShell
 
-You can use access policies in Viva to manage which users can access specific features in Viva apps with PowerShell. Feature access management lets you enable or disable specific features in Viva for specific groups or users in your tenant and so tailor your deployments to meet your local regulatory and business requirements. 
+You can use access policies in Viva to manage which users can access specific features in Viva apps with PowerShell. Feature access management lets you enable or disable specific features in Viva for specific groups or users in your tenant and so tailor your deployments to meet your local regulatory and business requirements.
 
 An authorized admin in your tenant can create, assign, and manage access policies from PowerShell. When a user signs into Viva, the policy settings are applied, and they only see the features that haven't been disabled.
 
@@ -36,24 +36,18 @@ An authorized admin in your tenant can create, assign, and manage access policie
 Before you can create an access policy in Viva, you need:
 
 - A [supported version of Microsoft 365 or a Viva Suite license](https://www.microsoft.com/microsoft-viva/pricing)
-- Access to [Exchange Online PowerShell Version 3.2.0](https://www.powershellgallery.com/packages/ExchangeOnlineManagement/3.2.0) or later
+- Access to [Exchange Online PowerShell Version 3.2.0](https://www.powershellgallery.com/packages/ExchangeOnlineManagement/3.2.0) or later. If you need to use non-mail-enabled groups you must have access to Exchange PowerShell version 3.5.1 or later.
 - User accounts created in or synchronized to Microsoft Entra ID
 - Microsoft 365 groups, Microsoft Entra security groups created in or synchronized to Microsoft Entra ID, or distribution groups. Groups must be mail-enabled (have an associated email address). The membership type can be either dynamic or assigned.
 - The [role required for the specific app and feature](/viva/feature-access-management#features-available-to-manage).
 
 
 > [!IMPORTANT]
-> Viva feature access management isn’t available to customers who have Microsoft 365 GCC, GCC High, or DOD plans.
+> These features are not yet available in GCC High or DoD. For GCC, refer to the documentation for your specific app for availability.
 
 ## Create and manage access policies for Viva features
 
-Besides enabling features, using feature management is the only way to disable a subset of features in Viva apps. Be aware that restricting the use of one feature might impact the functionality of other features in the app. Be sure to check the app documentation on the specific feature to understand the implications of disabling or enabling access to a feature.  [See which features you can manage and who can manage them](/viva/feature-access-management#features-available-to-manage).
-
-> [!NOTE]
-> - Only some features have the controls available for admins to provide users with the option to opt out.
-> - Some features or feature controls might not yet be available for all tenants. Support will be added soon. See [which features you can manage and who can manage them](/viva/feature-access-management#features-available-to-manage) for more information.
-> - You can only control access to features that support access policies *and* that are available in your tenant. For example, if you have an EDU-based tenant, you cannot use policies to gain access to features that are not available to EDU tenants. The same applies for features that are unavailable in specific geographies. Check the documentation for the specific feature that you'd like to use for more information about its availability.
-> - Changes to the Copilot in Viva Engage feature might take up to 48 hours to take effect. Changes for other features generally take effect within 24 hours.
+Policies can be created and managed by a Viva admin who has permissions to do so in the Microsoft 365 admin center or by using PowerShell. [Get all the details about creating and managing policies](/viva/feature-access-management#creating-and-managing-policies).
 
 ### Get the featureID for the feature
 Before you can create an access policy, use the **ModuleID** to get the **featureID** for the specific feature you want to control access to.
@@ -151,6 +145,8 @@ If you have issues creating or using access policies for Viva app features, conf
 
 
 ## More resources
+
+[Control who can access features in Microsoft Viva using the Microsoft 365 admin center](/viva/control-access-admin-center)
 
 [Microsoft Viva Privacy](/Viva/viva-privacy)
 
