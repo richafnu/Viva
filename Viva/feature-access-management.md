@@ -34,7 +34,7 @@ Policies are used to enable or disable specific features or types of data proces
 
 Policies can be created and managed by a Viva admin who has permissions to do so in the [Microsoft 365 admin center](/Viva/control-access-admin-center) or in [Powershell](/Viva/manage-access-policies). For more information, see the **Who can manage access** column in the feature table below.
 
-Policies for copilots in Viva can also be [managed through the Copilot settings page in the Microsoft 365 admin center](/viva/copilot-in-viva/copilot-access-management). These policies remain in sync with those managed through Viva admin page.  
+Policies for copilots in Viva can also be [managed through the Copilot settings page in the Microsoft 365 admin center](/viva/copilot/copilot-access-management). These policies remain in sync with those managed through Viva admin page.  
 
 ### Requirements
 Before you can create a policy, you need:  
