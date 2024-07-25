@@ -105,7 +105,6 @@ For example, run the following to create an access policy, called *UsersAndGroup
 This example adds a policy for the Reflection feature in Viva Insights. The policy disables the feature for the specified users and group members. If you want to disable the feature for all users, use the *-Everyone* parameter instead.
 
 
-
 ### Manage access policies
 
 You can update an access policy to change whether a feature is enabled or disabled, as well as to change who the policy applies to (everyone, a user, or a group).

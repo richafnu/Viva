@@ -81,9 +81,9 @@ If a user is directly assigned a policy as an individual or as a member of a gro
 - Feature is enabled with option for user to opt out (if available for a given feature) 
 - Feature is enabled 
 
-If a user is not assigned a policy as an individual or member of a group, the org-wide policy applies. This is either the default setting for the feature or the tenant-wide/org-wide policy created by the admin.  
-> [!NOTE]
+If a user is not assigned a policy as an individual or member of a group, the org-wide policy applies. This is either the default setting for the feature or the tenant-wide/org-wide policy created by the admin.
 
+> [!NOTE]
 > - Changes to policies can take up to 24 hours to go into effect for the majority of features. 
 > - Changes to policies for the Copilot in Engage feature may take up to 48 hours to go into effect.
 > - If users are in nested groups and you apply access policies to the parent group, the users in the nested groups receive the policies. The nested groups and the users in those nested groups must be created in or synchronized to Microsoft Entra ID.
