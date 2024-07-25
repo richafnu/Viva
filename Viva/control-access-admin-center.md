@@ -29,7 +29,7 @@ Policies are used to enable or disable specific features or types of data proces
 
 > [!NOTE]
 > - You can override your org-wide setting by using custom policies to apply only to specific users or groups. 
-> - Custom policies take precedence over your org-wide settings. For example, if you have organization-wide access turned off, a custom policy could still allow access for specific users or groups. If there are no custom policies set for a user or group, the organizational setting will apply. For more details, see Which policy takes precedence.
+> - Custom policies take precedence over your org-wide settings. For example, if you have organization-wide access turned off, a custom policy could still allow access for specific users or groups. If there are no custom policies set for a user or group, the organizational setting will apply. For more details, see [Which policy takes precedence](/viva/feature-access-management?#which-policy-takes-precedence).
 
 ## Create a policy
 1.	From the Microsoft 365 admin center, select **Viva** from the settings menu. 
