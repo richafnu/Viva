@@ -82,6 +82,9 @@ After saving, you'll see that your policy was created.
 - When groups in Microsoft Entra ID and Microsoft 365 are deleted, they’re deleted from the stored policies. If groups are re-enabled during the soft-deleted period, the admin needs to reassign policies to the groups.
 
 ## More resources
+
+[Learn more about policies](/Viva/feature-access-management)
+
 [Manage feature access using PowerShell](/viva/manage-access-policies)
 
 [Microsoft Viva Privacy](/viva/viva-privacy)
