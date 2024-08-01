@@ -51,8 +51,8 @@ Before you can create a policy, you need:
 
 You can use feature access management to manage access to the following features:
 
-|App|Feature|Control for user opt-out?|Who can manage access
-|-|-|-|-
+|App|Feature|Control for user opt-out?|Who can manage access|
+|-|-|-|-|
 |Engage|[Copilot in Engage](/viva/engage/configure-copilot-for-engage)|No|Engage admin|
 ||[AI Summarization](/viva/engage/configure-copilot-for-engage)|Yes| Engage admin|
 |Insights|[Copilot Dashboard](/viva/insights/org-team-insights/copilot-dashboard)|No|Global admin|
