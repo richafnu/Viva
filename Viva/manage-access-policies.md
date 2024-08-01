@@ -139,7 +139,8 @@ Remove-VivaModuleFeaturePolicy -ModuleId VivaInsights -FeatureId Reflection -Pol
 ```
 ### Troubleshooting
 
-If you have issues creating or using access policies for Viva app features, confirm the feature you're trying to set a policy for is listed in the [feature table](/Viva/feature-access-management#features-available-to-manage) and is available to your tenant.
+- If you have issues creating or using access policies for Viva app features, confirm the feature you're trying to set a policy for is listed in the [feature table](/Viva/feature-access-management#features-available-to-manage) and is available to your tenant.
+- If you see the error message "Requester was not authorized to complete the request" while you're running a PowerShell cmdlet, check if you have any conditional access policy set that blocks specific IP addresses. If so, either remove your IP address from that policy or create a new policy to allowlist your IP address. Learn more about [Microsoft Entra Conditional Access](/entra/identity/conditional-access/) and [Troubleshooting Conditional Access using the What If tool](/entra/identity/conditional-access/troubleshoot-conditional-access-what-if).
 
 
 

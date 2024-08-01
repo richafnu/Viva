@@ -45,6 +45,9 @@ Before you can create a policy, you need:
 - For [PowerShell](/Viva/feature-access-management) access to [Exchange Online PowerShell Version 3.2.0](https://www.powershellgallery.com/packages/ExchangeOnlineManagement/3.2.0) or later. If you need to use non-mail-enabled groups you must have access to Exchange PowerShell version 3.5.1 or later.
 
 ## Features available to manage
+> [!NOTE]
+> - Some features may not support user/group policies. In addition, polices for one app can have an impact on the entire tenant or users in your tenant. For more information, refer to the feature documentation by using the link in the table.
+> - Only some features have the controls available for admins to provide users with the option to opt out.
 
 You can use feature access management to manage access to the following features:
 
@@ -55,11 +58,12 @@ You can use feature access management to manage access to the following features
 |Insights|[Copilot Dashboard](/viva/insights/org-team-insights/copilot-dashboard)|No|Global admin|
 ||[Copilot Dashboard Auto Enablement](/viva/insights/org-team-insights/copilot-dashboard#remove-access-to-the-dashboard-for-the-entire-tenant-with-powershell)|No|Global admin|
 ||[Copilot Dashboard Delegation](/viva/insights/org-team-insights/delegate-access)*|No|Global admin|
-||[Copilot Assisted Value](/viva/insights/org-team-insights/copilot-dashboard#details-on-the-copilot-assisted-hours-metric)|No|Global admin|
+||[Copilot Assisted Value]((https://go.microsoft.com/fwlink/?linkid=2281051))|No|Global admin|
 ||[Digest Welcome Email](/viva/insights/advanced/setup-maint/configure-personal-insights#configure-access-at-the-tenant-level)|No| Global admin|
 ||[Meeting cost and quality](https://aka.ms/meetingcostandqualitypost)|No|Insights admin|
 ||[Reflection](https://support.microsoft.com/topic/reflect-in-viva-insights-55379cb7-cf2a-408d-b740-2b2082eb3743)|No|Insights admin|
 |Pulse|[Customization](/viva/pulse/setup-admin-access/set-up-in-app-pulse-experience#customization)|No|Global admin|
+||Team conversations in Pulse reports*|No|Viva Pulse admin|VivaPulse|
 |Skills|[Skill suggestions](/viva/skills/skills-overview)*|Yes|Knowledge admin|
 
 \* The feature or feature control might not yet be available for all tenants. Support will be added soon.
