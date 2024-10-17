@@ -6,7 +6,7 @@ author: AliciaWeixelman
 manager: melissabarry
 audience: admin
 f1.keywords: NOCSH
-keywords: 
+keywords: MTO, multitenant organization, B2B collaboration, cross-tenant sync, FAQ
 ms.collection:  
 - Microsoft 365initiative-viva
 - selfserve 
@@ -14,14 +14,10 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 08/22/2024
-ROBOTS: NOINDEX, NOFOLLOW
+ms.date: 09/23/2024
 ---
 
-# Set up Viva Glint for a multitenant organization (preview)
-
-> [!NOTE]
-> Multitenant organization for Viva Glint is available to preview customers only. Features described here are subject to change.
+# Set up Viva Glint for a multitenant organization
 
 Multitenant organization (MTO) is a Microsoft 365 feature that enables your company to form a tenant group in your organization. MTO allows users in a tenant group to access an instance of Microsoft Viva Glint installed in only one tenant. Glint admins can survey and grant report access to employees across the tenant group for an organization-wide view of employee sentiment. Use the guidance in this article to learn more about multitenant organization setup, syncing users between tenants, and ensuring all users exist in the Glint application. [Learn more about MTO](/entra/identity/multi-tenant-organizations/multi-tenant-organization-overview).
 
@@ -49,6 +45,9 @@ Meet internally with your MTO stakeholders, review requirements, and consider Gl
 |:::image type="icon" source="/office/media/icons/meeting.png" ::: | **Meet with stakeholders** <br> <br>_Microsoft 365 global admin_ <br> <br>_Viva Glint admin_ <br> <br>_IT team members_ <br> <br>_Glint project team members_| Determine:<br> <br> <ul><li>How many tenants your organization uses</li> <li>Whether employees exist in different tenants</li> <li>What your Glint survey needs are across different tenants and employee populations</li> <li>How you currently use Glint for organization-wide surveys</li></ul>|
 | :::image type="icon" source="/office/media/icons/compliance-blue.png" ::: | **Review requirements** <br> <br>_Microsoft 365 global admin_ | <ul><li>All tenants exist in the same cloud</li><li>All tenants use Microsoft Entra ID </li><li>Glint is installed in one tenant where all Glint licenses used in the MTO are purchased (regardless of the home tenant of the user)</li> <li>[Target and source tenant prerequisites](https://go.microsoft.com/fwlink/?linkid=2282429)</li><li>[License requirements](https://go.microsoft.com/fwlink/?linkid=2282509)<li>[Learn about MTO limitations](/entra/identity/multi-tenant-organizations/multi-tenant-organization-known-issues)</li> </ul>|
 |:::image type="icon" source="/office/media/icons/users-settings.png" ::: | **Determine survey access methods and users to sync** <br> <br>_Viva Glint admin_ <br> <br>_Glint project team_ | <ul><li>**Authentication with Microsoft Entra ID**<br> _Survey takers must exist in Entra and in the Glint app_ <br></li> <li>**Personalized links**<br> _Survey takers need to exist in the Glint app only_ <br></li> <li>**Attribute-based survey access**<br> _Survey takers need to exist in the Glint app only_</li> <li>[Learn more about Glint survey access methods](/viva/glint/setup/understand-survey-access-methods)</li></ul><br> **All users that access survey results must exist in Entra**|
+
+> [!TIP]
+> See [Viva Glint for a multitenant organization FAQ](mto-faq.md) for answers to commonly asked MTO, cross-tenant sync, and B2B collaboration questions.
 
 ### Set up MTO
 
@@ -83,7 +82,7 @@ There are two options to sync users for MTO and Viva Glint: B2B collaboration or
 | :::image type="icon" source="/office/media/icons/migration-blue.png" ::: |Sync option <br> <br> _roles involved_| More information |
 |:---|:---|:---|
 |:::image type="icon" source="/office/media/icons/users-people.png" ::: | **Option 1: cross-tenant synchronization (CTS)** <br> <br>_Target tenant Microsoft 365 global admin_ <br> <br>_Source tenant Microsoft 365 global admin_ | <ol><li>As the target tenant admin, [enable CTS in the target tenant](https://go.microsoft.com/fwlink/?linkid=2282434)</li> <li>As target tenant admin, [enable autoredemption in the target tenant](https://go.microsoft.com/fwlink/?linkid=2282510) </li><li>As the source tenant admin, [enable autoredemption in the source tenant](https://go.microsoft.com/fwlink/?linkid=2282616)</li><li>As the source tenant admin, [set up CTS in the source tenant](https://go.microsoft.com/fwlink/?linkid=2282511) and [test the connection to the target tenant](https://go.microsoft.com/fwlink/?linkid=2282617)</li> <li>As the source tenant admin, [define who's in scope for provisioning](https://go.microsoft.com/fwlink/?linkid=2282435) and [test on demand provisioning](https://go.microsoft.com/fwlink/?linkid=2282512)</li><li>As the source tenant admin, [start the provisioning job](https://go.microsoft.com/fwlink/?linkid=2282436) to sync users to the target tenant</li> <li>As target and source tenant admins, [verify users in the target tenant and monitor the provisioning job](https://go.microsoft.com/fwlink/?linkid=2282437)</li></ol>|
-|:::image type="icon" source="/office/media/icons/upload-blue.png" ::: | **Option 2: B2B collaboration** <br> <br>_Target tenant Microsoft 365 global admin_ <br> <br>_Source tenant Microsoft 365 global admin_ | <ol><li>In the target and source tenants, [confirm that autoredemption is selected in cross-tenant access settings](https://go.microsoft.com/fwlink/?linkid=2282349)</li><li>As the target tenant admin, [prepare a comma-separated value (.csv) file with user information](https://go.microsoft.com/fwlink/?linkid=2282050)</li> <li>As the target tenant admin, [upload the file to Microsoft Entra ID](https://go.microsoft.com/fwlink/?linkid=2282051)</li><li>As the target tenant admin, [confirm that users are added to the directory](https://go.microsoft.com/fwlink/?linkid=2282052)</li></ol>|
+|:::image type="icon" source="/office/media/icons/upload-blue.png" ::: | **Option 2: B2B collaboration** <br> <br>_Target tenant Microsoft 365 global admin_ <br> <br>_Source tenant Microsoft 365 global admin_ | <ol><li>**Optional:** In the target and source tenants, [confirm that autoredemption is selected in cross-tenant access settings](https://go.microsoft.com/fwlink/?linkid=2282349)</li><li>As the target tenant admin, [prepare a comma-separated value (.csv) file with user information](https://go.microsoft.com/fwlink/?linkid=2282050)</li> <li>As the target tenant admin, [upload the file to Microsoft Entra ID](https://go.microsoft.com/fwlink/?linkid=2282051)</li><li>As the target tenant admin, [confirm that users are added to the directory](https://go.microsoft.com/fwlink/?linkid=2282052)</li></ol>|
 
 
 ### Import users from all tenants to the Glint app
@@ -107,6 +106,7 @@ To successfully access surveys and results, all users need to be imported to the
 - [What is a multitenant organization in Microsoft Entra ID?](/entra/identity/multi-tenant-organizations/multi-tenant-organization-overview)
 - [Manage tenants in your Microsoft Customer Agreement billing account](/azure/cost-management-billing/microsoft-customer-agreement/manage-tenants#whats-a-tenant) 
 - [Multitenant organization scenario and Microsoft Entra capabilities](/entra/identity/multi-tenant-organizations/overview)
+- [Viva Glint for a multitenant organization FAQ](mto-faq.md)
 
 **B2B collaboration**: 
 

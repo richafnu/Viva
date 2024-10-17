@@ -14,19 +14,21 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 09/10/2024
+ms.date: 10/08/2024
 ---
 
 # Send Viva Insights data into Viva Glint (public preview)
 
-*Applies to: Microsoft 365 Global admin, Viva Glint admin*
+The following procedure requires these roles: 
+- **Microsoft 365 Global Administrator** to consent to share Viva Insights data with Viva Glint. 
+- **Viva Glint Administrator** to set up the integration and add the relevant metrics from Viva Insights.
 
 >[!IMPORTANT]
 >This feature is currently available to public preview customers only. Features described here are subject to change.
 >
->Also, please be advised of a current limitation in the Glint admin UI: *All* Viva Insights purchased license counts are showing instead of on the applied/deployed license counts. Expect this bug to be fixed by the end of September 2024.
-
-Glint can import behavioral data from Microsoft Viva Insights to supplement their Microsoft Viva Glint survey data for a better understanding of how your organization’s way of working impacts the employee experience.
+>Also, please be advised of a current limitation in the Glint admin UI: *All* Viva Insights purchased license counts are showing instead of only the applied/deployed license counts.
+>
+Glint customers can import behavioral data from Microsoft Viva Insights to supplement their Viva Glint survey data for a better understanding of how your organization’s way of working impacts the employee experience.
 
 -	Explore employee sentiment relative to behaviors
 -	Filter employee sentiment by ways of working
@@ -44,13 +46,13 @@ This article discusses how to import survey results – employee-level survey re
 
 ## Integration workflow 
 
-1. The **Microsoft 365 Global admin** consents to share Viva Insights data with Viva Glint. [Learn more about how to start the process](/viva/insights/advanced/admin/export-insights-data-glint).
+1. The **Microsoft 365 Global Administrator** consents to share Viva Insights data with Viva Glint. [Learn more about how to start the process](/viva/insights/advanced/admin/export-insights-data-glint).
 
-2. The **Viva Glint admin** sets up the integration and adds the relevant metrics from Viva Insights. [Learn more about this step](/viva/glint/setup/insights-to-glint).
+2. The **Viva Glint Administrator** sets up the integration and adds the relevant metrics from Viva Insights. [Learn more about this step](/viva/glint/setup/insights-to-glint).
 
-## To resync the data to pick up the Entra ID changes: 
+## To resync the data to pick up the Microsoft Entra ID changes: 
 
-If you see discrepancies between Glint active users and you Entra IDs in MAC, remedy the discrepancies by following the guidelines in [Prerequisites to the integration](https://go.microsoft.com/fwlink/?linkid=2280859#prerequisites-to-the-integration) section on the Viva Glint and Viva Insights integration overview page.
+If you see discrepancies between Glint active users and you Microsoft Entra IDs in MAC, remedy the discrepancies by following the guidelines in [Prerequisites to the integration](https://go.microsoft.com/fwlink/?linkid=2280859#prerequisites-to-the-integration) section on the Viva Glint and Viva Insights integration overview page.
 
 - In manage integration: delete all attributes and remove all programs. 
 - Re-add the attributes and program to re-import Viva Insights data for all survey cycles. 
@@ -63,7 +65,7 @@ On your first visit to the Viva Insights Integrations platform, accessible from 
 
 - Data sharing from Viva Insights to Viva Glint is a feature governed by the Microsoft Viva Preview Agreement. 
 -	When Insights-to-Glint data sharing is enabled, Insights advanced insights metrics is shared with Glint and subject to further processing by Glint. Glint stores a copy of the share Insights data, which can be deleted from Glint at any time.
--	By selecting the checkbox, you enable Insights-to-Glint data sharing and agree to the Microsoft viva preview Agreement.
+-	By selecting the checkbox, you enable Insights-to-Glint data sharing and agree to the Microsoft Viva Preview Agreement.
 
 ## Set up the Viva Insights integration 
 
@@ -76,7 +78,7 @@ On your first visit to the Viva Insights Integrations platform, accessible from 
 
     :::image type="content" source="../../media/glint/setup/import-insights-popup-window.png" alt-text="Screenshot of the Get Started importing Viva Insights data into Glint window.":::
 
-## 1 - Add behavioral attributes from Viva Insights
+## Add behavioral attributes from Viva Insights
 
 In Step 1 of 2, decide which behavioral attributes to import into Glint. Attributes are numerically split into four different ranges, defined by Glint. Ranges can be customized after setup. Glint will also respect Viva Insights confidentiality thresholds on Glint reports and dashboards.
 
@@ -102,11 +104,16 @@ In Step 1 of 2, decide which behavioral attributes to import into Glint. Attribu
 >[!IMPORTANT]
 > Glint respects Viva Insights confidentiality thresholds on Glint reports and dashboards.
 
-## Select Viva Insights metrics
+## Viva Insights metrics
 
 Add a Viva Insights metric as an employee attribute. Assign roles for the attribute. In this example, **after-hours collaboration hours** are chosen as the Insight metric. 
 
 :::image type="content" source="../../media/glint/setup/glintsights-add-metric.png" alt-text="Screenshot of how to add an Insight metric as an attribute.":::
+
+> [!IMPORTANT]
+> **Viva Insights only runs reports from Sunday to Sunday.  This means Glint receives Viva Insights data (also referred to as *collaboration data*) on the Sunday directly before a survey start date and the last Sunday before the survey's end date. For this reason, your data is *partial,* excluding data past the last Sunday of the survey window.
+>
+> **Example:** A survey starting On October 8, 2024, and ending on October 15, 2024, is actually pushed to Glint on October 6-October 13, 2024. Push dates are inclusive of start dates and exclusive of end dates.
 
 ### Make your metric selection from Insights
 
@@ -126,7 +133,7 @@ Add a Viva Insights metric as an employee attribute. Assign roles for the attrib
 |Meeting hours with Skip Level Manager|Number of meeting hours a person attended where their manager's manager also attended the meeting|0 to less than 0.01|0.01 to less than 0.5|0.5 to less than 1| 1 or more|Hour|
 |Internal network size|Number of people within the organization with whom a person has had a reciprocal interaction in the past four weeks|0 to less than 15|15 to less than 30|30 to less than 45|45 or more|Count|
 
-## 2 - Import data
+## Import data
 
 In the **Select Programs and Cycles** section, import data from previous cycles and set up automatic imports for future cycles. 
 
