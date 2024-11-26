@@ -9,6 +9,7 @@ ms.collection:
 - viva-insights-leader
 - highpri
 - essentials-overview
+- essentials-navigation
 ms.service: viva-insights
 search.appverid: 
 - MET150 
