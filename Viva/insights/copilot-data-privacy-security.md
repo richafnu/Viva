@@ -31,15 +31,15 @@ Microsoft uses these LLMs to match the user’s prompts to a set of metrics and 
 
 ### What data does Copilot use to generate its responses?  
 
-Copilot in Viva Insights uses already-existing data within Viva Insights and the prompts the customer asks when they use the feature. It does not collect any new data. 
+Copilot in Viva Insights uses already-existing data within Viva Insights and the prompts the customer asks when they use the feature. It doesn't collect any new data. 
 
 ### Does Copilot in Viva Insights save or store any of the data it uses? 
 
-Copilot in Viva Insights does not log any of the user’s prompts. It saves only the metadata for each API call, such as the date and time of each prompt. The meta log can only be accessed by Viva Insights developers and restricted users.
+Copilot in Viva Insights doesn't log any of the user’s prompts. It saves only the metadata for each API call, such as the date and time of each prompt. The meta log can only be accessed by Viva Insights developers and restricted users.
 
 ### How does Copilot in Viva Insights interact with Microsoft Graph and other Microsoft 365 services? 
 
-Copilot in Viva Insights does not interact in any way with any Microsoft 365 Copilot, Microsoft Graph, and other Microsoft 365 services.
+Copilot in Viva Insights doesn't interact in any way with any Microsoft 365 Copilot, Microsoft Graph, and other Microsoft 365 services.
 
 ### How does Copilot handle data residency, data subject rights, and data deletion? 
 
@@ -55,10 +55,10 @@ Copilot in Viva Insights is designed with a robust filter system in place to pro
 
 There are several high-risk use and sensitive cases that we aim to avoid:  
 
-* Sensitive use cases: Since the data & insights that Viva Insights can provide falls in a sensitive area, it’s difficult to objectively evaluate whether a particular analyst query question related to employee performance or workplace behavior patterns should be answered by Copilot or not. While we expect Copilot to answer a question like “How are employees in China collaborating?”, a query such as “Are employees in China working harder than employees in US?” might fall into the “Fairness” category. We are dedicated to addressing these complexities by blocking questions which can support making a “judgement”, while allowing questions that help users to obtain “facts.”  
+* Sensitive use cases: Since the data & insights that Viva Insights can provide falls in a sensitive area, it’s difficult to objectively evaluate whether a particular analyst query question related to employee performance or workplace behavior patterns should be answered by Copilot or not. While we expect Copilot to answer a question like “How are employees in China collaborating?”, a query such as “Are employees in China working harder than employees in US?” might fall into the “Fairness” category. We're dedicated to addressing these complexities by blocking questions which can support making a “judgment”, while allowing questions that help users to obtain “facts.”  
 
-* Privacy Concerns: If the AI feature is not adequately secured, it may pose a risk of exposing user data, including private trending themes and personal information, to unauthorized parties. Ensuring the highest level of privacy and security for our users is a top priority.  
+* Privacy Concerns: If the AI feature isn't adequately secured, it may pose a risk of exposing user data, including private trending themes and personal information, to unauthorized parties. Ensuring the highest level of privacy and security for our users is a top priority.  
 
-* Bias: The fairness and impartiality of AI systems like Copilot in Viva Insights depend on the quality and bias of the data they are trained on. If the training data contains biases, the AI feature could unintentionally generate content that reflects those biases, potentially causing harm or offense. We are dedicated to addressing bias in AI systems and working towards providing more equitable and inclusive outputs.  
+* Bias: The fairness and impartiality of AI systems like Copilot in Viva Insights depend on the quality and bias of the data they're trained on. If the training data contains biases, the AI feature could unintentionally generate content that reflects those biases, potentially causing harm or offense. We're dedicated to addressing bias in AI systems and working towards providing more equitable and inclusive outputs.  
 
-By actively addressing these high-risk scenarios and working collaboratively with our user community, we are committed to delivering a safer, more responsible, and ethically sound AI experience with Copilot in Viva Insights.  
+By actively addressing these high-risk scenarios and working collaboratively with our user community, we're committed to delivering a safer, more responsible, and ethically sound AI experience with Copilot in Viva Insights.  
