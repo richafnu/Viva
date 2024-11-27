@@ -1,6 +1,6 @@
 ---
 ms.date: 12/02/2024
-title: Data, Privacy, and Security for Microsoft 365 Copilot in Viva Insights
+title: Data, privacy, and security for Microsoft 365 Copilot in Viva Insights
 description: Learn about the data used by Copilot in Viva Insights and how it's kept private and secure.
 author: zachminers
 ms.author: v-zachminers
@@ -17,7 +17,7 @@ manager: abelubetk
 audience: Admin
 ---
 
-# Data, Privacy, and Security for Microsoft 365 Copilot in Viva Insights
+# Data, privacy, and security for Microsoft 365 Copilot in Viva Insights
 
 Analysts can take advantage of the many features in Microsoft 365 Copilot for Viva Insights including suggestions for metrics, filters, and attributes to use in queries. 
 
