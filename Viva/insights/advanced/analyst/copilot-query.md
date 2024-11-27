@@ -44,7 +44,7 @@ If you’re not sure what type of query to run, Copilot can suggest a predefined
 
 4. Or, if the suggestions don’t seem like a good fit, type the question you’re looking to answer in natural language, such as, "How does Copilot usage compare across organizations?" Copilot will then suggest a template or query.
 
-    :::image type="content" source="../images/copilot-analyst-create-analysis-02.png" alt-text="Screenshot that shows where to find specific queries suggested by Copilot.":::
+    :::image type="content" source="../images/copilot-analyst-create-analysis-02.png" alt-text="Screenshot that shows how Copilot can suggest queries based on your question.":::
 
 5. If the suggestion looks like a good fit, select **View report** or **Set up analysis**. Or, type a new question, and Copilot will suggest something different. To view the report's analysis immediately, select **View report**.
 
