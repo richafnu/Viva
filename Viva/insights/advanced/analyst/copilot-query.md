@@ -100,4 +100,4 @@ This feature is on by default. If you don't want users to access Copilot, you 
 
 ### Related topics
 
-* Data, Privacy, and Security for Microsoft 365 Copilot in Viva Insights
+* [Data, Privacy, and Security for Microsoft 365 Copilot in Viva Insights](..//..//copilot-data-privacy-security.md)
