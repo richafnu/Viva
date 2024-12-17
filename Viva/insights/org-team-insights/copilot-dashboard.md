@@ -610,9 +610,11 @@ In this scenario, your Entra data is not reliable, or it does not accurately ref
 ### Metrics
 
 **Q1. Which apps are the Business Chat (work) metrics based on?**
+
 Business Chat (work) metrics are based on use of Business Chat (work), formerly called Copilot Chat (work), across all apps where the capability is available including Teams, Windows, Microsoft365.com, and more. Business Chat (work) metrics do *not* include usage of [Microsoft Copilot with enterprise data protection](/copilot/manage), which is made available to users with an eligible Microsoft 365 license and does not require a Copilot for Microsoft 365 license. In certain product environments such as Copilot in the Edge browser, users enabled for Copilot for Microsoft 365 may see a “work/web” toggle. The “work” toggle is a feature of Business Chat (work) usage and thus usage of this feature is accounted for in the Copilot Dashboard. The "web” toggle, however, is a feature of Copilot with enterprise data protection and use of this feature is not yet accounted for in the Copilot Dashboard.
 
 **Q2. Within the Copilot metrics tab of the comparison between groups table, why does the % difference not show what I'm expecting to see?**  
+
 The values under the first two columns (Group 1 & Group 2) are calculated using the sum. To compare groups of different sizes, the percentage difference is calculated using the per user per month average.
 
 **Q3. Why don't the metrics match on the readiness and adoption pages?**
