@@ -1,5 +1,5 @@
 ---
-ms.date: 12/04/2024
+ms.date: 12/17/2024
 title: Viva Goals retirement FAQ
 ms.reviewer: 
 ms.author: daisyfeller
@@ -31,7 +31,7 @@ We remain committed to Viva and will continue to invest and prioritize developme
 
 ## Will Viva Goals be replaced with another solution?
 
-Since Microsoft won’t be replacing Viva Goals or integrating its features into other products, we’ve put together an OKR software comparison of third-party tools and a list of Microsoft partners who can help you through this transition. To get a copy of this document, please contact GoalsDecom@microsoft.com. Existing customers will have until December 31, 2025, or until their licenses expire, to transition to an alternative solution.
+Microsoft will not be replacing Viva Goals with another solution or integrating its features into other products. We encourage customers to begin exploring third-party OKR tools. For a list of partners who can help you select a new OKR solution and support your transition, please contact your Microsoft representative or email GoalsDecom@microsoft.com for more information.
 
 ## How long will users have access to Viva Goals?
 
