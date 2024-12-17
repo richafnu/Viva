@@ -136,11 +136,17 @@ Viva Insights provides the Microsoft 365 administrator and Insights Administrato
 
 You retain full control over what data is used and how it's used within Viva Insights. Viva Insights uses Microsoft 365 email and calendar metadata and external data defined by your organization (usually exported from an HR system) to compute how much time groups within your organization spend in meetings, emails, calls, and chats, and with whom. 
 
-Viva Insights processes data sourced with organizational data from your own HR system and collaboration data from Microsoft 365 to provide analysts with a unified pool of data on which to perform analyses. 
+Viva Insights processes data sourced with organizational data from your own HR system and collaboration data from Microsoft 365 to provide analysts with a unified pool of data on which to perform analyses.
+
+### Data from Microsoft 365 Copilot
+
+Viva Insights processes usage signals from licensed Microsoft 365 Copilot users. [Learn more about the Copilot metrics available in Viva Insights](..//..//advanced/reference/metrics.md#microsoft-365-copilot-metrics).
 
 ### Data processed from Microsoft 365 
 
-Viva Insights uses collaboration data from Microsoft 365. By assigning or not assigning a Viva Insights license to a person, the Microsoft 365 administrator controls whether that person's collaboration data is processed by Viva Insights. 
+Viva Insights uses collaboration data from Microsoft 365. By assigning or not assigning a Viva Insights license to a person, the Microsoft 365 administrator controls whether that person's collaboration data is processed by Viva Insights.
+
+Additionally, users assigned the Viva Insights analyst role can choose which collaboration metrics to include in each query and can choose not to include any collaboration data.  
 
 Viva Insights uses header information from Microsoft 365 email and calendar items. This header information includes sender and recipient, date, and subject lines for email, and organizer, attendee, and duration of meetings. Viva Insights never includes attachments and content in email and calendar items.  
 
