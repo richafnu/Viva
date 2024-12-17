@@ -1,5 +1,5 @@
 ---
-ms.date: 12/04/2024
+ms.date: 12/17/2024
 title: Viva Goals retirement FAQ
 ms.reviewer: 
 ms.author: daisyfeller
@@ -23,7 +23,7 @@ description: "Frequently asked questions about the retirement of Microsoft Viva 
 
 ## Why is Viva Goals being deprecated?
 
-Two years ago, we launched Viva Goals with a mission of empowering every team and organization to achieve more through focused goal management using the OKR methodology. While some customers have recognized value, overall adoption and usage of Viva Goals across the Viva Suite customer base has not grown. Microsoft has been unable to reach the scale and impact needed to continue further investment and therefore has decided to deprecate the product over the next 13 months with retirement of Viva Goals on December 31, 2025.
+Two years ago, we launched Viva Goals with a mission of empowering every team and organization to achieve more through focused goal management using the OKR methodology. While some customers have recognized value, overall adoption and usage of Viva Goals across the Viva Suite customer base hasn't grown. Microsoft has been unable to reach the scale and impact needed to continue further investment and therefore has decided to deprecate the product over the next 13 months with retirement of Viva Goals on December 31, 2025.
 
 ## What does this mean for the rest of the Viva suite?
 
@@ -31,7 +31,7 @@ We remain committed to Viva and will continue to invest and prioritize developme
 
 ## Will Viva Goals be replaced with another solution?
 
-Since Microsoft won’t be replacing Viva Goals or integrating its features into other products, we’ve put together an OKR software comparison of third-party tools and a list of Microsoft partners who can help you through this transition. To get a copy of this document, please contact GoalsDecom@microsoft.com. Existing customers will have until December 31, 2025, or until their licenses expire, to transition to an alternative solution.
+Microsoft will not be replacing Viva Goals with another solution or integrating its features into other products. We encourage customers to begin exploring third-party OKR tools. For a list of partners who can help you select a new OKR solution and support your transition, contact your Microsoft representative or email GoalsDecom@microsoft.com for more information.
 
 ## How long will users have access to Viva Goals?
 
