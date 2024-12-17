@@ -418,11 +418,21 @@ This analysis helps you compare collaboration activities between employees who u
 
 Located within the Impact page, this section provides information that helps you assess Copilot impact from the perspective of users' subjective experiences. In the main table on this page you’ll see a list of Microsoft’s recommended Copilot survey questions along with the results from your own organization’s latest survey (if an admin chooses to upload results for visualization here) and Microsoft's own benchmark results from a [study of early Copilot users](https://www.microsoft.com/worklab/work-trend-index/copilots-earliest-users-teach-us-about-generative-ai-at-work).
 
-**Sentiment results by group**
+#### Sentiment results by question
+
+With a Viva Insights subscription, this section of the dashboard provides the results of employee-level surveys performed at your company. These results can come from up to three different sources: Viva Glint, Viva Pulse, or a .csv file your Viva Insights admin uploads using the steps below. 
+
+If there is more than one source, a **Survey** toggle at the top left lets you choose which source’s results to display. To start a new Viva Pulse survey directly from the dashboard, at the top right, select **Start new Pulse survey**. Or, [learn how to set up a Pulse survey within the Pulse app](/viva/pulse/setup-admin-access/set-up-in-app-pulse-experience). 
+
+[Learn more about how to set up a Copilot Impact Survey in Viva Glint](/viva/glint/setup/copilot-impact-template). 
+
+:::image type="content" source="images/copilot-dashboard-pulse-survey.png" alt-text="Screenshot that shows how to launch a Pulse survey from the Copilot Dashboard.":::
+
+#### Sentiment results by group
 
 With a Viva Insights subscription, this section of the dashboard also lets you explore the breakdown of sentiment across organizational attributes. You can use custom filters to isolate the results for specific parts of the organization or for specific employee groups. The results are shown in a “heat map.” 
 
-:::image type="content" source="images/copilot-dash-sentiment-ga.png" alt-text="Screenshot that shows the Sentiment heat map." lightbox="images/copilot-dash-sentiment-ga.png":::
+:::image type="content" source="images/copilot-dashboard-sentiment-heatmap.png" alt-text="Screenshot that shows the Sentiment heat map.":::
 
 #### Upload group-level survey results with the advanced insights app
 
