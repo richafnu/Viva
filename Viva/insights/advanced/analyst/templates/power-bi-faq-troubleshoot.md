@@ -104,6 +104,9 @@ See [Power BI documentation](/power-bi) for details on how to use Power BI.
 
 Here are a few errors you might encounter, and what might be causing them.
 
+>[!Important]
+>Certain reports use multiple data sources. If you see multiple entries for different data sources in the Data source settings, you might need to repeat the resolution steps for each data source.
+
 ### The import VivaInsight.Data matches no exports. Did you miss a module reference?
 
 If you get this error, you aren't using the June 2022 version of Power BI Desktop or newer:
