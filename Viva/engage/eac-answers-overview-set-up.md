@@ -31,7 +31,7 @@ Answers helps users get their questions answered, connect with subject matter ex
 
 The Viva Engage Knowledge service plan is part of the Microsoft Viva Suite license, and of the Viva Employee Communications and Communities licenses. Users with the Viva Engage Knowledge service plan have access to the Answers experience. These users can ask and answer questions in communities and on the **Answers** tab, find similar questions, and receive rewards and recognition.  
 
-Users without the Viva Engage Knowledge service plan don't have the full Answers experience. Those users can ask questions, and view, vote, and respond to questions from communities in which they’re a member. Any time their name is mentioned in Answers, they receive notifications to those questions and can visit those threads.
+Users without the Viva Engage Knowledge service plan don't have the full Answers experience. Those users can ask questions, and view, vote, and respond to questions from communities in which they’re a member. Anytime their name is mentioned in Answers, they receive notifications to those questions and can visit those threads.
 
 For more information about permissions, see [Manage admin roles in Viva Engage](eac-key-admin-roles-permissions.md).
 
@@ -61,14 +61,14 @@ By default, the Answers experience is enabled for networks that meet the followi
 
 ## Compliance and Answers data
 
-Unless you’ve set a unique policy for Answers, a group in Microsoft 365 backs up Answers data. This group follows your organization’s default data [retention policies](/microsoft-365/compliance/retention-policies-yammer). The Answers backing group autoprovisions when the first question is posted or a question attachment is created. At the time of creation, all Microsoft 365 Global admins are assigned as owners of the backing group, which is called *Group for Answers in Viva Engage – DO NOT DELETE.*
+By default, a group in Microsoft 365 backs up your Answers data. This group follows your organization’s default data [retention policies](/microsoft-365/compliance/retention-policies-yammer). The Answers backing group autoprovisions when the first question is posted or a question attachment is created. At the time of creation, all Microsoft 365 Global admins are assigned as owners of the backing group, which is called *Group for Answers in Viva Engage – DO NOT DELETE.*
 
-Owners of the backing group should ensure that Answers remains compliant with network policies and doesn't get accidentally deleted. Admins can export data if you want to delete the backing group in Microsoft 365. If the backing group is deleted, Answers won't be functional.
+Owners of the backing group should ensure that Answers remains compliant with network policies and doesn't get accidentally deleted. Admins can export data if you want to delete the backing group in Microsoft 365. Deletion of the backing group stops Answers from working.
 
 >[!NOTE]
-> A soft delete is recoverable within 30 days. A hard delete results in *permanent* data loss.
+> You can recover a soft delete within 30 days. A hard delete results in *permanent* data loss.
 
-Answers data is available in [eDiscovery](/viva/engage/manage-security-and-compliance/overview-of-ediscovery), so you can identify and deliver electronic information that can be used as evidence in legal cases.
+You can find Answers data in [eDiscovery](/viva/engage/manage-security-and-compliance/overview-of-ediscovery), so you can identify and deliver electronic information that can be used as evidence in legal cases.
 
 #### General Data Protection Regulation (GDPR)
 
@@ -79,7 +79,7 @@ For a GDPR user data export, verified Viva Engage admins and Engage admins can f
 > [!NOTE]
 > You must be a Microsoft 365 Global admin to configure Answers and Answers-related options.
 
-By default, Answers is turned on. Optionally, you can hide Answers from view in the Viva Engage Teams app, which allows users to access Answers content only through existing links. However, they won't be able to contribute to threads or navigate the Answers experience.
+By default, Answers is turned on. Optionally, you can hide Answers from view in the Viva Engage Teams app, which allows users to access Answers content only through existing links. If you hide Answers, users can't contribute to threads or navigate the Answers experience.
 
 1. In the Viva Engage Teams app, select the ellipses button from the top right navigation bar, and select **Admin** to navigate to the Viva Engage admin center.
 
@@ -98,7 +98,7 @@ By default, Answers is turned on. Optionally, you can hide Answers from view in 
 
 ## Option: Show Viva Engage experience
 
-Answers resides within Viva Engage. Organizations that aren't ready to start using all the Viva Engage features can choose to enter a limited Answers-focused experience. Doing so hides other Viva Engage features such as storylines, communities and leadership. You can still access hidden Viva Engage content through existing links, but users can't navigate to Viva Engage features other than Answers.
+Answers resides within Viva Engage. Organizations that aren't ready to start using all the Viva Engage features can choose to enter a limited Answers-focused experience. Doing so hides other Viva Engage features such as storylines, communities, and leadership. You can still access hidden Viva Engage content through existing links, but users can't navigate to Viva Engage features other than Answers.
 
 To use this feature, the network must have two or fewer Engage communities.
 
@@ -143,7 +143,7 @@ By contributing to Answers in Viva, users can earn and collect up to five differ
    - **On** enables badges for the organization.
 
    - **User Preference** enables badges for the organization while allowing individuals to opt out. The end user can turn off badges in Viva Engage by selecting the ellipses button on the right of their **Achievements and awards** page.
-   - **Disabled** turns badges off in Answers in Viva. If you switch this control from **On** to **Disabled**, all badges earned by users are deleted and unrecoverable. Answers stops collecting user data for badges.
+   - **Disabled** turns off badges in Answers in Viva. If you switch this control from **On** to **Disabled**, all badges earned by users are deleted and unrecoverable. Answers stops collecting user data for badges.
 
    [![Screenshot shows the Viva Engage interface where users can turn off Answers badges.](/Viva/media/netnew/badges-turn-off.png)](/Viva/media/netnew/badges-turn-off.png#lightbox)
 
