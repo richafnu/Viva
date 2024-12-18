@@ -1,14 +1,11 @@
-eac-answers-overview-set-up.md
-------------------------------
-
 ---
 title: "Set up Answers in Viva"
 description: "Overview and setup of Answers in Viva, including licensing, technical requirements, and data management."
 ms.reviewer: ethli
 ms.author: donnabouldin
-author: Starshine89
+author: v-rgrace
 manager: elizapo
-ms.date: 01/17/2024
+ms.date: 12/17/2024
 audience: Admin
 f1.keywords:
 - NOCSH
