@@ -29,9 +29,9 @@ Answers helps users get their questions answered, connect with subject matter ex
 
 ## Licensing
 
-Users who are assigned the Viva Engage Knowledge service plan, which is part of the Microsoft Viva Suite and Viva Employee Communications and Communities licenses, and have access to the Answers experience. These users can ask and answer questions in communities and on the Answers tab, find similar questions, and receive rewards and recognition.  
+The Viva Engage Knowledge service plan is part of the Microsoft Viva Suite license, and of the Viva Employee Communications and Communities licenses. Users with the Viva Engage Knowledge service plan have access to the Answers experience. These users can ask and answer questions in communities and on the **Answers** tab, find similar questions, and receive rewards and recognition.  
 
-Users who aren't assigned the Viva Engage Knowledge service plan won't have the full Answers experience, but can ask questions and view, vote, and respond to questions others have written from the communities in which they’re a member. Anytime their name is mentioned in Answers, they receive notifications to those questions and can visit those threads.
+Users without the Viva Engage Knowledge service plan don't have the full Answers experience. Those users can ask questions, and view, vote, and respond to questions from communities in which they’re a member. Any time their name is mentioned in Answers, they receive notifications to those questions and can visit those threads.
 
 For more information about permissions, see [Manage admin roles in Viva Engage](eac-key-admin-roles-permissions.md).
 
@@ -49,18 +49,19 @@ By default, the Answers experience is enabled for networks that meet the followi
 
 3. **Topics migrated to Viva Engage**
 
-Answers enablement depends on topics being migrated to a supported version of topics in Viva Engage. We are in the middle of a transition as Viva Topics will be retired in 2025. As part of that change, Viva Engage will no longer use Viva Topics or Lightweight Topics. Migrations are planned to complete in Spring 2025. [Learn more about the Viva Topics retirement]().
+   Answers enablement depends on topics migrating to a supported version of topics in Viva Engage. We are in the middle of a transition as Viva Topics will be retired in 2025. As part of that change, Viva Engage will no longer use Viva Topics or Lightweight Topics. Migrations are planned to complete in Spring 2025. [Learn more about the Viva Topics retirement]().
 
 4. **Viva Engage is enabled to use Viva Topics**
 
-   Viva Topics will be retired in 2025. As part of that change, Viva Engage will return to a simplified topics mode. During the transition, we will pause proactive migrations to use Viva Topics, but continue migrations that enable Viva Engage networks to use Answers by request.
-  Customers aren't required to have a paid Topics license to migrate their topics or to use Answers. Learn more about [the migration](/microsoft-365/topics/topic-experiences-viva-engage), [the Topics experience](https://support.microsoft.com/topic/viva-topics-experience-in-yammer-8e85bc0d-086e-49a2-974b-39f60129257d), and [Viva Topics retirement](https://learn.microsoft.com/microsoft-365/topics/changes-coming-to-topics?view=o365-worldwide&amp&preserve-view=true;WT.mc_id=M365-MVP-9501).
+   Viva Topics will be retired in 2025. As part of that change, Viva Engage will return to a simplified topics mode. During the transition, proactive migrations to use Viva Topics will pause. Migrations that enable Viva Engage networks to use Answers by request will continue.
+
+   Customers aren't required to have a paid Topics license to migrate their topics or to use Answers. Learn more about [the migration](/microsoft-365/topics/topic-experiences-viva-engage), [the Topics experience](https://support.microsoft.com/topic/viva-topics-experience-in-yammer-8e85bc0d-086e-49a2-974b-39f60129257d), and [Viva Topics retirement](https://learn.microsoft.com/microsoft-365/topics/changes-coming-to-topics?view=o365-worldwide&amp&preserve-view=true;WT.mc_id=M365-MVP-9501).
    
-   Customers awaiting topics migration can request to get Answers enablement prioritized, which may include Native Mode support or topics migration. Contact your customer account manager or Microsoft Viva Engage support to file a support ticket.
+   Customers awaiting topics migration can request priority Answers enablement, which may include Native Mode support or topics migration. Contact your customer account manager or Microsoft Viva Engage support to file a support ticket.
 
 ## Compliance and Answers data
 
-Unless you’ve set a unique policy for Answers, a group in Microsoft 365 backs up Answers data. This group follows your organization’s default data [retention policies](/microsoft-365/compliance/retention-policies-yammer). The Answers backing group is autoprovisioned when the first question is posted or a question attachment is created. At the time of creation, all Microsoft 365 Global admins are assigned as owners of the backing group, which is called *Group for Answers in Viva Engage – DO NOT DELETE.*
+Unless you’ve set a unique policy for Answers, a group in Microsoft 365 backs up Answers data. This group follows your organization’s default data [retention policies](/microsoft-365/compliance/retention-policies-yammer). The Answers backing group autoprovisions when the first question is posted or a question attachment is created. At the time of creation, all Microsoft 365 Global admins are assigned as owners of the backing group, which is called *Group for Answers in Viva Engage – DO NOT DELETE.*
 
 Owners of the backing group should ensure that Answers remains compliant with network policies and doesn't get accidentally deleted. Admins can export data if you want to delete the backing group in Microsoft 365. If the backing group is deleted, Answers won't be functional.
 
@@ -97,9 +98,9 @@ By default, Answers is turned on. Optionally, you can hide Answers from view in 
 
 ## Option: Show Viva Engage experience
 
-Answers resides within Viva Engage. Organizations that aren't ready to begin using all the Viva Engage features can choose to enter an Answers-focused experience and hide other Viva Engage features such as storylines, communities and leadership. Hidden Viva Engage content can still be accessed through existing links, but users can't navigate to Viva Engage features other than Answers.
+Answers resides within Viva Engage. Organizations that aren't ready to start using all the Viva Engage features can choose to enter a limited Answers-focused experience. Doing so hides other Viva Engage features such as storylines, communities and leadership. You can still access hidden Viva Engage content through existing links, but users can't navigate to Viva Engage features other than Answers.
 
-For this feature to be available, the network must have two or fewer Engage communities.
+To use this feature, the network must have two or fewer Engage communities.
 
 1. In the Viva Engage Teams app, select the ellipses button from the top right navigation bar, and select **Admin** to navigate to the Viva Engage admin center.
 
@@ -115,7 +116,7 @@ This option is unavailable if Answers if turned off, or if the tenant has more t
 
 ## Option: Enable AI-suggested topics
 
-Users assigned the Viva Engage Knowledge Service Plan have AI-suggested topics in Answers. When a user posts a question on Answers, generative AI returns up to three relevant topics for the user to include with their post.
+Users with the Viva Engage Knowledge Service Plan have AI-suggested topics in Answers. When a user posts a question on Answers, generative AI returns up to three relevant topics for the user to include with their post.
 
 1. In the Viva Engage Teams app, select the ellipses button from the top right navigation bar, and select **Admin** to navigate to the Viva Engage admin center.
 
