@@ -24,7 +24,7 @@ search.appverid:
 Administration of Answers requires either an Engage admin or Answers admin role.
 
 >[!NOTE]
->The Microsoft 365 Global administrator can designate an Answers admin by [adding a Knowledge manager in Microsoft Entra ID](/azure/active-directory/fundamentals/active-directory-users-assign-role-azure-portal?context=%2Fazure%2Factive-directory%2Froles%2Fcontext%2Fugr-context). Knowledge managers are Answers admins and have elevated permissions over end users. For more information, see [Manage admin roles in Viva Engage](eac-key-admin-roles-permissions).
+>The Microsoft 365 Global administrator can designate an Answers admin by [adding a Knowledge manager in Microsoft Entra ID](/azure/active-directory/fundamentals/active-directory-users-assign-role-azure-portal?context=%2Fazure%2Factive-directory%2Froles%2Fcontext%2Fugr-context). Knowledge managers are Answers admins and have elevated permissions over end users. For more information, see [Manage admin roles in Viva Engage](/Viva/engage/eac-key-admin-roles-permissions).
 
 ## Update information panel
 
@@ -58,7 +58,7 @@ The Answers admin or Engage admin can use the information panel to provide guida
 Use topics to organize and curate Engage knowledge. Answers topics also help you stay on top of new questions about topics you follow or subscribe to. [Learn more about using topics in Viva Engage](https://support.microsoft.com/office/use-topics-and-hashtags-in-viva-engage-98c0a0bb-aad0-45d3-88f1-4f6d12bb1772). 
 
 >[!NOTE]
->Viva Topics will be retired in 2025. As part of that change, Viva Engage returns to a simplified topics experience and won't use Viva Topics or Lightweight Topics. During this transition, topics in Engage will be migrated to see the latest topics experience with the enablement of Answers and deletion of topics. Migrations are planned to complete in Spring 2025. Learn more about [Setting up Answers](eac-answers-overview-set-up#technical-requirements), and the [Viva Topics retirement](/microsoft-365/topics/changes-coming-to-topics?view=o365-worldwide&amp&preserve-view=true;WT.mc_id=M365-MVP-9501). 
+>Viva Topics will be retired in 2025. As part of that change, Viva Engage returns to a simplified topics experience and won't use Viva Topics or Lightweight Topics. During this transition, topics in Engage will be migrated to see the latest topics experience with the enablement of Answers and deletion of topics. Migrations are planned to complete in Spring 2025. Learn more about [Setting up Answers](/Viva/engage/eac-answers-overview-set-up#technical-requirements), and the [Viva Topics retirement](/microsoft-365/topics/changes-coming-to-topics?view=o365-worldwide&amp&preserve-view=true;WT.mc_id=M365-MVP-9501). 
 
 ## Bulk Remove topics
 
