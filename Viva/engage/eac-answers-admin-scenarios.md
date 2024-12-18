@@ -30,7 +30,7 @@ Administration of Answers requires either an Engage admin or Answers admin role.
 
 ### Provide guidance using the information panel
 
-The Answers admin or Engage admin can use the information panel to provide guidance to employees on how to use Answers within the organization. The information panel is only visible to administrators in its default state. After an admin saves and publishes the information panel, all other employees with access to Answers can see the information panel.
+The Answers admin or Engage admin can use the information panel to provide guidance to employees on how to use Answers within the organization. By default, the information panel is only visible to administrators. After an admin saves and publishes the information panel, all other employees with access to Answers can see the information panel.
 
 **Admin view**<br/>
 :::image type="content" source="../media/engage/admin/ans-info-pan-admin1.png" lightbox="../media/engage/admin/ans-info-pan-admin1.png" alt-text="Screenshot of the information panel with guidelines option.":::
@@ -58,14 +58,14 @@ The Answers admin or Engage admin can use the information panel to provide guida
 Use topics to organize and curate Engage knowledge. Answers topics also help you stay on top of new questions about topics you follow or subscribe to. [Learn more about using topics in Viva Engage](https://support.microsoft.com/office/use-topics-and-hashtags-in-viva-engage-98c0a0bb-aad0-45d3-88f1-4f6d12bb1772). 
 
 >[!NOTE]
->Viva Topics will be retired in 2025. As part of that change, Viva Engage will return to a simplified topics experience and will no longer use Viva Topics or Lightweight Topics. During this transition topics used within Engage will be migrated to see the latest topics experience that includes the enablement of Answers and deletion of topics. Migrations are planned to complete in Spring 2025. Learn more about [Setting up Answers](/eac-answers-overview-set-up#technical-requirements), and the [Viva Topics retirement](https://learn.microsoft.com/microsoft-365/topics/changes-coming-to-topics?view=o365-worldwide&amp&preserve-view=true;WT.mc_id=M365-MVP-9501). 
+>Viva Topics will be retired in 2025. As part of that change, Viva Engage returns to a simplified topics experience and won't use Viva Topics or Lightweight Topics. During this transition, topics in Engage will be migrated to see the latest topics experience with the enablement of Answers and deletion of topics. Migrations are planned to complete in Spring 2025. Learn more about [Setting up Answers](/eac-answers-overview-set-up#technical-requirements), and the [Viva Topics retirement](https://learn.microsoft.com/microsoft-365/topics/changes-coming-to-topics?view=o365-worldwide&amp&preserve-view=true;WT.mc_id=M365-MVP-9501). 
 
 ## Bulk Remove topics
 
 To remove a topic or multiple topics at once, applicable admins can:
 
 1. Go to the Discover more topics page in Answers. 
-2. Either search by topic name or filter by “All” to browse topics.  
+2. Search by topic name, or filter by “All” to browse topics.  
 3. Select the ellipsis icon on a topic to show edit and remove topics. 
 4. Use the check box to select multiple topics to delete. 
 5. When you remove the topic, the topic and all applications of the topic are removed. This action cannot be undone.
