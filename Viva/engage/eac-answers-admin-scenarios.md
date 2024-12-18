@@ -65,10 +65,10 @@ Use topics to organize and curate Engage knowledge. Answers topics also help you
 To remove a topic or multiple topics at once, applicable admins can:
 
 1. Go to the Discover more topics page in Answers. 
-2. Search by topic name, or filter by “All” to browse topics.  
+2. Search by topic name, or filter by "All" to browse topics.  
 3. Select the ellipsis icon on a topic to show edit and remove topics. 
 4. Use the check box to select multiple topics to delete. 
-5. When you remove the topic, the topic and all applications of the topic are removed. This action cannot be undone.
+5. When you remove the topic, the topic and all applications of the topic are removed. This action can't be undone.
 
 ## View Global Answers analytics
 
@@ -76,7 +76,7 @@ As an Answers admin, you can access Global Answers analytics:
 1. Select the analytics icon from the top navigation bar of Viva Engage.
 1. Go to the **Global Answers analytics** tab. The analytics dashboard provides an overview and relevant insights about knowledge sharing activity across Answers in Viva.
 
-For more details about how to manage analytics in the [Viva Engage admin center](/Viva/engage/eac-overview), see [View and manage analytics in Viva Engage](/Viva/engage/analytics).
+For more information about how to manage analytics in the [Viva Engage admin center](/Viva/engage/eac-overview), see [View and manage analytics in Viva Engage](/Viva/engage/analytics).
 
 :::image type="content" alt-text="Screenshot of the Global Answers analytics dashboard in Viva Engage." source="/viva/media/engage/admin/global-answers-analytics.png" lightbox="/viva/media/engage/admin/global-answers-analytics.png":::
 
