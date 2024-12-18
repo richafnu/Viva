@@ -55,15 +55,15 @@ Power BI templates are a great way to begin your journey with Viva Insights. Aft
 
 ## FAQ
 
-### Q1 Who can create the report in Power BI?
+### Q1. Who can create the report in Power BI?
 
 You need to be assigned the role of **Insights Analyst** in the advanced insights app to create the report. You also need to have the June 2022 version or newer of Power BI Desktop version installed. [Get Power BI](https://powerbi.microsoft.com/en-us/desktop/).
 
-### Q2 Can I share the underlying report dataset with others in my organization?
+### Q2. Can I share the underlying report dataset with others in my organization?
 
 To maintain data privacy, only employees assigned the role of **Insights Analyst** in the advanced insights app should have access to the underlying dataset in the Power BI report.
 
-### Q3 How frequently is data refreshed in the report?
+### Q3. How frequently is data refreshed in the report?
 
 If you selected the auto-refresh option for your Viva Insights query, your query automatically runs and computes a new result every time Viva Insights gets updated collaboration data for licensed people. 
 
@@ -72,7 +72,7 @@ However, the new results aren't automatically refreshed in Power BI. If you're w
 >[!Important]
 >You need to manually adjust the **Selected time frame** setting in the report's **Settings** page to view the most recently processed data.
 
-### Q4 What languages are the reports available in?
+### Q4. What languages are the reports available in?
 
 Power BI report templates are available in these languages: 
 
@@ -96,7 +96,7 @@ However, there are a few template elements that aren't localized:
 * Column names, including metric names. When you set up the query for your Power BI report, the advanced insights app displays metric names based on your location settings. However, when query results load into the Power BI template, metric names are translated back into English.
 * Currency symbols. Currency only uses the “$” symbol.
 
-### Q5 How do I use Power BI?
+### Q5. How do I use Power BI?
 
 See [Power BI documentation](/power-bi) for details on how to use Power BI.
 
