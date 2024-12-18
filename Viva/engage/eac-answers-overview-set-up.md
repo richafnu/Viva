@@ -49,7 +49,7 @@ By default, the Answers experience is enabled for networks that meet the followi
 
 3. **Topics migrated to Viva Engage**
 
-   Answers enablement depends on topics migrating to a supported version of topics in Viva Engage. We are in the middle of a transition as Viva Topics will be retired in 2025. As part of that change, Viva Engage will no longer use Viva Topics or Lightweight Topics. Migrations are planned to complete in Spring 2025. [Learn more about the Viva Topics retirement]().
+   Answers enablement depends on topics migrating to a supported version of topics in Viva Engage. We are in the middle of a transition as Viva Topics will be retired in 2025. As part of that change, Viva Engage will no longer use Viva Topics or Lightweight Topics. Migrations are planned to complete in Spring 2025. [Learn more about the Viva Topics retirement](/microsoft-365/topics/changes-coming-to-topics?view=o365-worldwide&amp&preserve-view=true;WT.mc_id=M365-MVP-9501).
 
 4. **Viva Engage is enabled to use Viva Topics**
 
