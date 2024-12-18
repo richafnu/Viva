@@ -420,7 +420,7 @@ Located within the Impact page, this section provides information that helps you
 
 #### Sentiment results by question
 
-With a Viva Insights subscription, this section of the dashboard provides the results of employee-level surveys performed at your company. These results can come from up to three different sources: Viva Glint, Viva Pulse, or a .csv file your Viva Insights admin uploads using the steps below. 
+This section of the dashboard provides the results of employee-level surveys performed at your company. These results can come from up to three different sources: Viva Glint, Viva Pulse, or a .csv file your Viva Insights admin uploads using the steps below. 
 
 If there is more than one source, a **Survey** toggle at the top left lets you choose which source’s results to display. To start a new Viva Pulse survey directly from the dashboard, at the top right, select **Start new Pulse survey**. Or, [learn how to set up a Pulse survey within the Pulse app](/viva/pulse/setup-admin-access/set-up-in-app-pulse-experience). 
 
