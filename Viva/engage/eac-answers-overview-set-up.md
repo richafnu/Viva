@@ -1,3 +1,6 @@
+eac-answers-overview-set-up.md
+------------------------------
+
 ---
 title: "Set up Answers in Viva"
 description: "Overview and setup of Answers in Viva, including licensing, technical requirements, and data management."
@@ -29,11 +32,11 @@ Answers helps users get their questions answered, connect with subject matter ex
 
 ## Licensing
 
-Users who are assigned the Viva Engage Knowledge service plan, which is part of the Microsoft Viva Suite and Viva Employee Communications and Communities licenses, have access to the Answers experience in the Viva Engage Teams app. These users can ask and answer questions in communities and on the Answers tab, find similar questions, and receive rewards and recognition.  
+Users who are assigned the Viva Engage Knowledge service plan, which is part of the Microsoft Viva Suite and Viva Employee Communications and Communities licenses, and have access to the Answers experience. These users can ask and answer questions in communities and on the Answers tab, find similar questions, and receive rewards and recognition.  
 
 Users who aren't assigned the Viva Engage Knowledge service plan won't have the full Answers experience, but can ask questions and view, vote, and respond to questions others have written from the communities in which they’re a member. Anytime their name is mentioned in Answers, they receive notifications to those questions and can visit those threads.
 
-For more information about permissions, see [Administrator scenarios for Answers in Viva Engage](eac-answers-admin-scenarios.md).
+For more information about permissions, see [Manage admin roles in Viva Engage](eac-key-admin-roles-permissions.md).
 
 ## Technical requirements
 
@@ -43,16 +46,20 @@ By default, the Answers experience is enabled for networks that meet the followi
 
    Viva Engage is enabled for the organization and users have access to Viva Engage services. For the best Answers experience, we recommend that all organizations [install the Viva Engage app in Microsoft Teams](/viva/engage/setup#installing-viva-engage). 
 
-1. **Viva Engage network is in Native Mode**
+2. **Viva Engage network is in Native Mode**
 
    [Native Mode](overview-native-mode.md) is a state of a Viva Engage network where all users are in Microsoft Entra ID. All communities are Microsoft 365 groups and all files are stored in SharePoint Online. This setup ensures that the service can appropriately apply topic permissions and management. For details, see the [guide to migrate](native-mode-guide.md) the network to Native Mode.
 
-2. **Viva Engage is enabled to use Viva Topics**
+3. **Topics migrated to Viva Engage**
+
+Answers enablement depends on topics being migrated to a supported version of topics in Viva Engage. We are in the middle of a transition as Viva Topics will be retired in 2025. As part of that change, Viva Engage will no longer use Viva Topics or Lightweight Topics. Migrations are planned to complete in Spring 2025. [Learn more about the Viva Topics retirement]().
+
+4. **Viva Engage is enabled to use Viva Topics**
 
    Viva Topics will be retired in 2025. As part of that change, Viva Engage will return to a simplified topics mode. During the transition, we will pause proactive migrations to use Viva Topics, but continue migrations that enable Viva Engage networks to use Answers by request.
-  Customers aren't required to have a paid Topics license to migrate their topics or to use Answers. Learn more about [the migration](/microsoft-365/topics/topic-experiences-viva-engage), [the Topics experience](https://support.microsoft.com/topic/viva-topics-experience-in-yammer-8e85bc0d-086e-49a2-974b-39f60129257d), and the [Topics retirement](/microsoft-365/topics/changes-coming-to-topics?view=o365-worldwide).
+  Customers aren't required to have a paid Topics license to migrate their topics or to use Answers. Learn more about [the migration](/microsoft-365/topics/topic-experiences-viva-engage), [the Topics experience](https://support.microsoft.com/topic/viva-topics-experience-in-yammer-8e85bc0d-086e-49a2-974b-39f60129257d), and [Viva Topics retirement](https://learn.microsoft.com/microsoft-365/topics/changes-coming-to-topics?view=o365-worldwide&amp&preserve-view=true;WT.mc_id=M365-MVP-9501).
    
-   Customers awaiting topics migration can request to get Answers enablement prioritized, which may include Native Mode support or Viva Engage Topics migration to Topics. Contact your customer account manager or Microsoft Viva Engage support to file a support ticket.
+   Customers awaiting topics migration can request to get Answers enablement prioritized, which may include Native Mode support or topics migration. Contact your customer account manager or Microsoft Viva Engage support to file a support ticket.
 
 ## Compliance and Answers data
 
