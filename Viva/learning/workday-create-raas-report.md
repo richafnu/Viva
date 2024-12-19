@@ -386,7 +386,7 @@ This report should be created from the primary Workday admin account to avoid an
           | Comparison Type |  Prompt the user for the value and ignore the filter condition if the value is blank |
           | Comparison Value | Ending Prompt |
         
-       1.	Go to filter and add 2 new "And" filters and input following values:
+       1.	Go to the filter and add the following values:
         
           |     And/Or    |     (    |     Field    |     Operator    |     Comparison   type    |     Comparison   value    |     )    |     Indexed    |
           |---|---|---|---|---|---|---|---|
@@ -403,7 +403,7 @@ This report should be created from the primary Workday admin account to avoid an
 
 1. Go to **Prompts**.
 
-    1. Select **Populate Undefined Prompt Defaults**. This selection adds the start and ending prompt for the Modified date, which is defined in previous step.
+    1. Select **Populate Undefined Prompt Defaults**. This selection adds the start and ending prompt for the Completion date, which is defined in previous step.
     
        :::image type="content" alt-text="Screenshot of the Workday self enrollment completion prompts." source="../media/learning/workday-self-enrollment-completion-prompts.png" lightbox="../media/learning/workday-self-enrollment-completion-prompts.png":::
 
@@ -412,13 +412,16 @@ This report should be created from the primary Workday admin account to avoid an
        - For Starting Prompt, add value StartDate in fields Label for Prompt and Label for Prompt XML Alias
        - For Ending Prompt, add value EndDate in fields Label for Prompt and Label for Prompt XML Alias
 
-1. Go to **Advanced.** Uncheck the field **Optimized for Performance**. 
+2. Go to **Advanced.** Check the field **Optimized for Performance**. 
 
-1. Save the field. Select **OK**.
+   :::image type="content" alt-text="Screenshot of the Workday advanced option self enrollment report window." source="../media/learning/workday-advanced-option-self-enrollment-report.png" lightbox="../media/learning/workday-self-enrollment-completion-prompts.png":::
 
-1. Share the report with Integrated System User (ISU) and respective security group, which you created while enabling content sync. Go to the **Share** section in the report, select “Share with specific authorized groups and users” and add group name and user name in Authorized Groups and Authorized users field. 
 
-1. Within the next 24 hours, the LRS sync calls the report API and accordingly reflects the data in Viva Learning. This depends on whether the admin has enabled LRS on Admin portal. Refer to this document for configuration steps on the Admin portal.
+3. Save the field. Select **OK**.
+
+4. Share the report with Integrated System User (ISU) and respective security group, which you created while enabling content sync. Go to the **Share** section in the report, select “Share with specific authorized groups and users” and add group name and user name in Authorized Groups and Authorized users field. 
+
+5. Within the next 24 hours, the LRS sync calls the report API and accordingly reflects the data in Viva Learning. This depends on whether the admin has enabled LRS on Admin portal. Refer to this document for configuration steps on the Admin portal.
 
 > [!NOTE]
 > Lessons aren't supported in self-enrollment completion status.
