@@ -6,7 +6,7 @@ author: AliciaWeixelman
 manager: melissabarry
 audience: admin
 f1.keywords: NOCSH
-keywords: 360 faq, frequently asked questions, commmon questions
+keywords: 360 faq, frequently asked questions, commmon questions, 360 benchmarks
 ms.collection:  
 - m365initiative-viva
 - selfserve 
@@ -14,7 +14,7 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 8/23/2024
+ms.date: 12/19/2024
 ---
 
 # Viva Glint 360 frequently asked questions 
@@ -79,8 +79,11 @@ Yes, you can delete a 360 program only if all the 360 cycles within it are in "d
 ### Can I delete a 360 cycle?
 Yes, you can delete a 360 cycle in "draft" or "scheduled" status. A 360 cycle can’t be deleted in "live" or "completed" status.
 
-## Coach FAQs
+### Are benchmark comparisons available for Glint 360 Feedback programs?
+No. Glint does not offer benchmarks for 360 items.
 
+## Coach FAQs
+k
 **Is there a way to compile feedback provider information to look at feedback provider tendencies (leniency, stringency)?**
 
 Yes, on the All Responses tab of the 360 report, choose whether you want to see scores for all scaled items mapped to a competency. You can select across one, multiple, or all feedback provider categories to find trends. You can see the feedback provider group tendency (not individual tendency) by viewing the All Responses in the 360 report. Scores are shown for all scaled items mapped to a competency across one, multiple, or all categories to identify trends. You can view the range of scores provided for each competency or item by feedback provider group in many sections of the report.
