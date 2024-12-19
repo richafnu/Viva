@@ -48,7 +48,7 @@ Search for an item using a keyword or two. Hover over the question and select th
 
 ### View question details
 
-If you aren’t ready to add the question because you need more information, select the **Configuration symbol** next to the question to view:
+If you aren't ready to add the question because you need more information, select the **Configuration symbol** next to the question to view:
 - The item name
 - The item text
 - The item format
@@ -61,10 +61,10 @@ To add the item, select **Add Question**.
 Within the details, choose whether the item is:
 - Optional or mandatory - optional items are recommended so that feedback providers can skip where needed.
 - The same for Subjects and Feedback Providers within the cycle.
-- Can be prepopulated based on employee data
+- Can be prepopulated based on employee data.
 
 >[!NOTE]
->While there isn’t a minimum or maximum number of items suggested for a 360 cycle, keep in mind:
+> While there isn't a minimum or maximum number of items suggested for a 360 cycle, keep in mind:
 > - To encourage quality feedback, a maximum of 10-20 questions - including 2-3 open-ended questions - is best.
 > -	Glint recommends a minimum of six rated questions mapped to competencies.
 > - A 360 report shows top strengths and opportunities based on the **All but Self** score of questions in competencies.
@@ -76,7 +76,7 @@ Select the **verticle ellipses** to open the dropdown menu and then select **Edi
 :::image type="content" source="../../media/glint/setup/360-edit-question.png" alt-text="Screenshot of the Edit Question option in the verticle ellipses dropdown menu.":::
 
 >[!TIP]
-> Edit itemss only when absolutely necessary. Editing may impact language translations and change the intention of the item.
+> Edit items only when absolutely necessary. Editing may impact language translations and change the intention of the item.
 
 Edit the item and then select **Save Changes**.
 
