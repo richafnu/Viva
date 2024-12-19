@@ -41,13 +41,13 @@ Improvements to the email template and user experience include:
 
 - **Public community or storyline conversations detected with keywords**: the email body contains the conversation, and any associated replies along with the name of the community/storyline.
 
-- P**rivate community conversations detected with keywords**: the email provides a link to the conversation and the community where it was detected. Moderators can view the conversation by selecting the message link; those moderators have access to the community’s conversation only when they're a member.  
+- **Private community conversations detected with keywords**: the email provides a link to the conversation and the community where it was detected. Moderators can view the conversation by selecting the message link; those moderators have access to the community’s conversation only when they're a member.  
 
 As part of our continued investment in security, we've added the following improvements to email notifications: 
 
 - Viva Engage supports only Entra ID-backed email addresses within your tenant as email recipients. Consumer email addresses (such as Gmail) aren't supported. Unsupported email addresses receive a prompt to change to a compatible email address.
 
-- Private messages between individuals won't be detected by the keyword alert system. These messages are confidential and must be discovered through appropriate compliance solutions, such as e-discovery, when necessary. 
+- The keyword alert system doesn't detect Private messages between individuals. These messages are confidential and must be discovered through appropriate compliance solutions, such as e-discovery, when necessary. 
     
    Use [regular expressions](/dotnet/standard/base-types/regular-expression-language-quick-reference) to match patterns.
     
