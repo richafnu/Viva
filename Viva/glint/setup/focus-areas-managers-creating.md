@@ -43,13 +43,13 @@ There are two ways to enter the Focus Areas section:
    1. Review and consider as many Focus Areas as you believe might be helpful and elicit support from your team. Preview **Suggested Actions and Resources** by hovering over the title and selecting it. Each Suggested Action has a default selection, listed first.
    1. When it's time to commit to a Focus Area and add actions and resources, attach as many as you would like onto your action plan.
 
-2. If your role has **Manager Concierge** enabled, in Step 3, select **Download Presentation Kit.** The kit was configured by your admin to help you facilitate a meaningful and insightful conversation with your team.
+2. If your role has **Manager Concierge** enabled, in Step 3, select **Download Presentation Kit.** Your admin configured this kit to help you facilitate a meaningful and insightful conversation with your team.
    1. Customize the kit to get ready for your team meeting.
    1. Make notes on each slide to help your conversation move forward. 
 
 ## Commit to a Focus Area - Manager without Team Conversations 
 
-Once your survey has closed:
+Once your survey is closed:
 
 1. Share survey results with your team, following your Presentation Kit guidance and using [ACT best practices](https://go.microsoft.com/fwlink/?linkid=2234345) for extra support.
 1. Share your Creating a New Focus Area screen with your team. You can also customize the presentation kit to highlight these possibilities.
@@ -68,8 +68,8 @@ Once your survey is closed, complete this task directly from your **Presentation
 Switch from Opportunities, Strengths, and Other to share possibilities for improvement with your team. Use the **Choose** button to cue up Glint Suggested Actions and Resources. 
 
 - Scroll down to see the suggestions.
-- Switch back and forth between drivers before settling on a Focus Area. Select **Remove** next to the item you are viewing, and then **Choose** next to another driver to consider.
-- When your team agrees on their next step, select **+ Add Action Item** to add the actions and resources to the plan you are developing together.
+- Switch back and forth between drivers before settling on a Focus Area. Select **Remove** next to the item you're viewing, and then **Choose** next to another driver to consider.
+- When your team agrees on their next step, select **+ Add Action Item** to add the actions and resources to the plan you're developing together.
 - Select **Commit to Focus Area.** This information becomes part of your **Small Steps Forward** slide. Step 3 on **Manager Concierge** indicates completion by displaying a checkmark. The link in Step 4 now reads **View Focus Area.** You can access the link at any time.
 
 ## Edit a Focus Area plan
@@ -93,13 +93,13 @@ You can change the status of these items:
 
 - Focus Area Status Tracker 
   - Indicate if Focus Area progress is *Not Done, Off Track, On Track*, or *Complete*.
-  - Note: This area is updated manually. Even if a team hasn't achieved the Focus Area, a manager may decide to indicate Complete, indicating that the team is ready to move on to another opportunity. This functionality isn't driven by the status of Action Items completion.
+  - Note: This area is updated manually. Even if a Focus Area isn't completed, a manager may decide to indicate Complete, indicating that the team is ready to move on to another opportunity. 
 - Time Period
   - Indicates the start date for the time period assigned to work on the Focus Area.
 - Visibility
 - Action Items - After Suggested Actions are selected and appear in the **Action Items** section, keep track of team progress by activating the checkmark to indicate completion.
 - Comments - As a manager and their team work toward a Focus Area, they can make notes of progress or roadblocks.
-- Tag someone by name to get feedback or input from a specific person around a Focus Area. This also alerts a specific manager to consider using this Focus Area for their own team.
+- Tag someone by name to get feedback or input from a specific person around a Focus Area. Tagging also alerts a specific manager to consider using this Focus Area for their own team.
 
 ## Reordering Focus Areas
 
