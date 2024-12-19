@@ -19,7 +19,7 @@ ms.date: 12/19/2024
 
 # Add and edit 360 cycle questions 
 
-Add or modify prepopulated 360 program template questions. Add questions from our Question Library by selecting the **+ symbol.** 
+Add or modify prepopulated 360 program template questions. Add questions from our Question Library by selecting the **+ symbol**. 
 - You can use the **+ symbol** under the question list.
 - You can also use the **+ in the blue circle** at the bottom of the Question setup page. This route takes you directly to rating and open-ended questions.
 
@@ -78,6 +78,6 @@ Select the **verticle ellipses** to open the dropdown menu and then select **Edi
 >[!TIP]
 > Edit itemss only when absolutely necessary. Editing may impact language translations and change the intention of the item.
 
-Edit the item and then select **Save Changes.**
+Edit the item and then select **Save Changes**.
 
-:::image type="content" source="../../media/glint/setup/360-edit-questions-window.png" alt-text="Screenshot of the Edit Questions window." lightbox="../../media/glint/setup/360-edit-questions-window.png":::
+:::image type="content" source="../../media/glint/setup/360-edit-questions-window.png" alt-text="Screenshot of the Edit Questions window.":::
