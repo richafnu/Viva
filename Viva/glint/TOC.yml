@@ -143,7 +143,6 @@ items:
                   - name: People page import
                     href: setup/upload-employee-attributes.md
   - name: Platform features
-    href: setup/platform-features-settings.md
     items: 
       - name: General Settings 
         href: setup/manage-general-settings.md
