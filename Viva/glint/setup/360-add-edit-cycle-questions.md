@@ -31,13 +31,13 @@ Add or modify prepopulated 360 program template questions. Add questions from ou
 ## Use the Question Library 
 When the Question Library window opens, add or edit questions from our list of validated questions or from any custom questions you added to your Question Library. Locate them by using filters.
 
-### Filter to find a question
+### Filter to find an item
 
 |Filter type|Filter options|
 |--------------|------------------|
 |Source| <ul><li> Custom </li><li> Viva Glint</li><ul>|
 |Type| <ul><li> Rating - 5-7 point scale </li><li> Open-ended </li><li> Multiple Choice</li><ul>|
-|Benchmark|Glint doesn't offer benchmarks for 360 questions. *Benchmarks appear as a menu option but do not apply for 360s.*|
+|Benchmark|Glint doesn't offer benchmarks for 360 items. *Benchmarks appear as a menu option but do not apply for 360s.*|
 |More Filters| <ul><li> Whether the question was used in other program </li><li> Whether translations are available</li><ul>|
 
 :::image type="content" source="../../media/glint/setup/360-create-question.png" alt-text="Screenshot of the Create Question window.":::
