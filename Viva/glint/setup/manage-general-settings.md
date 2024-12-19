@@ -38,7 +38,7 @@ Also, set up what your employees see when they open an email sharing information
 | Field | Definition and notes |
 |:-----------|:-----------|
 |**Client UUID**   | How Viva Glint identifies your company in our system.  |  
-|**Client Name**    | The organization name that will appear in macro references throughout the product.  | 
+|**Client Name**    | The organization name that appears in macro references throughout the product.  | 
 |**Client Time Zone**    | Survey and reminder emails are sent out in this time zone unless **Send surveys in users’ time zones** is checked. [More information on sending in user time zones.](time-zones.md)   | 
 |**Top-Level Manager**    | This employee is used to build managerial hierarchy and is the only person in your organization that doesn't report to anyone at a higher level.| 
 |**Company Privacy Policy** | Add a link to your organization's privacy policy. The privacy policy is displayed at the beginning of Glint surveys and in the Glint navigation bar.|
