@@ -1,5 +1,5 @@
 ---
-ms.date: 08/20/2024
+ms.date: 12/19/2024
 title: "Track Viva Pulse events in the Microsoft 365 audit log"
 description: "View Viva Pulse events through Microsoft Purview audit logs."
 ms.reviewer: 
@@ -11,8 +11,8 @@ f1.keywords: NOCSH
 ms.topic: article
 ms.service: viva-pulse
 ms.localizationpriority: medium
-ms.collection:  
-search.appverid:
+ms.collection: m365initiative-viva-pulse
+search.appverid: MET150
 ---
 
 # Track Viva Pulse events in the Microsoft 365 audit log
@@ -35,7 +35,6 @@ To audit events, you must have been assigned the Audit Logs role in Microsoft Ex
 - **User deletes a Pulse report conversation message**—Admin or User deletes a message that is part of a conversation in a Pulse report.
 - **Admin updated tenant's settings**—Admin updated an organization setting for Viva Pulse.
 
-
 ## View the audit sign-in the Microsoft 365 Security &amp; compliance portal
 
 Before you can view the audit log, you need to turn on [Microsoft 365 audit log search](https://support.office.com/article/e893b19a-660c-41f2-9074-d3631c95a014). You only have to do this step once. It can take a few hours after you turn it on before you can search the logs.
@@ -43,11 +42,8 @@ Before you can view the audit log, you need to turn on [Microsoft 365 audit log 
 To view the audit log:
   
 1. Go to the [Microsoft Purview compliance portal](https://compliance.microsoft.com/homepage) and sign in using your work or school account.
-
 2. In the left pane of the compliance portal, select **Audit**.
-
 3. Follow the instructions to search audit logs as described in [Search the audit sign-in the Microsoft 365 Security and compliance portal](https://support.office.com/article/0d4d0f35-390b-4518-800e-0c7ec95e946c#run).
-
 
 ## Related articles
 
