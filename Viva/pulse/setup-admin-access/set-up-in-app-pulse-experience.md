@@ -7,7 +7,7 @@ author: hasrivas
 manager: alisaliddle
 audience: Admin
 f1.keywords: NOCSH
-ms.date: 11/21/2024
+ms.date: 12/19/2024
 ms.topic: article
 ms.service: viva-pulse
 ms.localizationpriority: medium
@@ -69,11 +69,22 @@ To turn off Required Diagnostic Data or Optional Diagnostic Data collection:
 3. To turn off data collection for either Required Diagnostic Data or Optional Diagnostic Data, use the toggles associated with **Required Diagnostic Data** or **Optional Diagnostic Data**.
 4. The update is autosaved.
 
+### Data sharing
+
+Viva Pulse survey results for the Copilot impact template will be automatically shared to the [Microsoft Copilot Dashboard](/viva/insights/org-team-insights/copilot-dashboard) for leaders to analyze usage metrics that map sentiment data collected by Viva Pulse to workplace patterns data collected by Viva Insights in the Microsoft Copilot Dashboard. The individual Copilot impact sentiment will not be joined to behavioral metrics in Insights Advanced Analytics in Workbench.
+
+Note that data export of Copilot impact Pulse survey results to populate the Microsoft Copilot Dashboard may fail due to 1) system failure or 2) the Insights license has not completed provisioning in your tenant yet. As an admin, you can retry the data export for the Copilot impact Pulses to the Copilot Dashboard by selecting the retry button to retry all the failed Copilot impact Pulse data exports in your tenant.
+
+If you do not see the section in the data sharing tab to retry the data export failures to the Copilot Dashboard, then all the Copilot impact Pulses were successfully exported to the Copilot Dashboard. If you are consistently seeing data export failures after retrying, please ensure that the Insights license has completed provisioning in your tenant.
+
+To retry data export failures to the Microsoft Copilot Dashboard:
+1. In the **Manage** tab, go to **Data sharing** tab.
+2. Under the **Retry data export to Microsoft Copilot Dashboard** section, select the **Retry** button.
+
 ## Customization
 
 > [!IMPORTANT]
 > Customization administration is available only to those tenant administrators who are trying to access Viva Pulse with a premium license. If you are trying to access Viva Pulse with your Microsoft 365 Copilot subscription, you will not have access to the customization administration experience. 
-
 
 ### Customize Pulses
 
@@ -123,3 +134,15 @@ As an admin, you can delete a user’s past Pulse requests and responses on the 
 5. You see a status message in the deletion log that says **‘Pending’**. Deletions can take up to a few minutes.
 6. Once the deletion is successful, the status of the deletion changes to **‘Deleted’**.
 7. If the deletion was unsuccessful, then the status of the deletion changes to **‘Not Deleted’**. In this instance, please try the deletion again.
+
+### Survey deletion
+
+As an admin, you can delete any past and current Pulse surveys in your organization. This is different from template deletion by a content admin, where the content admin can delete a template so that users cannot use that template to send Pulse surveys in the future. Deletion of a Pulse survey is a hard deletion and no record of either the survey or the survey responses will remain. You can delete multiple surveys at a time by searching for an author’s name, and there is no limit as to how many surveys can be deleted. To delete a survey:
+
+1. In the **Manage** tab, navigate to the **Survey deletion** tab.
+2. Search for the author’s name in the search bar and select that user in the populated options.
+3. Select the Pulse surveys you want to delete and click **Delete selected surveys**.
+4. Select **Delete** in the confirmation popup.
+5. You will see a status message in the deletion log that says **‘In progress’**. Survey deletions can take up to a few minutes.
+6. Once the deletion is successful, the status of the deletion will change to **‘Deleted’**.
+7. If the deletion was unsuccessful, then the status of the deletion will change to **‘Not deleted’**. In this instance, please try the deletion again.

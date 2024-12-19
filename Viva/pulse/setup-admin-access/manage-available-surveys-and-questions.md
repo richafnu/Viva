@@ -7,7 +7,7 @@ author: hasrivas
 manager: alisaliddle
 audience: Admin
 f1.keywords: NOCSH
-ms.date: 11/21/2024
+ms.date: 12/19/2024
 ms.topic: article
 ms.service: viva-pulse
 ms.localizationpriority: medium
