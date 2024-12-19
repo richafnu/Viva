@@ -15,7 +15,7 @@ search-appverid: MET150
 ms.topic: concept-article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 05/15/2024
+ms.date: 12/19/2024
 ---
 
 # Viva Glint foundational features
