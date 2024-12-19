@@ -52,7 +52,7 @@ In the **Glint Manager 360 Program template**, items are pre-populated.
 |**Works Collaboratively**|	Works collaboratively with others across the business.|
 
 > [!IMPORTANT]
-> Glint doesn't offer benchmarks for 360 Feedback program questions.
+> Glint doesn't offer benchmarks for 360 Feedback program items.
 
 
 
