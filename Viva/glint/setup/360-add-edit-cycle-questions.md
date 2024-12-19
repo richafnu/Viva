@@ -37,7 +37,7 @@ When the Question Library window opens, add or edit questions from our list of v
 |--------------|------------------|
 |Source| <ul><li> Custom </li><li> Viva Glint</li><ul>|
 |Type| <ul><li> Rating - 5-7 point scale </li><li> Open-ended </li><li> Multiple Choice</li><ul>|
-|Benchmark|Use the search bar|
+|Benchmark|Glint doesn't offer benchmarks for 360 questions. *Benchmarks appear as a menu option but do not apply for 360s.*|
 |More Filters| <ul><li> Whether the question was used in other program </li><li> Whether translations are available</li><ul>|
 
 :::image type="content" source="../../media/glint/setup/360-create-question.png" alt-text="Screenshot of the Create Question window.":::
