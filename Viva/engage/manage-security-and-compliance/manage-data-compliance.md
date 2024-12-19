@@ -36,7 +36,7 @@ Use keyword monitoring to detect sensitive or specific content for community and
     
 When a post in Viva Engage matches a keyword, the person listed in the recipient field receives an email. The subject of the email gives context on the monitored keyword along with the community/storyline conversation where it's detected in Engage.   
  
-The body of the email also provides further context on the detected conversation.Improvements to the email template and user experience include:  
+The body of the email also provides further context on the detected conversation. Improvements to the email template and user experience include:  
 
 - **Public community or storyline conversations detected with keywords**: the email body contains the conversation, and any associated replies along with the name of the community/storyline.
 
