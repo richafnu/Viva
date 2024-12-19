@@ -14,25 +14,26 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 8/27/2024
+ms.date: 12/19/2024
 ---
 
 # Add and edit 360 cycle questions 
 
-Add or modify prepopulated 360 program template questions. Add questions from our Question Library by selecting the **+** symbol. 
-- You can use the **+** symbol under the question list.
-- You can also use the **+ in the blue circle** at the bottom of the page. This route takes you directly to rating and open-ended questions.
+Add or modify prepopulated 360 program template questions. Add questions from our Question Library by selecting the **+ symbol.** 
+- You can use the **+ symbol** under the question list.
+- You can also use the **+ in the blue circle** at the bottom of the Question setup page. This route takes you directly to rating and open-ended questions.
 
 :::image type="content" source="../../media/glint/setup/360-add-question.png" lightbox="../../media/glint/setup/360-add-question.png" alt-text="Screenshot of the Survey Questions page and the + button to add or edit.":::
 
+> [!IMPORTANT]
+> Glint uses the term "item" to refer to any question or statement put forth to a survey participant.
+
 ## Use the Question Library 
-When the Question Library window opens, add or edit questions from our list of validated questions or from any custom questions you added to the Question Library. Locate them by using filters.
+When the Question Library window opens, add or edit questions from our list of validated questions or from any custom questions you added to your Question Library. Locate them by using filters.
 
 ### Filter to find a question
 
-Use these filters:
-
-|Filter dropdown menu title|Filter options|
+|Filter type|Filter options|
 |--------------|------------------|
 |Source| <ul><li> Custom </li><li> Viva Glint</li><ul>|
 |Type| <ul><li> Rating - 5-7 point scale </li><li> Open-ended </li><li> Multiple Choice</li><ul>|
@@ -43,27 +44,27 @@ Use these filters:
 
 ## Add a Glint validated question
 
-**Search** for a question using a keyword or two. Hover over the question and select **+**. If everything appears as you’d like, select **Add Question**.
+Search for an item using a keyword or two. Hover over the question and select the **+ symbol**. If everything appears as you’d like, select **Add Question**.
 
 ### View question details
 
-If you aren’t ready to add the question because you need more information, select the **cogwheel** symbol next to the question to view:
-- The question name
-- The question text
-- The question format
-- How the question is rated (valued)
-- Whether the question is optional 
+If you aren’t ready to add the question because you need more information, select the **Configuration symbol** next to the question to view:
+- The item name
+- The item text
+- The item format
+- How the item is rated (valued)
+- Whether the item is optional 
 - Available languages
 
-From this section, to add the question, select **Add Question**.
+To add the item, select **Add Question**.
 
-Within the question details, choose whether the item is:
+Within the details, choose whether the item is:
 - Optional or mandatory - optional items are recommended so that feedback providers can skip where needed.
-- The same for Subjects and Feedback providers within the cycle.
+- The same for Subjects and Feedback Providers within the cycle.
 - Can be prepopulated based on employee data
 
 >[!NOTE]
->While there isn’t a minimum or maximum number of questions for a 360 cycle, keep in mind:
+>While there isn’t a minimum or maximum number of items suggested for a 360 cycle, keep in mind:
 > - To encourage quality feedback, a maximum of 10-20 questions - including 2-3 open-ended questions - is best.
 > -	Glint recommends a minimum of six rated questions mapped to competencies.
 > - A 360 report shows top strengths and opportunities based on the **All but Self** score of questions in competencies.
@@ -75,8 +76,8 @@ Select the **verticle ellipses** to open the dropdown menu and then select **Edi
 :::image type="content" source="../../media/glint/setup/360-edit-question.png" alt-text="Screenshot of the Edit Question option in the verticle ellipses dropdown menu.":::
 
 >[!TIP]
-> Edit questions only when absolutely necessary. Editing may impact language translations and change the intention of the question.
+> Edit itemss only when absolutely necessary. Editing may impact language translations and change the intention of the item.
 
-Edit the question and then select **Save Changes.**
+Edit the item and then select **Save Changes.**
 
 :::image type="content" source="../../media/glint/setup/360-edit-questions-window.png" alt-text="Screenshot of the Edit Questions window." lightbox="../../media/glint/setup/360-edit-questions-window.png":::
