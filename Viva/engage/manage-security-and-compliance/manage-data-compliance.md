@@ -24,34 +24,35 @@ description: "Monitor your Viva Engage data with these features: keyword monitor
 As a Viva Engage admin, you can keep your users' Viva Engage posts appropriate and meet security and compliance requirements. You can set up alerts for content that matches keywords, set data retention policies, and if needed, view private content. You can also [export data from Viva Engage](../eac-as-manage-data.md).
 
 <a name="MonitorKeywords"> </a> 
-
 ## Monitor keywords
 
 Use keyword monitoring to detect sensitive or specific content for community and storyline conversations within Viva Engage.
   
  **Assign a verified admin to monitor, edit, and delete flagged posts**
   
-1. In the Viva Engage admin center, go to **Content and security** > **Monitor Keywords**. In the **Recipient** field, enter an Entra ID-backed email address from the tenant to receive alerts on detected conversations.
+1. In the Viva Engage admin center, go to **Content and security** > **Monitor Keywords**. In the recipient field, enter an Entra ID-backed email address from the tenant to receive alerts on detected conversations.
     
 2. Enter the words and phrases you want to monitor, each on their own line.
     
-When a post in Viva Engage matches a keyword, the person listed in the recipient field receives an email. The subject of the email gives context on the monitored keyword along with the community/storyline storyline where it was detected in Engage. The body of the email also provides further context on the detected conversation.  
+When a post in Viva Engage matches a keyword, the person listed in the recipient field receives an email. The subject of the email gives context on the monitored keyword along with the community/storyline conversation where it's detected in Engage.   
  
-Improvements to the email template and user experience include:  
+The body of the email also provides further context on the detected conversation.Improvements to the email template and user experience include:  
 
 - **Public community or storyline conversations detected with keywords**: the email body contains the conversation, and any associated replies along with the name of the community/storyline.
 
-- **Private community conversations detected with keywords**: the email provides a link to the conversation and the community where it was detected. Moderators can view the conversation by selecting the message link; those moderators have access to the community’s conversation only when they're a member.  
+- **Private community conversations detected with keywords**: the email provides a link to the conversation and the community where it's detected. Moderators can view the conversation by selecting the message link, and only community members have access to the conversation.   
 
 As part of our continued investment in security, we've added the following improvements to email notifications: 
 
 - Viva Engage supports only Entra ID-backed email addresses within your tenant as email recipients. Consumer email addresses (such as Gmail) aren't supported. Unsupported email addresses receive a prompt to change to a compatible email address.
 
 - The keyword alert system doesn't detect Private messages between individuals. These messages are confidential and must be discovered through appropriate compliance solutions, such as e-discovery, when necessary. 
+
+## Apply regular expressions for keyword monitoring
+
+For keyword matching, use [regular expressions](/dotnet/standard/base-types/regular-expression-language-quick-reference) to match patterns.
     
-   Use [regular expressions](/dotnet/standard/base-types/regular-expression-language-quick-reference) to match patterns.
-    
-    Here are some examples of regular expressions commonly used for monitoring.
+Here are some examples of regular expressions commonly used for monitoring.
     
 |**Purpose**|**Pattern**|**Matches**|
 |:-----|:-----|:-----|
