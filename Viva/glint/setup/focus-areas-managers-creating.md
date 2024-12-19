@@ -32,9 +32,9 @@ Review your [Top Strengths and Top Opportunities](/../../viva/glint/reports/act-
 There are two ways to enter the Focus Areas section:
 
 - From your Glint dashboard - Select the **Focus Areas** tab from the menu bar and then **My Focus Areas** on the page that opens. 
-- From your [Manager Concierge](/../../viva/glint/reports/manager-concierge-dashboard) timeline, if enabled. In Step 4 - Select **Choose a Focus Area.**  ​​​​​​
+- From your [Manager Concierge](/../../viva/glint/reports/manager-concierge-dashboard) timeline, if enabled. In Step 4 - Select **Choose a Focus Area**.  ​​​​​​
 
-**Review the [Manager Quick Guide to Results and Conversation](/../../viva/glint/setup/quick-guide-manager-doc-pitfalls).**
+**Review the [Manager Quick Guide to Results and Conversation](/../../viva/glint/setup/quick-guide-manager-doc-pitfalls)**.
 
 ### Select Focus Areas with your team
 
@@ -43,7 +43,7 @@ There are two ways to enter the Focus Areas section:
    1. Review and consider as many Focus Areas as you believe might be helpful and elicit support from your team. Preview **Suggested Actions and Resources** by hovering over the title and selecting it. Each Suggested Action has a default selection, listed first.
    1. When it's time to commit to a Focus Area and add actions and resources, attach as many as you would like onto your action plan.
 
-2. If your role has **Manager Concierge** enabled, in Step 3, select **Download Presentation Kit.** Your admin configured this kit to help you facilitate a meaningful and insightful conversation with your team.
+2. If your role has **Manager Concierge** enabled, in Step 3, select **Download Presentation Kit**. Your admin configured this kit to help you facilitate a meaningful and insightful conversation with your team.
    1. Customize the kit to get ready for your team meeting.
    1. Make notes on each slide to help your conversation move forward. 
 
@@ -54,13 +54,13 @@ Once your survey is closed:
 1. Share survey results with your team, following your Presentation Kit guidance and using [ACT best practices](https://go.microsoft.com/fwlink/?linkid=2234345) for extra support.
 1. Share your Creating a New Focus Area screen with your team. You can also customize the presentation kit to highlight these possibilities.
 1. Choose as many of Suggested Actions and Suggested Resources as desired. Select **+ Add to Focus Area** for each.
-1. Save to your team’s plan by selecting **Create Focus Area.** You now see your new plan on the Focus Areas tab.
+1. Save to your team's plan by selecting **Create Focus Area**. You now see your new plan on the Focus Areas tab.
 
 ## Commit to a Focus Area - Managers with Team Conversations
 
 Once your survey is closed, complete this task directly from your **Presentation Kit**, in real-time, with your team. There are two ways to begin this process:
 
-- In Step 3 of Manager Concierge, the link previously titled **Download Presentation Kit** is updated to **Launch Team Conversation.** Select **Launch Team Conversation** and then **Get Started.** Review the slides and when you're ready to present, select **Start Conversation.**
+- In Step 3 of Manager Concierge, the link previously titled **Download Presentation Kit** is updated to **Launch Team Conversation**. Select **Launch Team Conversation** and then **Get Started.** Review the slides and when you're ready to present, select **Start Conversation.**
 - You receive an email stating that your interactive presentation is ready to share with your team. Select **Get Started**.
 
 ## The *Choose a Focus Area* slide 
@@ -86,7 +86,7 @@ After a Focus Areas is chosen, its status can be seen on the **My Focus Areas** 
 
 Open the **Viewing Your Focus Areas** page in either of these two ways:
 
-- From your Glint dashboard: Select **Focus Areas**  and then **My Focus Areas.**
+- From your Glint dashboard: Select **Focus Areas**  and then **My Focus Areas**.
 - From the Glint [Team Summary dashboard](/./../viva/glint/reports/team-summary-enable-manage), select **View Focus Area** from Step 4.
 
 You can change the status of these items:
