@@ -38,11 +38,11 @@ Also, set up what your employees see when they open an email sharing information
 | Field | Definition and notes |
 |:-----------|:-----------|
 |**Client UUID**   | How Viva Glint identifies your company in our system.  |  
-|**Client Name**    | *Or Doing Business As (DBA) name*.   | 
-|**Client Time Zone**    | Survey and reminder emails are sent out in this time zone unless **Send surveys in users’ time zones** is checked. [More information on customer time zones.](https://go.microsoft.com/fwlink/?linkid=2255796)   | 
-|**Top-Level Manager (Chief Executive Officer - CEO)**    | This employee is used to build managerial hierarchy and is the only person in your organization that doesn't report to anyone at a higher level.| 
-|**Company Privacy Policy** | To replace the Microsoft Privacy Statement, add a link to your organization's privacy policy. The privacy policy is displayed at the beginning of Glint surveys and in the Glint navigation bar.|
-|**Company Message to Survey Participants**|Enter guidance specific to your organization to be displayed at the beginning of Glint surveys and applied to new programs and scheduled surveys. <li>Avoid potential conflicts between your organization's message and Viva Glint's privacy statements. The application of a privacy statement to is dependent upon admin configuration. [**Learn more**](/../../viva/glint/setup/viva-glint-survey-privacy).</li><li>The company message displayed alongside standard privacy statements should refrain from stating anything that conflicts with the privacy statement applied to the survey. *Microsoft reserves the right to delete company messages if such conflicts come to our attention.*</li><li>No hyperlinks can be used in this company message</li><li>Character limit: 1024</li><li>**Best practice:** link to your organization's privacy policy **or** to customized message. *Using *both* may incur conflicts.</li>
+|**Client Name**    | The organization name that appears in macro references throughout the product.  | 
+|**Client Time Zone**    | Survey and reminder emails are sent out in this time zone unless **Send surveys in users’ time zones** is checked. [More information on sending in user time zones.](time-zones.md)   | 
+|**Top-Level Manager**    | This employee is used to build managerial hierarchy and is the only person in your organization that doesn't report to anyone at a higher level.| 
+|**Company Privacy Policy** | Add a link to your organization's privacy policy. The privacy policy is displayed at the beginning of Glint surveys and in the Glint navigation bar.|
+|**Company Message to Survey Participants**|Enter guidance specific to your organization to be displayed at the beginning of Glint surveys and applied to new programs and scheduled surveys. <li>Avoid potential conflicts between your organization's message and Viva Glint's privacy statements. The application of a privacy statement is dependent upon admin configuration. [**Learn more**](/../../viva/glint/setup/viva-glint-survey-privacy).</li><li>The company message displayed alongside standard privacy statements should refrain from stating anything that conflicts with the privacy statement applied to the survey. *Microsoft reserves the right to delete company messages if such conflicts come to our attention.*</li><li>No hyperlinks can be used in this company message</li><li>Character limit: 1024</li><li>**Best practice:** link to your organization's privacy policy **or** to customized message. Using *both* may incur conflicts.</li>
 
 :::image type="content" source="../../media/glint/setup/customized-privacy-policy.png" alt-text="Screenshot of the **Hello** message that employees see when a customized message around privacy is included.":::
 
@@ -54,11 +54,11 @@ Also, set up what your employees see when they open an email sharing information
 |:-----------|:-----------|
 |**Enable Email Notifications for Focus Area Comments**    | Enable for comments and user tagging.  | 
 |**Hide Focus Area/Comment Text in Focus Area Emails**    | Managers may receive an email notification when someone comments on their Focus Area (goal) or a new one is cascaded to them. Enable to hide these details from these emails. Disable to allow goal title and comment text to display.    | 
-|**Send Survey in Users’ Time Zones**    | Send invitations in user’s time zones on the survey start date. | 
+|**Send Survey in Users’ Time Zones**    | Send invitations in user’s time zones on the survey start date. [Learn more](time-zones.md). | 
 
 ## Reporting  
 
-Choose attributes and hierarchies to show in reporting and select benchmark comparisons. Also indicate permissions and thresholds for viewing feedback. 
+Choose attributes and hierarchies to show in reporting and select benchmark comparisons. Also view permissions and thresholds for viewing feedback. 
 
 >[!NOTE]
 > This section is not applicable to 360 Feedback programs. 
@@ -72,12 +72,11 @@ Choose attributes and hierarchies to show in reporting and select benchmark comp
 |**Comments Privacy: Minimum # of Responders for Search Results**   | Minimum number of responses to a survey before comments are viewable and searchable. | 
 |**Comments Privacy: Minimum # of Responders for Facet/Grouping**   | Minimum number of responses to a survey before comments are available for specific groupings.  | 
 |**Confidentiality Threshold**   | Numerical scores can't be displayed for respondent groups smaller than this number of respondents. The default number is five (5).  |   
-|**Exclude Negative Strengths and Positive Weaknesses**   | Remove items that how negative scoring as strengths and positive scoring as weaknesses.   |   
+|**Exclude Negative Strengths and Positive Weaknesses**   | Remove items that show negative scoring as strengths and positive scoring as weaknesses.   |   
 |**Insight Minimum Group Size**   | Minimum number of responses before insights and alerts can be shown.    |  
 |**Insight Minimum Score Difference**   | Minimum number of responses before showing differences in insights and alerts.     | 
 |**Minimum Sample Survey Stats**   | Response rate isn't displayed for groups smaller than this set number. This rate is based on group size, not on number of responses and it must match the confidentiality threshold.      | 
-|**PowerPoint Template**   | Customer chosen default template. If unset, it defaults to the Glint template.       | 
-|**Broader Team Insights PowerPoint Template**   | Customer chosen default Broader Team Insights template. If unset, it defaults to the Glint template.        |  
+|**PowerPoint Template**   | Customer chosen default template. If unset, it defaults to the Glint template. [Learn more](custom-ppt-upload.md).  |  
 |**Primary Hierarchy**   | The hierarchy your company identified as the first level for reporting, typically Manager. |  
 |**Secondary Hierarchy**   | The hierarchy your company identified as its second level for reporting, typically Location. | 
 |**Rating Questions Scale**   | The defaults survey rating questions use. Viva Glint's best practice is to use a 5-point scale. | 
@@ -86,12 +85,12 @@ Choose attributes and hierarchies to show in reporting and select benchmark comp
 
 ## Engage Survey Details 
 
-Choose your survey access method. [Learn more](https://go.microsoft.com/fwlink/?linkid=2238341).
+Choose your survey access method. [Learn more](understand-survey-access-methods.md).
 
 | Field | Definition and notes |
 |:-----------|:-----------|
-|**Require Microsoft Entra ID for links in survey emails**   | Turn this functionality on to authenticate participants for future surveys with Microsoft Entra ID (recommended). If you turn off this functionality, a personalized survey link is sent to participants.   | 
-|**Attribute-based Survey Access**   | Participants are able to retrieve survey links by entering attributes. This process doesn't authenticate participants and is less secure than surveys requiring Microsoft Entra ID authentication.   |  
+|**Require Microsoft Entra ID for links in survey emails**   | Turn this functionality on to authenticate participants for future surveys with Microsoft Entra ID (recommended). If you turn off this functionality, a personalized survey link is sent to participants. [Learn more](understand-survey-access-methods.md).  | 
+|**Attribute-based Survey Access**   | Participants are able to retrieve survey links by entering attributes. This process doesn't authenticate participants and is less secure than surveys requiring Microsoft Entra ID authentication. [Learn more](attribute-based-survey-access.md).  |  
 
 ## Features 
 
@@ -103,7 +102,7 @@ In this section:
 |:-----------|:-----------|
 |**Available Survey Questions and Program Templates**   |Deselect program types you won’t use to delete them from your platform. You can edit this functionality at any time.    |  
 |**Community Enabled**   |Enable to permission access to the Glint community forum for this client, regardless of role-based permissions.  |  
-|**Employee Post-Survey Action Taking**   |Enables employees to view free LinkedIn Learning videos upon completing a survey. A LinkedIn Learning license is not required.  |  
+|**Employee Post-Survey Action Taking**   |Enables employees to view free LinkedIn Learning videos upon completing a survey. A LinkedIn Learning license is not required. [Learn more](post-survey-learnings.md). | 
 |**Team Conversation Enabled**   |Enables Team Conversations for recurring surveys.   |  
 |**Default Focus Area Privacy**   |Choose the visibility/privacy setting for users creating a new Focus Area. More instructions around focus area privacy follow this table.  |
 |**Maximum Number of Survey Cycles for Trend**   |Default is five (5) cycles. Applies only to recurring and ad-hoc surveys. This controls the number of cycles that show on the dashboard and in reporting.    |
@@ -111,7 +110,7 @@ In this section:
 
 ### Focus Area privacy settings
 
-The default privacy setting within is **Public**. 
+The default privacy setting is **Public**. 
 
 :::image type="content" source="../../media/glint/setup/general-settings-privacy-feature.png" alt-text="Screenshot of the default setting for Focus Area Privacy in General Settings." lightbox="../../media/glint/setup/general-settings-privacy-feature.png":::
 
@@ -124,14 +123,12 @@ There are other options, in addition to the *Public* default setting:
 
 ## Technical Configuration 
 
-Make selections for your Viva Glint technical setup:
-- Username and password for Single Sign On (SSO) users 
-- Employee ID 
+Make selections for your Viva Glint technical setup.
 
 | Field | Definition and notes |
 |:-----------|:-----------|
-|**Attribute for SSO Authentication** |Configure the unique Employee ID. The email is set as the default employee ID. |
-|**SFTP Setup** |Streamline your process by automatically adding your company data into the Glint platform. [Learn more](https://go.microsoft.com/fwlink/?linkid=2238339). |
+|**Attribute for SSO Authentication** |View only. The email is set as the default employee ID. |
+|**SFTP Setup** |Streamline your process by automatically adding your company data into the Glint platform. [Learn more](set-up-sftp.md). |
 
 ## Localization 
 
@@ -139,7 +136,7 @@ English is the default language for all programs, but surveys and emails may be 
 
 | Field | Definition and notes |
 |:-----------|:-----------|
-|**Comment Analytics Language**   |The list of codes for languages to include for comment analysis. Empty value signifies English only. The number of available languages also shows.   |
+|**Comment Analytics Languages**   |The list of codes for languages to include for comment analysis. Empty value signifies English only. The number of available languages also shows.   |
 |**Default Survey Language**   |Provides the default language for surveys. If a preference isn't populated per employee, this language is shown as a default.     |
 |**Supported Survey Languages**   |Lists all languages chosen by the admin to support surveys within your organization. This setting is global but can be tailored on a per-program level.     |
 |**Default Dashboard Language**   |Provides the default language for dashboards. If a preference isn't supplied/selected per employee, this language is shown as a default.      |
