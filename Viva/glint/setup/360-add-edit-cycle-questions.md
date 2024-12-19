@@ -1,5 +1,5 @@
 ---
-title: Add and edit 360 cycle questions 
+title: Add and edit 360 cycle items 
 description: Learn to add or modify Viva Glint 360 program template questions.
 ms.author: JudithWeiner
 author: JudyWeiner
@@ -17,7 +17,7 @@ ms.localizationpriority: high
 ms.date: 12/19/2024
 ---
 
-# Add and edit 360 cycle questions 
+# Add and edit 360 cycle items 
 
 Add or modify prepopulated 360 program template questions. Add questions from our Question Library by selecting the **+ symbol**. 
 - You can use the **+ symbol** under the question list.
