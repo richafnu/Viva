@@ -120,7 +120,7 @@ You might get this error if you used the wrong credentials while setting up the 
 :::image type="content" source="../../images/analyst-pbi-json-error.png" alt-text="Screenshot that shows the 'We found extra characters at the end of the JSON input' error.":::
 
 
-Here's what you can do to resolve it:
+#### How to resolve it in Power BI Desktop
 
 1. Close the Refresh window.
 2. In the **Home** ribbon, open the **Transform data** menu and select **Data source settings**.
@@ -134,6 +134,14 @@ Here's what you can do to resolve it:
 >You need to select **Organizational account** from the menu on the left and **Sign in** with the same account you use to access Viva Insights on the web.
 
 :::image type="content" source="../../images/power-bi-sign-in.png" alt-text="Screenshot that shows Organizational account sign in window.":::
+
+#### How to resolve it in Power BI service
+
+1. Navigate to the report workspace and open the semantic model settings.
+2. Expand the **Data source credentials** section. If this is disabled, select **Take over** to take control of the semantic model settings.
+3. Select **Edit credentials**. Choose **OAuth2** as the authentication method and select the appropriate privacy level settings. Select **Sign in**.
+4. If the model uses more than one set of data source credentials, you might need to repeat Step 3 for each.
+5. Refresh your semantic model.
 
 ## Support
 

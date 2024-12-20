@@ -8,10 +8,11 @@ manager: alisaliddle
 audience: Admin
 f1.keywords: NOCSH
 ms.collection:
+ - m365initiative-viva-pulse
  - essentials-get-started
  - essentials-overview
  - essentials-navigation
-ms.date: 10/02/2024
+ms.date: 12/19/2024
 ms.topic: overview
 ms.service: viva-pulse
 ms.localizationpriority: medium
