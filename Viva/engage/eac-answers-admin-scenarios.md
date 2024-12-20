@@ -3,9 +3,9 @@ title: "Administrator scenarios for Answers in Viva Engage"
 description: "Describes administration of Answers in Viva Engage for the Microsoft 365 Global admin, Engage admin, and Answers admin."
 ms.reviewer: ethli
 ms.author: donnabouldin
-author: Starshine89
+author: v-rgrace
 manager: elizapo
-ms.date: 01/18/2024
+ms.date: 12/17/2024
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -24,39 +24,13 @@ search.appverid:
 Administration of Answers requires either an Engage admin or Answers admin role.
 
 >[!NOTE]
->The Microsoft 365 Global administrator can designate an Answers admin by [adding a Knowledge manager in Microsoft Entra ID](/azure/active-directory/fundamentals/active-directory-users-assign-role-azure-portal?context=%2Fazure%2Factive-directory%2Froles%2Fcontext%2Fugr-context). Knowledge managers become Answers admins and have elevated permissions over end users. To better align the experiences of Topics management and Answers administration, you can assign the same users that manage Topics to manage Answers. For more information, see:
-
-- [Assign a role to a group using Privileged Identity Management](/azure/active-directory/roles/groups-pim-eligible)
-- [Creating a role-assignable group in Microsoft Entra ID](/azure/active-directory/roles/groups-create-eligible)  
-
-## Permissions
-
-The following table shows the actions available to users and admins. 
-
->[!NOTE]
->In the following table, _plan_ refers to the _Microsoft Viva Engage Knowledge Service plan_.
-
-|Answers action|User not assigned a plan|User assigned a plan|Community admin|Engage admin|Answers admin|Global admin|
-|--------------------|-----------------|----------------|----------|------------|-----------|----------|
-|**Answer, upvote, and react to a question thread**|Questions they're mentioned in |✓|✓|✓|✓|✓|
-|**Receive notifications in the Viva Engage Teams app**|Questions they're mentioned in |✓|✓|✓|✓|✓|
-|**Ask a question**| |✓|✓|✓|✓|✓|
-|**Create a suggested topic for Answers**| |✓|✓|✓|✓|✓|
-|**Mark best answer**| | ✓ (own posts)|(in their community)|✓|✓|✓|
-|**See global insights**| | | |✓|✓|✓|
-|**Delete and close posts**| | ✓ (own posts)|✓|✓|✓|✓|
-|**Update information panel**| | | |✓|✓|✓|
-|**Feature topics**| | | | |✓|✓|
-|**Remove topic from Answers**| | | | |✓|✓|
-|**Approve suggested topics**| | | | |✓|✓| 
-|**Enable answers**| | | | | |✓|
-|**Enable badges**| | | |✓| |✓|
+>The Microsoft 365 Global administrator can designate an Answers admin by [adding a Knowledge manager in Microsoft Entra ID](/azure/active-directory/fundamentals/active-directory-users-assign-role-azure-portal?context=%2Fazure%2Factive-directory%2Froles%2Fcontext%2Fugr-context). Knowledge managers are Answers admins and have elevated permissions over end users. For more information, see [Manage admin roles in Viva Engage](/Viva/engage/eac-key-admin-roles-permissions).
 
 ## Update information panel
 
 ### Provide guidance using the information panel
 
-The Answers admin or Engage admin can use the information panel to provide guidance to employees on how to use Answers within the organization. The information panel is only visible to administrators in its default state. After an admin saves and publishes the information panel, all other employees with access to Answers can see the information panel.
+The Answers admin or Engage admin can use the information panel to provide guidance to employees on how to use Answers within the organization. By default, the information panel is only visible to administrators. After an admin saves and publishes the information panel, all other employees with access to Answers can see the information panel.
 
 **Admin view**<br/>
 :::image type="content" source="../media/engage/admin/ans-info-pan-admin1.png" lightbox="../media/engage/admin/ans-info-pan-admin1.png" alt-text="Screenshot of the information panel with guidelines option.":::
@@ -81,56 +55,20 @@ The Answers admin or Engage admin can use the information panel to provide guida
 
 ## Manage topics in Answers
 
-### Feature topics in Answers
-
-As an Answers admin, you can feature a topic or create a topic from the topic browse page. When you feature topics, you curate Topics to be promoted for use in Answers.
-
-> [!NOTE]
-> The **Feature a topic** button is only visible to the Answers admin.  
-
-:::image type="content" alt-text="Screenshot of the Discover more Topics interface in Viva Engage." source="/viva/media/engage/admin/feature-a-topic.png" lightbox="/viva/media/engage/admin/feature-a-topic.png":::
-
-1. When you start to type the topic you want to feature, existing Topics appear, and you can choose one to feature.  
-
-   :::image type="content" alt-text="Screenshot  of the editable summary for your topic in Viva Engage." source="/viva/media/engage/admin/type-topic.png" lightbox="/viva/media/engage/admin/type-topic.png":::
-
-2. After you select a topic to feature, you can edit the summary field that will be displayed as the short description of that topic in Answers. The summary helps people understand the topic and whether it’s the appropriate topic to attach to their questions.
-
-   :::image type="content" alt-text="Screenshot of the editable summary for your topic in Viva Engage." source="/viva/media/engage/admin/edit-topic-summary.png" lightbox="/viva/media/engage/admin/edit-topic-summary.png":::
+Use topics to organize and curate Engage knowledge. Answers topics also help you stay on top of new questions about topics you follow or subscribe to. [Learn more about using topics in Viva Engage](https://support.microsoft.com/office/use-topics-and-hashtags-in-viva-engage-98c0a0bb-aad0-45d3-88f1-4f6d12bb1772). 
 
 >[!NOTE]
-> The title and summary of all Topics featured in Answers are visible to all licensed users who have access to Answers.
+>Viva Topics will be retired in 2025. As part of that change, Viva Engage returns to a simplified topics experience and won't use Viva Topics or Lightweight Topics. During this transition, topics in Engage will be migrated to see the latest topics experience with the enablement of Answers and deletion of topics. Migrations are planned to complete in Spring 2025. Learn more about [Setting up Answers](/Viva/engage/eac-answers-overview-set-up#technical-requirements), and the [Viva Topics retirement](/microsoft-365/topics/changes-coming-to-topics?view=o365-worldwide&amp&preserve-view=true;WT.mc_id=M365-MVP-9501). 
 
-### Review pending topics suggested by employees
+## Bulk Remove topics
 
-To ensure that topics suggested by employees are relevant and appropriate, there's a review process for Answers admins to follow. Answers admins have a **Needs Review** tab on the topic browse page, which is only visible to them. The tab displays user-created or suggested topics. Any nonfeatured topic that's added to a question or created by the user appears on this tab for a knowledge manager to review. Select **Review** on a topic to check and edit the summary.
+To remove a topic or multiple topics at once, applicable admins can:
 
-:::image type="content" alt-text="Screenshot of the topics that need review in Answers in Viva." source="/viva/media/engage/admin/needs-review-topic.png" lightbox="/viva/media/engage/admin/needs-review-topic.png":::
-
-You have options to feature or ignore the topic, which removes it from the **Review** tab:  
-
-- **Ignore**: When you ignore a topic, it remains visible with the questions that it's been used with. But it won't get featured, which makes topics more prominent in the publisher’s topic picker.  
-- **Feature**: When topics are featured, they no longer appear in the **Needs Review** tab.
-
-:::image type="content" alt-text="Screenshot of the interface for reviewing a topic in Answers in Viva." source="/viva/media/engage/admin/feature-reviewed-topic.png" lightbox="/viva/media/engage/admin/feature-reviewed-topic.png":::
-
-**Remove topics in Answers**
-
-To remove a topic in Answers, Answers admins (knowledge managers) follow these steps:  
-
-1. Go to the browse topics page in Answers.
-2. Select the ellipsis button on a topic, which prompts you to remove the topic in Answers.
-
-   :::image type="content" alt-text="Screenshot of the Remove a topic button that admins see in the topic browse page in Answers in Viva." source="/viva/media/engage/admin/remove-topic-hover.png" lightbox="/viva/media/engage/admin/remove-topic-hover.png":::
-
-
-3. When a topic is removed, it disappears from Answers and is no longer associated with any questions where it was previously used.
-
-   :::image type="content" alt-text="Screenshot of the interface and confirmation screen to remove a topic in Answers in Viva." source="/viva/media/engage/admin/confirm-remove-topic.png" lightbox="/viva/media/engage/admin/confirm-remove-topic.png":::
-
-
->[!NOTE]
-> After a topic is removed in Answers, you can still see the topic in the topic center. To remove the topic entirely, you must delete it directly in the topic center.
+1. Go to the Discover more topics page in Answers. 
+2. Search by topic name, or filter by "All" to browse topics.  
+3. Select the ellipsis icon on a topic to show edit and remove topics. 
+4. Use the check box to select multiple topics to delete. 
+5. When you remove the topic, the topic and all applications of the topic are removed. This action can't be undone.
 
 ## View Global Answers analytics
 
@@ -138,10 +76,9 @@ As an Answers admin, you can access Global Answers analytics:
 1. Select the analytics icon from the top navigation bar of Viva Engage.
 1. Go to the **Global Answers analytics** tab. The analytics dashboard provides an overview and relevant insights about knowledge sharing activity across Answers in Viva.
 
-For more details about how to manage analytics in the [Viva Engage admin center](/Viva/engage/eac-overview), see [View and manage analytics in Viva Engage](/Viva/engage/analytics).
+For more information about how to manage analytics in the [Viva Engage admin center](/Viva/engage/eac-overview), see [View and manage analytics in Viva Engage](/Viva/engage/analytics).
 
 :::image type="content" alt-text="Screenshot of the Global Answers analytics dashboard in Viva Engage." source="/viva/media/engage/admin/global-answers-analytics.png" lightbox="/viva/media/engage/admin/global-answers-analytics.png":::
-
 
 The following metrics are available for Global Answers analytics:
 
