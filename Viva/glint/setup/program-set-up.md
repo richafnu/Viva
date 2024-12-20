@@ -33,7 +33,7 @@ The **Program Setup** page is the first configuration page within **Program Summ
 1. The list of **Additional Languages** is prepopulated with languages set up for your organization in **General Settings**. To remove languages, select the **X** next to the language name.
 1. **Admin Notifications** These admins are notified of upcoming surveys. They are prepopulated in the General Settings feature. Use the **Search** field to find other admins to add.
 1. Use the **Suggested Action Available** toggle to disable or enable users to create goals.
-1. Use the **Eligible for Nudges** toggle to disable or enable timely messages to managers. Refer to the [Nudges lesson](https://www.microsoft.com).  
+1. Use the **Eligible for Nudges** toggle to disable or enable timely messages to managers.  
 1. Confidential Responses are set to **YES** by default.  
 1. Enable **Allow Survey Resubmission** so that participants have the ability to retake their surveys by selecting a link on the survey Thank You page. **NO** means that this feature is disabled and users can't resubmit survey responses.
 
