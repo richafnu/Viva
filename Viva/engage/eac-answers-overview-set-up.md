@@ -5,7 +5,7 @@ ms.reviewer: ethli
 ms.author: donnabouldin
 author: v-rgrace
 manager: elizapo
-ms.date: 12/17/2024
+ms.date: 12/20/2024
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -50,12 +50,6 @@ By default, the Answers experience is enabled for networks that meet the followi
 3. **Topics migrated to Viva Engage**
 
    Answers enablement depends on topics migrating to a supported version of topics in Viva Engage. We are in the middle of a transition as Viva Topics will be retired in 2025. As part of that change, Viva Engage will no longer use Viva Topics or Lightweight Topics. Migrations are planned to complete in Spring 2025. [Learn more about the Viva Topics retirement](/microsoft-365/topics/changes-coming-to-topics?view=o365-worldwide&amp&preserve-view=true;WT.mc_id=M365-MVP-9501).
-
-4. **Viva Engage is enabled to use Viva Topics**
-
-   Viva Topics will be retired in 2025. As part of that change, Viva Engage will return to a simplified topics mode. During the transition, proactive migrations to use Viva Topics will pause. Migrations that enable Viva Engage networks to use Answers by request will continue.
-
-   Customers aren't required to have a paid Topics license to migrate their topics or to use Answers. Learn more about [the migration](/microsoft-365/topics/topic-experiences-viva-engage), [the Topics experience](https://support.microsoft.com/topic/viva-topics-experience-in-yammer-8e85bc0d-086e-49a2-974b-39f60129257d), and [Viva Topics retirement](/microsoft-365/topics/changes-coming-to-topics?view=o365-worldwide&amp&preserve-view=true;WT.mc_id=M365-MVP-9501).
    
    Customers awaiting topics migration can request priority Answers enablement, which may include Native Mode support or topics migration. Contact your customer account manager or Microsoft Viva Engage support to file a support ticket.
 
