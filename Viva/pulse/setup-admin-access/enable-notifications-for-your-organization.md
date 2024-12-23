@@ -7,7 +7,7 @@ author: michellehu-msft
 manager: alisaliddle
 audience: Admin
 f1.keywords: NOCSH
-ms.date: 10/18/2023
+ms.date: 12/19/2024
 ms.topic: article
 ms.service: viva-pulse
 ms.localizationpriority: medium

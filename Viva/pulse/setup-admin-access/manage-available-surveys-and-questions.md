@@ -7,7 +7,7 @@ author: hasrivas
 manager: alisaliddle
 audience: Admin
 f1.keywords: NOCSH
-ms.date: 11/21/2024
+ms.date: 12/19/2024
 ms.topic: article
 ms.service: viva-pulse
 ms.localizationpriority: medium
@@ -84,7 +84,7 @@ Deactivating a survey can be undone at any time by marking it as **Active** agai
 
 Surveys that were originally provided with the Pulse app and have a source of either **Pulse** or **Pulse (customized)** can only be deactivated.
 
-When a survey has a state of **Deactivated**, it's not available for authors to use when sending a new Pulse, nor can authors resend a pulse that was previously sent using the template. Pulses already in progress aren't be impacted, nor are historical reports.
+When a survey has a state of **Deactivated**, it's not available for authors to use when sending a new Pulse, nor can authors resend a pulse that was previously sent using the template. Pulses already in progress aren't impacted, nor are historical reports.
 
 **Deleting a survey template**
 
@@ -131,7 +131,7 @@ Deactivating a standalone question can be undone at any time by marking it as **
 
 Questions that were originally provided with the Pulse app and have a source of either **Pulse** or **Pulse (customized)** can only be deactivated.
 
-When a question has a state of **Deactivated**, it's not available for authors to use when sending a new Pulse, nor can authors resend a pulse that was previously sent using the template. Pulses already in progress aren't be impacted, nor are historical reports.
+When a question has a state of **Deactivated**, it's not available for authors to use when sending a new Pulse, nor can authors resend a pulse that was previously sent using the template. Pulses already in progress aren't impacted, nor are historical reports.
 
 **Deleting a standalone question**
 
