@@ -119,7 +119,7 @@ For a list of available dashboard cards, along with a description of the tool an
    > [!NOTE]
    > If you've selected an audience group that you recently created or changed, it may take some time to see targeting applied for that group.
 
-4. When a card is successfully audience targeted, a **people** icon in the lower-left corner of the card appears.
+4. When a card is successfully audience targeted, a **people** icon appears.
 
    ![Screenshot showing the audience targeting confirmation icon.](../media/connections/audience-targeting-icon.png)
 
