@@ -52,8 +52,8 @@ You can add your company’s privacy policy to be shown in the app in place of t
 When the user clicks on **Privacy**, they're taken to your company’s privacy policy. To customize the privacy statement:
 
 1. In the **Manage** tab, go to the **Privacy** tab.
-2. Under the Minimum number of recipients and responses heading go to the Minimum responses section, where you can select a value between 1 and the current Minimum recipients setting using either the carrot or typing in the value.
-3. The value is autosaved.
+2. In the search bar, copy and paste the link to your company's privacy policy site. 
+3. The entry is autosaved.
 
 ### Diagnostic data
 
