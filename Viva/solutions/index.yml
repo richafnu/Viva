@@ -7,7 +7,7 @@ brand: m365
 metadata:
   title: Microsoft Viva Accelerators # Required; page title displayed in search results. Include the brand. < 60 chars.
   description: The Microsoft Viva Accelerators help you create foundation applications and workflows to solve common business problems. # Required; article description that is displayed in search results. < 160 chars.
-  ms.service: viva #Required; service per approved list. service slug assigned to your service by ACOM.
+  ms.service: viva-suite #Required; service per approved list. service slug assigned to your service by ACOM.
   ms.collection:
   ms.topic: hub-page
   author: madehmer 
