@@ -35,7 +35,7 @@ The following steps describe how to transition your network to Native Mode. For 
 
 ## 1. Initial steps to access the Native Mode Alignment Tool
 
-To align your network to Native Mode, your Microsoft tenant must have a single Viva Engage Network associated with it. If you have more than one Viva Engage Network in your tenant, you'll need to consolidate them. To do so, complete the steps in [Consolidate multiple Viva Engage networks](./configure-your-viva-engage-network/consolidate-multiple-networks.md).
+To align your network to Native Mode, your Microsoft tenant must have a single Viva Engage Network associated with it. If you have more than one Viva Engage Network in your tenant, you need to consolidate them. To do so, complete the steps in [Consolidate multiple Viva Engage networks](./configure-your-viva-engage-network/consolidate-multiple-networks.md).
 
 After consolidating the Engage network. make sure that it enforces Microsoft 365 identity. For more information, see [Enforce Microsoft 365 Identity](./configure-your-viva-engage-network/enforce-office-365-identity.md).
 
@@ -102,9 +102,15 @@ Take the following steps to export a large volume of content from your network:
 
 ## 5. Run the Alignment Tool for the first time
 
-After you review the Alignment Report, communicate upcoming changes to the users in your network, export your data, and are aware of the changes the tool makes in your network, you should be ready to run the tool for the first time.
+After you review the Alignment Report, make sure you've done the following tasks:
 
-The tool runs in the background of your Viva Engage network and has no noticeable effect on end users. When the tool starts to run, it makes changes to your network to prevent new unmapped users, unconnected groups, and other new entities.
+- Communicate upcoming changes to the users in your network
+- Export your data
+- POssess full knowledge of the changes the tool makes in your network. 
+
+You're ready to run the Native Mode Alignment Tool.
+
+The tool runs in the background of your Viva Engage network and has no effect on end users. When the tool starts, it makes changes to your network to prevent new unmapped users, unconnected groups, and other new entities.
 
 > [!IMPORTANT] 
 > In most cases, you'll need to run the Alignment Tool more than once.
@@ -124,16 +130,16 @@ The Alignment Tool runs in the background and doesn't affect end users. Small ne
 
 To check on the progress of the Alignment Tool, go back to the page where you started the tool. At the top of the page, a banner reports the current status of the tool, next steps, and whether the tool is ready for you to take next steps.
 
-Near the bottom of the screen, details about the status update every 30 minutes. Details include the number of users, groups, files, and so on, that have been migrated.
+Near the bottom of the screen, details about the status update every 30 minutes. Details include the number of migrated users, groups, and files.
 
 ## 7. Resolve the error report
 
-When the tool finishes, the banner at the top of the page reports one of two things. When the banner says that your network is successfully aligned to Native Mode, the alignment process is complete and no further action is required. If the banner says that the alignment failed and an error report was generated, you must download the error report and fix the errors. Most errors are easy to resolve and require that you rename a file that has characters that aren't allowed in SharePoint files.
+When the tool finishes, the banner at the top of the page gives a report. When the banner says that your network is successfully aligned to Native Mode, the alignment process is complete and no further action is required. If the banner says that the alignment failed and an error report is available, you must download the error report and fix the errors. Most errors are easy to resolve and require that you rename a file that has characters that aren't allowed in SharePoint files.
 
 > [!NOTE]
 > The error report appears at the very bottom of the page. This is a different report from the Alignment Report that you reviewed earlier.
 
-This CSV error report remains available until the next time the Alignment Tool is run. When the tool is run again, a new error report is generated.
+This CSV error report remains available until the next time the Alignment Tool is run. On a second run, the tool generates a new error report.
 
 The report contains a list of files that failed to migrate from Microsoft Entra ID to SharePoint, with error codes. For a list of common error codes and remediation steps, see the [error codes section of this article](troubleshoot-native-mode.md#error-codes). You also can enlist our Premier Support Team to help resolve errors. If you have a high volume of errors, the Support Team can provide scripts to bulk-update the files in your network for faster remediation.
 
