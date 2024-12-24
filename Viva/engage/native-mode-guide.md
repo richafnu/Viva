@@ -37,7 +37,7 @@ The following steps describe how to transition your network to Native Mode. For 
 
 To align your network to Native Mode, your Microsoft tenant must have a single Viva Engage Network associated with it. If you have more than one Viva Engage Network in your tenant, you need to consolidate them. To do so, complete the steps in [Consolidate multiple Viva Engage networks](./configure-your-viva-engage-network/consolidate-multiple-networks.md).
 
-After consolidating the Engage network. make sure that it enforces Microsoft 365 identity. For more information, see [Enforce Microsoft 365 Identity](./configure-your-viva-engage-network/enforce-office-365-identity.md).
+After consolidating the Engage network, make sure that it enforces Microsoft 365 identity. For more information, see [Enforce Microsoft 365 Identity](./configure-your-viva-engage-network/enforce-office-365-identity.md).
 
 ## 2. Access the Native Mode Alignment Tool
 
@@ -88,7 +88,7 @@ Immediately before you run the Alignment Tool, export any content from your Viva
 
 If you don't make regular data backups, export all the data in the home network that you want to keep. You can ignore external networks, because the Native Mode Alignment Tool doesn't affect them. You can export data from the beginning of your network, or export data going back a certain period of time. 
 
-The Native Mode Alignment Tool deletes certain data from your network, including files attached to private messages, and messages posted in previously deleted groups. Any data that's not backed up may be nonrecoverable after the Alignment Tool runs.
+The Native Mode Alignment Tool deletes certain data from your network, including files attached to private messages, and messages posted in previously deleted groups. Any data that isn't backed up might be nonrecoverable after the Alignment Tool runs.
 
 Take the following steps to export a large volume of content from your network:
 
@@ -117,7 +117,7 @@ The tool runs in the background of your Viva Engage network and has no effect on
 
 To run the tool, scroll to the bottom of the page and select the **Continue** button. 
 
-You'll receive a prompt to confirm that you've read and understand the changes that the tool makes to your network. Carefully read through the form and this guide, and make sure you fully understand the implications of running the tool.
+You receive a prompt to confirm that you've read and understand the changes that the tool makes to your network. Check through the form, and ensure you fully understand the implications of running the tool.
 
 > [!IMPORTANT]
 > The Native Mode Alignment Tool makes permanent and irreversible changes in your network. Data that's deleted through this process can't be recovered.
