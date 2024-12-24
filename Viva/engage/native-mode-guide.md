@@ -106,7 +106,7 @@ After you review the Alignment Report, make sure you've done the following tasks
 
 - Communicate upcoming changes to the users in your network
 - Export your data
-- POssess full knowledge of the changes the tool makes in your network. 
+- Possess full knowledge of the changes the tool makes in your network. 
 
 You're ready to run the Native Mode Alignment Tool.
 
