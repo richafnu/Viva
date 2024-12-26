@@ -35,13 +35,13 @@ Admin center configuration options vary based on licensing that includes Microso
 
 2. In the **Setup & Configuration** tab, select **Tenant settings**. 
 
-2. In the Tenant settings page, under **Other**, select **Manage other tenant configurations through the Viva Engage admin center**.
+3. In the Tenant settings page, under **Other**, select **Manage other tenant configurations through the Viva Engage admin center**.
 
-3. Under **Content & Security** on the left panel, select **Report conversations**.
+4. Under **Content & Security** on the left panel, select **Report conversations**.
 
     :::image type="content" source="../media/viva-engage-conversations-admin-report-conversations.png" alt-text="Screenshot that shows reporting settings.":::
 
-4. After you enable conversations, configure the following two settings:
+5. After you enable conversations, configure the following two settings:
 
     - **Report recipient (an organization email address)** - Enter an organization email address to receive reports. Viva Engage can't verify that the email address you enter is an organization email address.  
 
@@ -49,7 +49,7 @@ Admin center configuration options vary based on licensing that includes Microso
 
 For example, explain who receives the report, and the next steps. If you can, provide a link to the company's network usage guidelines. This field is limited to 1,500 characters.
 
-5. Optionally, use the **Post-submission instructions to user** setting to explain to your employees what happens after they submit a report. Set expectations for when the submitter can expect a response and describe next steps for the organization. This field is limited to 1,500 characters.  
+6. Optionally, use the **Post-submission instructions to user** setting to explain to your employees what happens after they submit a report. Set expectations for when the submitter can expect a response and describe next steps for the organization. This field is limited to 1,500 characters.  
 
     :::image type="content" source="../media/viva-engage-conversations-full-admin-panel.png" alt-text="Screenshot shows the reporting admin panel.":::
 
