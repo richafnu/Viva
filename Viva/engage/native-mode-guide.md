@@ -77,7 +77,7 @@ The report provides the following information:
 
 - **Which communities in your network don't have any owners or have owners who lack Microsoft 365 Group creation rights**
 
-  The Native Mode Alignment Tool creates a new Microsoft 365 Group, which is authorized by using the credentials of the existing owners of the Viva Engage community. If the community has no owner-or if no owners are authorized to create Microsoft 365 Groups-the tool creates the group using the credentials of the admin who started the Alignment Tool.
+  The Native Mode Alignment Tool creates a new Microsoft 365 Group, which is authorized by using the credentials of the existing owners of the Viva Engage community. If the community has no owner&#8212;or if no owners are authorized to create Microsoft 365 Groups&#8212;the tool creates the group using the credentials of the admin who started the Alignment Tool.
 
 > [!NOTE] 
 > Before you run the Alignment Tool, notify all users who have files stored in private messages, owners of any groups that are marked as unlisted, and owners of any external groups.
