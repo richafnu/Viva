@@ -2305,7 +2305,12 @@
     "source_path": "viva/glint/setup/360-download-csv.md",
     "redirect_url": "/viva/glint/Viva/glint/setup/360-manage-subjects",
     "redirect_document_id":false 
-        }
+  },
+  {
+    "source_path": "viva/glint/setup/platform-features-settings.md",
+    "redirect_url": "/viva/glint/introduction-viva-glint",
+    "redirect_document_id":false
+  },  
     ]
 
 }
