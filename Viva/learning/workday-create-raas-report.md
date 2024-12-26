@@ -90,7 +90,7 @@ This report should be created from the primary Admin account of Workday to avoid
 5. Add filters to the report under "Filter section" 
         
    | And/Or | `(` | Field | Operator | Comparison type | Comparison value | `)` | Indexed | 
-   | --- | --- |-- |----  | --- | ---- | ---|-----| 
+   | --- | --- |--|----  | --- | ---- | ---|-----| 
    | And | | Learning Content Type | exact match with the selection list | Prompt the user for the value |  Prompt #1 || Yes | 
    | And | |  Last Updated | greater than or equal to | Prompt the user for the value | Prompt #2 | | Yes | 
    | And | | Last Updated | less than or equal to | Prompt the user for the value | Prompt #3 | | Yes |
@@ -358,40 +358,13 @@ This report should be created from the primary Workday admin account to avoid an
 
     1. Add filters to the report for delta sync.
 
-       1. Go to "Filters". Select “+”, In “And/Or” select And. in "Field" select "create calculated field for report".
-       1. In next screen, write "Field name" as ModifiedDate and select "Function" as Build Date. Select **OK**.
-       1. In next screen, add following values under Date Fields and select **OK**.
-
-          | Field | Value |
-          | - | - |
-          | Extract Year from Date Field | Last Functionally Updated |
-          | Extract Month from Date Field | Last Functionally Updated |
-          | Extract Day from Date Field | Last Functionally Updated |
-
-       1. Add following values in remaining fields of the start filter:
-
-          |Field | Value|
-          | - | - |
-          | Field | ModifiedDate |
-          | Operator | Greater than or equal to |
-          | Comparison Type | Prompt the user for the value and ignore the filter condition if the value is blank |
-          | Comparison Value | Starting Prompt |
-
-       1. Add another filter and with following values and select **OK**.
-
-          |Field | Value|
-          | - | - |
-          | Field | ModifiedDate |
-          | Operator | Less than or equal to |
-          | Comparison Type |  Prompt the user for the value and ignore the filter condition if the value is blank |
-          | Comparison Value | Ending Prompt |
-        
-       1.	Go to filter and add 2 new "And" filters and input following values:
+   
+       1.	Go to the filter and add the following values:
         
           |     And/Or    |     (    |     Field    |     Operator    |     Comparison   type    |     Comparison   value    |     )    |     Indexed    |
           |---|---|---|---|---|---|---|---|
-          |     And    |          |     Modified Date    |     greater than or   equal to    |     Prompt the user   for the value    |     Starting Prompt    |          |          |
-          |     And    |          |     Modified Date    |     less than or   equal to    |     Prompt the user   for the value    |     Ending Prompt    |          |          |
+          |     And    |          |     Completion Date    |     greater than or   equal to    |     Prompt the user   for the value    |     Starting Prompt    |          |          |
+          |     And    |          |     Completion Date    |     less than or   equal to    |     Prompt the user   for the value    |     Ending Prompt    |          |          |
           |     And    |          |     Learning   Assignment    |     Is empty    |          |          |          |          |
           |     And    |          |     Completion   Status    |     In the selection   list    |     Value specified   in the filter    |     Completed    |          |     Yes    |
         
@@ -403,7 +376,7 @@ This report should be created from the primary Workday admin account to avoid an
 
 1. Go to **Prompts**.
 
-    1. Select **Populate Undefined Prompt Defaults**. This selection adds the start and ending prompt for the Modified date, which is defined in previous step.
+    1. Select **Populate Undefined Prompt Defaults**. This selection adds the start and ending prompt for the Completion date, which is defined in previous step.
     
        :::image type="content" alt-text="Screenshot of the Workday self enrollment completion prompts." source="../media/learning/workday-self-enrollment-completion-prompts.png" lightbox="../media/learning/workday-self-enrollment-completion-prompts.png":::
 
@@ -412,13 +385,16 @@ This report should be created from the primary Workday admin account to avoid an
        - For Starting Prompt, add value StartDate in fields Label for Prompt and Label for Prompt XML Alias
        - For Ending Prompt, add value EndDate in fields Label for Prompt and Label for Prompt XML Alias
 
-1. Go to **Advanced.** Uncheck the field **Optimized for Performance**. 
+2. Go to **Advanced.** Check the field **Optimized for Performance**. 
 
-1. Save the field. Select **OK**.
+   :::image type="content" alt-text="Screenshot of the Workday advanced option self enrollment report window." source="../media/learning/workday-advanced-option-self-enrollment-report.png" lightbox="../media/learning/workday-self-enrollment-completion-prompts.png":::
 
-1. Share the report with Integrated System User (ISU) and respective security group, which you created while enabling content sync. Go to the **Share** section in the report, select “Share with specific authorized groups and users” and add group name and user name in Authorized Groups and Authorized users field. 
 
-1. Within the next 24 hours, the LRS sync calls the report API and accordingly reflects the data in Viva Learning. This depends on whether the admin has enabled LRS on Admin portal. Refer to this document for configuration steps on the Admin portal.
+3. Save the field. Select **OK**.
+
+4. Share the report with Integrated System User (ISU) and respective security group, which you created while enabling content sync. Go to the **Share** section in the report, select “Share with specific authorized groups and users” and add group name and user name in Authorized Groups and Authorized users field. 
+
+5. Within the next 24 hours, the LRS sync calls the report API and accordingly reflects the data in Viva Learning. This depends on whether the admin enabled LRS on Admin portal. Refer to this document for configuration steps on the Admin portal.
 
 > [!NOTE]
 > Lessons aren't supported in self-enrollment completion status.

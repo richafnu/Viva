@@ -24,9 +24,9 @@ search.appverid:
 
 Advanced analytics capabilities in Viva Engage enable the following scenarios:
 
-- Users can monitor their own engagement metrics through _personal_ and _Answers analytics_
+- All users can monitor their own engagement metrics through _personal_, _Answers_, and _Community analytics_
 - Leaders and their delegates can monitor engagement for their audiences through _audience analytics_
-- Corporate communicators and campaign coorganizers can manage campaign engagement through _campaign analytics_
+- Corporate communicators and campaign co-organizers can manage campaign engagement through _campaign analytics_
 - Knowledge admins can monitor Answer engagement through global _Answers analytics_
 - Network admins and corporate communicators can track organization-wide engagement through _network analytics_
 
@@ -39,11 +39,11 @@ Analytics features are available in [all languages that Viva Engage supports](ht
 
 - To open analytics, select the analytics icon on the top navigation bar in Viva Engage.
 
-Most analytics data is refreshed every 24 hours. Conversation and community analytics update in near real time. If you don’t see changes reflected immediately, check back the next day.
+Most analytics data refreshes every 24 hours. Conversation and community analytics update in near real time. If you don’t see changes reflected immediately, check back the next day.
 
 ## Manage analytics
 
-Only users assigned the Network admin role can turn analytics features on or off. To enable or disable metrics from the **Manage analytics** interface of the Viva Engage admin center, follow these steps.
+Only Network admin role users can turn analytics features on or off. To enable or disable metrics from the **Manage analytics** interface of the Viva Engage admin center, follow these steps.
 
 1. From [Viva Engage on the web](https://engage.cloud.microsoft/main/admin), go to the gear icon in the top navigation menu and select **Admin center**. From the Viva Engage Teams app, select the ellipses button from the top navigation menu, and then select **Admin**.
 
@@ -53,16 +53,21 @@ Only users assigned the Network admin role can turn analytics features on or off
 
    [![Screenshot of the Viva Engage admin center for managing Analytics.](/Viva/media/engage/admin/manage-analytics-eac.png)](/Viva/media/engage/admin/manage-analytics-eac.png#lightbox)
 
-3. From the **Analytics settings** page, network admins can select the **Feature access management** link to implement AI-related features, like sentiment analysis and theme extraction in Microsoft 365. See the next section for details.
+3. From the **Analytics settings** page, network admins can select the **Feature access management** link to activate AI-related features. These features include sentiment analysis and theme extraction in Microsoft 365. See [Manage AI Summarization in Microsoft 365](#manage-ai-summarization-in-microsoft-365) for details.
 
    [![Screenshot of settings to manage Analytics.](/Viva/media/engage/admin/analytics-admin-settings.png)](/Viva/media/engage/admin/analytics-admin-settings.png#lightbox)
 
+## Community analytics
+
+All licensed users have access to public community analytics, while only community members can see analytics for their private communities. Community admins and corporate communicators can view some advanced metrics, including time saved, people helped, and community optimizer tips.
+
+Engage network admins can adjust community analytics feature settings by visiting the **Analytics and AI** page in the Engage admin center. 
 
 ## Manage AI Summarization in Microsoft 365
 
-When the AI Summarization service is enabled, it processes Viva Engage threads in the background to provide a richer data experience for Network analytics. AI Summarization data is used for network theme extraction, conversation summarization, and network sentiment analysis.
+When you enable the AI Summarization service, it processes Viva Engage threads in the background to provide a richer data experience for Network analytics. Viva Engage uses AI Summarization data for network theme extraction, conversation summarization, and network sentiment analysis.
 
-Engage admins can manage AI Summarization for their network through Viva Feature access management in the Microsoft 365 admin center. Feature access management offers a more flexible approach to deployment by allowing admins to enable or disable this service for specific users and groups in the tenant. To learn more, see [Viva Feature access management](/viva/feature-access-management) and [AI Summarization enablement states](/viva/engage/engage-ai-summarization).
+Engage admins can manage AI Summarization for their network through Viva Feature access management in the Microsoft 365 admin center. By allowing admins to enable or disable AI Summarization for specific users and groups in the tenant, Viva Feature access management offers a more flexible approach to deployment. To learn more, see [Viva Feature access management](/viva/feature-access-management) and [AI Summarization enablement states](/viva/engage/engage-ai-summarization).
 
 ## Network analytics
 
@@ -80,7 +85,7 @@ Learn more about metrics featured in the Network analytics dashboard on the [Viv
 ## Audience analytics  
 
 >[!NOTE]
->Audience analytics are only viewable by leaders who have at least one primary assigned audience (minumum audience size of 5) and their delegates.
+>Audience analytics are viewable by leaders who have at least one primary assigned audience (minumum audience size of 5) and their delegates.
 
 In the **Manage analytics** interface shown earlier, the Engage admin can adjust the level of sentiment analysis that's available to leaders and their delegates through the **Audience analytics** dashboard. This functionality enables unique levels of sentiment collection at the audience, theme, or conversation level.
 
@@ -92,9 +97,9 @@ Access is through the analytics icon on the top navigation bar or on the leader'
 
 *Sentiment analysis* uses Azure Cognitive Services (ACS) to aggregate and analyze posts, while *themes analysis* draws from LLM (large language model), storyline comments, and public posts. Posts and comments from private communities are included in the aggregate only if the leader is a member and has permission to view them. Individual messages are never shown. Learn more about [Sentiment analysis in Viva Engage](https://support.microsoft.com/en-us/topic/sentiment-and-theme-analysis-in-viva-engage-065c3355-d156-4bf8-afdb-663b0724befd).
 
-- **Audience-level sentiment** controls the *Sentiment* metric. When this toggle is turned off, leaders and their delegates have no access to sentiment analysis features and past data for all audiences is deleted.
+- **Audience-level sentiment** controls the *Sentiment* metric. Turning off this toggle prevents leaders and their delegates from viewing results for audience sentiment analysis. Doing so also deletes past data for all audiences.
 
-- **Theme-level sentiment** controls the *Themes* metric. When this toggle is turned off, leaders and their delegates won’t see results indicating sentiment toward frequently discussed subjects in their audience.
+- **Theme-level sentiment** controls the *Themes* metric. Turning off this toggle prevents leaders and their delegates from viewing results that measure sentiment toward frequently discussed subjects in their audience.
 
 ## Global Answers analytics
 
@@ -114,7 +119,7 @@ All licensed users have access to personal analytics that help monitor the engag
 
 ## Campaign analytics  
 
-Engage admins and corporate communicators have access to analytics to monitor campaign engagement to improve future campaigns. You can access campaign analytics from the **Campaign management** dashboard, the campaign landing page, or the analytics icon on the main navigation menu of Viva Engage.
+To monitor campaign engagement for insight to improve future campaigns, Engage admins and corporate communicators have access to campaign analytics. You can access them from the **Campaign management** dashboard, the campaign landing page, or the analytics icon on the main navigation menu of Viva Engage.
 
 [![Screenshot of the Campaign analytics landing page.](/Viva/media/engage/admin/campaign-analytics.png)](/Viva/media/engage/admin/campaign-analytics.png#lightbox)
 
