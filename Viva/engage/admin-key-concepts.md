@@ -74,9 +74,9 @@ This article describes the key concepts you should know and key decisions you sh
 
 6. Consider how you want to integrate Viva Engage with other apps, including SharePoint and Teams.
 
-7. Define how your organization will train and support Viva Engage users. End-user support options include online help and training and the online community. See [Viva Engage help center](https://support.office.com/article/8663922d-8f76-47c2-827a-ee86e8cac00f.aspx). Consider creating a Viva Engage 101 group–your own local self-support community.
+7. Define how your organization will train and support Viva Engage users. End-user support options include online help and training and the online community. See [Viva Engage help center](https://support.microsoft.com/viva-engage). Consider creating a Viva Engage 101 group–your own local self-support community.
 
-    If you need more help than [Viva Engage admin help](../TOC.yml) provides, [contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
+    If you need more help, [contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
 
     To check the real-time status of the Viva Engage service, see [Microsoft 365 Service health dashboard](https://admin.microsoft.com/AdminPortal/Home#/servicehealth).
 
