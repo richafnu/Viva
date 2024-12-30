@@ -43,8 +43,8 @@ For network and tenant administrators, SharePoint has a rich set of security and
 
 End users work with the familiar SharePoint user interface for file navigation and management, with the following capabilities:
 
-- Use Microsoft Search for greater discoverability and easier access
-- Browse or search features in SharePoint and Delve to find and access files through Viva Engage, SharePoint, and other Microsoft 365 resources  
+- Use Microsoft Search for greater discoverability and easier access.
+- Browse or search features in SharePoint and Delve to find and access files through Viva Engage, SharePoint, and other Microsoft 365 resources.
 - Enable offline access to files by syncing a SharePoint folders to a folder on their computer.  
 
 <!-- Links in the short bulleted list to be hidden but keep for possible future use per request-->
