@@ -72,7 +72,7 @@ Viva Engage Enterprise offers admins security and compliance tools that aren't p
 |:-----|:-----|
 |Use Microsoft 365 group naming policies to enforce consistent group naming.  <br/> |[Microsoft 365 Groups naming policy](https://support.office.com/article/6ceca4d3-cad1-4532-9f0f-d469dfbbb552)\*  <br/> |
 |For large organizations, use dynamic groups to update group membership automatically as people join, leave, or move within your organization.  <br/> |[Create a dynamic group in Viva Engage](../manage-viva-engage-groups/create-a-dynamic-group.md) \*  <br/> |
-|Set expiration policies for Microsoft 365 connected Viva Engage groups. When set, group owners are prompted to renew the groups if they still need them.  <br/> |[Microsoft 365 Group Expiration policy](/microsoft-365/solutions/microsoft-365-groups-expiration-policy?view=o365-worldwide)\*  <br/> |
+|Set expiration policies for Microsoft 365 connected Viva Engage groups. When set, group owners are prompted to renew the groups if they still need them.  <br/> |[Microsoft 365 Group Expiration policy](/microsoft-365/solutions/microsoft-365-groups-expiration-policy?view=o365-worldwide&preserve-view=true)\*  <br/> |
 
 <a name="Security"> </a>
 ## Security FAQ
