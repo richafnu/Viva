@@ -1,5 +1,5 @@
 ---
-ms.date: 05/07/2024
+ms.date: 12/09/2024
 title: Advanced insights privacy
 description: Learn more about privacy in advanced insights
 author: zachminers
@@ -118,7 +118,7 @@ Some insights measure how many people have a certain profile, like what percenta
 
 ### Differential privacy 
 
-Microsoft Viva Insights is serious about protecting individual privacy. Privacy can always be guaranteed if no information is revealed, which is not useful. Similarly, making all information available can lead to high-fidelity metrics that compromise individual privacy. 
+Microsoft Viva Insights is serious about protecting individual privacy. Privacy can always be guaranteed if no information is revealed, which isn't useful. Similarly, making all information available can lead to high-fidelity metrics that compromise individual privacy. 
 
 Differential privacy offers a balance between providing useful information and protecting individual privacy. Using methods from world-class researchers, Viva Insights randomly adjusts individual observations such that the aggregated adjustments offset each other, and the aggregated result that the user sees is still accurate. With differential privacy, users can’t discern true individual results, because the individual results used in the calculation have been changed. For more details, refer to [Differential Privacy for Everyone](https://download.microsoft.com/download/D/1/F/D1F0DFF5-8BA9-4BDF-8924-7816932F6825/Differential_Privacy_for_Everyone.pdf). 
 
@@ -136,11 +136,17 @@ Viva Insights provides the Microsoft 365 administrator and Insights Administrato
 
 You retain full control over what data is used and how it's used within Viva Insights. Viva Insights uses Microsoft 365 email and calendar metadata and external data defined by your organization (usually exported from an HR system) to compute how much time groups within your organization spend in meetings, emails, calls, and chats, and with whom. 
 
-Viva Insights processes data sourced with organizational data from your own HR system and collaboration data from Microsoft 365 to provide analysts with a unified pool of data on which to perform analyses. 
+Viva Insights processes data sourced with organizational data from your own HR system and collaboration data from Microsoft 365 to provide analysts with a unified pool of data on which to perform analyses.
+
+### Data from Microsoft 365 Copilot
+
+Viva Insights processes usage signals from licensed Microsoft 365 Copilot users. [Learn more about the Copilot metrics available in Viva Insights](..//..//advanced/reference/metrics.md#microsoft-365-copilot-metrics).
 
 ### Data processed from Microsoft 365 
 
-Viva Insights uses collaboration data from Microsoft 365. By assigning or not assigning a Viva Insights license to a person, the Microsoft 365 administrator controls whether that person's collaboration data is processed by Viva Insights. 
+Viva Insights uses collaboration data from Microsoft 365. By assigning or not assigning a Viva Insights license to a person, the Microsoft 365 administrator controls whether that person's collaboration data is processed by Viva Insights.
+
+Additionally, users assigned the Viva Insights analyst role can choose which collaboration metrics to include in each query and can choose not to include any collaboration data.  
 
 Viva Insights uses header information from Microsoft 365 email and calendar items. This header information includes sender and recipient, date, and subject lines for email, and organizer, attendee, and duration of meetings. Viva Insights never includes attachments and content in email and calendar items.  
 
@@ -233,10 +239,7 @@ This means that Viva Insights won't have any collaboration data that's older tha
 
 If the Viva Insights license is removed from a user, Viva Insights retains that user's collaboration data that was collected during the period the license was assigned. However, for a user to appear in query results, that user needs to have a license at the time the query is run. [Learn more about when users show up in query results.](../setup-maint/assign-licenses.md#when-users-show-up-in-query-results)
 
-
 The person's collaboration data will be deleted according to the overall retention policy described in [Data retention for active tenants](#data-retention-for-active-tenants). 
-
-To permanently remove data from users after licenses are removed, you can contact Microsoft customer support to request a collaboration data reset. 
 
 For information about data deletion requests as handled under the GDPR, refer to [Managing data subject requests](#managing-data-subject-requests). 
 
