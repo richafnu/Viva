@@ -168,5 +168,5 @@ The statuses for baseline key results are: **Not started, In-progress, Closed, P
 
 ## FAQ (Frequently Asked Questions)
 
-### Q: **After adding risk threshold to an existing control metric the status will automatically change to Behind?**
+#### Q: **After adding risk threshold to an existing control metric the status will automatically change to Behind?**
 **A:** No, only the next time when you make a check-in or edit the values, will the status get updated to **Behind** until then it will continue to stay **At-risk** or **On-track** only whatever the status was before the risk threshold was added.
