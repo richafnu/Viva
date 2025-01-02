@@ -42,7 +42,7 @@ Choose the approach that makes sense for your situation, and **follow the steps 
 Use the Viva Engage file ID from the export to go directly to the file in Viva Engage and delete it.
 
 > [!IMPORTANT]
-> For Viva Engage files stored in SharePoint, delete the files from Viva Engage in order to remove the Viva Engage metadata as well as the file.
+> For Viva Engage files stored in SharePoint, delete the files from Viva Engage in order to remove the Viva Engage metadata and the file.
   
 **To locate and delete a specific message:**
 
@@ -58,7 +58,7 @@ Use the Viva Engage file ID from the export to go directly to the file in Viva E
 
 **To delete the cover images for a user:**
 > [!NOTE]
-> In cases where the admin or the user are not premium licensed, and/or the user no longer has their own storyline, previously uploaded photos will need to be deleted via API.
+> In cases where the admin or the user aren't premium licensed, or the user no longer has their own storyline, previously uploaded photos need to be deleted via API.
 
  1. Via API: Engage Admins or verified admins can delete cover images for any user in their tenant via an API call. The URL has this syntax: www&#46;yammer&#46;com/api/public/v1/user-profiles/*user_id*/cover-image.
 
@@ -83,9 +83,9 @@ The following table shows how to change or delete this data if needed.
 
 | Type of data | How to change or delete it |
 |:-----|:-----|
-|Bookmarked messages, group membership, followed or following users, and followed topics | When you [erase a user from the Viva Engage home tenant and external tenants](gdpr-requests-in-viva-engage-enterprise.md#RemoveUser), this information is deleted after the 14-day suspension period. <br><br> Users can change or delete their own information. For steps, see [TChange my Viva Engage profile and settings (Web and Desktop)](https://support.microsoft.com/en-us/office/change-my-viva-engage-profile-and-settings-web-and-desktop-ab813bce-5312-4688-94ee-70018545cd3c). |
+|Bookmarked messages, group membership, followed or following users, and followed articles | When you [erase a user from the Viva Engage home tenant and external tenants](gdpr-requests-in-viva-engage-enterprise.md#RemoveUser), this information is deleted after the 14-day suspension period. <br><br> Users can change or delete their own information. For steps, see [Change my Viva Engage profile and settings (Web and Desktop)](https://support.microsoft.com/en-us/office/change-my-viva-engage-profile-and-settings-web-and-desktop-ab813bce-5312-4688-94ee-70018545cd3c). |
 |User settings, including notification, application, and language settings | When you [erase a user from your Viva Engage home tenant and external tenants](gdpr-requests-in-viva-engage-enterprise.md#RemoveUser), this information is deleted after the 14-day suspension period. As an admin, you can't change this information for a user.<br><br>However, a user can change their own settings. For steps, see [Change my Viva Engage profile and settings (Web and Desktop)](https://support.microsoft.com/office/change-my-viva-engage-profile-and-settings-web-and-desktop-ab813bce-5312-4688-94ee-70018545cd3c). |
-|User profile | If the user has a Viva Engage identity, there are two options to remove the user: <ul><li>When you [erase a user from your Viva Engage home tenant and external tenants](gdpr-requests-in-viva-engage-enterprise.md#RemoveUser), Viva Engage deletes this information after the 14-day suspension period.</li><li>When the user has full control of their own profile, and can modify its values. See [Edit the user's profile and settings (done by user)](gdpr-requests-in-viva-engage-enterprise.md#EditProfile).</li></ul> If the user has a Microsoft 365 identity, the Viva Engage user profile is pulled from Microsoft 365, which gets the information from Microsoft Entra ID. Viva Engage users can temporarily change their profiles in Viva Engage. If a change occurs in the Microsoft Entra ID, their changes are overwritten. **To permanently change or delete a user's profile, you must change or delete directory data in Microsoft 365 and in Microsoft Entra ID**. See [Manage Viva Engage users across their lifecycle from Microsoft 365](https://learn.microsoft.com/en-us/viva/engage/manage-viva-engage-users/manage-users-across-their-lifecycle) and [Add or change profile information for a user in Microsoft Entra ID](/azure/active-directory/fundamentals/active-directory-users-profile-azure-portal). |
+|User profile | If the user has a Viva Engage identity, there are two options to remove the user: <ul><li>When you [erase a user from your Viva Engage home tenant and external tenants](gdpr-requests-in-viva-engage-enterprise.md#RemoveUser), Viva Engage deletes this information after the 14-day suspension period.</li><li>When the user has full control of their own profile, and can modify its values. See [Edit the user's profile and settings (done by user)](gdpr-requests-in-viva-engage-enterprise.md#EditProfile).</li></ul> If the user has a Microsoft 365 identity, the Viva Engage user profile is pulled from Microsoft 365, which gets the information from Microsoft Entra ID. Viva Engage users can temporarily change their profiles in Viva Engage. If a change occurs in the Microsoft Entra ID, their changes are overwritten. **To permanently change or delete a user's profile, you must change or delete directory data in Microsoft 365 and in Microsoft Entra ID**. See [Manage Viva Engage users across their lifecycle from Microsoft 365](https://learn.microsoft.com/viva/engage/manage-viva-engage-users/manage-users-across-their-lifecycle) and [Add or change profile information for a user in Microsoft Entra ID](/azure/active-directory/fundamentals/active-directory-users-profile-azure-portal). |
 
 <a name="EditProfile"> </a>
 ## Edit the user's profile and settings (done by user)
@@ -127,7 +127,7 @@ A user can edit their own profile. Administrators can't change the user profile 
 ## Erase a user from your Viva Engage home tenant and external tenants
 
 > [!IMPORTANT]
-> When you erase a user, you have a 14-day window to decide which files and messages to save or delete in the home tenant before the user-identifying data is completely erased. If you want to review and delete some or all of the user's messages and files, be sure to export user data and do the deletions before erasing the user's account, or within 14 days after selecting **Erase this user**. After the 14-day window, files and messages still exist, but will be marked as belonging to a former user.<br><br>After a user's account transitions from deactivated to removed, you can't associate user data with that user, which means you can no longer export and review their data.
+> When you erase a user, you have a 14-day window to decide which files and messages to save or delete in the home tenant before the user-identifying data is erased. If you want to review and delete some or all of the user's messages and files, be sure to export user data and do the deletions before erasing the user's account, or within 14 days after selecting **Erase this user**. After the 14-day window, files and messages still exist, but will be marked as belonging to a former user.<br><br>After a user's account transitions from deactivated to removed, you can't associate user data with that user, which means you can no longer export and review their data.
 
 > [!IMPORTANT]
 > To review and delete messages and files in external groups, external threads, and tenants of which the user is a member, see [Delete specific messages or Viva Engage files stored in Viva Engage or SharePoint](gdpr-requests-in-viva-engage-enterprise.md#DeleteMessagesFiles) *before*  erasing the user. After you select **Erase this user**, the user is no longer associated with those messages and files.
@@ -137,7 +137,7 @@ A user can edit their own profile. Administrators can't change the user profile 
   
 When you erase a user, the following user data is deleted:
   
-- Who the person is following, the connection to conversations and topics they were following, and the connection to users who were following them
+- Who the person is following, connections to conversations and articles they're following, and connections to users who were following them
 
 - Bookmarks, language preferences, notification settings, and account activity
 
