@@ -96,7 +96,7 @@ Progress and status for the regular KR types are determined by two types of prog
 1. From a data source (Integration) 
 1. Roll up from Key results
 
-### Status calculation for regular KR types: 
+### Status calculation for regular KR types
 
 There are two ways in which status can be determined.
 
@@ -168,5 +168,5 @@ The statuses for baseline key results are: **Not started, In-progress, Closed, P
 
 ## FAQ (Frequently Asked Questions)
 
-1. **After adding risk threshold to an existing control metric the status will automatically change to Behind?**
-    1. No, only the next time when you make a check-in or edit the values, will the status get updated to **Behind** until then it will continue to stay **At-risk** or **On-track** only whatever the status was before the risk threshold was added.  
+### Q: **After adding risk threshold to an existing control metric the status will automatically change to Behind?**
+**A:** No, only the next time when you make a check-in or edit the values, will the status get updated to **Behind** until then it will continue to stay **At-risk** or **On-track** only whatever the status was before the risk threshold was added.
