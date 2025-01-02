@@ -42,7 +42,7 @@ Use control key result types when you must maintain key results above or below a
 1. *Stay below:* Use when a metric must remain *below* a certain threshold. An example is “Keep customer churn below $100,000.” The only input is the target value, which acts as a threshold for success.
 1. *Stay above:* Use when a metric must remain above a certain threshold. An example is “Keep the customer NPS score above nine.” The only input is the target value, which acts as a threshold for success.
 
-#### Add risk thresholds to control metrics**
+#### Add risk thresholds to control metrics
 
 You can optionally add a risk threshold value to control metrics, which specifies above or below which values you'll address or accept risks. You can configure: 
 
@@ -83,7 +83,7 @@ To configure key result types, select **More options** (the ellipsis) next to an
 > [!NOTE]
 > You can also edit or set a type for an existing key result by selecting **More options** (the ellipsis) next to a key result, and then selecting **Edit**. The **Edit Key Result** window opens, in which you can modify the existing data and add metrics and targets, among other information. 
 
-## Progress and Status Calculation: 
+## Progress and Status Calculation
 Progress and status calculations in Viva Goals vary depending on the key result categories—regular KR types and control KR types.  
 
 ### Progress status calculation for regular KR types  
