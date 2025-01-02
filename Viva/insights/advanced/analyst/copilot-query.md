@@ -40,7 +40,7 @@ If you’re not sure what type of query to run, Copilot can suggest a predefined
 
 3. A panel on the right will appear with suggested templates and queries to get you started. If one of those looks like a good fit, select it.
 
-    :::image type="content" source="../images/copilot-analyst-create-analysis.png" alt-text="Screenshot that shows where to find specific queries suggested by Copilot.":::
+    :::image type="content" source="../images/copilot-analyst-create-analysis.png" lightbox="../images/copilot-analyst-create-analysis.png" alt-text="Screenshot that shows where to find specific queries suggested by Copilot.":::
 
 4. Or, if the suggestions don’t seem like a good fit, type the question you’re looking to answer in natural language, such as, "How does Copilot usage compare across organizations?" Copilot will then suggest a template or query.
 
@@ -48,7 +48,7 @@ If you’re not sure what type of query to run, Copilot can suggest a predefined
 
 5. If the suggestion looks like a good fit, select **View report** or **Set up analysis**. Or, type a new question, and Copilot will suggest something different. To view the report's analysis immediately, select **View report**.
 
-    :::image type="content" source="../images/copilot-analyst-view-report.png" alt-text="Screenshot that shows how to view the report's insights.":::
+    :::image type="content" source="../images/copilot-analyst-view-report.png" lightbox="../images/copilot-analyst-view-report.png" alt-text="Screenshot that shows how to view the report's insights.":::
 
 6. If you select **Set up analysis**, you're brought to the main setup page. Under **Query setup**:
     1. Type a **Query name**. 
