@@ -64,9 +64,9 @@ If you’re not sure what type of query to run, Copilot can suggest a predefined
     >[!Note]
     > The **More settings** pane also contains **Group by** settings. Power BI queries are set to **Group by Week**, and you can't edit this field.
 
-7. Under **Metrics, filters, and organizational attributes**, view the list of preselected parameters, which appear as gray tags. These parameters are required to set up the query and you can’t remove them. You can, however, add other parameters, and Copilot can help with this too. Use the [steps outlined below](#how-to-use-copilot-to-build-your-person-query).
+7. Under **Metrics, filters, and organizational attributes**, view the list of preselected parameters, which appear as gray tags. These parameters are required to set up the query and you can't remove them. You can, however, add other parameters, and Copilot can help with this too. Use the [steps outlined below](#how-to-use-copilot-to-build-your-person-query).
 
-8. When you’re ready to run the query, in the screen’s upper right, select **Run**.
+8. When you're ready to run the query, in the screen's upper right, select **Run**.
 
 ## How to use Copilot to build your person query
 
@@ -92,7 +92,7 @@ Next, you need to add metrics, filters, and attributes. This is where Copilot co
 
 5. After you've chosen your new parameters, if you want to ask another question, type it in the panel. To use the new suggestions instead of the parameters you've already chosen, select **Replace the current query**.
 
-6. When you’re ready to run the query, in the screen’s upper right, select **Run**. You can [access the query’s results](./query-results.md) just like you normally would.
+6. When you’re ready to run the query, in the screen's upper right, select **Run**. You can [access the query's results](./query-results.md) just like you normally would.
 
 ## Administrator controls
 
@@ -100,4 +100,4 @@ This feature is on by default. If you don't want users to access Copilot, you 
 
 ### Related topics
 
-* [Data, Privacy, and Security for Microsoft 365 Copilot in Viva Insights](..//..//copilot-data-privacy-security.md)
+* [Data, Privacy, and Security for Microsoft 365 Copilot in Viva Insights](../../copilot-data-privacy-security.md)
