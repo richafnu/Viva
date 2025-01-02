@@ -80,7 +80,7 @@ To configure key result types, select **More options** (the ellipsis) next to an
 
     :::image type="content" source="../../media/goals/create-kr-button.png" alt-text="Screenshot that shows the create button to save your changes and create your Key Result." lightbox="../../media/goals/create-kr-button.png":::
 
-> **Note**
+> [!NOTE]
 > You can also edit or set a type for an existing key result by selecting **More options** (the ellipsis) next to a key result, and then selecting **Edit**. The **Edit Key Result** window opens, in which you can modify the existing data and add metrics and targets, among other information. 
 
 ## Progress and Status Calculation: 
