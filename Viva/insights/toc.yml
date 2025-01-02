@@ -194,6 +194,8 @@ items:
               href: advanced/analyst/templates/wellbeing.md
             - name: Power BI tips, FAQ, and troubleshooting
               href: advanced/analyst/templates/power-bi-faq-troubleshoot.md  
+          - name: Set up your queries using Copilot 
+            href: advanced/analyst/copilot-query.md
           - name: Publish reports
             href: advanced/analyst/publish-reports.md
           - name: Data quality
@@ -232,6 +234,8 @@ items:
           href: org-team-insights/delegate-access.md   
         - name: Manage settings for the Copilot Dashboard
           href: advanced/admin/manage-settings-copilot-dashboard.md
+        - name: Set up analyst queries using Copilot 
+          href: advanced/analyst/copilot-query.md
         - name: Microsoft 365 Copilot adoption report
           href: advanced/analyst/templates/microsoft-365-copilot-adoption.md   
         - name: Microsoft 365 Copilot impact report
@@ -244,6 +248,8 @@ items:
           href: advanced/admin/import-business-data-azure.md   
         - name: Copilot Business Outcome (Copilot Business Impact) report
           href: advanced/analyst/templates/copilot-business-impact.md   
+        - name: Data, privacy, and security for Copilot
+          href: copilot-data-privacy-security.md   
       - name: Troubleshoot
         items:
         - name: Resolve Viva Insights errors 
