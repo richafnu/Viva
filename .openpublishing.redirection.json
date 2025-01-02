@@ -16,6 +16,11 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "viva/learning/workday-integration.md",
+      "redirect_url": "/viva/learning/workday-intro",
+      "redirect_document_id": true
+    },    
+    {
       "source_path": "viva/learning/configure-successfactors-content-source.md",
       "redirect_url": "/viva/learning/sfsf-introduction",
       "redirect_document_id": true
@@ -2227,8 +2232,48 @@
     "redirect_document_id": false
   },
   {
+    "source_path": "viva/goals/viva-goals-healthy-okr-program/rob-recommendations.md",
+    "redirect_url": "/viva/goals/viva-goals-healthy-okr-program/rhythm-of-business-overview",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "viva/goals/viva-goals-trials.md",
+    "redirect_url": "/viva/goals/goals-retirement",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "viva/goals/it-admin-trials.md",
+    "redirect_url": "/viva/goals/goals-retirement",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "viva/goals/self-service-trials.md",
+    "redirect_url": "/viva/goals/goals-retirement",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "viva/goals/trials-checklist.md",
+    "redirect_url": "/viva/goals/goals-retirement",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "viva/goals/nudge-users-to-check-in.md",
+    "redirect_url": "/viva/goals/viva-goals-healthy-okr-program/check-in-okrs-overview",
+    "redirect_document_id": false
+  },
+  {
     "source_path": "viva/copilot/deployment-permissions.md",
     "redirect_url": "/viva/glint/introduction-viva-glint",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "viva/goals/viva-goals-healthy-okr-program/check-in-recommendations.md",
+    "redirect_url": "/viva/goals/viva-goals-healthy-okr-program/check-in-okrs-overview",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "viva/goals/viva-goals-healthy-okr-program/close-recommendations.md",
+    "redirect_url": "/viva/goals/viva-goals-healthy-okr-program/close-okrs-overview",
     "redirect_document_id": false
   },
   {
@@ -2260,7 +2305,12 @@
     "source_path": "viva/glint/setup/360-download-csv.md",
     "redirect_url": "/viva/glint/Viva/glint/setup/360-manage-subjects",
     "redirect_document_id":false 
-        }
+  },
+  {
+    "source_path": "viva/glint/setup/platform-features-settings.md",
+    "redirect_url": "/viva/glint/introduction-viva-glint",
+    "redirect_document_id":false
+  },  
     ]
 
 }
