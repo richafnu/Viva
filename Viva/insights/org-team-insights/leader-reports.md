@@ -1,5 +1,5 @@
 ---
-ms.date: 09/18/2024
+ms.date: 01/06/2025
 title: Use Leader reports to uncover key business outcomes
 description: Learn how to use Leader reports in Viva Insights to view metrics and suggested actions focused on specific business outcomes.
 author: zachminers
@@ -44,11 +44,11 @@ You can sort by any of the headers in the **Groups within your organization**�
 
 To view these reports:
 
-* Your Insights admin needs to assign you the **Insights Business Leader** role. With this role, you can access organization insights that include every measured employee in your tenant.
+* Your **Group Manager** has given you delegate access to organization insights that include every measured employee in your tenant.
 
 * Or, you’ve been assigned the **Group Manager** role, and you have a number of direct and indirect reports that meets or exceeds the minimum group size your Insights admin set. With this role, you can access organization insights that include people who report to you directly or indirectly.
 
-* If you’ve been assigned both the **Insights Business Leader** role and the **Group Manager** role, you can view the relevant organization insights for either role. [Learn more about insights by role](./org-insights.md).
+* If you have delegate access *and* you're a **Group Manager**, you can view the relevant organization insights for either role. [Learn more about insights by role](./org-insights.md).
 
 ### Overview of the Leader reports
 
