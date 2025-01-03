@@ -67,7 +67,7 @@ If you have access to the dashboard, you can also delegate access to the dashboa
 
 ## How access to the Copilot Dashboard is determined
 
-For customers who use Microsoft Entra ID (formerly known as Azure Active Directory) to manage user profile data like organization or manager data, the Copilot Dashboard is automatically available to a limited number of users. Access is based on Microsoft Entra ID Data, specifically the manager hierarchy attribute. Microsoft 366 Global Administrators can disable access at any time.  
+For customers who use Microsoft Entra ID (formerly known as Azure Active Directory) to manage user profile data like organization or manager data, the Copilot Dashboard is automatically available to a limited number of users. Access is based on Microsoft Entra ID Data, specifically the manager hierarchy attribute. Microsoft 365 Global Administrators can disable access at any time.  
 
 Users who are senior leaders within large teams as determined by their Entra ID data manager attribute can automatically view the report. Tenants must meet both of the following criteria to qualify:
 
@@ -223,7 +223,7 @@ You can sort the table by the headers. For example, to sort by the metric value,
 
 ###### **Insight #2: Breakdown of Copilot usage across different Microsoft 365 apps**
 
-App totals reflect the total number of adoption metrics in the following Microsoft 365 apps: Microsoft Teams, Outlook, Word, Excel, PowerPoint, and Business Chat (work).
+App totals reflect the total number of adoption metrics in the following Microsoft 365 apps: Microsoft Teams, Outlook, Word, Excel, PowerPoint, Business Chat (work), and Business Chat (web).
 
 Group totals reflect all users based on the filtered group, including groups that are below the minimum group size.
 
@@ -264,7 +264,7 @@ Group totals reflect all users based on the filtered group, including groups tha
 | Business Chat (work) prompts submitted | The number of prompts submitted by users in Business Chat (work), formerly called Copilot chat (work). Includes prompts submitted through Teams, Outlook, Edge, and the Microsoft 365 app. |
 | Business Chat (work) prompts submitted in Teams | The number of Business Chat (work) queries submitted by users through Teams, formerly called Copilot Chat (work). |
 | Business Chat (work) prompts submitted in Outlook | The number of Business Chat (work) queries submitted by users through Outlook, formerly called Copilot Chat (work). | 
-| Business Chat (web) prompts submitted | The number of queries submitted by users in the web tab of Business Chat, also known as "Coplot with Enterprise Data Protection." Includes prompts submitted through Edge and the Microsoft 365 app. | 
+| Business Chat (web) prompts submitted | The number of queries submitted by users in the web tab of Business Chat, also known as "Coplot with Enterprise Data Protection." Includes prompts submitted through Edge and the Microsoft 365 app. Data is available from 08/20/2024 onwards. | 
 | Summarize chat actions taken using Copilot in Teams | The number of times users summarized chats and channel conversations in Teams using Copilot. |
 | Compose chat message actions taken using Copilot in Teams | The number of chats and channel message drafts created in Teams using Copilot. |
 | Chat conversations summarized by Copilot | The number of chats and channel conversations summarized by Copilot. |
@@ -302,7 +302,9 @@ Microsoft 365 global admins can upload aggregated survey results through Adoptio
 #### Impact page for companies with at least 50 assigned Copilot licenses
 
 >[!Important]
->You must enable optional diagnostic data for the following metrics in this section: Copilot assisted hours; Total emails sent using Copilot; Number of Teams meetings summarized; Number of Teams meeting hours summarized; and Total chat conversations summarized by Copilot.
+>You must enable optional diagnostic data to get comprehensive data for the following metrics in this section: Copilot assisted hours; Total emails sent using Copilot; Number of Teams meetings summarized; Number of Teams meeting hours summarized; and Total chat conversations summarized by Copilot.
+>
+> If you disable optional diagnostic data, these metrics might still include product usage collected from *required* diagnostic data.
 >
 >All other metrics in the report are powered by required service data and don't require optional diagnostic data enablement. [Learn more about diagnostic data](/microsoft-365-apps/privacy/optional-diagnostic-data).
 
@@ -398,7 +400,7 @@ This analysis helps you compare collaboration activities between employees who u
 |  | Chat (Copilot in PowerPoint) prompts submitted | The number of times users submitted a prompt to Copilot chat in PowerPoint. Includes any prompts that don't map to one of the established PowerPoint Copilot skills such as "Summarize"-, "Add content"-, or "Organize presentation"- actions taken in PowerPoint. |
 |  | Chat (Copilot in Excel) prompts | The number of times users submitted a prompt to Copilot chat in Excel. Includes any prompts that don't map to one of the established Excel Copilot skills such as "Analysis"-, "Formatting"-, or "Formula"- actions taken in Excel. |
 | **Business Chat** | Business Chat (work) prompts submitted | The number of prompts submitted by users in Business Chat (work), formerly called Copilot chat (work). Includes prompts submitted through Teams, Outlook, Edge, and the Microsoft 365 app. |
-|  | Business Chat (web) prompts submitted | The number of queries submitted by users in the web tab of Business Chat, also known as "Coplot with Enterprise Data Protection." Includes prompts submitted through Edge and the Microsoft 365 app. | 
+|  | Business Chat (web) prompts submitted | The number of queries submitted by users in the web tab of Business Chat, also known as "Coplot with Enterprise Data Protection." Includes prompts submitted through Edge and the Microsoft 365 app. Data is available from 08/20/2024 onwards. | 
 
 **Key behavior metrics for this page:**
 
@@ -416,11 +418,21 @@ This analysis helps you compare collaboration activities between employees who u
 
 Located within the Impact page, this section provides information that helps you assess Copilot impact from the perspective of users' subjective experiences. In the main table on this page you’ll see a list of Microsoft’s recommended Copilot survey questions along with the results from your own organization’s latest survey (if an admin chooses to upload results for visualization here) and Microsoft's own benchmark results from a [study of early Copilot users](https://www.microsoft.com/worklab/work-trend-index/copilots-earliest-users-teach-us-about-generative-ai-at-work).
 
-**Sentiment results by group**
+#### Sentiment results by question
+
+This section of the dashboard provides the results of employee-level surveys performed at your company. These results can come from up to three different sources: Viva Glint, Viva Pulse, or a .csv file your Viva Insights admin uploads using the steps below. 
+
+If there is more than one source, a **Survey** toggle at the top left lets you choose which source’s results to display. To start a new Viva Pulse survey directly from the dashboard, at the top right, select **Start new Pulse survey**. Or, [learn how to set up a Pulse survey within the Pulse app](/viva/pulse/setup-admin-access/set-up-in-app-pulse-experience). 
+
+[Learn more about how to set up a Copilot Impact Survey in Viva Glint](/viva/glint/setup/copilot-impact-template). 
+
+:::image type="content" source="images/copilot-dashboard-pulse-survey.png" alt-text="Screenshot that shows how to launch a Pulse survey from the Copilot Dashboard.":::
+
+#### Sentiment results by group
 
 With a Viva Insights subscription, this section of the dashboard also lets you explore the breakdown of sentiment across organizational attributes. You can use custom filters to isolate the results for specific parts of the organization or for specific employee groups. The results are shown in a “heat map.” 
 
-:::image type="content" source="images/copilot-dash-sentiment-ga.png" alt-text="Screenshot that shows the Sentiment heat map." lightbox="images/copilot-dash-sentiment-ga.png":::
+:::image type="content" source="images/copilot-dashboard-sentiment-heatmap.png" alt-text="Screenshot that shows the Sentiment heat map.":::
 
 #### Upload group-level survey results with the advanced insights app
 
@@ -598,9 +610,11 @@ In this scenario, your Entra data is not reliable, or it does not accurately ref
 ### Metrics
 
 **Q1. Which apps are the Business Chat (work) metrics based on?**
+
 Business Chat (work) metrics are based on use of Business Chat (work), formerly called Copilot Chat (work), across all apps where the capability is available including Teams, Windows, Microsoft365.com, and more. Business Chat (work) metrics do *not* include usage of [Microsoft Copilot with enterprise data protection](/copilot/manage), which is made available to users with an eligible Microsoft 365 license and does not require a Copilot for Microsoft 365 license. In certain product environments such as Copilot in the Edge browser, users enabled for Copilot for Microsoft 365 may see a “work/web” toggle. The “work” toggle is a feature of Business Chat (work) usage and thus usage of this feature is accounted for in the Copilot Dashboard. The "web” toggle, however, is a feature of Copilot with enterprise data protection and use of this feature is not yet accounted for in the Copilot Dashboard.
 
 **Q2. Within the Copilot metrics tab of the comparison between groups table, why does the % difference not show what I'm expecting to see?**  
+
 The values under the first two columns (Group 1 & Group 2) are calculated using the sum. To compare groups of different sizes, the percentage difference is calculated using the per user per month average.
 
 **Q3. Why don't the metrics match on the readiness and adoption pages?**
