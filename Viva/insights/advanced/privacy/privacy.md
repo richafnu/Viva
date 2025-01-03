@@ -1,5 +1,5 @@
 ---
-ms.date: 12/09/2024
+ms.date: 01/06/2025
 title: Advanced insights privacy
 description: Learn more about privacy in advanced insights
 author: zachminers
@@ -199,9 +199,9 @@ The tenant administrator provisions the Insights Analyst role.
 
 ### Organization insights 
 
-The **Insights Business Leader** role and group manager list govern access to organization insights in Outlook and Teams. 
+"Delegate access" and the group manager list govern access to organization insights in Outlook and Teams. 
 
-People with the **Insights Business Leader** role assigned to them can see organization insights that include every person in their tenant. 
+People with delegate access can see organization insights that include every person in their tenant. 
 
 People enabled as group managers can see organization insights that only include people who report to them directly or indirectly. The Insights Administrator can assign users as group managers. The reporting hierarchy that determines who reports to whom is based on the required fields **PersonId** and **ManagerId**, which are included in the organizational data maintained by the Insights Administrator.
 
