@@ -98,6 +98,6 @@ An external participant receives an email inviting them to Viva Engage. The reci
   
 If an external participant wants to leave, they can unsubscribe from a conversation by using either:
   
-- **Email:** choose the **Unsubscribe from this conversation** link in their email message. 
+- **Email:** Choose the **Unsubscribe from this conversation** link in their email message. 
     
-- **Viva Engage inbox:** choose **Stop following in inbox** for the conversation in their Viva Engage inbox.
+- **Viva Engage inbox:** Choose **Stop following in inbox** for the conversation in their Viva Engage inbox.
