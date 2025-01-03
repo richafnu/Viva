@@ -1,5 +1,5 @@
 ---
-ms.date: 03/29/2023
+ms.date: 12/06/2024
 title: Define KR Types in Viva Goals
 ms.reviewer: 
 ms.author: daisyfeller
@@ -25,7 +25,7 @@ Using Objectives and Key Results (OKRs) in Viva Goals provides a foundation for 
 
  - Quantity-type or *regular* key results, which measure progress from one point to another.
  - Quality-type or *control* key results, which act as guardrails to help you monitor consistency and efficiency.
- - *Baseline* key results, which establish the standard by which you measure progress. 
+ - *Baseline* key results, which establish the standard by which you measure progress.
 
 ## Regular key result types
 
@@ -40,7 +40,7 @@ Use regular key result types when you're trying to achieve a specific metric. Th
 Use control key result types when you must maintain key results above or below a specified threshold value to preserve a metric's quality and establish guardrails for accepted results. There are two control metrics:  
 
 1. *Stay below:* Use when a metric must remain *below* a certain threshold. An example is “Keep customer churn below $100,000.” The only input is the target value, which acts as a threshold for success.
-1. *Stay above:* Use when a metric must remain above a certain threshold. An example is “Keep the customer NPS score above nine.” The only input is the target value, which acts as a threshold for success.
+1. *Stay above:* Use when a metric must remain above a certain threshold. An example is “Keep the customer net promoter score above nine.” The only input is the target value, which acts as a threshold for success.
 
 #### Add risk thresholds to control metrics
 
@@ -84,16 +84,19 @@ To configure key result types, select **More options** (the ellipsis) next to an
 > You can also edit or set a type for an existing key result by selecting **More options** (the ellipsis) next to a key result, and then selecting **Edit**. The **Edit Key Result** window opens, in which you can modify the existing data and add metrics and targets, among other information. 
 
 ## Progress and Status Calculation
+
 Progress and status calculations in Viva Goals vary depending on the key result categories—regular KR types and control KR types.  
 
-### Progress status calculation for regular KR types  
+### Progress status calculation for regular KR types
+
 Progress and status for the regular KR types are determined by two types of progress:
 
 **Expected progress:** Viva Goals calculates expected progress based on the start and end date of an OKR. At the beginning of the time period, the expected progress is 0% and at the end of the time period the expected progress will be 100% 
 
 **Actual Progress:** Actual progress is calculated based on the check-ins made on the OKR. There are three ways check-ins can be made:
+
 1. Manually
-1. From a data source (Integration) 
+1. From a data source (Integration)
 1. Roll up from Key results
 
 ### Status calculation for regular KR types
@@ -103,16 +106,17 @@ There are two ways in which status can be determined.
 1. **Derive Status based on Actual Progress:** Status of the OKR is set based on the actual progress made via automatic progress updates.
 2. **Manually Update Status:** Users can manually update the status of the OKRs by making check-ins. This overrides the status set automatically by Viva Goals based on progress updated via roll-up from key results or via a data source.
 
-You can learn in detail how the progress and status are calculated for regular KR types in [this article](/viva/goals/track-okr-progress-status).
+[Learn in detail how the progress and status are calculated for regular KR types](/viva/goals/track-okr-progress-status).
 
-## Progress status calculation for control KR types 
-Progress and status for the control KR types ‘Stay below’ and ‘Stay above’ are calculated as follows: 
+## Progress status calculation for control KR types
+
+Progress and status for the control KR types Stay below and Stay above are calculated as follows: 
 
 **Stay below:** 
 
 If the current metric value is less than the threshold or target value, then the progress of the OKR is set to 100%, and the status is set to “On Track”. 
 
-Let's take the example key result "Keep churn below 100k" as shown in the image below. The progress graph, on the right, can be seen with a point in the graph that represents a check-in. Each check-in made will be represented as a point in the graph.
+Let's take the example key result "Keep churn below 100k" as shown in the image below. The progress graph includes a point in the graph that represents a check-in. Each check-in made will be represented as a point in the graph.
 
 :::image type="content" source="../../media/goals/on-track-stay-below-kr.png" alt-text="Screenshot that shows the progress graph for a stay below KR that's on track." lightbox="../../media/goals/on-track-stay-below-kr.png":::
 
@@ -145,12 +149,13 @@ Let's take the example of the following key result: "Maintain average FCSAT scor
 
 For control KR types, there's no notion of “Behind” since we consider these KR types as met or unmet. 
 
-## How does roll up happen for control KR types? 
-Based on the progress of the control metric-type key result (either of 0% or 100%), the value is rolled up from the child KR to the parent objective. 
+## How does roll up happen for control KR types?
+
+Based on the progress of the control metric-type key result (either of 0% or 100%), the value is rolled up from the child KR to the parent objective.
 
 If you want to turn off roll-up, this can be done by making the contribution of each key result to 0%. Here's how:
 
-1. Right-click on the parent objective and select **Manage contributions**. 
+1. Right-click on or select the parent objective and select **Manage contributions**. 
 
     :::image type="content" source="../../media/goals/manage-contributions-button.png" alt-text="Screenshot that shows where to find manage contributions." lightbox="../../media/goals/manage-contributions-button.png":::
     
@@ -168,5 +173,5 @@ The statuses for baseline key results are: **Not started, In-progress, Closed, P
 
 ## FAQ (Frequently Asked Questions)
 
-#### Q: **After adding risk threshold to an existing control metric the status will automatically change to Behind?**
+**Q: After adding risk threshold to an existing control metric the status will automatically change to Behind?**
 **A:** No, only the next time when you make a check-in or edit the values, will the status get updated to **Behind** until then it will continue to stay **At-risk** or **On-track** only whatever the status was before the risk threshold was added.
