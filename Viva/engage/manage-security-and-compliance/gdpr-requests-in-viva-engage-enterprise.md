@@ -6,6 +6,8 @@ ms.author: dmillerdyson
 author: v-rgrace
 manager: elizapo
 ms.date: 01/02/2025
+last.reviewed.by: v-rgrace
+last.reviewed.date: 01/02/2025
 audience: Admin
 ms.topic: article
 ms.service: viva-engage
