@@ -6,7 +6,7 @@ author: AliciaWeixelman
 manager: melissabarry
 audience: admin
 f1.keywords: NOCSH
-keywords: 360 faq, frequently asked questions, commmon questions
+keywords: 360 faq, frequently asked questions, commmon questions, 360 benchmarks
 ms.collection:  
 - m365initiative-viva
 - selfserve 
@@ -14,7 +14,7 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 8/23/2024
+ms.date: 12/19/2024
 ---
 
 # Viva Glint 360 frequently asked questions 
@@ -78,6 +78,9 @@ Yes, you can delete a 360 program only if all the 360 cycles within it are in "d
 
 ### Can I delete a 360 cycle?
 Yes, you can delete a 360 cycle in "draft" or "scheduled" status. A 360 cycle can’t be deleted in "live" or "completed" status.
+
+### Are benchmark comparisons available for Glint 360 Feedback programs?
+No. Glint does not offer benchmarks for 360 items.
 
 ## Coach FAQs
 

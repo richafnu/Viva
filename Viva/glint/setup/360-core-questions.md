@@ -51,6 +51,9 @@ In the **Glint Manager 360 Program template**, items are pre-populated.
 |**Translates Strategy**|	Translates the business unit's strategy into specific goals.|
 |**Works Collaboratively**|	Works collaboratively with others across the business.|
 
+> [!IMPORTANT]
+> Glint doesn't offer benchmarks for 360 Feedback program items.
+
 
 
 

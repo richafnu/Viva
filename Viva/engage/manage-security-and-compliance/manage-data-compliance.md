@@ -3,9 +3,9 @@ title: "Manage Viva Engage data compliance"
 f1.keywords:
 - NOCSH
 ms.author: donnabouldin
-author: Starshine89
+author: v-rgrace
 manager: elizapo
-ms.date: 09/13/2024
+ms.date: 12/19/2024
 audience: Admin
 ms.topic: how-to
 ms.localizationpriority: medium
@@ -26,23 +26,33 @@ As a Viva Engage admin, you can keep your users' Viva Engage posts appropriate a
 <a name="MonitorKeywords"> </a> 
 ## Monitor keywords
 
-Flag sensitive content by monitoring specify keywords such as banned words or employees' personal information. You can monitor all messages in internal and external networks, including messages to and from external participants.
+Use keyword monitoring to detect sensitive or specific content for community and storyline conversations within Viva Engage.
   
  **Assign a verified admin to monitor, edit, and delete flagged posts**
   
-1. In the Viva Engage admin center, go to **Content and security** > **Monitor Keywords**, and enter the person's email address in **Email Address**.
+1. In the Viva Engage admin center, go to **Content and security** > **Monitor Keywords**. In the recipient field, enter an Entra ID-backed email address from the tenant to receive alerts on detected conversations.
     
-2. When a post matches a keyword, the person listed in **Email Address** receives an email. They can select a link in the email to review, edit, or delete the flagged post.
+2. Enter the words and phrases you want to monitor, each on their own line.
     
- **Specify keywords and phrases to monitor**
-  
-1. In the Viva Engage admin center, go to **Content and Security** \> **Monitor Keywords**.
+When a post in Viva Engage matches a keyword, the person listed in the recipient field receives an email. The subject of the email gives context on the monitored keyword along with the community/storyline conversation where it's detected in Engage.   
+ 
+The body of the email also provides further context on the detected conversation. Improvements to the email template and user experience include:  
+
+- **Public community or storyline conversations detected with keywords**: the email body contains the conversation, and any associated replies along with the name of the community/storyline.
+
+- **Private community conversations detected with keywords**: the email provides a link to the conversation and the community where it's detected. Moderators can view the conversation by selecting the message link, and only community members have access to the conversation.   
+
+As part of our continued investment in security, we've added the following improvements to email notifications: 
+
+- Viva Engage supports only Entra ID-backed email addresses within your tenant as email recipients. Consumer email addresses (such as Gmail) aren't supported. Unsupported email addresses receive a prompt to change to a compatible email address.
+
+- The keyword alert system doesn't detect Private messages between individuals. These messages are confidential and must be discovered through appropriate compliance solutions, such as e-discovery, when necessary. 
+
+## Apply regular expressions for keyword monitoring
+
+For keyword matching, use [regular expressions](/dotnet/standard/base-types/regular-expression-language-quick-reference) to match patterns.
     
-2. Enter the words and phrases you want to monitor, each on its own line.
-    
-   Use [regular expressions](/dotnet/standard/base-types/regular-expression-language-quick-reference) to match patterns.
-    
-    Here are some examples of regular expressions commonly used for monitoring.
+Here are some examples of regular expressions commonly used for monitoring.
     
 |**Purpose**|**Pattern**|**Matches**|
 |:-----|:-----|:-----|
@@ -54,7 +64,7 @@ Monitor group create|has created|Matthew has created the Easter Region Sales gro
 <a name="DataRetention"> </a>
 ## Data retention
 
-You can remove deleted data from the user's view, while preserving it for data export for the life of the tenant.
+You can remove deleted data from the user's view. Engage preserves the deleted data for data export for the life of the tenant.
 
 1. In the Viva Engage admin center, go to **Content and Security** > **Data Retention**.
 1. Select **Archive** and save your changes.
@@ -69,7 +79,7 @@ You can remove deleted data from the user's view, while preserving it for data e
 <a name="ContentMode"> </a>
 ## Content mode
 
-If you have a legal reason to view private messages, as a verified Engage admin you can select to see them. For more information, see [Monitor private content in Viva Engage](monitor-private-content.md).
+If you have a legal reason to view private messages, verified Engage admins can select to see them. For more information, see [Monitor private content in Viva Engage](monitor-private-content.md).
   
 ## See also
 

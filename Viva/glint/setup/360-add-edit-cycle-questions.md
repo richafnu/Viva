@@ -1,5 +1,5 @@
 ---
-title: Add and edit 360 cycle questions 
+title: Add and edit 360 cycle items 
 description: Learn to add or modify Viva Glint 360 program template questions.
 ms.author: JudithWeiner
 author: JudyWeiner
@@ -17,7 +17,7 @@ ms.localizationpriority: high
 ms.date: 12/19/2024
 ---
 
-# Add and edit 360 cycle questions 
+# Add and edit 360 cycle items 
 
 Add or modify prepopulated 360 program template questions. Add questions from our Question Library by selecting the **+ symbol**. 
 - You can use the **+ symbol** under the question list.
@@ -31,13 +31,13 @@ Add or modify prepopulated 360 program template questions. Add questions from ou
 ## Use the Question Library 
 When the Question Library window opens, add or edit questions from our list of validated questions or from any custom questions you added to your Question Library. Locate them by using filters.
 
-### Filter to find a question
+### Filter to find an item
 
 |Filter type|Filter options|
 |--------------|------------------|
 |Source| <ul><li> Custom </li><li> Viva Glint</li><ul>|
 |Type| <ul><li> Rating - 5-7 point scale </li><li> Open-ended </li><li> Multiple Choice</li><ul>|
-|Benchmark|Use the search bar|
+|Benchmark|Glint doesn't offer benchmarks for 360 items. *Benchmarks appear as a menu option but do not apply for 360s.*|
 |More Filters| <ul><li> Whether the question was used in other program </li><li> Whether translations are available</li><ul>|
 
 :::image type="content" source="../../media/glint/setup/360-create-question.png" alt-text="Screenshot of the Create Question window.":::

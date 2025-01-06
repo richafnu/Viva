@@ -147,7 +147,7 @@ To fetch RaaS reports, Viva Learning uses REST API. The URL for this report isn'
 | Catalog RaaS | **Indexed** | 
 | User RaaS | **Indexed** | 
 | LRS RaaS | **Not indexed**. The org ID-based report filtering is in place to handle large data sets| 
-| Self enrollment RaaS | **Not indexed**. Unlike the LRS RaaS, this report isn't filterable on org ID. | 
+| Self enrollment RaaS | **Indexed**.| 
 
 ## What are the guidelines in server migration?
 
