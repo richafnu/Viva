@@ -13,7 +13,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 10/06/2025
+ms.date: 01/06/2025
 ---
 
 # Use Advanced Configuration Uploads
