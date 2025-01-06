@@ -85,13 +85,13 @@ Let's take a look at how to use these features:
 
     **If you're enabled as a Group Manager:** On the left, select the dropdown menu to toggle between viewing insights for your organization, or different subgroups within your team. Teams with less than the minimum team size will be colored gray and their insights won't be visible.
 
-    :::image type="complex" source="images/org-insights-scope-group-manager.png" alt-text="Screenshot that shows the organization insights drilldown for group managers." lightbox="images/org-insights-scope-group-manager.png":::
+    :::image type="complex" source="images/org-insights-scope-group-manager.png" alt-text="Screenshot that shows the organization insights drilldown for group managers.":::
    Screenshot of the "Your organization insights" drilldown section for group managers.
     :::image-end:::
 
     **If you have delegate access:** You can view insights only for your entire company.
 
-    :::image type="complex" source="images/org-insights-scope-biz-leader.png" alt-text="Screenshot that shows the organization insights drilldown for Insights Business Leaders." lightbox="images/org-insights-scope-biz-leader.png":::
+    :::image type="complex" source="images/org-insights-scope-biz-leader.png" alt-text="Screenshot that shows the organization insights drilldown for Insights Business Leaders.":::
    Screenshot of the "Your organization insights" drilldown section for Insights Business Leaders.
     :::image-end:::
 
