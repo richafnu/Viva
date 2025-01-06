@@ -13,7 +13,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 10/29/2024
+ms.date: 01/06/2025
 ---
 
 # Use Advanced Configuration Uploads
@@ -30,7 +30,7 @@ For highly trained users, Microsoft Viva Glint the Advanced Configuration Upload
 > To upload employee data, follow the guidance in this article: [Upload your employee attributes to Viva Glint](upload-employee-attributes.md).
 
 > [!CAUTION]
-> Uploads performed in Advanced Configuration do not calculate derived fields or transform date formats to yyyy/mm/dd. If data should be derived, like Tenure from Hire Date, load data through the Viva Glint People page or SFTP.
+> Uploads performed in Advanced Configuration don't calculate derived fields or transform date formats to yyyy/mm/dd. If data should be derived, like Tenure from Hire Date, load data through the Viva Glint People page or SFTP.
 
 ## Perform a MANAGERS_UPLOAD
 
@@ -74,7 +74,7 @@ When a survey closes, employee attributes that display in reporting don't update
 > To retroactively update a Manager Hierarchy, always use the RETROACTIVE_PULSE_UPDATE Data App and not the Retroactive User Updates option. [Learn more](glint-data-apps.md).
 
 > [!IMPORTANT]
-> If your organization can't save files in .csv format, Retroactive User Updates isn't an opton. Instead:
+> If your organization can't save files in .csv format, Retroactive User Updates isn't an option. Instead:
 > 1. Import an .xlsx file to the [People page](upload-employee-attributes.md).
 > 2. [Create a User Role](set-up-user-roles.md) and add these users to the role.
 > 3. Use the [RETROACTIVE_PULSE_UPDATE Data App](glint-data-apps.md) and select your User Role in **roleOrDistributionList**. 
@@ -82,7 +82,7 @@ When a survey closes, employee attributes that display in reporting don't update
 ### To perform a Retroactive User Updates upload:
 
 > [!CAUTION]
-> - Do not perform a retroactive update while a Viva Glint survey is live.
+> - Don't perform a retroactive update while a Viva Glint survey is live.
 > - Deleted user data can't be retroactively updated.
 
 1. Export survey cycle data with the EXPORT_USERS_FROM_SURVEY_CYCLE Data App for the surveys that need to be updated. [Learn more](glint-data-apps.md).
@@ -96,13 +96,17 @@ When a survey closes, employee attributes that display in reporting don't update
    1. Delete all user rows for employees whose data remains the same.
    1. Correct values for users and attributes that need to be updated.
       1. For example: To correct Department = ‘Sales’, ‘SALES’, ‘sales’, which create three values where there should be one in reporting, update all users to Department = ‘Sales’.
-   1. Save your edited file with corrected values in.csv format.
+   1. Save your edited file with corrected values in .csv format.
 1. In the **Advanced Configuration** menu, select **Uploads**.
 1. In the **Choose job type** dropdown list, select **Retroactive User Updates**.
 1. In the **Survey** dropdown list, select your survey.
 1. In the **Survey Cycle** dropdown list, select your survey cycle.
 1. Switch on the **Incremental** toggle.
 1. Drag and drop your .csv file or browse to choose it in the **Drag and drop to upload** section.
+
+   > [!CAUTION]
+   > To prevent errors, don't upload your file until all previous steps are complete.
+   
 1. Confirm the **File to be Uploaded** and select **Upload**.
 1. In the **Upload Job Details** page that appears, confirm that the **Attribute(s)** and **Updated users** count match the attributes and count of users in your uploaded file.
 1. Select **Apply Upload to Database** to upload new values and kick off a process to refresh reporting data.
