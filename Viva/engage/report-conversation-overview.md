@@ -6,8 +6,6 @@ ms.reviewer: ethli
 ms.author: mamiejohnson
 author: v-rgrace
 manager: elizapo
-last.reviewed.by: v-rgrace
-last.reviewed.date: 12/26/2024
 audience: Admin
 f1.keywords:
 - NOCSH
