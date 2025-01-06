@@ -81,8 +81,8 @@ After a leader is identified, the next step is to manage the leader’s audience
 
     Customers frequently use a distribution list to communicate with an audience by email. You can add these lists to the leader’s audience in Viva Engage for continuous communication.
 
->[!NOTE] 
->If you designate a leader for the entire organization, but don't assign them any audiences, that leader and their delegates don't see any data under audience analytics.
+    >[!NOTE] 
+    >If you designate a leader for the entire organization, but don't assign them any audiences, that leader and their delegates don't see any data under audience analytics.
 
 ## Track changes to leaders and audiences in your organization
 To track changes to leaders and their audiences over the past 30 days, use the activity log available on the **Manage Leaders** page. The log details who made each change, when it occurred, the impacted leader, and, if applicable, the impacted audience. Logged events include:
