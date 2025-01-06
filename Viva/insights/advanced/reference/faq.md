@@ -1,5 +1,5 @@
 ---
-ms.date: 10/25/2024
+ms.date: 01/06/2025
 title: Advanced insights FAQ
 description: Get answers to frequently asked questions about Microsoft Viva Insights' advanced insights app
 author: zachminers
