@@ -1,11 +1,13 @@
 ---
-ms.date: 10/06/2023
+ms.date: 12/26/2024
 title: "Viva Engage Native Mode: Step-by-step guide"
 description: "Learn about the process of migrating to Native Mode with this in-depth step-by-step guide."
 ms.reviewer: auhosford
 ms.author: donnabouldin
 author: v-rgrace
 manager: elizapo
+last.reviewed.by: v-rgrace
+last.reviewed.date: 12/26/2024
 audience: Admin
 f1.keywords:
 - NOCSH
