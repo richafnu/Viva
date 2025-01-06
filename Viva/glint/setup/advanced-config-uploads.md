@@ -30,7 +30,7 @@ For highly trained users, Microsoft Viva Glint the Advanced Configuration Upload
 > To upload employee data, follow the guidance in this article: [Upload your employee attributes to Viva Glint](upload-employee-attributes.md).
 
 > [!CAUTION]
-> Uploads performed in Advanced Configuration do not calculate derived fields or transform date formats to yyyy/mm/dd. If data should be derived, like Tenure from Hire Date, load data through the Viva Glint People page or SFTP.
+> Uploads performed in Advanced Configuration don't calculate derived fields or transform date formats to yyyy/mm/dd. If data should be derived, like Tenure from Hire Date, load data through the Viva Glint People page or SFTP.
 
 ## Perform a MANAGERS_UPLOAD
 
@@ -74,7 +74,7 @@ When a survey closes, employee attributes that display in reporting don't update
 > To retroactively update a Manager Hierarchy, always use the RETROACTIVE_PULSE_UPDATE Data App and not the Retroactive User Updates option. [Learn more](glint-data-apps.md).
 
 > [!IMPORTANT]
-> If your organization can't save files in .csv format, Retroactive User Updates isn't an opton. Instead:
+> If your organization can't save files in .csv format, Retroactive User Updates isn't an option. Instead:
 > 1. Import an .xlsx file to the [People page](upload-employee-attributes.md).
 > 2. [Create a User Role](set-up-user-roles.md) and add these users to the role.
 > 3. Use the [RETROACTIVE_PULSE_UPDATE Data App](glint-data-apps.md) and select your User Role in **roleOrDistributionList**. 
