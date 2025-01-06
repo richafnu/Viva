@@ -13,7 +13,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 10/29/2024
+ms.date: 10/06/2025
 ---
 
 # Use Advanced Configuration Uploads
@@ -82,7 +82,7 @@ When a survey closes, employee attributes that display in reporting don't update
 ### To perform a Retroactive User Updates upload:
 
 > [!CAUTION]
-> - Do not perform a retroactive update while a Viva Glint survey is live.
+> - Don't perform a retroactive update while a Viva Glint survey is live.
 > - Deleted user data can't be retroactively updated.
 
 1. Export survey cycle data with the EXPORT_USERS_FROM_SURVEY_CYCLE Data App for the surveys that need to be updated. [Learn more](glint-data-apps.md).
@@ -103,6 +103,10 @@ When a survey closes, employee attributes that display in reporting don't update
 1. In the **Survey Cycle** dropdown list, select your survey cycle.
 1. Switch on the **Incremental** toggle.
 1. Drag and drop your .csv file or browse to choose it in the **Drag and drop to upload** section.
+
+   > [!CAUTION]
+   > To prevent errors, don't upload your file until all previous steps are complete.
+   
 1. Confirm the **File to be Uploaded** and select **Upload**.
 1. In the **Upload Job Details** page that appears, confirm that the **Attribute(s)** and **Updated users** count match the attributes and count of users in your uploaded file.
 1. Select **Apply Upload to Database** to upload new values and kick off a process to refresh reporting data.
