@@ -4,7 +4,7 @@ ms.reviewer:
 ms.author: elizapo
 author: lizap
 manager: elizapo
-ms.date: 08/07/2024
+ms.date: 01/06/2025
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -135,7 +135,6 @@ In Viva Insights, you can assign multiple roles to one person. For example, one 
 | Role         | What this role does in Viva |
 |--------------|-----------|
 |**Insights Administrator** |Has access to the administrator experience in the advanced insights app, which consists of these pages: Organizational data management, Privacy settings, and Manager settings.<br><br>Responsible for configuring the privacy settings and system defaults and for preparing, uploading, and verifying the organizational data for Viva Insights.<br><br>While the Insights admin has access to organizational data, they do not have access to Microsoft 365 data. |
-|**Insights Business Leader** |Insights Business Leaders can see organizational insights on the Organization trends page within the Viva Insights app. |
 |**Insights Analyst**|Has access to the analyst experience in the advanced insights app, which includes the ability to run custom and Power BI queries, view query results, and view the quality of organizational data.
 |**People manager**<br> Access enabled by Insights administrator through the Manager settings page in the advanced insights app|Can view organization trends in the Viva Insights app in Teams and on the web. |
 

@@ -1,5 +1,5 @@
 ---
-ms.date: 09/30/2024
+ms.date: 01/06/2025
 title: Organization insights in the Viva Insights app
 description: Find Organization insights in Microsoft Viva Insights 
 author: zachminers
@@ -24,19 +24,15 @@ To view organization insights:
 
 * You need to have a Viva Insights subscription (that is, a premium license).
 * To view organization insights for your team (direct and indirect reports), your Insights admin needs to assign you the [Group Manager](../advanced/setup-maint/manager-settings.md#configure-manager-settings) role in Viva Insights. And, you need to have a number of direct and indirect reports that meets or exceeds the [minimum group size](../advanced/setup-maint/privacy-settings.md#minimum-group-size) your Insights admin set.
-* To view organization insights for the entire company, your Insights admin needs to assign you the [**Insights Business Leader** role](../advanced/setup-maint/assign-user-roles.md).
-* You can also view organization insights if you're given "delegate access" by a group manager. [See how delegate access works](./delegate-access.md).
+* To view organization insights for the entire company, you need "delegate access" provided by a group manager. [Learn how delegate access works](./delegate-access.md).
 
 People in your organization also need to have a Viva Insights subscription so they can be measured in organizational insights. These employees are referred to as "measured employees." If you want to see an insight that reflects your entire company, everyone in the company needs to have a Viva Insights subscription.
 
->[!Important]
->Early next year, the **Business Leader** role will no longer be available. At that point, people who previously had this role won’t be able to access organizational insights. Employees with delegate access, however, will be able to view organizational insights. [Learn more about how delegate access works](..//org-team-insights/delegate-access.md).
-
 ### Insights by role
 
-People with the **Insights Business Leader** role assigned to them can access organization insights that include every measured employee in their tenant. 
+People with delegate access can see organization insights that include every measured employee in their tenant. 
 
-People enabled as Group Managers can access organization insights that include people who report to them directly or indirectly. Your Insights admin maintains this reporting hierarchy. If your admin assigned you the Insights Business Leader role and also enabled you as a Group Manager, you can toggle between the two organization insights views.
+People enabled as Group Managers can access organization insights that include people who report to them directly or indirectly. Your Insights admin maintains this reporting hierarchy. If you have delegate access and you're also a Group Manager, you can toggle between the two organization insights views.
 
 ## Data and privacy
 
@@ -89,17 +85,17 @@ Let's take a look at how to use these features:
 
     **If you're enabled as a Group Manager:** On the left, select the dropdown menu to toggle between viewing insights for your organization, or different subgroups within your team. Teams with less than the minimum team size will be colored gray and their insights won't be visible.
 
-    :::image type="complex" source="images/org-insights-scope-group-manager.png" alt-text="Screenshot that shows the organization insights drilldown for group managers." lightbox="images/org-insights-scope-group-manager.png":::
+    :::image type="complex" source="images/org-insights-scope-group-manager.png" alt-text="Screenshot that shows the organization insights drilldown for group managers.":::
    Screenshot of the "Your organization insights" drilldown section for group managers.
     :::image-end:::
 
-    **If you have the Insights Business Leader role assigned:** You can view insights only for your entire company.
+    **If you have delegate access:** You can view insights only for your entire company.
 
-    :::image type="complex" source="images/org-insights-scope-biz-leader.png" alt-text="Screenshot that shows the organization insights drilldown for Insights Business Leaders." lightbox="images/org-insights-scope-biz-leader.png":::
+    :::image type="complex" source="images/org-insights-scope-biz-leader.png" alt-text="Screenshot that shows the organization insights drilldown for Insights Business Leaders.":::
    Screenshot of the "Your organization insights" drilldown section for Insights Business Leaders.
     :::image-end:::
 
-    **If you're enabled as a Group Manager *and* you're an Insights Business Leader:** You can use the toggle to view insights either for your team and subgroups, or for the entire company.
+    **If you're enabled as a Group Manager *and* you have delegate access:** You can use the toggle to view insights either for your team and subgroups, or for the entire company.
 
 1. **Time filter**
 
@@ -166,10 +162,10 @@ Browse insights about other metrics related to the one you're viewing on this pa
 * <a name="employees-define"></a> **Employees** – Organization insights provide measures for groups of employees, and are meant to capture what typical workday activity looks like for those employees. To avoid skewing the averages by including people who are not at work during the week (for example, they are on holiday or out sick), organization insights only measure people who have some activity in Outlook or Teams during the week.
 * <a name="organization-breakdown-define"></a> **Organization breakdown** – The groups displayed in the organization breakdown are based on your reporting hierarchy, which your Insights admin [maintains](../advanced/setup-maint/upload-data.md). Each group includes people who report directly or indirectly to a person who reports to you. The insights represent the activity of the group, not just that person who reports to you, even though their name is used to label the group. 
 
-    Insight Business Leaders who are viewing the insights for the entire company will see the organization breakdown by organizations reporting to top-layer leaders.
+    Those with delegate access who are viewing the insights for the entire company will see the organization breakdown by organizations reporting to top-layer leaders.
 * <a name="peer-organization-define"></a>**Peer organization** – Peer organization includes groups near your own group in the reporting hierarchy. If available, the peer organization includes people who report directly or indirectly up to your manager, but not up to you. If there aren't any groups like this, or they don’t meet the minimum group size, the peer organization includes people who report directly or indirectly up to your skip-level manager but not up to you. If there’s not enough people who meet that definition either, you won't see peer organization insights. 
 
-    Insights Business Leaders who are viewing insights for the entire company will also not see peer organization insights.
+    Those with delegate access who are viewing insights for the entire company will also not see peer organization insights.
 * <a name="prior-period-define"></a>**Prior period** – The prior period is the period immediately before the most recent period – usually the week before the most recent completed week. 
 * <a name="reporting-hierarchy-define"></a>**Reporting hierarchy** – Your Insights administrator manages the reporting hierarchy. This hierarchy identifies reporting relationships throughout the company: people who are managers, and the people who report to them. The reporting hierarchy might be sourced from Microsoft Entra ID or from a manual upload from your company’s HR information system. Viva Insights uses this information to identify people in your organization, your peer organization, and any organizations that might report up to you.
 * <a name="your-organization-define"></a>**Your organization** – If the insight scope selector says **Your organization**, this group includes everyone who reports to you directly or indirectly. This group is based on your organization’s reporting hierarchy, your Insights administrator manages. If the insights scope selector says **[Your company name]**, this group includes everyone who has been set up as part of the premium insights group by your Insights administrator.
