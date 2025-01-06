@@ -1,11 +1,13 @@
 ---
-ms.date: 11/15/2023
+ms.date: 12/26/2024
 title: "Report a Viva Engage conversation"
 description: "Configure conversation reporting in Viva Engage to enable people to report conversation starter posts and comments that don't follow guidelines or policies."
 ms.reviewer: ethli
 ms.author: mamiejohnson
 author: v-rgrace
 manager: elizapo
+last.reviewed.by: v-rgrace
+last.reviewed.date: 12/26/2024
 audience: Admin
 f1.keywords:
 - NOCSH
