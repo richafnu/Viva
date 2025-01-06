@@ -3,9 +3,9 @@ title: "View and manage analytics in Viva Engage"
 description: "Viva Engage analytics lets user monitor their engagement metrics and leaders monitor engagement across the organization."
 ms.reviewer: ethli
 ms.author: donnabouldin
-author: Starshine89
+author: v-rgrace
 manager: elizapo
-ms.date: 6/18/2024
+ms.date: 01/03/2025
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -19,7 +19,6 @@ search.appverid:
 - MET150
 ---
 
-
 # View and manage analytics in Viva Engage
 
 Advanced analytics capabilities in Viva Engage enable the following scenarios:
@@ -30,14 +29,14 @@ Advanced analytics capabilities in Viva Engage enable the following scenarios:
 - Knowledge admins can monitor Answer engagement through global _Answers analytics_
 - Network admins and corporate communicators can track organization-wide engagement through _network analytics_
 
-Analytics features are available in [all languages that Viva Engage supports](https://support.microsoft.com/en-us/office/which-languages-is-viva-engage-available-in-14dd5886-d48d-4d6d-a583-4273a2538540).
+Analytics features are available in [all languages that Viva Engage supports](https://support.microsoft.com/office/which-languages-is-viva-engage-available-in-14dd5886-d48d-4d6d-a583-4273a2538540).
 
 ## View analytics
 
 >[!NOTE]
->To view premium analytics features, users must have Viva Engage Premium which is bundled with the _Viva Suite_ and _Employee Communications and Communities_ license. Conversation, live event, and some community analytics are available without a premium license. Audience analytics are only viewable by leaders that have at least one primary assigned audience and their delegates.
+>To view premium analytics features, users must have Viva Engage Premium, which is bundled with the _Viva Suite_ and _Employee Communications and Communities_ license. Conversation, live event, and some community analytics are available without a premium license. Audience analytics are only viewable by leaders that have at least one primary assigned audience and their delegates.
 
-- To open analytics, select the analytics icon on the top navigation bar in Viva Engage.
+To open analytics, select the analytics icon on the top navigation bar in Viva Engage.
 
 Most analytics data refreshes every 24 hours. Conversation and community analytics update in near real time. If you don’t see changes reflected immediately, check back the next day.
 
@@ -85,7 +84,7 @@ Learn more about metrics featured in the Network analytics dashboard on the [Viv
 ## Audience analytics  
 
 >[!NOTE]
->Audience analytics are viewable by leaders who have at least one primary assigned audience (minumum audience size of 5) and their delegates.
+>Audience analytics are viewable by leaders who have at least one primary assigned audience (minimum audience size of 5) and their delegates.
 
 In the **Manage analytics** interface shown earlier, the Engage admin can adjust the level of sentiment analysis that's available to leaders and their delegates through the **Audience analytics** dashboard. This functionality enables unique levels of sentiment collection at the audience, theme, or conversation level.
 
@@ -95,11 +94,14 @@ Access is through the analytics icon on the top navigation bar or on the leader'
 
 *Audience analytics* help leaders and delegates monitor engagement of their audiences on Viva Engage. This dashboard surfaces the most actively engaged communities within their audiences that have at least 50 members and one active member. An _active community_ has reactions and replies from at least 5% of its membership. An _idle community_ has reactions and replies from less than 5% of its membership.
 
-*Sentiment analysis* uses Azure Cognitive Services (ACS) to aggregate and analyze posts, while *themes analysis* draws from LLM (large language model), storyline comments, and public posts. Posts and comments from private communities are included in the aggregate only if the leader is a member and has permission to view them. Individual messages are never shown. Learn more about [Sentiment analysis in Viva Engage](https://support.microsoft.com/en-us/topic/sentiment-and-theme-analysis-in-viva-engage-065c3355-d156-4bf8-afdb-663b0724befd).
+*Sentiment analysis* uses Azure Cognitive Services (ACS) to aggregate and analyze posts, while *themes analysis* draws from LLM (large language model), storyline comments, and public posts. Posts and comments from private communities are included in the aggregate only if the leader is a member and has permission to view them. Individual messages are never shown. Learn more about [Sentiment analysis in Viva Engage](https://support.microsoft.com/topic/sentiment-and-theme-analysis-in-viva-engage-065c3355-d156-4bf8-afdb-663b0724befd).
 
 - **Audience-level sentiment** controls the *Sentiment* metric. Turning off this toggle prevents leaders and their delegates from viewing results for audience sentiment analysis. Doing so also deletes past data for all audiences.
 
 - **Theme-level sentiment** controls the *Themes* metric. Turning off this toggle prevents leaders and their delegates from viewing results that measure sentiment toward frequently discussed subjects in their audience.
+
+>[!NOTE] 
+>If you designate a leader for the entire organization, but don't assign them any audiences, that leader and their delegates won't see any data under audience analytics.
 
 ## Global Answers analytics
 
@@ -127,4 +129,4 @@ In the **Manage analytics** interface, the Engage admin can enable or disable th
 
 ## See also
 
-[Monitor engagement in Viva Engage with analytics](https://support.microsoft.com/en-us/office/view-insights-about-questions-and-answers-in-viva-engage-fcde33cf-ee3f-4cc8-aa47-c6d0f3fc5dc0?storagetype=live)
+[Monitor engagement in Viva Engage with analytics](https://support.microsoft.com/office/view-insights-about-questions-and-answers-in-viva-engage-fcde33cf-ee3f-4cc8-aa47-c6d0f3fc5dc0?storagetype=live)
