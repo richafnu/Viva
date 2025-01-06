@@ -23,7 +23,7 @@ Viva Pulse integrates into the Microsoft Copilot Dashboard to provide a way for 
 
 There are two ways for leaders and IT admins to capture sentiment about Copilot from their teams, either by (1) launching a Copilot impact Pulse survey from the Microsoft Copilot Dashboard or (2) launching a Pulse survey from within Viva Pulse.
 
-To integrate Pulse surveys results into the Copilot Dashboard, ensure you have a license to Viva Suite or Viva Workplace Analytics and Employee Feedback.
+To integrate Pulse surveys results into the Copilot Dashboard, ensure you have a license to Viva Suite or Viva Workplace Analytics and Employee Feedback or Microsoft 365 Copilot subscription. Viva Pulse survey results for the Copilot impact template will be automatically shared to the Microsoft Copilot Dashboard, as part of the Viva Microsoft 365 Copilot subscription.
 
 ### Capture sentiment about Copilot from the Microsoft Copilot Dashboard
 
