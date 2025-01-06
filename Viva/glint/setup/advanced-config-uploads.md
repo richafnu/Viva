@@ -96,7 +96,7 @@ When a survey closes, employee attributes that display in reporting don't update
    1. Delete all user rows for employees whose data remains the same.
    1. Correct values for users and attributes that need to be updated.
       1. For example: To correct Department = ‘Sales’, ‘SALES’, ‘sales’, which create three values where there should be one in reporting, update all users to Department = ‘Sales’.
-   1. Save your edited file with corrected values in.csv format.
+   1. Save your edited file with corrected values in .csv format.
 1. In the **Advanced Configuration** menu, select **Uploads**.
 1. In the **Choose job type** dropdown list, select **Retroactive User Updates**.
 1. In the **Survey** dropdown list, select your survey.
