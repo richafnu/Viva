@@ -36,7 +36,7 @@ Analytics features are available in [all languages that Viva Engage supports](ht
 >[!NOTE]
 >To view premium analytics features, users must have Viva Engage Premium, which is bundled with the _Viva Suite_ and _Employee Communications and Communities_ license. Conversation, live event, and some community analytics are available without a premium license. Audience analytics are only viewable by leaders that have at least one primary assigned audience and their delegates.
 
-- To open analytics, select the analytics icon on the top navigation bar in Viva Engage.
+To open analytics, select the analytics icon on the top navigation bar in Viva Engage.
 
 Most analytics data refreshes every 24 hours. Conversation and community analytics update in near real time. If you don’t see changes reflected immediately, check back the next day.
 
