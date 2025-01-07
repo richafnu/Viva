@@ -77,7 +77,7 @@ Choose attributes and hierarchies to show in reporting and select benchmark comp
 |**Insight Minimum Group Size**   | Minimum number of responses before insights and alerts can be shown.    |  
 |**Insight Minimum Score Difference**   | Minimum number of responses before showing differences in insights and alerts.     | 
 |**Minimum Sample Survey Stats**   | Response rate isn't displayed for groups smaller than this set number. This rate is based on group size, not on number of responses and it must match the confidentiality threshold.      | 
-|**PowerPoint Template**   | Customer chosen default template. If unset, it defaults to the Glint template. [Learn more](custom-ppt-upload.md).  |  
+|**PowerPoint Template for Reports**   | Customer chosen default template. If unset, it defaults to the Glint template. [Learn more](custom-ppt-upload.md).  |  
 |**Primary Hierarchy**   | The hierarchy your company identified as the first level for reporting, typically Manager. |  
 |**Secondary Hierarchy**   | The hierarchy your company identified as its second level for reporting, typically Location. | 
 |**Rating Questions Scale**   | The defaults survey rating questions use. Viva Glint's best practice is to use a 5-point scale. | 
@@ -129,7 +129,7 @@ Make selections for your Viva Glint technical setup.
 | Field | Definition and notes |
 |:-----------|:-----------|
 |**Attribute for SSO Authentication** |View only. The email is set as the default employee ID. |
-|**SFTP Setup** |Streamline your process by automatically adding your company data into the Glint platform. [Learn more](set-up-sftp.md). |
+|**SFTP Setup** |Streamline your data upload process by automatically adding your company data into the Glint platform. [Learn more](set-up-sftp.md). |
 
 ## Localization 
 
@@ -156,7 +156,7 @@ Manage survey data in response to a [Data Subject Request (DSR)](/../../viva/gli
 | **Off** (default) | Erase all data related to the requester, excluding attributes and survey responses. |
 | **On** | Erase all data related to the requester, including survey responses. |
 
-### Employee IDs of previously deleted employees
+### Disregard Employee IDs of previously deleted employees
 
 Manage reusing employee IDs and reassign them to new or rehired employees. This configuration is set at the platform level and applies to all records equally.
 
