@@ -38,7 +38,7 @@ Other Viva Engage admin roles can also administer premium features without an as
 |[Engage Administrator](#engage-administrator)| Configures and manages all aspects of Viva Engage including tenant settings, core and premium features, badges enablement, and compliance. This role is also referred to as *Yammer administrator* in Microsoft Entra ID.  |
 |[Verified Administrator](#verified-administrator)| Configures the Viva Engage network. Performs tasks that have legal implications:<ul><li>Manage security settings</li><li>Monitor keywords for appropriate usage</li><li>Manage data retention and data export tasks.</ul> |
 |[Network Administrator](#network-administrator)| Configures the Viva Engage network. |
-|[Answers Administrator](#answers-administrator)| Configures Answers in Viva Engage, manages topics, and enables badges. |
+|[Answers Administrator](#answers-administrator)| Configures Answers in Viva Engage and manages topics. |
 |[Corporate Communicator](#corporate-communicator)| Creates and manages official campaigns, defines leaders, and manages content across the organization. |
 |[Community Administrator](#community-administrator)| Manages day-to-day activity and usage in a community to keep it engaged and productive. |
 
@@ -94,7 +94,7 @@ Some admins have more permissions than others and can assign Viva Engage roles t
 
 |Function |Details |
 |------------|-----------------|
-|**Permissions** |<ul><li>Manage Answers in Viva Engage. (For details, see [list of permissions.](/viva/engage/eac-answers-admin-scenarios#permissions))</li><li>[Manage topics](/microsoft-365/topics/topic-experiences-viva-engage) in Answers</li><li>Manage badges</li><li>View global insights</li></ul>|
+|**Permissions** |<ul><li>Manage Answers in Viva Engage. (For details, see [list of permissions.](/viva/engage/eac-answers-admin-scenarios#permissions))</li><li>[Manage topics](/microsoft-365/topics/topic-experiences-viva-engage) in Answers</li><li>View global insights</li></ul>|
 |**Who can assign**|A Microsoft 365 Global administrator|
 |**How to assign**|Assign a [Knowledge Manager role in Microsoft Entra ID](/entra/identity/role-based-access-control/permissions-reference)</li></ul>|
 
