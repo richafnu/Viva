@@ -2,7 +2,7 @@
 ms.date: 12/26/2024
 title: "Viva Engage Native Mode: Step-by-step guide"
 description: "Learn about the process of migrating to Native Mode with this in-depth step-by-step guide."
-ms.reviewer: auhosford
+ms.reviewer: aubreyhusted
 ms.author: donnabouldin
 author: v-rgrace
 manager: elizapo
@@ -21,7 +21,7 @@ search.appverid:
 
 # Viva Engage Native Mode: Step-by-step guide
 
-Organizations that want to use Viva Engage compliance features need to make sure their network supports Native Mode. For greater security and compliance, Native Mode fully backs Viva Engage through Microsoft 365. Native Mode also provides other benefits, including the following:
+Organizations that want to use Viva Engage compliance features need to make sure their network supports Native Mode. For greater security and compliance, Native Mode fully backs Viva Engage through Microsoft 365. Native Mode also supports the following features:
 
 - Host a live event in every Viva Engage community
 - Simplify file administration through SharePoint
@@ -41,7 +41,7 @@ After consolidating the Engage network, make sure that it enforces Microsoft 365
 
 ## 2. Access the Native Mode Alignment Tool
 
-You must be an Engage admin to use the Native Mode Alignment Tool. If your account is temporarily granted these privileges, it can take a few hours for your admin privileges to be reflected in Viva Engage. Once granted, temporary privileges are required only to initiate the alignment process; they aren't required while the tool is running. Privileged Identity Management (PIM) doesn't affect the alignment process.
+You must be an Engage admin to use the Native Mode Alignment Tool. If your account temporarily receives these admin privileges, it can take a few hours for Viva Engage to reflect them. Once granted, temporary privileges are required only to initiate the alignment process; they aren't required while the tool is running. Privileged Identity Management (PIM) doesn't affect the alignment process.
 
 To access the Native Mode Alignment Tool after Viva Engage recognizes your admin account: 
 
@@ -102,7 +102,7 @@ Take the following steps to export a large volume of content from your network:
 
 ## 5. Run the Alignment Tool for the first time
 
-After you review the Alignment Report, make sure you've done the following tasks:
+After you review the Alignment Report, make sure to do the following tasks:
 
 - Communicate upcoming changes to the users in your network
 - Export your data
@@ -120,7 +120,7 @@ To run the tool, scroll to the bottom of the page and select the **Continue** bu
 You receive a prompt to confirm that you've read and understand the changes that the tool makes to your network. Check through the form, and ensure you fully understand the implications of running the tool.
 
 > [!IMPORTANT]
-> The Native Mode Alignment Tool makes permanent and irreversible changes in your network. Data that's deleted through this process can't be recovered.
+> The Native Mode Alignment Tool makes permanent and irreversible changes in your network. Data deleted through this process can't be recovered.
 
 When you're ready, complete the authorization form and start the Alignment Tool. You need to keep the window open for up to five minutes while the initial phase of the tool finishes. If you try to navigate away from the page during the setup phase, the tool sends a warning to prevent you from accidentally leaving too soon.
 
@@ -130,14 +130,14 @@ The Alignment Tool runs in the background and doesn't affect end users. Small ne
 
 To check on the progress of the Alignment Tool, go back to the page where you started the tool. At the top of the page, a banner reports the current status of the tool, next steps, and whether the tool is ready for you to take next steps.
 
-Near the bottom of the screen, details about the status update every 30 minutes. Details include the number of migrated users, groups, and files.
+Near the bottom of the screen, details about the status appear every 30 minutes. Details include the number of migrated users, groups, and files.
 
 ## 7. Resolve the error report
 
-When the tool finishes, the banner at the top of the page gives a report. When the banner says that your network is successfully aligned to Native Mode, the alignment process is complete and no further action is required. If the banner says that the alignment failed and an error report is available, you must download the error report and fix the errors. Most errors are easy to resolve and require that you rename a file that has characters that aren't allowed in SharePoint files.
+When the tool finishes, the banner at the top of the page gives a report. When the banner says that your network is successfully aligned to Native Mode, the alignment process is complete and no further action is required. If the banner says that the alignment failed and provides a link to an error report, you must download the error report and fix the errors. Most errors are easy to resolve and require that you rename a file that has characters that aren't allowed in SharePoint files.
 
 > [!NOTE]
-> The error report appears at the very bottom of the page. This is a different report from the Alignment Report that you reviewed earlier.
+> The error report appears at the bottom of the page. The error report differs from the Alignment Report that you reviewed earlier.
 
 This CSV error report remains available until the next time the Alignment Tool is run. On a second run, the tool generates a new error report.
 
