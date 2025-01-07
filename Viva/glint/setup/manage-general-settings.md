@@ -9,12 +9,13 @@ f1.keywords: NOCSH
 keywords: focus area privacy, confidentiality setup, communications setup, localization
 ms.collection:  
 - m365initiative-viva
-- selfserve 
+- selfserve
+- essentials-manage
 search.appverid: MET150 
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 12/19/2024
+ms.date: 01/07/2025
 ---
 
 # Manage General Settings in Viva Glint 
