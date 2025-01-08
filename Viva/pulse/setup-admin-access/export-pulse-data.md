@@ -23,7 +23,7 @@ To open the **Export** tab, go to Viva Pulse on the app or on the web, and selec
 
 ### Export all tenant data
 
-To export out all data from a tenant, select **Create an export request** and then select all data. You must input a date range that can be no longer than one year. After inputting your desired dates, select **Export to csv**.
+To export out all data from a tenant, select **Create an export request** and then select all data. You must input a date range that can be no longer than one year. After inputting your desired dates, select **Export to .csv**.
 
 You get an email notification letting you know when your export job is complete.
 
