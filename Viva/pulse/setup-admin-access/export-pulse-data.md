@@ -19,16 +19,16 @@ search.appverid: MET150
 
 As a pulse admin, you can choose to either export out all pulse data or specific report data. To access the Viva Pulse admin export feature, you must have one of the following admin roles assigned to you: Microsoft 365 Global admin, Pulse admin.
 
-To open the export tab, go to Viva Pulse on the app or on the web, and select Manage and then Data export. Please note that your tenant can only have one export job active at a time.
+To open the export tab, go to Viva Pulse on the app or on the web, and select Manage and then Data export. Note that your tenant can only have one export job active at a time.
 
 ### Export all tenant data
 
-To export out all data from a tenant, select create an export request and then select all data. You must input a date range that can be no longer then 1 year. After inputting your desired dates, select export to csv.
+To export out all data from a tenant, select create an export request and then select all data. You must input a date range that can be no longer than one year. After inputting your desired dates, select export to csv.
 
-You will get an email notification letting you know when your export job is complete.
+You get an email notification letting you know when your export job is complete.
 
 ### Export report data
 
-To export out report data from a tenant, select create an export request and then select report data. You must input a specific author and you can filter by pulse name as well as template type. After selecting your desired reports, select export to .csv.
+To export out report data from a tenant, select create an export request and then select report data. You must input a specific author and you can filter by pulse name and template type. After selecting your desired reports, select export to .csv.
 
-You will get an email notification letting you know when your export job is complete.
+You get an email notification letting you know when your export job is complete.
