@@ -15,18 +15,20 @@ ms.collection: m365initiative-viva-pulse
 search.appverid: MET150
 ---
 
-# View usage metrics with the tenant admin dashboard
+# Export data
 
-The Viva Pulse tenant admin dashboard is where you can view usage metrics for your organization.
+As a pulse admin, you can choose to either export out all pulse data or specific report data. To access the Viva Pulse admin export feature, you must have one of the following admin roles assigned to you: Microsoft 365 Global admin, Pulse admin.
 
-In the usage dashboard tab, you can view:
+To open the export tab, go to Viva Pulse on the app or on the web, and select Manage and then Data export. Please note that your tenant can only have one export job active at a time.
 
-- Pulses sent: Average number of pulses sent during designated time period. This is determined by taking the total pulses sent in your organization and dividing by the number of days in the designated time period.
-- Responses per pulse: Average number of responses received during designated time period. This is determined by taking total responses received in your organization and dividing by the number of days in the designated time period.
-- Response rate per pulse: Average response rate during designated time period. This is determined by taking the average responses per pulse in your organization and dividing by the average number of recipients per pulse in your organization during the designated time period.
+### Export all tenant data
 
-### Access the Viva Pulse tenant admin dashboard
+To export out all data from a tenant, select create an export request and then select all data. You must input a date range that can be no longer then 1 year. After inputting your desired dates, select export to csv.
 
-To access the Viva Pulse tenant admin dashboard admin center, you must have one of the following admin roles assigned to you: Microsoft 365 Global admin, Pulse admin.
+You will get an email notification letting you know when your export job is complete.
 
-To open the tenant admin dashboard, go to Viva Pulse on the app or on the web, and from the homepage select Usage Dashboard.
+### Export report data
+
+To export out report data from a tenant, select create an export request and then select report data. You must input a specific author and you can filter by pulse name as well as template type. After selecting your desired reports, select export to .csv.
+
+You will get an email notification letting you know when your export job is complete.
