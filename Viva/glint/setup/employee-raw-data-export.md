@@ -17,7 +17,7 @@ ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
 ms.custom: CELA-approved
-ms.date: 11/04/2024
+ms.date: 1/08/2025
 ---
 
 # Access Viva Glint raw survey responses
@@ -87,30 +87,30 @@ Opting out of response exports occurs within the **Confidentiality** section of 
 
 ## Export raw survey responses
 
-If export is enabled for a survey program, you can export raw survey response by using the following procedures:
+If export is enabled for a survey program, you can export raw survey responses for Recurring, Ad Hoc, Employee Lifecycle, and Always-On surveys.
 
 ### Export raw survey responses for Recurring and Ad Hoc surveys
 
 1.	Go to the **Configuration** page and select **Survey Programs.**
 2.	Select your survey program and go to the **Completed cycles** tab.
 3.	On the row with the appropriate cycle, select the ellipses (three dots) and then **Export Raw Survey Responses.**
-1. In the export pane that appears:
+1. In the export panel that appears:
    1. Choose whether to include Comments, Survey Sent Date, and Use question's description instead of UUID in the Export Options section.
-   1. Select attributes to include.
+   1. Select attributes to include. To improve the usability of exports, new attributes are available: Survey Cycle ID, Date Filter, Comments Topics, and Sensitive Comments Flag.
    2. After making all selections, select **Export.**
-5.	Your .csv file downloads to your device. Larger files can take more time to generate. You receive an email when your file is ready to download.
+5.	Your CSV file downloads to your device. Larger files take more time to generate. You receive an email when your file is ready to download.
 
 ### Export raw survey responses for Employee Lifecycle and Always-On surveys
 
 1.	Go to the **Configuration** page and select **Survey Programs.**
 2.	Select your survey program and then the **Actions** menu.
 3.	Choose **Export Raw Survey Responses.**
-1. In the export pane that appears:
+1. In the export panel that appears:
    1. Select a Start Date and End Date in the Date Range section.
-   2. Choose whether to include Comments, Survey Sent Date, and Use question's description instead of UUID in the Export Options section.
-   1. Select attributes to include.
+   2. Choose whether to include Comments or Survey Sent Date.
+   1. Select attributes to include. To improve the usability of exports, new attributes are available: Survey Cycle ID, Date Filter, Comments Topics, and Sensitive Comments Flag. Survey Start Date is also available for Always-On surveys.
    2. After making all selections, select **Export.**
-5.	The .csv file downloads to your device. Larger files can take more time to generate. You receive an email when your file is ready to download.
+5.	The CSV file downloads to your device. Larger files take more time to generate. You receive an email when your file is ready to download.
 
 ## Raw survey response file layout
 
