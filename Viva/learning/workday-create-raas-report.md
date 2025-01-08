@@ -229,12 +229,12 @@ This report should be created from the primary Workday admin account to avoid an
     
     |Business object | Field | Column heading override | Column heading override XML alias| 
     | - | - | - | - | 
-    | Learning Assignment | Workday ID | AssigmentId | AssigmentId
+    | Learning Assignment | Workday ID | AssignmentId | AssignmentId
     Worker | Workday ID | LearnerId | LearnerId| 
     | Learning Content | Workday ID | LearningObjectId | LearningObjectId| 
     | Learning Assignment | Due Date | DueDate | DueDate|
     |Learning Assignment | Assignment Status | CompletionStatus | CompletionStatus| 
-    | Learning Assignment | Assigned Date | AssigmentDate | AssigmentDate| 
+    | Learning Assignment | Assigned Date | AssignmentDate | AssignmentDate| 
     |Assigned By | Workday ID | AssignerId | AssignerId |
     |Learning Assignment |  Assignment Record Completion Moment | CompletionDate | CompletionDate | 
     | Learning Assignment | Required | AssignmentType | AssignmentType | 
