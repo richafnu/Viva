@@ -14,7 +14,7 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 12/17/2024
+ms.date: 1/06/2025
 ---
 
 # Support survey participants during a live Viva Glint survey
@@ -75,6 +75,6 @@ Users receive a notification email after using the link if they have no active s
 
 ## Be mindful of scheduled monthly maintenance
 
-To strive for consistent improvement, Viva Glint undergoes [monthly maintenance](/../../Viva/glint/setup/monthly-release-dates) to release new features, enhancements, and fixes. If users are presented with a maintenance message when attempting to access a survey, ask them to revisit the survey the following day.
+To strive for consistent improvement, Viva Glint undergoes [monthly deployments](/../../Viva/glint/setup/monthly-release-dates) to release new features, enhancements, and fixes. If users are presented with a maintenance message when attempting to access a survey, ask them to revisit the survey the following day.
 
 
