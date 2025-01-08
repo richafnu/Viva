@@ -47,7 +47,7 @@ If you wish to control the migration, it may still be possible. Start the migrat
 
 ### I received a Microsoft 365 Message Center post that says I’m selected for automatic migration. When does it start and end?
 
-Your migration begins 10 days after the date of the first Message Center post. You'll receive another Message Center post when your migration begins. No admin action is needed to complete the migration. Information about the migration is provided when it completes.
+Your migration begins 10 days after the date of the first Message Center post. You receive another Message Center post when your migration begins. No admin action is needed to complete the migration. Information about the migration is provided when it completes.
 
 Migration time depends on the volume of files which need to be migrated from legacy Viva Engage file storage to SharePoint storage. It isn't possible to provide an estimate ahead of time due to the number of factors involved.
 
