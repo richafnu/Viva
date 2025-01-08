@@ -65,7 +65,7 @@ To ensure completeness of post-migration data, all content from your previous ne
 
 ### What is the impact to end users during the migration?
 
-Community guests need to be reinvited after migration completes, but most end users aren't impacted during migration. Microsoft Entra B2B replaces the legacy Viva Engage external communities feature when a network is in native mode. See [Work with Microsoft Entra B2B guests in Viva Engage communities](https://learn.microsoft.com/en-us/viva/engage/get-started-with-viva-engage/azure-ad-b2b-guests-viva-engage).
+Community guests need to be reinvited after migration completes, but most end users aren't impacted during migration. Microsoft Entra B2B replaces the legacy Viva Engage external communities feature when a network is in native mode. See [Work with Microsoft Entra B2B guests in Viva Engage communities](/viva/engage/get-started-with-viva-engage/azure-ad-b2b-guests-viva-engage).
 
 ### The migration page says the migration is still in process, but we received a Message Center post stating the migration was complete. What is happening?
 
