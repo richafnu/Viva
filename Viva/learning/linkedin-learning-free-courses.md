@@ -31,10 +31,10 @@ Learners in your organization need the following to access [LinkedIn premium con
 2. LinkedIn Learning subscription 
 
 
-> [!NOTE]:
+> [!NOTE]
 > As an admin, you need a Viva Learning license to view the toggle that lets you turn LinkedIn premium content **on** or **off** for learners in your organization. 
 
-:::image type="content" alt-text="Screenshot of the OAuth 2.0 Clients Enabled checkbox selected." source="../media/learning/linkedin-learning-toggle-premium-content.png" lightbox="../media/learning/linkedin-learning-toggle-premium-content.png":::
+:::image type="content" alt-text="Screenshot of the manage providers tab in which the admin can toggle the settling that lets learners in their organization access LinkedIn premium content." source="../media/learning/linkedin-learning-toggle-premium-content.png" lightbox="../media/learning/linkedin-learning-toggle-premium-content.png":::
 
 
 
