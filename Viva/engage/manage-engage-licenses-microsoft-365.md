@@ -121,7 +121,7 @@ Use the following steps to block users who don't have Viva Engage Core licenses.
 
 #### Why are Viva Engage Core licenses "per user"?
 
-Per-user licenses let you assign Viva Engage to a subset of users in your company, typically for a geographical or team-by-team rollout. Only users who have a Viva Engage Core license can see the Viva Engage tile in the Microsoft 365 app launcher and the Viva Engage application in Teams.
+Per-user licenses let you assign Viva Engage to a subset of users in your company, typically for a geographical or team-by-team rollout. Only users who have a Viva Engage Core license can see the Viva Engage tile in the Microsoft 365 Copilot and the Viva Engage application in Teams.
   
 #### How does this affect Viva Engage users who sign in with their email and password?
 
