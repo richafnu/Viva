@@ -76,7 +76,7 @@ Before adding a placeholder CEO to your employee data:
 
 ## Hierarchy groups
 
-Depending on the size of your organization and reporting needs, Glint admins can set up other non-manager reporting hierarchies. Include attributes in employee data for each level of these hierarchies, which commonly include location or department information.
+Depending on the size of your organization and reporting needs, Glint admins can set up other nonmanager reporting hierarchies. Include attributes in employee data for each level of these hierarchies, which commonly include location or department information.
 
 ### Example: location hierarchy
 
