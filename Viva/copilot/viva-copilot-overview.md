@@ -31,7 +31,7 @@ Microsoft 365 Copilot is an AI assistant that uses the power of large language m
 
 Copilot in Viva Amplify helps you find the best wording to make sure your publications communicate your message effectively. Copilot is available in the Text web part and all rich text editors in Viva Amplify, including the campaign brief.
 
-[Learn more about Copilot in Viva Amplify](../amplify/copilot-in-viva-amplify.md)
+[Learn more about Copilot in Viva Amplify](../amplify/copilot-in-viva-amplify.md).
 
 ## Microsoft 365 Copilot in Viva Engage
 
@@ -63,7 +63,7 @@ Viva Insights includes Power BI report templates to help business leaders and an
 
 HR users and leaders of large organizations spend valuable time interpreting Glint survey results and comments. Copilot in Viva Glint enables them to understand and act on employee feedback by quickly summarizing large quantities of comments. Copilot in Viva Glint is available for all enabled users whose teams meet the threshold for verbatim comment results.
 
-[Learn more about Copilot in Viva Glint](../glint/copilot/copilot-admin-intro.md)
+[Learn more about Copilot in Viva Glint](../glint/copilot/copilot-admin-intro.md).
 
 ## Microsoft 365 Copilot in Viva Goals
 
@@ -87,4 +87,4 @@ The Microsoft Copilot Dashboard in Viva Insights helps organizations maximize th
 
 Measure employee sentiment and feedback to find out how employees are experiencing Microsoft 365 Copilot. Viva Pulse integrates with the Microsoft Copilot Dashboard so leaders and admins can send their own surveys to gain insights into how Copilot impacts their workforce.
 
-[Learn more about measuring Copilot impact in Viva Pulse](../pulse/viva-integrations/measure-copilot-impact-in-your-organization.md)
+[Learn more about measuring Copilot impact in Viva Pulse](../pulse/viva-integrations/measure-copilot-impact-in-your-organization.md).
