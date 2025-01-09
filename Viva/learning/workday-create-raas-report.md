@@ -112,7 +112,7 @@ This report should be created from the primary Admin account of Workday to avoid
 7. Go to **Advanced** and select the field **Optimized for Performance**.
 
    > [!NOTE]
-   > After isEffective date changes, it is not possible to turn on optimized for performance. Considering the data volumns in hand, we can advise customers to uncheck this field.
+   > After isEffective date changes, it is not possible to turn on optimized for performance. Considering the data volumes in hand, we can advise customers to uncheck this field.
 
 8. Share the report with Integrated System User (ISU), which you created while enabling catalog sync. Go to the **Share** section in report, select the option "share with specific authorized groups and users" and add ISU name in the **Authorized users** field.  
 
