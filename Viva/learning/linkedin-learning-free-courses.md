@@ -4,7 +4,7 @@ ms.author: bhaswatic
 author: bhaswatic
 manager: elizapo
 ms.reviewer: chrisarnoldmsft
-ms.date: 01/08/2025
+ms.date: 01/09/2025
 audience: admin
 ms.topic: article
 ms.service: viva-learning
@@ -25,9 +25,16 @@ The library of [global skilling initiative (GSI) courses](https://opportunity.li
 
 You can view the free LinkedIn courses in Viva by putting the search query `premium:false` and choosing **LinkedIn Learning** in the provider filter.
 
-For learners in your organization to access [premium LinkedIn content] (https://learning.linkedin.com), they need both of the following:
-a)  Viva Suite or Viva Learning license 
-b) LinkedIn Learning subscription 
+Learners in your organization need the following to access [LinkedIn premium content] (https://learning.linkedin.com):
+
+1. Viva Suite or Viva Learning license
+2. LinkedIn Learning subscription 
+
+
+> [!NOTE]:
+> As an admin, you need a Viva Learning license to view the toggle that lets you turn LinkedIn premium content **on** or **off** for learners in your organization. 
+
+:::image type="content" alt-text="Screenshot of the OAuth 2.0 Clients Enabled checkbox selected." source="../media/learning/linkedin-learning-toggle-premium-content.png" lightbox="../media/learning/linkedin-learning-toggle-premium-content.png":::
 
 
 
