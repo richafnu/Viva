@@ -25,7 +25,7 @@ The library of [global skilling initiative (GSI) courses](https://opportunity.li
 
 You can view the free LinkedIn courses in Viva by putting the search query `premium:false` and choosing **LinkedIn Learning** in the provider filter.
 
-Learners in your organization need the following to access [LinkedIn premium content] (https://learning.linkedin.com):
+Learners in your organization need the following to access [LinkedIn premium content](https://learning.linkedin.com):
 
 1. Viva Suite or Viva Learning license
 2. LinkedIn Learning subscription 
