@@ -89,7 +89,7 @@ This table explains the expected end user experience for files while the Tool is
 
 If a group is deleted during the tool job, all the files from that group are deleted and don't migrate over.
 
-## After successfully entering Native Mode
+## After successful entry to Native Mode
 
 - All group files are [stored in SharePoint](https://go.microsoft.com/fwlink/?linkid=2111253), which provides a consistent file management experience.
 
@@ -97,14 +97,6 @@ If a group is deleted during the tool job, all the files from that group are del
 
 > [!NOTE]
 > If you receive an error code during the alignment process for Native Mode, refer to the [Error Codes section in the Troubleshooting Native Mode article](../troubleshoot-problems/troubleshoot-native-mode.md#error-codes).
-
-## Related articles
-
-[Overview of Native Mode](../overview-native-mode.md)
-
-[Troubleshoot problems with Native Mode for Microsoft 365](../troubleshoot-problems/troubleshoot-native-mode.md)
-
-In Native Mode for Microsoft 365, Sharepoint automatically stores all Viva Engage files must be stored in SharePoint. It's easier for users and admins to access files when you have a single location for file storage.
 
 ## What happens to files in private messages when you run the Native Mode Alignment Tool?
 
@@ -121,69 +113,10 @@ The Native Mode Alignment Tool uses the following file handling rules:
 - For groups that have multiple files with the same name, the tool appends duplicate filenames with `_X`, where X is an increasing number for each duplicate file (for example, file_1, file_2, file_3, and so on).
 - Viva Engage files that don't align with SharePoint naming standards are renamed to meet requirements.
 
-## File renaming rules
-
-The Native Mode Alignment Tool follows a second set of file naming conventions when it begins the migration: 
-
-- Filenames with SharePoint-unsupported characters replace those characters with an underscore (`_`).
-- Duplicate files, or files with names that already exist in SharePoint, are renamed using the format `filename_yammerFileID_extension`.
-- Filenames with a blank space as the first or last character, or that end with a period, are edited to remove those characters.
-- Unnamed files are named according to the following format: "Viva Engage File," "Viva Engage File (2)," "Viva Engage File (3)," and so on.
-- Filenames starting with `\~$` are renamed to remove the leading tilde, for example: "~$Viva Engage File" is renamed to "$Viva Engage File."
-- Filenames containing `_vti_` anywhere in the name are replaced with `-vti-`, for example: "Viva_Engage_vti_File" is renamed to "Viva-Engage-vti-File."
-- Filenames that contain `.lock`, CON, PRN, AUX, NUL, COM0 - COM9, LPTO - LPT9, or desktop.ini are renamed to append "__file" to the name. For example, "COM0" gets renamed to "COM0_file." 
-
-## Before you run the tool
-
-Because migration deletes files and the process is irreversible, take the following actions:
-
-- Export the files before running the Tool and save them in case anyone asks for them.
-- *Ensure that all mobile and desktop client users update to the latest version of Viva Engage Android, Viva Engage iOS, or Viva Engage Desktop apps*. Older versions may have issues uploading files to SharePoint.
-- If you use third party APIs to upload files, use the latest [Upload files into Viva Engage groups](/rest/api/yammer/upload-files-into-yammer-groups) API version. Previous versions are blocked and file uploads don’t work.
-- Notify users that the migration deletes files in Viva Engage private messages. The latest version of the file migrates to SharePoint, and no previous versions get copied. The Alignment Tool doesn't copy the follower count. Users also can't mark files as official.
-
-## Admin step-by-step experience
-
-1. Export all files. Learn more about how to [Export Viva Engage data](../eac-as-manage-data#find-and-delete-specific-messages-or-files)
-
-2. Start the **Microsoft 365 Alignment Tool**.
-
-3. Download the **Alignment Report**, which provides details on the files for each user and group.
-
-   - Each user has a count for the total number of private message files. The Alignment tool deletes all private message files when the job completes.
-   - Each group has a count of Viva Engage and SharePoint files. The Alignment tool migrates all Viva Engage files to SharePoint, with the exceptions noted in this article. Existing SharePoint files aren't affected.
-
-4. Authorize and run the Alignment Tool. You can expect the following time frames for networks with significant file counts:
-
-   - SLA - up to 30 days for networks with < 100,000 files
-   - SLA - up to 45 days for networks with > 100,000 files
-
-5. After the Native Mode Alignment Tool completes, review the Error Report and determine if other steps are necessary before your network can be in Native Mode.
-
-### End user experience
-
-This table explains the expected end user experience for files while the Tool is running:
-
-|Tasks|Microsoft 365 Viva Engage Groups|Unconnected Viva Engage Groups|Private Messages|
-|-----|------------------------|-------------------------|----------------|
-|Delete files|User can delete files|File isn't migrated to SharePoint.|Files are deleted and users have no access.|
-|Edit file|Edited files are stored in SharePoint|Only the latest file is migrated to SharePoint. If a user edits a file during migration, they risk losing data. Old versions are no longer accessible in SharePoint.|N/A|
-|New file|New files are stored in SharePoint|File is in Microsoft Azure, but migrated to SharePoint by the time the Tool completes its work.|N/A|
-||||
-
-If a group is deleted, all the files from that group are deleted (not migrated over).
-
-## After successfully entering Native Mode
-
-- All group files are [stored in SharePoint](https://go.microsoft.com/fwlink/?linkid=2111253), providing a consistent file management experience.
-
-- File search can happen from SharePoint and Viva Engage. Viva Engage searches the first 5,000 characters of files in Microsoft Azure cloud storage and the title and author, but only searches the title and author of files stored in SharePoint.
-
-> [!NOTE]
-> If you receive an error code during the alignment process for Native Mode, refer to the [Error Codes section in the Troubleshooting Native Mode article](../troubleshoot-problems/troubleshoot-native-mode.md#error-codes).
-
 ## Related articles
 
 [Overview of Native Mode](../overview-native-mode.md)
 
 [Troubleshoot problems with Native Mode for Microsoft 365](../troubleshoot-problems/troubleshoot-native-mode.md)
+
+In Native Mode for Microsoft 365, Sharepoint automatically stores all Viva Engage files must be stored in SharePoint. It's easier for users and admins to access files when you have a single location for file storage.
