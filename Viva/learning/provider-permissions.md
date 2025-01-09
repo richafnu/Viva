@@ -23,11 +23,14 @@ description: Control access to content from a provider so only certain users can
 You can control access to all catalog and content from a provider so a specific set of user groups can discover the content in Viva Learning.
 Content from a provider is discoverable by everyone in your organization, by default. When content is shown to everyone, the access column displays "Public."
 
+
+As an admin, you can delete and reconfigure any provider, as needed. After you apply permissions, a provider's content becomes visible to the selected group. After you remove permissions, the provider goes back to the default behavior. 
+
 > [!NOTE]
 > - Any changes to permissions - adding, editing, or deleting - can take up to two hours to reflect in Viva Learning.
-> - You can select up to a maximum of ten user groups.
+> - You can select up to a maximum of 10 user groups.
 > - Only Microsoft 365 groups and Mail Enabled Security groups are supported.
-> - Only members of the chosen groups can view the provider and its content within viva learning.
+> - Only members of the chosen groups can view the provider and its content within Viva Learning.
 
 ![Screenshot of the Provider tab in the Manage Providers modal within Viva Learning](../media/learning/provider-permissions.png)
 
@@ -45,3 +48,11 @@ Content from a provider is discoverable by everyone in your organization, by def
 
 
 ![Screenshot of the Edit Permissions menu with option to edit access of user groups.](../media/learning/provider-permissions-2.png)
+
+
+## AI and Copilot resources
+
+
+The provider **AI and Copilot Resources** and its content are by default visible to users with Copilot licenses. 
+As an admin, you also see AI and Copilot Resources by default on the **Manage Providers** tab.  
+
