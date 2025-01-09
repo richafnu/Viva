@@ -14,22 +14,26 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 09/30/2024
+ms.date: 01/09/2025
 ---
 
 # Viva Glint organizational hierarchy fundamentals
 
 A reporting hierarchy in Microsoft Viva Glint filters data into levels from highest to lowest, or largest to smallest, to provide precise insights into employee feedback. 
 
-> [!NOTE]
-> Viva Glint allows for up to 10 reporting hierarchies, including a manager hierarchy. Each reporting hierarchy can have up to 10 levels, except for the manager hierarchy, which calculates up to 25 levels.
+Glint allows for up to 10 reporting hierarchies, including a manager hierarchy. Each reporting hierarchy can have up to 10 levels, except for the manager hierarchy. The manager hierarchy can be calculated up to 25 levels.
+
+> [CAUTION!]
+> When there are CEO changes and customer doesn't take action and update correctly, the manager hierarchy will be broken. 
 
 ## Manager hierarchy
 
-Manager hierarchy is typically used as the primary reporting hierarchy and is the only hierarchy that Viva Glint processes automatically with file uploads. Every employee in your organization should have a Manager ID except your organization's CEO or top-level leader.
+Manager hierarchy is typically used as the primary reporting hierarchy and is the only hierarchy that Glint processes automatically with file uploads. Every employee in your organization should have a Manager ID except your organization's CEO or top-level leader.
+
+
 
 > [!IMPORTANT]
-> The Viva Glint label for your managerial hierarchy is "Manager." Ensure that no attributes in your employee data are also labeled "Manager." This results in file upload issues.
+> The Glint label for your managerial hierarchy is "Manager." Ensure that no attributes in your employee data are also labeled "Manager." This results in file upload issues.
 
 ### Example
 
@@ -59,7 +63,7 @@ The Viva Glint system automatically configures Leonie's hierarchy level within t
 
 ### Multiple CEOs
 
-Viva Glint's best practice is to select a single user in your employee data as the top level/CEO whose Manager ID value is blank. If your organization has multiple leaders that should sit at the top of your manager hierarchy, your organization can add a placeholder "CEO." All top-level users can then report to this placeholder CEO and appear as level 2 managers in Glint reporting and filters:
+Glint's best practice is to select a single user in your employee data as the top level/CEO whose Manager ID value is blank. If your organization has multiple leaders that should sit at the top of your manager hierarchy, your organization can add a placeholder "CEO." All top-level users can then report to this placeholder CEO and appear as level 2 managers in Glint reporting and filters:
 
 :::image type="content" source="../../media/glint/setup/placeholder-ceo-filter.png" alt-text="Screenshot of manager hierarchy filters in Glint reporting, with a placeholder CEO as the top-level user and multiple CEOs as level 2 managers.":::
 
@@ -100,7 +104,7 @@ Two columns are needed in employee data to create a department hierarchy in Viva
 - Level 2 – Division
 
 ## Next step
-Use Viva Glint attribute and hierarchy information to populate your Viva Glint Employee Attribute Template, which serves as a planning tool for your employee data file attributes, layout, and format.
+Use Viva Glint attribute and hierarchy information to populate your Glint Employee Attribute Template. This template serves as a planning tool for your employee data file attributes, layout, and format.
 
 > [!div class="nextstepaction"]
 > [Viva Glint Employee Attribute Template](create-employee-attribute-template.md)
