@@ -43,13 +43,13 @@ Copilot in Viva Engage helps you communicate more effectively with your communit
 
 ### Copilot for analysts
 
-Copilot in Viva Insights can help you choose a Power BI report or custom person query, and simplify the report building process by suggesting metrics, filters, and attributes relevant to your analysis.
+Copilot in Viva Insights can help analysts choose a Power BI report or custom person query, and simplify the query building process by suggesting metrics, filters, and attributes relevant to their analysis.
 
-[Learn more about Copilot for analysts in Viva Insights](../insights/advanced/analyst/copilot-query.md)
+[Learn more about Copilot for analysts in Viva Insights.](../insights/advanced/analyst/copilot-query.md)
 
 ### Copilot reports
 
-Viva Insights includes query templates for Power BI reports that help you understand Copilot usage in your organization.
+Viva Insights includes Power BI report templates to help business leaders and analysts understand Copilot usage in their organization.
 
 [Microsoft 365 Copilot adoption report](../insights/advanced/analyst/templates/microsoft-365-copilot-adoption.md)
 
@@ -57,7 +57,7 @@ Viva Insights includes query templates for Power BI reports that help you unders
 
 [Copilot for Sales adoption report](../insights/advanced/analyst/templates/copilot-for-sales-adoption.md)
 
-[Copilot Business Outcome(Copilot Business Impact) report](../insights/advanced/analyst/templates/copilot-business-impact.md)
+[Copilot Business Outcome (Copilot Business Impact) report](../insights/advanced/analyst/templates/copilot-business-impact.md)
 
 ## Microsoft 365 Copilot in Viva Glint
 
