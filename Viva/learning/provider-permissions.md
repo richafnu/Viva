@@ -4,7 +4,7 @@ ms.author: bhaswatic
 author: bhaswatic
 manager: elizapo
 ms.reviewer: chrisarnoldmsft
-ms.date: 12/11/2024
+ms.date: 01/09/2025
 audience: admin
 ms.topic: concept-article
 ms.service: viva-learning
@@ -56,3 +56,6 @@ As an admin, you can delete and reconfigure any provider, as needed. After you a
 The provider **AI and Copilot Resources** and its content are by default visible to users with Copilot licenses. 
 As an admin, you also see AI and Copilot Resources by default on the **Manage Providers** tab.  
 
+As with other providers, if you delete **AI and Copilot Resources** from the **Manage Providers** tab, learners will not see any content in the Copilot Academy. 
+Learner can still search for the courses that are part of Copilot Academy and powered by **Microsoft Learn** and **Microsoft 365 Training** if those two 
+providers are enabled.
