@@ -58,7 +58,7 @@ The provider **AI and Copilot Resources** and its content are by default visible
 
 As an admin, you also see **AI and Copilot Resources** by default on the **Manage Providers** tab.  
 
-As with other providers, if you delete **AI and Copilot Resources** from the **Manage Providers** tab, learners will not see any content in the Copilot Academy. 
+As with other providers, if you delete **AI and Copilot Resources** from the **Manage Providers** tab, learners won't see any content in the Copilot Academy. 
 
 Learners can still search for the courses that are part of Copilot Academy and powered by **Microsoft Learn** and **Microsoft 365 Training** if those two 
 providers are enabled.
