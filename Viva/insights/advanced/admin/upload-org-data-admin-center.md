@@ -54,7 +54,7 @@ To upload data, follow the Organizational data in Microsoft 365 wizard to comple
 * View the data quality of past uploads
 
 >[!Note]
->Uploading files larger than 25 MB using Organizational data in Microsoft 365 requires the use of SharePoint. [Learn how to upload data through Sharepoint](/viva/import-orgdata#upload-the-file-to-sharepoint).
+>Uploading files larger than 25 MB using Organizational data in Microsoft 365 requires the use of SharePoint. [Learn how to upload data through SharePoint](/viva/import-orgdata#upload-the-file-to-sharepoint).
 
 ## Other capabilities remaining in the Advanced Analytics app
 
