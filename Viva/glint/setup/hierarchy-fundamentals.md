@@ -34,21 +34,14 @@ Manager hierarchy is typically used as the primary reporting hierarchy. Glint ge
 
 Glint generates the employee's Manager ID column from your data file. 
 
-|Employee|Manager|Glint generated Manager ID in your Employee Data File|
-|-----|------|-------|
-|Leonie| Marcio|Marcio's ID|
-|Marcio |Archie|Archie's ID|
-|Archie| Angel|Angel's ID|
-|Angel|None, Angel is the CEO|The hierarchy ends with Angel, who doesn't report to anyone.|
+|Employee|Manager|Glint generated Manager ID|Glint generated hierarchy level|
+|-----|------|-------|------|
+|Leonie| Marcio|Marcio's ID|Level 4|
+|Marcio |Archie|Archie's ID|Level 3|
+|Archie| Angel|Angel's ID|Level 2|
+|Angel|None, Angel is the CEO. Leave the cell blank.|The hierarchy ends with Angel, who doesn't report to anyone.|Level 1|
 
 :::image type="content" source="../../media/glint/setup/mgr-hierarchy-filter.png" alt-text="Screenshot of manager hierarchy filters in Glint reporting, drilling down from level 1 to level 3.":::
-
-The Glint system automatically configures hierarchy level:
-
-- Level 1 – Angel
-- Level 2 – Archie
-- Level 3 – Marcio
-- Level 4 - Leonie
 
 > [!IMPORTANT]
 > - When there are CEO changes which aren't updated correctly and in a timely manner, the manager hierarchy is broken. A broken hierarchy doesn't reflect your population the way it exists.
