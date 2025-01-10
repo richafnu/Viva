@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 01/09/2025
+ms.date: 01/10/2025
 ---
 
 # Viva Glint organizational hierarchy fundamentals
@@ -59,7 +59,7 @@ The Glint system automatically configures hierarchy level:
 >   3. To update this change for a current or past survey, implement a [retroactive update](/../../viva/glint/setup/glint-data-apps#retroactive_pulse_update). 
 
 > [!CAUTION]
-> Matrix manager hierarchies aren't recommended in employee data. Glint only calculates levels for one manager hierarchy. Admins can't add new hierarchies after theinitial attribute setup. Matrix manager levels require manual maintenance and updates by your organization.
+> Matrix manager hierarchies aren't recommended to be included in employee data. Glint only calculates levels for one manager hierarchy. 
 
 ### Multiple CEOs
 
