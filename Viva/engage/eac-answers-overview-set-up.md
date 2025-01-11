@@ -25,7 +25,7 @@ search.appverid:
 
 Answers lets employees ask questions and connect to crowdsourced answers. Natural language processing helps match questions with available answers, and the experience rewards people who contribute to Answers.
 
-Answers helps users get their questions answered, connect with subject matter experts, and increase their learning.
+Answers helps users get their questions answered, connect with subject matter experts, and boost their learning process.
 
 ## Licensing
 
