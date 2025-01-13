@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 1/10/2025
+ms.date: 1/13/2025
 ---
 
 # Choose your benchmark comparison data for Viva Glint reporting
@@ -72,14 +72,14 @@ Managers are best served by using an internal comparison, which for a team's fir
 - The internal comparison available to a user is their *current* value, which is populated in the selected attribute.
 
  **Example:**
-  - The attribute selected for the internal benchmark is *Country,* and the user's *current* Country value is USA.
-  - The user sees **USA** as the available benchmark to select in their dropdown menu.
+  - The attribute selected for the internal benchmark is **Country,** and the user's *current* Country value is USA.
+  - The user sees **USA** as an available benchmark to select in their dropdown menu.
   - The score used for comparison is calculated from the survey responses of other users whose current Country value is USA.
-  - Comparison data is aggregated from the responses of users whose current value for the selected attribute is the same as the user's - USA. 
+  - Summary for this example: comparison data is aggregated from the responses of users whose current value for the selected attribute is the same as the user's - USA. 
 
-  Now, let's say the user moves and their new Country value is Mexico.
+  **Now, let's say the user moves and their new Country value is Mexico.**
   - The internal benchmark now available in the dropdown menu is Mexico
-  - The comparison score is calculated from response data of users also currently showing Mexico in your employee data attribute file.
+  - The comparison score is calculated from response data of users also currently showing Mexico as their Country value in your employee data attribute file.
 
 **For managers, using internal comparisons and their own team's trend are best practices.**
 
@@ -88,10 +88,9 @@ Managers are best served by using an internal comparison, which for a team's fir
 
 ### When is the Company comparison useful?
 
-Company comparisons are useful for a first survey when managers have no trend to follow. After the first survey, managers should focus on their team's trend - change in scores over time - to see progress and where opportunities lie.
+Company comparisons are useful for a first survey when managers have no team trend to follow. After the first survey, managers should focus on their team's trend to see progress and where opportunities lie.
 
-
-### When is the external benchmark comparison useful?
+### When is an external benchmark comparison useful?
 
 For an initial survey, when no historical data exists, most organizations are interested in seeing how their scores compare to an *external* benchmark. This practice is a good way to begin orient your organization to their results. Viva Glint has more than 180 survey questions with benchmark data by industry, function, or country.
 
@@ -132,7 +131,7 @@ In these instances, the **Average Question** score allows a comparison measureme
 
 When comparing two groups, a group against a benchmark, or a score change over time, consider both practical and statistical significance.
 
-- **Practical significance:** The difference in the scores between two groups that is large enough to observe unique patterns. If a score difference between two teams is too small to detect any material difference, that difference may not carry as much practical significance.
-- **Statistical significance:** The probability that the difference between the scores of two groups isn't chance or coincidence but accurately represents the unique responses of individuals in each group. This is useful with larger groups, where it can be used to surface reliable patterns in data. On your platform, Alerts and Driver Impact analysis automatically check for statistical significance and display significant results.
+- **Practical significance:** The difference in the scores between two groups that is large enough to observe unique patterns. If a score difference between two teams is too small to detect a difference, that difference doesn't carry as much practical significance.
+- **Statistical significance:** The probability that the difference between the scores of two groups isn't chance or coincidence. Instead, it accurately represents the unique responses of individuals in each group. This comparison is useful with larger groups, where it can be used to surface reliable patterns in data. On your platform, Alerts and Driver Impact analysis automatically check for statistical significance and display significant results.
 
 
