@@ -6,7 +6,7 @@ author: JudyWeiner
 manager: MelissaBarry
 audience: admin
 f1.keywords: NOCSH
-keywords: alerts, comments, driver impact, executive summary, goals overview, heat map, disable comments, disable comments export, comments export, verbatim comments export, overall results, manager report, response rate, team summary, report access level, add report sections, delete report sections, prescriptive comments, representative comments
+keywords: alerts, comments, driver impact, executive summary, goals overview, heat map, disable comments, disable comments export, comments export, verbatim comments export, overall results, manager report, response rate, team summary, report access level, add report sections, delete report sections, prescriptive comments, Copilot in Viva Gint,representative comments
 ms.collection: 
  - m365initiative-viva
  - selfserve
