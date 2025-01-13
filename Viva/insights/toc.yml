@@ -234,7 +234,7 @@ items:
           href: org-team-insights/delegate-access.md   
         - name: Manage settings for the Copilot Dashboard
           href: advanced/admin/manage-settings-copilot-dashboard.md
-        - name: Set up analyst queries using Copilot 
+        - name: Set up analyst queries using Microsoft 365 Copilot in Viva Insights 
           href: advanced/analyst/copilot-query.md
         - name: Microsoft 365 Copilot adoption report
           href: advanced/analyst/templates/microsoft-365-copilot-adoption.md   
