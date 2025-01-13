@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 11/18/2024
+ms.date: 1/13/2025
 ---
 
 # Export reports as a PDF
@@ -77,6 +77,13 @@ To disable a section:
     :::image type="content" source="../../media/glint/reports/export-file-save-pdf.png" alt-text="Screenshot of the option to Save to PDF in your printing window." lightbox="../../media/glint/reports/export-file-save-pdf.png":::
 
 ## Export the Comments report
+
+> [!IMPORTANT]
+> Use Microsoft 365 Copilot in Viva Glint to summarize comments. Copilot in Viva Glint enables leaders to understand and act on employee feedback by quickly summarizing large quantities of comments. Learn more:
+> - [Introduction to Microsoft 365 Copilot in Viva Glint](/../../viva/glint/copilot/copilot-admin-intro)
+> - [Administrator enablement for Copilot in Viva Glint](/../../viva/glint/copilot/admin-enable)
+
+**Export procedure:**
 
 1.	Select the **More** button.
 2.	If the Comments report (or any specific report) isn't part of your current reporting view, from the dropdown menu, choose **+ Add section**.
