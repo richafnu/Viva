@@ -294,7 +294,8 @@ You can create a dashboard card using Power Apps for use in Viva Connections. De
 > [!NOTE]
 >
 > - You will need a [Power Apps](/power-apps/powerapps-overview) account and have [created a card in Power Apps](/power-apps/cards/tutorials/hello-world-card) in order to bring one into Viva Connections.
-> - Only cards based on the [Dataverse connector](/power-apps/cards/make-a-card/connectors/connector-intro) are supported
+> - Only cards based on the [Dataverse connector](/power-apps/cards/make-a-card/connectors/connector-intro) are supported.
+> - All Viva Connections users need to have the Basic User security role in the Power Apps environment where the card is created.
 
 1. Access your [Power Apps account](https://make.powerapps.com/) to create your card. For more information about cards for Power Apps, see  [the overview documentation](/power-apps/cards/overview).
 
