@@ -27,7 +27,7 @@ To control who has access to specific Viva features you can create and update po
 Policies are used to enable or disable specific features or types of data processing for users or groups in your tenant.
 
 > [!NOTE]
-> These features aren't available yet in GCC High or DoD. For GCC, refer to the documentation for your specific app for availability.
+> These features aren't available yet in GCC High or DoD. For GCC, see the documentation for your specific app for availability.
 
 ## Creating and managing policies  
 
@@ -45,12 +45,14 @@ Before you can create a policy, you need:
 
 ## Features available to manage
 > [!NOTE]
-> - Some features may not support user/group policies. In addition, policies for one app can have an impact on the entire tenant or users in your tenant. For more information, refer to the feature documentation by using the link in the table.
+
+> - Some features may not support user/group policies. In addition, policies for one app can have an impact on the entire tenant or users in your tenant. For more information, see the feature documentation by using the link in the table.
 > - Only some features have the controls available for admins to provide users with the option to opt out.
 
 You can use feature access management to manage access to the following features:
 
 > [!NOTE]
+
 > - Some features may not support user/group policies. In addition, policies for one app can have an impact on the entire tenant or users in your tenant. For more information, see the feature documentation by using the link in the table.
 > - Only some features have the controls available for admins to provide users with the option to opt out.
 
