@@ -5,7 +5,7 @@ ms.reviewer: ethli
 ms.author: donnabouldin
 author: v-rgrace
 manager: elizapo
-ms.date: 12/20/2024
+ms.date: 01/13/2025
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -21,7 +21,7 @@ search.appverid:
 
 # Set up Answers in Viva
 
-**Answers in Microsoft Viva** is a new experience for people in large organizations to learn from each other by asking and answering questions. Access is through the Viva Engage Teams app, both on the **Answers** tab and on the **Communities** tab in communities of which the user is a member.
+**Answers in Microsoft Viva** is a new experience for people in large organizations to ask and answer questions from one another. Use the feature in the Viva Engage Teams app, on the **Answers** tab, and on the **Communities** tab in communities of which the user is a member.
 
 Answers lets employees ask questions and connect to crowdsourced answers. Natural language processing helps match questions with available answers, and the experience rewards people who contribute to Answers.
 
@@ -29,9 +29,15 @@ Answers helps users get their questions answered, connect with subject matter ex
 
 ## Licensing
 
-The Viva Engage Knowledge service plan is part of the Microsoft Viva Suite license, and of the Viva Employee Communications and Communities licenses. Users with the Viva Engage Knowledge service plan have access to the Answers experience. These users can ask and answer questions in communities and on the **Answers** tab, find similar questions, and receive rewards and recognition.  
+The Viva Engage Knowledge service plan is part of the following licenses:
 
-Users without the Viva Engage Knowledge service plan don't have the full Answers experience. Those users can ask questions, and view, vote, and respond to questions from communities in which they’re a member. Anytime their name is mentioned in Answers, they receive notifications to those questions and can visit those threads.
+- Microsoft Viva Suite license
+- Microsoft Viva Employee Communications license
+- Microsoft Viva Employee Communities license 
+
+Users with the Viva Engage Knowledge service plan have access to the Answers experience. They can ask and answer questions in communities and on the **Answers** tab, find similar questions, and receive rewards and recognition.  
+
+Users without the Viva Engage Knowledge service plan don't have the full Answers experience. Those users can ask questions, and view, vote, and respond to questions from communities in which they’re a member. When their name is mentioned in Answers, they receive notifications to those questions and can visit those threads.
 
 For more information about permissions, see [Manage admin roles in Viva Engage](eac-key-admin-roles-permissions.md).
 
@@ -49,7 +55,7 @@ By default, the Answers experience is enabled for networks that meet the followi
 
 3. **Topics migrated to Viva Engage**
 
-   Answers enablement depends on topics migrating to a supported version of topics in Viva Engage. We are in the middle of a transition as Viva Topics will be retired in 2025. As part of that change, Viva Engage no longer uses Viva Topics or Lightweight Topics. Topic migrations will complete in a similar time frame. [Learn more about the Viva Topics retirement](/microsoft-365/topics/changes-coming-to-topics?view=o365-worldwide&amp&preserve-view=true;WT.mc_id=M365-MVP-9501).
+   Answers enablement depends on topics migrating to a supported version of topics in Viva Engage. Because Viva Topics is being deprecated, Viva Engage no longer uses Viva Topics, Lightweight Topics, or Topic migrations. [Learn more about the Viva Topics retirement](/microsoft-365/topics/changes-coming-to-topics?view=o365-worldwide&amp&preserve-view=true;WT.mc_id=M365-MVP-9501).
    
    Customers awaiting topics migration can request priority Answers enablement, which may include Native Mode support or topics migration. Contact your customer account manager or Microsoft Viva Engage support to file a support ticket.
 
@@ -124,7 +130,7 @@ Users with the Viva Engage Knowledge Service Plan see AI-suggested topics in Ans
 
 ## Option: Enable rewards and recognition
 
-By contributing to Answers in Viva, users can earn and collect up to five different badges. Badges are available and visible to anyone in the organization who has a Viva Engage Knowledge Service Plan. This feature requires Answers to collect user data, such as votes from fellow employees, which count toward badges.
+When users contribute to Answers in Viva, they can earn and collect up to five different badges. Badges are available and visible to anyone in the organization who has a Viva Engage Knowledge Service Plan. This feature requires Answers to collect user data, such as votes from fellow employees, which count toward badges.
 
 1. In the Viva Engage Teams app, select the ellipses `(...)` button from the top-right navigation bar, and select **Admin** to navigate to the Viva Engage admin center.
 
