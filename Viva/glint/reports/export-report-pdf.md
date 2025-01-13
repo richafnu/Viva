@@ -57,7 +57,7 @@ In 360 feedback reports, the PDF export experience is a valuable and primary way
 7.	Now, choose **Export or Print** to open a new dialog box displaying report choices.
 
     > [!NOTE]
-    > This choice brings up the appropriate dialog box for the browser you are using. Choose whether to **Save as a PDF** or to **Print** the file. Report enhancements may include printing, searching, and highlighting if your PDF tool permits. Any filters applied display
+    > This choice brings up the appropriate dialog box for the browser you're using. Choose whether to **Save as a PDF** or to **Print** the file. Report enhancements may include printing, searching, and highlighting if your PDF tool permits. Any filters applied display
 
     :::image type="content" source="../../media/glint/reports/export-print.png" alt-text="Screenshot of the Export or Print button.":::
 
@@ -82,7 +82,7 @@ In 360 feedback reports, the PDF export experience is a valuable and primary way
       - Purpose: They aim to guide actions and suggest concrete steps for improvement.
     - **Representative comments** 
       -  Content: These comments reflect the views, opinions, or experiences of a larger group. In short - common themes.
-      -  Purpose: They aim to illustrate common sentiments or trends among the respondents
+      -  Purpose: They aim to illustrate common sentiments or trends among the respondents.
 5. The **Translation** option is available here for you to use. [Follow guidance for language translations](/viva/glint/setup/language-translations).
 
    :::image type="content" source="../../media/glint/reports/export-comments.png" alt-text="Screenshot of the Translate button in Comments exporting." 
