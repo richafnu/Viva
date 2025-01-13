@@ -194,7 +194,7 @@ items:
               href: advanced/analyst/templates/wellbeing.md
             - name: Power BI tips, FAQ, and troubleshooting
               href: advanced/analyst/templates/power-bi-faq-troubleshoot.md  
-          - name: Set up your queries using Copilot 
+          - name: Set up your queries using Microsoft 365 Copilot in Viva Insights 
             href: advanced/analyst/copilot-query.md
           - name: Publish reports
             href: advanced/analyst/publish-reports.md
