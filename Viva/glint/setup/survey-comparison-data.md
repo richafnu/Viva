@@ -46,7 +46,7 @@ Viva Glint provides four options for comparison reporting by default. In additio
 
 |Comparator|Description|When to use|
 |-------|--------|-----------|
-|**Benchmark**|Provides a comparison point for feedback based on survey data compiled from all Viva Glint customers, not only people from your organization.| Helpful for admins and first-time survey results analysis|
+|**Benchmark**|Provides a comparison point for feedback based on survey data compiled from all Viva Glint customers, not just within your organization.| Helpful for admins and first-time survey results analysis|
 |**Company**  | Displays team scores in comparison to company-wide scores for the same questions.| Helpful for users with more than one area of responsibility|
 |**My Teams** | Compares a manager's team score to an overall score derived from a filter.| This setting is the superset of access and is best used with custom access or managers with large organizations|
 |**Average Question** |Presents a single, overall score for all questions and respondents within your access.| Helpful for users looking for some level of variance in their score|
