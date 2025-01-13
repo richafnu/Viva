@@ -14,45 +14,47 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 10/08/2024
+ms.date: 1/13/2025
 ---
 
 # Use the Viva Glint Driver Impact report
 
-Drivers are factors that affect employee engagement; a driver's *impact* is described as its correlation with employee engagement in the current world of work. Strengths and Opportunities (S&Os) for creating focus areas and action plans are derived from driver impact data.
+Drivers are factors that affect employee engagement; a driver's *impact* is its correlation with employee engagement in the current world of work. Strengths and Opportunities (S&Os) for creating Focus Areas and action plans are derived from driver impact data.
 
 There can be a significant difference in how important a specific driver of engagement is to one team compared to another team, or to the rest of the company. For example, the engineering team's engagement level may be highly impacted by a lack of career growth opportunities, whereas the finance team may have been overworked this quarter and thus work-life balance impacts them the most. Key drivers vary within organizations and populations.
 
+## Internal benchmark comparisons
+
+One or more internal benchmark comparisons may be available to view feedback, based on how benchmarks have been configured in the Reporting section of your [General Settings](/../../viva/glint/reports/survey-reports-overview) feature. 
+
+**The four Glint benchmark comparison options are:**
+- **Benchmark**: Provides a comparison point for feedback based on survey data compiled from all Glint customers. Helpful for admins and first-time survey results analysis.
+- **Company**: Displays team scores in comparison to company-wide scores for the same questions. Helpful for users with more than one area of responsibility.
+- **My Teams**: Compares a team's score to an overall score derived from a user’s data access. Helpful for users with more than one area of responsibility.
+- **Average Question**: Presents a single, overall score for all questions and respondents within your access. Helpful for users looking for some level of variance in their score.
+
 [Watch this video about using the driver impact report.](https://www.microsoft.com/en-us/videoplayer/embed?partnerName=learn&powerCmsVideoId=RW1dOXU)
 
-## Strengths and Opportunities are derived from the Driver Impact report
+## Derive Strengths and Opportunities (S&Os) from the Driver Impact report
 
-The algorithm used to identify S&Os is composed of item scores, impact on engagement, and relativity of the score to a comparison point. This comparison could be internal company scores, an external benchmark, or the score for the average question for that survey.
+The algorithm used to identify S&Os is composed of item scores, impact on engagement, and relativity of the score to a benchmark comparison. 
 
-Strengths are areas that the team should celebrate, and opportunities are areas the team should work on to improve overall engagement (or the key outcome).
+**Strengths** are areas that the team should celebrate. *Opportunities** are areas the team should work on to improve overall engagement (or the survey's intended key outcome).
 
-[Watch videos for a quick and comprehensive summary of strengths and opportunities and learn more](/viva/glint/reports/act-strengths-opportunities)
+[Watch this video for a quick summary of strengths and opportunities](/viva/glint/reports/act-strengths-opportunities)
 
-To determine a driver's impact, individual survey responses are analyzed to determine how closely aligned scores are for each driver and the outcome variable (typically engagement). A driver's impact is classified as *high* when this is true:
+To determine a driver's impact, individual survey responses are analyzed to determine how closely aligned scores are to each driver and the outcome variable (typically engagement). **A driver's impact is classified as *high* when this is true:**
 
 - Employees who rate a driver high, also rate engagement high
 - Employees who rate a driver low, also rate engagement low
 
 If a driver's score isn't related to engagement, then it has low or zero impact. Knowing which drivers have a high impact allows managers to focus on improving the scores of drivers that matter the most.
 
-## View the Driver Impact Report
+## Driver Impact graph view
 
-Choose from these formats to view your report:
+When a user navigates to the Driver Impact report, the default view is graph format.
 
-### Graph view
-
-When a user navigates to the Driver Impact report, the first view is in graph format.
-
-The graph plots each driver's impact on the x-axis and the selected comparison on the y-axis. The comparison can include:
-
-- An internal comparison, such as the overall company
-- An external benchmark
-- The average question score for the survey
+The graph plots each driver's impact on the x-axis and the selected comparison on the y-axis. The comparison can include an internal benchmark or an external benchmark.
 
 Items on the right side of the graph have a high statistical correlation with the selected outcome (typically engagement or eSat) across all the respondents in a group. Often a person rates a driver and its corresponding outcome the same. For this reason, acting on those items likely has the biggest impact on engagement (or the selected outcome).
 
@@ -67,7 +69,7 @@ In determining strengths and opportunities, the platform considers the distance 
 > - All items have low or medium impact
 > - A user is on a report filtered to only one item
 
-### Table view
+## Driver Impact table view
 
 The Driver Impact table view displays the top three strengths and opportunities, exactly as managers see them on their Strengths & Opportunities report. Selecting  **Show more** displays all strengths and opportunities. Select **Show less** to hide them.
 
