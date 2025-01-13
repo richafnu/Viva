@@ -43,16 +43,17 @@ Glint generates the employee's Manager ID column from your data file.
 
 :::image type="content" source="../../media/glint/setup/mgr-hierarchy-filter.png" alt-text="Screenshot of manager hierarchy filters in Glint reporting, drilling down from level 1 to level 3.":::
 
-> [!IMPORTANT]
-> - When there are CEO changes which aren't updated correctly and in a timely manner, the manager hierarchy is broken. A broken hierarchy doesn't reflect your population the way it exists.
-> 
-> - Process:
->   1. Upload a file with the new CEO. Leave the Manager cell blank.
->   2. Update the CEO -referred to as **Top-Level Manager**- in the [General Settings](/../../viva/glint/setup/manage-general-settings) feature. 
->   3. To update this change for a current or past survey, implement a [retroactive update](/../../viva/glint/setup/glint-data-apps#retroactive_pulse_update). 
-
 > [!CAUTION]
 > Matrix manager hierarchies aren't recommended to be included in employee data. Glint only calculates levels for one manager hierarchy. 
+
+## Update your CEO
+
+When the CEO changes in your organization, the data file hierarchy must be updated. If not updated, your hierarchy is broken and may not show results or reflect your survey population the way it exists.
+
+Process to update your data file for a new CEO:
+1. Upload a file with the new CEO. Leave the Manager cell blank.
+2. Update the CEO -referred to as **Top-Level Manager**- in the [General Settings](/../../viva/glint/setup/manage-general-settings) feature. 
+3. To update this change for a current or past survey, implement a [**retroactive update**](/../../viva/glint/setup/glint-data-apps#retroactive_pulse_update). 
 
 ### Multiple CEOs
 
