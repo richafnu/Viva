@@ -34,7 +34,7 @@ You can also turn access to the dashboard on or off for individual users  or gro
 
 In the [Microsoft 365 admin center](https://admin.microsoft.com/adminportal/home?#/viva/insights):  
 
-1. Go to the Settings tab and select **Setup**. You need to enter your credentials if you're not already signed in.  
+1. Go to the **Settings** tab and select **Setup**. You need to enter your credentials if you're not already signed in.  
 
 2. At the top, select **Set up and manage settings**. 
 
@@ -58,7 +58,7 @@ In the [Microsoft 365 admin center](https://admin.microsoft.com/adminportal/home
 
 **To disable access for existing report users:**
 
-1. To remove access for individual users, at the top, select **Users**. To remove access for entire Entra ID groups, select **Groups**.
+1. To remove access for individual users, at the top, select **Users**. To remove access for entire Entra ID groups, select **Groups**.
 
 2. Select the users or groups from the list for whom you'd like to remove access.
 
@@ -95,14 +95,14 @@ You can set a policy to disable the dashboard for the tenant using Powershell cm
 
 These steps must be performed by the Microsoft 365 global admin.
 
-This feature access control allows Global admins to enable or disable the auto-enablement feature for the Copilot Dashboard in their tenant. This control supports tenant-level policies only, not user or group-level policies. You can set tenant polices using PowerShell cmdlets. Learn more about how to set these policies.  [Learn more about how to set these policies](/viva/feature-access-management).
+This feature access control allows Global admins to enable or disable the auto-enablement feature for the Copilot Dashboard in their tenant. This control supports tenant-level policies only, not user or group-level policies. You can set tenant polices using PowerShell cmdlets. Learn more about how to set these policies. [Learn more about how to set these policies](/viva/feature-access-management).
 
 * **Default state**: Enabled, meaning that eligible users will be auto-enabled for access to the dashboard based on the identification criteria.
 
 * **Disable or enable**: Admins can disable the dashboard auto-enablement control for their entire tenant using PowerShell cmdlets. Disabling the control prevents any user from getting auto-enabled for access to the dashboard.
 
     >[!Note]
-    >User- and group-level policies are not supported for this feature and will not take effect if used.
+    >User- and group-level policies aren't supported for this feature and will not take effect if used.
 
 1. [Connect to Exchange Online](/Viva/insights/advanced/setup-maint/configure-personal-insights#connect-to-exchange-online) and, when prompted, sign in with your admin credentials.
 
@@ -183,7 +183,7 @@ These steps apply both to Microsoft 365 global admins and Viva Insights admins.
 >[!Note]
 >This change will go into effect in 24 hours. This will be used for the metric comparison between groups in the Copilot Dashboard.
 
-The dashboard’s adoption and impact pages provide group-level metrics for groups that meet or exceed the minimum group size you set, which by default is 10 employees.
+The dashboard's adoption and impact pages provide group-level metrics for groups that meet or exceed the minimum group size you set, which by default is 10 employees.
 
 If your tenant does *not* have a Viva Insights license and you're a global admin, use these steps to set the minimum group size:
 
@@ -227,7 +227,7 @@ You can upload a list of users for cohort analysis in the [Microsoft 365 Admin C
 
     :::image type="content" source="../images/cohort-upload-02.png" alt-text="Screenshot that shows how to import new users from a csv file.":::
 
-5. Validate the list of users: Before you upload the list, you can validate the data to ensure that it’s accurate and compliant with the formatting rules. The validation checks for errors such as missing or invalid attributes, duplicate or conflicting records, or unsupported characters. The validation results show the number of errors, warnings, and successful records, and the results allow you to download a detailed report or fix the errors in the file. 
+5. Validate the list of users: Before you upload the list, you can validate the data to ensure that it's accurate and compliant with the formatting rules. The validation checks for errors such as missing or invalid attributes, duplicate or conflicting records, or unsupported characters. The validation results show the number of errors, warnings, and successful records, and the results allow you to download a detailed report or fix the errors in the file. 
 
 6. Confirm the list of users: After you upload the list, you can confirm the data and view a summary of the upload status, such as the number of users added, removed, or updated, the upload mode, and the upload date and time. The confirmation also shows a sample of the uploaded data and allows you to download the full list or undo the upload.
 
@@ -237,13 +237,13 @@ Due to recent updates to the Copilot Dashboard, there are several scenarios to b
 
 **Scenario 1: Tenant has Viva Insights licenses on June 30, 2024, and continues to have licenses going forward**
 
-All the non-Copilot users who have Viva Insights licenses appear as non-Copilot users in the cohort. If you upload additional users for cohort analysis, they’re appended to the list of non-Copilot users. If you upload a list of cohort users with **Replace** mode, they’re included as non-Copilot users.
+All the non-Copilot users who have Viva Insights licenses appear as non-Copilot users in the cohort. If you upload additional users for cohort analysis, they’re appended to the list of non-Copilot users. If you upload a list of cohort users with **Replace** mode, they're included as non-Copilot users.
 
 **Scenario 2: Tenant has Viva Insights licenses on June 30, 2024, but does not have them going forward**
 
 Starting July 1, 2024, the non-Copilot user cohort is 0. Use cohort upload to generate the user list for cohort analysis. No history is saved for non-Copilot users who previously had Viva Insights licenses. 
 
-**Scenario 3: Tenant doesn’t have any Viva Insights licenses on June 30, 2024, and doesn’t have any going forward**
+**Scenario 3: Tenant doesn’t have any Viva Insights licenses on June 30, 2024, and doesn't have any going forward**
 
 You can only upload non-Copilot users in the Microsoft 365 admin center. The list of non-Copilot users is the same list of cohort users uploaded. 
 
