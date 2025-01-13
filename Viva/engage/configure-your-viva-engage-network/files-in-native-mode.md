@@ -84,7 +84,7 @@ This table explains the expected end user experience for files while the Tool is
 |Delete files|User can delete files|File isn't migrated to SharePoint.|Files are deleted and users have no access.|
 |Edit file|Edited files are stored in SharePoint|Only the latest file migrates to SharePoint. **If a user edits a file during migration, they risk losing data**. Old versions are no longer accessible in SharePoint.|N/A|
 |New file|New files are stored in SharePoint|File is in Microsoft Azure, but migrates to SharePoint by the time the Tool completes its work.|N/A|
-||||
+
 
 If a group is deleted during the tool job, all the files from that group are deleted and don't migrate over.
 
