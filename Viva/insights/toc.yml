@@ -226,7 +226,7 @@ items:
             href: advanced/reference/metrics.md
           - name: Supported languages
             href: advanced/reference/supported-languages.md 
-      - name: Microsoft 365 Copilot
+      - name: Microsoft 365 Copilot in Viva Insights
         items:
         - name: Connect to the Copilot Dashboard
           href: org-team-insights/copilot-dashboard.md
