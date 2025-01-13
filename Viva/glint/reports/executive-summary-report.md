@@ -71,7 +71,7 @@ The **Settings button** opens a panel to choose comparison data for interpreting
 - **My Teams**: Compares a team's score to an overall score derived from a user’s data access. Helpful for users with more than one area of responsibility.
 - **Average Question**: Presents a single, overall score for all questions and respondents within your access. Helpful for users looking for some level of variance in their score.
 
-[Learn more about comparison data](/../../viva/glint/setup/survey-comparison-data?branch=pr-en-us-9179)
+[Learn more about comparison data](/../../viva/glint/setup/survey-comparison-data?branch=pr-en-us-9179).
 
 > [!NOTE]
 > Your company may have substituted custom terms for the Viva Glint terminology used in our guidance.
