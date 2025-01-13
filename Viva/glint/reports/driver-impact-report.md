@@ -29,7 +29,7 @@ There can be a significant difference in how important a specific driver of enga
 
 The default Driver Impact Report is set at the client level and is either an internal benchmark comparison or an external benchmark comparison. This comparison dictates what appears on the dashboard for all reports, across all programs. Comparison groups can be changed, but the views revert to the default settings upon logging off or changing views.
 
-### Internal benchmark comparisons
+### Understand the four comparison settings
 
 One or more internal benchmark comparisons may be available to view feedback, based on how benchmarks are configured in the Reporting section of your [General Settings](/../../viva/glint/reports/survey-reports-overview) feature. 
 
@@ -38,16 +38,6 @@ One or more internal benchmark comparisons may be available to view feedback, ba
 - **Company**: Displays team scores in comparison to company-wide scores for the same questions. Helpful for users with more than one area of responsibility.
 - **My Teams**: Compares a team's score to an overall score derived from a user’s data access. Helpful for users with more than one area of responsibility.
 - **Average Question**: Presents a single, overall score for all questions and respondents within your access. Helpful for users looking for some level of variance in their score.
-
-### View Strengths & Opportunities versus Company
-
-Managers should first look at the Strength & Opportunity report versus Company or another internal comparison, if available. While Benchmark is a valuable comparison, most often Company is more informative because the comparison is internal.
-
-A manager with scores *below* company average should focus on the items with the biggest gaps as those reflect the greatest opportunity for improvement. For this reason, the **Take Action** button defaults to the Opportunities section of the S&O report.
-
-Managers with scores *above* Company can change to view S&O vs. Benchmark to gain a sense of what areas may help to close gaps.
-
-If you're looking at *Company* results* and the default comparison is also *Company*, the driver analysis shows *Average Question* as the comparison - otherwise there would be no comparison ratio.
 
 ## Derive Strengths and Opportunities (S&Os) from the Driver Impact report
 
@@ -63,6 +53,24 @@ To determine a driver's impact, individual survey responses are analyzed to dete
 - Employees who rate a driver low, also rate engagement low
 
 If a driver's score isn't related to engagement, then it has low or zero impact. Knowing which drivers have a high impact allows managers to focus on improving the scores of drivers that matter the most.
+
+### View Strengths & Opportunities versus Company
+
+Managers should first look at the Strength & Opportunity report versus Company or another internal comparison, if available. While Benchmark is a valuable comparison, most often Company is more informative because the comparison is internal.
+
+A manager with scores *below* company average should focus on the items with the biggest gaps as those reflect the greatest opportunity for improvement. For this reason, the **Take Action** button defaults to the Opportunities section of the S&O report.
+
+Managers with scores *above* Company can change to view S&O vs. Benchmark to gain a sense of what areas may help to close gaps.
+
+If you're looking at *Company* results* and the default comparison is also *Company*, the driver analysis shows *Average Question* as the comparison - otherwise there would be no comparison ratio.
+
+### Apply filters
+
+Applying filters allows leaders to look at Strengths and Opportunities for specific groups. To apply a filter:
+
+1. Select the filter symbol at the top of the page.
+2. Select **+ Add Filters.**
+3. From the dropdown menu, choose a filter from the **People** or **Question Responses** section.
 
 ## Driver Impact graph view
 
@@ -96,15 +104,7 @@ The circle next to each driver's name indicates the impact level and score in re
 
  :::image type="content" source="../../media/glint/reports/driver-impact-example.png" alt-text="Screenshot of a table view of the Driver Impact report.":::
 
-## Apply filters
-
-Applying filters allows leaders to look at Strengths and Opportunities for specific groups. To apply a filter:
-
-1. Select the filter symbol at the top of the page.
-2. Select **+ Add Filters.**
-3. From the dropdown menu, choose a filter from the **People** or **Question Responses** section.
-
-## Small teams can use the Driver Impact report
+## Small teams using the Driver Impact report
 
 The algorithm used to determine driver impact scores includes a statistical test to determine if it has enough data points to establish a significant correlation. 
 
