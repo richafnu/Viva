@@ -3,9 +3,9 @@ title: "Identify leaders and manage audiences in Viva Engage"
 description: "Leadership identification and audience management enable organizations to designate leaders, configure their audience and connect leaders with the entire organization."
 ms.reviewer: ethli
 ms.author: donnabouldin
-author: Starshine89
+author: v-rgrace
 manager: elizapo
-ms.date: 11/01/2023
+ms.date: 01/03/2025
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -19,8 +19,7 @@ search.appverid:
 - MET150
 ---
 
-
-# Identify leaders and manage audiences in Viva Engage
+# Identify leaders
 
 Leaders naturally want to share visions, updates, and perspectives to build culture, manage change, and drive engagement with the people they lead. Viva Engage empowers leaders to connect more effectively with their employees.
 
@@ -68,12 +67,12 @@ After a leader is identified, the next step is to manage the leader’s audience
         > [!NOTE]
         > Leaders and delegate managers can't enable this option. Only Engage admins, Viva Engage verified admins, Viva Engage network admins, and corporate communicators can allow leaders to reach the entire organization.  
 
-    - **One or more audiences:** An audience represents people that the leader wants to connect with most, typically those in the leader’s immediate organization. To define an audience, select the **Add new audience** button and then search to add an existing group. If you can't find a group that includes the audience members you want, create a new group and add users to it.
+    - **One or more audiences:** An audience represents people that the leader wants to connect with, typically in the leader’s immediate organization. To define an audience, select the **Add new audience** button and then search to add an existing group. If you can't find a group that includes the audience members you want, create a new group and add users to it.
 
         > [!NOTE]
         > Each time a storyline announcement is posted, the selected audiences receive an automatic notification.
 
-    - **Multitenant organization:** Turn on this toggle to let spoke tenants receive leadership posts and announcements from the hub tenant. This enables users in the spoke tenants to receive a blended feed of leader announcements in Leadership corner from their own leaders and selected leaders on the hub tenant. The **Enable organization** toggle must also be turned on.
+    - **Multitenant organization:** Turn on this toggle to let spoke tenants receive leadership posts and announcements from the hub tenant. Users in the spoke tenants to receive a blended feed of leader announcements in Leadership corner from their own leaders and selected leaders on the hub tenant. The **Enable organization** toggle must also be turned on.
 
         >[!NOTE]
         >This option is only present when Viva Engage is configured as a [multitenant organization](/Viva/engage/mto-setup).
@@ -82,9 +81,18 @@ After a leader is identified, the next step is to manage the leader’s audience
 
     Customers frequently use a distribution list to communicate with an audience by email. You can add these lists to the leader’s audience in Viva Engage for continuous communication.
 
+    >[!NOTE] 
+    >If you designate a leader for the entire organization, but don't assign them any audiences, that leader and their delegates don't see any data under audience analytics.
+
+## Track changes to leaders and audiences in your organization
+To track changes to leaders and their audiences over the past 30 days, use the activity log available on the **Manage Leaders** page. The log details who made each change, when it occurred, the impacted leader, and, if applicable, the impacted audience. Logged events include:
+
+- Adding or removing leaders
+- Adding, editing, or removing a leader's audience
+
 ## Set leader delegates and delegate managers
 
-A leader’s posts, stories, and announcements in Viva Engage can be created and managed by delegates. A *delegate* has permission to create posts and replies on behalf of another user. A *delegate manager* has the same ability to create content, configure the audience for a leader, and assign more delegates.
+Delegates can create and manage a leader’s posts, stories, and announcements in Viva Engage. A *delegate* has permission to create posts and replies on behalf of another user. A *delegate manager* has the same ability to create content, configure the audience for a leader, and assign more delegates.
 
 A leader follows these steps to configure delegates:
 
@@ -97,7 +105,7 @@ A leader follows these steps to configure delegates:
 
 4. Choose the type of delegate:
 
-    - A *delegate* can create posts on behalf of the user in any public or private Viva Engage community as long as both the delegate and the user have access to it.
+    - A *delegate* can create posts for a user in any public or private Viva Engage community. To do so, both the delegate and the user must have access to it.
     - A *delegate manager* can similarly create posts. A delegate manager can also configure a leader’s audiences and assign more delegates or delegate managers.
     - When a user gets a new delegate assigned to the delegate team, the user and the whole team of delegates receive an email notifying them of this action.
 
@@ -158,7 +166,7 @@ Yes, the Engage admin can turn off leadership corner in the feature management s
 
 **How can I customize the company logo in leadership corner?**
 
-Yes. Follow the instructions at this [Customize your network](/viva/engage/manage-viva-engage-groups/customize-your-network).
+Yes. Follow the instructions in [Customize your network](/viva/engage/manage-viva-engage-groups/customize-your-network).
 
 **What does being in a leader's audience in Viva Engage entail?**
 
@@ -170,7 +178,7 @@ A leader can add up to 40 audiences. Audiences created through Microsoft Entra g
 
 **How are members notified about new content from their assigned leader?**
 
-The leader posting a storyline announcement gets to decide whether to notify audience members through Outlook, Teams, or Viva Engage. Even if the leader decides not to send a notification, audience members will see the leader's content in Leadership corner.
+The leader posting a storyline announcement gets to decide whether to notify audience members through Outlook, Teams, or Viva Engage. Even if the leader decides not to send a notification, audience members see the leader's content in Leadership corner.
 
 **How should leaders be selected within the organization?**
 

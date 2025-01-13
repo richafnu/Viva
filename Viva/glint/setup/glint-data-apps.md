@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 09/06/2024
+ms.date: 12/19/2024
 ---
 
 # Use Advanced Configuration Data Apps
@@ -101,6 +101,11 @@ Use these steps when manager reporting lines need to be corrected for a closed s
    1. **surveyName:** Select **Load Values** and choose an option from the dropdown list.
    1. **cycleName:** Select **Load Values** and choose an option from the dropdown list.
    1. **roleOrDistributionList:**  Select **Load Values** and choose the Distribution List created in Step 6.
+      
+
+      > [!CAUTION]
+      > Don't select the "**(all)**" option when choosing a role or list of users. It causes the retroactive update to fail.
+   
    1. **attributeName:**  Select **Load Values** and choose your Manager ID attribute. 
    1. **reloadAnalytics:** Switch toggle to **Off**.
    1. Select **Execute, and show first 500 log records**.
@@ -108,6 +113,11 @@ Use these steps when manager reporting lines need to be corrected for a closed s
    1. **surveyName:** Select **Load Values** and choose an option from the dropdown list.
    1. **cycleName:** Select **Load Values** and choose an option from the dropdown list.
    1. **roleOrDistributionList:**  Select **Load Values** and choose the Distribution List created in Step 6.
+      
+    
+      > [!CAUTION]
+      > Don't select the "**(all)**" option when choosing a role or list of users. It causes the retroactive update to fail.
+   
    1. **attributeName:**  Select **Load Values** and choose **(hierarchy) Manager**.
    1. **reloadAnalytics:** Switch toggle to **On**.
    1. Select **Execute, and show first 500 log records**.    
