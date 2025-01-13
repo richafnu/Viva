@@ -63,7 +63,7 @@ Viva Glint provides four options for comparison reporting by default. In additio
 
 Decide which comparison data can be most useful. Consider your company's overall business and measurement strategy. Consider where you are in your survey cycle - first survey, subsequent surveys, etc. In general, external benchmarks provide useful level-setting comparisons during an initial survey, but aren't as useful to your organization as internal and trend (historical) comparisons in subsequent surveys.
 
-### When is the internal comparison useful?
+### When is the **internal benchmark** comparison useful?
 
 Managers are best served by using an internal comparison, which for a team's first survey is typically the organization's **Company** scores. Internal comparisons provide a more relevant comparison for managers than an external benchmark. After an initial survey, the manager gets the most useful information by comparing team scores from one survey to the next survey. This comparison is referred to as *trend.*
 
@@ -86,11 +86,11 @@ Managers are best served by using an internal comparison, which for a team's fir
 >[!NOTE]
 >It is best to make attributes available for comparison that are stable over time. 
 
-### When is the Company comparison useful?
+### When is the **Company** comparison useful?
 
 Company comparisons are useful for a first survey when managers have no team trend to follow. After the first survey, managers should focus on their team's trend to see progress and where opportunities lie.
 
-### When is an external benchmark comparison useful?
+### When is an **external benchmark** comparison useful?
 
 For an initial survey, when no historical data exists, most organizations are interested in seeing how their scores compare to an *external* benchmark. This practice is a good way to begin orient your organization to their results. Viva Glint has more than 180 survey questions with benchmark data by industry, function, or country.
 
@@ -101,7 +101,7 @@ As you begin to survey more frequently, trends and internal comparisons become m
 > [!TIP]
 > Use [Viva Glint's global benchmark offerings and methodology](benchmarks.md) for external benchmarking comparisons.
 
-### When is the My Teams comparison useful?
+### When is the **My Teams** comparison useful?
 
 The **My Teams** comparison represents the scores for the user's total access within Viva Glint. 
 - For company admins, the **My Teams** comparison is the same as the **Company** comparison since they have access to all company data.
@@ -112,7 +112,7 @@ The **My Teams** comparison represents the scores for the user's total access wi
 
 The **My Teams** comparison tends to be most useful for higher level managers or those who oversee large organizations.
 
-### When is the "Average Question" comparison useful?
+### When is the **Average Question** comparison useful?
 
 Use the **Average Question** comparison under these circumstances:
 
