@@ -6,7 +6,7 @@ author: JudyWeiner
 manager: MelissaBarry
 audience: admin
 f1.keywords: NOCSH
-keywords: alerts, comments, driver impact, executive summary, goals overview, heat map, disable comments, disable comments export, comments export, verbatim comments export, overall results, manager report, response rate, team summary, report access level, add report sections, delete report sections, prescriptive comments, representative comments
+keywords: alerts, comments, driver impact, executive summary, goals overview, heat map, disable comments, disable comments export, comments export, verbatim comments export, overall results, manager report, response rate, team summary, report access level, add report sections, delete report sections, prescriptive comments, Copilot in Viva Gint,representative comments
 ms.collection: 
  - m365initiative-viva
  - selfserve
@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 11/18/2024
+ms.date: 1/13/2025
 ---
 
 # Export reports as a PDF
@@ -22,9 +22,6 @@ ms.date: 11/18/2024
 Microsoft Viva Glint users need to export their survey results to share with offline users, read verbatim comments, or to create presentations for their teams. Exporting reports as a Portable Document Format (PDF) in Glint is quick, allows easy consumption of comments, and supports highlighting, markup, search, and preview functionality. This export technology includes PDF exports for 360 feedback program reports and Focus Area reports.
 
 In 360 feedback reports, the PDF export experience is a valuable and primary way for reports to be shared with external coaches. Glint 360 feedback PDF reports are generated to be consumable, shareable, and easy to use for collaborating on next steps.
-
-> [!IMPORTANT]
-> Only the first page of your report exports. From our experience, most organizations aren't affected by this limitation.
 
 ## Procedure to export a PDF report
 
@@ -42,41 +39,36 @@ In 360 feedback reports, the PDF export experience is a valuable and primary way
 
    :::image type="content" source="../../media/glint/reports/export-share-button.png" alt-text="Screenshot of the Export and Share button.":::
 
-4. Select **Export Report to PDF**
+4. Select **Export Report to PDF**.
 
    :::image type="content" source="../../media/glint/reports/export-share.png" alt-text="Screenshot of the Export and Share dropdown menu.":::
 
-5. A dialog box opens providing the opportunity to select which sections to include on your PDF. Only sections granted permission to the User Role display. Select **Generate PDF.**
+5. A dialog box opens providing the opportunity to select which sections to include on your PDF. Only sections granted permission to the User Role display. Select **Generate PDF**.
 
    :::image type="content" source="../../media/glint/setup/customize-generate-pdf.png" alt-text="Screenshot of the Customize PDF sections dialog box.":::
  
    > [!NOTE]
-   > Section selection isn't supported for Broader Team Inights (BTI) reports.
+   > Section selection isn't supported for Broader Team Insights (BTI) reports.
 
-6.	A preview PDF opens in a new tab. This update displays while it’s generating:
+6.	A preview PDF opens in a new tab. This update displays while it's generating:
 
     :::image type="content" source="../../media/glint/reports/export-generating.png" alt-text="Screenshot of the Generating Report popup which displays while a PDF generates.":::
 
 7.	Now, choose **Export or Print** to open a new dialog box displaying report choices.
 
     > [!NOTE]
-    > This choice brings up the appropriate dialog box for the browser you are using. Choose whether to **Save as a PDF** or to **Print** the file. Report enhancements may include printing, searching, and highlighting if your PDF tool permits. Any filters applied display
+    > This choice brings up the appropriate dialog box for the browser you're using. Choose whether to **Save as a PDF** or to **Print** the file. Report enhancements may include printing, searching, and highlighting if your PDF tool permits. Any filters applied display
 
     :::image type="content" source="../../media/glint/reports/export-print.png" alt-text="Screenshot of the Export or Print button.":::
 
-## Remove a report section before export
-
-Default toggles are **ON** for each of these sections of the Overview report (the example report used): Overview, Questions, Keywords, Topics, Comments.
-To disable a section:
-
-1.	Select the **ellipses** in that section.
-2.	Select **Remove**.
-
-    In this example, we're removing the Overview section of the Comments report:
-
-    :::image type="content" source="../../media/glint/reports/export-file-save-pdf.png" alt-text="Screenshot of the option to Save to PDF in your printing window." lightbox="../../media/glint/reports/export-file-save-pdf.png":::
-
 ## Export the Comments report
+
+> [!IMPORTANT]
+> Use Microsoft 365 Copilot in Viva Glint to summarize comments. Copilot in Viva Glint enables leaders to understand and act on employee feedback by quickly summarizing large quantities of comments. Learn more:
+> - [Introduction to Microsoft 365 Copilot in Viva Glint](/../../viva/glint/copilot/copilot-admin-intro)
+> - [Administrator enablement for Copilot in Viva Glint](/../../viva/glint/copilot/admin-enable)
+
+**Export procedure:**
 
 1.	Select the **More** button.
 2.	If the Comments report (or any specific report) isn't part of your current reporting view, from the dropdown menu, choose **+ Add section**.
@@ -90,11 +82,24 @@ To disable a section:
       - Purpose: They aim to guide actions and suggest concrete steps for improvement.
     - **Representative comments** 
       -  Content: These comments reflect the views, opinions, or experiences of a larger group. In short - common themes.
-      -  Purpose: They aim to illustrate common sentiments or trends among the respondents
+      -  Purpose: They aim to illustrate common sentiments or trends among the respondents.
 5. The **Translation** option is available here for you to use. [Follow guidance for language translations](/viva/glint/setup/language-translations).
 
    :::image type="content" source="../../media/glint/reports/export-comments.png" alt-text="Screenshot of the Translate button in Comments exporting." 
 
    > [!NOTE]
    > When this window is closed, the default settings reset for the next use.
+
+## Remove a report section before export
+
+Default toggles are **ON** for each of these sections of the Overview report (the example report used): Overview, Questions, Keywords, Topics, Comments.
+To disable a section:
+
+1.	Select the **ellipses** in that section.
+2.	Select **Remove**.
+
+    In this example, we're removing the Overview section of the Comments report:
+
+    :::image type="content" source="../../media/glint/reports/export-file-save-pdf.png" alt-text="Screenshot of the option to Save to PDF in your printing window." lightbox="../../media/glint/reports/export-file-save-pdf.png":::
+
 
