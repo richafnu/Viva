@@ -23,9 +23,6 @@ Microsoft Viva Glint users need to export their survey results to share with off
 
 In 360 feedback reports, the PDF export experience is a valuable and primary way for reports to be shared with external coaches. Glint 360 feedback PDF reports are generated to be consumable, shareable, and easy to use for collaborating on next steps.
 
-> [!IMPORTANT]
-> Only the first page of your report exports. From our experience, most organizations aren't affected by this limitation.
-
 ## Procedure to export a PDF report
 
 1. In the **Reports** tab, choose the survey and then the report to export. You can also navigate to **Saved Reports.**  For the example in this guidance, *Overall Results* is the report to be exported as a PDF.
@@ -51,7 +48,7 @@ In 360 feedback reports, the PDF export experience is a valuable and primary way
    :::image type="content" source="../../media/glint/setup/customize-generate-pdf.png" alt-text="Screenshot of the Customize PDF sections dialog box.":::
  
    > [!NOTE]
-   > Section selection isn't supported for Broader Team Inights (BTI) reports.
+   > Section selection isn't supported for Broader Team Insights (BTI) reports.
 
 6.	A preview PDF opens in a new tab. This update displays while it’s generating:
 
