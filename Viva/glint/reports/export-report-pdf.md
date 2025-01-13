@@ -64,18 +64,6 @@ In 360 feedback reports, the PDF export experience is a valuable and primary way
 
     :::image type="content" source="../../media/glint/reports/export-print.png" alt-text="Screenshot of the Export or Print button.":::
 
-## Remove a report section before export
-
-Default toggles are **ON** for each of these sections of the Overview report (the example report used): Overview, Questions, Keywords, Topics, Comments.
-To disable a section:
-
-1.	Select the **ellipses** in that section.
-2.	Select **Remove**.
-
-    In this example, we're removing the Overview section of the Comments report:
-
-    :::image type="content" source="../../media/glint/reports/export-file-save-pdf.png" alt-text="Screenshot of the option to Save to PDF in your printing window." lightbox="../../media/glint/reports/export-file-save-pdf.png":::
-
 ## Export the Comments report
 
 > [!IMPORTANT]
@@ -104,4 +92,17 @@ To disable a section:
 
    > [!NOTE]
    > When this window is closed, the default settings reset for the next use.
+
+## Remove a report section before export
+
+Default toggles are **ON** for each of these sections of the Overview report (the example report used): Overview, Questions, Keywords, Topics, Comments.
+To disable a section:
+
+1.	Select the **ellipses** in that section.
+2.	Select **Remove**.
+
+    In this example, we're removing the Overview section of the Comments report:
+
+    :::image type="content" source="../../media/glint/reports/export-file-save-pdf.png" alt-text="Screenshot of the option to Save to PDF in your printing window." lightbox="../../media/glint/reports/export-file-save-pdf.png":::
+
 
