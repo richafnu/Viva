@@ -15,7 +15,7 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 12/11/2024
+ms.date: 1/13/2025
 ---
 
 # Microsoft Copilot Impact Survey template in Viva Glint

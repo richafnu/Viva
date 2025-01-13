@@ -16,19 +16,16 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 09/12/2024
+ms.date: 01/13/2025
 ---
 
 # Data, privacy, and security compliance for Microsoft 365 Copilot in Viva Glint
-
-## What is Microsoft 365 Copilot in Viva Glint?
 
 [Copilot in Viva Glint](/viva/glint/copilot/copilot-admin-intro) summarizes survey comments and employee suggestions to help organizational leaders and managers quickly identify top issues and themes from comments. This article covers how data privacy and security is handled for Copilot in Viva Glint.
 
 ## How does this work in the backend?
 
-Copilot in Viva Glint uses Large Language Model (LLM) technology, which allows users to perform language-based tasks by entering prompts in natural languages. Microsoft uses these LLMs to match users’ prompts to a set of metrics and stories. A story is a product-defined group of calculations, which is based on metrics, aggregations, and other variables.
-Copilot in Viva Glint doesn’t use customer data to train the LLM.
+Copilot in Viva Glint uses Large Language Model (LLM) technology, which allows users to perform language-based tasks by entering prompts in natural languages. Microsoft uses these LLMs to match users’ prompts to a set of metrics and stories. A story is a product-defined group of calculations, which is based on metrics, aggregations, and other variables. Copilot in Viva Glint doesn’t use customer data to train the LLM.
 
 ## What does Copilot in Viva Glint use to generate its responses?
 

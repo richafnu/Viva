@@ -16,7 +16,7 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 09/12/2024
+ms.date: 01/13/2025
 ---
 
 # Administrator enablement for Microsoft 365 Copilot in Viva Glint
@@ -55,11 +55,11 @@ From your admin dashboard, follow this process:
 
 ## Grant Comment Reports access
 
-The second step to enabling the Copilot in Viva Glint feature for User Roles happens in the program's **Reporting** section. This step allows users enabled for the Comment Reports to access the report.
+The second step to enabling Copilot in Viva Glint for User Roles happens in the program's **Reporting** section. This step allows users enabled for the Comment Reports to access the report.
 
 From your admin dashboard, follow this process:
 
-1.	Select the **configuration** symbol.
+1.	Select the **Configuration** symbol.
 2.	In the **Surveys** section, select **Survey Programs**.
 3.	**Select the closed Recurring or Ad hoc program** for which you want to grant access.
 4.	In **Program Summary**, select **Reporting**.
