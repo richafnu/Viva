@@ -39,6 +39,8 @@ One or more internal benchmark comparisons may be available to view feedback, ba
 - **My Teams**: Compares a team's score to an overall score derived from a user’s data access. Helpful for users with more than one area of responsibility.
 - **Average Question**: Presents a single, overall score for all questions and respondents within your access. Helpful for users looking for some level of variance in their score.
 
+[Learn more about comparison data](/../../viva/glint/setup/survey-comparison-data?branch=pr-en-us-9179)
+
 ## Derive Strengths and Opportunities (S&Os) from the Driver Impact report
 
 The algorithm used to identify S&Os is composed of item scores, impact on engagement, and relativity of the score to a benchmark comparison. 
