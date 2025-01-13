@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 12/11/2024
+ms.date: 1/13/2025
 ---
 
 # Use Viva Glint’s Executive Summary report
@@ -23,7 +23,7 @@ The Executive Summary is a group of reports useful to admins for presenting high
 
 ## Choose reports to share on your Executive Summary 
 
-There are many reports that you be part of this dashboard view. The descriptor table provides you with instructions on how to add reports or sections. Some items appear separately, and others may group as part of a related section.
+There are many reports that you can include in this dashboard view. The descriptor table provides you with instructions on how to add reports or sections. Some items appear separately. Others may group as part of a related section.
 
 > [!NOTE]
 > **For the Executive Summary Report in Employee Lifecycle Programs:**  If program settings allow, and a unique user submits more than one survey response, an entry row is included in the raw data export representing each of the unique user's submissions. **However, the UI counts them only once.**
@@ -60,11 +60,11 @@ There are many reports that you be part of this dashboard view. The descriptor t
 | **Keywords**  | A visual of top keywords from comments|
 | **All Comments** | Read representative, prescriptive, or all comments |
 
-To learn about other reports available, see [Report types](https://go.microsoft.com/fwlink/?linkid=2231010).
+To learn about other feedback reports available, see [Report types](/../../viva/glint/reports/survey-reports-overview).
 
-## Edit a report
+## Choose your benchmark comparison
 
-The settings button opens a window where you can choose the right comparison data to interpret survey results within the context of how others are doing. Glint provides four options for comparison reporting:
+The **Settings button** opens a panel to choose comparison data for interpreting survey results within the context of how others are doing. One or more internal comparisons may appear here, based on how benchmarks have been configured in the Reporting section of your [General Settings](/../../viva/glint/reports/survey-reports-overview) feature. The four Glint benchmark comparison options are:
 
 - **Benchmark**: Provides a comparison point for feedback based on survey data compiled from all Glint customers. Helpful for admins and first-time survey results analysis.
 - **Company**: Displays team scores in comparison to company-wide scores for the same questions. Helpful for users with more than one area of responsibility.
