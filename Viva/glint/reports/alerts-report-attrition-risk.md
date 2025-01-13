@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 06/18/2024
+ms.date: 01/13/2025
 ---
 
 # The Viva Glint Alerts report and Attrition Risk Index
