@@ -94,17 +94,17 @@ Copilot in Viva Glint gives you the flexibility to roll out to one or many user 
 
 Think about:
 
-- **Current usage** – does your rollout group have experience with Viva Glint?
-- **Comment count** – do you expect a high number of comments?
-- **Survey timing** – can you align with an upcoming survey? 
-- **Comfort with AI** – can you engage superusers to help others with the rollout?
-- **Amount of change** – is your organization already going through change? Is this time right to add a new tool?
+- **Current usage** – Does your rollout group have experience with Viva Glint?
+- **Comment count** – Do you expect a high number of comments?
+- **Survey timing** – Can you align with an upcoming survey? 
+- **Comfort with AI** – Can you engage superusers to help others with the rollout?
+- **Amount of change** – Is your organization already going through change? Is this time right to add a new tool?
 
 ## Best practices for Copilot in Viva Glint
 
 Use our best practices to maximize the benefits from Copilot in Viva Glint. Use programs and survey formats that align with the strengths and current capabilities of Copilot in Viva Glint.  
 
-- **Enable comments** – allows for more detailed feedback and context, enhancing the data's richness and usefulness for summarization purposes. This approach provides a comprehensive view of feedback, allowing the generation of accurate and insightful summaries.
+- **Enable comments** – Allows for more detailed feedback and context, enhancing the data's richness and usefulness for summarization purposes. This approach provides a comprehensive view of feedback, allowing the generation of accurate and insightful summaries.
 - **Ask open-ended items** – Open-ended survey items capture a wide range of feedback. Open-eneded items allow respondents to express thoughts on topics not covered explicitly in the survey. These responses are often detailed and can reveal rich data insights not apparent from quantitative data alone.
 - **Use relevant attribute filters** – Copilot in Viva Glint uses the attributes you send to Glint to filter data. Enable filter attributes that are meaning for User Roles interacting with Copilot. Filters ensure that insights and summaries are applicable and useful.
 - **Use Recurring and Ad hoc programs** - Where it makes sense, use Recurring and Ad hoc programs. Currently Copilot in Viva Glint is unable to tap into Always-On and Employee Lifecycle programs. To maximize your ability to use Copilot in Viva Glint, use Recurring program setup for ongoing topics (Engagement) and Ad hoc for one-off topics (Change Management). 
