@@ -1,7 +1,7 @@
 ---
-ms.date: 03/29/2024
+ms.date: 01/13/2025
 title: Roles and permissions in Viva Goals
-ms.reviewer: 
+ms.reviewer: aroraaarushi
 ms.author: daisyfeller
 author: daisyfell
 manager: elizapo

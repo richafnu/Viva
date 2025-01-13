@@ -1,10 +1,10 @@
 ---
-ms.date: 12/14/2023
+ms.date: 1/13/2025
 title: Add Viva Goals to Microsoft Teams
-ms.reviewer: 
-ms.author: rasanders
-author: RaSanders-MSFT
-manager: Liz.Pierce
+ms.reviewer: aroraaarushi
+ms.author: daisyfeller
+author: daisyfell
+manager: elizapo
 audience: Admin
 f1.keywords:
 - NOCSH

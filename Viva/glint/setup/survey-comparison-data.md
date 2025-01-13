@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 12/17/2024
+ms.date: 1/13/2025
 ---
 
 # Choose your benchmark comparison data for Viva Glint reporting
@@ -46,7 +46,7 @@ Viva Glint provides four options for comparison reporting by default. In additio
 
 |Comparator|Description|When to use|
 |-------|--------|-----------|
-|**Benchmark**|Provides a comparison point for feedback based on survey data compiled from all Viva Glint customers.| Helpful for admins and first-time survey results analysis|
+|**Benchmark**|Provides a comparison point for feedback based on survey data compiled from all Viva Glint customers, not just within your organization.| Helpful for admins and first-time survey results analysis|
 |**Company**  | Displays team scores in comparison to company-wide scores for the same questions.| Helpful for users with more than one area of responsibility|
 |**My Teams** | Compares a manager's team score to an overall score derived from a filter.| This setting is the superset of access and is best used with custom access or managers with large organizations|
 |**Average Question** |Presents a single, overall score for all questions and respondents within your access.| Helpful for users looking for some level of variance in their score|
@@ -61,31 +61,47 @@ Viva Glint provides four options for comparison reporting by default. In additio
 
 ## Determine which comparison data to use
 
-Decide which comparison data can be most useful. Consider your company's overall business and measurement strategy. Consider where you are in your survey cycle - first survey, subsequent surveys, etc.
+Decide which comparison data can be most useful. Consider your company's overall business and measurement strategy. Consider where you are in your survey cycle - first survey, subsequent surveys, etc. In general, external benchmarks provide useful level-setting comparisons during an initial survey, but aren't as useful to your organization as internal and trend (historical) comparisons in subsequent surveys.
 
-In general, external benchmarks provide useful level-setting comparisons during an initial survey, but aren't as useful to your organization as internal and trend (historical) comparisons in subsequent surveys.
+### When is the **internal benchmark** comparison useful?
 
-### When is the external benchmark comparison useful?
+Managers are best served by using an internal comparison, which for a team's first survey is typically the organization's **Company** scores. Internal comparisons provide a more relevant comparison for managers than an external benchmark. After an initial survey, the manager gets the most useful information by comparing team scores from one survey to the next survey. This comparison is referred to as *trend.*
+
+**Important:**
+- The internal benchmark attribute must be turned on in a User Role for that person to see this comparison in reporting.
+- The internal comparison available to a user is their *current* value, which is populated in the selected attribute.
+
+ **Example:**
+  - The attribute selected for the internal benchmark is **Country,** and the user's *current* Country value is USA.
+  - The user sees **USA** as an available benchmark to select in their dropdown menu.
+  - The score used for comparison is calculated from the survey responses of other users whose current Country value is USA.
+  - Summary for this example: comparison data is aggregated from the responses of users whose current value for the selected attribute is the same as the user's - USA. 
+
+  **Now, let's say the user moves and their new Country value is Mexico.**
+  - The internal benchmark now available in the dropdown menu is Mexico
+  - The comparison score is calculated from response data of users also currently showing Mexico as their Country value in your employee data attribute file.
+
+**For managers, using internal comparisons and their own team's trend are best practices.**
+
+>[!NOTE]
+>It is best to make attributes available for comparison that are stable over time. 
+
+### When is the **Company** comparison useful?
+
+Company comparisons are useful for a first survey when managers have no team trend to follow. After the first survey, managers should focus on their team's trend to see progress and where opportunities lie.
+
+### When is an **external benchmark** comparison useful?
 
 For an initial survey, when no historical data exists, most organizations are interested in seeing how their scores compare to an *external* benchmark. This practice is a good way to begin orient your organization to their results. Viva Glint has more than 180 survey questions with benchmark data by industry, function, or country.
 
 As you begin to survey more frequently, trends and internal comparisons become more useful than external benchmarks. They help you make incremental improvements in areas that matter most to your teams. While the external benchmark provides a meaningful reference point in assessing overall scores, managers shouldn't focus heavily on it. 
 
-**For managers, the internal comparison and their own team's past survey scores are the best comparisons.**
+**For Employee Lifecycle surveys**, there are external benchmarks for onboarding and exit items. Consider using internal comparisons, however, to highlight the uniqueness of your employee experience.
 
 > [!TIP]
 > Use [Viva Glint's global benchmark offerings and methodology](benchmarks.md) for external benchmarking comparisons.
 
-### When is the "Total Company" or other internal comparison useful?
-
-Managers are best served by using an internal comparison. This is most often your organization's **Total Company** scores. Your company may have other internal comparisons set up that may be more meaningful. The internal comparison provides a more relevant comparison point for managers than the external benchmark.
-
-After the first survey, managers should focus on their team's trend - change in scores over time - to see progress and where opportunities lie.
-
-> [!TIP]
-> For Employee Lifecycle surveys, internal comparisons highlight the uniqueness of employee experiences by organization. There are, however, external benchmarks for standard onboarding and exit items.
-
-### When is the "My Teams" comparison useful?
+### When is the **My Teams** comparison useful?
 
 The **My Teams** comparison represents the scores for the user's total access within Viva Glint. 
 - For company admins, the **My Teams** comparison is the same as the **Company** comparison since they have access to all company data.
@@ -96,7 +112,7 @@ The **My Teams** comparison represents the scores for the user's total access wi
 
 The **My Teams** comparison tends to be most useful for higher level managers or those who oversee large organizations.
 
-### When is the "Average Question" comparison useful?
+### When is the **Average Question** comparison useful?
 
 Use the **Average Question** comparison under these circumstances:
 
@@ -115,7 +131,7 @@ In these instances, the **Average Question** score allows a comparison measureme
 
 When comparing two groups, a group against a benchmark, or a score change over time, consider both practical and statistical significance.
 
-- **Practical significance:** The difference in the scores between two groups that is large enough to observe unique patterns. If a score difference between two teams is too small to detect any material difference, that difference may not carry as much practical significance.
-- **Statistical significance:** The probability that the difference between the scores of two groups isn't chance or coincidence but accurately represents the unique responses of individuals in each group. This is useful with larger groups, where it can be used to surface reliable patterns in data. On your platform, Alerts and Driver Impact analysis automatically check for statistical significance and display significant results.
+- **Practical significance:** The difference in the scores between two groups that is large enough to observe unique patterns. If a score difference between two teams is too small to detect a difference, that difference doesn't carry as much practical significance.
+- **Statistical significance:** The probability that the difference between the scores of two groups isn't chance or coincidence. Instead, it accurately represents the unique responses of individuals in each group. This comparison is useful with larger groups, where it can be used to surface reliable patterns in data. On your platform, Alerts and Driver Impact analysis automatically check for statistical significance and display significant results.
 
 

@@ -1,5 +1,5 @@
 ---
-title: Copilot in Viva Amplify
+title: Microsoft 365 Copilot in Viva Amplify
 ms.author: daisyfeller
 author: daisyfell
 manager: elizapo
@@ -19,7 +19,7 @@ ms.localizationpriority: medium
 description: Learn about Copilot in Microsoft Viva Amplify.
 ---
 
-# Copilot in Viva Amplify
+# Microsoft 365 Copilot in Viva Amplify
 
 >[!NOTE]
 >Microsoft 365 Copilot in Viva Amplify is currently rolling out.
