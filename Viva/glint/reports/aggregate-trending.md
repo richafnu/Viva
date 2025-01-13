@@ -1,6 +1,6 @@
 ---
 title: Viva Glint aggregate grouping - trends and best practices
-description: Aggregate grouping can surface useful insights but the survey cycles must be identical in order for this trend to show.
+description: Aggregate grouping can surface useful insights, but the survey cycles must be identical in order for trend data to show.
 ms.author: JudithWeiner
 author: JudyWeiner
 manager: MelissaBarry
@@ -14,7 +14,7 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 12/11/2024
+ms.date: 1/13/2025
 ---
 
 # Viva Glint aggregate groupings - trends and best practices
