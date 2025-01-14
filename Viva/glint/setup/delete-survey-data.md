@@ -6,7 +6,7 @@ author: JudyWeiner
 manager: mbarry
 audience: admin
 f1.keywords: NOCSH
-keywords: 
+keywords: delete survey, duplicate survey, copy survey, remove survey, delete data
 ms.collection: 
  - m365initiative-viva
  - selfserve
