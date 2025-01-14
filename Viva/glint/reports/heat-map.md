@@ -14,7 +14,7 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 04/19/2024
+ms.date: 01/14/2025
 ---
 
 # Use the Viva Glint Heat Map Report
@@ -77,14 +77,18 @@ In the *Report Settings* windown that opens, use the *Show* dropdown menu to cho
   
 ### Changing the view by benchmark
 
-In this same window, you can change your internal benchmark comparison: 
-- Company
-- My Teams
-- Average Question
+Viva Glint provides four default options for comparison reporting. In addition to the following four settings, your company may have one or more internal comparisons configured (for example, Division or Business Unit).
+
+|Comparator|Description|When to use|
+|-------|--------|-----------|
+|**Benchmark**|Provides a comparison point for feedback based on survey data compiled from all Viva Glint customers, not just within your organization.| Helpful for admins and first-time survey results analysis|
+|**Company**  | Displays team scores in comparison to company-wide scores for the same questions.| Helpful for users with more than one area of responsibility|
+|**My Teams** | Compares a manager's team score to an overall score derived from a filter.| This setting is the superset of access and is best used with custom access or managers with large organizations|
+|**Average Question** |Presents a single, overall score for all questions and respondents within your access.| Helpful for users looking for some level of variance in their score|
 
 :::image type="content" source="../../media/glint/reports/heat-map-report-settings.png" alt-text="Screenshot of using the Settings button to open the Report Settings window."lightbox= "../../media/glint/reports/heat-map-report-settings.png":::
 
-### Changing the view by adding sections or attributes
+### Add sections or attributes
 
 Heat Maps can be generated for any of the attributes for which you have permission, like location or department.
 
@@ -92,13 +96,13 @@ Select the **More** button to open dropdown and then choose **Add section**. Wit
 
 :::image type="content" source="../../media/glint/reports/heat-map-add-section.png" alt-text="Screenshot of using the More button to open the Add Sections window.":::
 
-### Using the Sort option
+### Use the Sort option
 
 By selecting the **Sort** arrow you have options to sort the questions alphabetically, by score, or by size.  
 
 :::image type="content" source="../../media/glint/reports/heat-map-sort.png" alt-text="Screenshot using the Sort dropdown menu.":::
 
-## Deep diving into a specific cell
+## Deep dive into a specific cell
 
 You can select any cell to drill down into that particular key driver within a team. Let's use this example:
 
@@ -116,11 +120,11 @@ You can select any cell to drill down into that particular key driver within a t
 
 Use the larger report to identify hot spots or low scores, outliers, and bright spots or areas to celebrate.
 
-## How Viva Glint improves report visualization
+## How Glint improves report visualization
 To improve report visualization for large customers, the number of columns that show ise capped at 150. 
 If your organization uses more than 150 columns, a message indicates that the onscreen results display 150 columns. To see the full results, users can export the report to a spreadsheet.
 
-## Exporting and sharing Heat Map Report results
+## Export and share Heat Map Report results
 
 Select the **Export and Share** button to open the dropdown menu to choose how you want to export and share your feedback with others.
 
