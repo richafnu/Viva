@@ -15,13 +15,13 @@ ms.localizationpriority: medium
 search.appverid: MET150
 ---
 
-# Use a Viva Pulse survey to understand impact of Microsoft 365 Copilot in your organization
+# Measure Microsoft 365 Copilot impact with Viva Pulse
 
 The [Microsoft Copilot Dashboard](/viva/insights/org-team-insights/copilot-dashboard) helps organizations maximize the value of Microsoft 365 Copilot by providing actionable insights to help organizations get ready to deploy, drive adoption, and measure the impact of Copilot.
 
-Viva Pulse integrates into the Microsoft Copilot Dashboard to provide a way for organizations to capture sentiment data that helps leaders measure the effectiveness and usage of Copilot. With a research-backed template, Viva Pulse enables leaders and admins to send their own surveys to quickly capture feedback from their teams. It requires minimal setup to get started. Leaders and admins with access to the Microsoft Copilot Dashboard can launch Pulse surveys directly to gain insights into how Copilot impacts their workforce.
+Viva Pulse integrates into the Microsoft Copilot Dashboard to provide organizations a way to capture sentiment data that helps leaders measure the effectiveness and usage of Microsoft 365 Copilot.
 
-Surveys can be launched from within the Microsoft Copilot Dashboard or from within Viva Pulse.
+Using a research-backed template, leaders and admins can send their own surveys to quickly capture feedback from their teams. Leaders and admins with access to the Microsoft Copilot Dashboard can launch Pulse surveys directly from the dashboard. Surveys can also be launched from within Viva Pulse.
 
 To integrate Pulse survey results into the Copilot Dashboard, you must have at least one of the following subscription licenses:
 * Viva Suite
