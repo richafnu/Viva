@@ -44,6 +44,7 @@ Before you can create a policy, you need:
 - For [PowerShell](/Viva/feature-access-management) access to [Exchange Online PowerShell Version 3.2.0](https://www.powershellgallery.com/packages/ExchangeOnlineManagement/3.2.0) or later. If you need to use non-mail-enabled groups, you must have access to Exchange PowerShell version 3.5.1 or later.
 
 ## Features available to manage
+
 > [!NOTE]
 
 > - Some features may not support user/group policies. In addition, policies for one app can have an impact on the entire tenant or users in your tenant. For more information, see the feature documentation by using the link in the table.
@@ -62,7 +63,6 @@ You can use feature access management to manage access to the following features
 ||[AI Summarization](/viva/engage/configure-copilot-for-engage)|Yes|Engage admin|VivaEngage|
 |Goals|[Copilot in Viva Goals](/viva/goals/copilot-intro)|No|Goals admin|VivaGoals|
 |Insights|[Analyst Report Publish (preview)](/viva/insights/advanced/analyst/publish-reports) |No|Viva Insights admin|VivaInsights
-=======
 ||[Copilot Dashboard](/viva/insights/org-team-insights/copilot-dashboard)|No|Global admin|VivaInsights|
 ||[Copilot Dashboard Auto Enablement](/viva/insights/org-team-insights/copilot-dashboard#remove-access-to-the-dashboard-for-the-entire-tenant-with-powershell)|No|Global admin|VivaInsights|
 ||[Copilot Dashboard Delegation](/viva/insights/org-team-insights/delegate-access)|No|Global admin|VivaInsights|
