@@ -388,7 +388,7 @@ items:
             href: setup/preview-demo-reporting.md
           - name: Preview, enable, and prepare to launch surveys
             href: setup/preview-manage-enable-engage-programs.md   
-          - name: Duplicate, delete, and disable surveys 
+          - name: Duplicate or delete surveys 
             href: setup/delete-survey-data.md
       - name: Edit live surveys or reopen closed surveys
         items:
