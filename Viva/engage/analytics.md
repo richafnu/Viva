@@ -1,7 +1,7 @@
 ---
 title: "View and manage analytics in Viva Engage"
 description: "Viva Engage analytics lets user monitor their engagement metrics and leaders monitor engagement across the organization."
-ms.reviewer: ethli
+ms.reviewer: gwebb
 ms.author: donnabouldin
 author: v-rgrace
 manager: elizapo
@@ -58,6 +58,9 @@ Only Network admin role users can turn analytics features on or off. To enable o
 
 ## Community analytics
 
+> [!NOTE]
+> You can access community analytics by selecting the Analytics icon in any Community header. Community admins and global admins can also see a Community analytics summary card that's visible on the right panel of each community.
+
 All licensed users have access to public community analytics, while only community members can see analytics for their private communities. Community admins and corporate communicators can view some advanced metrics, including time saved, people helped, and community optimizer tips.
 
 Engage network admins can adjust community analytics feature settings by visiting the **Analytics and AI** page in the Engage admin center. 
@@ -101,7 +104,7 @@ Access is through the analytics icon on the top navigation bar or on the leader'
 - **Theme-level sentiment** controls the *Themes* metric. Turning off this toggle prevents leaders and their delegates from viewing results that measure sentiment toward frequently discussed subjects in their audience.
 
 >[!NOTE] 
->If you designate a leader for the entire organization, but don't assign them any audiences, that leader and their delegates won't see any data under audience analytics.
+>If you designate a leader for the entire organization, but don't assign them any audiences, that leader and their delegates don't see any data under audience analytics.
 
 ## Global Answers analytics
 
