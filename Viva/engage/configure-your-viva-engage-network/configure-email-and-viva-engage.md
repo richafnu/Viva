@@ -29,7 +29,7 @@ Viva Engage connects to email in different ways. Viva Engage uses emails to aler
 
 - Viva Engage administrators customize the logo in email messages that Viva Engage sends. Admins can require verification before users can post to Viva Engage by email.
 
-- Users can choose the types of notifications they receive.
+- Viva Engage users can choose the types of email notifications they receive.
 
 For information about the timing of email notifications, see [email and push notifications](https://support.office.com/article/93e530e0-189f-4768-8f28-7683d48cc996).
   
@@ -46,8 +46,8 @@ Follow the best security practices in [Microsoft 365 for Business](/microsoft-36
 
 ## Email settings users control
 
-Users control what email notifications they receive.
+Individual users control the email notifications they receive.
   
-Users can go to Viva Engage settings \> **Edit settings** \> **Notifications** and select which notifications to receive.They also may need to set their browser to allow notifications. You can do so in Microsoft Edge and Google Chrome.
-  
+Users can go to Viva Engage settings \> **Edit settings** \> **Notifications** and select which notifications to receive. They also might need to set their browser to allow notifications. You can do so in Microsoft Edge and Google Chrome.
+
 For more information, see [Manage your Viva Engage notifications](https://support.office.com/article/93e530e0-189f-4768-8f28-7683d48cc996).
