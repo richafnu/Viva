@@ -19,7 +19,7 @@ audience: Admin
 
 # Set up your queries using Microsoft 365 Copilot in Viva Insights
 
-With custom queries and Power BI templates, you can investigate and answer specific questions about Copilot adoption and impact, collaboration, and workplace activities within your organization. But sometimes, you might need help to translate your questions into queries that Viva Insights can run. That’s where Microsoft 365 Copilot in Viva Insights can help.
+With custom queries and Power BI templates, you can investigate and answer specific questions about Copilot adoption and impact, collaboration, and workplace activities within your organization. But sometimes, you might need help with translating your questions into queries that Viva Insights can run. That’s where Microsoft 365 Copilot in Viva Insights can help.
 
 Copilot can help you choose a Power BI report or custom person query, and simplify the report building process by suggesting metrics, filters, and attributes relevant to your analysis. 
 
