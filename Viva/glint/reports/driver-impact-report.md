@@ -39,13 +39,15 @@ One or more internal benchmark comparisons may be available to view feedback, ba
 - **My Teams**: Compares a team's score to an overall score derived from a user’s data access. Helpful for users with more than one area of responsibility.
 - **Average Question**: Presents a single, overall score for all questions and respondents within your access. Helpful for users looking for some level of variance in their score.
 
+[Learn more about comparison data](/../../viva/glint/setup/survey-comparison-data?branch=pr-en-us-9179).
+
 ## Derive Strengths and Opportunities (S&Os) from the Driver Impact report
 
 The algorithm used to identify S&Os is composed of item scores, impact on engagement, and relativity of the score to a benchmark comparison. 
 
 **Strengths** are areas that the team should celebrate. **Opportunities** are areas the team should work on to improve overall engagement (or the survey's intended key outcome).
 
-[Watch this video for a quick summary of strengths and opportunities](/viva/glint/reports/act-strengths-opportunities)
+[Watch this video for a quick summary of strengths and opportunities](/viva/glint/reports/act-strengths-opportunities).
 
 To determine a driver's impact, individual survey responses are analyzed to determine how closely aligned scores are to each driver and the outcome variable (typically engagement). **A driver's impact is classified as *high* when this is true:**
 
