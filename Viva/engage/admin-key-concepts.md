@@ -78,7 +78,7 @@ Your best resource and the page you should add to your Favorites is [Overview of
 
 Viva Engage continues to evolve. To stay current on what's happening, regularly review the [Microsoft 365 Roadmap](https://go.microsoft.com/fwlink/?LinkId=509914).
 
-To learn about all the admin features of Viva Engage, see [Overview of the Viva Engage admin center](/viva/engage/eac-overview.md).
+To learn about all the admin features of Viva Engage, see [Overview of the Viva Engage admin center](./eac-overview.md).
 
 ## FAQs
 
