@@ -223,7 +223,7 @@ Add the My Sites card to provide users links to their frequently visited or foll
 
 7. To target your card to specific audiences (that is, the card only displays in the dashboard to the audience you specify), select one or more groups to target. For more information on audience targeting, see [Audience targeting](create-dashboard.md#apply-audience-targeting-to-cards).
 
-    :::image type="content" source="../media/connections/available-dashboard-cards/my-sites-card-properties.png" alt-text="Screenshot of the My Sites card properties panel. lightbox="../media/connections/available-dashboard-cards/my-sites-card-properties.png":::
+   :::image type="content" source="../media/connections/available-dashboard-cards/my-sites-card-properties.png" alt-text="Screenshot of the My Sites card properties panel." lightbox="../media/connections/available-dashboard-cards/my-sites-card-properties.png":::
 
 ### Add the News card
 
