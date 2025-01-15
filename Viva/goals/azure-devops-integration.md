@@ -221,8 +221,6 @@ You have two options. You can either turn off the Enable Microsoft Entra ID CAP 
 
 ## FAQ (Frequently Asked Questions)
 
-## FAQ (Frequently Asked Questions)
-
 1. **When connecting my Viva Goals initiative tasks with Azure DevOps, why don’t I see all of the work items in my shared query and/or all of the child work items when using the “connect to work item” method?**
 
     Whether connecting your Viva Goals initiative to Azure DevOps, Viva Goals doesn't expose all of the work items. What Viva Goals shows depends on how you choose to calculate the overall Viva Goals initiative progress during the setup process. If you choose to calculate initiative progress by any work item, Viva Goals will indeed expose all of the shared query work items or all of the child items, if you connected directly to work items.
