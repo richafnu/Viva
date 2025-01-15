@@ -92,7 +92,7 @@ Before you get started planning and building your SharePoint home site, review b
 
 - Links in the SharePoint home site's navigation can direct users to content in addition to [global navigation](/sharepoint/sharepoint-app-bar), which can be used to lead users to universally used resources and portals.
 
-- Make sure the SharePoint home site is discoverable by [adding an entry point to the Microsoft 365 app launcher](/microsoft-365/admin/manage/customize-the-app-launcher) and a [featured link on the SharePoint start page](/sharepoint/change-links-list-on-sharepoint-home-page).
+- Make sure the SharePoint home site is discoverable by [adding an entry point to Microsoft 365 Copilot](/microsoft-365/admin/manage/customize-the-app-launcher) and a [featured link on the SharePoint start page](/sharepoint/change-links-list-on-sharepoint-home-page).
 
 - [News published from the SharePoint home site](https://support.microsoft.com/office/create-and-share-news-on-your-sharepoint-sites-495f8f1a-3bef-4045-b33a-55e5abe7aed7) should be relevant to the entire organization.
 
