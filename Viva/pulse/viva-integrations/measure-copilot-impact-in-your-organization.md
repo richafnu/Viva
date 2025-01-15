@@ -21,7 +21,7 @@ The [Microsoft Copilot Dashboard](/viva/insights/org-team-insights/copilot-dashb
 
 Viva Pulse integrates into the Microsoft Copilot Dashboard to provide organizations a way to capture sentiment data that helps leaders measure the effectiveness and usage of Microsoft 365 Copilot.
 
-Using a research-backed template, leaders and admins can send their own surveys to quickly capture feedback from their teams. Leaders and admins with access to the Microsoft Copilot Dashboard can launch Pulse surveys directly from the dashboard. Surveys can also be launched from within Viva Pulse.
+Using a research-backed template, leaders and admins can send their own surveys to quickly get feedback from their teams. Leaders and admins with access to the Microsoft Copilot Dashboard can launch Pulse surveys directly from the dashboard. Surveys can also be launched from within Viva Pulse.
 
 To integrate Pulse survey results into the Copilot Dashboard, you must have at least one of the following subscription licenses:
 * Viva Suite
