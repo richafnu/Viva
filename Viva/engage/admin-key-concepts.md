@@ -60,7 +60,7 @@ Your best resource and the page you should add to your Favorites is [Overview of
 
    - Set up public or private groups. See [Create a group in Viva Engage](https://support.office.com/article/b407af4f-9a58-4b12-b43e-afbb1b07c889). Although anyone on Viva Engage can create groups, it's often helpful for the admin to set up groups for each department by using a consistent group naming strategy, such as *Sales Team*, *Marketing Team*, and so on.
 
-   - Set up groups that support Microsoft 365 services (such as SharePoint Online, OneNote, and Planner). to start, ensure that all users have an assigned Viva Engage license. Such groups are called [Microsoft 365 connected groups](/viva/engage/manage-viva-engage-groups/viva-engage-and-office-365-groups).
+   - Set up groups that support Microsoft 365 services (such as SharePoint, OneNote, and Planner). to start, ensure that all users have an assigned Viva Engage license. Such groups are called [Microsoft 365 connected groups](/viva/engage/manage-viva-engage-groups/viva-engage-and-office-365-groups).
 
    - Set up groups that include external users. They're called [*external groups*](/viva/engage/work-with-external-users/create-and-manage-external-groups).
 
