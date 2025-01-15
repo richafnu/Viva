@@ -67,7 +67,7 @@ Here's an example of that color coding:
 ### Changing the view by score comparisons
 
 The Heat Map defaults to a **Scores view**. You can change your view of the data by selecting the **Settings** button.
-In the *Report Settings* windown that opens, use the *Show* dropdown menu to choose from:
+In the *Report Settings* window that opens, use the *Show* dropdown menu to choose from:
 
 - Scores
 - Changes
@@ -121,7 +121,7 @@ You can select any cell to drill down into that particular key driver within a t
 Use the larger report to identify hot spots or low scores, outliers, and bright spots or areas to celebrate.
 
 ## How Glint improves report visualization
-To improve report visualization for large customers, the number of columns that show ise capped at 150. 
+To improve report visualization for large customers, the number of columns that show is capped at 150. 
 If your organization uses more than 150 columns, a message indicates that the onscreen results display 150 columns. To see the full results, users can export the report to a spreadsheet.
 
 ## Export and share Heat Map Report results
