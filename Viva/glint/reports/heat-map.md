@@ -19,9 +19,9 @@ ms.date: 01/15/2025
 
 # Use the Viva Glint Heat Map Report
 
-The Microsoft Viva Glint Heat Map Report identifies high and low scoring teams on engagement and other key drivers and can be filtered by attributes within your Glint Employee Data File.
+The Microsoft Viva Glint Heat Map Report identifies high and low scoring teams on engagement and other key drivers. It is filterable by attributes within your Glint Employee Data File.
 
-The Heat Map Report is useful for HRBPs, admins, or any senior leader who would benefit from looking across multiple groups for comparisons.
+The Heat Map Report is useful for Human Resource Business Partners (HRBPs), admins, or any senior leader who would benefit from looking across multiple groups for comparisons.
 
 :::image type="content" source="../../media/glint/reports/heat-map-access.png" alt-text="Screenshot of the Heat Map Report access card within the Reporting tab on the admin dashboard.":::
 
@@ -30,7 +30,7 @@ The Heat Map Report is useful for HRBPs, admins, or any senior leader who would 
  >[!NOTE]
 > Heat Map results are only available when confidentiality thresholds are met.
 
-Heat maps are sorted so that it’s easy to find patterns. The rows at the top typically tend to have higher scores across the majority of teams, while the columns on the left represent teams with lower scores across the majority of drivers. Heat Maps are interactive and display scores for each question broken down by demographic attributes – (for example: team, location, or tenure). Use Heat maps to quickly and easily spot patterns and outliers.
+Heat maps are sorted so that it’s easy to find patterns. The first rows typically have higher scores across the most teams.  The left columns represent teams with lower scores across the most drivers. Heat Maps are interactive and display scores for each question broken down by demographic attributes – (for example: team, location, or tenure). Use Heat maps to quickly and easily spot patterns and outliers.
 
 >[!NOTE]
 > Colors indicate high and low scores relative to the median score in the Heat Map.
