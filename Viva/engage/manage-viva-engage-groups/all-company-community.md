@@ -19,11 +19,11 @@ ms.assetid:
 description: "Learn how All Company now works like other communities in Viva Engage."
 ---
 
-# All Company now works like other Viva Engage communities
+# All Company community configuration
 
 The All Company group uses the Viva Engage community architecture in Native Mode so that you can get all the new community experiences and features as they roll out. With this integration, All Company offers community customization options, like cover photos and naming.
 
-## What are the changes to All Company?
+## What are All Company community's capabilities?
 
 Because All Company works like other communities, these features are available to network admins:
 
@@ -83,4 +83,4 @@ For more information about the various SharePoint web parts and embed features, 
 
 [Viva Engage and Microsoft 365 Groups](viva-engage-and-office-365-groups.md)
 
-[Use a Viva Engage web part in SharePoint Online](https://support.microsoft.com/office/a53cfa0c-3d09-42c8-a286-1038a81c59da)
+[Use a Viva Engage web part in SharePoint](https://support.microsoft.com/office/a53cfa0c-3d09-42c8-a286-1038a81c59da)
