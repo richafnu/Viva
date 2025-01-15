@@ -14,7 +14,7 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 01/14/2025
+ms.date: 01/15/2025
 ---
 
 # Use the Viva Glint Heat Map Report
