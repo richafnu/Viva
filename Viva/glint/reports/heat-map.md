@@ -51,12 +51,12 @@ The colors in the Heat Map allow quick identification of systemic patterns and o
 
 - The maximum and minimum are always displayed as dark blue and dark red.
 - All scores between the maximum and minimum are evenly bucketed in up to seven different colored buckets, with the median score being shown in the gray middle bucket.
->For example:
-> - If the minimum and maximum scores are 69 and 87, then Glint will create 7 evenly spaced buckets between 52 and 80.
-> - Dark red would be 69-71
-> - Dark blue would be 87-87
-> - Gray would be 77-81 with the other shades being in between
-> - The other color buckets are evenly spaced between the maximum/minimum values.
+For example:
+ - If the minimum and maximum scores are 69 and 87, then Glint will create 7 evenly spaced buckets between 52 and 80.
+ - Dark red would be 69-71
+ - Dark blue would be 87-87
+ - Gray would be 77-81 with the other shades being in between
+ - The other color buckets are evenly spaced between the maximum/minimum values.
 
 Here's an example of that color coding:
 
