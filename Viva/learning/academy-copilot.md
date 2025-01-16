@@ -42,9 +42,9 @@ Users with a Microsoft 365 Copilot license will receive a monthly personalized n
 
 
 
-![Sample of Copilot Academy notification in Microsoft Teams.](media/academy-copilot/copilotacademynotifications2.png)
+![Screenshot of Copilot Academy notification in Microsoft Teams.](media/academy-copilot/copilotacademynotifications2.png)
 
-![CopilotAcademyNotifications](media/academy-copilot/copilotacademynotifications.png)
+![Screenshot of Copilot Academy notification in Microsoft Teams.](media/academy-copilot/copilotacademynotifications.png)
 
 ## Language support 
 
