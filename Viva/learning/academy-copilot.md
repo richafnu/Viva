@@ -41,7 +41,7 @@ Knowledge Administrators of tenants with at least one Microsoft 365 Copilot lice
 Users with a Microsoft 365 Copilot license will receive a monthly personalized notification about Copilot Academy in Microsoft Teams.
 
 
-:::image type="content" source="media/academy-copilot/copilotacademynotifications2.png" alt-text="Screenshot of Copilot Academy notification in Microsoft Teams." lightbox="media/academy-copilot/copilotacademynotifications2.png":::
+![Screenshot of Copilot Academy notification in Microsoft Teams.](media/academy-copilot/copilotacademynotifications2.png)
 
 
 ![Screenshot of Copilot Academy notification in Microsoft Teams.](media/academy-copilot/copilotacademynotifications.png)
