@@ -72,8 +72,8 @@ Use this table to understand report sections and descriptions.
 ## Exporting Focus Area report data  
 
 You can export Focus Area data from two different paths: 
-- From the Focus Area Overview report
-- From the admin dashboard
+- From the Focus Area Overview report,
+- From the admin dashboard.
 
 ### Export data from the Focus Area Overview report 
 
@@ -93,7 +93,7 @@ Use the **Export** menu to choose your export option.
 ## Items the Focus Area Overview report includes 
 
 - Employee email 
-- Employee first and last name 
+- Employee first and family name 
 - Employee Focus Area 
 - Employee goal period 
 - Focus Area windows and due dates 
