@@ -108,7 +108,7 @@ The metrics in this section summarize your organization’s progress towards act
 
 | Metric | Definition | More information |
 |----|----|----|
-| Total Microsoft 365 licenses  | Number of prerequisite Microsoft 365 and Office 365 licenses purchased by your company. | Users must be assigned a prerequisite Microsoft 365 or Office 365 license in order to be assigned a Copilot for Microsoft 365 license. [See the full list here](/office365/servicedescriptions/office-365-platform-service-description/microsoft-365-copilot#available-plan). <br> </br> This metric represents a license count, not a user count, so the value shown here may be smaller or larger than your total employee count. The metric includes Microsoft 365 E3 and E5 Extra Features licenses in addition to standard Office 365 and Microsoft 365 licenses. |
+| Total Microsoft 365 licenses  | Number of prerequisite Microsoft 365 and Office 365 licenses purchased by your company. | Users must be assigned a prerequisite Microsoft 365 or Office 365 license in order to be assigned a Copilot for Microsoft 365 license. [See the full list here](/copilot/microsoft-365/microsoft-365-copilot-licensing). <br> </br> This metric represents a license count, not a user count, so the value shown here may be smaller or larger than your total employee count. The metric includes Microsoft 365 E3 and E5 Extra Features licenses in addition to standard Office 365 and Microsoft 365 licenses. |
 | Total Copilot licenses  | Number of Copilot for Microsoft 365 licenses purchased by your company. | This number might be smaller than the “Copilot licenses assigned” figure below because it's limited to Copilot for Microsoft 365 licenses, whereas the metric below might include users enabled for [Copilot for Microsoft 365 service plans](/office365/servicedescriptions/office-365-platform-service-description/microsoft-365-copilot#service-plans-for-copilot-for-microsoft-365) via other license types, like Copilot for Sales. |
 | Copilot licenses assigned  | Number of employees in your company who have been assigned a Copilot license. | This number might be larger than the number above, because this metric might include users enabled for [Copilot for Microsoft 365 service plans](/office365/servicedescriptions/office-365-platform-service-description/microsoft-365-copilot#service-plans-for-copilot-for-microsoft-365) via other license types, like Copilot for Sales. <br> </br>  This definition is consistent with the "assigned licenses" metric in the [Copilot Readiness report](/microsoft-365/admin/activity-reports/microsoft-365-copilot-usage#interpret-the-readiness-section-in-copilot-for-microsoft-365-report) in the Microsoft 365 Admin Center. |
 | Active Copilot users  | Number of employees in your company who have completed at least one Copilot action over the previous 28 days. | A user is considered active if they performed an intentional action for an AI-powered capability in Copilot within Microsoft Teams, Microsoft 365 Copilot Chat (work), Outlook, Word, Excel, PowerPoint, OneNote, or Loop. This is consistent with the definition used in [Usage reports](/microsoft-365/admin/activity-reports/microsoft-365-copilot-usage) in the Microsoft 365 Admin Center. <br> </br> This number may exceed the number above because it counts all active users over the past 28 days, including users who have had their license removed after completing an action in Copilot, whereas the metric above is a snapshot of employees currently licensed to use Copilot. |
@@ -151,9 +151,9 @@ All metrics on this page represent aggregations over the past 28 days with a typ
 
 ##### Select the filters for your analysis in the dashboard
 
-:::image type="content" source="images/copilot-dash-filters-ga.png" alt-text="Screenshot that shows the filters tool.":::
+:::image type="content" source="images/copilot-dash-scope-03.png" alt-text="Screenshot that shows the filters tool.":::
 
-At the top left of the adoption and impact page, next to **Scope**, select the dropdown to choose between viewing insights for individual teams within your entire company, or teams just within your group. You can also filter by team by selecting **View by** above the various metric reports.
+At the top left of the adoption and impact page, next to **Scope**, select the dropdown to choose between viewing insights for individual teams within your entire company, or teams just within your group. You can select multiple teams for group comparisons. You can also filter by team by selecting **View by** above the various metric reports.
 
 By default, the **Scope** and **Organization** filters are determined by your [Microsoft Entra ID](../advanced/admin/org-data-overview.md). The Copilot Dashboard can get organizational data in one of three ways:
 
@@ -171,13 +171,13 @@ By default, the **Scope** and **Organization** filters are determined by your [M
 
 The **Scope** filter is based on the Microsoft Entra ID attribute "ManagerID" to populate "Your company" data and "Your group" data by default.
 
-* When you select “Your company," the dashboard includes all employees who have a Copilot license, which is based on the Microsoft Entra ID “Person ID” by default.  
+* When you select "Your company," the dashboard includes all employees who have a Copilot license, which is based on the Microsoft Entra ID "Person ID" by default.  
 
-* When you select the groups listed within “Your company,” the dashboard includes all employees who report directly or indirectly to this leader. The manager hierarchy can only be identified based on the Microsoft Entra ID attribute “ManagerID.” 
+* When you select the groups listed within "Your company," the dashboard includes all employees who report directly or indirectly to this leader. By default, the manager hierarchy is based on the Microsoft Entra ID attribute "ManagerID." It can be updated if your admin uploads organizational data.
 
-* When you select “Your group,” the dashboard includes everyone who reports to you directly or indirectly. The manager hierarchy is identified based on the Microsoft Entra ID attribute "ManagerID" by default. Different logged in users will see different data for “Your group”. 
+* When you select "Your group," the dashboard includes everyone who reports to you directly or indirectly. The manager hierarchy is identified based on the Microsoft Entra ID attribute "ManagerID" by default. Different logged in users will see different data for "Your group."
 
-* When you select the groups listed within “Your group," the dashboard includes everyone who reports directly or indirectly to a person who reports to you. These groups are based on your reporting hierarchy and can be updated if your admin uploads more recent organizational data.  
+* When you select the groups listed within "Your group," the dashboard includes everyone who reports directly or indirectly to a person who reports to you. These groups are based on your reporting hierarchy and can be updated if your admin uploads more recent organizational data.  
 
 If you find the default data is inaccurate, your admin can  upload updated organizational data through the following two ways: 
 
