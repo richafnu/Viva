@@ -161,7 +161,7 @@ If a description column is already present, you can delete it and add a new one 
 
 > [!IMPORTANT]
 > You'll need to use the column names exactly as they're provided here for the metadata to populate the field. Adding metadata is optional.
-
+> We recommend copying the URL path of the content image metadata instead of using the URL from the browser. 
 
 1. Select the folder from your learning content repository.
 1. From the **Documents** page, select **Add column**. Learn more about [column types](https://support.microsoft.com/office/list-and-library-column-types-and-options-0d8ddb7b-7dc7-414d-a283-ee9dca891df7)
