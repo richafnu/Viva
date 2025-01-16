@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 08/27/2024
+ms.date: 01/16/2025
 ---
 
 # Create your Viva Glint Employee Attribute Template
@@ -23,10 +23,10 @@ The Employee Attribute Template is a guide and planning tool used to document yo
 
 Ensure that attribute labels that you set up initially stay consistent over time in the Employee Data Files transferred to Viva Glint. For example, if an attribute is set up as **Employee ID**, it can't later be recognized as the same column renamed as **Employee Number**.
 
->[!NOTE]
->Use our template as guidance to ensure that data is uploaded in the correct format, incorporating our recommendations and requirements.
+> [!NOTE]
+> Use our template as guidance to ensure that data is uploaded in the correct format, incorporating our recommendations and requirements.
 >
->To get started on your organization's employee attribute file planning, download the [Employee Attribute Template](https://www.microsoft.com/en-us/download/details.aspx?id=105533) to your device.
+> To get started on your organization's employee attribute file planning, download the [Employee Attribute Template](https://www.microsoft.com/en-us/download/details.aspx?id=105533) to your device.
 
 ## Why is creating an employee data template important? 
 
@@ -47,6 +47,7 @@ Many companies rely on their IT department to stage and maintain the backend pro
 These extensions are supported for files exported by your HRIS system:
 
 - .csv for files with a comma delimiter and UTF-8 encoding
+  - Viva Glint accepts UTF-8 and UTF-8 with BOM encoding
 - .xlsx for files in Microsoft Excel format with a single tab of data
 
 The first page of the template contains instructions for building your own template. Follow the guidance on the instruction page, the following tabs, and in the following table to set up your template.
