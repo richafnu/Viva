@@ -17,7 +17,7 @@ ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
 ms.custom: CELA-approved
-ms.date: 11/04/2024
+ms.date: 1/08/2025
 ---
 
 # Access Viva Glint raw survey responses
@@ -28,7 +28,7 @@ In Microsoft Viva Glint, "raw survey responses" refers to unaggregated survey re
 
 By default, Viva Glint’s in-product reporting does not include raw survey responses and is reported in the aggregate. However, your organization may choose to make some surveys “identifiable,” meaning survey responses are directly linked to the survey taker. If a survey is identifiable, survey takers are informed before taking the survey. Learn more about [Viva Glint confidentiality and reporting](viva-glint-survey-privacy.md).
 
-While raw survey responses are not included in Viva Glint default reporting, Viva Glint Administrators can export them unless export is disabled. Even when export of raw survey responses has been disabled, your organization may still access raw survey responses if it determines that certain Extreme Circumstances exist. Learn more about the [Extreme Circumstances exception](#exception-for-extreme-circumstances).
+While raw survey responses are not included in Viva Glint default reporting, Viva Glint Administrators can export them unless export is disabled. Even when export of raw survey responses is disabled, your organization may still access raw survey responses if it determines that certain Extreme Circumstances exist. Learn more about the [Extreme Circumstances exception](#exception-for-extreme-circumstances).
 
 ## Configuring raw survey response export
 
@@ -45,7 +45,7 @@ Admins can configure the Export Raw Survey Responses control at any time during 
 
 ## Exception for Extreme Circumstances
 
-Even if you have disabled export of raw survey responses, you can still identify a survey taker if your organization determines that Extreme Circumstances exist. 
+Even when export of raw survey responses is disabled, you can still identify a survey taker if your organization determines that Extreme Circumstances exist. 
 
 ### What does Extreme Circumstances mean? 
 
@@ -72,8 +72,8 @@ By default, export of raw survey responses is enabled for each new Viva Glint su
 1.	Select Survey Programs in the Survey section.
 2.	Select the survey and then Program Setup on the Program Summary page.
 3.	Find the Confidentiality section of the Program Setup page.
-4.	Here you will find a control entitled “Enable Raw Survey Response Export.” 
-5.	By default, the control will be set to YES, meaning export is enabled.
+4.	Here you find a control entitled “Enable Raw Survey Response Export.” 
+5.	By default, the control is set to YES, meaning export is enabled.
 6.	To disable export of raw survey responses, set the control to NO.
 
 > [!NOTE]
@@ -87,39 +87,39 @@ Opting out of response exports occurs within the **Confidentiality** section of 
 
 ## Export raw survey responses
 
-If export is enabled for a survey program, you can export raw survey response by using the following procedures:
+If export is enabled for a survey program, you can export raw survey responses for Recurring, Ad Hoc, Employee Lifecycle, and Always-On surveys.
 
 ### Export raw survey responses for Recurring and Ad Hoc surveys
 
 1.	Go to the **Configuration** page and select **Survey Programs.**
 2.	Select your survey program and go to the **Completed cycles** tab.
 3.	On the row with the appropriate cycle, select the ellipses (three dots) and then **Export Raw Survey Responses.**
-1. In the export pane that appears:
+1. In the export panel that appears:
    1. Choose whether to include Comments, Survey Sent Date, and Use question's description instead of UUID in the Export Options section.
-   1. Select attributes to include.
+   1. Select attributes to include. To improve the usability of exports, new attributes are available: Survey Cycle ID, Date Filter, Comments Topics, and Sensitive Comments Flag.
    2. After making all selections, select **Export.**
-5.	Your .csv file downloads to your device. Larger files can take more time to generate. You receive an email when your file is ready to download.
+5.	Your CSV file downloads to your device. Larger files take more time to generate. You receive an email when your file is ready to download.
 
 ### Export raw survey responses for Employee Lifecycle and Always-On surveys
 
 1.	Go to the **Configuration** page and select **Survey Programs.**
 2.	Select your survey program and then the **Actions** menu.
 3.	Choose **Export Raw Survey Responses.**
-1. In the export pane that appears:
+1. In the export panel that appears:
    1. Select a Start Date and End Date in the Date Range section.
-   2. Choose whether to include Comments, Survey Sent Date, and Use question's description instead of UUID in the Export Options section.
-   1. Select attributes to include.
+   2. Choose whether to include Comments or Survey Sent Date.
+   1. Select attributes to include. To improve the usability of exports, new attributes are available: Survey Cycle ID, Date Filter, Comments Topics, and Sensitive Comments Flag. Survey Start Date is also available for Always-On surveys.
    2. After making all selections, select **Export.**
-5.	The .csv file downloads to your device. Larger files can take more time to generate. You receive an email when your file is ready to download.
+5.	The CSV file downloads to your device. Larger files take more time to generate. You receive an email when your file is ready to download.
 
 ## Raw survey response file layout
 
-The fields included in your Viva Glint raw survey response exports vary based on the attributes that your organization sends, the selections that you make for your export, and the items included in your survey. The following columns will always be included, with a field for every survey item:
+The fields included in your Viva Glint raw survey response exports varies. Variation is based on the attributes that your organization sends, export selections, and the items included in your survey. The following columns are always included, with a field for every survey item:
 
 |Field Label  |Description   |Value Format|
 |----------|-----------|------------|
 |Survey Cycle Creation Date   |The date and time that surveys were generated for users.       |YYYY-MM-DD hh:mm:ss|
-|Survey Cycle Completion Date|The date and time that surveys were completed by each user.    |YYYY-MM-DD hh:mm:ss|
+|Survey Cycle Completion Date|The date and time the survey was completed by each user.    |YYYY-MM-DD hh:mm:ss|
 |Survey Cycle Title|The name of the survey cycle.  |\<Month> \<Year> \<Program name> Survey|
 |ItemText1  |Full text of survey item. |Numeric response value.|
 |ItemText2  |Full text of survey item. |Numeric response value.|
