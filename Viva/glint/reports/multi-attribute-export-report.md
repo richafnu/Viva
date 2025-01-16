@@ -19,8 +19,7 @@ ms.date: 01/16/2025
 
 # Use Micrsoft Viva Glint's Multi-Attribute Export report for admins 
 
-Admins can deep dive into survey scores and view results of combinations for up to three attributes. The Multi-Attribute Export report is available for both engagement-type surveys and employee lifecycle surveys. 
-
+Admins can deep dive into survey scores and view results of combinations for up to three attributes. The Multi-Attribute Export report is available for both Engagement-type surveys and Employee Lifecycle surveys. 
 
 ## Access the Multi-Attribute Export report from the admin dashboard 
 
@@ -31,7 +30,7 @@ Available only to admins:
 
 ## Select up to three attributes to generate the Multi-Attribute Export file 
 
-Attributes are available in the dropdown menu based on those sent to Viva Glint in your Employee Attribute File. Filtering this report will look a bit different for Engagement cycle reports and Always-On and Employee Lifecycle reports. When the attributes have been chosen, select **Export**.
+Attributes are available in the dropdown menu based on the data sent to Viva Glint in your Employee Attribute File. Filtering this report looks a bit different for Engagement cycle reports and Always-On and Employee Lifecycle reports. When the attributes have been chosen, select **Export**.
 
 Viva Glint provides four default options for comparison reporting. In addition to the following four settings, your company may have one or more internal comparisons configured (for example, Division or Business Unit).
 
@@ -56,5 +55,5 @@ Employee Lifecycle and Always-On report setup requires that a Start Date and End
 
 ## Access the downloaded Multi-Attribute Export file 
 
-Once an onscreen message appears indicating that the report has been downloaded, select **Close Tab**, and open your newly generated file. 
+Once an onscreen message appears indicating that the report is downloaded, select **Close Tab**, and open your newly generated file. 
 
