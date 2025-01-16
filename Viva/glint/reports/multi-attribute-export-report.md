@@ -17,7 +17,7 @@ ms.localizationpriority: high
 ms.date: 01/16/2025
 ---
 
-# Use Micrsoft Viva Glint's Multi-Attribute Export report for admins 
+# Use Microsoft Viva Glint's Multi-Attribute Export report for admins 
 
 Admins can deep dive into survey scores and view results of combinations for up to three attributes. The Multi-Attribute Export report is available for both Engagement-type surveys and Employee Lifecycle surveys. 
 
