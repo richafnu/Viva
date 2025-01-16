@@ -36,7 +36,7 @@ The Manager Report has a unique filter option, which isn't present in other repo
 
 1. From the *Manager Report* page, select **Add a filter**.
 
-:::image type="content" source="../../media/glint/reports/manager-report-add-a-filter-button.png" alt-text="Screenshot of the Manager Report Add a filter button.":::
+   :::image type="content" source="../../media/glint/reports/manager-report-add-a-filter-button.png" alt-text="Screenshot of the Manager Report Add a filter button.":::
 
 2. In the **Filter By** box, select **+ Add Filters** to open the **Select Filter Type** dropdown menu.
 3. From the dropdown box, select either **Managers** or **Respondents**. 
@@ -44,7 +44,7 @@ The Manager Report has a unique filter option, which isn't present in other repo
    leader with people reporting up to them at the time of the survey launch and is therefore qualified to receive survey results.
    1. The **Respondents** filter looks at all attribute values for individual employees who report into that manager.
   
-:::image type="content" source="../../media/glint/reports/manager-report-select-filter.png" alt-text="Screenshot of the Select Filter Type button.":::
+   :::image type="content" source="../../media/glint/reports/manager-report-select-filter.png" alt-text="Screenshot of the Select Filter Type button.":::
 
 4. After selecting **Managers** or **Respondents**, a new dropdown menu displays all attributes sent to Glint in your employee attribute data file. Choose the attribute you want to study. As appropriate, more dropdown menus become available to drill down the desired attribute even further.
 
@@ -55,15 +55,15 @@ The Manager Report has a unique filter option, which isn't present in other repo
 1. Select the **Settings** button to open the **Report Settings** panel.
 2. Viva Glint provides four default options for comparison reporting. In addition to the following four settings, your company may have one or more internal comparisons configured (for example, Division or Business Unit).
 
-|Comparator|Description|When to use|
-|-------|--------|-----------|
-|**Benchmark**|Provides a comparison point for feedback based on survey data compiled from all Viva Glint customers, not just within your organization.| Helpful for admins and first-time survey results analysis|
-|**Company**  | Displays team scores in comparison to company-wide scores for the same questions.| Helpful for users with more than one area of responsibility|
-|**My Teams** | Compares a manager's team score to an overall score derived from a filter.| This setting is the superset of access and is best used with custom access or managers with large organizations|
-|**Average Question** |Presents a single, overall score for all questions and respondents within your access.| Helpful for users looking for some level of variance in their score|
+   |Comparator|Description|When to use|
+   |-------|--------|-----------|
+   |**Benchmark**|Provides a comparison point for feedback based on survey data compiled from all Viva Glint customers, not just within your organization.| Helpful for admins and first-time survey results analysis|
+   |**Company**  | Displays team scores in comparison to company-wide scores for the same questions.| Helpful for users with more than one area of responsibility|
+   |**My Teams** | Compares a manager's team score to an overall score derived from a filter.| This setting is the superset of access and is best used with custom access or managers with large organizations|
+   |**Average Question** |Presents a single, overall score for all questions and respondents within your access.| Helpful for users looking for some level of variance in their score|
 
-3. Use the **Group by** dropdown menu to choose **None, Manager**, or **Location Hierarchy**.
-1. Use the **Key Metric** dropdown menu to show the report in terms of **Scores** or **Favorability**.
+3. Use the **Group by** dropdown menu to choose **None, Manager** or **Location Hierarchy**.
+4. Use the **Key Metric** dropdown menu to show the report in terms of **Scores** or **Favorability**.
 
 ## Export and Share
 
