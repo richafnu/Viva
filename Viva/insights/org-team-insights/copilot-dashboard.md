@@ -184,10 +184,10 @@ If you find the default data is inaccurate, your admin can  upload updated organ
 * If your Insights admin uploads a .csv file with the attribute of **ManagerID**, the "Your Group" data in the filter will update.
 * If your Global admin uploads a .csv file with the attribute of **Microsoft_ManagerEmail**, the "Your Group" data in the filter will update. 
 
-:::image type="content" source="images/copilot-dash-scope-ga-02.png" alt-text="Screenshot that shows the scope filter options.":::
+    :::image type="content" source="images/copilot-dash-scope-ga-02.png" alt-text="Screenshot that shows the scope filter options.":::
 
->[!Note]
->The hierarchy displayed under “Your company” is based on the user who’s logged in to view the Copilot Dashboard. To view the full list of dropdowns under “Your company,” you need to report directly or indirectly to the CEO.
+    >[!Note]
+    >The hierarchy displayed under “Your company” is based on the user who’s logged in to view the Copilot Dashboard. To view the full list of dropdowns under “Your company,” you need to report directly or indirectly to the CEO.
 
 The **Organization** filter corresponds to the Microsoft Entra ID data source field named "Department." If your Insights or Global admin uploads a .csv file with an organizational data attribute of "Organization," it will replace the Microsoft Entra ID data source.
 
