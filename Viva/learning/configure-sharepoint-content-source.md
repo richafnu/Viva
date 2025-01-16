@@ -160,8 +160,7 @@ If a description column is already present, you can delete it and add a new one 
 **Add a metadata field**:
 
 > [!IMPORTANT]
-> You'll need to use the column names exactly as they're provided here for the metadata to populate the field. Adding metadata is optional.
-> We recommend copying the URL path of the content image metadata instead of using the URL from the browser. 
+> - You'll need to use the column names exactly as they're provided here for the metadata to populate the field. Adding metadata is optional.
 
 1. Select the folder from your learning content repository.
 1. From the **Documents** page, select **Add column**. Learn more about [column types](https://support.microsoft.com/office/list-and-library-column-types-and-options-0d8ddb7b-7dc7-414d-a283-ee9dca891df7)
@@ -194,6 +193,8 @@ If a description column is already present, you can delete it and add a new one 
 > [!NOTE]
 > - Only public URLs work for this process.
 > - For proper rendering of the image in Viva Learning the minimum aspect ratio should be 16:9.
+> - We recommend copying the URL path of the content image metadata instead of using the URL from the browser. 
+
 
 1. Follow the initial steps for creating column.
 1. Choose **Hyperlink**.
