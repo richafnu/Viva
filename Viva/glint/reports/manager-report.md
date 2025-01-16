@@ -34,7 +34,7 @@ The Microsoft Viva Glint Manager Report displays a **Directs** or **Roll-up Hier
 
 The Manager Report has a unique filter option, which isn't present in other reports. 
 
-1. From the *Manager Report* page, select **Add a filter.**
+1. From the *Manager Report* page, select **Add a filter**.
 
 :::image type="content" source="../../media/glint/reports/manager-report-add-a-filter-button.png" alt-text="Screenshot of the Manager Report Add a filter button.":::
 
