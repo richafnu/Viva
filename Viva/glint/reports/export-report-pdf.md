@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 1/13/2025
+ms.date: 1/16/2025
 ---
 
 # Export reports as a PDF
@@ -60,6 +60,12 @@ In 360 feedback reports, the PDF export experience is a valuable and primary way
     > This choice brings up the appropriate dialog box for the browser you're using. Choose whether to **Save as a PDF** or to **Print** the file. Report enhancements may include printing, searching, and highlighting if your PDF tool permits. Any filters applied display
 
     :::image type="content" source="../../media/glint/reports/export-print.png" alt-text="Screenshot of the Export or Print button.":::
+
+    > [!CAUTION]
+    > To prevent download errors, don't use spaces or the following special characters in the PDF's file name when saving to your device. Each character is separated by a comma.
+    > ```
+    > <, >, {, }, |, \, ^, ~, `, #, %, &, *, ?, !, ", ', :, @, +, =, (, )
+    > ```
 
 ## Export the Comments report
 
