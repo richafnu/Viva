@@ -19,7 +19,7 @@ audience: Admin
 
 # Data, privacy, and security for Microsoft 365 Copilot in Viva Insights
 
-Analysts can take advantage of the many features in Microsoft 365 Copilot for Viva Insights including suggestions for metrics, filters, and attributes to use in queries. 
+Analysts can take advantage of the many features of Microsoft 365 Copilot in Viva Insights including suggestions for metrics, filters, and attributes to use in queries. 
 
 For example, Copilot can help analysts create queries by suggesting useful metrics that would be relevant to their queries.
 
