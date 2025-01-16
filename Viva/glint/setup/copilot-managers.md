@@ -6,7 +6,7 @@ author: JudyWeiner
 manager: MelissaBarry
 audience: admin
 f1.keywords: NOCSH
-keywords: 
+keywords: Copilot in Viva Glint chatbot, Copilot in Viva Glint manager tips, comment summarization for specific topics
 ms.collection:  
 - m365initiative-viva
 - selfserve
@@ -16,7 +16,7 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 11/15/2024
+ms.date: 1/13/2025
 ---
 
 # How managers use Microsoft 365 Copilot in Viva Glint 
@@ -32,7 +32,7 @@ Use your Glint [Team Summary dashboard](/viva/glint/reports/managers-use-team-su
 
 There are two different experiences:
 
-- Initial: This experience includes onboarding instructions for a manager using Copilot for the first time
+- Initial: This experience includes onboarding instructions for a manager using Copilot in Viva Glint for the first time
 - All Copilot in Viva Glint experiences after the initial use
 
 ## First-time user experience for Copilot in Viva Glint
@@ -45,7 +45,7 @@ There are two different experiences:
    
 3. Review the guidance and select **Next**.
    
-4. Experiment with Copilot!
+4. Experiment with Copilot in Viva Glint!
 
 Now, access Copilot in Viva Glint in one of these ways:
 
@@ -55,7 +55,7 @@ Now, access Copilot in Viva Glint in one of these ways:
 > [!TIP]
 > Copilot in Viva Glint can summarize comments on any report in any Ad hoc or Recurring survey.
 
-## Copilot quick tips for managers 
+## Copilot in Viva Glint quick tips for managers 
 
 Use these tips to understand and act on employee feedback quickly:
 
@@ -85,7 +85,7 @@ This example follows Copilot in Viva Glint comment summarization on the **Commen
 
 1. Select the **Copilot** button.
 
-1. A Copilot in Viva Glint panel opens and provides survey prompts.
+1. A **Copilot in Viva Glint** panel opens and provides survey prompts.
 
    :::image type="content" source="../../media/glint/reports/copilot-summarize-comments.png" alt-text="Screenshot of the Copilot panel." lightbox="../../media/glint/reports/copilot-summarize-comments.png":::
 
@@ -156,7 +156,7 @@ Follow this procedure to view a specific set of comments and summarize them usin
 
 	 :::image type="content" source="../../media/glint/reports/copilot-copy-image.png" alt-text="Screenshot of the Copilot copy symbol.":::
 
-## Copilot use in other Glint reports
+## Copilot in Viva Glint use in other Glint reports
 
 Ask Copilot in Viva Glint different questions to drill down for meaningful insight. It takes practice. Copilot in Viva Glint uses the filters applied to the report the user is viewing.
 

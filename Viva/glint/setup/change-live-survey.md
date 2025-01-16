@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 12/06/2024
+ms.date: 12/13/2024
 ---
 
 # Make changes to a live Viva Glint survey
@@ -26,11 +26,11 @@ Some elements of a live recurring or ad hoc survey can be adjusted, but only mak
 
 Preview your survey before launching. Then follow these practices:
 
-| **Best Practice** | **Considerations** |
+|   Best Practice   |   Considerations   |
 | --- | --- | 
 |**Don't stop the survey**|Unless you need to completely replace a survey cycle, never *stop* a survey. Many edits can be made while the survey is enabled.|
 |**Make email and reminder edits only at the cycle level**| Program level changes don't apply to a live survey.|
-|**Keep the meaning of a question intact**| If you need to fix spelling, grammatical or translation errors:<ul><li>The adjusted item meaning should remain the same before and after edits. </li><li> To ensure the integrity of the survey results, don't adjust any rating scale or multiple-choice options.</li></ul>|
+|**Keep the meaning of a question intact**| If you need to fix spelling, grammatical, or translation errors:<ul><li>The adjusted item meaning should remain the same before and after edits. </li><li> To ensure the integrity of the survey results, don't adjust any rating scale or multiple-choice options.</li></ul>|
 |**Always Save and re-approve**| When making live edits, save changes and *reapprove* the survey before ending your session. [Use this guidance for approving, previewing, enabling, and disabling your survey](/viva/glint/setup/preview-manage-enable-engage-programs).|
 |**Make text changes uniformly**| Text changes need to be made across all languages included in the survey.|
 
@@ -38,23 +38,11 @@ Preview your survey before launching. Then follow these practices:
 
 :::image type="content" source="../../media/glint/setup/live-survey-alert.png" alt-text="Screenshot of alert in Program Summary." lightbox="../../media/glint/setup/live-survey-alert.png":::
 
-## Process to edit a survey item
-
-There are three entry points to choose from:
--	From the **Question Library** on your admin dashboard; doesn't require the survey to go into unapproved state
--	From **Survey Programs, Live** 
--	From **Upcoming Surveys**
-
-**Allow Survey Resubmission** in the **Program Setup** section of **Program Summary** must be toggled to **Yes.** <br>
-If not toggled to **Yes**, a pop-up informs you that the change to **Yes** happens automatically when edits are saved.
-
-:::image type="content" source="../../media/glint/setup/before-question-edit-2.png" alt-text="Screenshot of alert box for live item editing." lightbox="../../media/glint/setup/before-question-edit-2.png":::
-
-### Scenarios and considerations for live survey changes 
+## Scenarios and considerations for live survey changes 
 
 Sometimes changing a live survey may be beneficial. 
 
-| **Topic** | **Scenario** | **Considerations** |
+|   Topic   |   Scenario   |   Considerations   |
 | --- | --- | --- |
 | The text at the beginning (top) and end (bottom) of the survey | The *Intro* or *Thank You* text needs adjustments or corrections. | Newly edited text is featured immediately and *only* on surveys that haven't started. |
 | Item text | The phrasing of an item needs to be edited. | Decide whether to change the item while the survey is live or if it can wait until the next cycle. Instructions for editing items in a live survey are below.|
@@ -83,28 +71,39 @@ The information is broken out across **Program Summary** setup pages.
 
 ## Program Setup
 
-| **Topic** | **Scenario** | **Considerations** |
+|   Topic   |   Scenario   |   Considerations   |
 | --- | --- | --- |
 | **Various** | You want to edit the **Program Name**. | Edits are visible only to users who haven't started their survey. |
 | **Additional languages** | You want to add a new language as a survey option. | If custom translation text isn't provided, Glint's standard text translations are featured. |
 
 ## Distribution
 
-| **Topic** | **Scenario** | **Considerations** |
+|   Topic   |   Scenario   |   Considerations   |
 | --- | --- | --- |
 | **Add users** | Employees not yet included in your *Employee Attribute File* need to participate in the survey. | From the admin dashboard, select the **People** section and then **Send Survey**. Each new user is sent the email invitation immediately. From then on, these new users receive reminders according to the same schedule as all other users. |
 | **Edit a Distribution List** | The list of employees included or excluded in the survey needs adjustment. | A Distribution List can be adjusted at any time but doesn't automatically send a survey invitation to new users. Those invites have to be sent manually. |
 
 ## Schedule
 
-| **Topic** | **Scenario** | **Considerations** |
+|   Topic   |   Scenario   |   Considerations   |
 | --- | --- | --- |
 | **Survey launch date** | You need to postpone the launch date of the survey. | To avoid potential challenges, make this update a minimum of 24 hours before the survey is scheduled to go live. |
 | **Response window** | You want to decrease or increase the number of days within the survey window. | Adjust a minimum of 48 hours before the original survey end date.<br>Also, make sure your *Communications* emails align with any updated survey window planning.<br><p>> **Note** that live *Schedule* edits are applied at the cycle level. |
+| **Resend Survey Invites** | You want to resend the survey invite email to users who haven't responded yet (the email doesn't send to users who've completed the survey). | Viva Glint Admins can only make this change between the invite send date and the first reminder date. This option is unavailable after the first reminder sends.<br><br>**Note:** Invites begin sending immediately and follow the length of the delivery window set up in **Communications**. |
+| **Reschedule Survey Invites** | You want to reschedule the survey invite email due to issues with the first invite. | Viva Glint Admins can only make this change between the invite send date and the first reminder date. This option is unavailable after the first reminder sends. |
+
+To manage the schedule for a live survey:
+
+1. Go to **Configuration** and choose **Survey Programs** in the **Surveys** section.
+2. Select the live survey from the **Survey Programs** list.
+3. In the list of **Upcoming and Live** surveys, go the live survey and select the ellipsis on the far right.
+4. In the dropdown menu, select **Manage Schedule & Invites** and choose from **Schedule**, **Resend Survey Invites**, or **Reschedule Survey Invites** options.
+
+   :::image type="content" source="../../media/glint/setup/live-manage-schedule.png" alt-text="Screenshot of the Manage Schedule & Invites feature for a live Viva Glint survey.":::
 
 ## Items (Questions)
 
-| **Topic** | **Scenario** | **Considerations** |
+|   Topic   |   Scenario   |   Considerations   |
 | --- | --- | --- |
 | **The text at the beginning (top) and end (bottom) of the survey** | The **Intro** or **Thank You** text needs adjustments or corrections. | Newly edited text is featured immediately on surveys that haven't been started. |
 | **Question text** | The phrasing of an item needs to be edited. |Survey item rephrasing propagates to future programs only. Live programs aren't affected by edits.|
@@ -164,7 +163,7 @@ A list of program names previously used or in use that include this survey item 
 
 ## Reporting
 
-| **Topic** | **Scenario** | **Considerations** |
+|   Topic   |   Scenario   |   Considerations   |
 | --- | --- | --- |
 | **All items in the Reporting section** | Any section in the Reporting section needs adjustment. | Save all changes, then return to the **Program Summary** and adjust the Approved toggle to **Yes**. |
 | **Benchmark update** | Your external comparison benchmark was updated. | If changes are made to the benchmark in a live program, be certain users with live access are aware so they aren't confused by different results from a past viewing. |
@@ -175,16 +174,15 @@ A list of program names previously used or in use that include this survey item 
 
 Live Communications edits only apply when made at the cycle level.
 
-| **Topic** | **Scenario** | **Considerations** |
+|   Topic   |   Scenario   |   Considerations   |
 | --- | --- | --- |
 | **Reminders** | You need to add or delete email reminders, or otherwise edit existing text. | Future reminders can be added, edited, or deleted if adjusted at least the day before they're scheduled to be sent. Reminders can't be added, edited, or deleted, on the day that they're scheduled. |
 | **Results Notification** | You want to turn this feature on or off, edit existing text, or adjust the number of days until the message is sent. | To avoid potential challenges, make changes at least 48 hours before the closing of the survey window. |
 
 ## Other Live changes 
 
-| **Topic** | **Scenario** | **Considerations** |
+|   Topic   |   Scenario   |   Considerations   |
 | --- | --- | --- |
-|**Driver labels** | The reporting label for an item needs adjustment. | Proceed as needed. |
 | **Manager hierarchies** | Your reporting displays incorrect leadership hierarchies due to errors in your Employee Attribute File. | Change only after the close of the survey window. |
 | **Add bulk survey participants** | An extra group of employees needs to be added to the platform. | Submit a delta file of the employees to be added. Then, manually send them the survey invite from within the **People** configuration page. |
 | **Add users not in the Distribution List** | Employees outside of the Distribution List need to be included. | From the admin Configuration dashboard, select the **People** feature, then **Employee**, then **Action**, then **Send Survey**. |

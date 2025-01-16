@@ -1,5 +1,5 @@
 ---
-ms.date: 08/20/2024
+ms.date: 12/19/2024
 title: "Use eDiscovery for Viva Pulse content"
 description: "View Viva Pulse content through Microsoft Purview eDiscovery content search."
 ms.reviewer: 
@@ -11,8 +11,8 @@ f1.keywords: NOCSH
 ms.topic: article
 ms.service: viva-pulse
 ms.localizationpriority: medium
-ms.collection:  
-search.appverid:
+ms.collection: m365initiative-viva-pulse 
+search.appverid: MET150
 ---
 
 # Use eDiscovery for Viva Pulse content 

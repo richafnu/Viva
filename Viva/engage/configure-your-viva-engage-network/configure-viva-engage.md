@@ -69,9 +69,9 @@ To access the Yammer admin center:
 
 ## Turn private messages on or off
 
-You can control whether private messages are allowed on the network at any given time. When you turn this feature off, you remove all reference to private messages in the Engage Inbox and the Share menu on any conversation thread.
+You can control the appearance of private messages on the network by turning off their support at any time. When you turn this feature off, you remove all reference to private messages in the Engage Inbox and on the Share menu for any conversation thread. You can restore the feature at any time.
 
-Private message content remains ingested for eDiscovery. Users can navigate to old messages through notifications and search, but they can't reply to old messages while the feature is off for the network.
+EDiscovery continues to maintain all private message content. Users can navigate to old messages through notifications and search, but they can't reply to old messages while the feature is off for the network.
 
 - On the **Configuration** page, in the **Enabled Features** section, select whether to disable private messages.
 
@@ -93,10 +93,12 @@ Configure the types of files that users can attach and upload in the Conversatio
     - **Allow only images and videos**. People can attach and upload images and videos, only. File type is determined by the file extension. 
     - **Disable uploads**. Users cannot attach files, including images and videos. Disabling uploads will not affect existing uploaded files.
 
-5. In the **GIFs** section you can enable or disable adding GIFs directly within Viva Engage. GIF selection uses Tenor, a third-party service
+5. In the **GIFs** section you can enable or disable adding GIFs directly within Viva Engage. GIF selection uses Tenor, a third-party service.
 
+> [!NOTE]
+> Restricting upload permissions only affects user actions for uploading files as part of their Viva Engage posting experience. It does not affect users' ability to upload files in the Viva Engage community's **Files** tab.
 
-**Additional Infromation** 
+**Additional Information** 
 
    - Attachments—file uploads—are enabled by default.
    - GIFs are enabled by default.
@@ -108,8 +110,6 @@ Configure the types of files that users can attach and upload in the Conversatio
        - Files attached to posts and replies on a storyline.
         - Files attached to posts and replies in a community attached to a Microsoft 365 group.
         - There is no virus check for files uploaded to communities in non-native networks that are not connected to Microsoft 365 groups. Admins can export the files to perform an offline virus scan on them. Custom scripting can automate this process. Learn more about [file storage for non-native networks.](https://support.microsoft.com/en-us/office/where-are-my-viva-engage-files-stored-fadfdefa-e00d-40b6-94cb-a9ddb171a443)
-
-
 
   
 ## Enable or restrict the use of third-party apps

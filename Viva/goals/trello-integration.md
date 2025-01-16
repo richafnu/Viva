@@ -1,7 +1,7 @@
 ---
-ms.date: 04/03/2024
+ms.date: 01/13/2025
 title: Trello integration
-ms.reviewer: 
+ms.reviewer: aroraaarushi
 ms.author: daisyfeller
 author: daisyfell
 manager: elizapo

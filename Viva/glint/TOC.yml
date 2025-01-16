@@ -83,7 +83,7 @@ items:
             href: setup/access-glint.md
           - name: Survey program types and templates
             href: start/program-types-templates.md
-          - name: Plan for monthly releases
+          - name: Plan for monthly deployments
             href: setup/monthly-release-dates.md
           - name: Communications for internal readiness
             items:
@@ -143,7 +143,6 @@ items:
                   - name: People page import
                     href: setup/upload-employee-attributes.md
   - name: Platform features
-    href: setup/platform-features-settings.md
     items: 
       - name: General Settings 
         href: setup/manage-general-settings.md
@@ -223,15 +222,15 @@ items:
               href: setup/manage-confidentiality-thresholds.md
   - name: Microsoft 365 Copilot in Viva Glint
     items:
-      - name: Introduction to Microsoft 365 Copilot in Viva Glint 
+      - name: Introduction to Copilot in Viva Glint 
         href: copilot/copilot-admin-intro.md
       - name: Administrator enablement for Copilot in Viva Glint
         href: copilot/admin-enable.md
-      - name: Microsoft 365 Copilot data, privacy, and security
+      - name: Copilot in Viva Glint data, privacy, and security
         href: setup/copilot-privacy.md
       - name: Managers using Copilot in Viva Glint 
         href: setup/copilot-managers.md
-      - name: Copilot in Viva Glint- more FAQs 
+      - name: FAQs-Copilot in Viva Glint 
         href: setup/copilot-faqs.md
   - name: Create survey programs
     items: 
@@ -389,7 +388,7 @@ items:
             href: setup/preview-demo-reporting.md
           - name: Preview, enable, and prepare to launch surveys
             href: setup/preview-manage-enable-engage-programs.md   
-          - name: Duplicate, delete, and disable surveys 
+          - name: Duplicate or delete surveys 
             href: setup/delete-survey-data.md
       - name: Edit live surveys or reopen closed surveys
         items:
@@ -527,7 +526,9 @@ items:
            - name: Resolve upload warnings related to invalid or unexpected values
              href: /viva/troubleshoot/glint/data-file-upload/fix-upload-invalid-unexpected-values-warnings?toc=/viva/glint/toc.json&bc=/viva/breadcrumb/toc.json
            - name: Resolve upload warnings related to manager hierarchy
-             href: /viva/troubleshoot/glint/data-file-upload/fix-upload-manager-hierarchy-warnings?toc=/viva/glint/toc.json&bc=/viva/breadcrumb/toc.json 
+             href: /viva/troubleshoot/glint/data-file-upload/fix-upload-manager-hierarchy-warnings?toc=/viva/glint/toc.json&bc=/viva/breadcrumb/toc.json
+           - name: Resolve upload errors and warnings related to employee ID updates
+             href: /viva/troubleshoot/glint/data-file-upload/fix-employee-id-updates-errors-warnings?toc=/viva/glint/toc.json&bc=/viva/breadcrumb/toc.json
       - name: Historical Imports
         items:
            - name: Error "Duplicate entry"
@@ -544,7 +545,7 @@ items:
              href: /viva/troubleshoot/glint/provisioning-and-licensing/tenant-provisioning-licensing-errors?toc=/viva/glint/toc.json&bc=/viva/breadcrumb/toc.json
       - name: Accessing the platform
         items:
-           - name: Resolve issues when accessing survey results as a manager
+           - name: Resolve issues when accessing survey results
              href: /viva/troubleshoot/glint/access/manager-access-issues?toc=/viva/glint/toc.json&bc=/viva/breadcrumb/toc.json
       - name: Contact support
         href: /viva/troubleshoot/glint/contact-support/get-support-viva-glint?toc=/viva/glint/toc.json&bc=/viva/breadcrumb/toc.json          
