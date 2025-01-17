@@ -79,7 +79,7 @@ After you complete setup:
 > Before importing users for the external import, select a placeholder Distribution List to complete program setup, such as Company Admin.
 
 > [!NOTE]
-> Exclusion lists and question targeting configured in your survey will not apply to an historical import.
+> Exclusion lists and question targeting configured in your survey will not apply to a historical import.
 
 ## 5. Prepare data files
 
@@ -241,7 +241,7 @@ After your External Import processes successfully in Viva Glint, go to your Dash
 After your historical import is complete and results appear as expected, load your current employee data to Viva Glint to overwrite historical user information. Coordinate with other teams that regularly import employee data to Viva Glint to confirm when and how to load current user information. 
 
 > [!IMPORTANT]
-> If you disabled dervied attributes to import historical users and attributes, add Tenure Groups and Age Groups to your attribute setup again on the **Manage User Attributes** page by [reselecting and remapping attributes](update-attributes.md).
+> If you disabled derived attributes to import historical users and attributes, add Tenure Groups and Age Groups to your attribute setup again on the **Manage User Attributes** page by [reselecting and remapping attributes](update-attributes.md).
 
 Choose between two upload methods:
 
