@@ -1,5 +1,5 @@
 ---
-ms.date: 12/10/2024
+ms.date: 01/17/2025
 title: Connect to the Microsoft Copilot Dashboard for Microsoft 365 customers
 description: Explains how to set up and use the Microsoft Copilot Dashboard, which provides various metrics to help you see how employees are using Copilot and the impact it could have on your organization.
 author: zachminers
@@ -304,7 +304,7 @@ Microsoft 365 global admins can upload aggregated survey results through Adoptio
 >[!Important]
 >You must enable optional diagnostic data to get comprehensive data for the following metrics in this section: Copilot assisted hours; Total emails sent using Copilot; Number of Teams meetings summarized; Number of Teams meeting hours summarized; and Total chat conversations summarized by Copilot.
 >
-> If you disable optional diagnostic data, these metrics might still include product usage collected from *required* diagnostic data.
+> If you disable optional diagnostic data, these metrics still include product usage collected from *required* diagnostic data.
 >
 >All other metrics in the report are powered by required service data and don't require optional diagnostic data enablement. [Learn more about diagnostic data](/microsoft-365-apps/privacy/optional-diagnostic-data).
 
@@ -611,7 +611,7 @@ In this scenario, your Entra data is not reliable, or it does not accurately ref
 
 **Q1. Which apps are the Copilot Chat (work) metrics based on?**
 
-Copilot Chat (work) metrics are based on use of Copilot Chat (work), formerly called Business Chat, across all apps where the capability is available including Teams, Windows, Microsoft365.com, and more. Copilot Chat (work) metrics do *not* include usage of [Microsoft Copilot with enterprise data protection](/copilot/manage), which is made available to users with an eligible Microsoft 365 license and does not require a Copilot for Microsoft 365 license. In certain product environments such as Copilot in the Edge browser, users enabled for Copilot for Microsoft 365 may see a “work/web” toggle. The “work” toggle is a feature of Copilot Chat (work) usage and thus usage of this feature is accounted for in the Copilot Dashboard. The "web” toggle, however, is a feature of Copilot with enterprise data protection and use of this feature is not yet accounted for in the Copilot Dashboard.
+Copilot Chat (work) metrics are based on use of Copilot Chat (work), formerly called Business Chat, across all apps where the capability is available including Teams, Windows, Microsoft365.com, and more. Copilot Chat (work) metrics do *not* include usage of [Microsoft Copilot with enterprise data protection](/copilot/manage), which is made available to users with an eligible Microsoft 365 license and does not require a Copilot for Microsoft 365 license. In certain product environments such as Copilot in the Edge browser, users enabled for Copilot might see a "work/web" toggle. The work/web toggle is a feature of Copilot Chat usage and thus usage of this feature is accounted for in the Copilot Dashboard and Viva Insights. Usage, however, is only reported for Copilot licensed employees. Usage of the "free" version of Copilot Chat used by non-Microsoft 365 licensed employees is not accounted for.
 
 **Q2. Within the Copilot metrics tab of the comparison between groups table, why does the % difference not show what I'm expecting to see?**  
 
