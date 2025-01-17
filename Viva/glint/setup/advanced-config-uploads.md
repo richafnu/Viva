@@ -13,7 +13,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 01/06/2025
+ms.date: 01/16/2025
 ---
 
 # Use Advanced Configuration Uploads
@@ -39,7 +39,7 @@ When several users need customized data access to their Viva Glint Dashboards, u
 ### To upload custom access for multiple users:
 
 1. Prepare a file using the [custom data access export in User Roles](custom-access.md).
-1. Save your file in .csv format with a comma separator and UTF-8 encoding.
+1. Save your file in .csv format with a comma separator and UTF-8 or UTF-8 with BOM encoding.
 1. In the **Advanced Configuration** menu, select **Uploads**.
    1. **Upload Type:** Select **MANAGERS_UPLOAD** from the dropdown list.
    1. **Apply To:** For the survey and cycle dropdown menus, make no selection. These selections apply to retroactive uploads only and not to custom access uploads.
@@ -96,7 +96,7 @@ When a survey closes, employee attributes that display in reporting don't update
    1. Delete all user rows for employees whose data remains the same.
    1. Correct values for users and attributes that need to be updated.
       1. For example: To correct Department = ‘Sales’, ‘SALES’, ‘sales’, which create three values where there should be one in reporting, update all users to Department = ‘Sales’.
-   1. Save your edited file with corrected values in .csv format.
+   1. Save your edited file with corrected values in .csv format with UTF-8 or UTF-8 with BOM encoding.
 1. In the **Advanced Configuration** menu, select **Uploads**.
 1. In the **Choose job type** dropdown list, select **Retroactive User Updates**.
 1. In the **Survey** dropdown list, select your survey.

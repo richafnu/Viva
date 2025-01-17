@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 10/01/2024
+ms.date: 01/16/2025
 ---
 
 # Import historical response data in Viva Glint
@@ -79,20 +79,20 @@ After you complete setup:
 > Before importing users for the external import, select a placeholder Distribution List to complete program setup, such as Company Admin.
 
 > [!NOTE]
-> Exclusion lists and question targeting configured in your survey will not apply to an historical import.
+> Exclusion lists and question targeting configured in your survey will not apply to a historical import.
 
 ## 5. Prepare data files
 
 External imports of historical data require three data files, each with their own requirements. To see a sample of each file, select the file name in the following table.
 
 > [!IMPORTANT]
-> The Raw Score and Respondent User files must be in .csv format with a comma separator and UTF-8 encoding. **Don't encode files as UTF-8 with BOM**. Enclose values that contain commas with double quotation marks. For example: "Manager, Customer Experience."
+> The Raw Score and Respondent User files must be in .csv format with a comma separator and UTF-8 or UTF-8 with BOM encoding. Enclose values that contain commas with double quotation marks. For example: "Manager, Customer Experience."
 
 |File  |Description  |Email address label|Import to |Required format |
 |:----------|:-----------|:------------|:------------|:------------|
-|[User File](https://www.microsoft.com/download/details.aspx?id=105693)     |All employees from a historical, external source formatted to align with your Viva Glint attribute setup       |Match with your attribute setup        |Viva Glint People page        |<ul><li>.csv with UTF-8 encoding and a comma separator</li> **OR** <li>.xlsx </li></ul> |
-|[Raw Score File](https://www.microsoft.com/download/details.aspx?id=105692)|Respondent email address + question columns populated with numeric response values   |Must be: User e-mail|Advanced Configuration: External Import|.csv with UTF-8 encoding and a comma separator |
-|[Respondent User File](https://www.microsoft.com/download/details.aspx?id=105694)|Required fields for all respondents from historical, external source: email, first name, last name, ID, status   |Must be: Email Address|Advanced Configuration: External Import|.csv with UTF-8 encoding and a comma separator |
+|[User File](https://www.microsoft.com/download/details.aspx?id=105693)     |All employees from a historical, external source formatted to align with your Viva Glint attribute setup       |Match with your attribute setup        |Viva Glint People page        |<ul><li>.csv with UTF-8 or UTF-8 with BOM encoding and a comma separator</li> **OR** <li>.xlsx </li></ul> |
+|[Raw Score File](https://www.microsoft.com/download/details.aspx?id=105692)|Respondent email address + question columns populated with numeric response values   |Must be: User e-mail|Advanced Configuration: External Import|.csv with UTF-8 or UTF-8 with BOM encoding and a comma separator |
+|[Respondent User File](https://www.microsoft.com/download/details.aspx?id=105694)|Required fields for all respondents from historical, external source: email, first name, last name, ID, status   |Must be: Email Address|Advanced Configuration: External Import|.csv with UTF-8 or UTF-8 with BOM encoding and a comma separator |
 
 ### User File
 
@@ -220,7 +220,7 @@ If you encounter issues during your import, use this guidance at the following l
 
 - [Error: Duplicate entry](/viva/troubleshoot/glint/historical-import/import-error-duplicate-entry)
 - [Error: Exception date overlap](/viva/troubleshoot/glint/historical-import/import-error-exception-date-overlap)
-- [Error: Missing required field](/viva/troubleshoot/glint/historical-import/import-error-missing-required-field) 
+- [Error: Missing required field](/viva/troubleshoot/glint/historical-import/import-error-missing-required-field)
 - [Error: User is not in client](/viva/troubleshoot/glint/historical-import/import-error-user-is-not-in-client)
 
 ## 9. Confirm expected results in your dashboard
@@ -241,7 +241,7 @@ After your External Import processes successfully in Viva Glint, go to your Dash
 After your historical import is complete and results appear as expected, load your current employee data to Viva Glint to overwrite historical user information. Coordinate with other teams that regularly import employee data to Viva Glint to confirm when and how to load current user information. 
 
 > [!IMPORTANT]
-> If you disabled dervied attributes to import historical users and attributes, add Tenure Groups and Age Groups to your attribute setup again on the **Manage User Attributes** page by [reselecting and remapping attributes](update-attributes.md).
+> If you disabled derived attributes to import historical users and attributes, add Tenure Groups and Age Groups to your attribute setup again on the **Manage User Attributes** page by [reselecting and remapping attributes](update-attributes.md).
 
 Choose between two upload methods:
 
