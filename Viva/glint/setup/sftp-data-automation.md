@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 10/07/2024
+ms.date: 01/16/2025
 ---
 
 # Understand Viva Glint SFTP and data automation
@@ -88,6 +88,7 @@ If you have fewer than 10,000 employees, a daily feed of the full file should be
 Consistent file format and layout over time ensure successful file imports. Maintain the same attribute labels in your file’s header row and select one file format from Viva Glint’s options:
 
 - **.csv** with a comma separator and UTF-8 encoding. When values contain commas, enclose in double quotation marks.
+   - Viva Glint accepts UTF-8 and UTF-8 with BOM encoding.
 - **.xlsx** with a single tab and no password or formulas.
 
 ### Naming convention:

@@ -14,7 +14,7 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 12/10/2024
+ms.date: 01/16/2025
 ---
 
 # Use Viva Glint's People page to view employee information
@@ -114,7 +114,7 @@ Delete a user from Viva Glint. [Learn more](https://go.microsoft.com/fwlink/?lin
 
 ## Import your Employee Data File 
 
-Use the **Import** button on the People page to import a *.csv* (UTF-8 encoded) or an *xlsx* (single tab) file to update employee details.
+Use the **Import** button on the People page to import a *.csv* (UTF-8 or UTF-8 with BOM encoded) or an *xlsx* (single tab) file to update employee details.
 
 Follow the on-screen guidance for uploading the file and then select  **Import File**. [Learn more](https://go.microsoft.com/fwlink/?linkid=2230742).
 
