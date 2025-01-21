@@ -47,7 +47,7 @@ During a live 360 cycle, log into Viva Glint, select Feedback and then the 360 f
 [Get support](/viva/troubleshoot/glint/contact-support/get-support-viva-glint)
 
 ### How to I give product feedback?
-Viva Glint welcomes feedback. Submit your comments in the platform: [Submit product feedback/viva/troubleshoot/glint/contact-support/get-support-viva-glint?toc=%2Fviva%2Fglint%2Ftoc.json&bc=%2Fviva%2Fbreadcrumb%2Ftoc.json).
+Viva Glint welcomes feedback. Submit your comments in the platform: [Submit product feedback](/viva/glint/setup/glint-product-feedback).
 
 ### Can managers, HR Business Partners (HRBPs), and employees set up 360s?
 No. To better maintain governance over 360 programs, only admins have this level of access, but an employee can select their own feedback providers. HRBPs who are 360 admins can select feedback providers on leaders’ behalf.
