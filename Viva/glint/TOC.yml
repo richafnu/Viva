@@ -354,8 +354,6 @@ items:
                 href: setup/360-manage-subjects.md
               - name: Export and import 360 language translations
                 href: setup/360-export-import.md
-              - name: Export CSV reports for 360 subjects
-                href: setup/360-download-csv.md
           - name: Test and launch 360s
             href: setup/360-test-launch.md
           - name: Admin experience during a live 360 program
