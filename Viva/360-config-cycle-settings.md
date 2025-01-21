@@ -14,10 +14,10 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 8/23/2024
+ms.date: 1/21/2025
 ---
 
-# Configure 360 cycle settings (preview)
+# Configure 360 cycle settings 
 
 Although *Manage Subjects* appears first on the cycle page, we recommend setting up **Cycle Settings** first. There are five areas to set up. As you move through them, a filled blue circle confirms their completion.
 
@@ -30,7 +30,7 @@ There are three sections to configure:
 - Feedback provider category settings and confidentiality
 - Feedback provider response information
 
-Select **Save** when you are done configuring the page.
+Select **Save** when you're done configuring the page.
 
 ### The Basics
 :::image type="content" source="media/glint/setup/360-the-basics.png"alt-text="Screenshot of the first section to configure in Cycle Settings.":::
@@ -51,26 +51,26 @@ Select up to six feedback provider categories.
 |----------|:-------------:|:-------------:|-------------|
 |Self| 1|No|Required - All 360 subjects require a subject self assessment|
 |Manager|1|Yes|Prepopulates with the subject's direct manager|
-|Skip Manager|1|Yes|Prepopulates with the subject's direct manager|
+|Skip Manager|1|Yes|Prepopulates with the subject's direct manager's manager|
 |Direct reports|3*|Yes|Prepopulates with the subject's direct reports|
 |Peers|3*|Yes|Prepopulates with people who have the same direct manager as the subject|
 |Custom|1|N/A|Not commonly used, but could be used for a *dotted line manager* or *mentor* feedback|
 |Custom|3*|N/A|Commonly used for *Collaborators*|
 
 > [!IMPORTANT]
-> *At least three feedback providers must respond at the *survey level* to show feedback in a subject's report. Note that this requirement is not for *question* level.
+> *At least three feedback providers must respond at the *survey level* to show feedback in a subject's report. This requirement isn't applicable at the *question* level.
 
 ### Edit a feedback provider category
 
-**Hover over and choose a category** to open the Edit window for that category, which looks like this (for example):
+**Hover over and choose a category** to open the **Edit window** for that category, which looks like this example:
 
 :::image type="content" source="media/glint/setup/360-edit-provider-category.png"alt-text="Screenshot of an example of a window that opens to edit a feedback provider category.":::
 
 Edit each field as you’d like. When editing in another language that is available in the dropdown menu, that language saves so you can come back to it later if further edits are needed.
-Confidentiality Statements
 
->[!CAUTION]
->You can increase the confidentiality threshold for some feedback provider categories but you can’t decrease the threshold below default values.
+## Confidentiality Statements
+
+You can increase the confidentiality threshold for some feedback provider categories but you can’t decrease the threshold below default values.
 
 Dependent on the provider category, provider response information settings, and whether your organization included a privacy policy link in General Settings, the 360 confidentiality statement users see varies. [Learn more about Viva Glint 360 privacy and confidentiality](https://go.microsoft.com/fwlink/?linkid=2230922).
 
