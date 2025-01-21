@@ -44,7 +44,7 @@ During a live 360 cycle, log into Viva Glint, select Feedback and then the 360 f
 ## Admin FAQs
 
 ### How do I reach out for support?
-[Get support](https://learn.microsoft.com/viva/troubleshoot/glint/contact-support/get-support-viva-glint)
+[Get support](/viva/troubleshoot/glint/contact-support/get-support-viva-glint)
 
 ### How to I give product feedback?
 Viva Glint welcomes feedback. Submit your comments in the platform: [Submit product feedback/viva/troubleshoot/glint/contact-support/get-support-viva-glint?toc=%2Fviva%2Fglint%2Ftoc.json&bc=%2Fviva%2Fbreadcrumb%2Ftoc.json).
