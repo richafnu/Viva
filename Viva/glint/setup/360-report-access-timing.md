@@ -45,7 +45,7 @@ Managers and coaches can access a 360 Report two different ways:
 1. From the email they receive letting them know 360 feedback is ready.
 2. They can go to the 360 subject’s profile by searching for them by selecting the **magnifying glass symbol** from their dashboard. Select a name by typing it into the search box. Then select the **Feedback tab**. Finally, select the **View** button.
 
-:::image type="content" source="../../media/glint/setup/360-manager-coach-access.png"alt-text="Screenshot of how managers and coaches can find feedback for a 360 subject.":::
+    :::image type="content" source="../../media/glint/setup/360-manager-coach-access.png"alt-text="Screenshot of how managers and coaches can find feedback for a 360 subject.":::
 
 ### Subject access
 
