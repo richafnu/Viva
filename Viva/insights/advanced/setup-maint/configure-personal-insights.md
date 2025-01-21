@@ -91,13 +91,13 @@ Go to our [Teams admin tasks](teams-admin-setup.md) doc for more information abo
     3. Select **Insights Outlook add-in and inline suggestions** to keep all users in your organization opted _in_ for access to the add-in. Deselect it to opt _out_ users. If you opt out of the Viva Insights Outlook add-in, the Productivity inline suggestions are also turned _off_ for all users. Individuals can also turn [inline suggestions](https://support.microsoft.com/en-us/topic/inline-suggestions-in-outlook-064a323e-6dc7-40e9-ab1b-199de8d39db5) *on* or *off* through their own **Settings** within the Viva Insights add-in.  
     4. Select **Meeting effectiveness surveys** to keep all users in your organization opted _in_ for access to the surveys. Deselect it to opt _out_ users. If you opt out users, they won't see an option for meeting effectiveness surveys in their settings.
     
-      >[!Note]
-      >Meeting effectiveness surveys are only available in the classic Teams client, not the new Teams.
+       >[!Note]
+       >Meeting effectiveness surveys are only available in the classic Teams client, not the new Teams.
 
     5. Select **Schedule send suggestions** to keep all Viva Insights users in your organization opted in for access to schedule send suggestions, and then select **Save changes**. Deselect **Schedule send suggestions** to opt out users. These will be default settings for all users. Users can change them at any time from their Viva Insights Outlook add-in and Viva Insights app settings page. It may take up to 24 hours for all changes to take effect.
 
-      >[!Note]
-      >After a new tenant is established, it can take up to 48 hours for this functionality to become available.
+       >[!Note]
+       >After a new tenant is established, it can take up to 48 hours for this functionality to become available.
 
     :::image type="content" source="../../Images/MyA/setup/insights-settings-pane1.png" alt-text="Screenshot that shows the Microsoft Viva Insights (formerly MyAnalytics) settings pane with all selections enabled.":::
 
