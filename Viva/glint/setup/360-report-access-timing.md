@@ -34,7 +34,7 @@ If access is turned to **ON**, a dropdown menu lets you choose report access tim
 >[!NOTE]
 > Changes can be made during a live cycle, but changes only apply to reports not yet released.
 
-## Report access for a 360 subject
+## Report access for a 360 program
 
 Know how 360 feedback participants can review feedback.
 
