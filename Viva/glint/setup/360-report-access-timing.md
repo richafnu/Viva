@@ -49,7 +49,7 @@ Managers and coaches can access a 360 Report two different ways:
 
 ### Subject access
 
-[360 feedback subjects can view their report and reflect on feedback by following this guidance](/../../viva/glint/setup/360-subject-experience#access-your-360-report.
+[360 feedback subjects can view their report and reflect on feedback by using this guidance](/../../viva/glint/setup/360-subject-experience#access-your-360-report).
 
 ## Global Reporting Guidance
 
