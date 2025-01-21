@@ -51,7 +51,7 @@ Defaults you can set are:
 * All of Viva Insights (user-level only)
 * The Viva Insights web experience
 * Viva digest emails
-* Meeting effectiveness surveys
+* Meeting effectiveness surveys (classic Teams client only)
 * The Viva Insights Outlook add-in
 * Schedule send suggestions in Outlook
     >[!Important]
