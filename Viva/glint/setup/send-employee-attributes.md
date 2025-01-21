@@ -22,11 +22,11 @@ ms.date: 1/21/2025
 Set up attributes in Microsoft Viva Glint to create a mapping of fields to expect in your employee data files transmitted to Glint. Use the decisions made in the [Employee Attribute Template](create-employee-attribute-template.md) as a guide to set up required, custom, hierarchy, and derived attributes.
 
 > [!TIP]
-> Ensure that attribute labels stay consistent over time in your Employee Data File. For example, if an attribute is set up as "Employee ID," it's not recognized as the same column if renamed "Employee Number".
+> Ensure that attribute labels stay consistent over time in your Employee Data File. For example, an attribute set up as "Employee ID," isn't recognized as the same column if renamed "Employee Number."
 
 ## Attribute setup in Viva Glint
 
-To set up your attributes in Viva Glint, your uploaded file must contain a finalized attribute header row and at least one row of employee data. Use the in-platform, four-step attribute setup process to prepare the system to import employee data.
+To set up your attributes Glint, your uploaded file must contain a finalized attribute header row and at least one row of employee data. Use the in-platform, four-step attribute setup process to prepare the system to import employee data.
 
 > [!IMPORTANT]
 > Reporting hierarchies, file format, and date attribute formats can't be edited after initial setup is complete. Before beginning, confirm that the attribute selections in your Employee Attribute Template are **final**.
@@ -38,7 +38,7 @@ To set up your attributes in Viva Glint, your uploaded file must contain a final
    :::image type="content" source="../../media/glint/setup/import-choice.png" alt-text="Screenshot of the import option selection screen, including the New User Schema or Attribute Updates option.":::
 
 > [!CAUTION]
-> The Viva Glint Admin that sets up or changes attributes needs to save changes in the **default language for your organization**. Confirm that the default language (often English) is selected in the Language dropdown menu in Glint. Setting up or editing attributes in a different language resets the expected language for Viva Glint data ingestion and causes upload errors.
+> The Glint Admin who sets up or changes attributes needs to save changes in the **default language for your organization**. Confirm that the default language (often English) is selected in the **Language** dropdown menu in Glint. Setting up or editing attributes in a different language resets the expected language for Glint data ingestion and causes upload errors.
 
 Learn more about how to set up attributes in Viva Glint:  
 
@@ -99,7 +99,7 @@ Viva Glint calculates attributes based on data sent in your employee attribute f
 > Don’t include derived attributes in your employee data file, Viva Glint creates these fields.
 
 1. Select the section with the desired attribute.
-2. Select the desired attribute from the dropdown menu for each derived attribute.
+2. Select the desired attribute from the dropdown menu.
 3. Select **Continue**.
 
 :::image type="content" source="../../media/glint/setup/setup-step3-derived.png" alt-text="Screenshot of step 3 to map derived attributes.":::
@@ -118,7 +118,8 @@ Map attributes in your employee data to Viva Glint language, time zone, and pers
 :::image type="content" source="../../media/glint/setup/setup-step3-optional.png" alt-text="Screenshot of step 3 to map optional system attributes.":::
 
 > [!IMPORTANT]
-> Send language and time zone values exactly as they appear in related tabs in the [Employee Attribute Template](https://www.microsoft.com/en-us/download/details.aspx?id=105533). Users with blank or invalid values receive and access surveys/emails/dashboards in your organization's default selection in General Settings. [Highlighted language codes in the Employee Attribute Template show the changes effective April 10, 2025](/../../viva/glint/setup/send-employee-attributes#optional-system-attributes).
+> Send language and time zone values exactly as they appear in related tabs in the [Employee Attribute Template](https://www.microsoft.com/en-us/download/details.aspx?id=105533). Users with blank or invalid values receive and access surveys/emails/dashboards in your organization's default selection in General Settings. Highlighted language codes in the Employee Attribute Template show the changes effective April 10, 2025.
+
 > [!NOTE]
 > Optional system attributes aren't included in raw response data exported from Viva Glint survey programs.
 
@@ -135,7 +136,7 @@ Select your attributes from the dropdown menu for each hierarchy group.
 
 ## 4. Review
 
-Review a summary of all selections made in attribute setup and use the **Go Back** option to make any corrections before moving forward. The review step includes the following sections:
+Review a summary of all selections made in attribute setup and use the **Go Back** option to make any corrections before moving forward. The review step includes:
 
 - Summary
 - User Attributes
@@ -148,11 +149,11 @@ Review a summary of all selections made in attribute setup and use the **Go Back
 :::image type="content" source="../../media/glint/setup/setup-step4-review.png" alt-text="Screenshot of step 4 to review uploaded attribute mapping.":::
 
 > [!NOTE]
-> Viva Glint allows for up to 100 User Attributes. Required, optional system, and hierarchy attributes don't count toward this limit.
+> Glint allows for up to 100 User Attributes. Required, optional system, and hierarchy attributes don't count toward this limit.
 
 ## 5. Choose how you want to import data
 
-1. Choose between the following two options:
+1. Choose between these two options:
 
    :::image type="content" source="../../media/glint/setup/setup-step5-choose-import.png" alt-text="Screenshot of step 5 to confirm attribute and data import options.":::
 
@@ -164,7 +165,7 @@ Review a summary of all selections made in attribute setup and use the **Go Back
    - Option 2 - Save attributes and discard employee data – Recommended to set up attributes based on your header row and then import finalized employee data later.
 
       > [!TIP]
-      > Viva Glint recommends the **Save attributes and discard employee data** option for initial setup. This allows you to set up and map your attributes in the system and complete your first data import as a separate task.
+      > Glint recommends the **Save attributes and discard employee data** option for initial setup. This allows you to set up and map your attributes in the system and complete your first data import as a separate task.
 
 2. Select **Save**.
 
