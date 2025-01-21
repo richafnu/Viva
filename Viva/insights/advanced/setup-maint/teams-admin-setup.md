@@ -55,6 +55,9 @@ Users can follow these steps to [Discover and pin the Viva Insights app](https:/
 
 ## Configure meeting effectiveness surveys
 
+>[!Note]
+>Meeting effectiveness surveys are only available in the classic Teams client, not the new Teams.
+
 As the admin, you can configure the meeting effectiveness surveys for your organization at the [user](#user-level-configuration) or [tenant level](#tenant-level-configuration). You can enable or disable the survey for a specific user or multiple users with PowerShell, or you can set the default state for all users in your tenant as opted in or opted out in the Microsoft 365 admin center.
 
 #### Prerequisites
