@@ -49,7 +49,7 @@ Return to the **User Roles** section on your admin dashboard.
 
     :::image type="content" source="../../media/glint/setup/360-add-member.png" lightbox="../../media/glint/setup/360-add-member.png" alt-text="Screenshot of the Choose a way to add employees window in User Roles":::
 
- Now you see your unique 360 User Role in **All Members**.
+    Now you see your unique 360 User Role in **All Members**.
 
     :::image type="content" source="../../media/glint/setup/360-all-members.png" alt-text="Screenshot of All Members within Role Settings of a Glint survey cycle.":::
 
