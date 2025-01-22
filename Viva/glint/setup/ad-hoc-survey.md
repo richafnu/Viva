@@ -1,6 +1,6 @@
 ---
 title: Use and set up a Viva Glint Ad Hoc survey
-description: Use a Viva Glint Ad Hoc survey to measure something out of the ordinary, like a significant announcement, a new program, or a societal or global event. Deliver an unscheduled survey at a priviotal time when employees need support mechanisms in place and their feedback is essential.
+description: Use a Viva Glint Ad Hoc survey to measure something out of the ordinary, like a significant announcement, a new program, or a societal or global event. Deliver an unscheduled survey at a pivotal time when employees need support mechanisms in place and their feedback is essential.
 ms.author: JudithWeiner
 author: JudyWeiner
 manager: MelissaBarry
