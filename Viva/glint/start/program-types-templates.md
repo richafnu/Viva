@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 11/20/2024
+ms.date: 1/22/2025
 ---
 
 # Viva Glint programs and survey types 
@@ -54,7 +54,7 @@ Use Glint programs to create feedback habits and support continuous employee and
 |Recurring engagement or special topic|Surveys should be *recurring* so that data can be compared from between cycles and *trend* can be established. Recurring surveys are set to go live at a scheduled cadence. Special topic templates include culture, manager effectiveness, and more.|
 |Employee Lifecycle|Measure the employee experience during key moment in the employee journey. These surveys are considered trigger events because they use the hire or end date to automatically send.|
 |Ad hoc|Measure something out of the ordinary at an impactful time.
-|Always-On feedback|Provide feedback and suggestions anytime it feels relevant. 
+|[Always-On feedback](/viva/glint/setup/always-on-surveys)|Provide feedback and suggestions anytime it feels relevant. 
 
 ### Survey frequency 
 
