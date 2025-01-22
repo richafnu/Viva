@@ -47,7 +47,7 @@ Integrations between Viva Goals and other tools (for example, Teams, Azure DevOp
 
 ## Will there be continued support for Viva Goals up to the deprecation date?
 
-Yes, Microsoft will continue to maintain Viva Goals’ availability, accessibility, and security and provide product support until December 31, 2025. This support includes maintenance, troubleshooting, and user assistance to ensure a smooth transition period for all customers.
+Yes, Microsoft will continue to maintain Viva Goals’ availability, accessibility, and security and provide product support for issues specifically related to accessibility and security until December 31, 2025. This support includes maintenance, troubleshooting, and user assistance to ensure a smooth transition period for all customers.
 
 ## Will I be able to request an extension beyond the retirement date?
 
