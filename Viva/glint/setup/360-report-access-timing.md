@@ -14,7 +14,7 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 1/21/2025
+ms.date: 1/22/2025
 ---
 
 # 360 feedback report access 
@@ -63,5 +63,4 @@ Glint offers standard program and report guidance templates.
 2.	Key in **360** in the search bar to access the standard templates. 
 
 >[!TIP]
-> We recommend using **360 _Report Guidance** for the Global Reporting Guidance. Preview survey guidance when you preview the survey. Review and edit the guidance from within **Content Resources**. 
-
+> We recommend using **360 _Report Guidance** for the Global Reporting Guidance. 
