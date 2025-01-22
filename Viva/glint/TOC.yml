@@ -323,7 +323,7 @@ items:
             items:
               - name: 360 General settings
                 href: setup/360-general-settings.md
-              - name: 360 User Roles and Permissions
+              - name: Create a unique 360 admin User Role
                 href: setup/360-roles-permissions.md
               - name: 360 program design and templates
                 href: setup/360-design-templates.md
@@ -336,7 +336,7 @@ items:
                     href: ../360-config-cycle-settings.md
                   - name: 360 feedback items
                     items:
-                       - name: Core itemss
+                       - name: Core items
                          href: setup/360-core-questions.md
                        - name: Adding and editing program items
                          href: setup/360-add-edit-cycle-questions.md
@@ -368,6 +368,8 @@ items:
             href: setup/360-faqs.md
       - name: Always-On Feedback surveys
         href: setup/always-on-surveys.md
+      - name: Ad Hoc surveys
+        href: setup/ad-hoc-survey.md
       - name: Set up Team Conversations
         href: reports/team-conversations-administrator-setup.md
         items:
