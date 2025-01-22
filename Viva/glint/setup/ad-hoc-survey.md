@@ -21,7 +21,7 @@ ms.date: 1/22/2025
 
 Use a Viva Glint Ad Hoc survey to measure something out of the ordinary, like a significant announcement, or a new program. Change-management, uncertainty, and other unexpected factors bring a feeling of unsettlement and the unknown. An Ad Hoc survey is useful when societal or global events introduce instability and disruption to the natural patterns in our work and personal lives. COVID-19 is an example of this type of event. It introduced a personal impact on our core human needs for safety and security. Without leaders addressing fundamental concerns, organizations can't run business as usual.
 
-People need reassurance that their leaders are prioritizing their safety and wellbeing. During uncertain times, employees have a heightened urgency to receive timely and fact-based communications about what’s happening, why, and its impact on them. They need the opportunity to express fears and concerns and feel a sense of control over their circumstances. During these times, use a Viva Glint Ad Hoc survey. 
+People need reassurance that their leaders are prioritizing their safety and wellbeing. During uncertain times, employees have a heightened urgency to receive timely and fact-based communications about what's happening, why, and its impact on them. They need the opportunity to express fears and concerns and feel a sense of control over their circumstances. During these times, use a Viva Glint Ad Hoc survey. 
 
 ## Cadence for Ad Hoc surveys
 
@@ -37,15 +37,15 @@ People need these assurances at work:
 
 ## Admin setup for an Ad Hoc survey
 
-1. From the admin dashboard, select **Configuration.**
-2. In the **Surveys** section, select **Survey Programs.**
-3. Select **+ New Program.**
-4. Select the **blank Ad Hoc template card.**
-5. Select **Create Program.**
+1. From the admin dashboard, select **Configuration**.
+2. In the **Surveys** section, select **Survey Programs**.
+3. Select **+ New Program**.
+4. Select the **blank Ad Hoc template card**.
+5. Select **Create Program**.
 
    :::image type="content" source="../../media/glint/setup/ad-hoc-survey-card.png" alt-text="Screenshot of the Ad Hoc recurring survey template card.":::
 
-6. Title your survey by using the **pencil symbol** to replace *Untitled Ad Hoc.8
+6. Title your survey by using the **pencil symbol** to replace *Untitled Ad Hoc*.
 7. Follow the steps to set up the seven pages within [**Program Summary**](/viva/glint/setup/program-summary-overview).
 
    :::image type="content" source="../../media/glint/setup/ad-hoc-program-summary.png" alt-text="Screenshot of the Ad Hoc Program Summary page.":::
