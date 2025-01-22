@@ -1,5 +1,5 @@
 ---
-title: 360 admin User Roles and Permissions 
+title: Create a unique Viva Glint 360 admin User Role
 description: Admins in Viva Glint have access to create and edit all Glint programs. You may, however, choose to set up an additional user role to *only* have access to edit 360 programs. 
 ms.author: JudithWeiner
 author: JudyWeiner
@@ -17,11 +17,11 @@ ms.localizationpriority: high
 ms.date: 1/22/2025
 ---
 
-# 360 admin User Roles and Permissions 
+# Create a unique Viva Glint 360 admin User Role
 
 By default, Viva Glint administrators have access to create and edit all Glint programs, including 360s. You may, however, choose to create a unique User Role to have exclusive 360 admin permissions. 
 
-## Create a unique 360 admin User Role
+## Procedure to create a unique 360 admin
 
 From the Glint admin dashboard, select the **Configuration** symbol and then **User Roles** in the **Employees** section. 
 
