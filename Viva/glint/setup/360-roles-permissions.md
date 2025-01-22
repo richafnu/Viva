@@ -40,7 +40,7 @@ From the Glint admin dashboard, select the **Configuration** symbol and then **U
 Return to the **User Roles** section on your admin dashboard.
 
 1. Search for the unique employee to hold the 360 admin User Role title.
-2. Select the **pencil symbol** in the **User Roles** section to open the **Customize User Role** window. You see the 360 cycle you created. Select that cycle name and **Save.**
+2. Select the **pencil symbol** in the **User Roles** section to open the **Customize User Role** window. You see the 360 cycle you created. Select that cycle name and **Save**.
 
    :::image type="content" source="../../media/glint/setup/360-user-role.png" lightbox="../../media/glint/setup/360-user-role.png" alt-text="Screenshot of the Customize User Role window.":::
 
@@ -49,9 +49,9 @@ Return to the **User Roles** section on your admin dashboard.
 
     :::image type="content" source="../../media/glint/setup/360-add-member.png" lightbox="../../media/glint/setup/360-add-member.png" alt-text="Screenshot of the Choose a way to add employees window in User Roles":::
 
- Now you see your unique 360 User Role in **All Members.**
+ Now you see your unique 360 User Role in **All Members**.
 
- :::image type="content" source="../../media/glint/setup/360-all-members.png" alt-text="Screenshot of All Members within Role Settings of a Glint survey cycle.":::
+    :::image type="content" source="../../media/glint/setup/360-all-members.png" alt-text="Screenshot of All Members within Role Settings of a Glint survey cycle.":::
 
 > [!IMPORTANT]
 > You can have more than one Glint 360 admin, but limit your total number of 360 admins to just a few.
