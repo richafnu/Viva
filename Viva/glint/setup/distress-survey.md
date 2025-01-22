@@ -31,11 +31,11 @@ People always need these things at work:
 
 **During times of distress, they need more.** 
 
-People need reassurance that their leaders are prioritizing their safety and wellbeing. Employees have a heightened urgency to receive timely, fact-based, and candid communications about what’s happening, why, and the impact on them. They need the opportunity to express fears and concerns and feel a sense of control over their circumstances. 
-
-Change-management, uncertainty, and many other unexpected and overarching factors bring a feeling of unsettlement and the unknown. Consider adding Viva People Science suggested Distress Survey items to a scheduled engagement survey or creating an ad hoc distress survey to learn how your people are feeling and what they need.
+People need reassurance that their leaders are prioritizing their safety and wellbeing. During times of uncertainty, employees have a heightened urgency to receive timely, fact-based communications about what’s happening, why, and the impact on them. They need the opportunity to express fears and concerns and feel a sense of control over their circumstances. 
 
 ## Instances where a distress survey benefits your org
+
+Change-management, uncertainty, and other unexpected factors bring a feeling of unsettlement and the unknown. Consider adding the Viva People Science templated Distress Survey to a scheduled engagement survey or creating an Ad Hoc Distress Survey to learn how your people are feeling and what they need.
 
 - Major political, social, hostile, or economic events 
 - Sudden catastrophic (local or global) natural disaster events
