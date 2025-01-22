@@ -51,8 +51,8 @@ Use Glint programs to create feedback habits and support continuous employee and
 
 |Survey type|Description|
 |---------|---------|
-|Recurring engagement or special topic|Surveys should be *recurring* so that data can be compared from between cycles and *trend* can be established. Recurring surveys are set to go live at a scheduled cadence. Special topic templates include culture, manager effectiveness, and more.|
-|Employee Lifecycle|Measure the employee experience during key moment in the employee journey. These surveys are considered trigger events because they use the hire or end date to automatically send.|
+|[Recurring engagement or special topic](/viva/glint/setup/template-research)|Surveys should be *recurring* so that data can be compared from between cycles and *trend* can be established. Recurring surveys are set to go live at a scheduled cadence. Special topic templates include culture, manager effectiveness, and more.|
+|[Employee Lifecycle](/viva/glint/setup/program-summary-setup-lifecycle)|Measure the employee experience during key moment in the employee journey. These surveys are considered trigger events because they use the hire or end date to automatically send.|
 |Ad hoc|Measure something out of the ordinary at an impactful time.
 |[Always-On feedback](/viva/glint/setup/always-on-surveys)|Provide feedback and suggestions anytime it feels relevant. 
 
