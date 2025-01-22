@@ -53,7 +53,7 @@ To maximize the reporting experience, map all ratings items to at least one comp
 1.	Go to the unwanted competency and remove its mapping to your item.
 1.	Return to the other competency to map the item.
 
-### Customize a competency and map it to a item
+### Customize a competency and map it to an item
 
 :::image type="content" source="../../media/glint/setup/360-competencies-add.png"alt-text="Screenshot how to access Competencies & Reporting in Cycle Settings.":::
 
