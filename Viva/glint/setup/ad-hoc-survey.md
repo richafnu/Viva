@@ -25,9 +25,9 @@ People need reassurance that their leaders are prioritizing their safety and wel
 
 ## Cadence for Ad Hoc surveys
 
-Ad Hoc surveys are unplanned. They aren't part of your original Viva Glint survey program design. Deliver an unscheduled -Ad Hoc- survey at a piviotal time when employees need support mechanisms in place and their feedback is essential.
+Ad Hoc surveys are unplanned. They aren't part of your original Viva Glint survey program design. Deliver an unscheduled -Ad Hoc- survey at a pivotal time when employees need support mechanisms in place and their feedback is essential.
 
-## What people need at work to remain happy and successful
+## What people need at work to remain happy and successful 
 
 People need these assurances at work:
 - To feel valued and confident about the future of their organization, and their place in it.
