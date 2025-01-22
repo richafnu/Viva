@@ -42,7 +42,7 @@ The Explorer default views provide a strategic glimpse into your organization's 
 Viva Goals lets you create custom views and save the filters you use often.
 
 1. To get started, select **Explorer** from the side navigation bar and then select **Create a new view**.
-![Screenshot of the screen to create a new view](../media/goals/explorer-new-view.png)
+![Screenshot of the screen to create a new view.](../media/goals/explorer-new-view.png)
 
 2. Select **add filter** to customize the view.
 
@@ -84,7 +84,7 @@ You should now be able to find the saved view in Explorer. If you made it availa
 
 If you want to export the view, go to **Export Options** in the upper-right corner. You can choose to export to Excel or PowerPoint.
 
-![Screenshot of the Export Options dropdown](../media/goals/explorer-export.png)
+![Screenshot of the Export Options dropdown.](../media/goals/explorer-export.png)
 
 ### Export to Excel
 
