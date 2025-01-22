@@ -176,9 +176,9 @@ Apply **Audience targeting** so this card is filtered to specific roles, regions
 
 > [!NOTE]
 >
-> For customers with at least one F license:  
+> Viva Connections is part of the [tailored apps experience](/microsoft-365/frontline/pin-teams-apps-based-on-license). Frontline users who see the tailored app experience have Viva Connections pinned in the first position in the Teams app bar on both mobile and desktop.
 >
-> The Viva Connections app is automatically pinned in the Teams app bar. If you don’t want the app pre-pinned, either [turn off tailored apps for frontline workers](/microsoft-365/frontline/pin-teams-apps-based-on-license), change the [app settings](/microsoftteams/teams-custom-app-policies-and-settings), or [edit how apps in Teams are managed](/microsoftteams/manage-apps).
+> If you don’t want the app pre-pinned, either [turn off tailored apps for frontline workers](/microsoft-365/frontline/pin-teams-apps-based-on-license), change the [app settings](/microsoftteams/teams-custom-app-policies-and-settings), or [edit how apps in Teams are managed](/microsoftteams/manage-apps).
 
 Your organization’s Viva Connections app can display a custom icon and label in the Teams app bar. This customization takes place in the Teams admin center, which requires Teams admin permissions or higher. It's recommended that you also apply app settings that [prepin and preinstall the app](/microsoftteams/teams-app-setup-policies). Doing so makes sure people in your organization can more easily discover the Viva Connections app and start using it. Learn more about [customizing the Viva Connections icon, label, and app settings](add-viva-connections-app.md).
 
