@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 01/16/2025
+ms.date: 01/21/2025
 ---
 
 # Review employee data with Viva Glint checklists
@@ -61,8 +61,11 @@ Confirm that your employee data file, attributes, and attribute values align wit
 |Manager ID  | All users **except the CEO** have a Manager ID value populated.      |
 |Manager ID  | Users don't report to their own employee ID or create reporting loops with other users.     |
 |Time zone  | Time zone values are populated correctly for all users. See the [Employee Attribute Template](https://www.microsoft.com/download/details.aspx?id=105533) for correct time zone values.     |
-|Language codes | Survey and/or dashboard language values are populated correctly for all users. See the [Employee Attribute Template](https://www.microsoft.com/download/details.aspx?id=105533) for correct language values.      |
+|Language codes* | Survey and/or dashboard language values are populated correctly for all users. See the [Employee Attribute Template](https://www.microsoft.com/download/details.aspx?id=105533) for correct language values.      |
 |Consistency | Values have a consistent spelling and naming convention. For example, department value of 'Sales,' 'SALES,' and 'sales' all appear as different values in reporting.      |
+
+> [!IMPORTANT]
+> *See the Language Codes tab of the [Employee Attribute Template](https://www.microsoft.com/en-us/download/details.aspx?id=105533) for changes to supported languages and codes effective April 10, 2025.
 
 ## Next step
 After confirming that your data follows Viva Glint requirements and best practices with checklists, set up attributes in Viva Glint to create a mapping of your employee attributes.
