@@ -537,7 +537,7 @@ If your organization already has a SharePoint home site and you want to keep it 
 > [!NOTE]
 >
 > - It may take up to 15 minutes to see the updated default landing experience.
-> - If you change the SharePoint home site to a different SharePoint home site, it may take up to a week for users in Viva Connections to be directed to the new site. However, users can logout and log back in to clear the cache to view the new SharePoint home site sooner.
+> - If you change the SharePoint home site to a different SharePoint home site, it may take up to a week for users in Viva Connections to be directed to the new site. However, users can log out and log back in to clear the cache to view the new SharePoint home site sooner.
 
 ## Make the experience available to the end user
 
