@@ -20,7 +20,7 @@ description: Migrate one or more secondary networks into a primary Viva Engage E
 
 # Network migration - Consolidate multiple Viva Engage networks
 
-If you have multiple email domains in your Microsoft 365 tenant, and those email domains support *two or more Viva Engage networks*, you must consolidate your Viva Engage networks into one. For example, if your company has multiple business units or subsidiaries, each with its own Viva Engage network on the same tenant, those networks must be consolidated.
+If you have multiple email domains in your Microsoft 365 tenant, *and those email domains support two or more Viva Engage networks*, you must consolidate your Viva Engage networks into a single one. For example, if your company has multiple business units or subsidiaries, each with its own Viva Engage network on the same tenant, you must consolidate those networks.
   
 > [!NOTE] 
 > Read this article if you manage multiple Viva Engage networks.
@@ -33,7 +33,7 @@ Here are the basic steps:
 |:-----|:-----|
 |[Step 1: Plan the network migration ](consolidate-multiple-networks.md#Plan) <br/> | Identify the Viva Engage networks to consolidate, identify data to export and upload, plan any needed changes to community structure and membership in the primary network, and plan communication with your users.|
 |[Step 2: Export content from primary networks](consolidate-multiple-networks.md#Export) | IMPORTANT: Migration only migrates users, not content. <br/>To access any content later, export all content from secondary Viva Engage networks. The secondary network isn't accessible after the migration starts. |
-|[Step 3: Communicate with all users before the migration](consolidate-multiple-networks.md#Precommunicate) | Use the sample communication provided here to inform everyone on the secondary networks of the change, timing, what information is preserved, and the community structure in the primary network. Recommend that users save information they want to keep before the migration start date, such as files and data in conversations. Let primary network users know that more people are joining. |
+|[Step 3: Communicate with all users before the migration](consolidate-multiple-networks.md#Precommunicate) | Use the sample communication provided in this section to inform everyone on the secondary networks of the change, timing, what information is preserved, and the community structure in the primary network. Recommend that users save information they want to keep before the migration start date, such as files and data in conversations. Let primary network users know that more people are joining. |
 |[Step 4: Perform the network migration](consolidate-multiple-networks.md#self-service) | Run the network migration tool once for each secondary network. The tool migrates all users from the secondary Viva Engage network into the primary Viva Engage network, and turns off the secondary network. It doesn't migrate any conversations or files. |
 |[Step 5: Make primary network changes](consolidate-multiple-networks.md#parentchanges) | Adjust the structure of your primary Viva Engage network so it meets the needs of incoming users. Create communities, invite members to the communities, and upload files that you exported. |
 |[Step 6: Communicate with all users after the migration](consolidate-multiple-networks.md#aftercommunicate) | Send a notification to all users that the consolidated Viva Engage network is ready to use. |
