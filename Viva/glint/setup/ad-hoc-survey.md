@@ -45,7 +45,7 @@ People need these assurances at work:
 
    :::image type="content" source="../../media/glint/setup/ad-hoc-survey-card.png" alt-text="Screenshot of the Ad Hoc recurring survey template card.":::
 
-6. Title your survey by using the **pencil symbol** to replace *Untitled Ad Hoc*.
+6. Title your survey by using the **pencil symbol** to replace *Untitled Ad-Hoc*.
 7. Follow the steps to set up the seven pages within [**Program Summary**](/viva/glint/setup/program-summary-overview).
 
    :::image type="content" source="../../media/glint/setup/ad-hoc-program-summary.png" alt-text="Screenshot of the Ad Hoc Program Summary page.":::
