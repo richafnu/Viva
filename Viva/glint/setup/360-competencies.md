@@ -14,29 +14,31 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 8/23/2024
+ms.date: 1/22/2025
 ---
 
 # Viva Glint 360 competencies and reporting 
 
-This section covers program competencies, survey guidance, report access and timing, and global reporting guidance. 
+This section covers program competencies, survey guidance, report access and timing, and global reporting. 
+
+>[!IMPORTANT]
+>The term "item" refers to any question or statement used in a survey.
 
 ## Competencies
 
 Competencies are a set of verifiable characteristics and skills that enable and improve the efficiency of performing work. 
 
-- A Glint 360 cycle can include a maximum of 150 competencies. 
-- The typical number is in the range 3-10. 
-- Except for the Competency Name and Description, competencies can't be added or deleted once a cycle is live. 
-- Competencies map only to ratings questions. 
-- The Glint Manager 360 template includes 13 competencies mapped to template rating questions. 
-- To go live, a cycle must have at least one competency-question mapping. Each competency must map to at least one question.
+- A Glint 360 cycle can include a maximum of 150 competencies. The typical number of competencies is in the range 3-10.
+- Competencies can't be added or deleted once a cycle is live. *Competency Name and Description are exclusions to this rule.*
+- Only rating type items can be mapped to competencies. 
+- The **Glint Manager 360 Program** template includes 13 competencies mapped to template rating items. 
+- A cycle must have at least one competency-item mapped to it in order to move to Live status.
 
 ## Develop a competency model
 
-Develop a competency model which is relevant to the success criteria for your organization. Follow these recommended steps:
+Develop a competency model which is relevant to the success criteria for your organization.
 
-- Collect information on what is considered success behaviors.
+- Collect information on what are considered success behaviors.
 - Draft critical behavioral statements.
 - Validate the competency model by comparing 360 results to desired business outcomes. 
 
@@ -44,41 +46,41 @@ Repeat this process for each major demographic.
 
 ## Question mapping
 
-To maximize the reporting experience, map all ratings questions to at least one competency. Although a competency can map to more than one rating question, a rating question can map to only one competency. 
+To maximize the reporting experience, map all ratings items to at least one competency. Although a competency can map to more than one rating item, a rating item can map to only one competency. 
 
-Procedure to map a competency to a question that is already mapped to another competency:
+**Procedure to map a competency to an item that is already mapped to another competency:**
 
-1.	Go to the other competency and remove its mapping to that question
-1.	Return to the other competency to map the question.
+1.	Go to the unwanted competency and remove its mapping to your item.
+1.	Return to the other competency to map the item.
 
-### Customizing a competency and mapping it to a question
+### Customize a competency and map it to a item
 
-:::image type="content" source="../../media/glint/setup/360-competencies-reporting.png"alt-text="Screenshot how to access Competencies & Reporting in Cycle Settings.":::
+:::image type="content" source="../../media/glint/setup/360-competencies-add.png"alt-text="Screenshot how to access Competencies & Reporting in Cycle Settings.":::
 
-Repeat this procedure until you have mapped all competencies to at least one question:
+Repeat this procedure until all competencies are mapped to at least one item:
 
-1.	In Cycle Settings, select **Competencies & Reporting**. The *Competencies & Reporting* page opens.  The Competencies section shows the number of questions mapped to each competency.
+1.	In **Cycle Settings**, select **Competencies & Reporting**. The **Competencies & Reporting** page opens.  The Competencies section shows the number of items mapped to each competency.
 2.	Select the competency to be customized or mapped.
-3.	Assign values to the Competency Name and Competency Description fields. This text is used in reports.
-4.	Select at least one question to map to the competency. To search for a question, begin entering the question label in the *Search Question* field. 
+3.	Assign values to the **Competency Name** and **Competency Description** fields. This text is used in reports.
+4.	Select at least one item to map to the competency. To search for a item, begin entering the item label in the **Search Question** field. 
 5.	Select **Save Changes.**
 
-### Adding a competency
+## Add a competency
 
 To add a competency to a cycle:
 
-1.	In Cycle Settings, select **Competencies & Reporting**. 
-2.	In Competencies, select **Competency**. The *Add Competency* window opens.
+1.	In **Cycle Settings**, select **Competencies & Reporting**. 
+2.	In **Competencies**, select **Competency**. The **Add Competency** panel opens.
 3.	Assign values to the Competency Name and Competency Description fields.
-4.	Select at least one question to map to the competency. 
+4.	Select at least one item to map to the competency. 
 5.	Select **Save Changes.**
 
-### Removing a competency
+## Remove a competency
 
 To remove a competency from a cycle:
 
-1.	In *Cycle Settings*, select **Competencies & Reporting**.
-2.	Go to **Competencies**. 
+1.	In **Cycle Settings**, select **Competencies & Reporting**.
+2.	Navigate to **Competencies**. 
 3.	Hover over the competency to be removed. 
 4.	Select the **trash can symbol** next to the competency. 
 5.	Select **Delete** in the confirmation dialog box.
@@ -87,13 +89,12 @@ To remove a competency from a cycle:
 
 Glint offers standard program and report guidance templates. 
 
-1.	Toggle Survey Guidance to **ON** to reveal the *Select a content resource* dropdown menu. 
-1.	**Key in 360 in the search bar** to access the standard templates. 
+1.	Toggle **Survey Guidance** to **ON** to open the **Select a content resource** dropdown menu. 
+1.	Key in **360** in the search bar to access Glint standard templates. We recommend using **360 _Survey_Guidance** for the Survey Guidance.
 
     :::image type="content" source="../../media/glint/setup/360-survey-guidance.png" alt-text="Screenshot of the dropdown menu to select guidance in Cycle Settings.":::
 
->[!TIP]
-> We recommend using **360 _Survey_Guidance** for the Survey Guidance. Review and edit the guidance from within *Content Resources*. 
+1. Review and edit the guidance from within **Content Resources**. 
 
 
 
