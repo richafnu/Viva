@@ -19,7 +19,7 @@ ms.date: 01/22/2025
 
 # Suggested content for a Viva Glint Distress survey
 
-When societal or global events introduce instability and disruption to our natural patterns in work and personal lives, it causes distress. COVID-19 is an example of this kind of event. It introduced a personal impact on our core human needs for safety and security. Without addressing fundamental concerns, organizations can't run business as usual.
+When societal or global events introduce instability and disruption to our natural patterns in work and personal lives, it causes distress. COVID-19 is an example of this kind of event. It introduced a personal impact on our core human needs for safety and security. Without leaders addressing fundamental concerns, organizations can't run business as usual.
 
 **What do people need at work to remain happy and successful?**
 
@@ -35,7 +35,7 @@ People need reassurance that their leaders are prioritizing their safety and wel
 
 ## Instances where a distress survey benefits your org
 
-Change-management, uncertainty, and other unexpected factors bring a feeling of unsettlement and the unknown. Consider adding the Viva People Science templated Distress Survey to a scheduled engagement survey or creating an Ad Hoc Distress Survey to learn how your people are feeling and what they need.
+Change-management, uncertainty, and other unexpected factors bring a feeling of unsettlement and the unknown. To learn how your people are feeling and what they need, consider adding the Viva People Science templated Distress Survey to a scheduled engagement survey or creating an Ad Hoc Distress Survey 
 
 - Major political, social, hostile, or economic events 
 - Sudden catastrophic (local or global) natural disaster events
@@ -58,7 +58,7 @@ Find any of these suggested survey items in the Question Library on your Glint a
 |Item Name|	Item Text|
 |-------|--------|
 |Belonging|I feel a sense of belonging at <COMPANY_NAME>.|
-| Boundaries|I am able to disconnect from work during non-work time. |
+| Boundaries|I am able to disconnect from work during nonwork time. |
 |Change for Better|As a result of these challenging times, what do you see changing for the better?| 
 |Communications|<COMPANY_NAME_UPPERCASE> is doing a good job communicating with employees.|
 |Contribution|I understand what I can do to help our company during the current situation.| 
