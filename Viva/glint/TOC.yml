@@ -368,6 +368,8 @@ items:
             href: setup/360-faqs.md
       - name: Always-On Feedback surveys
         href: setup/always-on-surveys.md
+      - name: Ad Hoc surveys
+        href: setup/ad-hoc-survey.md
       - name: Set up Team Conversations
         href: reports/team-conversations-administrator-setup.md
         items:
