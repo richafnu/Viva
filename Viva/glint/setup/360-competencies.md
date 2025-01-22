@@ -59,10 +59,10 @@ To maximize the reporting experience, map all ratings items to at least one comp
 
 Repeat this procedure until all competencies are mapped to at least one item:
 
-1.	In **Cycle Settings**, select **Competencies & Reporting**. The **Competencies & Reporting** page opens.  The Competencies section shows the number of items mapped to each competency.
+1.	In **Cycle Settings**, select **Competencies & Reporting**. The **Competencies & Reporting** page opens. The Competencies section shows the number of items mapped to each competency.
 2.	Select the competency to be customized or mapped.
 3.	Assign values to the **Competency Name** and **Competency Description** fields. This text is used in reports.
-4.	Select at least one item to map to the competency. To search for a item, begin entering the item label in the **Search Question** field. 
+4.	Select at least one item to map to the competency. To search for an item, begin entering the item label in the **Search Question** field. 
 5.	Select **Save Changes.**
 
 ## Add a competency
