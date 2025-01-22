@@ -6,7 +6,7 @@ author: JudyWeiner
 manager: mbarry
 audience: admin
 f1.keywords: NOCSH
-keywords: feedback tab, feedback access, 360 subject creating focus areas,editing 360 participants, ediing 360 subjects, editing 360 feedback providers
+keywords: feedback tab, feedback access, 360 subject creating focus areas, editing 360 participants, editing 360 subjects, editing 360 feedback providers
 ms.collection:  
 - m365initiative-viva
 - selfserve 
