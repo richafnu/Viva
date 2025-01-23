@@ -60,11 +60,11 @@ Announcements are the best way to communicate targeted, time-sensitive informati
 
 - **In Teams**: Users get a Teams notification displayed on the lock screen of their mobile device alerting them of a new announcement (if enabled by the user).
 
-:::image type="content" source="../media/connections/announcements-viva-connections/display-announcement-in-teams-for-mobile.png" alt-text="Screenshot of a Teams notification displayed on the lock-screen of a mobile device."lightbox="../media/connections/announcements-viva-connections/display-announcement-in-teams-for-mobile.png":::
+   :::image type="content" source="../media/connections/announcements-viva-connections/display-announcement-in-teams-for-mobile.png" alt-text="Screenshot of a Teams notification displayed on the lock-screen of a mobile device."lightbox="../media/connections/announcements-viva-connections/display-announcement-in-teams-for-mobile.png":::
 
 - **In Viva Connections**: Announcements display towards the top of the Viva Connections mobile experience.
 
-:::image type="content" source="../media/connections/announcements-viva-connections/display-announcement-in-connections-for-mobile.png" alt-text="Screenshot of an announcement in the Viva Connections mobile app."lightbox="../media/connections/announcements-viva-connections/display-announcement-in-connections-for-mobile.png":::
+   :::image type="content" source="../media/connections/announcements-viva-connections/display-announcement-in-connections-for-mobile.png" alt-text="Screenshot of an announcement in the Viva Connections mobile app."lightbox="../media/connections/announcements-viva-connections/display-announcement-in-connections-for-mobile.png":::
 
 ### Teams Channel announcements displaying in Viva Connections for frontline workers
 
@@ -170,11 +170,11 @@ Experience owners are able to create announcements through the Viva Connections 
 
 - **In Viva Connections**: Experience owners can select the **ellipsis** in the upper-right of their Viva Connections experience, then select **Announcements**. The announcements page opens where users can select **+ New announcement** to begin drafting an announcement.
 
-:::image type="content" source="../media/connections/announcements-viva-connections/viva-connections-create-announcement.png" alt-text="Screenshot showing a dropdown menu with announcements highlighted."lightbox="../media/connections/announcements-viva-connections/viva-connections-create-announcement.png":::
+   :::image type="content" source="../media/connections/announcements-viva-connections/viva-connections-create-announcement.png" alt-text="Screenshot showing a dropdown menu with announcements highlighted."lightbox="../media/connections/announcements-viva-connections/viva-connections-create-announcement.png":::
 
 - **From the SharePoint home site**: The easiest way to access the announcements page is to select **Announcements** from the site navigation and then **+ New announcement**.
 
-:::image type="content" source="../media/connections/announcements-viva-connections/SharePoint-create-announcement.png" alt-text="Screenshot showing a SharePoint nav bar with Announcements highlighted."lightbox="../media/connections/announcements-viva-connections/SharePoint-create-announcement.png":::
+   :::image type="content" source="../media/connections/announcements-viva-connections/SharePoint-create-announcement.png" alt-text="Screenshot showing a SharePoint nav bar with Announcements highlighted."lightbox="../media/connections/announcements-viva-connections/SharePoint-create-announcement.png":::
 
 >[!NOTE]
 >
@@ -216,12 +216,12 @@ After [choosing to create a new announcement](#accessing-the-announcements-page)
 
 2. Toggle on the **Schedule to send later** option and enter a date and time:
 
-> [!NOTE]
->
-> - The end date can be up to two weeks from the original posting date.
-> - Scheduling is only available in half-hour increments (for example, you could schedule a post to send at 10:30 but not 10:15).
+   > [!NOTE]
+   >
+   > - The end date can be up to two weeks from the original posting date.
+   > - Scheduling is only available in half-hour increments (for example, you could schedule a post to send at 10:30 but not 10:15).
 
-   :::image type="content" source="../media/connections/announcements-viva-connections/announcement-send-later.png" alt-text="Screenshot of the Schedule to send later fields in the announcement detail pane."lightbox="../media/connections/announcements-viva-connections/announcement-send-later.png":::
+      :::image type="content" source="../media/connections/announcements-viva-connections/announcement-send-later.png" alt-text="Screenshot of the Schedule to send later fields in the announcement detail pane."lightbox="../media/connections/announcements-viva-connections/announcement-send-later.png":::
 
 3. Select **Next** to review the details of your announcement.
 
