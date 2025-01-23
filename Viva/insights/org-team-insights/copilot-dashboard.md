@@ -1,5 +1,5 @@
 ---
-ms.date: 01/17/2025
+ms.date: 01/23/2025
 title: Connect to the Microsoft Copilot Dashboard for Microsoft 365 customers
 description: Explains how to set up and use the Microsoft Copilot Dashboard, which provides various metrics to help you see how employees are using Copilot and the impact it could have on your organization.
 author: zachminers
@@ -171,13 +171,13 @@ By default, the **Scope** and **Organization** filters are determined by your [M
 
 The **Scope** filter is based on the Microsoft Entra ID attribute "ManagerID" to populate "Your company" data and "Your group" data by default.
 
-* When you select "Your company," the dashboard includes all employees who have a Copilot license, which is based on the Microsoft Entra ID "Person ID" by default.  
+* When you select "Your company," the dashboard metrics include all employees who have a Copilot license, which is based on the Microsoft Entra ID "Person ID" by default.  
 
-* When you select the groups listed within "Your company," the dashboard includes all employees who report directly or indirectly to this leader. By default, the manager hierarchy is based on the Microsoft Entra ID attribute "ManagerID." It can be updated if your admin uploads organizational data.
+* When you select the groups listed within "Your company," the dashboard metrics include all employees who report directly or indirectly to this leader. This senior leader list is determined by the top second levels in the company based on manager hierarchy. By default, the manager hierarchy is based on the Microsoft Entra ID attribute "ManagerID." It can be updated if your admin uploads organizational data.
 
-* When you select "Your group," the dashboard includes everyone who reports to you directly or indirectly. The manager hierarchy is identified based on the Microsoft Entra ID attribute "ManagerID" by default. Different logged in users will see different data for "Your group."
+* When you select "Your group," the dashboard metrics include everyone who reports to you directly or indirectly. The manager hierarchy is identified based on the Microsoft Entra ID attribute "ManagerID" by default. Different logged in users will see different data for "Your group."
 
-* When you select the groups listed within "Your group," the dashboard includes everyone who reports directly or indirectly to a person who reports to you. These groups are based on your reporting hierarchy and can be updated if your admin uploads more recent organizational data.  
+* When you select the groups listed within "Your group," the dashboard metrics include everyone who reports directly or indirectly to a person who reports to you. These groups are based on your reporting hierarchy and can be updated if your admin uploads more recent organizational data.  
 
 If you find the default data is inaccurate, your admin can  upload updated organizational data through the following two ways: 
 
