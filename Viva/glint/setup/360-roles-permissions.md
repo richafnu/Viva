@@ -24,7 +24,7 @@ By default, Viva Glint administrators have access to create and edit all Glint p
 ## Create a unique 360 admin
 
 > [!IMPORTANT]
-> You can have more than one Glint 360 admin, but limit your total number of unique 360 admins to just a few.
+> You can have more than one Glint 360 admin, but the best practice is to limit your total number of unique 360 admins to just a few.
 
 From the Glint admin dashboard, select the **Configuration** symbol and then **User Roles** in the **Employees** section. 
 
@@ -72,7 +72,7 @@ It’s optional to grant feedback providers access to the Feedback tab.
 
 On the **Competencies & Reporting** page of the **Cycle Settings** page, admins determine report access and timing.
 
-:::image type="content" source="../../media/glint/setup/360-competencies-reporting-setup" alt-text="Screenshot of Cycle Settings in a 360 feedback program.":::
+:::image type="content" source="../../media/glint/setup/360-competencies-reporting-setup.png" alt-text="Screenshot of Cycle Settings in a 360 feedback program.":::
 
 Process:
 
@@ -82,7 +82,7 @@ Scroll down to the **Report Access & Timing** section. Toggle subject, coach, an
 
 Changes can be made during a live cycle, but note that changes don't apply to reports already released.
 
-:::image type="content" source="../../media/glint/setup/360-manual-immediate" alt-text="Screenshot of the Report Access & Timing window in Cycle Settings.":::
+:::image type="content" source="../../media/glint/setup/360-manual-immediate.png" alt-text="Screenshot of the Report Access & Timing window in Cycle Settings.":::
 
 ## Feedback providers giving feedback
 
