@@ -1,5 +1,5 @@
 ---
-ms.date: 04/17/2022
+ms.date: 01/23/2025
 title: "Salesforce Integration"
 ms.reviewer: 
 ms.author: daisyfeller
@@ -24,9 +24,9 @@ description: "Learn how to integrate your Viva Goals OKRs with Salesforce report
 
 Viva Goals integrates with Salesforce lets you automatically update your objectives and key results (OKRs). For example, say you have a Salesforce report that tracks converted leads. You have a goal to increase the value of converted leads to a certain amount. Salesforce integration will automatically update your progress in Viva Goals.
 
-## How to set up Salesforce integration 
+## How to set up Salesforce integration
 
-An admin can follow these steps to set up Salesforce integration in Viva Goals. 
+An admin can follow these steps to set up Salesforce integration in Viva Goals.
 
 1. Go to the Viva Goals integrations page: **Admin** -> **Integrations**.
   
@@ -51,8 +51,6 @@ After setup is complete, users in your organization can link the success of thei
 1. When you create (or edit) an objective or key result, go to the **Progress** section and select **Connect to a Data Source**.
 
 2. From the list of integrations, select **Salesforce**.
-  
-    :::image type="content" source="../media/goals/9/select-salesforce-datasource.png" alt-text="Screenshot shows where you select Salesforce as the data source in Viva Goals." lightbox="../media/goals/9/select-salesforce-datasource.png":::
 
 3. Search for the report you want to connect to. If you have multiple Salesforce connections, select the connection that your report is associated with before you search for the report.
   
@@ -65,4 +63,3 @@ After setup is complete, users in your organization can link the success of thei
 5. Select **Next** and then **Save** to complete the update of your OKR.
 
 You should now see a Salesforce icon next to the OKR. The OKR will sync automatically every hour. To refresh it manually, go to the cloud icon and select **Sync**.
-
