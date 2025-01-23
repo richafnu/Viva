@@ -183,7 +183,7 @@ The network migration guides you through three steps. You can also start multipl
     - The Start and Completed dates and times for the migration
     - The current status of the migration.
 
-You can see details about the network, including the number of active users, the number of messages, and the external networks.
+    You can see details about the network, including the number of active users, the number of messages, and the external networks.
 
     :::image type="content" source="../../media/05c6da77-091b-48fc-8d08-4455454d4c87.png" alt-text="Screenshot showing the Status of network migrations; Viva Engage network migration is running.":::
   
