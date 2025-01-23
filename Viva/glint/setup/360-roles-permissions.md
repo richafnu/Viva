@@ -72,7 +72,7 @@ It’s optional to grant feedback providers access to the **Feedback** tab.
 
 On the **Competencies & Reporting** page of the **Cycle Settings** page, admins determine report access and timing.
 
-:::image type="content" source="../../media/glint/setup/360-competencies-reporting-setup.png" lightbox="../../media/glint/setup/competencies-reporting-setup.png"alt-text="Screenshot of Cycle Settings in a 360 feedback program.":::
+:::image type="content" source="../../media/glint/setup/360-competencies-reporting-setup.png" lightbox="../../media/glint/setup/360-competencies-reporting-setup.png"alt-text="Screenshot of Cycle Settings in a 360 feedback program.":::
 
 Process:
 
