@@ -170,7 +170,7 @@ Enforcement of Microsoft 365 identity applies immediately after you enable the s
 
 Yes. The collective sign out ensures all users who sign back on after the transition just reconnect to their Microsoft 365 identity. Microsoft 365 identity connects users to lifecycle management from Microsoft 365. Users get a consistent experience, with more tools like Microsoft 365 suite navigation.
 
-#### What is the experience for signed-out users when I enforce Microsoft 365 identities?
+#### What is the user sign out experience when I enforce Microsoft 365 identities?
 
 Users receive an immediate sign out of their web and mobile sessions. All users just sign back in again with their Microsoft 365 identity credentials. They also get restored access to all their apps, devices, and browser sessions.
   
