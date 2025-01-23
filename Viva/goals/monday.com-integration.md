@@ -2,8 +2,8 @@
 ms.date: 01/23/2025
 title: monday.com integration
 ms.reviewer: aroraaarushi
-ms.author: daisyfell
-author: daisyfeller
+ms.author: daisyfeller
+author: daisyfell
 manager: elizapo
 audience: Admin
 f1.keywords:
