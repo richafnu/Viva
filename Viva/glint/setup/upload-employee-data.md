@@ -23,7 +23,7 @@ Microsoft Viva Glint refers to employee data as "attributes." Attributes are dat
 
 ## Meet with internal stakeholders
 
-To ensure that all users can filter to the best insights and take action, it's critical to meet with the right team of people as you decide which employee attributes to include in the data you send to Glint. Some potential stakeholders are:
+Ensure that all users can filter to the right insights by meeting with the right team of people to decide which attributes to include in your Glint data. Some potential stakeholders are:
 
 - HR information system (HRIS) vendors
 - IT and security team members
