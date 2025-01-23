@@ -58,7 +58,7 @@ Return to the **User Roles** section on your admin dashboard.
 
 ## Access to feedback
 
-Subjects and leaders involved in 360s need access to the **Feedback tab** on their Glint dashboard. Access subjects to: 
+Subjects and leaders involved in 360s need access to the **Feedback** tab on their Glint dashboard. Access subjects to: 
 
 - See all completed feedback history
 - See all active feedback requests 
