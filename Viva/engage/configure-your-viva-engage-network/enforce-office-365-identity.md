@@ -32,7 +32,7 @@ SSO requires that Viva Engage admins configure the following capabilities:
    - Password hash sync
    - Pass-through authentication or [Microsoft Entra ID](https://support.office.com/article/06a189e7-5ec6-4af2-94bf-a22ea225a7a9#BK_Federated).
   
-## How enforcing Microsoft 365 identities in Viva Engage works
+## How it works
 
 The following flowchart shows what happens when a user signs in to Viva Engage.
   
@@ -64,7 +64,7 @@ The following table compares the user sign-in behavior when you enforce Microsof
 
 ## Start enforcing Microsoft 365 identity in Viva Engage
 
-It's easy to start enforcing Microsoft 365 identities in Viva Engage. However, turning on this setting can accidentally disrupt users' access to Viva Engage. Before you take action, do the following to make sure your Viva Engage users can continue working smoothly:
+It's easy to start enforcing Microsoft 365 identities in Viva Engage. However, enabling it logs off all current users' sessions in Viva Engage. Before you take action, do the following to make sure your Viva Engage users can continue working smoothly:
   
 - **All current Viva Engage users must have a corresponding Microsoft 365 identity.** When you enforce Microsoft 365 identities for Viva Engage, any user without that identity is locked out of Viva Engage. Ensure that all of your current Viva Engage users have their Microsoft 365 identities. To do so, go to the data export page in the Viva Engage admin center and export all users. Compare that list to the list of users in Microsoft 365 and make any needed changes.
 - **Tell your users about this change.** Inform all your users that you're switching to Microsoft 365 identities, because it can disrupt their day-to-day usage of Viva Engage. See the following sample email for suggested text.
@@ -75,9 +75,9 @@ You must have Microsoft 365 Global administrator privileges and be synchronized 
   
 1. In the Yammer admin center, select **Settings -> Edit network admin settings**, and choose **Security Settings**.
 
-2. In the Security Settings page, go to the **Office 365 Identity Enforcement** section and select **Enforce Office 365 identity**.
+2. In the Security Settings page, go to the **Microsoft 365 Identity Enforcement** section and select **Enforce Microsoft 365 identity**.
 
-    :::image type="content" source="../../media/engage/admin/enforce-o365-settings.png" lightbox="../../media/engage/admin/enforce-o365-settings.png" alt-text="Screenshot that shows the Enforce Office 365 identity in Viva Engage checkbox in the Viva Engage Security Setting page.":::
+    :::image type="content" source="../../media/engage/admin/enforce-o365-settings.png" lightbox="../../media/engage/admin/enforce-o365-settings.png" alt-text="Screenshot that shows the Enforce Microsoft 365 identity in Viva Engage checkbox in the Viva Engage Security Setting page.":::
   
 3. A confirmation message asks you to select the level of enforcement:
 
@@ -110,10 +110,10 @@ You must have Microsoft 365 Global administrator privileges and be synchronized 
     
 5. If you're ready to start enforcing this setting, select **Okay**.
 
-6. Go to the Security Settings page where the **Enforce Office 365 identity in Viva Engage** checkbox is now selected.
+6. Go to the Security Settings page where the **Enforce Microsoft 365 identity in Viva Engage** checkbox is now selected.
 
    > [!NOTE]
-   > You can also select **Block Office 365 users who don't have Viva Engage licenses** to ensure that only users with Viva Engage licenses sign in to Viva Engage.
+   > You can also select **Block Microsoft 365 users who don't have Viva Engage licenses** to ensure that only users with Viva Engage licenses sign in to Viva Engage.
   
 6. Choose **Save** to save all your settings on the page.
 
@@ -143,7 +143,7 @@ You must be a global administrator to perform these steps.
   
 3. Select **Okay** to confirm your choice. 
 
-   The Security Settings page shows the **Enforce Office 365 identity in Yammer** checkbox cleared.
+   The Security Settings page shows the **Enforce Microsoft 365 identity in Yammer** checkbox cleared.
 
 4. Choose **Save** to save your settings.
     
@@ -154,7 +154,7 @@ You must be a global administrator to perform these steps.
 #### Once Microsoft 365 Identity Enforcement is set to **Committed Enforcement**, can I revert it?
 
 > [!IMPORTANT]
-> At this point, reverting the **Enforce Office 365 Identity** setting disrupts the user experience, because users who sign in with their user names and passwords can't access their connected resources. **We do not recommend reverting this setting**.
+> At this point, reverting the **Enforce Microsoft 365 Identity** setting disrupts the user experience, because users who sign in with their user names and passwords can't access their connected resources. **We do not recommend reverting this setting**.
 
 When an organization commits to Microsoft 365 identity enforcement, with one Microsoft 365 tenant tied to a single Viva Engage tenant, the network enables *connected communities*. This configuration creates a Viva Engage community associated with a connected Microsoft 365 community. People in the tenant can take advantage of community software tools such as SharePoint, Planner, and OneNote. 
   
