@@ -1,5 +1,5 @@
 ---
-ms.date: 05/23/2024
+ms.date: 01/23/2025
 title: Upload organizational data (subsequent upload)
 description: This article discusses how to upload your data to the Viva Insights advanced insights app after you've already uploaded data there.
 author: zachminers
@@ -179,10 +179,7 @@ Select this option to remove organizational data you no longer need, or remove h
 4. To upload your file, select **Submit**. To cancel the upload, select **Cancel**. 
 
 5. The **Import history** table shows the status of your deletion. 
-    * Select the download icon to download a list of employees deleted within the past 30 days.
-
-
-
+    * Select the download icon to download a list of employees deleted by the operation. You can access the download link for up to 30 days.
 
 ## Field mapping
 
