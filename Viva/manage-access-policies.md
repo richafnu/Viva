@@ -57,6 +57,7 @@ Before you can create an access policy, use the **ModuleID** to get the **featur
 |App|ModuleID|
 |-|-|
 |Engage|VivaEngage|
+|Goals|VivaGoals|
 |Insights|VivaInsights|
 |Pulse|VivaPulse|
 |Skills|VivaSkills|
