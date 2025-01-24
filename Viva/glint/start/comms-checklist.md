@@ -14,7 +14,7 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 03/12/2024
+ms.date: 01/24/2025
 ---
 
 # Use the Viva Glint communications checklist
