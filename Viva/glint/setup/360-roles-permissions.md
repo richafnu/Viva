@@ -28,7 +28,7 @@ By default, Viva Glint administrators have access to create and edit all Glint p
 
 From the Glint admin dashboard, select the **Configuration** symbol and then **User Roles** in the **Employees** section. 
 
-1.	Select **+ New Role.**
+1.	Select **+ New Role**.
 1.	On the **Untitled Role** page that opens, name the User Role by selecting the **pencil symbol**. Choose a name easily identifiable for that cycle name.
 
     :::image type="content" source="../../media/glint/setup/360-unique-manager-role.png" alt-text="Screenshot of naming a unique 360 admin User Role.":::
@@ -62,16 +62,16 @@ On the **Competencies & Reporting** page of the **Cycle Settings** page, admins 
 
 :::image type="content" source="../../media/glint/setup/360-competencies-reporting-setup.png" lightbox="../../media/glint/setup/360-competencies-reporting-setup.png"alt-text="Screenshot of Cycle Settings in a 360 feedback program.":::
 
-Decide whether subjects, coaches, or managers receive access to a subject’s report, and choose the timing. Subjects and leaders involved in 360s need access to the **Feedback** tab on their Glint dashboard. It’s optional to grant feedback providers access to feedback. 
+Decide whether subjects, coaches, or managers receive access to a subject's report, and choose the timing. Subjects and leaders involved in 360s need access to the **Feedback** tab on their Glint dashboard. It's optional to grant feedback providers access to feedback. 
 
 Scroll down to the **Report Access & Timing** section. 
 
 ### Feedback release timing
 
-1. To allow access to 360 feedback for a subject, toggle the subject, coach, or manager access to **On.**
-2. Toggle subject, coach, and manager access to **Manually,** **Immediately,** or **number of days.**
+1. To allow access to 360 feedback for a subject, toggle the subject, coach, or manager access to **On**.
+2. Toggle subject, coach, and manager access to **Manually,** **Immediately,** or **number of days**.
     - **Manual release:** An admin releases reports at an individual level or using the bulk report release feature. 
-    - **Immediate release:** A report access email is automatically sent when the 360 cycle closes
+    - **Immediate release:** A report access email is automatically sent when the 360 cycle closes.
     - **1-14 days:** A report access email is sent based on the selected number of days after the cycle closes. 
   
 > [!NOTE]
@@ -102,14 +102,14 @@ For more information, see the [Subject experience](/../../viva/glint/setup/360-s
 Managers can access a 360 Report two different ways:
 
 1. From the email they receive, letting them know 360 feedback is ready for a subject.
-2. Log into Glint and select the **magnifying glass symbol** on their dashboard. Find the subject name by typing it into the search box. Select the **Feedback tab** and then select **View**.
+2. Log into Glint and select the **magnifying glass symbol** on their dashboard. Find the subject name by typing it into the search box. Select the **Feedback** tab and then select **View**.
 
 ### Coach access to subject feedback
 
 Coaches can access a 360 Report two different ways:
 
 1. From the email they receive, letting them know 360 feedback is ready for the subject they're coaching.
-2. Log into Glint and select the **magnifying glass symbol** on the dashboard. Select the subject name by typing it into the search box. Select the **Feedback tab** and then select **View**.
+2. Log into Glint and select the **magnifying glass symbol** on the dashboard. Select the subject name by typing it into the search box. Select the **Feedback** tab and then select **View**.
 
 ## Feedback providers giving feedback
 
@@ -117,9 +117,9 @@ Feedback providers receive an email invitation to provide feedback. Selecting th
 
 ## Global Reporting Guidance
 
-Finaly, on this Competencies set up page, provide help content for how to process and read 360 feedback.
+Finally, on this Competencies set up page, provide help content for how to process and read 360 feedback.
 
-:::image type="content" source="../../media/glint/setup/360-resource-guidance2.png"alt-text="Screenshot of the search bar for choosing resource guidance.":::
+:::image type="content" source="../../media/glint/setup/360-resource-guidance2.png" alt-text="Screenshot of the search bar for choosing resource guidance.":::
 
 Glint offers standard program and report guidance templates. 
 
