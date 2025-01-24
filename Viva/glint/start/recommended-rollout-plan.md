@@ -24,7 +24,7 @@ Use the tables on this page to build a rollout plan for your Viva Glint programs
 > [!NOTE] 
 > The following plans assume a six-week launch, which may be longer than the timeline you anticipate.  If your timeline is shorter, compress or thin the communications to align appropriately.
 
-## Pre-survey rollout plan
+## Presurvey rollout plan
 
 |**Timing before survey start**| **Message to your organization**|**Key activities**|**Owner**|**Communication template links**|
 |-----------|-----------|----------------|--------|-------------------------------|
