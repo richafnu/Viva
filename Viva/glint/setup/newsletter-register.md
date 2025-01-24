@@ -21,7 +21,7 @@ ms.date: 01/24/2025
 
 Improve engagement and performance with recommended actions and data-driven insights across your employee lifecycle by getting the most from the Viva Glint platform and our customer events. 
 
-To receive new information from Viva Glint and other Microsoft Employee Experience solutions, **[register for the Viva Glint newsletter](https://adoption.microsoft.com/en-us/viva/glint/newsletter/)**
+To receive new information from Viva Glint and other Microsoft Employee Experience solutions, **[register for the Viva Glint newsletter](https://adoption.microsoft.com/en-us/viva/glint/newsletter/)**.
 
 ## Be sure to allow Viva Glint newsletter delivery
 
