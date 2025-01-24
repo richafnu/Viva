@@ -1,12 +1,12 @@
 ---
 title: Viva Glint 360 User Role creation and feedback access
-description: Admins in Viva Glint have access to create and edit all Glint programs. You may, however, choose to set up an additional user role to *only* have access to edit 360 programs. 
+description: Admins in Viva Glint have access to create and edit all Glint programs. You may, however, choose to set up an additional user role to *only* have access to edit 360 programs. Also, set up if and when a 360 subject, manager, and coach can view report feedback.
 ms.author: JudithWeiner
 author: JudyWeiner
 manager: mbarry
 audience: admin
 f1.keywords: NOCSH
-keywords: feedback tab, feedback access, 360 subject creating focus areas, editing 360 participants, editing 360 subjects, editing 360 feedback providers
+keywords: feedback tab, feedback access, 360 subject creating focus areas, editing 360 participants, editing 360 subjects, editing 360 feedback providers, global reporting guidance
 ms.collection:  
 - m365initiative-viva
 - selfserve 
@@ -19,7 +19,7 @@ ms.date: 1/23/2025
 
 # Viva Glint 360 User Role creation and feedback access
 
-By default, Viva Glint administrators have access to create and edit all Glint programs, including 360s. You may, however, choose to create a unique User Role to have exclusive 360 admin permissions. 
+By default, Viva Glint administrators have access to create and edit all Glint programs, including 360s. You may, however, choose to create a unique User Role to have exclusive 360 admin permissions. In this section, you also learn to enable if and when a 360 subject, manager, and coach can view report feedback.
 
 ## Create a unique 360 admin
 
@@ -28,7 +28,7 @@ By default, Viva Glint administrators have access to create and edit all Glint p
 
 From the Glint admin dashboard, select the **Configuration** symbol and then **User Roles** in the **Employees** section. 
 
-1.	Select **+ New Role.**
+1.	Select **+ New Role**.
 1.	On the **Untitled Role** page that opens, name the User Role by selecting the **pencil symbol**. Choose a name easily identifiable for that cycle name.
 
     :::image type="content" source="../../media/glint/setup/360-unique-manager-role.png" alt-text="Screenshot of naming a unique 360 admin User Role.":::
@@ -56,35 +56,75 @@ Return to the **User Roles** section on your admin dashboard.
 
     :::image type="content" source="../../media/glint/setup/360-all-members.png" alt-text="Screenshot of All Members within Role Settings of a Glint survey cycle.":::
 
-## Access to feedback
-
-Subjects and leaders involved in 360s need access to the **Feedback** tab on their Glint dashboard. Access subjects to: 
-
-- See all completed feedback history
-- See all active feedback requests 
-- Add or edit feedback providers 
-- Complete their self-assessment 
-- View who responded to their 360 cycle, if enabled
-
-It’s optional to grant feedback providers access to the **Feedback** tab. 
-
-## Feedback report access and timing 
+## Access and timing for subject feedback
 
 On the **Competencies & Reporting** page of the **Cycle Settings** page, admins determine report access and timing.
 
 :::image type="content" source="../../media/glint/setup/360-competencies-reporting-setup.png" lightbox="../../media/glint/setup/360-competencies-reporting-setup.png"alt-text="Screenshot of Cycle Settings in a 360 feedback program.":::
 
-Process:
+Decide whether subjects, coaches, or managers receive access to a subject's report, and choose the timing. Subjects and leaders involved in 360s need access to the **Feedback** tab on their Glint dashboard. It's optional to grant feedback providers access to feedback. 
 
-Scroll down to the **Report Access & Timing** section. Toggle subject, coach, and manager access to **Manually,** **Immediately,** or **number of days.**
-- **Manual release** allows an admin to evaluate feedback provider response rates and control which reports to release.
-- **Immediate release** automatically sends a notification when the report is generated.
+Scroll down to the **Report Access & Timing** section. 
 
-Changes can be made during a live cycle, but note that changes don't apply to reports already released.
+### Feedback release timing
+
+1. To allow access to 360 feedback for a subject, toggle the subject, coach, or manager access to **On**.
+2. Toggle subject, coach, and manager access to **Manually,** **Immediately,** or **number of days**.
+    - **Manual release:** An admin releases reports at an individual level or using the bulk report release feature. 
+    - **Immediate release:** A report access email is automatically sent when the 360 cycle closes.
+    - **1-14 days:** A report access email is sent based on the selected number of days after the cycle closes. 
+  
+> [!NOTE]
+> Changes can be made during a live cycle, but changes don't apply to reports already released.
 
 :::image type="content" source="../../media/glint/setup/360-manual-immediate.png" alt-text="Screenshot of the Report Access & Timing window in Cycle Settings.":::
+
+### Subject access to their feedback
+
+You receive an email letting you know to review your report. Use the button in the email or access your report from the Feedback tab on the Glint platform. 
+
+1.	Scroll to the **Feedback History** section to access your completed 360.
+2.	Select the card to open the report. Data shows the number of completed participants (you included) and their initials.
+3.	On the toolbar, select the horizontal ellipses to review the confidentiality settings. You can also download a PDF of your report.
+4.	Choose a tab to open:
+     - **Insights** – A top-level view of your 360 results
+     - **Comments** – A view of all comments. Comments are intended to give context for why someone provided a specific rating.
+     - **All Responses** – A detailed view of your survey questions. View in bar chart or table format.
+
+     :::image type="content" source="../../media/glint/setup/360-subjects-feedback-tabs.png" alt-text="Screenshot of the tabs on a subject's Feedback dashboard.":::
+
+Use the **light bulb** symbol for guidance on how to view the report. 
+
+For more information, see the [Subject experience](/../../viva/glint/setup/360-subject-experience#access-your-360-report).
+
+### Manager access to subject feedback
+
+Managers can access a 360 Report two different ways:
+
+1. From the email they receive, letting them know 360 feedback is ready for a subject.
+2. Log into Glint and select the **magnifying glass symbol** on their dashboard. Find the subject name by typing it into the search box. Select the **Feedback** tab and then select **View**.
+
+### Coach access to subject feedback
+
+Coaches can access a 360 Report two different ways:
+
+1. From the email they receive, letting them know 360 feedback is ready for the subject they're coaching.
+2. Log into Glint and select the **magnifying glass symbol** on the dashboard. Select the subject name by typing it into the search box. Select the **Feedback** tab and then select **View**.
 
 ## Feedback providers giving feedback
 
 Feedback providers receive an email invitation to provide feedback. Selecting the button in the email opens a browser window with the 360 survey.
 
+## Global Reporting Guidance
+
+Finally, on this Competencies set up page, provide help content for how to process and read 360 feedback.
+
+:::image type="content" source="../../media/glint/setup/360-resource-guidance2.png" alt-text="Screenshot of the search bar for choosing resource guidance.":::
+
+Glint offers standard program and report guidance templates. 
+
+1.	Toggle **Global Reporting Guidance** to **ON** to reveal the **Select a content resource** menu. 
+2.	Key in **360** in the search bar to access the standard templates. 
+
+>[!TIP]
+> We recommend using **360 _Report Guidance** for the Global Reporting Guidance. 
