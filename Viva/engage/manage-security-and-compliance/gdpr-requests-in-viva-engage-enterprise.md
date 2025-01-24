@@ -3,6 +3,7 @@ title: "Manage GDPR data subject requests in Viva Engage Enterprise"
 f1.keywords:
 - NOCSH
 ms.author: dmillerdyson
+ms.reviewer:
 author: v-rgrace
 manager: elizapo
 ms.date: 01/02/2025
@@ -130,7 +131,7 @@ A user can edit their own profile. Administrators can't change the user profile 
 > When you erase a user, you have a 14-day window to decide which files and messages to save or delete in the home tenant before the user-identifying data is erased. If you want to review and delete some or all of the user's messages and files, be sure to export user data and do the deletions before erasing the user's account, or within 14 days after selecting **Erase this user**. After the 14-day window, files and messages still exist, but will be marked as belonging to a former user.<br><br>After a user's account transitions from deactivated to removed, you can't associate user data with that user, which means you can no longer export and review their data.
 
 > [!IMPORTANT]
-> To review and delete messages and files in external groups, external threads, and tenants of which the user is a member, see [Delete specific messages or Viva Engage files stored in Viva Engage or SharePoint](gdpr-requests-in-viva-engage-enterprise.md#DeleteMessagesFiles) *before*  erasing the user. After you select **Erase this user**, the user is no longer associated with those messages and files.
+> Before erasing the user, be familiar with [Delete specific messages or Viva Engage files stored in Viva Engage or SharePoint](gdpr-requests-in-viva-engage-enterprise.md#DeleteMessagesFiles). The article describes how to review and delete messages and files in external groups, external threads, and tenants to which the user belongs. After you select **Erase this user**, the user is no longer associated with those messages and files.
 
 > [!IMPORTANT]
 > Removing a user from their home Viva Engage tenant removes them from all external tenants. You must remove guest users separately from each of their external tenants.
