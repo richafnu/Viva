@@ -38,22 +38,20 @@ Policies for copilots in Viva can also be [managed through the Copilot settings 
 ### Requirements
 Before you can create a policy, you need:  
 
-- A [supported version of Microsoft 365 or a Viva Suite license](https://www.microsoft.com/microsoft-viva/pricing)
-- User accounts created in or synchronized to Microsoft Entra ID
+- A [supported version of Microsoft 365 or a Viva Suite license](https://www.microsoft.com/microsoft-viva/pricing).
+- User accounts created in or synchronized to Microsoft Entra ID.
 - Microsoft 365 groups, Microsoft Entra security groups created in or synchronized to Microsoft Entra ID, or distribution groups.<br>
 - For [PowerShell](/Viva/feature-access-management) access to [Exchange Online PowerShell Version 3.2.0](https://www.powershellgallery.com/packages/ExchangeOnlineManagement/3.2.0) or later. If you need to use non-mail-enabled groups, you must have access to Exchange PowerShell version 3.5.1 or later.
 
 ## Features available to manage
 
 > [!NOTE]
-
 > - Some features may not support user/group policies. In addition, policies for one app can have an impact on the entire tenant or users in your tenant. For more information, see the feature documentation by using the link in the table.
 > - Only some features have the controls available for admins to provide users with the option to opt out.
 
 You can use feature access management to manage access to the following features:
 
 > [!NOTE]
-
 > - Some features may not support user/group policies. In addition, policies for one app can have an impact on the entire tenant or users in your tenant. For more information, see the feature documentation by using the link in the table.
 > - Only some features have the controls available for admins to provide users with the option to opt out.
 
@@ -83,11 +81,11 @@ You can use feature access management to manage access to the following features
 > - You can control only the access to features that support access policies and that are available in your tenant. For example, if you have an EDU-based tenant, you can't use policies to gain access to features that are not otherwise available to EDU tenants. See the table above for documentation on the specific feature.
 > - You can have multiple access policies for an active feature in your organization, which means a user could be impacted by multiple policies. In that case, the most restrictive policy assigned to the user or group takes precedence. For more information, see **Which policy takes precedence** below.
 > - Changes to access policies take effect for the user within 24 hours, unless noted for a specific feature. Changes for Copilot in Viva Engage might take up to 48 hours.
-> - Features support org-wide and user/group policies, unless otherwise noted in that app’s feature documentation.
+> - Features support org-wide and user/group policies, unless otherwise noted in that app's feature documentation.
 
 ## Which policy takes precedence?  
 
-A user has one effective policy for each feature. It’s possible, or even likely, that a user is assigned a policy and is also a member of one or more groups that’s assigned a policy for the same feature. In these kinds of scenarios, a user’s effective policy is determined according to the rules of precedence, as follows:  
+A user has one effective policy for each feature. It's possible, or even likely, that a user is assigned a policy and is also a member of one or more groups that's assigned a policy for the same feature. In these kinds of scenarios, a user's effective policy is determined according to the rules of precedence, as follows:  
 
 If a user is directly assigned a policy as an individual or as a member of a group, that policy takes precedence. If a user has multiple of these policies assigned, then the most restrictive policy they're assigned applies: 
 
@@ -98,12 +96,11 @@ If a user is directly assigned a policy as an individual or as a member of a gro
 If a user isn't assigned a policy as an individual or member of a group, the org-wide policy applies. This is either the default setting for the feature or the tenant-wide/org-wide policy created by the admin.
 
 > [!NOTE]
-
 > - Changes to policies can take up to 24 hours to go into effect for most features. 
 > - Changes to policies for the Copilot in Engage feature may take up to 48 hours to go into effect.
 > - If users are in nested groups and you apply access policies to the parent group, the users in the nested groups receive the policies. The nested groups and the users in those nested groups must be created in or synchronized to Microsoft Entra ID.
 > - When you add users to or remove them from a Microsoft Entra ID or Microsoft 365 Group, it can take 24 hours before changes to their feature access take effect.
-> - When an admin removes the option for users to opt out by fully enabling or disabling the feature, the user’s opt in/out preference isn't preserved and is reset to the default state. If an admin re-enables the option allowing a user to opt out of a feature, users will need to select to opt out of the feature again.
+> - When an admin removes the option for users to opt out by fully enabling or disabling the feature, the user's opt in/out preference isn't preserved and is reset to the default state. If an admin re-enables the option allowing a user to opt out of a feature, users will need to select to opt out of the feature again.
 > - Quick changes to the enablement state for a feature in less than 24 hours after making the change may not result in the resetting of user opt in/out preferences.
 > - For a history of policy creation, updates, and deletions, see the Viva Feature Access Management (VFAM) change logs for your organization in [Microsoft Purview](/purview/tutorial-purview-audit-logs-diagnostics).
 
