@@ -89,8 +89,6 @@ items:
             items:
                - name: Communications rollout plan
                  href: start/recommended-rollout-plan.md
-               - name: Communications checklist
-                 href: start/comms-checklist.md
                - name: Communications templates
                  href: communicate/email-templates-survey-expectations.md
                - name: Introduce Glint survey taking
