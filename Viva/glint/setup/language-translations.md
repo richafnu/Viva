@@ -14,7 +14,7 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 09/17/2024
+ms.date: 01/24/2025
 ---
 
 # Manage language translations in Viva Glint programs 
@@ -28,8 +28,8 @@ There are four steps for language translations:
 3. Review translations 
 4. Import content back into the Viva Glint program
 
-> [!TIP]
-> Find valid language codes for Viva Glint on the Language Codes tab of the Viva Glint [Employee Attribute Template](https://www.microsoft.com/en-us/download/details.aspx?id=105533).
+> [!IMPORTANT]
+> See the Language Codes tab of the [Employee Attribute Template](https://www.microsoft.com/en-us/download/details.aspx?id=105533) for valid values changes to supported languages and codes effective April 10, 2025. 
 
 ## Export survey and email text for translation
 
