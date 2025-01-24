@@ -1,7 +1,7 @@
 ---
-ms.date: 12/18/2023
-title: Link previews in Teams 
-ms.reviewer: 
+ms.date: 1/13/2025
+title: Link previews in Microsoft Teams and Outlook 
+ms.reviewer: aroraaarushi
 ms.author: daisyfeller
 author: daisyfell
 manager: elizapo

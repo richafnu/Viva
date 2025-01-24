@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 12/13/2024
+ms.date: 01/16/2025
 ---
 
 # Update employee IDs in Viva Glint
@@ -68,7 +68,7 @@ To update users' IDs in bulk:
 4. Delete users from the file that don't need an ID update and update values in the Employee ID column for remaining users.
 6. Save the updated file in one of the following formats:
    1. .xlsx with a single sheet and no passwords or formulas
-   2. .csv with a comma separator and UTF-8 encoding
+   2. .csv with a comma separator and UTF-8 encoding (Viva Glint accepts UTF-8 and UTF-8 with BOM encoding).
 3. On the **People** page, select **Import** and choose the **Employee ID Updates** option.
 
    :::image type="content" source="../../media/glint/setup/import-choice.png" alt-text="Screenshot of the import option selection screen, including the Employee ID Updates option.":::

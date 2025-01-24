@@ -14,7 +14,7 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 12/19/2024
+ms.date: 1/21/2025
 ---
 
 # Viva Glint 360 frequently asked questions 
@@ -44,10 +44,10 @@ During a live 360 cycle, log into Viva Glint, select Feedback and then the 360 f
 ## Admin FAQs
 
 ### How do I reach out for support?
-Reach out to the Microsoft 360 Admin Center for support: [Get Support](https://go.microsoft.com/fwlink/?linkid=2272576).
+[Get support](/viva/troubleshoot/glint/contact-support/get-support-viva-glint)
 
 ### How to I give product feedback?
-Viva Glint welcomes feedback. Submit your comments in the platform: [Submit product feedback](glint-product-feedback.md).
+Viva Glint welcomes feedback. Submit your comments in the platform: [Submit product feedback](/viva/glint/setup/glint-product-feedback).
 
 ### Can managers, HR Business Partners (HRBPs), and employees set up 360s?
 No. To better maintain governance over 360 programs, only admins have this level of access, but an employee can select their own feedback providers. HRBPs who are 360 admins can select feedback providers on leaders’ behalf.
