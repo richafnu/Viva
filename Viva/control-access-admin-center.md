@@ -35,22 +35,22 @@ Policies are used to enable or disable specific features or types of data proces
 1.	From the Microsoft 365 admin center, select **Viva** from the settings menu. 
 2.	Select the **Settings** tab and select **Manage feature access**. 
 3.	Select **Create a policy**. 
-4.	Name the policy and select the app and feature for which you’d like to set the policy. 
+4.	Name the policy and select the app and feature for which you'd like to set the policy. 
 5.	Select the **Access setting** option and choose **On** or **Off** to enable or disable the feature. Some features also allow the option for users to opt out.
-6.	Select **Everyone** or **Specific people and groups** under **Apply access settings to**. If you didn’t select Everyone, add the specific people and groups you want to apply the policy to.
+6.	Select **Everyone** or **Specific people and groups** under **Apply access settings to**. If you didn't select Everyone, add the specific people and groups you want to apply the policy to.
 7.	Select **Save**. 
 8.	Select **Next** to review.
 9.	Once you’ve reviewed your policy, select **Create policy**.
 
-:::image type="content" source="media\viva-create-policy.png" alt-text="Create policy pane" lightbox="media\viva-create-policy.png":::
+    :::image type="content" source="media\viva-create-policy.png" alt-text="Create policy pane" lightbox="media\viva-create-policy.png":::
 
-After saving, you'll see that your policy was created.
+    After saving, you'll see that your policy was created.
 
-:::image type="content" source="media\viva-policy-created.png" alt-text="Policy created pane" lightbox="media\viva-policy-created.png":::
+    :::image type="content" source="media\viva-policy-created.png" alt-text="Policy created pane" lightbox="media\viva-policy-created.png":::
 
-> [!NOTE]
-> - You can assign a maximum of 10 policies per feature to users and groups. Each policy can be assigned to a maximum of 20 users or groups. 
-> - Policy names must be unique.
+    > [!NOTE]
+    > - You can assign a maximum of 10 policies per feature to users and groups. Each policy can be assigned to a maximum of 20 users or groups. 
+    > - Policy names must be unique.
  
 ## View policy details
 1.	From the Microsoft 365 admin center, select **Viva** from the settings menu. 
@@ -69,9 +69,9 @@ After saving, you'll see that your policy was created.
 ## Delete an existing policy 
 1.	From the Microsoft 365 admin center, select **Viva** from the settings menu. 
 2.	Select the **Settings** tab and select **Manage feature access**. 
-3.	Select the policy you’d like to delete. 
+3.	Select the policy you'd like to delete. 
 4.	Select **Delete policy**. 
-5.	Confirm you’d like to delete the policy. 
+5.	Confirm you'd like to delete the policy. 
 
 ## Additional information and best practices
 - Changes to access policies take effect for the user within 24 hours, unless noted for a specific feature. Changes for Copilot in Viva Engage might take up to 48 hours. 
