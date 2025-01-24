@@ -39,7 +39,7 @@ items:
       href: setup-admin-access/tenant-admin-dashboard.md
 - name: Viva integrations
   items:
-    - name: Measure Copilot impact in your organization
+    - name: Measure Microsoft 365 Copilot impact in your organization
       href: viva-integrations/measure-copilot-impact-in-your-organization.md
 - name: Troubleshoot
   items:
