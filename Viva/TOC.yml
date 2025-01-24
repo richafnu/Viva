@@ -35,7 +35,11 @@ items:
         href: viva-compliance.md
       - name: Control access to Viva features
         href: feature-access-management.md
-    - name: Copilot in Viva
+      - name: Use the Microsoft 365 admin center to control Viva features
+        href: control-access-admin-center.md
+      - name: Use PowerShell to control access to Viva features
+        href: manage-access-policies.md
+    - name: Microsoft 365 Copilot in Viva
       items:
       - name: Introduction to Copilot in Viva
         href: copilot/viva-copilot-overview.md
