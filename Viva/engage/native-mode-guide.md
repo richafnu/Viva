@@ -37,7 +37,7 @@ The following steps describe how to transition your network to Native Mode. For 
 
 To align your network to Native Mode, your Microsoft tenant must have a single Viva Engage Network associated with it. If you have more than one Viva Engage Network in your tenant, you need to consolidate them. To do so, complete the steps in [Consolidate multiple Viva Engage networks](./configure-your-viva-engage-network/consolidate-multiple-networks.md).
 
-After consolidating the Engage network, make sure that it enforces Microsoft 365 identity. For more information, see [Enforce Microsoft 365 Identity](./configure-your-viva-engage-network/enforce-office-365-identity.md).
+After consolidating the Viva Engage network, make sure that it enforces Microsoft 365 identity. For more information, see [Enforce Microsoft 365 Identity](./configure-your-viva-engage-network/enforce-office-365-identity.md).
 
 ## 2. Access the Native Mode Alignment Tool
 
