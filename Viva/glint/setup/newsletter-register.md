@@ -14,14 +14,14 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 03/29/2024
+ms.date: 01/24/2025
 ---
 
 # Stay updated with the Viva Glint newsletter
 
 Improve engagement and performance with recommended actions and data-driven insights across your employee lifecycle by getting the most from the Viva Glint platform and our customer events. 
 
-To receive new information from Viva Glint and other Microsoft Employee Experience solutions, **[register for the Viva Glint newsletter](https://go.microsoft.com/fwlink/?linkid=2264411)**
+To receive new information from Viva Glint and other Microsoft Employee Experience solutions, **[register for the Viva Glint newsletter](https://adoption.microsoft.com/en-us/viva/glint/newsletter/)**
 
 ## Be sure to allow Viva Glint newsletter delivery
 
