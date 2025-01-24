@@ -15,7 +15,8 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 01/07/2025
+ms.custom: CELA-approved
+ms.date: 01/10/2025
 ---
 
 # Manage General Settings in Viva Glint 
@@ -59,7 +60,7 @@ Also, set up what your employees see when they open an email sharing information
 
 ## Reporting  
 
-Choose attributes and hierarchies to show in reporting and select benchmark comparisons. Also view permissions and thresholds for viewing feedback. 
+Choose attributes and hierarchies to show in reporting and select benchmark comparisons. The attribute selected for an internal benchmark must be turned on in a User's Role for them to be able to see the benchmark comparison in reporting
 
 >[!NOTE]
 > This section is not applicable to 360 Feedback programs. 

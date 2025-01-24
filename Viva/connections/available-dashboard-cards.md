@@ -42,6 +42,7 @@ Select a dashboard icon for more information.
 | [![Screenshot of the Assignments card icon with a link to more information.](../media/connections/create-dashboard/assignments-card-icon-no-border.png)](#add-the-assignments-card) | Display a summary of upcoming and past due assignments for students. |
 | [![Screenshot of the Courses card icon with a link to more information.](../media/connections/create-dashboard/courses-card-icon-no-border.png)](#add-the-courses-card) | Display a summary of courses a student is enrolled in. |
 | [![Screenshot of the Events card icon with a link to more information.](../media/connections/events-card-icon-no-border.png)](#add-the-events-card) |   View and join upcoming events within your organization. |
+| [![Screenshots of the My Sites card icon with a link to more information.](../media/connections//available-dashboard-cards/my-sites-card-icon-no-border.png)](#add-the-my-sites-card) |   Provide users links to frequently accessed SharePoint sites.|
 | [![Screenshots of the News card icon with a link to more information.](../media/connections/news-card-icon-no-border.png)](#add-the-news-card) |   Promote news from various sources that you wish to prominently display, including [boosted news from SharePoint.](https://support.microsoft.com/office/boost-news-from-organization-news-sites-46ad8dc5-8f3b-4d81-853d-8bbbdd0f9c83)     |
 | [![Screenshot of the OneDrive card icon with a link to more information.](../media/connections/create-dashboard/onedrive-card-icon-no-border.png)](#add-the-onedrive-card) |   View and access recent, shared, and favorite files from your OneDrive account. |
 | [![Screenshot of the People card icon with a link to more information.](../media/connections/people-card-icon-no-border.png)](#add-the-people-card) |   Provide an option to look up contact information and directly chat, email, or call with others in your organization. |
@@ -90,7 +91,7 @@ The Assigned tasks card allows users to create and view tasks from the card or o
 
    > [!NOTE]
    >
-   > The size of the card will affect how many buttons are available on the card. The **Add tasks** and **Open Planner** buttons appear on large cards (default size), while on medium sized cards only the **Add tasks** button is shown.
+   > The size of the card affects how many buttons are available on the card. The **Add tasks** and **Open Planner** buttons appear on large cards (default size), while on medium sized cards only the **Add tasks** button is shown.
 
    ![Screenshot showing how to choose a card size.](/viva/media/connections/create-dashboard/assigned-tasks-card-properties.png)
 
@@ -159,7 +160,7 @@ The Events card is tied to the SharePoint Events web part. Site owners and membe
 :::image type="content" source="../media/connections/events-card-demo.png" alt-text="Screenshot demonstrating the Events card as it displays upcoming events." lightbox="../media/connections/events-card-demo.png":::
 
 > [!NOTE]
-> Recurring events are not supported, even if you manually set up a recurrence in the events list that you are using. You'll need to create a new event for each occurrence.
+> Recurring events aren't supported, even if you manually set up a recurrence in the events list that you're using. You need to create a new event for each occurrence.
 
 1. While in edit mode, select **+ Add a card** from the dashboard.
 
@@ -180,8 +181,8 @@ The Events card is tied to the SharePoint Events web part. Site owners and membe
    > [!NOTE]
    >
    > - When you choose **Select sites**, you can search for the site you want to add, or select one or more sites from **Frequent sites**, or **Recent sites**. You can select up to 30 sites.
-      >   - The **Select sites** option is not available in SharePoint Server, U.S. Government GCC High and DoD, and Office 365 operated by 21Vianet.
-   > - If there is more than one **events list** on the site, you can select the one you want. If you don't have an existing list, the **Events** card creates an empty Events list for you, with the default settings of a Calendar list.
+      >   - The **Select sites** option isn't available in SharePoint Server, U.S. Government GCC High and DoD, and Office 365 operated by 21Vianet.
+   > - If there's more than one **events list** on the site, you can select the one you want. If you don't have an existing list, the **Events** card creates an empty Events list for you, with the default settings of a Calendar list.
    > - If you choose to show events from multiple sites, and don't see all of your events displayed on the page, see [How events from multiple sites are found and displayed](https://support.microsoft.com/office/51891403-0ff7-44ab-b364-a44e86e50573).
 
 7. If your list has **categories**, you can select one by which to filter the events you show.
@@ -199,6 +200,30 @@ The Events card is tied to the SharePoint Events web part. Site owners and membe
     :::image type="content" source="../media/connections/events-card-audience-targeting.png" alt-text="Screenshot of the audience targeting section in the Events card properties pane.":::
 
 11. When finished with your selection, you can close the panel. Your settings will autosave.
+
+### Add the My Sites card
+
+Add the My Sites card to provide users links to their frequently visited or followed SharePoint sites in an easily accessible list.
+
+   :::image type="content" source="../media/connections/available-dashboard-cards/my-sites-card-demo.png" alt-text="Screenshot of the My Sites card as it displays a list of frequently accessed SharePoint sites." lightbox="../media/connections/available-dashboard-cards/my-sites-card-demo.png":::
+
+1. While in edit mode, select **+ Add a card** from the dashboard.
+
+2. Select **My Sites** from the dashboard toolbox.
+
+   :::image type="content" source="../media/connections/available-dashboard-cards/my-sites-card-icon-border.png" alt-text="Screenshot of the My Sites card icon":::
+
+3. Select the **edit pencil** to the left of the card to open the properties pane for the My Sites card.
+
+4. Enter a **Title** for the card.
+
+5. Choose your card size from the **Card size** drop-down list.
+
+6. To change the card image, select **Change**, then select an image or upload your own.
+
+7. To target your card to specific audiences (that is, the card only displays in the dashboard to the audience you specify), select one or more groups to target. For more information on audience targeting, see [Audience targeting](create-dashboard.md#apply-audience-targeting-to-cards).
+
+   :::image type="content" source="../media/connections/available-dashboard-cards/my-sites-card-properties.png" alt-text="Screenshot of the My Sites card properties panel." lightbox="../media/connections/available-dashboard-cards/my-sites-card-properties.png":::
 
 ### Add the News card
 
@@ -293,8 +318,9 @@ You can create a dashboard card using Power Apps for use in Viva Connections. De
 
 > [!NOTE]
 >
-> - You will need a [Power Apps](/power-apps/powerapps-overview) account and have [created a card in Power Apps](/power-apps/cards/tutorials/hello-world-card) in order to bring one into Viva Connections.
-> - Only cards based on the [Dataverse connector](/power-apps/cards/make-a-card/connectors/connector-intro) are supported
+> - You'll need a [Power Apps](/power-apps/powerapps-overview) account and have [created a card in Power Apps](/power-apps/cards/tutorials/hello-world-card) in order to bring one into Viva Connections.
+> - Only cards based on the [Dataverse connector](/power-apps/cards/make-a-card/connectors/connector-intro) are supported.
+> - All Viva Connections users need to have the Basic User security role in the Power Apps environment where the card is created.
 
 1. Access your [Power Apps account](https://make.powerapps.com/) to create your card. For more information about cards for Power Apps, see  [the overview documentation](/power-apps/cards/overview).
 
@@ -306,7 +332,7 @@ You can create a dashboard card using Power Apps for use in Viva Connections. De
 
    > [!NOTE]
    >
-   > If you are updating a Power App card that was previously enabled and added to Viva Connections, the new version will be auto updated in Viva Connections once enabled.
+   > If you're updating a Power App card that was previously enabled and added to Viva Connections, the new version will automatically update in Viva Connections once enabled.
 
 4. Copy the **URL** for your card.
 
@@ -392,10 +418,6 @@ The Shifts card shows users information about their next or current shift from t
 
 The Stream playlist card displays a list of videos to users that can be viewed in Microsoft Stream by selecting an existing playlist from a SharePoint site. For more information, see the article on [creating a playlist from SharePoint](/stream/streamnew/stream-playlists-new-creation#create-a-playlist-from-sharepoint).
 
-> [!NOTE]
->
-> The Stream playlist card is currently rolling out and will be fully available by early September 2024.
-
 :::image type="content" source="../media/connections/create-dashboard/stream-playlist-demo.png" alt-text="Screenshot showing the Stream playlist card in action.":::
 
 1. While in edit mode, select **+ Add a card** from the dashboard.
@@ -473,7 +495,7 @@ Partner cards and an entry point to browse more cards in the app store will auto
 
 > [!NOTE]
 >
-> - Site owners managing the Viva Connections dashboard will need to request partner apps before they are available in the card toolbox.
+> - Site owners managing the Viva Connections dashboard will need to request partner apps before they're available in the card toolbox.
 > - Some partner apps require a service plan agreement with your organization.
 
 :::image type="content" alt-text="This screenshot is of the card toolbox section that displays partner cards." source="../media/connections/partner-card-toolbox.png":::
