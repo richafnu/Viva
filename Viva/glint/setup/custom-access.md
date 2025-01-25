@@ -14,7 +14,7 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 11/26/2024
+ms.date: 01/16/2025
 ---
 
 # Custom data access in Viva Glint
@@ -88,7 +88,7 @@ To prepare your exported custom access file for import to Advanced Configuration
       - Include columns for all Manager Level fields populated with manager IDs to build the full manager hierarchy path. To get all levels in this past hierarchy path for an old manager team, [export users from the survey cycle](/viva/glint/setup/glint-data-apps#export_users_from_survey_cycle) and copy Manager Level fields and the manager IDs in them.
    - **A level in a non-Manager hierarchy**:
       - Include all levels above the level the user should have access to. Example: To grant access to Location Hierarchy Level 3 = Dublin, include columns for Region, Country, and City.
-7. Save your file in .csv format with a comma separator and UTF-8 encoding.
+7. Save your file in .csv format with a comma separator and UTF-8 encoding (Viva Glint accepts UTF-8 and UTF-8 with BOM encoding).
 
 ### Example
 
@@ -101,7 +101,7 @@ To apply the same custom access for creating Focus Areas, update the access type
 :::image type="content" source="../../media/glint/setup/custom-access-export-focus-area3.png" alt-text="Screenshot of a custom access export for a user with customized focus area access.":::
 
 > [!IMPORTANT]
-> Save your edited file as **.csv with a comma separator and UTF-8 encoding**.
+> Save your edited file as **.csv with a comma separator and UTF-8 or UTF-8 with BOM encoding**.
 
 ## Upload custom access in Advanced Configuration
 

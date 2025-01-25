@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 06/18/2024
+ms.date: 01/13/2025
 ---
 
 # The Viva Glint Alerts report and Attrition Risk Index
@@ -32,11 +32,11 @@ The Alerts report is found on the **Reports** tab of the admin dashboard. Alerts
 ## Select attributes in General Settings to generate an Alerts report
 
 >[!IMPORTANT]
->Attributes must be preselected in [General Settings](https://go.microsoft.com/fwlink/?linkid=2230744) for an Alerts report to generate. Create alerts based on specific user attribute combinations. If no attributes are selected, no alerts are created.
+>Attributes must be preselected in [General Settings](/../../viva/glint/setup/manage-general-settings) for an Alerts report to generate. Create alerts based on specific user attribute combinations. If no attributes are selected, no alerts are created.
 
-:::image type="content" source="../../media/glint/reports/reports-alerts-attributes.png" alt-text="Screenshot of the dropdown box in General Settings to choose attributes that will trigger Alert reporting." lightbox="../../media/glint/reports/reports-alerts-attributes.png":::
+:::image type="content" source="../../media/glint/reports/reports-alerts-attributes.png" alt-text="Screenshot of the attribute dropdown box in General Settings that triggers Alert reporting." lightbox="../../media/glint/reports/reports-alerts-attributes.png":::
 
-Populations are defined by the attributes in your Employee Attribute File. The alerts algorithm searches for patterns within single attributes (for example, Team: Sales > Corporate Sales) and combinations of attributes (for example, gender and tenure > 5 years). If a population or demographic group has scores for items that are statistically significant, that group is tagged for an alert.
+Populations are defined by the attributes in your Employee Attribute File. The Alerts algorithm searches for patterns within single attributes (for example, Team: Sales > Corporate Sales) and combinations of attributes (for example, gender and tenure > 5 years). If a population or demographic group has scores for items that are statistically significant, that group is tagged for an Alert.
 
 Configure which demographic attributes are used by the alerts algorithm:
 
@@ -48,7 +48,7 @@ Configure which demographic attributes are used by the alerts algorithm:
 
 Example #1:
 
-If all the subpopulations in Engineering have low scores on *Purpose* and *Role*, but one subpopulation of Engineering (for example, *Engineering & Tenure > 5 years*) has low scores for *Career*, then two Alert populations will be visible:
+If all the subpopulations in Engineering have low scores on *Purpose* and *Role*, but one subpopulation of Engineering (for example, *Engineering & Tenure > 5 years*) has low scores for *Career*, then two Alert populations are visible:
 
 - Engineering for both questions – *Purpose and Role*
 - Engineering & Tenure > 5 years for the question on Career
@@ -68,26 +68,23 @@ Glint can predict the effect of score differences and overall response profiles 
 
 Populations identified with elevated attrition risk are those that show a higher future attrition rate than your company's average.
 
-Based on extensive cross-validation studies, when using our standard survey questions/items, risk alerts have a precision of at least 80% and in many cases, even higher. If a population is flagged for elevated attrition risk, there is at least an 80% chance that attrition will be elevated.
+Based on extensive cross-validation studies, when using our standard survey questions/items, risk alerts have a precision of at least 80% and in many cases, even higher. If a population is flagged for elevated attrition risk, there is at least an 80% chance that attrition is elevated.
 
-The model uses Glint standard items in making predictions to allow for the most useful information to be available. Outcome items - eSat and Recommend - are immensely powerful and are a proxy for many insights, so a minimal set of items should include at least eSat and Recommend.
+The model uses Glint standard items in making predictions to allow for the most useful information to be available. Outcome items -eSat and Recommend- are immensely powerful and are a proxy for many insights, so a minimal set of items should include at least eSat and Recommend.
 
 >[!TIP]
 > Regularly incorporate the Alerts report into your Viva Glint dashboard.
-
->[!NOTE]
->The Elevated Attrition Risk model was updated in October 2022.
 
 ## Set up the Alerts report
 
 Configure which demographic attributes you want to include in **Alerts** from **General Settings** on the admin dashboard. To configure them initially, or to change them over time:
 
 1. Navigate to **Reporting,** then **Attributes for Alerts.**
-2. From the attributes you have preselected in your Employee Attribute File, narrow down to those items *most important to attrition risk* within your organization.
+2. From the attributes preselected in your Employee Attribute File, narrow down to those items *most important to attrition risk* within your organization.
     - Use the Search box to add attributes.
     - Delete attributes by choosing the **X** next to those you don't want on the report.
 
     > [!TIP]
-    > Select only attributes that are necessary for Alerts, such as important hierarchies, tenure, and generation. Avoid  attributes with many values that can't be grouped, such as hire date, birth date and manager email. Using all attributes doesn't surface helpful insights.
+    > Select only attributes that are necessary for Alerts, such as hierarchies, tenure, and generation. Avoid  attributes with many values that can't be grouped, such as hire date, birth date and manager email. Using all attributes doesn't surface helpful insights.
 
 3. Select thresholds for the minimum population size (default is 20 respondents) and the minimum score differences (default is eight points) that qualifies for an alert. You may choose not to see alerts for populations smaller than 25 respondents or score differences smaller than 10 points. Filter the populations by size, using the slider in the Alerts report.

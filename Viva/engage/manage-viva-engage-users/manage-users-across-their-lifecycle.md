@@ -78,7 +78,7 @@ Beginning in March 2019, we changed how Viva Engage users are created. The proce
     
     2. The user signs in to Microsoft 365 using the identity provider configured for the tenant.
     
-    3. The user selects the Viva Engage tile in the Microsoft 365 app launcher to go to Viva Engage.
+    3. The user selects the Viva Engage tile in Microsoft 365 Copilot to go to Viva Engage.
     
     4. A new Viva Engage user is created for the Microsoft 365 user. The user's profile properties and language setting from Microsoft Entra ID are automatically populated in the user's Viva Engage profile.
 

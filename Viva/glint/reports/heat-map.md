@@ -14,14 +14,14 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 04/19/2024
+ms.date: 01/15/2025
 ---
 
 # Use the Viva Glint Heat Map Report
 
-The Microsoft Viva Glint Heat Map Report identifies high and low scoring teams on engagement and other key drivers and can be filtered by attributes within your Glint Employee Data File.
+The Microsoft Viva Glint Heat Map Report identifies high and low scoring teams on engagement and other key drivers. It is filterable by attributes within your Glint Employee Data File.
 
-The Heat Map Report is useful for HRBPs, admins, or any senior leader who would benefit from looking across multiple groups for comparisons.
+The Heat Map Report is useful for Human Resource Business Partners (HRBPs), admins, or any senior leader who would benefit from looking across multiple groups for comparisons.
 
 :::image type="content" source="../../media/glint/reports/heat-map-access.png" alt-text="Screenshot of the Heat Map Report access card within the Reporting tab on the admin dashboard.":::
 
@@ -30,7 +30,7 @@ The Heat Map Report is useful for HRBPs, admins, or any senior leader who would 
  >[!NOTE]
 > Heat Map results are only available when confidentiality thresholds are met.
 
-Heat maps are sorted so that it’s easy to find patterns. The rows at the top typically tend to have higher scores across the majority of teams, while the columns on the left represent teams with lower scores across the majority of drivers. Heat Maps are interactive and display scores for each question broken down by demographic attributes – (for example: team, location, or tenure). Use Heat maps to quickly and easily spot patterns and outliers.
+Heat maps are sorted so that it’s easy to find patterns. The first rows typically have higher scores across the most teams.  The left columns represent teams with lower scores across the most drivers. Heat Maps are interactive and display scores for each question broken down by demographic attributes – (for example: team, location, or tenure). Use Heat maps to quickly and easily spot patterns and outliers.
 
 >[!NOTE]
 > Colors indicate high and low scores relative to the median score in the Heat Map.
@@ -51,12 +51,12 @@ The colors in the Heat Map allow quick identification of systemic patterns and o
 
 - The maximum and minimum are always displayed as dark blue and dark red.
 - All scores between the maximum and minimum are evenly bucketed in up to seven different colored buckets, with the median score being shown in the gray middle bucket.
->For example:
-> - If the minimum and maximum scores are 69 and 87, then Glint will create 7 evenly spaced buckets between 52 and 80.
-> - Dark red would be 69-71
-> - Dark blue would be 87-87
-> - Gray would be 77-81 with the other shades being in between
-> - The other color buckets are evenly spaced between the maximum/minimum values.
+For example:
+ - If the minimum and maximum scores are 69 and 87, then Glint will create 7 evenly spaced buckets between 52 and 80.
+ - Dark red would be 69-71
+ - Dark blue would be 87-87
+ - Gray would be 77-81 with the other shades being in between
+ - The other color buckets are evenly spaced between the maximum/minimum values.
 
 Here's an example of that color coding:
 
@@ -67,7 +67,7 @@ Here's an example of that color coding:
 ### Changing the view by score comparisons
 
 The Heat Map defaults to a **Scores view**. You can change your view of the data by selecting the **Settings** button.
-In the *Report Settings* windown that opens, use the *Show* dropdown menu to choose from:
+In the *Report Settings* window that opens, use the *Show* dropdown menu to choose from:
 
 - Scores
 - Changes
@@ -77,14 +77,18 @@ In the *Report Settings* windown that opens, use the *Show* dropdown menu to cho
   
 ### Changing the view by benchmark
 
-In this same window, you can change your internal benchmark comparison: 
-- Company
-- My Teams
-- Average Question
+Viva Glint provides four default options for comparison reporting. In addition to the following four settings, your company may have one or more internal comparisons configured (for example, Division or Business Unit).
+
+|Comparator|Description|When to use|
+|-------|--------|-----------|
+|**Benchmark**|Provides a comparison point for feedback based on survey data compiled from all Viva Glint customers, not just within your organization.| Helpful for admins and first-time survey results analysis|
+|**Company**  | Displays team scores in comparison to company-wide scores for the same questions.| Helpful for users with more than one area of responsibility|
+|**My Teams** | Compares a manager's team score to an overall score derived from a filter.| This setting is the superset of access and is best used with custom access or managers with large organizations|
+|**Average Question** |Presents a single, overall score for all questions and respondents within your access.| Helpful for users looking for some level of variance in their score|
 
 :::image type="content" source="../../media/glint/reports/heat-map-report-settings.png" alt-text="Screenshot of using the Settings button to open the Report Settings window."lightbox= "../../media/glint/reports/heat-map-report-settings.png":::
 
-### Changing the view by adding sections or attributes
+### Add sections or attributes
 
 Heat Maps can be generated for any of the attributes for which you have permission, like location or department.
 
@@ -92,13 +96,13 @@ Select the **More** button to open dropdown and then choose **Add section**. Wit
 
 :::image type="content" source="../../media/glint/reports/heat-map-add-section.png" alt-text="Screenshot of using the More button to open the Add Sections window.":::
 
-### Using the Sort option
+### Use the Sort option
 
 By selecting the **Sort** arrow you have options to sort the questions alphabetically, by score, or by size.  
 
 :::image type="content" source="../../media/glint/reports/heat-map-sort.png" alt-text="Screenshot using the Sort dropdown menu.":::
 
-## Deep diving into a specific cell
+## Deep dive into a specific cell
 
 You can select any cell to drill down into that particular key driver within a team. Let's use this example:
 
@@ -116,11 +120,11 @@ You can select any cell to drill down into that particular key driver within a t
 
 Use the larger report to identify hot spots or low scores, outliers, and bright spots or areas to celebrate.
 
-## How Viva Glint improves report visualization
-To improve report visualization for large customers, the number of columns that show ise capped at 150. 
+## How Glint improves report visualization
+To improve report visualization for large customers, the number of columns that show is capped at 150. 
 If your organization uses more than 150 columns, a message indicates that the onscreen results display 150 columns. To see the full results, users can export the report to a spreadsheet.
 
-## Exporting and sharing Heat Map Report results
+## Export and share Heat Map Report results
 
 Select the **Export and Share** button to open the dropdown menu to choose how you want to export and share your feedback with others.
 
