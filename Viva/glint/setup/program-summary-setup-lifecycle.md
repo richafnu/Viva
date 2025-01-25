@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 10/17/2024
+ms.date: 1/17/2025
 ---
 
 # Use and set up a Viva Glint Employee Lifecycle program
@@ -27,7 +27,7 @@ Lifecycle surveys are a comprehensive approach to understanding the employee exp
 
 ## Cross-program intelligence
 
-The pimpact of Lifecycle surveys is apparent when you introduce the concept of cross-program intelligence.  Cross-program intelligence in Viva Glint allows for a comprehensive analysis of employee feedback across various programs such as Engagement, Onboarding, and Exit. This holistic approach enables organizations to identify patterns and correlations that might not be apparent when looking at individual programs in isolation. 
+The impact of Employee Lifecycle surveys is apparent when you introduce the concept of **cross-program intelligence.**  Cross-program intelligence in Viva Glint allows for a comprehensive analysis of employee feedback across various programs such as Engagement, Onboarding, and Exit. This holistic approach enables organizations to identify patterns and correlations that might not be apparent when looking at individual programs in isolation. 
  
 Interconnected analysis provides value by offering insights across the entire employee lifecycle. It helps HR and senior leaders understand the full impact of their programs and initiatives on employee satisfaction and retention. By examining feedback across multiple programs, organizations can pinpoint critical intervention points and make data-driven decisions to enhance the employee experience.  
 

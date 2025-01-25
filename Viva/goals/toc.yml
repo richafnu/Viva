@@ -210,9 +210,9 @@ items:
   - name: Determine your rollout plan
     href: determine-your-rollout-plan.md
   
-- name: Copilot in Viva Goals
+- name: Microsoft 365 Copilot in Viva Goals
   items:
-  - name: Introduction to Copilot in Viva Goals
+  - name: Introduction to Microsoft 365 Copilot in Viva Goals
     href: copilot-intro.md
        
 - name: Use Viva Goals and discover best practices

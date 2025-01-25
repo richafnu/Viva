@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 08/06/2024
+ms.date: 01/22/2025
 ---
 
 # Viva Glint employee attribute fundamentals
@@ -76,8 +76,8 @@ Optional system attributes are values that indicate how and when communications 
 |User Timezone|The time zone in which survey communications are sent.  |
 |Personal Email|Users' personal email addresses that can be used to survey exiting employees. Select Company and Personal Email in the Communications section of your survey program.  |
 
->[!NOTE]
-> Time zone and language values are case sensitive and must be sent exactly as they appear. Employee records with blank or invalid time zone or language values receive communications in your organization’s default time zone and language.  
+> [!IMPORTANT]
+> - Send language and time zone values exactly as they appear in related tabs in the [Employee Attribute Template](https://www.microsoft.com/en-us/download/details.aspx?id=105533). Users with blank or invalid values receive and access surveys/emails/dashboards in your organization's default selection in General Settings.
 
 ### Time zones
 
@@ -86,6 +86,9 @@ Global companies often include a time zone attribute column in their Employee At
 ### Languages
 
 Use the Language Codes tab on the [Employee Attribute Template](https://www.microsoft.com/en-us/download/details.aspx?id=105533) to find language values that trigger survey emails in an employee’s preferred language. Ensure that you include a Language column in your Employee Attribute File. Before a survey launches, ensure that all employees have a valid value attached to their records.
+
+> [!IMPORTANT]
+> See the Language Codes tab of the [Employee Attribute Template](https://www.microsoft.com/en-us/download/details.aspx?id=105533) for changes to supported languages and codes effective April 10, 2025. 
 
 If you also supply language values to indicate users’ dashboard languages (for users who view reports), include a separate column (example: Dashboard Language).
 

@@ -14,7 +14,7 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 12/11/2024
+ms.date: 1/16/2024
 ---
 
 # Use Viva Glint's Focus Area Overview report
@@ -22,7 +22,7 @@ ms.date: 12/11/2024
 The Microsoft Viva Glint Focus Areas Overview report provides a completion status for Focus Areas across teams. The report provides critical insights and easy access to other details.  
 
 >[!IMPORTANT]
->Your organization may use the word "goal" rather than our standard term "Focus Areas." For this reason, the verbiage and images on this guidance may not match exactly with your dashboard.
+>Your organization may use the word "goal," rather than our standard term "Focus Areas." For this reason, the verbiage and images on this guidance may not match exactly with your dashboard.
 
 ## Learn from Viva People Science methodology
 
@@ -33,7 +33,7 @@ Initiating and managing action after a survey can be an unclear process. Focused
 
 ## Grant permission for managers to view the Focus Area Overview report 
 
-Access is approved to the roles with **View Focus Areas Reports** within the *Reporting* section of *Manager Permissions and Access* in **User Roles** on the admin dashboard. The scope of the report respects access at a per-person level. 
+Access is approved to the roles with **View Focus Areas Reports** within the **Reporting** section of **Manager Permissions and Access** in **User Roles** on the admin dashboard. The scope of the report respects access at a per-person level. 
 
 :::image type="content" source="../../media/glint/reports/reporting-view-focus-area-reports.png" alt-text="Screenshot of where to grant permissions for roles to see Focus Area reports.":::
 
@@ -41,8 +41,8 @@ Access is approved to the roles with **View Focus Areas Reports** within the *Re
 
 From the admin dashboard, follow this procedure: 
 
-1. From the top menu bar, select the **Reports** tab. 
-1. In the left-most column of the *Reports* page, select **Focus Area Overview**.  
+1. From the menu bar, select the **Reports** tab. 
+1. From a column on the **Reports** page, select **Focus Area Overview**.  
 
    :::image type="content" source="../../media/glint/reports/focus-areas-from-reports.png" alt-text="Screenshot showing the Reports tab in the admin dashboard, highlighting the Focus Area Overview option.":::
 
@@ -72,8 +72,8 @@ Use this table to understand report sections and descriptions.
 ## Exporting Focus Area report data  
 
 You can export Focus Area data from two different paths: 
-- From the Focus Area Overview report
-- From the admin dashboard
+- From the Focus Area Overview report,
+- From the admin dashboard.
 
 ### Export data from the Focus Area Overview report 
 
@@ -93,7 +93,7 @@ Use the **Export** menu to choose your export option.
 ## Items the Focus Area Overview report includes 
 
 - Employee email 
-- Employee first and last name 
+- Employee first and family name 
 - Employee Focus Area 
 - Employee goal period 
 - Focus Area windows and due dates 

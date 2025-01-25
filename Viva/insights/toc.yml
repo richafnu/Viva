@@ -194,7 +194,7 @@ items:
               href: advanced/analyst/templates/wellbeing.md
             - name: Power BI tips, FAQ, and troubleshooting
               href: advanced/analyst/templates/power-bi-faq-troubleshoot.md  
-          - name: Set up your queries using Copilot 
+          - name: Set up your queries using Microsoft 365 Copilot in Viva Insights 
             href: advanced/analyst/copilot-query.md
           - name: Publish reports
             href: advanced/analyst/publish-reports.md
@@ -226,7 +226,7 @@ items:
             href: advanced/reference/metrics.md
           - name: Supported languages
             href: advanced/reference/supported-languages.md 
-      - name: Microsoft 365 Copilot
+      - name: Microsoft 365 Copilot in Viva Insights
         items:
         - name: Connect to the Copilot Dashboard
           href: org-team-insights/copilot-dashboard.md
@@ -234,7 +234,7 @@ items:
           href: org-team-insights/delegate-access.md   
         - name: Manage settings for the Copilot Dashboard
           href: advanced/admin/manage-settings-copilot-dashboard.md
-        - name: Set up analyst queries using Copilot 
+        - name: Set up analyst queries using Microsoft 365 Copilot in Viva Insights 
           href: advanced/analyst/copilot-query.md
         - name: Microsoft 365 Copilot adoption report
           href: advanced/analyst/templates/microsoft-365-copilot-adoption.md   
