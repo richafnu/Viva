@@ -3,7 +3,7 @@ title: Use Advanced Configuration Data Apps
 description: For highly trained users, Microsoft Viva Glint Advanced Configuration Data Apps offer the ability to perform complex data updates and export recipients for closed surveys. 
 ms.author: aweixelman
 author: AliciaWeixelman
-manager: skaradzic
+manager: melissabarry
 audience: admin
 f1.keywords: NOCSH
 keywords: advanced configuration, data app, retroactive update, export users
@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 12/19/2024
+ms.date: 01/16/2025
 ---
 
 # Use Advanced Configuration Data Apps
@@ -58,7 +58,7 @@ If your update doesn't involve Manager Hierarchy, use the [Retroactive Upload](a
 
 Use these steps when manager reporting lines need to be corrected for a closed survey.
 
-1. Export current employee data from the Glint People page to preserve employees and Manager IDs in their current state. When the retroactive update is complete, you'll reload this data to reset users to their current information.
+1. Export current employee data from the Glint People page to preserve employees and Manager IDs in their current state. When the retroactive update is complete, reload this data to reset users to their current information.
 1. Export survey cycle data with the EXPORT_USERS_FROM_SURVEY_CYCLE Data App for the survey needs to be updated.
 
    > [!NOTE]
@@ -80,7 +80,7 @@ Use these steps when manager reporting lines need to be corrected for a closed s
       8. All date fields, like Hire and Term Date.
       9. Columns use to create derived attributes. Go to the **People** page and select **Manage User Attributes** from the **Actions** menu to view **Derived Attributes**. Keep the fields listed in the **Calculated From** section. 
    1. Correct values for users that should have their Manager ID updated.
-   1. Save your edited file with corrected values as a .csv or .xlsx file.
+   1. Save your edited file with corrected values as a .csv (with UTF-8 or UTF-8 with BOM encoding) or .xlsx file.
 1. Go to **Configuration** and select **People** and choose the **Import** option.
    1. Leave the **Checking this box will update ALL employee records** setting **unselected**.
    1. Drag your update file to this window or select the **browse to choose a file** option to select it.

@@ -27,7 +27,7 @@ The report summary page provides an overview of the total number of active Copil
 * Teams chat
 * Email
 * Documents
-* Business Chat (work)
+* Microsoft 365 Copilot Chat (work)
 
 Each of these sections allows the user to evaluate how collaboration patterns have changed after employees started using Copilot. It also provides comparisons between Copilot and non-Copilot users across groups. 
 
