@@ -47,7 +47,7 @@ From the Glint admin dashboard, select the **Configuration** symbol and then **U
 
 ## Add members to a 360 User Role
 
-To manually add a person to a new role, scroll down to the Search bar in the **All Members** section. Begin to type the name of the person you are searching for and then select it. Now you see your unique 360 User Role in **All Members**.
+To manually add a person to a new role, scroll down to the Search bar in the **All Members** section. Begin to type the name of the person you're searching for and then select it. Now you see your unique 360 User Role in **All Members**.
 
 :::image type="content" source="../../media/glint/setup/all-members.png" alt-text="Screenshot of an employee name added to the All Members role list.":::
  
