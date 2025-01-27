@@ -6,7 +6,9 @@ author: zachminers
 ms.author: v-zachminers
 ms.topic: article
 ms.localizationpriority: medium 
-ms.collection: viva-insights-advanced 
+ms.collection:
+ - viva-insights-advanced
+ - magic-ai-copilot
 ms.service: viva-insights
 search.appverid: 
 - MET150 
