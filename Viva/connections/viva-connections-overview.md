@@ -184,10 +184,6 @@ The desktop and mobile experiences are centered around the three main components
 
 Accessing Viva Connections from a tablet or mobile device features a more compact experience for the three components and uses tabs to make it easier to scroll through content.
 
-> [!NOTE]
->
-> The spotlight will not display in the mobile experience at this time. A future update is planned to bring this feature to mobile.
-
 ### The Viva Connections desktop experience
 
 Accessing Viva Connections via Teams, SharePoint home page, or [Viva Suite home website](https://viva.cloud.microsoft/) provides a consistent experience through multiple entry points.
@@ -229,10 +225,8 @@ Accessing Viva Connections via Teams, SharePoint home page, or [Viva Suite home 
 ### The Viva Connections mobile experience
 
 The experience in the Viva Connections mobile app is anchored around three key concepts: the dashboard, the feed, and resources.
-<br>
-<br>
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4TpyN title="Viva Connections on any device"]
+:::image type="content" source="../media/connections/viva-connections-overview/mobile-dashboard.png" alt-text="Screenshot showing the dashboard tab on the Viva Connections mobile app." lightbox="../media/connections/viva-connections-overview/mobile-dashboard.png":::
 
 ## Curated and tailored experiences
 
