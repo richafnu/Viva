@@ -39,7 +39,7 @@ From the Glint admin dashboard, select the **Configuration** symbol and then **U
 6.	Select **Create 360s**.
 7.	Select **Save Changes**.
 
-	:::image type="content" source="../../media/glint/setup/confirm-unique-360-admin.png" lightbox="../../media/glint/setup/confirm-unique-360-admin.png" alt-text="Screenshot of confirming the addition of a unique 360 admin to User Roles":::
+	:::image type="content" source="../../media/glint/setup/confirm-unique-360-admin-2.png" lightbox="../../media/glint/setup/confirm-unique-360-admin-2.png" alt-text="Screenshot of confirming the addition of a unique 360 admin to User Roles":::
 
 8. In the **Confirm your changes to Permissions** dialog box, select **Save Permissions.**
 
