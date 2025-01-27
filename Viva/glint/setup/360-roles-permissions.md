@@ -21,7 +21,7 @@ ms.date: 1/27/2025
 
 By default, Viva Glint administrators have access to create and edit all Glint programs, including 360s. You may, however, choose to create a unique User Role with exclusive 360 admin permissions. And, in addition to any unique 360 admin role, other people in your organization need access to 360 feedback. Use this guidance to grant feedback permissions for other User Roles.
 
-## Create a unique 360 admin
+## Create a unique 360 admin role
 
 > [!IMPORTANT]
 > You can have more than one Glint 360 admin, but the best practice is to limit your total number of unique 360 admins to just a few.
