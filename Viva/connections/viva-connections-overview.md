@@ -296,7 +296,7 @@ Depending on the size of your organization and the information to communicate, y
 
 > [!NOTE]
 >
-> - SharePoint home sites are now set in the Microsoft admin center and can be setup when you create a Viva Connections experience that builds off an intranet portal.
+> - SharePoint home sites are now set in the Microsoft admin center and can be set up when you create a Viva Connections experience that builds off an intranet portal.
 > - You must have an Enterprise (E), Frontline (F), or Academic (A) license type to create a Viva Connections experience.
 > - Users with a Microsoft 365 subscription (E, F, or A license) are limited to creating and using one experience. If you want to create or use two or more experiences (up to 50), then every user in your tenant must have a Microsoft Viva Suite or Viva Communications and Communities license. See [Microsoft Viva plans and pricing](https://www.microsoft.com/microsoft-viva/pricing) for more info.
 
