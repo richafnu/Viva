@@ -166,7 +166,7 @@ Discover [more card options from partner services](https://cloudpartners.transfo
 
 ### Viva Connections resources
 
-Resources are navigational links that can be set up and customized both from the Teams app and web experience for Viva Connections. Once set up, theses resources are displayed on the desktop, web, and mobile experiences of Viva Connections. They include customized links from any URL, whether it's external to your organization or internal to organization. Links can be further customized by applying audience targeting to each link.
+Resources are navigational links that can be set up and customized both from the Teams app and web experience for Viva Connections. Once set up, these resources are displayed on the desktop, web, and mobile experiences of Viva Connections. They include customized links from any URL, whether it's external to your organization or internal to organization. Links can be further customized by applying audience targeting to each link.
 
 Organizations with a [SharePoint home site](home-site-plan.md) that created a [global navigation bar](sharepoint-app-bar.md) can also provide users with links to resources. The global navigation bar can only be accessed outside SharePoint by users through the Viva Connections app on Microsoft Teams by selecting the organizations logo on the Teams app rail. Links from the Global Navigation bar can also be [imported into the Resources section](edit-viva-home.md#import-sharepoint-links) of Viva Connections.
 
@@ -296,7 +296,7 @@ Depending on the size of your organization and the information to communicate, y
 
 > [!NOTE]
 >
-> - SharePoint home sites are now set in the Microsoft admin center and can be setup when you create a Viva Connections experience that builds off an intranet portal.
+> - SharePoint home sites are now set in the Microsoft admin center and can be set up when you create a Viva Connections experience that builds off an intranet portal.
 > - You must have an Enterprise (E), Frontline (F), or Academic (A) license type to create a Viva Connections experience.
 > - Users with a Microsoft 365 subscription (E, F, or A license) are limited to creating and using one experience. If you want to create or use two or more experiences (up to 50), then every user in your tenant must have a Microsoft Viva Suite or Viva Communications and Communities license. See [Microsoft Viva plans and pricing](https://www.microsoft.com/microsoft-viva/pricing) for more info.
 
