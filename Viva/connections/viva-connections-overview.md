@@ -72,7 +72,7 @@ Use the [quick guide to set up Viva Connections](set-up-admin-center.md) or get 
 >
 > - A home site is not a requirement for setting up Viva Connections, but some organizations may choose to use a home site in addition to Viva Connections to provide a secondary landing experience that’s more focused on organizational content. [Learn more about home sites and how they complement Viva Connections](#how-sharepoint-home-sites-and-viva-connections-work-together).
 
-## Components of Viva Connections
+## Components to Viva Connections
 
 Viva Connections is composed of three primary components - the feed, the dashboard, and resources. All components can be accessed from the desktop, tablet, or mobile versions of the Microsoft Teams app, through your company’s SharePoint home site, or by using the [Viva Suite home](https://viva.cloud.microsoft/) website.
 
