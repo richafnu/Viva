@@ -228,6 +228,8 @@ The experience in the Viva Connections mobile app is anchored around three key c
 
 :::image type="content" source="../media/connections/viva-connections-overview/mobile-dashboard.png" alt-text="Screenshot showing the dashboard tab on the Viva Connections mobile app." lightbox="../media/connections/viva-connections-overview/mobile-dashboard.png":::
 
+For more detailed information, see the article on [Viva Connections on mobile devices](https://support.microsoft.com/office/753e0607-0bfd-4712-ad7e-18490dd565a2).
+
 ## Curated and tailored experiences
 
 Viva Connections gives you and your content creators the tools for both curated and tailored experiences. A curated experience is one in which the user sees content chosen by a site owner or author. For example, a site owner controls the content used on the site and whether the content is audience targeted. [Audience targeting](use-audience-targeting-in-viva-connections.md) is accomplished using [Microsoft Entra ID](/azure/active-directory/fundamentals/new-name) groups for card-level targeting in the dashboard and menu-item targeting in the global navigation.
@@ -240,9 +242,7 @@ A tailored experience is one in which content is automatically displayed accordi
 
 - **Dashboard (curated)**: A dashboard author controls the curation of the dashboard and can target each card on the dashboard to specific audiences using existing Microsoft Entra ID groups. This allows dashboard authors to create different experiences for each group. And because Viva Connection uses Microsoft Entra ID groups, authors benefit from dynamic group memberships to reduce administrative overhead. Authors can easily preview what the dashboard looks like across devices and audiences.
 
-- **Resources (curated)**: The list of sites on the resources experience in mobile is controlled by a resource author who generates links for the organization and enables audience targeting so that users in different groups see relevant navigation items. Links from the Global Navigation bar can also be [imported into the Resources section](edit-viva-home.md#import-sharepoint-links) of Viva Connections.
-
-<br>
+- **Resources (curated)**: The list of sites on the resources experience in mobile is controlled by a resource author who generates links for the organization and enables audience targeting so that users in different groups see relevant navigation items.
 
 |Capability name |Curated vs. tailored  |Details  |
 |---------|---------|---------|
