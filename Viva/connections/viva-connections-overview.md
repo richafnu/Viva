@@ -72,7 +72,7 @@ Use the [quick guide to set up Viva Connections](set-up-admin-center.md) or get 
 >
 > - A home site is not a requirement for setting up Viva Connections, but some organizations may choose to use a home site in addition to Viva Connections to provide a secondary landing experience that’s more focused on organizational content. [Learn more about home sites and how they complement Viva Connections](#how-sharepoint-home-sites-and-viva-connections-work-together).
 
-## Components to Viva Connections
+## Components of Viva Connections
 
 Viva Connections is composed of three primary components - the feed, the dashboard, and resources. All components can be accessed from the desktop, tablet, or mobile versions of the Microsoft Teams app, through your company’s SharePoint home site, or by using the [Viva Suite home](https://viva.cloud.microsoft/) website.
 
@@ -166,7 +166,7 @@ Discover [more card options from partner services](https://cloudpartners.transfo
 
 ### Viva Connections resources
 
-Resources are navigational links that can be set up and customized both from the Teams app and web experience for Viva Connections. Once set up, theses resources are displayed on the desktop, web, and mobile experiences of Viva Connections. They include customized links from any URL, whether it's external to your organization or internal to organization. Links can be further customized by applying audience targeting to each link.
+Resources are navigational links that can be set up and customized both from the Teams app and web experience for Viva Connections. Once set up, these resources are displayed on the desktop, web, and mobile experiences of Viva Connections. They include customized links from any URL, whether it's external to your organization or internal to organization. Links can be further customized by applying audience targeting to each link.
 
 Organizations with a [SharePoint home site](home-site-plan.md) that created a [global navigation bar](sharepoint-app-bar.md) can also provide users with links to resources. The global navigation bar can only be accessed outside SharePoint by users through the Viva Connections app on Microsoft Teams by selecting the organizations logo on the Teams app rail. Links from the Global Navigation bar can also be [imported into the Resources section](edit-viva-home.md#import-sharepoint-links) of Viva Connections.
 
