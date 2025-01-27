@@ -53,18 +53,23 @@ To manually add a person to a new role, scroll down to the Search bar in the **A
  
 For more information on adding User Roles, [see this guidance](/../../viva/glint/setup/set-up-user-roles).
 
-## Add subjects and feedback providers
+## Give subjects and feedback providers access to the Feedback tab
 
-Subjects and feedback providers participating in 360s need access to the **Feedback** tab on their Glint dashboard. 
-To create a new role for 360 subjects, follow these steps:
+Subjects and leaders involved in 360s need access to the **Feedback tab** on their Glint dashboard. It’s optional to grant feedback providers access to the Feedback tab. Granting access enables users to log in and view any open or historical requests to provide feedback to a 360 subject.
+
+Subject use of the feedback tab includes the ability to:
+- See all active feedback requests 
+- Add or edit feedback providers 
+- Complete their self-assessment 
+- View who responded to their 360 cycle, if the admin provided this permission
+- Review all completed feedback history
+
+### Procedure to enable feedback tab access: 
+
+1. From the **Configuration** page of your admin dashboard, select **User Roles** in the **Employees** section.
+1. Select the name of the User Role to have permissions. This role can be a previously created or newly created role just for 360s.
+1. Choose **Permissions**.
+1. **Access 360 Feedback** must be checked in additon to whatever other permissions the role is granted.
 
 
-
-For Subjects, "Access 360 Feedback" gives them access to:
-See all completed feedback history
-See all active feedback requests
-Add or edit feedback providers
-Complete their self-assessment
-View who responded to their 360 cycle, if enabled
-For Feedback providers, it is optional to grant them access to the Feedback tab.
 
