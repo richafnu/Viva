@@ -33,15 +33,12 @@ From the Glint admin dashboard, select the **Configuration** symbol and then **U
 
     :::image type="content" source="../../media/glint/setup/360-unique-manager-role-2.png" alt-text="Screenshot of naming a unique 360 admin User Role.":::
    
-1.	Select **Permissions** and scroll down to the **Feedback** section of the page.
-4.  Enable **Access 360 feedback**.
-5.	Select **Manage Feedback** to allow anyone in this role to edit 360 programs.
-6.	Select **Create 360s**.
-7.	Select **Save Changes**.
-
-	:::image type="content" source="../../media/glint/setup/confirm-unique-360-admin-2.png" lightbox="../../media/glint/setup/confirm-unique-360-admin-2.png" alt-text="Screenshot of confirming the addition of a unique 360 admin to User Roles":::
-
-8. In the **Confirm your changes to Permissions** dialog box, select **Save Permissions.**
+1. Select **Permissions** and scroll down to the **Feedback** section of the page.
+4. Enable **Access 360 feedback**.
+5. Select **Manage Feedback** to allow anyone in this role to edit 360 programs.
+6. Select **Create 360s**.
+7. Select **Save Changes**.
+8. In the **Confirm your changes to Permissions** dialog box which opens, select **Save Permissions.**
 
    :::image type="content" source="../../media/glint/setup/confirm-permissions.png" lightbox="../../media/glint/setup/confirm-permissions.png" alt-text="Screenshot of the Confirm your changes to Permissions dialog box.":::
 
