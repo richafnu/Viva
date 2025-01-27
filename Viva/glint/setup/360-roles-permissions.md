@@ -19,7 +19,7 @@ ms.date: 1/27/2025
 
 # Viva Glint 360 User Role creation and feedback access
 
-By default, Viva Glint administrators have access to create and edit all Glint programs, including 360s. You may, however, choose to create a unique User Role to have exclusive 360 admin permissions. In this section, you also learn to enable if and when a 360 subject, manager, and coach can view report feedback.
+By default, Viva Glint administrators have access to create and edit all Glint programs, including 360s. You may, however, choose to create a unique User Role with exclusive 360 admin permissions. And, in addition to any unique 360 admin role, other people in your organization need access to 360 feedback. Use this guidance to grant feedback permissions for other User Roles.
 
 ## Create a unique 360 admin
 
@@ -53,9 +53,9 @@ To manually add a person to a new role, scroll down to the Search bar in the **A
  
 For more information on adding User Roles, [see this guidance](/../../viva/glint/setup/set-up-user-roles).
 
-## Give subjects and feedback providers access to the Feedback tab
+## Give subjects and feedback providers access to feedback
 
-Subjects and leaders involved in 360s need access to the **Feedback tab** on their Glint dashboard. It’s optional to grant feedback providers access to the Feedback tab. Granting access enables users to log in and view any open or historical requests to provide feedback to a 360 subject.
+Subjects and leaders involved in 360s need access to the **Feedback tab** on their Glint dashboard. It’s optional to grant feedback providers access to the Feedback tab. Access enables users to log in and view any open or historical requests to provide feedback to a 360 subject.
 
 Subject use of the feedback tab includes the ability to:
 - See all active feedback requests 
@@ -67,9 +67,9 @@ Subject use of the feedback tab includes the ability to:
 ### Procedure to enable feedback tab access: 
 
 1. From the **Configuration** page of your admin dashboard, select **User Roles** in the **Employees** section.
-1. Select the name of the User Role to have permissions. This role can be a previously created or newly created role just for 360s.
+1. To grant permissions, select the name of the **User Role**. This role can be a previously created or newly created role just for 360s.
 1. Choose **Permissions**.
-1. **Access 360 Feedback** must be checked in additon to whatever other permissions the role is granted.
+1. **Access 360 Feedback** must be checked in addition to whatever other permissions the role is granted.
 
 
 
