@@ -69,16 +69,16 @@ Choose an event type based on platform activity that you need to review and the 
 | User role created | User Role creation activity. |
 | View as user | Admins' "View As" another user activity. |
 
-## Sign-in logs in the Entra admin center
+## Sign-in logs in the Microsoft Entra admin center
 
-For more detailed views of user sign-in activity in Viva Glint, Entra admins have access to sign-in logs in the Entra admin center. To access logs for Viva Glint:
+For more detailed views of user sign-in activity in Viva Glint, Entra admins have access to sign-in logs in the Microsoft Entra admin center. To access logs for Viva Glint:
 
-1. Review [prerequites](/entra/identity/monitoring-health/howto-access-activity-logs?tabs=microsoft-entra-activity-logs%2Carchive-activity-logs-to-a-storage-account.md#prerequisites) for Microsoft Entra licensing and user role permissions to access sign-in logs.
-2. Go to the [Entra admin center](https://entra.microsoft.com/#home).
+1. Review [prerequisites](/entra/identity/monitoring-health/howto-access-activity-logs?tabs=microsoft-entra-activity-logs%2Carchive-activity-logs-to-a-storage-account.md#prerequisites) for Microsoft Entra licensing and user role permissions to access sign-in logs.
+2. Go to the [Microsoft Entra admin center](https://entra.microsoft.com/#home).
 3. In the menu, select **Identity** and search for **Viva Glint** in the **Search your tenant** field.
 4. Select Viva Glint from the search results that appear.
 5. Under **Activity**, choose **Sign-in logs**.
-6. Logs have Viva Glint's app ID applied for the last 7 days of activity.
+6. Logs have Viva Glint's app ID applied for the last seven days of activity.
 7. Learn more about using [Entra's sign-in logs](/entra/identity/monitoring-health/concept-sign-ins) and [customizing/filtering logs](/entra/identity/monitoring-health/howto-customize-filter-logs?tabs=audit-logs).
 
 ## Related resources
