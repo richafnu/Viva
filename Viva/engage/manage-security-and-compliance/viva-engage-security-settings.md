@@ -75,4 +75,4 @@ To streamline user management, you can maintain a single identity for all Micros
 
 2. In the **Office 365 Identity Enforcement** section, select **Enforce Office 365 identity in Viva Engage**.
 
-    For information about this setting, see [Enforce Microsoft 365 identity for Viva Engage users](../configure-your-viva-engage-network/enforce-office-365-identity.md)
+    For information about this setting, see [Enforce Microsoft 365 identity for Viva Engage users](../configure-your-viva-engage-network/enforce-office-365-identity.md).
