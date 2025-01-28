@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 01/24/2025
+ms.date: 01/28/2025
 ---
 
 # Stay updated with the Viva Glint newsletter
@@ -31,4 +31,4 @@ Your email newsletter will come from this mailbox: <microsoftoys@email1.microsof
 
 ## Read past Viva Glint newsletter editions
 
-Find all editions of the Viva Glint newsletter in the [Microsoft Viva Blog](https://techcommunity.microsoft.com/t5/microsoft-viva-blog/bg-p/MicrosoftVivaBlog).
+Find all editions of the Viva Glint newsletter in the [Microsoft Viva Blog](https://techcommunity.microsoft.com/category/viva-glint/blog/viva_glint_blog).
