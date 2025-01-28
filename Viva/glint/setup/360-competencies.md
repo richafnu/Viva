@@ -64,11 +64,6 @@ In **Cycle Settings**, select **Competencies & Reporting**. The Competencies sec
 
 To maximize the reporting experience, map all ratings items to at least one competency. Although a competency can map to more than one rating item, a rating item can map to only one competency. [Learn about question mapping](/../../viva/glint/setup/question-mapping).
 
-**Procedure to map a competency to an item that is already mapped to another competency:**
-
-1.	Go to the unwanted competency and remove its mapping to your item.
-1.	Return to the other competency to map the item.
-
 #### Remove a competency
 
 1. In **Cycle Settings**, select **Competencies & Reporting**.
@@ -96,8 +91,6 @@ Scroll down to the **Report Access & Timing** section. Toggle subject, coach, an
 Changes can be made during a live cycle, but note that changes don't apply to reports already released.
 
 ## Global Reporting Guidance section
-
-## Global Reporting Guidance
 
 In this section, provide help content for how to process and read 360 feedback. Glint offers standard program and report guidance templates. 
 
