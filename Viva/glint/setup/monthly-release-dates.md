@@ -21,7 +21,7 @@ ms.date: 1/28/2025
 
 Microsoft Viva Glint is consistently improving the customer experience. Our platform maintains an agile production cycle with fixes, enhancements, and new features. Updates are communicated to all customers via monthly email newsletters. [Find the current and past newsletters here.](https://techcommunity.microsoft.com/category/viva-glint/blog/viva_glint_blog)
 
-> [!NOTE
+> [!NOTE]
 > Beginning in April 2025, deployment days move from Saturdays to Thursdays.
 
 |Planned deployment dates for 2025|
