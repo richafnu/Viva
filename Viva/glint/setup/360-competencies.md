@@ -46,13 +46,13 @@ From the admin **Configuration** dashboard, select **360 Feedback Programs.** **
 
 :::image type="content" source="../../media/glint/setup/360-cycle-settings-2.png" alt-text="Screenshot of how to enter Competencies & Reporting setup.":::
 
-### Competencies section
+## Competencies section
 
 In **Cycle Settings**, select **Competencies & Reporting**. The Competencies section shows the number of items mapped to each competency.
 
 ::image type="content" source="../../media/glint/setup/competencies-reporting-2.png" alt-text="Screenshot of the Competencies & Reporting page." Lightbox="../../media/glint/setup/competencies-reporting-2.png":::
 
-#### Add a competency
+### Add a competency
 
 1. Select **+ Add Competency**. Select the competency to be customized or mapped from the **Add Competency panel that opens.
 1. Populate the **Competency Name** and **Competency Description** fields. This text is used in reports.
@@ -60,7 +60,7 @@ In **Cycle Settings**, select **Competencies & Reporting**. The Competencies sec
 
 ::image type="content" source="../../media/glint/setup/360-add-competency-2.png" alt-text="Screenshot of the Add Competency panel." Lightbox="../../media/glint/setup/360-add-competency-2.png":::
 
-##### Question mapping
+#### Question mapping
 
 To maximize the reporting experience, map all ratings items to at least one competency. Although a competency can map to more than one rating item, a rating item can map to only one competency. [Learn about question mapping](/../../viva/glint/setup/question-mapping).
 
