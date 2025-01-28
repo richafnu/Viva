@@ -3,7 +3,7 @@ title: "Configure email in Viva Engage"
 f1.keywords:
 - NOCSH
 ms.author: donnabouldin
-ms.reviewer: 
+ms.reviewer: Richa .
 author: v-rgrace
 manager: elizapo
 ms.date: 01/14/2025
@@ -26,8 +26,6 @@ description: "For email and Viva Engage to work together, email setup must match
 Viva Engage connects to email in different ways. Viva Engage uses emails to alert users to new activity in conversations they follow. Users can subscribe to groups in email, and post to conversations and groups by email. Do the following to make this work smoothly in your organization:
   
 - Email admins are responsible for correct email setup.
-
-- Viva Engage administrators customize the logo in email messages that Viva Engage sends. Admins can require verification before users can post to Viva Engage by email.
 
 - Viva Engage users can choose the types of email notifications they receive.
 
