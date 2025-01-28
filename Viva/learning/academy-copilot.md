@@ -31,12 +31,20 @@ To access the academy in Viva Learning, users must have a **Microsoft 365 Copilo
 
 Copilot Academy is enabled by default and discoverable on the **Academies** menu for users with a Microsoft 365 Copilot license.
 
-Users with a Microsoft 365 Copilot license receive a monthly personalized notification about Copilot Academy in Microsoft Teams.
-
 Knowledge Administrators of tenants with at least one Microsoft 365 Copilot license can manage Copilot Academy from the **Admin** tab in Viva Learning, under the **Manage academies** section.
 
 
 ![Screenshot of the Manage academies page in the admin tab.](../media/learning/academy-copilot-admin.png)
+
+## Notifications
+
+Users with a Microsoft 365 Copilot license will receive a monthly personalized notification about Copilot Academy in Microsoft Teams.
+
+
+![Screenshot of Copilot Academy notification in Microsoft Teams.](media/academy-copilot/copilotacademynotifications2.png)
+
+
+![Screenshot of Copilot Academy notification in Microsoft Teams.](media/academy-copilot/copilotacademynotifications.png)
 
 ## Language support 
 
@@ -58,7 +66,14 @@ Copilot Academy is currently available in eight languages:
 
 - 中文(中国)
 
-The language of Copilot Academy is automatically determined based on the Viva Learning language. If the language you're using in Viva Learning isn't available for Copilot Academy,  Copilot Academy falls back to a related language following the Microsoft corporate, external, and legal affairs guidelines.
+The language of Copilot Academy is automatically determined based on the Viva Learning language. If the language you're using in Viva Learning isn't available for Copilot Academy, Copilot Academy falls back to a related language following the Microsoft corporate, external, and legal affairs guidelines.
+
+## Upcoming release
+
+- Enable access to Microsoft Copilot Academy for users without a Microsoft 365 Copilot license.
+- Content updates to Microsoft Copilot Academy.
+- Increased Language Support in Microsoft Copilot Academy.
+- Personalized notifications for Microsoft Copilot Academy users to enhance their learning experience.
 
 ## Create your own custom academy
 

@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 1/13/2025
+ms.date: 1/14/2025
 ---
 
 # Choose your benchmark comparison data for Viva Glint reporting
@@ -42,7 +42,7 @@ The company admin chooses the default comparison for survey data. Managers can c
 
 ## Understand the four comparison settings
 
-Viva Glint provides four options for comparison reporting by default. In addition to the following four settings, your company may have one or more internal comparisons configured (for example, Division or Business Unit).
+Viva Glint provides four default options for comparison reporting. In addition to the following four settings, your company may have one or more internal comparisons configured (for example, Division or Business Unit).
 
 |Comparator|Description|When to use|
 |-------|--------|-----------|

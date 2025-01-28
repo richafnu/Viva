@@ -205,12 +205,12 @@ The feed is designed to be dynamic, personalized, and a place where the most rel
 
 ## Step 5: Plan the resources
 
-Resources are the navigational links to portals and other popular destination. Resources should be the most important and popular portals for your target audience and can be targeted to specific audiences. While preparing Viva Connections, know that these resources display from the SharePoint app bar (if your organization has a SharePoint home site) and in the Teams app bar when Viva Connections is set up.
+Resources are the navigational links to portals and other popular destination. Resources should be the most important and popular portals for your target audience and can be targeted to specific audiences. 
 
 >
 | Desktop             | Mobile                 |
 | ------------------ | ------------------ |
-| ![Screenshot that shows global navigation in the desktop app.](../media/connections/plan-viva-connections/vc3-resources-overview-short.png)| ![Screenshot that shows global navigation in the mobile apps.](../media/connections/mobile-resources-small.png)|
+| ![Screenshot that shows resources in the desktop app.](../media/connections/plan-viva-connections/vc3-resources-overview-short.png)| ![Screenshot that shows resources in the mobile apps.](../media/connections/plan-viva-connections/mobile-resources.png)|
 >
 For organizations with SharePoint home sites, consider how links in the global navigation complement resources highlighted on the SharePoint home site. Depending on the content you want to make available in the global navigation, you can [design your SharePoint home site navigation and global navigation in three different ways](/viva/connections/sharepoint-app-bar#see-all-the-different-ways-you-can-set-up-global-navigation).
 

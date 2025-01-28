@@ -1,5 +1,5 @@
 ---
-ms.date: 09/22/2023
+ms.date: 01/22/2025
 title: "Create a Viva Connections dashboard in more than one language"
 ms.reviewer: 
 ms.author: evanatkin
@@ -30,7 +30,7 @@ Create a Viva Connections dashboard that can be viewed in multiple languages. St
 
 ## Step 1: Navigate to the Viva Connections dashboard
 
-Depending on whether your organization has a [SharePoint home site](home-site-plan.md) or not will determine where you go to access the multilingual settings.
+Depending on whether your organization has a [SharePoint home site](home-site-plan.md) or not determines where you go to access the multilingual settings.
 
 **If your organization has a home site:**
 
@@ -65,13 +65,13 @@ Depending on whether your organization has a [SharePoint home site](home-site-pl
 
 >[!NOTE]
 >
-> - Anyone in your organization's [Active Directory](/azure/active-directory/fundamentals/active-directory-whatis) can be assigned as a translator. People assigned as translators will not automatically be given appropriate permissions. When someone without edit permissions to the dashboard tries to access the site, they will be directed to a web page where they can request access.
+> - Anyone in your organization's [Active Directory](/azure/active-directory/fundamentals/active-directory-whatis) can be assigned as a translator. People assigned as translators won't automatically be given appropriate permissions. When someone without edit permissions to the dashboard tries to access the site, they're directed to a web page where they can request access.
 > - You can add or remove languages from your dashboard at any time by going back to this settings page.
-> - The default language of a dashboard is set to the language chosen when the dashboard is created. However, when English is among the supported languages, English is treated as the preferred language if the user's preferred language is not supported by the dashboard. This is a known issue.
+> - The default language of a dashboard is set to the language chosen when the dashboard is created. However, when English is among the supported languages, English is treated as the preferred language if the user's preferred language isn't supported by the dashboard. This is a known issue.
 
 ## Step 4: Create dashboards in specific languages
 
-Translators manually translate copies of the dashboard into the language(s) specified. When you select a language and assign a translator, a copy of the dashboard is created, and translators are notified in an email that a translation is requested. The email includes a link to a copy of the dashboard. An email notification will be sent to the person who requested the translation when it's done. The translator will:
+Translators manually translate copies of the dashboard into one or more languages specified. When you select a language and assign a translator, a copy of the dashboard is created, and translators are notified in an email that a translation is requested. The email includes a link to a copy of the dashboard. An email notification is sent to the person who requested the translation when it's finished. The translator will:
 
 1. Select the **Start translating** button in the email.
 
@@ -82,7 +82,7 @@ Translators manually translate copies of the dashboard into the language(s) spec
 3. When the translation is done, select **Save as draft** (if you're not ready to make it visible to readers) or, if the dashboard is ready to be visible to everyone who is using that language on the site, select **Publish**.
 
    >[!NOTE]
-   > Some components of 2nd and 3rd party Dashboard cards (for example, the card name) may not be translatable.
+   > Some components of 2nd and 3rd party Dashboard cards (for example, the card name) might not be translatable.
 
 ## Step 5: Add a translated dashboard name and description
 
@@ -92,18 +92,16 @@ Translators manually translate copies of the dashboard into the language(s) spec
 
 ## Email notifications
 
-Learn more about when and why the default dashboard owner and assigned translators will receive emails when content is edited.
+The default dashboard owner and assigned translators receive emails when content is edited, with email notifications batched in 30-minute increments as needed. For example, after the first email related to a page is sent, and an update is made to the default language page, the next notification email or any others that need to be sent, will be batched and sent after 30 minutes.
 
-Email notifications are batched in 30-minute increments as needed. For example, when the first email related to a page is sent, and an update is made to the default language page, the next notification email or any others that need to be sent, will be batched, and sent after 30 minutes.
-
-- When a translation dashboard is created, an email is sent to the assigned translator(s) to request a translation. The email includes a Start translating button.
+- When a translation dashboard is created, an email is sent to one or more assigned translators to request a translation. The email includes a Start translating button.
 
 - When a translation dashboard is published by a translator, an email is sent to the person who requested the translation.
-- When an update is made to the default language dashboard and saved as a draft or is published, an email is sent to the translator to notify them that an update to the translation dashboard may be required.
+- When an update is made to the default language dashboard and saved as a draft or is published, an email is sent to the translator to notify them that an update to the translation dashboard might be required.
 
 ## More tasks for your multilingual dashboard
 
-After you’ve created dashboards in additional languages, learn more about how to confirm which languages are available, update translated versions, and delete translations that are no longer needed.
+After creating dashboards in additional languages, you should confirm which languages are available, update translated versions, and delete translations that are no longer needed.
 
 ### Confirm the languages the dashboard can be viewed in
 
@@ -137,11 +135,11 @@ To delete a translated dashboard, you must perform a few extra steps to break th
 
 ### Update the dashboard with new changes or edits
 
-Make changes as needed over time to the dashboard and select **Save as draft** or **Republish**. Then, the translator(s) for the translated dashboard are notified in email that an update has been made so updates can be made to the individual translation pages as well.
+Make changes as needed over time to the dashboard and select **Save as draft** or **Republish**. Then, the translators for the translated dashboard are notified in email that an update has been made so updates can be made to the individual translation pages as well.
 
 ### Update the default language page
 
-When the default language dashboard is updated, it must be republished. Then, the translator(s) for the translated dashboard are notified in email that an update has been made so updates can be made to the individual translation pages. Translators will need to view the version history of the default dashboard to see what content has changed.
+When the default language dashboard is updated, it must be republished. Then, the translators for the translated dashboard are notified in email that an update has been made so updates can be made to the individual translation pages. Translators need to view the version history of the default dashboard to see what content has changed.
 
 ## Translated dashboards in the Dashboard web part
 
@@ -149,10 +147,10 @@ The [Dashboard web part](/sharepoint/use-dashboard-web-part-on-home-site) can be
 
 >[!NOTE]
 >
-> - Translation dashboards must be approved and published before they'll appear.
-> - Some components of the second party and third party dashboard cards (like the card name) may not be translatable.
+> - Translation dashboards must be approved and published before they appear.
+> - Some components of partner dashboard cards (like the card name) might not be translatable.
 
- ### More resources
+### More resources
 
 [Set up the Viva Connections experience in a specific language](/viva/connections/viva-connections-language)
 
