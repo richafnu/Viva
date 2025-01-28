@@ -19,7 +19,7 @@ ms.date: 1/28/2025
 
 # Viva Glint 360 competencies and reporting 
 
-This section covers Viva Glint program competencies, survey guidance, report access and timing, and global reporting. Competencies & Reporting is a page within 360 Cycle Settings which need to be set up by a Glint admin.
+This section covers Viva Glint program competencies, survey guidance, report access and timing, and global reporting. Competencies & Reporting is a page within 360 Cycle Settings which is set up by a Glint admin.
 
 >[!IMPORTANT]
 >The term "item" refers to any question or statement used in a survey.
@@ -83,10 +83,10 @@ Glint offers standard program and report guidance templates.
 ## Report access & timing section
 
 Scroll down to the **Report Access & Timing** section. Toggle subject, coach, and manager access to **Manually,** **Immediately,** or **number of days.**
-- **Manual release** allows an admin to evaluate feedback provider response rates and control which reports to release.
+- **Manual release** allows an admin to evaluate feedback provider response rates and decide which reports to release.
 - **Immediate release** automatically sends a notification when the report is generated.
   
-:::image type="content" source="../../media/glint/setup/360-manual-immediate" alt-text="Screenshot of the Report Access & Timing window in Cycle Settings.":::
+:::image type="content" source="../../media/glint/setup/360-manual-immediate.png" alt-text="Screenshot of the Report Access & Timing window in Cycle Settings.":::
 
 Changes can be made during a live cycle, but note that changes don't apply to reports already released.
 
@@ -99,8 +99,8 @@ In this section, provide help content for how to process and read 360 feedback. 
 
    :::image type="content" source="../../media/glint/setup/360-resource-guidance2.png" alt-text="Screenshot of the search bar for choosing resource guidance.":::
 
-    >[!TIP]
-    > We recommend using **360 _Report Guidance** for the Global Reporting Guidance. 
+>[!TIP]
+> We recommend using **360 _Report Guidance** for the Global Reporting Guidance. 
 
 
 
