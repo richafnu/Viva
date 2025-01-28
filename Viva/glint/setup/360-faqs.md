@@ -14,7 +14,7 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 1/21/2025
+ms.date: 1/28/2025
 ---
 
 # Viva Glint 360 frequently asked questions 
@@ -32,11 +32,10 @@ Access Viva Glint with these links, depending on your organization's region:
 - US: [http://app.us1.glint.cloud.microsoft](http://app.us1.glint.cloud.microsoft)
 - EU: [http://app.eu1.glint.cloud.microsoft](http://app.eu1.glint.cloud.microsoft)
 
-### How can managers see the results for their direct reports?
-If a manager has access to results for a direct report, they receive an email with a link to the report. Managers can also access reports through the dashboard:
-
-- From the dashboard, use the search icon to search for a direct report. In the direct report's card, select the Feedback tab.
-- From the dashboard, go to Focus Areas and choose My Directs and then a direct report. In the direct report's card, select the Feedback tab.
+### How can managers see results for their direct reports?
+Managers can access a 360 report in two different ways:
+- They receive an email to let them know 360 feedback is ready for a subject.
+- Log into Glint and select the **magnifying glass symbol** on their dashboard. Find the subject name by typing it into the search box. Select the **Feedback** tab and then select **View.**
 
 ### How can I tell how many feedback providers responded?
 During a live 360 cycle, log into Viva Glint, select Feedback and then the 360 feedback card in My Feedback - In Progress.Select Step 1 to see a list of invited feedback providers and responders. In addition, Viva Glint sends an email before the 360 cycle ends, which includes a list of feedback providers who didn't respond. After the 360 cycle is complete and you receive access to your 360 report, go to the Insights tab. Select Response Rate to see a list of feedback providers who responded.
@@ -83,6 +82,12 @@ Yes, you can delete a 360 cycle in "draft" or "scheduled" status. A 360 cycle ca
 No. Glint does not offer benchmarks for 360 items.
 
 ## Coach FAQs
+
+### How do coaches access 360 subject feedback?
+Coaches can access a 360 report in two different ways:
+ - They receive an email to let them know 360 feedback is ready for the subject they're coaching.
+ - Log into Glint and select the **magnifying glass symbol** on the dashboard. Select the subject name by typing it into the search box. Select the **Feedback** tab and then select **View.**
+
 
 **Is there a way to compile feedback provider information to look at feedback provider tendencies (leniency, stringency)?**
 
