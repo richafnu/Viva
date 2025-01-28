@@ -1,10 +1,10 @@
 ---
-ms.date: 02/12/2024
+ms.date: 01/07/2025
 title: "Deep linking into Viva Engage"
 description: "Create deep links into Viva Engage"
 ms.reviewer: ethli
 ms.author: donnabouldin
-author: Starshine89
+author: v-rgrace
 manager: elizapo
 audience: Admin
 f1.keywords:
@@ -20,7 +20,7 @@ search.appverid:
 ---
 # Deep linking into Viva Engage
 
-Often, you'll want to create a deep link to the Viva Engage app in Microsoft Teams or an entity within Viva Engage, such as a community. For example, you want to include a link to a conversation that a leader shared, a community that you're launching, or a campaign you're emailing about.
+You can create a deep link to the Viva Engage app in Microsoft Teams or to any entity within Viva Engage, such as a community or a campaign. For example, create and forward a link to a conversation that a leader shared, a community that you're launching, or a campaign you're emailing about.
 
 This article discusses how to manually construct different deep links into the Viva Engage app.
 
@@ -43,7 +43,7 @@ The following links open Viva Engage in a browser and engage.cloud.microsoft, re
 
 - <https://aka.ms/VivaEngage/Yammer>
 
-The following links directly open Viva Engage in Microsoft Teams. If the app isn't installed, the user will be prompted to do so.
+The following links directly open Viva Engage in Microsoft Teams. If the app isn't installed, the link action prompts the user to do so.
 
 - <https://aka.ms/VivaEngage/Launch>
 
@@ -85,9 +85,9 @@ Links in these formats open the entity in Viva Engage in Teams.
 - `https://aka.ms/VivaEngage/Launch?context=%7B%22subEntityId%22:%22type=custom,data=<EntityType>:<EntityId>%22%7D`
 - `https://teams.microsoft.com/l/entity/db5e5970-212f-477f-a3fc-2227dc7782bf/vivaengage?context=%7B%22subEntityId%22:%22type=custom,data=<EntityType>:<EntityId>%22%7D`
 
-However, you also need to:
+To complete the deep link, define the following values:
 
-1. Replace _`<EntityType>`_ with one of the following values: 
+1. Replace _`<EntityType>`_ with one of the following entity types: 
    
    | Type      | Replace _`<EntityType>`_ with... |
    | --------- | ------------- |
