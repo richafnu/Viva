@@ -27,7 +27,7 @@ To use Copilot, no additional license is needed; however, you must meet at least
 
 * Be assigned a premium Viva Insights license and the Group Manager (GM) role in Viva Insights for a team that meets the minimum size requirements. [Learn more](../advanced/setup-maint/manager-settings.md).
 
-* You can also view organization insights if you're given "delegate access" by a group manager. [See how delegate access works](../org-team-insights/delegate-access.md)
+* You can also view organization insights if you're given "delegate access" by a group manager. [See how delegate access works](../org-team-insights/delegate-access.md).
 
 ## How it works
 
