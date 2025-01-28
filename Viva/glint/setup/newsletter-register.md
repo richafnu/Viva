@@ -25,9 +25,7 @@ To receive new information from Viva Glint and other Microsoft Employee Experien
 
 ## Be sure to allow Viva Glint newsletter delivery
 
-Your email newsletter will come from this mailbox: <microsoftoys@email1.microsoft.com>
-
-:::image type="content" source="../../media/glint/setup/email-sender.png" alt-text="Screenshot of the email address to allow for receiving Viva Glint news updates.":::
+Your email newsletter comes from this mailbox: <microsoftoys@email1.microsoft.com>
 
 ## Read past Viva Glint newsletter editions
 
