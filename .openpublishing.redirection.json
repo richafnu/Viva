@@ -2312,6 +2312,11 @@
     "redirect_document_id":false
   },
   {
+    "source_path": "viva/glint/start/comms-checklist.md",
+    "redirect_url": "/viva/glint/introduction-viva-glint",
+    "redirect_document_id":false
+  },
+  {  
     "source_path": "viva/glint/setup/360-report-access-timing.md",
     "redirect_url": "/viva/glint/360-roles-permissions",
     "redirect_document_id":false
