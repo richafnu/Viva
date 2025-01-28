@@ -1,5 +1,5 @@
 ---
-title: Viva Glint 360 competencies and reporting 
+title: Viva Glint 360 Competencies and Reporting 
 description: Competencies are verifiable characteristics and skills, which enable and improve the efficiency of performing work. Learn to develop your competency model.
 ms.author: JudithWeiner
 author: JudyWeiner
@@ -17,9 +17,9 @@ ms.localizationpriority: high
 ms.date: 1/28/2025
 ---
 
-# Viva Glint 360 competencies and reporting 
+# Viva Glint 360 Competencies and Reporting 
 
-This section covers Viva Glint program competencies, survey guidance, report access and timing, and global reporting. Competencies & Reporting is a page within 360 Cycle Settings which is set up by a Glint admin.
+This section covers Viva Glint 360s program competencies, survey guidance, report access and timing, and global reporting. 
 
 >[!IMPORTANT]
 >The term "item" refers to any question or statement used in a survey.
@@ -52,19 +52,31 @@ In **Cycle Settings**, select **Competencies & Reporting**. The Competencies sec
 
 ::image type="content" source="../../media/glint/setup/competencies-reporting-2.png" alt-text="Screenshot of the Competencies & Reporting page." Lightbox="../../media/glint/setup/competencies-reporting-2.png":::
 
-### Add a competency
+### Question mapping
 
-1. Select **+ Add Competency**. Select the competency to be customized or mapped from the **Add Competency panel that opens.
-1. Populate the **Competency Name** and **Competency Description** fields. This text is used in reports.
-1. Select **Save Changes.**
+To maximize the reporting experience, map all ratings items to at least one competency. Although a competency can map to more than one rating item, a rating item can map to only one competency. 
+
+**Procedure to map a competency to an item that is already mapped to another competency:**
+
+1. Go to the unwanted competency and remove its mapping to your item.
+2. Return to the otheer competency to map the item.
+
+### Customize a competency and map it to an item
+
+1. In **Cycle Settings**, select **Competencies & Reporting.** The Competencies & Reporting page opens. The Competencies section shows the number of items mapped to each competency.
+2. Select the competency to be customized or mapped.
+3. Assign values to the **Comptency Name** and **Competency Description** fields. This text is used in your reports.
+5. Select at least one item to map to the competency. To search for an item, begin entering the item label in the **Search Question** field.
+6. Select **Save Changes.**
+
+> [!IMPORTANT]
+> Repeat this procedure until all competeencies are mapped to at least one item.
 
 ::image type="content" source="../../media/glint/setup/360-add-competency-2.png" alt-text="Screenshot of the Add Competency panel." Lightbox="../../media/glint/setup/360-add-competency-2.png":::
 
-#### Question mapping
-
-To maximize the reporting experience, map all ratings items to at least one competency. Although a competency can map to more than one rating item, a rating item can map to only one competency. [Learn about question mapping](/../../viva/glint/setup/question-mapping).
-
 #### Remove a competency
+
+To remove a competency from a cycle:
 
 1. In **Cycle Settings**, select **Competencies & Reporting**.
 1. Navigate to **Competencies**. Hover over the competency to be removed. 
@@ -73,18 +85,24 @@ To maximize the reporting experience, map all ratings items to at least one comp
 
 ## Survey guidance section
 
-Glint offers standard program and report guidance templates. 
+Glint offers standard survey and report guidance templates. 
 
 1.	Toggle **Survey Guidance** to **ON** to open the **Select Resource** dropdown menu. 
 1.	Key in **360** in the search bar to access Glint standard templates. We recommend using **360 _Survey_Guidance** for the Survey Guidance.
+2.	Review and edit........
 
     :::image type="content" source="../../media/glint/setup/360-survey-guidance.png" alt-text="Screenshot of the dropdown menu to select guidance in Cycle Settings.":::
 
 ## Report access & timing section
 
-Scroll down to the **Report Access & Timing** section. Toggle subject, coach, and manager access to **Manually,** **Immediately,** or **number of days.**
-- **Manual release** allows an admin to evaluate feedback provider response rates and decide which reports to release.
-- **Immediate release** automatically sends a notification when the report is generated.
+In this section 360 admins determine whether subjects, coaches, or managers receive access to a subject's report and choose the timing.  
+
+**Procedure:**
+1. To allow access to 360 feedback for a subject, toggle the subject, coach, or manager access to **On**.
+2. Toggle subject, coach, and manager access to Manually, Immediately, or number of days.
+    - Manual release: An admin releases reports at an individual level or using the bulk report release feature.
+    - Immediate release: A report access email is automatically sent when the 360 cycle closes.
+    - 1-14 days: A report access email is sent based on the selected number of days after the cycle closes.
   
 :::image type="content" source="../../media/glint/setup/360-manual-immediate.png" alt-text="Screenshot of the Report Access & Timing window in Cycle Settings.":::
 
