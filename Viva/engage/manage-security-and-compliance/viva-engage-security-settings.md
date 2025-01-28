@@ -2,6 +2,7 @@
 title: "Manage Viva Engage security settings"
 f1.keywords:
 - NOCSH
+ms.reviewer: jserna
 ms.author: donnabouldin
 author: v-rgrace
 manager: elizapo
