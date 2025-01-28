@@ -19,15 +19,15 @@ audience: user
 
 Microsoft 365 Copilot in Viva Insights offers leaders and their assigned delegates an easy way to explore organizational and behavioral data. With Copilot, you can obtain actionable insights quickly and efficiently by asking questions in natural language, transforming how you interact with organizational data.
 
-:::image type="complex" source="images/copilot-leader-home.png" alt-text="Screenshot showing the organization insights Home page using Copilot.":::
+:::image type="content" source="images/copilot-leader-home.png" alt-text="Screenshot showing the organization insights Home page using Copilot.":::
 
 ## Prerequisites
 
 To use Copilot, no additional license is needed; however, you must meet at least one of the following conditions:
 
-* Be assigned a premium Viva Insights license and the Group Manager (GM) role in Viva Insights for a team that meets the minimum size requirements. [Learn more](..//advanced/setup-maint/manager-settings.md).
+* Be assigned a premium Viva Insights license and the Group Manager (GM) role in Viva Insights for a team that meets the minimum size requirements. [Learn more](../advanced/setup-maint/manager-settings.md).
 
-* You can also view organization insights if you're given "delegate access" by a group manager. [See how delegate access works](..//org-team-insights/delegate-access.md).
+* You can also view organization insights if you're given "delegate access" by a group manager. [See how delegate access works](../org-team-insights/delegate-access.md)
 
 ## How it works
 
@@ -59,7 +59,7 @@ Users can explore recommended prompts using the Home page or Prompt Library. The
 
 ## Where to find it
 
-As a leader or delegate, you can access Copilot using the Viva Insights Teams app or the web version of the app. A Copilot chat window will open on the right where you can ask questions. The Home page also provides prompts you can use to open Copilot. [Learn more](..//org-team-insights/org-insights.md).
+As a leader or delegate, you can access Copilot using the Viva Insights Teams app or the web version of the app. A Copilot chat window will open on the right where you can ask questions. The Home page also provides prompts you can use to open Copilot. [Learn more](../org-team-insights/org-insights.md).
 
 ## Use deep-dive reports
 
@@ -67,11 +67,11 @@ As you use Copilot, you'll also find deep-dive visualization reports to help you
 
 ## Use Organizational Behavioral Reports
 
-Existing Organizational Behavior Reports remain available in Viva Insights. On the Home page, select **Organizational Behavior Reports** to access them. [Learn more](..//org-team-insights/org-insights.md).
+Existing Organizational Behavior Reports remain available in Viva Insights. On the Home page, select **Organizational Behavior Reports** to access them. [Learn more](../org-team-insights/org-insights.md).
 
 ## How does it work on the backend?
 
-Copilot in Viva Insights is powered by Large Language Models (LLMs), a technology that processes language-based tasks in a conversational format. The system combines enterprise data with AI-generated insights to provide accurate, actionable, and context-aware responses. [Learn more](..//copilot-data-privacy-security.md).
+Copilot in Viva Insights is powered by Large Language Models (LLMs), a technology that processes language-based tasks in a conversational format. The system combines enterprise data with AI-generated insights to provide accurate, actionable, and context-aware responses. [Learn more](../copilot-data-privacy-security.md).
 
 ## How to prepare your organization
 
@@ -83,7 +83,7 @@ As a Viva Insights admin, the quality of Copilot’s responses is determined by 
 
 * If you don't include users in an HR upload, organizational context data for those employees won't appear in Copilot in the Viva Insights app.  
 
-* To remove Copilot access for a leader, [disable their Group Manager (GM) role](..//advanced/setup-maint/manager-settings.md). To remove Copilot access for a delegate, remove their delegate role. [Learn more about delegate access](..//org-team-insights/delegate-access.md).
+* To remove Copilot access for a leader, [disable their Group Manager (GM) role](../advanced/setup-maint/manager-settings.md). To remove Copilot access for a delegate, remove their delegate role. [Learn more about delegate access](../org-team-insights/delegate-access.md).
 
 Learn more about how to optimize your use of attributes for Copilot.
 
@@ -98,7 +98,7 @@ Copilot uses the following customer uploaded HR data attributes:
 * **PersonIsManager**
 * **WeeklyBadgeOnsiteDays**
 
-[Learn more about Viva Insights attributes and their descriptions](..//advanced/admin/prepare-org-data.md#attribute-reference).
+[Learn more about Viva Insights attributes and their descriptions](../advanced/admin/prepare-org-data.md#attribute-reference).
 
 ## FAQs
 
@@ -113,5 +113,5 @@ A: Admins can:
 
 ### Related topics
 
-[View organization insights](..//org-team-insights/org-insights.md)
+[View organization insights](../org-team-insights/org-insights.md)
 new attribute doc
