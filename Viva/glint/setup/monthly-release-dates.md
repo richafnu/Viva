@@ -25,12 +25,12 @@ Beginning in April 2025, deployment days move from Saturdays to Thursdays.
 
 |Planned release dates for 2025|
 |--------------|
-|January 18, 2025|
-|February 15, 2025|
-|March 15, 2025|
-|April 10, 2025*|
-|May 15, 2025*|
-|June 10, 2025*|
+|Saturday, January 18, 2025|
+|Saturday February 15, 2025|
+|Saturday, March 15, 2025|
+|Thursday, April 10, 2025*|
+|Thursday, May 15, 2025*|
+|Thursday, June 10, 2025*|
 
 ***Deployment days move to Thursday, with no downtime or disruption anticipated.**
 
