@@ -14,7 +14,7 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 01/27/2025
+ms.date: 01/28/2025
 ---
 
 # Viva Glint Activity Audit Log
@@ -78,8 +78,8 @@ For more detailed views of user sign-in activity in Viva Glint, Entra admins hav
 3. In the menu, select **Identity** and search for **Viva Glint** in the **Search your tenant** field.
 4. Select Viva Glint from the search results that appear.
 5. Under **Activity**, choose **Sign-in logs**.
-6. Logs have Viva Glint's app ID applied for the last seven days of activity.
-7. Learn more about using [Entra's sign-in logs](/entra/identity/monitoring-health/concept-sign-ins) and [customizing/filtering logs](/entra/identity/monitoring-health/howto-customize-filter-logs?tabs=audit-logs).
+6. Logs have Viva Glint's app ID applied and, by default, show the last seven days of activity.
+7. Learn more about using [Entra's sign-in logs](/entra/identity/monitoring-health/concept-sign-ins) and [customizing/filtering logs](/entra/identity/monitoring-health/howto-customize-filter-logs?tabs=audit-logs) to view differeent columns and date ranges..
 
 ## Related resources
 
