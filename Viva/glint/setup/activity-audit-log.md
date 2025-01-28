@@ -79,7 +79,7 @@ For more detailed views of user sign-in activity in Viva Glint, Entra admins hav
 4. Select Viva Glint from the search results that appear.
 5. Under **Activity**, choose **Sign-in logs**.
 6. Logs have Viva Glint's app ID applied and, by default, show the last seven days of activity.
-7. Learn more about using [Entra's sign-in logs](/entra/identity/monitoring-health/concept-sign-ins) and [customizing/filtering logs](/entra/identity/monitoring-health/howto-customize-filter-logs?tabs=audit-logs) to view differeent columns and date ranges..
+7. Learn more about using [Entra's sign-in logs](/entra/identity/monitoring-health/concept-sign-ins) and [customizing/filtering logs](/entra/identity/monitoring-health/howto-customize-filter-logs?tabs=audit-logs) to view different columns and date ranges.
 
 ## Related resources
 
