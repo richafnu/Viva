@@ -14,18 +14,18 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 1/13/2025
+ms.date: 1/16/2025
 ---
 
 # Export reports as a PDF
 
 Microsoft Viva Glint users need to export their survey results to share with offline users, read verbatim comments, or to create presentations for their teams. Exporting reports as a Portable Document Format (PDF) in Glint is quick, allows easy consumption of comments, and supports highlighting, markup, search, and preview functionality. This export technology includes PDF exports for 360 feedback program reports and Focus Area reports.
 
-In 360 feedback reports, the PDF export experience is a valuable and primary way for reports to be shared with external coaches. Glint 360 feedback PDF reports are generated to be consumable, shareable, and easy to use for collaborating on next steps.
+In 360 Feedback reports, the PDF export experience is a valuable and primary way for reports to be shared with external coaches. Glint 360 feedback PDF reports are generated to be consumable, shareable, and easy to use for collaborating on next steps.
 
 ## Procedure to export a PDF report
 
-1. In the **Reports** tab, choose the survey and then the report to export. You can also navigate to **Saved Reports.**  For the example in this guidance, *Overall Results* is the report to be exported as a PDF.
+1. In the **Reports** tab, choose the survey and then the report to export. You can also navigate to **Saved Reports.**  For the example in this guidance, *Overall Results* is the report exported as a PDF.
 
    :::image type="content" source="../../media/glint/reports/export-overall-results.png" alt-text="Screenshot of the Overall Results report access card in Reports." lightbox="../../media/glint/reports/export-overall-results.png":::
 
@@ -61,6 +61,12 @@ In 360 feedback reports, the PDF export experience is a valuable and primary way
 
     :::image type="content" source="../../media/glint/reports/export-print.png" alt-text="Screenshot of the Export or Print button.":::
 
+    > [!CAUTION]
+    > To prevent download errors, don't use spaces or the following special characters in the PDF's file name when saving to your device. Each character is separated by a comma.
+    > ```
+    > <, >, {, }, |, \, ^, ~, `, #, %, &, *, ?, !, ", ', :, @, +, =, (, )
+    > ```
+
 ## Export the Comments report
 
 > [!IMPORTANT]
@@ -89,17 +95,5 @@ In 360 feedback reports, the PDF export experience is a valuable and primary way
 
    > [!NOTE]
    > When this window is closed, the default settings reset for the next use.
-
-## Remove a report section before export
-
-Default toggles are **ON** for each of these sections of the Overview report (the example report used): Overview, Questions, Keywords, Topics, Comments.
-To disable a section:
-
-1.	Select the **ellipses** in that section.
-2.	Select **Remove**.
-
-    In this example, we're removing the Overview section of the Comments report:
-
-    :::image type="content" source="../../media/glint/reports/export-file-save-pdf.png" alt-text="Screenshot of the option to Save to PDF in your printing window." lightbox="../../media/glint/reports/export-file-save-pdf.png":::
 
 
