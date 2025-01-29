@@ -17,6 +17,9 @@ audience: user
 
 # Discover organizational insights quickly with Microsoft 365 Copilot in Viva Insights
 
+>[!IMPORTANT]
+> Microsoft 365 Copilot in Viva Insights is rolling out gradually and is not yet available to all customers.
+
 Microsoft 365 Copilot in Viva Insights offers leaders and their assigned delegates an easy way to explore organizational and behavioral data. With Copilot, you can obtain actionable insights quickly and efficiently by asking questions in natural language, transforming how you interact with organizational data.
 
 :::image type="content" source="images/copilot-leader-home.png" alt-text="Screenshot showing the organization insights Home page using Copilot.":::

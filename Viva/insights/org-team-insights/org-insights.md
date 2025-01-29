@@ -18,6 +18,9 @@ audience: user
 
 # Organization insights in Viva Insights
 
+>[!IMPORTANT]
+> Microsoft 365 Copilot in Viva Insights is rolling out gradually and is not yet available to all customers.
+
 Organization insights help leaders and managers build high performing teams. Leaders and managers can see key indicators of their organization’s wellbeing, productivity, and team culture, and they can find features and tools to help support their teams.
 
 ## Subscriptions, roles, and access
