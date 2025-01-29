@@ -97,7 +97,7 @@ This example follows Copilot in Viva Glint comment summarization on the **Commen
 
 1. Copilot in Viva Glint populates with the summary. In this example, the first prompt is chosen. Copilot summarizes 7,747 comments.
 
-   :::image type="content" source="../../media/glint/reports/copilot-up-to-8000.png" alt-text="Screenshot of a Copilot in Viva Glint summary." lightbox="../../media/glint/reports/copilot-up-to-8000.png":::
+   :::image type="content" source="../../media/glint/reports/copilot-up-to-8000.png" alt-text="Screenshot of a Copilot in Viva Glint summary.":::
 
 2. Use the **View Prompt Guide** menu to display more prompts, or key in your own question in the box provided.
 
@@ -186,7 +186,7 @@ Copilot in Viva Glint is only preserved within a user session. Once you log out,
 
 Our evaluation process incorporates feedback from early adopters and customers. This ongoing process helps us continuously enhance the Copilot in Viva Glint performance. 
 
-Allow your leaders to give feedback by enabling feedback. **The feedback feature must be set for your organization by the Microsoft 365 Global Administrator.** Enablement occurs within Policy Management in the Microsoft 365 Apps Admin Center. Without this feature enabled, leaders don’t have access to provide feedback.
+Allow your leaders to give feedback by enabling feedback. **The feedback feature must be set for your organization by the Microsoft 365 Global Administrator.** Enablement occurs within Policy Management in the Microsoft 365 Apps Admin Center. Without this feature enabled, leaders don't have access to provide feedback.
 
 We suggest enabling:
 
@@ -201,6 +201,8 @@ Users see this:
 ## More feedback resources
 
 [Submit product feedback to Microsoft](https://go.microsoft.com/fwlink/?linkid=2276920)
+
 [Overview of Cloud Policy](https://go.microsoft.com/fwlink/?linkid=2276730)
+
 [Manage Microsoft feedback](https://go.microsoft.com/fwlink/?linkid=2276731)
 
