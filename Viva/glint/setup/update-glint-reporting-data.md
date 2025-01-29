@@ -26,7 +26,7 @@ Microsoft Viva Glint Advanced Configuration Uploads and Data Apps allow you to p
 
 ## Attributes that don't require retroactive updates
 
-Some attributes in Glint always reference the most current information and don't require retroactive updates. These include:
+Some attributes in Glint always reference the most current information and don't require retroactive updates. These attributes include:
 
 - First Name
 - Last Name
@@ -50,7 +50,7 @@ Ongoing survey types like Lifecycle and Always-On can have the same user respond
 
 ## Uploads: Retroactive User Updates
 
-To retain current employee information, upload a file of all or some users in your closed survey to apply new values to past versions of data. This option is the simplest and can be used for most retroactive updates, including non-managerial reporting hierarchy updates. [Learn more](advanced-config-uploads.md).
+To retain current employee information, upload a file of all or some users in your closed survey to apply new values to past versions of data. This option is the simplest and can be used for most retroactive updates, including nonmanagerial reporting hierarchy updates. [Learn more](advanced-config-uploads.md).
 
 > [!IMPORTANT]
 > To retroactively update a Manager Hierarchy, always use the RETROACTIVE_PULSE_UPDATE Data App and not the Retroactive USERS_UPLOAD option. [Learn more](glint-data-apps.md).
