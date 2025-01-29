@@ -48,6 +48,12 @@ Ongoing survey types like Lifecycle and Always-On can have the same user respond
 - In the file of corrected user data, remove users who have multiple records
 - In the file of corrected user data, keep only the most recent record for users who have multiple records
 
+If duplicates aren't removed, admins see a:
+
+- "Failed to run the data app RETROACTIVE_PULSE_UPDATE" error message when using the RETROACTIVE_PULSE_UPDATE Data App.
+- "FAILED" State for the Retroactive User Updates upload, with the following File errors in the Upload Job Details:
+  - System error: Failed to find user_staging_record with externalUserId=[user@contoso.com], which is not supposed to happen at all because User object with the same ID was previosly loaded."
+
 ## Uploads: Retroactive User Updates
 
 To retain current employee information, upload a file of all or some users in your closed survey to apply new values to past versions of data. This option is the simplest and can be used for most retroactive updates, including nonmanagerial reporting hierarchy updates. [Learn more](advanced-config-uploads.md).
