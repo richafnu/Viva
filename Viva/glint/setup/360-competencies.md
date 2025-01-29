@@ -14,7 +14,7 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 1/28/2025
+ms.date: 1/29/2025
 ---
 
 # Viva Glint 360 Competencies and Reporting 
@@ -50,7 +50,7 @@ From the admin **Configuration** dashboard, select **360 Feedback Programs.** **
 
 In **Cycle Settings**, select **Competencies & Reporting**. The Competencies section shows the number of items mapped to each competency.
 
-::image type="content" source="../../media/glint/setup/competencies-reporting-2.png" alt-text="Screenshot of the Competencies & Reporting page." Lightbox="../../media/glint/setup/competencies-reporting-2.png":::
+::image type="content" source="../../media/glint/setup/competencies-reporting-3.png" alt-text="Screenshot of the Competencies & Reporting page." Lightbox="../../media/glint/setup/competencies-reporting-3.png":::
 
 ### Question mapping
 
@@ -89,7 +89,7 @@ Glint offers standard survey and report guidance templates.
 
 1.	Toggle **Survey Guidance** to **ON** to open the **Select Resource** dropdown menu. 
 1.	Key in **360** in the search bar to access Glint standard templates. We recommend using **360 _Survey_Guidance** for the Survey Guidance.
-2.	Review and edit........
+2.	To review and edit this guidance, navigate to **Content Resources** on your admin dashboard. Update as desired.
 
     :::image type="content" source="../../media/glint/setup/360-survey-guidance.png" alt-text="Screenshot of the dropdown menu to select guidance in Cycle Settings.":::
 
