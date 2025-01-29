@@ -67,7 +67,7 @@ As you use Copilot, you'll also find deep-dive visualization reports to help you
 
 ## Use Organizational Behavioral Reports
 
-Existing Organizational Behavior Reports remain available in Viva Insights. On the Home page, select **Organizational Behavior Reports** to access them. [Learn more](../org-team-insights/org-insights.md).
+Existing Organizational Behavior Reports remain available in Viva Insights. On the Home page, select **Organizational Behavior Reports** to access them. [Learn more](./leader-reports.md).
 
 ## How does it work on the backend?
 
