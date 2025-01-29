@@ -16,7 +16,7 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 01/13/2025
+ms.date: 01/29/2025
 ---
 
 # Administrator enablement for Microsoft 365 Copilot in Viva Glint
