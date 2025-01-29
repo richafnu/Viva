@@ -46,20 +46,9 @@ From the admin **Configuration** dashboard, select **360 Feedback Programs.** **
 
 :::image type="content" source="../../media/glint/setup/360-cycle-settings-2.png" alt-text="Screenshot of how to enter Competencies & Reporting setup.":::
 
-## Competencies section
-
-In **Cycle Settings**, select **Competencies & Reporting**. The Competencies section shows the number of items mapped to each competency.
-
-::image type="content" source="../../media/glint/setup/competencies-reporting-3.png" alt-text="Screenshot of the Competencies & Reporting page." Lightbox="../../media/glint/setup/competencies-reporting-3.png":::
-
 ### Question mapping
 
-To maximize the reporting experience, map all ratings items to at least one competency. Although a competency can map to more than one rating item, a rating item can map to only one competency. 
-
-**Procedure to map a competency to an item that is already mapped to another competency:**
-
-1. Go to the unwanted competency and remove its mapping to your item.
-2. Return to the otheer competency to map the item.
+To maximize the reporting experience, map all ratings items to at least one competency. Although a competency can map to more than one rating item, a rating item can map to only one competency. ]Learn about question mapping](/../../viva/glint/setup/question-mapping). 
 
 ### Customize a competency and map it to an item
 
@@ -69,12 +58,29 @@ To maximize the reporting experience, map all ratings items to at least one comp
 5. Select at least one item to map to the competency. To search for an item, begin entering the item label in the **Search Question** field.
 6. Select **Save Changes.**
 
-> [!IMPORTANT]
-> Repeat this procedure until all competeencies are mapped to at least one item.
-
 ::image type="content" source="../../media/glint/setup/360-add-competency-2.png" alt-text="Screenshot of the Add Competency panel." Lightbox="../../media/glint/setup/360-add-competency-2.png":::
 
-#### Remove a competency
+> [!IMPORTANT]
+> Repeat this procedure until all competencies are mapped to at least one item
+
+## Competencies section
+
+In **Cycle Settings**, select **Competencies & Reporting**. The Competencies section shows the number of items mapped to each competency.
+
+::image type="content" source="../../media/glint/setup/competencies-reporting-3.png" alt-text="Screenshot of the Competencies & Reporting page." Lightbox="../../media/glint/setup/competencies-reporting-3.png":::
+
+### Add a competency
+
+1. Select **+ Add Competency**. Select the competency to be customized or mapped from the **Add Competency** panel that opens.
+2.	Populate the **Competency Name** and **Competency Description** fields. This text is used in reports.
+3.	Select **Save Changes.**
+
+**Procedure to map a competency to an item that is already mapped to another competency:**
+
+1. Go to the unwanted competency and remove its mapping to your item.
+2. Return to the other competency to map the item.
+
+### Remove a competency
 
 To remove a competency from a cycle:
 
