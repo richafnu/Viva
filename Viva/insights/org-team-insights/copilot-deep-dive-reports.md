@@ -52,4 +52,4 @@ Deep-dive reports in Microsoft 365 Copilot in Viva Insights help you answer prec
 
 * [Learn more about how to use Copilot in Viva Insights](./org-insights-copilot.md) 
 
-* [Learn more about how to use attributes with Copilot](./../advanced/admin/upload-org-data-copilot.md)
+* [Optimize how you use attributes with Copilot](./../advanced/admin/upload-org-data-copilot.md)

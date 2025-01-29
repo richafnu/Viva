@@ -116,5 +116,5 @@ A: Admins can:
 
 ### Related topics
 
-[View organization insights](../org-team-insights/org-insights.md)
-[Optimize how you use attributes with Copilot](./../advanced/admin/upload-org-data-copilot.md)
+* [View organization insights](../org-team-insights/org-insights.md)
+* [Optimize how you use attributes with Copilot](./../advanced/admin/upload-org-data-copilot.md)
