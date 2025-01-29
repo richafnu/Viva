@@ -14,7 +14,7 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 1/28/2025
+ms.date: 1/29/2025
 ---
 
 # Viva Glint 360 User Role creation and permissions
@@ -36,7 +36,7 @@ From the Glint admin dashboard, select the **Configuration** symbol and then **U
 1. Select **Permissions** and scroll down to the **Feedback** section of the page.
 4. Enable **Access 360 feedback**.
 5. Select **Manage Feedback** to enable users to modify existing 360 feedback programs.
-6. Select **Create 360s**.
+6. Select **Create 360s** to enable users to create and modify 360 programs.
 7. Select **Save Changes**.
 8. In the **Confirm your changes to Permissions** dialog box which opens, select **Save Permissions.**
 
@@ -52,7 +52,7 @@ For more information on adding User Roles, [see this guidance](/../../viva/glint
 
 ## Give subjects and feedback providers access to the feedback tab
 
-Subjects and leaders participating in 360s need access to the **Feedback tab** on their Glint dashboard. It’s optional to grant feedback providers access to the Feedback tab. Access enables users to log in and view any open or historical requests to provide feedback to a 360 subject.
+Subjects and feedback provider participating in 360s need access to the **Feedback tab** on their Glint dashboard. It’s optional to grant feedback providers access to the Feedback tab. Access enables users to log in and view any open or historical requests to provide feedback to a 360 subject.
 
 Subject use of the feedback tab includes the ability to:
 - See all active feedback requests 
