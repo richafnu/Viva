@@ -51,8 +51,8 @@ Ongoing survey types like Lifecycle and Always-On can have the same user respond
 If duplicates aren't removed, admins see a:
 
 - "Failed to run the data app RETROACTIVE_PULSE_UPDATE" error message when using the RETROACTIVE_PULSE_UPDATE Data App.
-- "FAILED" State for the Retroactive User Updates upload, with the following File errors in the Upload Job Details:
-  - System error: Failed to find user_staging_record with externalUserId=[user@contoso.com], which is not supposed to happen at all because User object with the same ID was previosly loaded."
+- "FAILED" State for the Retroactive User Updates upload, with the following File error in the Upload Job Details:
+  - System error: Failed to find user_staging_record with externalUserId=[user@contoso.com], which is not supposed to happen at all because User object with the same ID was previously loaded."
 
 ## Uploads: Retroactive User Updates
 
