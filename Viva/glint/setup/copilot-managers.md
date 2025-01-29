@@ -194,9 +194,9 @@ We suggest enabling:
   - Allow users to include screenshots and attachments when they submit feedback to Microsoft.
   - Allow users to include log file and relevant content samples when feedback is submitted to Microsoft.
 
-Users see this:
+   Users see this:
 
- :::image type="content" source="../../media/glint/reports/copilot-give-feedback.png" alt-text="Screenshot of how to share Copilot feedback with Microsoft.":::
+   :::image type="content" source="../../media/glint/reports/copilot-give-feedback.png" alt-text="Screenshot of how to share Copilot feedback with Microsoft.":::
 
 ## More feedback resources
 
