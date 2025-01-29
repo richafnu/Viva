@@ -22,7 +22,7 @@ ms.date: 1/13/2025
 
 # Introduction to Microsoft 365 Copilot in Viva Glint
 
-HR users and leaders of large organizations spend a lot of valuable time interpreting Glint survey results and comments. Copilot in Viva Glint enables them to understand and act on employee feedback by quickly summarizing large quantities of comments. Copilot in Viva Glint is available for all enabled users whose teams meet the threshold for verbatim comment results.
+Human Resources (HR) users and leaders of large organizations spend a lot of valuable time interpreting Glint survey results and comments. Copilot in Viva Glint enables them to understand and act on employee feedback by quickly summarizing large quantities of comments. Copilot in Viva Glint is available for all enabled users whose teams meet the threshold for verbatim comment results.
 
 ## What is Microsoft 365 Copilot in Viva Glint?
 
