@@ -123,7 +123,7 @@ The measured group only counts people who are active in Outlook or Teams during 
 
 To protect individual privacy when a group average appears in an organizational insight, Viva Insights checks to make sure the number of measured people active in Outlook and Teams is larger than the minimum group size. We won't show any groups smaller than the minimum group size.
 
-The [trend graph](org-insights.md#trend-graph) can show up to 20 groups that report up to you. You'll see organization insights for each group larger than the minimum group size.
+The trend graph can show up to 20 groups that report up to you. You'll see organization insights for each group larger than the minimum group size.
 
 ### Q7. Why doesn’t the trendline chart show the most recent week of data?
 
