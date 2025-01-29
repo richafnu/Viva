@@ -16,7 +16,7 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 1/13/2025
+ms.date: 1/29/2025
 
 ---
 
