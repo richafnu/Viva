@@ -1,5 +1,5 @@
 ---
-title: Incorporate Copilot in Viva Glint into your Viva Glint Comments report (preview)
+title: Incorporate Copilot in Viva Glint into your Viva Glint Comments report 
 description: Copilot in Viva Glint provides leaders the opportunity to dig deeper into employee feedback by asking questions and receiving summaries of the comments and suggestions left by their employees in Viva Glint surveys.
 ms.author: JudithWeiner
 author: JudyWeiner
@@ -15,21 +15,16 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 04/29/2024
+ms.date: 1/29/2025
 ROBOTS: NOINDEX, NOFOLLOW
 ---
 
-# Incorporate Copilot in Viva Glint into your Viva Glint Comments report (preview)
-
->[!IMPORTANT]
->This feature is currently availabile to preview customers only. Features described here are subject to change.
-
-Copilot in Viva Glint for comment summarization will soon be available to all Viva Glint customers at all contracting levels (standalone, Workforce Analytics and Employee Feedback mini suite, and Microsoft Viva suite customers). Copilot in Viva Glint is exclusive to the Viva Glint app.  
+# Incorporate Copilot in Viva Glint into your Viva Glint Comments report 
 
 Copilot in Viva Glint allows users to explore employee comments with natural language queries or suggested prompts. Copilot in Viva Glint brings the AI revolution into your employee engagement programs. 
 
 Copilot in Viva Glint:
-- Provides leaders the opportunity to dig deeper into employee feedback by asking questions and receiving summaries of the comments and suggestions left by their employees in Viva Glint surveys
+- Provides leaders the opportunity to dig deeper into employee feedback by asking questions and receiving summaries of the comments and suggestions left by their employees in Glint surveys
 - For leaders and managers with thousands of comments to sift through, Copilot in Viva Glint saves time, providing new ways of understanding employee feedback. 
 
 ## How does Copilot in Viva Glint differ from other Copilot opportunities?
