@@ -14,7 +14,7 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 1/28/2025
+ms.date: 1/29/2025
 ---
 
 # Viva Glint 360 frequently asked questions 
@@ -33,8 +33,9 @@ Access Viva Glint with these links, depending on your organization's region:
 - EU: [http://app.eu1.glint.cloud.microsoft](http://app.eu1.glint.cloud.microsoft)
 
 ### How can managers see results for their direct reports?
-Managers can access a 360 report in two different ways:
+Managers can access a 360 report in several different ways:
 - They receive an email to let them know 360 feedback is ready for a subject.
+- From the dashboard, go to **Focus Areas** and choose **My Directs**. Then choose a direct report. In the direct report's card, select the **Feedback** tab.
 - Log into Glint and select the **magnifying glass symbol** on their dashboard. Find the subject name by typing it into the search box. Select the **Feedback** tab and then select **View.**
 
 ### How can I tell how many feedback providers responded?
