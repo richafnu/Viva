@@ -1,6 +1,6 @@
 ---
 title: How to update reporting data in closed Viva Glint surveys
-description: For highly trained users, Microsoft Viva Glint Advanced Configuration Uploads and Data Apps allow you to perform complex data updates. Use this guidance to determine which retroactive update option best meets your needs.
+description: Microsoft Viva Glint Advanced Configuration Uploads and Data Apps allow you to perform complex data updates. Use this guidance to determine which retroactive update option best meets your needs.
 ms.author: aweixelman
 author: AliciaWeixelman
 manager: MelissaBarry
@@ -13,12 +13,12 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 10/28/2024
+ms.date: 01/29/2025
 ---
 
 # How to update reporting data in closed Viva Glint surveys
 
-For highly trained users, Microsoft Viva Glint Advanced Configuration Uploads and Data Apps allow you to perform retroactive updates to survey data. Use this guidance to determine which retroactive update option best meets your needs.
+Microsoft Viva Glint Advanced Configuration Uploads and Data Apps allow you to perform retroactive updates to survey data. Use this guidance to determine which retroactive update option best meets your needs.
 
 > [!CAUTION]
 > - Don't perform a retroactive update while a Glint survey is live.
@@ -41,13 +41,20 @@ Some attributes in Glint always reference the most current information and don't
 
 Recurring and Ad Hoc survey programs represent a point in time for all respondents, and updates for multiple users for one time period can be applied in bulk with retroactive update options. Employee Lifecycle and Always-On survey programs, however, are ongoing. Surveys generate for individual users at many points throughout the lifetime of these surveys, making it difficult to pinpoint users' data in the past and apply updates, especially for Manager Hierarchy data.
 
+### Employee Lifecycle and Always-On surveys
+
+Ongoing survey types like Lifecycle and Always-On can have the same user respond multiple times in a period that may need a retroactive update. Viva Glint retroactive updates don't currently support attribute value updates to multiple records for a single user during a retroactive update. Instead, an admin can choose one of these options:
+
+- In the file of corrected user data, remove users who have multiple records
+- In the file of corrected user data, keep only the most recent record for users who have multiple records
+
 ## Uploads: Retroactive User Updates
 
-To retain current employee information, upload a file of all or some users in your closed survey to apply new values to past versions of data. This option is the simplest and can be used for most retroactive updates, including non-managerial reporting hierarchy updates. [Learn more](https://go.microsoft.com/fwlink/?linkid=2247341).
+To retain current employee information, upload a file of all or some users in your closed survey to apply new values to past versions of data. This option is the simplest and can be used for most retroactive updates, including non-managerial reporting hierarchy updates. [Learn more](advanced-config-uploads.md).
 
 > [!IMPORTANT]
-> To retroactively update a Manager Hierarchy, always use the RETROACTIVE_PULSE_UPDATE Data App and not the Retroactive USERS_UPLOAD option. [Learn more](https://go.microsoft.com/fwlink/?linkid=2245700).
+> To retroactively update a Manager Hierarchy, always use the RETROACTIVE_PULSE_UPDATE Data App and not the Retroactive USERS_UPLOAD option. [Learn more](glint-data-apps.md).
 
 ## Data Apps: RETROACTIVE_PULSE_UPDATE
 
-Update Manager Hierarchy information for closed surveys by uploading corrected users to Glint, running the RETROACTIVE_PULSE_UPDATE Data App, and reverting user data to current information after the update. [Learn more](https://go.microsoft.com/fwlink/?linkid=2245700).
+Update Manager Hierarchy information for closed surveys by uploading corrected users to Glint, running the RETROACTIVE_PULSE_UPDATE Data App, and reverting user data to current information after the update. [Learn more](glint-data-apps.md).
