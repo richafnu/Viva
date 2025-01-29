@@ -17,7 +17,7 @@ ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
 ms.custom: CELA-aapproved
-ms.date: 1/13/2025
+ms.date: 1/29/2025
 ---
 
 # Microsoft 365 Copilot in Viva Glint-FAQs 

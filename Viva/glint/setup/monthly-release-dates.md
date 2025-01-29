@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 1/28/2025
+ms.date: 1/29/2025
 ---
 
 # Viva Glint platform deployment dates
@@ -31,7 +31,7 @@ Microsoft Viva Glint is consistently improving the customer experience. Our plat
 |Saturday, March 15, 2025|
 |Thursday, April 10, 2025|
 |Thursday, May 15, 2025|
-|Thursday, June 10, 2025|
+|Thursday, June 12, 2025|
 
 
 Viva Glint is committed to consistently improving the customer experience. The cloud-based platform maintains an agile production cycle with fixes, enhancements, and new features. Planned program release dates are provided with the best intentions of releasing on these dates, but dates may change due to unforeseen circumstances. Updates are provided as appropriate.*
