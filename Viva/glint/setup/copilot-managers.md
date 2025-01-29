@@ -16,7 +16,7 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 1/13/2025
+ms.date: 1/29/2025
 ---
 
 # How managers use Microsoft 365 Copilot in Viva Glint 
@@ -64,7 +64,7 @@ Use these tips to understand and act on employee feedback quickly:
 |Browse ready-to-use prompts| Prompt guide proactively suggests questions to get you started on data exploration.|
 |Experiment writing your own prompts|Try writing your own prompts on different topics, items, and demographic groups. If a prompt doesn’t work right away, rephrase it.
 |Bundle requests into a single prompt|Follow-up questions aren’t currently supported. Instead, ask multi-step prompts, including your anticipated follow-up question. 
-|Keep queries to Viva Glint data|Copilot in Viva Glint doesn’t access data beyond what is in your dashboard.
+|Keep queries to Glint data|Copilot in Viva Glint doesn’t access data beyond what is in your dashboard.
 |Be specific on your prompt wording|The more detailed your prompt, the more likely Copilot in Viva Glint accurately interprets the intent. 
 
 > [!IMPORTANT]
