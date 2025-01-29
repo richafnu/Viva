@@ -77,7 +77,7 @@ Ongoing survey types like Lifecycle and Always-On can have the same user respond
 - In the file of corrected user data, remove users who have multiple records
 - In the file of corrected user data, keep only the most recent record for users who have multiple records
 
-If duplicates aren't removed, admins see a "Failed to run the data app RETROACTIVE_PULSE_UPDATE" error message accompanied by a more detailed error message in Advanced Configuration Running Jobs.
+If duplicates aren't removed, admins see a "Failed to run the data app RETROACTIVE_PULSE_UPDATE" error message.
 
 > [!NOTE]
 > To retroactively update a Manager Hierarchy, always use the RETROACTIVE_PULSE_UPDATE Data App and not the Retroactive User Updates option. [Learn more](glint-data-apps.md).
