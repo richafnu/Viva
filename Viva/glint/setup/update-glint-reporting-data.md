@@ -43,12 +43,9 @@ Recurring and Ad Hoc survey programs represent a point in time for all responden
 
 ### Employee Lifecycle and Always-On surveys
 
-Ongoing survey types like Lifecycle and Always-On can have the same user respond multiple times in a period that may need a retroactive update. Viva Glint retroactive updates don't currently support attribute value updates to multiple records for a single user during a retroactive update. Instead, an admin can choose one of these options:
+Ongoing survey types like Lifecycle and Always-On can have the same user respond multiple times in a survey cycle that may need a retroactive update. Viva Glint retroactive updates don't currently support attribute value updates to multiple records for the same user during a retroactive update. An admin can remove users who have multiple records when preparing a file of corrected user data.
 
-- In the file of corrected user data, remove users who have multiple records
-- In the file of corrected user data, keep only the most recent record for users who have multiple records
-
-If duplicates aren't removed, admins see a:
+If duplicated users aren't removed, admins see a:
 
 - "Failed to run the data app RETROACTIVE_PULSE_UPDATE" error message when using the RETROACTIVE_PULSE_UPDATE Data App.
 - "FAILED" State for the Retroactive User Updates upload, with the following File error in the Upload Job Details:
