@@ -158,4 +158,4 @@ We would love to hear from you! To send feedback, select the **Is this helpful?*
 ### Related topics
 
 * [Learn more about how to use Copilot in Viva Insights](./org-insights-copilot.md)
-* Learn more about how to use attributes with Copilot
+* [Optimize how you use attributes with Copilot](./../advanced/admin/upload-org-data-copilot.md)

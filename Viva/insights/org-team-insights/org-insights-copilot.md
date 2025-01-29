@@ -66,7 +66,7 @@ As a leader or delegate, you can access Copilot using the Viva Insights Teams ap
 
 ## Use deep-dive reports
 
-As you use Copilot, you'll also find deep-dive visualization reports to help you perform further analysis and gain actionable insights. Learn more.
+As you use Copilot, you'll also find deep-dive visualization reports to help you perform further analysis and gain actionable insights. [Learn more](./copilot-deep-dive-reports.md).
 
 ## Use Organizational Behavioral Reports
 
@@ -88,7 +88,7 @@ As a Viva Insights admin, the quality of Copilot’s responses is determined by 
 
 * To remove Copilot access for a leader, [disable their Group Manager (GM) role](../advanced/setup-maint/manager-settings.md). To remove Copilot access for a delegate, remove their delegate role. [Learn more about delegate access](../org-team-insights/delegate-access.md).
 
-Learn more about how to optimize your use of attributes for Copilot.
+[Learn more about how to optimize your use of attributes for Copilot](./../advanced/admin/upload-org-data-copilot.md).
 
 ### HR data attributes
 
@@ -117,4 +117,4 @@ A: Admins can:
 ### Related topics
 
 [View organization insights](../org-team-insights/org-insights.md)
-new attribute doc
+[Optimize how you use attributes with Copilot](./../advanced/admin/upload-org-data-copilot.md)
