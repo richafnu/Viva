@@ -77,8 +77,9 @@ From the admin dashboard:
    :::image type="content" source="../../media/glint/setup/rename-attribute.png" alt-text="Screenshot of the Rename Attribute window.":::
 
 > [!CAUTION]
-> - Use this method if the underlying data remains the same, but the field name changed in your system. Don't repurpose attribute name labels, as this can create issues in reporting. Instead, create a new attribute. 
-> - For example, if Department changes to Team and the values in that column change too, add a new Team attribute and don't rename Department to Team.
+> Use this method if the underlying data remains the same, but the field name changed in your system. Repurposing attribute name labels can create issues in reporting. Instead, create a new attribute.
+> 
+> For example, if Department changes to Team and the values in that column change too, add a new Team attribute and don't rename Department to Team.
 
 ## Manage Derived Attributes
 
@@ -140,5 +141,5 @@ To edit a custom attribute's visibility:
 
    :::image type="content" source="../../media/glint/setup/attribute-visibility.png" alt-text="Screenshot of the Edit Attribute dialog with the Visibility toggle switched to On.":::
 
-To give a User Role access to newly visible custom attributes, select the **Configuration** symbol and then in the **Employees** section, choose **User Roles**. Select a role and in **Report Attributes**, make selections for the newly visible attribute. [Learn more about User Role setup](set-up-user-roles.md).
+To give a User Role access to newly visible custom attributes, select the **Configuration** symbol and then in the **Employees** section, choose **User Roles**. Select a role's **Report Attributes** and make selections for the newly visible attribute. [Learn more about User Role setup](set-up-user-roles.md).
 
