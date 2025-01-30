@@ -2,7 +2,7 @@
 title: "Add external messaging participants to your Viva Engage conversations"
 f1.keywords:
 - NOCSH
-ms.reviewer: 
+ms.reviewer: auhosford
 ms.author: donnabouldin
 author: v-rgrace
 manager: elizapo
