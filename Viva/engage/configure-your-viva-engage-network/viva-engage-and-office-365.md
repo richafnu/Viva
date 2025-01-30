@@ -134,7 +134,7 @@ Here's a list of key capabilities (related to managing Viva Engage in Microsoft 
  
 - Linda and John are users of the same Microsoft 365 tenant, but they're members of different networks. If `linda@contoso.com` tries to access Viva Engage by selecting the Viva Engage tile or by logging in at `www.Viva Engage.com`, the system prompts Linda for their Microsoft 365 credentials, and joins the `contoso.com` network. 
 
-Similarly, `john@fabrikam.com` can access Viva Engage, sign in with Microsoft 365 credentials, and join the `fabrikam.com network`. If Linda or John are previous Viva Engage users, their Microsoft 365 accounts associate with their already existing Viva Engage user. No new user is created.
+Similarly, `john@fabrikam.com` can access Viva Engage, sign in with Microsoft 365 credentials, and join the `fabrikam.com network`. If Linda or John is a previous Viva Engage user, their Microsoft 365 account associates with their already existing Viva Engage user. No new user is created.
 
 - Lorena is a Microsoft 365 tenant user, with multiple emails that correspond to multiple networks. Suppose that Lorena tries to access Viva Engage using `Lorena@contoso.com`. Lorena's primary email is `Lorena@contoso.com`, but they also have a proxy email `Lorena@fabrikam.com`. In this scenario, Lorena is prompted for their Microsoft 365 credentials, and lands on the `contoso.com` network. (Lorena is associated with just one of the Viva Engage networks.)
 
