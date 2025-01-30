@@ -14,20 +14,24 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 06/18/2024
+ms.date: 01/30/2025
 ---
 
 # Viva Glint reporting features
 
-The following terms help you get the most useful information from your Viva Glint reports. 
+The following features help you get the most useful information from your Microsoft Viva Glint reports. 
 
-|**Term**| **Definition**|
+|**Features**| **Definition**|
 |-----------|-----------|
-|Mean score | The average for all provided questions/items in a survey, transformed into a 100-point scale.|
-|Engagement score | Calculated by computing the average score for eSat (Employee Satisfaction) - or eSat and Recommend (key driver) - or a customized aggregate. The overall score has the highest correlation with the drivers of engagement, along with outcomes like productivity and retention. This overall score helps managers understand how happy their team is at work. |
-|Favorability | Favorability provides the distribution of responses that make up the overall average score. It’s useful to know if there's a strong consistency in responses or if the average is a result of a wide and divided range of opinions. |
-|Favorability score  | Favorability is calculated by looking at responses that fall within a specific range based on the rating scale used. <br> In Viva Glint reporting schematics: <br> - Questions scored as favorable show in blue. <br> - Questions scored as neutral show in grey. <br> - Questions scored as unfavorable show in red. <br> For items scored on a 5-point rating scale (Viva Glint’s best practice), <br> - Items scoring mostly 4 s and 5 s are considered favorable.<br> - Items scoring mostly 3 s are considered neutral. <br> - Items scoring mostly 1 s and 2 s are considered unfavorable.   |
+|Key Outcome|The main result of the survey. It can be the score from a single item or an aggregate index. This number is the most prominently displayed score in most reports.| 
+|Engagement score | The key outcome for an Engagement survey. The Engagement Score is calculated by computing the average score, typically for eSat (Employee Satisfaction) - or eSat and Recommend. The Engagement Score has the highest correlation with engagement drivers, along with outcomes like productivity and retention. The overall Engagement score helps managers understand how happy their team is at work.  |
+|Item, <br> also referred to as *Question* or *Driver|Any question or statement put forth to a survey participant. An item that typically impacts sentiment connected to the Key Outcome. For example, Recognition is a Driver that commonly impacts how employees feel about eSat (Key Outcome). Drivers provide additional data related to other motivators.  |
+|Mean score | The average for all items provided in a survey, converted into a 100-point scale.|
+|Favorability | Provides the distribution of responses. It’s useful to know if there is a strong consistency in responses or if the score is a result of a wide and divided range of opinions.  |
+|Filter|A fixed panel across all reports in the Glint Reports section. Reports can be filtered for further deeper interpretation. |
+|Impact| The correlation between a survey item and the Key Outcome. 
 
+ 
 ## Filter a Viva Glint report 
 
 Glint survey reports use one process across all reports for filtering. This fixed panel identifies survey programs, attributes, and survey item subsets in which your data can be filtered for interpretation. 
