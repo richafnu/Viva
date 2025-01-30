@@ -88,7 +88,6 @@ For your new item, complete the following fields:
 
 ## Differentiate between a section *break* and a survey *section*
 
-**Vocabulary:** 
 |Function|Description|
 |------|-----|
 |**Section break:** |User scrolls and new items are shown *without any header.* For surveys that cover more than one topic, a Section Break gives notice that the topic is switching.|
