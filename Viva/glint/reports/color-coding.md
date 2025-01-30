@@ -67,7 +67,7 @@ Glint’s best practice is to use a 5-point rating scale. The color representati
 
 ## Color coding for the Heat Map report
 
-The colors in the Heat Map allow quick identification of systemic patterns and outliers. Color coding is relative and not absolute. To determine the relative coloring in a Heat Map, Glint looks at the range of scores displayed:.
+The colors in the Heat Map allow quick identification of systemic patterns and outliers. Color coding is relative and not absolute. To determine the relative coloring in a Heat Map, Glint looks at the range of scores displayed:
 
 - Maximum and minimum scores are always displayed as dark blue and dark red.
 - Scores between the maximum and minimum are evenly bucketed in up to seven differently colored buckets. The median score shows in gray.
