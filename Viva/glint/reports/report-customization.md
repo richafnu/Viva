@@ -52,10 +52,10 @@ If a section of a report doesn’t provide the insight you're looking for, delet
 
 Any user with reporting access can add a section to their report by selecting **+ Add Section**. The **Add Section** slider panel opens.
 
-Using the menu bar, admins can add available sections to an existing report by selecting the **+ symbol** next to the section to be added. When available, choose a demographic for the new section and select **Add.**
+Admins can add available sections to an existing report by selecting the **+ symbol** next to the section to be added. When available, choose a demographic for the new section and select **Add.**
 
 > [!IMPORTANT]
-> When there is an insufficient score or number of responses to provide data for a section, you see a "section added" banner, but the section is not visible on the report dashboard. The section may become visible as more surveys are completed. Activating the survey section doesn't mean that the section shows at that moment in time. 
+> When adding a section but there's insufficient score or number of responses to provide data for a section, you do see a "section added" banner. However, the section isn't visible on the report dashboard. The section may become visible as more surveys are completed. Activating the survey section doesn't mean that the section shows at that moment in time. 
 
 Edited sections can be saved under a new name to protect the integrity of the original report but so that the new report is also readily available.
 
