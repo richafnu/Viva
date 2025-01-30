@@ -75,7 +75,7 @@ The primary metric is the average score. This score:
  ### The favorability score 
 
 In addition to the converted 0-100 rating scale, the Glint platform reports favorability in percentages in three categories: Unfavorable, Neutral, and Favorable.  
-Favorability provides an understanding of the spread and variability of scores within the average. Managers learn where movement occured by looking at how favorability distribution changes over time. 
+Favorability provides an understanding of the spread and variability of scores within the average. Managers learn where movement occurred by looking at how favorability distribution changes over time. 
 
 Viva People Science recommends using the **mean** score over the favorability score. [Read more here.](/viva/glint/reports/mean-score.md)
 
