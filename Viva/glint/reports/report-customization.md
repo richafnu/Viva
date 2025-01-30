@@ -14,7 +14,7 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 01/24/2025
+ms.date: 01/30/2025
 ---
 
 # Customize Viva Glint feedback reports
@@ -50,17 +50,12 @@ If a section of a report doesn’t provide the insight you're looking for, delet
 
 ## Add a section to a report
 
-Any user with reporting access can add a section to a report by selecting **+ Add Section**. The **Add Section** slider panel opens.
+Any user with reporting access can add a section to their report by selecting **+ Add Section**. The **Add Section** slider panel opens.
 
 Using the menu bar, admins can add available sections to an existing report by selecting the **+ symbol** next to the section to be added. When available, choose a demographic for the new section and select **Add.**
 
-
-
-
-
-
-
-
+> [!IMPORTANT]
+> When there is an insufficient score or number of responses to provide data for a section, you see a "section added" banner, but the section is not visible on the report dashboard. The section may become visible as more surveys are completed. Activating the survey section doesn't mean that the section shows at that moment in time. 
 
 Edited sections can be saved under a new name to protect the integrity of the original report but so that the new report is also readily available.
 
