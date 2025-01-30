@@ -50,7 +50,7 @@ From the admin **Configuration** dashboard, select **360 Feedback Programs.** **
 
 In **Cycle Settings**, select **Competencies & Reporting**. The Competencies section shows the number of items mapped to each competency.
 
-::image type="content" source="../../media/glint/setup/competencies-reporting-4.png" alt-text="Screenshot of the Competencies & Reporting page." Lightbox="../../media/glint/setup/competencies-reporting-4.png":::
+:::image type="content" source="../../media/glint/setup/competencies-reporting-4.png" alt-text="Screenshot of the Competencies & Reporting page." lightbox="../../media/glint/setup/competencies-reporting-4.png":::
 
 ### Question mapping
 
@@ -60,8 +60,8 @@ To maximize the reporting experience, map all ratings items to at least one comp
 
 1. Select the **Competency** to be customized or mapped.
 1. If desired, edit the values to the **Comptency Name** and **Competency Description** fields. This text is used in your reports.
-1. Select at least one item to map to the competency. To search for an item, begin entering the item label in the **Search Question** field.
-1. Select **Save Changes.**
+1. Select at least one item to map to the competency. To search for an item, enter the item label in the **Search Question** field.
+1. Select **Save Changes**.
 
 **Procedure to map a competency to an item that is already mapped to another competency:**
 
@@ -79,9 +79,9 @@ To add a competency to a cycle:
 1. Select **+ Add Competency**. The **Add Competency** panel opens.
 2. Assign values to	the **Competency Name** and **Competency Description** fields. This text is used in reports.
 3. Select at least one item to map to the competency.
-4.	Select **Save Changes.**
+4. Select **Save Changes**.
 
-::image type="content" source="../../media/glint/setup/360-add-competency-2.png" alt-text="Screenshot of the Add Competency panel." Lightbox="../../media/glint/setup/360-add-competency-2.png":::
+    :::image type="content" source="../../media/glint/setup/360-add-competency-2.png" alt-text="Screenshot of the Add Competency panel." lightbox="../../media/glint/setup/360-add-competency-2.png":::
 
 ### Remove a competency
 
@@ -112,7 +112,7 @@ In this section 360 admins determine whether subjects, coaches, or managers rece
     - Immediate release: A report access email is automatically sent when the 360 cycle closes.
     - 1-14 days: A report access email is sent based on the selected number of days after the cycle closes.
   
-:::image type="content" source="../../media/glint/setup/360-manual-immediate.png" alt-text="Screenshot of the Report Access & Timing window in Cycle Settings.":::
+    :::image type="content" source="../../media/glint/setup/360-manual-immediate.png" alt-text="Screenshot of the Report Access & Timing window in Cycle Settings.":::
 
 Changes can be made during a live cycle, but changes don't apply to reports already released.
 
@@ -123,10 +123,10 @@ In this section, provide help content for how to process and read 360 feedback. 
 1.	Toggle **Global Reporting Guidance** to **ON** to reveal the **Select a content resource** menu. 
 2.	Key in **360** in the search bar to access the standard templates.
 
-   :::image type="content" source="../../media/glint/setup/360-resource-guidance2.png" alt-text="Screenshot of the search bar for choosing resource guidance.":::
+    :::image type="content" source="../../media/glint/setup/360-resource-guidance2.png" alt-text="Screenshot of the search bar for choosing resource guidance.":::
 
->[!TIP]
-> We recommend using **360 _Report Guidance** for the Global Reporting Guidance. 
+    >[!TIP]
+    > We recommend using **360 _Report Guidance** for the Global Reporting Guidance. 
 
 
 
