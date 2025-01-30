@@ -30,7 +30,7 @@ Use the video resources below to help you get started. Each link points to a ded
 
 ## Courses for analysts - Overview and queries
 
-[Introduction to advanced insights and the analyst workbench](../advanced/introduction-to-advanced-insights.md#navigation)
+[Introduction to advanced insights and the analyst workbench](../advanced/introduction-to-advanced-insights.md#analyst-features)
 
 [Create a custom meeting query](../advanced/analyst/meeting-query.md)
 
