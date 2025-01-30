@@ -55,9 +55,7 @@ The Viva Glint Question Library has over 400 validated survey items for you to c
    
 1. Select your item from the new list and then press the **+** symbol. A "Question Added" banner displays briefly on the **Questions** page.
 
-## Create new questions
-
-### Considerations for custom questions
+## Considerations for custom questions
 
 When creating new custom questions, keep in mind that:
 
@@ -90,12 +88,13 @@ For your new item, complete the following fields:
 
 ## Differentiate between a section *break* and a survey *section*
 
-Understand the vocabulary:  
+**Vocabulary:** 
+|Function|Description|
+|------|-----|
+|**Section break:** |User scrolls and new items are shown *without any header.* For surveys that cover more than one topic, a Section Break gives notice that the topic is switching.|
+|**Survey section:** |A *persistent header* with multiple items tied to it. The header remains at the top of the screen as the user responds.
 
-- **Section break:** User scrolls and new items are shown *without any header.* For surveys that cover more than one topic, the appearance of a Section Break gives notice that the topic is switching.
-- **Survey section:** A *persistent header* with multiple items tied to it, which remains at the top of the screen as the user responds.
-
-### Add a Section Break 
+## Add a Section Break 
 
 1. Select the **+** button on the Questions page.
 2. Select **Add Section Break** to reveal the corresponding slider window.
@@ -108,11 +107,11 @@ Understand the vocabulary:
 
    :::image type="content" source="../../media/glint/setup/section-break-moved.png" alt-text="Screenshot of a Section Break row moved between chosen survey item sections.":::
 
-#### More actions for Section Breaks
+### More actions for Section Breaks
 
 Use the ellipses next to a survey item to display the option to edit or delete the Section Break.
 
-### Add a Survey Section
+## Add a Survey Section
 
 1. Select the **+** button on the Questions page.
 2. Select **Add Section Section** to reveal the corresponding slider window.
@@ -125,13 +124,13 @@ Use the ellipses next to a survey item to display the option to edit or delete t
 
    :::image type="content" source="../../media/glint/setup/section-break-moved-2.png" alt-text="Screenshot of a Survey Section row moved before chosen survey item sections.":::
 
-#### More actions for Survey Sections
+### More actions for Survey Sections
 
 Use the ellipses next to a survey item to display the option to edit, target a new item directly for this section, or to delete the Survey Section.
 
 :::image type="content" source="../../media/glint/setup/section-add-question.png" alt-text="Screenshot of the ellipses dropdown menu next to Survey Section.":::
 
-##### Target a question for a Survey Section
+### Target a question for a Survey Section
 
 1. Select **Add Question.** The **Question Library** slider panel opens.
 2. **Choose a new item.** In this image, *Culture/5-point scale* is chosen:
