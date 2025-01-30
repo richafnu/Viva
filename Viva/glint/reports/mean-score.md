@@ -45,13 +45,13 @@ Aggregate trending shows historical data over time. A trend point reflects match
 **Favorability**  helps with understanding the spread and variability of responses, but there are drawbacks:
 
 - The mean score isn't shown.
-- External benchmarks aren't available .
+- External benchmarks aren't available.
 - Calculations to measure engagement and other areas of sentiment are based on the mean score, not favorability.
 - Percent favorability is prone to error and instability in smaller teams.
 - The mean score is the better statistical predictor for behavioral and business outcomes.
-- Percent favorablity isn't consistent with other analyses.
-- Percent favorablity only shows respondents who agree with the statement. Neutral or unfavorable scores aren’t provided.
-- Percent favorablity doesn't reflect changes in scores over time.
+- Percent favorability isn't consistent with other analyses.
+- Percent favorability only shows respondents who agree with the statement. Neutral or unfavorable scores aren’t provided.
+- Percent favorability doesn't reflect changes in scores over time.
 
 
 
