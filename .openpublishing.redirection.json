@@ -2324,7 +2324,7 @@
   { 
     "source_path": "viva/engage/configure-your-viva-engage-network/deprecation-of-basic-freemium-networks.md",
     "redirect_url": "/viva/engage/overview",
-    "redirect_document_id": true
+    "redirect_document_id": false
   },
   { 
     "source_path": "viva/engage/work-with-external-users/create-and-manage-an-external-network.md",
