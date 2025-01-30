@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 12/18/2024
+ms.date: 1/30/2025
 ---
 
 # Add survey items, sections, and section breaks to a Viva Glint program
@@ -66,7 +66,7 @@ When creating new custom questions, keep in mind that:
 - Custom questions aren't included in the [Attrition Risk Index](/viva/glint/reports/alerts-report-attrition-risk#attrition-risk-index)
 - Custom questions aren't mapped to standard [Action Plan Templates](/viva/glint/setup/customize-action-plans#understand-terminology-associated-with-content-resources-and-action-plans) or recommended [Focus Areas](/viva/glint/people-science/people-science-explains-focus-areas)
 
-### How to add a new custom question
+### Add a new custom question
 
 Select the **+ Create** button. A **Create Question** window opens.
    
