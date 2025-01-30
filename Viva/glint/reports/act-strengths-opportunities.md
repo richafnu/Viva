@@ -14,53 +14,68 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 01/13/2025
+ms.date: 01/30/2025
 ---
 
 # Use Viva Glint to act on Strengths and Opportunities
 
-The Strengths & Opportunities (S&0) section of a feedback report is designed so a manager can focus on opportunities first, as they have the highest impact on employee engagement. For this reason, **Take Action** appears by default in the Opportunities section. Continue the process:
+Strengths are areas that a team should celebrate, and Opportunities are areas the team should work on to improve overall engagement (or the survey Key Outcome). 
 
-- Select the **Take Action** button.
-- Select the **ellipses** in the Strengths or the Opportunities column and then selecting **Take Action**.
+The algorithm used to identify Strengths and Opportunities is composed of  
+- Item scores,
+- impact on engagement,
+- and relativity of the score to a comparison point.  
 
-## Watch these videos
+This comparison could be internal company scores, an external benchmark, or the score for the average item for that survey. 
 
-Share these tutorials with your managers.
+## Improve driver scores which matter most
 
-**Lean into your strengths with Microsoft Viva Glint** (2:30)
+Share these videos with your managers.
 
+- **Lean into your strengths with Microsoft Viva Glint** (2:30)
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RW132G0]
 
-**How to think about your opportunities with Microsoft Viva Glint** (3:00)
-
+- **How to think about your opportunities with Microsoft Viva Glint** (3:00)
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RW12ULW]
 
-> [!NOTE]
-> When less than two eligible items are ranked, the S&O section is hidden on a user's dashboard. This happens when:
-> - There are insufficient results.
-> - All items have low or medium impact.
-> - A user is on a report filtered to only one item.
+Knowing which drivers have a high impact allows managers to focus on improving the scores of drivers that matter most. A driver's impact is classified as high when: 
+- Employees who rate a driver high, also rate engagement high 
+- Employees who rate a driver low, also rate engagement low 
 
-## Why does my screen indicate *View Focus Area* rather than *Take Action*?
+Without strong correlation, a driver’s score has low or zero impact.  
 
-When a manager has already acted -chosen a Focus Area- the platform indicates **View Focus Area**. This feature shows how the manager and their team are progressing with Team Conversations and action taking.
+## Filter a Viva Glint report 
 
->[!NOTE]
-> *Take Action* or *View Focus Area* doesn't appear for users without *Create Focus Areas* enabled within their User Role permissions.
+Glint survey reports use one filtering process across all reports. Data can be filtered for interpretation from this fixed panel which identifies survey programs, attributes. 
 
-## Understand realized versus unrealized strengths 
+**Follow this process:** 
+1. Select the **filter symbol** at the top of the dashboard to expand the Filters panel.
+2. Select **+ Add Filters** to select attributes available in either the **People** section or the **Question Responses section**.
+3. Select **X** to hide the filter panel.
 
-Within the strengths section, you may see **realized** or **unrealized** labels, or even no such label. 
+## What is Advanced Filtering? 
 
-- **Realized strength:** something your team is good at and does on a regular basis.
-- **Unrealized strength:** something that your team is good at but doesn't practice regularly and should be considered as an opportunity.
-- **Unlabeled:** - the gap between what is realized and unrealized, for purposes of calling out items that deserve attention.
-  
-## Custom Strengths and Opportunities
+Advanced filtering allows users to view survey results from a particular group of employees who participated in different survey programs.  
 
-Outcomes and comparisons used to calculate S&Os can be customized in either of the following ways:
+For example, to show how early onboarding experiences impact long-term engagement, review recent engagement survey results filtered by those that had positive or negative onboarding experiences in their employee journey. 
 
-- Select **Settings** to reveal the option to change outcomes and comparisons.
-- In the Strengths and Opportunities section, select the **hyperlinked words** to change the outcome or comparison.
+1. Select **Advanced.** 
+1. Select **Yes, enable Advanced Filtering.** 
+1. Select the **+ symbol** in the Filter panel. 
+1. Choose the program from the dropdown menu.
+
+## Scores calculation overview 
+
+The primary metric is the average score. This score: 
+ - Best demonstrates how a group rates a particular item
+ - Provides the most robust insight across different scenarios, including viewing scores for small populations and trends over time  
+
+ The average score for each item is the average of all the responses to that item, converted to a 0-100 rating scale.  
+
+ ### The favorability score 
+
+In addition to the converted 0-100 rating scale, the Glint platform reports favorability in percentages in three categories: Unfavorable, Neutral, and Favorable.  
+Favorability provides an understanding of the spread and variability of scores within the average. Managers learn where movement occurred by looking at how favorability distribution changes over time. 
+
+Viva People Science recommends using the **mean** score over the favorability score. [Read more here.](/viva/glint/reports/mean-score.md)
 
