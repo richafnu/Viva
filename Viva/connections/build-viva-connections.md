@@ -59,7 +59,7 @@ For a smooth launch, you want to make sure information can be easily accessed an
 
 2. Check the performance for any SharePoint sites that receive a high amount of traffic.
 
-For example, sites that relate to human resources, organizational news, and popular services like transportation or café menus.
+   For example, sites that relate to human resources, organizational news, and popular services like transportation or café menus.
 
 3. [Share the SharePoint home site with the entire organization](https://support.microsoft.com/office/958771a8-d041-4eb8-b51c-afea2eae3658) (if available) before launching. Make sure that the target audiences for the cards in the Connections dashboard are shared with the right audiences.
 
@@ -76,13 +76,14 @@ If your organization has a Viva suite or Viva Communications and Communities lic
 - Test Connections through Microsoft Teams and the [Viva Suite home site](https://viva.cloud.microsoft/).
 - Test Connections through SharePoint if a home site was used to create the experience.
 - Depending what devices your organization prefers, test Connections on desktop, mobile, and tablet devices.
-- Make sure all links are active and there aren’t any dead ends.
+- Make sure all links are active and there aren't any dead ends.
 - Pay attention to labels on dashboard cards and buttons – do they make sense to the rest of the organization?
 - Evaluate the quality and effectiveness of icons and images.
 - Check for performance issues like slow loading times or missing images.
-- Ask testers about the [navigation experience](/sharepoint/information-architecture-modern-experience)
-- Test with [early adopters and champions](https://adoption.microsoft.com/roles/champion/) and capture their feedback
+- Ask testers about the [navigation experience](/sharepoint/information-architecture-modern-experience).
+- Test with [early adopters and champions](https://adoption.microsoft.com/roles/champion/) and capture their feedback.
 
 ## Next, launch Connections for your organization
 
-After you have finished [planning](plan-viva-connections.md), building, and testing Connections, it’s time to let the rest of the organization know that it's available for use. [Learn more about how to launch Connections.](launch-viva-connections.md)
+After you have finished [planning](plan-viva-connections.md), building, and testing Connections, it's time to let the rest of the organization know that it's available for use. [Learn more about how to launch Connections.](launch-viva-connections.md)
+'
