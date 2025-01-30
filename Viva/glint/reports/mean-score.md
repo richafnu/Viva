@@ -1,6 +1,6 @@
 ---
-title: 
-description: 
+title: Use the mean score to interpret feedback results from Viva Glint surveys
+description: Viva People Science recommends using the average- or mean score -for interpreting feedback results.
 ms.author: JudithWeiner
 author: JudyWeiner
 manager: MelissaBarry
@@ -17,4 +17,4 @@ ms.localizationpriority: high
 ms.date: 01/30/2025
 ---
 
-# 
+# Use the mean score to interpret feedback results from Viva Glint surveys
