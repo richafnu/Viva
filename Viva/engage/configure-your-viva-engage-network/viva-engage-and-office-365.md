@@ -30,13 +30,13 @@ To provide the best end-user and management experience, every Microsoft 365 tena
 
 A Viva Engage network represents people who are part of the same organization, and work together closely. A Viva Engage network acts as an organizational boundary and as a management entity. As Viva Engage becomes an integral part of Microsoft 365, Viva Engage uses the associated Microsoft 365 tenant as the organizational boundary and for managing key functions.
  
-**Viva Engage network as an organizational boundary** Only users who are part of the same organization can join the network, which provides trust between members of the network, so they can collaborate freely.
+**Viva Engage network as an organizational boundary**: Only users who are part of the same organization can join the network, which provides trust between members of the network, so they can collaborate freely.
  
 All Microsoft 365 apps, including Viva engage, share the same organizational boundary. All Microsoft 365 users who are part of the same Microsoft 365 tenant (with a Viva Engage subscription) can access Viva Engage.
  
 When you add a new domain to the Microsoft 365 tenant, that domain automatically synchronizes with Viva Engages, so users of the new domain can access it.
  
-**Viva Engage network as a management entity** The Viva Engage service is managed in Microsoft 365 as a standard service. It supports the same identity, domain, user, and license management features as all other Microsoft 365 apps. You use one set of tools for Microsoft 365 administrators to manage all Microsoft 365 services, including for Viva Engage. 
+**Viva Engage network as a management entity**: The Viva Engage service is managed in Microsoft 365 as a standard service. It supports the same identity, domain, user, and license management features as all other Microsoft 365 apps. You use one set of tools for Microsoft 365 administrators to manage all Microsoft 365 services, including for Viva Engage. 
 
 We recommend that Viva Engage Administrators only manage Viva Engage-specific configurations (such as notification defaults or External network settings) at the network level.
  
@@ -105,9 +105,9 @@ Even after consolidation, you might be in a situation where due to strong busine
 
 - **Inability to collaborate with everyone in the organization:** All employees of your organization aren't on the same Viva Engage network, so users aren't able to connect with everyone in the organization using Viva Engage. For example:
 
-- Company-wide announcements: If the CEO of the company needs to communicate a message to everyone in the organization, they must do it in every network individually. Employee reactions to the announcement aren't available to everyone in the organization.
+- **Company-wide announcements**: If the CEO of the company needs to communicate a message to everyone in the organization, they must do it in every network individually. Employee reactions to the announcement aren't available to everyone in the organization.
 
-- Organic information discovery: If employees in one network are working on a project and need to refer to a similar project in another subsidiary, they can't access it. Lack of access directly impacts organic collaboration.
+- **Organic information discovery**: If employees in one network are working on a project and need to refer to a similar project in another subsidiary, they can't access it. Lack of access directly impacts organic collaboration.
 
 - **Confusion caused due to organization boundaries being different in Viva Engage vs. Microsoft 365:** In this configuration, the organizational boundary in Microsoft 365 is larger than the individual Viva Engage networks, causing potential confusion. 
 
@@ -115,7 +115,7 @@ For example, a Microsoft 365 video is shared with everyone in the organization. 
 
 - **Viva Engage-Microsoft 365 groups integration not available:** As announced in the Viva Engage blog, we're working on integrating Viva Engage groups with Microsoft 365 groups infrastructure. This feature isn't available to customers in the one tenant: many network configurations. Organizational boundaries between Microsoft 365 and Viva Engage can also cause this problem. Here's an example.
 
-- Group membership management: A company integrates the Viva Engage groups with the Microsoft 365 groups infrastructure. A group is created in the `contoso.com` network that contains only users who can be part of the `contoso.com` network. When this integrated group is managed in Microsoft 365, a user with the `fabrikam.com` domain can be added to the group. Now this `fabrikam.com` user can't be added to the group in Viva Engage.
+- **Group membership management**: A company integrates the Viva Engage groups with the Microsoft 365 groups infrastructure. A group is created in the `contoso.com` network that contains only users who can be part of the `contoso.com` network. When this integrated group is managed in Microsoft 365, a user with the `fabrikam.com` domain can be added to the group. Now this `fabrikam.com` user can't be added to the group in Viva Engage.
 
 Here's a list of key capabilities (related to managing Viva Engage in Microsoft 365) that you can use in this configuration.
  
@@ -168,7 +168,7 @@ After all users in the tenant can sign in to the network with their Microsoft 36
 
 You have the following options to move to a one tenant/one network configuration:
 
-- Consolidate the smaller networks into the larger network by performing [network migration](consolidate-multiple-networks.md). In the previous example, do the following. 
+- Consolidate the smaller networks into the larger network by performing [network migration](consolidate-multiple-networks.md). In the previous example, do the following:
 
 1. Ensure that Viva Engage is activated on your Microsoft 365 tenant. 
 
