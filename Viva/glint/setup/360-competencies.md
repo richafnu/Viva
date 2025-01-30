@@ -14,7 +14,7 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 1/29/2025
+ms.date: 1/30/2025
 ---
 
 # Viva Glint 360 Competencies and Reporting 
@@ -38,7 +38,7 @@ Develop a competency model which is relevant to the success criteria for your or
 - Collect information on what are considered success behaviors.
 - Draft critical behavioral statements.
 - Validate the competency model by comparing 360 results to desired business outcomes. 
-Repeat this process for each major demographic.
+- Repeat this process for each major demographic.
 
 ## Competencies & Reporting setup sections
 
@@ -46,46 +46,48 @@ From the admin **Configuration** dashboard, select **360 Feedback Programs.** **
 
 :::image type="content" source="../../media/glint/setup/360-cycle-settings-2.png" alt-text="Screenshot of how to enter Competencies & Reporting setup.":::
 
+## Competencies section
+
+In **Cycle Settings**, select **Competencies & Reporting**. The Competencies section shows the number of items mapped to each competency.
+
+::image type="content" source="../../media/glint/setup/competencies-reporting-4.png" alt-text="Screenshot of the Competencies & Reporting page." Lightbox="../../media/glint/setup/competencies-reporting-4.png":::
+
 ### Question mapping
 
 To maximize the reporting experience, map all ratings items to at least one competency. Although a competency can map to more than one rating item, a rating item can map to only one competency. ]Learn about question mapping](/../../viva/glint/setup/question-mapping). 
 
 ### Customize a competency and map it to an item
 
-1. In **Cycle Settings**, select **Competencies & Reporting.** The Competencies & Reporting page opens. The Competencies section shows the number of items mapped to each competency.
-2. Select the competency to be customized or mapped.
-3. Assign values to the **Comptency Name** and **Competency Description** fields. This text is used in your reports.
-5. Select at least one item to map to the competency. To search for an item, begin entering the item label in the **Search Question** field.
-6. Select **Save Changes.**
-
-::image type="content" source="../../media/glint/setup/360-add-competency-2.png" alt-text="Screenshot of the Add Competency panel." Lightbox="../../media/glint/setup/360-add-competency-2.png":::
-
-> [!IMPORTANT]
-> Repeat this procedure until all competencies are mapped to at least one item
-
-## Competencies section
-
-In **Cycle Settings**, select **Competencies & Reporting**. The Competencies section shows the number of items mapped to each competency.
-
-::image type="content" source="../../media/glint/setup/competencies-reporting-3.png" alt-text="Screenshot of the Competencies & Reporting page." Lightbox="../../media/glint/setup/competencies-reporting-3.png":::
-
-### Add a competency
-
-1. Select **+ Add Competency**. Select the competency to be customized or mapped from the **Add Competency** panel that opens.
-2.	Populate the **Competency Name** and **Competency Description** fields. This text is used in reports.
-3.	Select **Save Changes.**
+1. Select the competency to be customized or mapped.
+1. Assign values to the **Comptency Name** and **Competency Description** fields. This text is used in your reports.
+1. Select at least one item to map to the competency. To search for an item, begin entering the item label in the **Search Question** field.
+1. Select **Save Changes.**
 
 **Procedure to map a competency to an item that is already mapped to another competency:**
 
 1. Go to the unwanted competency and remove its mapping to your item.
-2. Return to the other competency to map the item.
+2. Select **Save Changes.**
+3. Return to the other competency to map the item.
+
+> [!IMPORTANT]
+> Repeat this procedure until all competencies are mapped to at least one item
+
+## Add a competency
+
+To add a competency to a cycle:
+
+1. Select **+ Add Competency**. The **Add Competency** panel opens.
+2. Assign values to	the **Competency Name** and **Competency Description** fields. This text is used in reports.
+3. Select at least one item to map to the competency.
+4.	Select **Save Changes.**
+
+::image type="content" source="../../media/glint/setup/360-add-competency-2.png" alt-text="Screenshot of the Add Competency panel." Lightbox="../../media/glint/setup/360-add-competency-2.png":::
 
 ### Remove a competency
 
 To remove a competency from a cycle:
 
-1. In **Cycle Settings**, select **Competencies & Reporting**.
-1. Navigate to **Competencies**. Hover over the competency to be removed. 
+1. Hover over the competency to be removed. 
 1. Select the **trash can symbol**. 
 1. Select **Delete** in the confirmation dialog box.
 
