@@ -76,10 +76,10 @@ From the admin dashboard:
 
    :::image type="content" source="../../media/glint/setup/rename-attribute.png" alt-text="Screenshot of the Rename Attribute window.":::
 
-> [!CAUTION]
-> Use this method if the underlying data remains the same, but the field name changed in your system. Repurposing attribute name labels can create issues in reporting. Instead, create a new attribute.
-> 
-> For example, if Department changes to Team and the values in that column change too, add a new Team attribute and don't rename Department to Team.
+   > [!CAUTION]
+   > Use this method if the underlying data remains the same, but the field name changed in your system. Repurposing attribute name labels can create issues in reporting. Instead, create a new attribute.
+   > 
+   > For example, if Department changes to Team and the values in that column change too, add a new Team attribute and don't rename Department to Team.
 
 ## Manage Derived Attributes
 
@@ -96,8 +96,8 @@ To edit derived fields after your initial setup:
    1. To update the field used to create a Derived Attribute: Select the checkbox next to the desired field and choose a new field in the Calculate From dropdown menu. 
    :::image type="content" source="../../media/glint/setup/new-derived-attribute.png" alt-text="Screenshot of the Derived Attributes section after selecting the Manage Derived Attributes button.":::
 
-> [!NOTE]
-> Manager Hierarchy isn't editable after initial setup.
+   > [!NOTE]
+   > Manager Hierarchy isn't editable after initial setup.
 
 ## Manage Optional System Attributes
 
