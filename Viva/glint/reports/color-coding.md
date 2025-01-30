@@ -47,7 +47,7 @@ Items with High or Very High Impact on the outcome (for example, Engagement) are
 
 ## Color Coding for Strengths & Opportunities Sections in other Executive Summary reports
 
-The processes to determine which items are Strengths or Opportunities are identical to the process described for the manager’s Team Summary Report. **Their is an exception related to color coding.** 
+The processes to determine which items are Strengths or Opportunities are identical to the process described for the manager’s Team Summary Report. **There is an exception related to color coding.** 
 - In these report tables, a blue or red dot is displayed next to each strength and opportunity.
   - Blue dots represent items above the benchmark.
   - Red dots represent items below the benchmark. 
