@@ -21,24 +21,25 @@ ms.date: 01/30/2025
 
 Color coding logic differs between the manager Team Summary report and other executive summary report options. 
 
-## Color coding for Scores and Strengths & Opportunities in the Team Summary Report
+## Color coding Strengths & Opportunities in the Team Summary Report
 
-A color is assigned to items which are considered Strengths or Opportunities (S&Os). An impact analysis is conducted for each driver item to determine its impact on the outcome (typically, Engagement).
+In a manager's Team Summary report, a color is assigned to item scores which are considered Strengths or Opportunities (S&Os). An impact analysis is conducted for each driver item to determine its impact on the outcome (typically, Engagement).
 -	Items with High or Very High impact are considered potential Strengths or Opportunities.
 -	Items with Low or Medium Impact aren’t considered either a Strength or an Opportunity. These items are colored gray.
 -	The outcome items - typically the items that comprise the Engagement Score - are also colored gray.
 
-2.	The items with High or Very High Impact on the outcome (for example, Engagement) are first compared to the benchmark selected. Then, the differences for each item from the benchmark are ranked to determine which are Strengths and which are Opportunities.
-a.	The half of items with scores highest above the benchmark are considered Strengths. These will be colored blue. 
-i.	Because not all items in this half may be above benchmark, it’s possible that some items are both below the benchmark and displayed as Strengths.*
-b.	The half of items with scores furthest below the benchmark are considered Opportunities and are colored red. 
-i.	Because not all items in this half may be below benchmark, it’s possible that some items are both above the benchmark and displayed as Opportunities.*
+The items with High or Very High Impact on the outcome (for example, Engagement) are first compared to the benchmark selected. Then, the differences for each item from the benchmark are ranked to determine which are Strengths and which are Opportunities.
+-	The half of items with scores highest above the benchmark are considered Strengths. These will be colored blue. 
+-	Because not all items in this half may be above benchmark, it’s possible that some items are both below the benchmark and displayed as Strengths.*
+-	The half of items with scores furthest below the benchmark are considered Opportunities and are colored red. 
+-	Because not all items in this half may be below benchmark, it’s possible that some items are both above the benchmark and displayed as Opportunities.*
 
 
-*To decrease confusion, there is an optional account setting called “Exclude Negative Strengths & Positive Weaknesses” which can be enabled at the account level. 
+> [!TIP]
+> To decrease confusion, there is an optional account setting called “Exclude Negative Strengths & Positive Weaknesses” which can be enabled at the account level. 
 
-! Note
-If the respondent size of the report is too small, impact is calculated based on the overall company level. See HERE for more information. 
+> [!NOTE]
+> If the respondent size of the report is too small, impact is calculated based on the overall company level. See HERE for more information. 
 
 
 Color Coding for the Strengths & Opportunities Sections of Other Executive Summary Reports
