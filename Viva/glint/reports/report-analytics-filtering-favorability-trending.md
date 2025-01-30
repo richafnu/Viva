@@ -6,7 +6,7 @@ author: JudyWeiner
 manager: MelissaBarry
 audience: admin
 f1.keywords: NOCSH
-keywords: viva strengths and opportunities
+keywords: key outcome, mean score, favorability, filter, impact, key driver
 ms.collection:  
 - m365initiative-viva
 - selfserve 
@@ -17,7 +17,7 @@ ms.localizationpriority: high
 ms.date: 01/30/2025
 ---
 
-# Understnd Viva Glint reporting features
+# Understand Viva Glint reporting features
 
 The following features help you get the most useful information from your Microsoft Viva Glint reports. 
 
