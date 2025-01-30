@@ -54,12 +54,12 @@ In **Cycle Settings**, select **Competencies & Reporting**. The Competencies sec
 
 ### Question mapping
 
-To maximize the reporting experience, map all ratings items to at least one competency. Although a competency can map to more than one rating item, a rating item can map to only one competency. ]Learn about question mapping](/../../viva/glint/setup/question-mapping). 
+To maximize the reporting experience, map all ratings items to at least one competency. Although a competency can map to more than one rating item, a rating item can map to only one competency.
 
 ### Customize a competency and map it to an item
 
-1. Select the competency to be customized or mapped.
-1. Assign values to the **Comptency Name** and **Competency Description** fields. This text is used in your reports.
+1. Select the **Competency** to be customized or mapped.
+1. If desired, edit the values to the **Comptency Name** and **Competency Description** fields. This text is used in your reports.
 1. Select at least one item to map to the competency. To search for an item, begin entering the item label in the **Search Question** field.
 1. Select **Save Changes.**
 
@@ -106,15 +106,15 @@ Glint offers standard survey and report guidance templates.
 In this section 360 admins determine whether subjects, coaches, or managers receive access to a subject's report and choose the timing.  
 
 **Procedure:**
-1. To allow access to 360 feedback for a subject, toggle the subject, coach, or manager access to **On**.
-2. Toggle subject, coach, and manager access to Manually, Immediately, or number of days.
+1. To allow access to 360 feedback, toggle the subject, coach, or manager access to **On**.
+2. Toggle subject, coach, and manager access to Manually, Immediately, or number of days from the dropdown menu.
     - Manual release: An admin releases reports at an individual level or using the bulk report release feature.
     - Immediate release: A report access email is automatically sent when the 360 cycle closes.
     - 1-14 days: A report access email is sent based on the selected number of days after the cycle closes.
   
 :::image type="content" source="../../media/glint/setup/360-manual-immediate.png" alt-text="Screenshot of the Report Access & Timing window in Cycle Settings.":::
 
-Changes can be made during a live cycle, but note that changes don't apply to reports already released.
+Changes can be made during a live cycle, but changes don't apply to reports already released.
 
 ## Global Reporting Guidance section
 
