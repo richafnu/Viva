@@ -215,21 +215,23 @@ Two or more Microsoft 365 tenants might belong to a single Viva Engage network. 
 
 You have the following options to move out of this unsupported configuration:
 
-- Add all the relevant domains to one tenant using the Microsoft 365 admin center. In the previous example, you ensure that both `contoso.com` and `fabrikam.com` are on the same tenant. At the end, you reach the following state:
+- Add all the relevant domains to one tenant using the Microsoft 365 admin center.  
+  In the previous example, you ensure that both `contoso.com` and `fabrikam.com` are on the same tenant.  
+  At the end, you reach the following state:
 
-|Domains on the Microsoft 365 tenant|Domains on the Viva Engage network|
-|:-----|:-----|
-|`Contoso.onmicrosoft.com`<br/> `Contoso.com`<br/> `Fabrikam.com`<br/> |`Contoso.onmicrosoft.com`<br/> `Contoso.com`<br/> `Fabrikam.com`<br/> |
+  | Domains on the Microsoft 365 tenant | Domains on the Viva Engage network |
+  |:-----------------------------------|:----------------------------------|
+  | `Contoso.onmicrosoft.com` <br/> `Contoso.com` <br/> `Fabrikam.com` | `Contoso.onmicrosoft.com` <br/> `Contoso.com` <br/> `Fabrikam.com` |
 
 - Create separate Viva Engage networks, one per tenant. In the previous example, you remove either `contoso.com` or `fabrikam.com` from the Viva Engage network, and create a new network with that domain. To remove Viva Engage domains from your network, contact the [Viva Engage Support](https://support.microsoft.com/contactus) team. Before removing a domain from a network, delete all the user accounts containing that domain. If needed, these users can later be invited as guests from the newly created network. At the end, you reach the following state:
 
-|Domains on the Microsoft 365 tenant1|Domains on the Viva Engage network|
-|:-----|:-----|
-|`Contoso.onmicrosoft.com` <br/> `Contoso.com` <br/> |`Contoso.onmicrosoft.com` <br/> `Contoso.com` <br/> |
+  | Domains on the Microsoft 365 tenant1 | Domains on the Viva Engage network |
+  |:------------------------------------|:----------------------------------|
+  | `Contoso.onmicrosoft.com` <br/> `Contoso.com` | `Contoso.onmicrosoft.com` <br/> `Contoso.com` |
 
-|Domains on the Microsoft 365 tenant2|Domains on the Viva Engage network|
-|:-----|:-----|
-|`Fabrikam.onmicrosoft.com` <br/> `Fabrikam.com` <br/> |`Fabrikam.onmicrosoft.com` <br/> `Fabrikam.com` <br/> |
+  | Domains on the Microsoft 365 tenant2 | Domains on the Viva Engage network |
+  |:------------------------------------|:----------------------------------|
+  | `Fabrikam.onmicrosoft.com` <br/> `Fabrikam.com` | `Fabrikam.onmicrosoft.com` <br/> `Fabrikam.com` |
 
 After you move into a one tenant/one network configuration, you might accidentally move back to a many tenants: one network configuration. Say, due to some reason the `contoso.com` network has another domain `tailspin.com`, which isn't added to the Microsoft 365 tenant. In this situation, a new Microsoft 365 tenant is created for `tailspin.com`. Now two tenants (`contoso.com` and `tailspin.com`) are connected to the same Viva Engage network. **To avoid this situation, we recommend that you add all the domains in your Viva Engage network to your Microsoft 365 tenant.** If you find yourself in this situation, use the previous guidance to get back to the recommended one tenant/one network configuration.
 
