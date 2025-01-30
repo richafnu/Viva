@@ -321,7 +321,7 @@ items:
             items:
               - name: 360 General settings
                 href: setup/360-general-settings.md
-              - name: 360 User Role creation and access
+              - name: 360 User Role creation and permissions
                 href: setup/360-roles-permissions.md
               - name: 360 program design and templates
                 href: setup/360-design-templates.md
@@ -340,7 +340,7 @@ items:
                          href: setup/360-add-edit-cycle-questions.md
               - name: 360 feedback provider selections
                 href: setup/overview-feedback-provider-selection.md
-              - name: 360 competencies and survey guidance
+              - name: 360 competencies and reporting
                 href: setup/360-competencies.md
               - name: 360 Schedule and Communications setup
                 href: setup/360-schedules-comms.md
