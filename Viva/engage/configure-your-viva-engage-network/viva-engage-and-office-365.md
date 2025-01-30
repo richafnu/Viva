@@ -170,21 +170,22 @@ You have the following options to move to a one tenant/one network configuration
 
 - Consolidate the smaller networks into the larger network by performing [network migration](consolidate-multiple-networks.md). In the previous example, do the following:
 
-1. Ensure that Viva Engage is activated on your Microsoft 365 tenant. 
+ 1. Ensure that Viva Engage is activated on your Microsoft 365 tenant. 
 
-2. If necessary, perform [Viva Engage Enterprise activation](../get-started-with-viva-engage/admin-quick-start.md) and activate Viva Engage on the domain associated with the larger parent network (in this case, `contoso.com`).
+ 2. If necessary, perform [Viva Engage Enterprise activation](../get-started-with-viva-engage/admin-quick-start.md) and activate Viva Engage on the domain associated with the larger parent network (in this case, `contoso.com`).
 
-3. Navigate to the **Network migration** section (part of the Viva Engage administration pages) and migrate the smaller fabrikam.com network into the `contoso.com` network. To do this operation, you need to be a Viva Engage verified administrator and a Global Administrator. At the end, you reach the following state:
+3. Navigate to the **Network migration** section (part of the Viva Engage administration pages) and migrate the smaller fabrikam.com network into the `contoso.com` network.  
+   To do this operation, you need to be a Viva Engage verified administrator and a Global Administrator. At the end, you reach the following state:
 
-|Domains on the Microsoft 365 tenant|Domains on the Viva Engage network|
-|:-----|:-----|
-|`Contoso.onmicrosoft.com`<br/> `Contoso.com`<br/> `Fabrikam.com`<br/> |`Contoso.onmicrosoft.com`<br/> `Contoso.com`<br/> `Fabrikam.com`<br/> |
+   | Domains on the Microsoft 365 tenant | Domains on the Viva Engage network |
+   |:------------------------------------|:------------------------------------|
+   | `Contoso.onmicrosoft.com`<br/> `Contoso.com`<br/> `Fabrikam.com`<br/> | `Contoso.onmicrosoft.com`<br/> `Contoso.com`<br/> `Fabrikam.com`<br/> |
 
 - If the subsidiary is fully assimilated with the parent organization, or is spun off, you can remove the subsidiary company's domain from the Microsoft 365 tenant. In the previous example, you remove fabrikam.com from the Microsoft 365 tenant. At the end, you reach the following state:
 
-|Domains on the Microsoft 365 tenant|Domains on the Viva Engage network|
-|:-----|:-----|
-|`Contoso.onmicrosoft.com`<br/> `Contoso.com`<br/> |`Contoso.onmicrosoft.com`<br/> `Contoso.com`<br/> |
+  |Domains on the Microsoft 365 tenant|Domains on the Viva Engage network|
+  |:-----|:-----|
+  |`Contoso.onmicrosoft.com`<br/> `Contoso.com`<br/> |`Contoso.onmicrosoft.com`<br/> `Contoso.com`<br/> |
 
 ### Many Microsoft 365 tenants associated with one Viva Engage network (many tenants/one network)
 
