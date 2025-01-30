@@ -59,14 +59,14 @@ To maximize the reporting experience, map all ratings items to at least one comp
 ### Customize a competency and map it to an item
 
 1. Select the **Competency** to be customized or mapped.
-1. If desired, edit the values to the **Comptency Name** and **Competency Description** fields. This text is used in your reports.
+1. If desired, edit the values to the **Competency Name** and **Competency Description** fields. This text is used in your reports.
 1. Select at least one item to map to the competency. To search for an item, enter the item label in the **Search Question** field.
 1. Select **Save Changes**.
 
 **Procedure to map a competency to an item that is already mapped to another competency:**
 
 1. Go to the unwanted competency and remove its mapping to your item.
-2. Select **Save Changes.**
+2. Select **Save Changes**.
 3. Return to the other competency to map the item.
 
 > [!IMPORTANT]
