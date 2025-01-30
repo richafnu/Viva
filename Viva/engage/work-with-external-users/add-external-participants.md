@@ -2,6 +2,7 @@
 title: "Add external messaging participants to your Viva Engage conversations"
 f1.keywords:
 - NOCSH
+ms.reviewer: auhosford
 ms.author: donnabouldin
 author: v-rgrace
 manager: elizapo
@@ -88,8 +89,6 @@ Who can remove external participants?
 1. In a comment that an external participant added to the conversation, select **Remove Participants** for the member you want to remove. 
   
 2. When prompted to confirm to remove people from the conversation, choose **OK**.
-    
-Verified admins can find all external participants in a Network. See [Find external participants in a Viva Engage network](find-external-participants.md).
   
 ## How do external participants reply?
 <a name="ExternalReply"> </a>

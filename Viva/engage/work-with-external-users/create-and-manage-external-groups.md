@@ -69,8 +69,6 @@ When you create a group, you can decide if it's an internal or external group. Y
    - For a private group, select **Only group members**.
     
 6. Select **Create Group**.
-    
-You can find external groups in your network the same way you find external users. For more information, see [Find external messaging participants in a Viva Engage network](find-external-participants.md).
 
 ## Find external messaging participants in a Viva Engage network
 

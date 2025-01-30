@@ -28,7 +28,6 @@ To make your Viva Engage network your own, change the colors and images used in 
 |Viva Engage header <br/>- For network guests <br/> |Proceed to the [next section](customize-the-look-of-viva-engage.md#VivaEngageHeader) in this article.<br/> |
 |Email logo for notification emails sent by Viva Engage to users  <br/> |[Customize the notification email logo](customize-the-look-of-viva-engage.md#NotificationLogo) <br/> |
 |Community colors and logo in Viva Engage  <br/> |[Define the community's look](https://support.office.com/article/d74a23a1-c3aa-4b5f-abf7-61b912138609)  <br/> |
-|External network logo  <br/> |[Create and manage an external network in Viva Engage](../work-with-external-users/create-and-manage-an-external-network.md) <br/> |
    
 ## Customize the Viva Engage header for network guests
 <a name="VivaEngageHeader"> </a>
