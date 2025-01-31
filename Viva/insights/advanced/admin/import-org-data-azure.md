@@ -1,5 +1,4 @@
 ---
-ROBOTS: NOINDEX, NOFOLLOW
 ms.date: 08/6/2024
 title: Import organizational data with Azure blob import
 description: Learn how to import organizational data into Viva Insights through an Azure blob import.
@@ -16,13 +15,13 @@ audience: Admin
 # Import organizational data with Azure blob import  
 
 >[!IMPORTANT]
-> This feature is for private preview customers only. Features in preview might not be complete and could undergo changes before becoming available in the broader public release.
+> This feature is for public preview customers only. Features in preview might not be complete and could undergo changes before becoming available in the broader release.
 
 Your organizational data can appear in the Microsoft Viva Insights’ advanced insights app in one of five ways: through Microsoft Entra ID, which is the default source; through individual .csv files that you as an Insights Administrator upload directly to Viva Insights; through an API-based import; through Workday; or through an Azure blob import that you, your source system admin, and your Azure contributor set up.
 
 This article covers the fifth option, Azure blob import.
 
-With an Azure blob import, your Azure contributor creates a blob container on the Azure portal, and your source system admin configures a periodic export of a zip file to the blob container’s location. You can then set up Viva Insights to automatically pull organization data from the zip file within this location.
+With an Azure blob import, your Azure contributor creates a blob container on the Azure portal, and your source system admin configures a periodic export of a .csv file to the blob container's location. You can then set up Viva Insights to automatically pull organization data from the .csv file within this location.
 
 ### Workflow
 
@@ -32,9 +31,9 @@ With an Azure blob import, your Azure contributor creates a blob container on th
 
     2. If the Azure contributor prefers service principal authorization, the Azure contributor authorizes the service principal and provides the blob URL to the Insights admin and source system admin by sharing it in a secure way. If the Azure contributor does *not* prefer service principal authorization, they generate a SAS URL and provide it to the Insights admin and source system admin.
 
-    3. The source system admin prepares the data in a zip file, and configures a periodic export of the file from the HR source system to the blob container.
+    3. The source system admin prepares the data in a .csv file and .json mapping file, and configures a periodic export of the .csv file from the HR source system to the blob container.
 
-    4. The Insights admin enters the URL in the Viva Insights app to turn on the import from the Azure blob store location. 
+    4. The Insights admin enters the URL in the Viva Insights app to turn on the import from the Azure blob store location. The Insights admin also uploads the .json mapping file provided by the source system admin.
 
 2. Validation: Viva Insights validates the data. (If validation isn’t successful, you can choose from a few options described in [Validation fails](#validation-fails).)
 
@@ -60,13 +59,13 @@ After the data successfully validates and processes, the overall data-import tas
 
 6. At the bottom, select **Next: Advanced**.
 
-7. On the Advanced page, make sure that “Require secure transfer for REST API operations” and “Enable storage account key access” are both selected. For “Minimum TLS version,” select at least **Version 1.2**.
+7. On the Advanced page, select "Require secure transfer for REST API operations," "Enable storage account key access," and "Enable hierarchical namespace." For "Minimum TLS version," select at least **Version 1.2**.
 
 8. For all other Advanced settings, you can use the default settings unless you need to make changes.
 
 9. At the bottom, select **Next: Networking**.
 
-10. Under **Network connectivity**, select **Enable public access from all networks**.
+10. Under **Network connectivity**, select **Enable public access from all networks** or **Enabled from selected virtual networks and IP addresses**. If you select the second option, under **Firewall**, select **Add your client IP address** and provide the IP address for the allow list shared by the Insights admin.
 
 11. Under **Network routing**, select your routing preference.
 
@@ -94,7 +93,7 @@ After the data successfully validates and processes, the overall data-import tas
 
 ### 2. Authorize the blob container
 
-*Applies to: Azure contributor*
+*Applies to: Azure contributor and Storage Blob Data Contributor*
 
 Next, you’ll need to create a blob SAS URL for authorization, or a blob URL if you’re using service principal authorization. Service principal authorization is the recommended and more secure approach. The blob SAS token does not have any built-in auditing capabilities. Follow the appropriate steps below for the method you choose.
 
@@ -154,13 +153,17 @@ Next, you’ll need to create a blob SAS URL for authorization, or a blob URL if
 
 3. Under **Authorization type**, select **Service Principal Authorization**, or **SAS URL Authorization**. Your selection here depends on the authorization method used by your Azure contributor in Step 2 above.  
 
-4. Enter the **Blob SAS URL** or the **Blob URL** for the import provided to you by the Azure contributor in Step 2. 
+4. Send your Azure contributor your IP address for the allow list.
 
-5. Select **Enabled**, then select **Save**. 
+5. Enter the **Blob SAS URL** or the **Blob URL** for the import provided to you by the Azure contributor in Step 2. 
 
-6. If you see an error message, check to make sure you followed all the steps outlined above, and check to ensure the blob SAS URL or blob URL you entered is accurate. Select **Retry**. 
+6. Upload the .json mapping file provided to you by the Source system admin.
 
-### 4. Prepare org data zip file and send to blob store
+7. Select **Enabled**, then select **Save**. 
+
+8. If you see an error message, check to make sure you followed all the steps outlined above, and check to ensure the blob SAS URL or blob URL you entered is accurate. Select **Retry**. 
+
+### 4. Prepare org data .csv file and .json mapping file and send to blob store
 
 *Applies to: Source system admin*
 
@@ -176,19 +179,17 @@ Tips for preparing your data
 
 * Refer to the [sample .csv template](https://download.microsoft.com/download/7/a/1/7a17695f-d401-4abd-aeef-e72158084160/OrganizationalDataFileTemplateDataImport.xlsx) for data structure and guidelines to avoid common issues like too many or too few unique values, redundant fields, invalid data formats, and more. [Learn more about file rules and validation errors](./rules-validation-errors.md).
 
-**Task 2 - Export data from your source system and store the zipped folder**
+**Task 2 - Export data from your source system**
 
-*Required resource: [zipped folder template](https://go.microsoft.com/fwlink/?linkid=2243005) (contains .csv and .json files with required formatting)*
+At the frequency you decide (once a month, once a week, etc.) programmatically export organizational data from your source system as a .csv file. Refer to this [sample .csv template](https://go.microsoft.com/fwlink/?linkid=2224590). Format the file according to [our guidelines](./prepare-org-data.md).
 
-At the frequency you decide (once a month, once a week, etc.) programmatically export organizational data from your source system as a zipped folder. Base this zipped folder on the [one here](https://go.microsoft.com/fwlink/?linkid=2243005). Your zipped folder needs to contain a data.csv file, which contains all the data fields you want to import, and a metadata.json file, which maps how data fields in your source system correspond to the ones in Viva Insights.
+To manually upload the file to the blob location created by the Azure contributor in Step 1, send the .csv file to the Azure contributor or Storage Blob Data contributor (unless you're already assigned these roles), and ask them to follow these steps:
 
-Here are a few more details about these files and what they need to contain:
+1. Open a browser and enter the blob SAS URL provided by the Azure contributor. 
 
-**data.csv**
+2. At the top, select **Upload**. Then, on the right, upload the .csv file you created using the instructions above.
 
-Add all fields you want to import in this file. Make sure you format it according to our guidelines in [Prepare organizational data](./prepare-org-data.md).
-
-**metadata.json**
+**Prepare .json mapping file and send it to the Insights admin**
 
 Indicate the type of refresh you’re performing and how Viva Insights should map your fields:
 
@@ -196,14 +197,14 @@ Indicate the type of refresh you’re performing and how Viva Insights should ma
 
 * ``` “IsBootstrap”: ``` (line 3). Use “true” to indicate a full refresh and “false” to indicate an incremental refresh.  
 
-* “Mapping”: If you use names other than what Viva Insights uses, change each column header name to match what you use in your source system.
+* "Mapping": If you use names other than what Viva Insights uses, change each column header name to match what you use in your source system.
 
 >[!IMPORTANT]
 > Remove any fields that aren’t present in your .csv file.
 
 **Mapping example**
 
-The following example represents one field you’ll find in the metadata.json file:
+The following example represents one field you'll find in the sample .json file:
 
 ```
 "PersonId": { 
@@ -226,12 +227,7 @@ Let’s say that instead of PersonId, your source system uses Employee for this 
 ```
 When you upload your data, your Employee field will become PersonId in Viva Insights.
 
-Then, use the steps below to send the organizational data zip file to the blob location created by the Azure contributor in step 1.
-
-1. Open a browser and enter the blob SAS url provided to you by the Azure contributor.  
-
-2. At the top, select **Upload**. Then, on the right, upload the zip folder you created using the instructions above.
-
+Then, send the .json mapping file to the Insights admin to upload in Insights while setting up the connection for the Azure blob import.
 
 ### 5. Validation
 
@@ -305,15 +301,12 @@ To replace or edit the organizational data using the existing blob SAS URL or bl
 
 #### How to indicate a full or incremental refresh
 
-1. In metadata.json, go to line 3.
+1. In the .json mapping file, go to line 3.
 1. Update the ``` “IsBootstrap”: ``` property to one of the following:
     1. For a full refresh, use ``` “IsBootstrap” : “true” ```.
     1. For an incremental refresh, use ``` “IsBootstrap” : “false”```.
 
-When your import/export option runs, Viva Insights will start to process your data either as a full or incremental refresh, depending on what you specified here in metadata.json.
-
->[!IMPORTANT]
-> Make sure you delete any fields from metadata.json that you're not including in your data.csv file. If you have more fields in your metadata.json file than in your data.csv file—or vice versa—processing for your import will fail. Refer to [Prepare, export, and import organizational data](./prepare-org-data.md) to learn more about metadata.json and how to use it to map fields.
+When your import runs, Viva Insights will start to process your data either as a full or incremental refresh, depending on what you specified in the .json mapping file.
 
 #### Refresh types
 
@@ -352,15 +345,11 @@ After the import finishes, the only change you’d notice is five new rows and t
 
 Maybe you want to add an optional reserved attribute that wasn’t in your data before—let’s say **Location**—for all existing employees. When you go to import your data, you’d only include the **Location**, **PersonId**, and **EffectiveDate**, with current and historical values for each employee, in your .csv file. After the import finishes, you’d find the same data that was there before, with the exception of a new column for each employee, **Location**.
 
-#### Fields to include in data.csv for full and incremental refreshes
+#### Fields to include in the .csv file for full and incremental refreshes
 
-For the refresh types listed below, include the fields in the following table within your data.csv file. Make sure you:
+For the refresh types listed below, include the fields in the following table within your .csv file. Format these fields according to our guidelines in [Prepare organizational data](./prepare-org-data.md).
 
-* Format these fields according to our guidelines in [Prepare organizational data](./prepare-org-data.md).
-* Remove any fields you're not including from your metadata.json file.
-* Keep both the data.csv and metadata.json files in your one zipped folder.
-
-| For this kind of refresh | Include these fields in data.csv | With these values | For these employees |
+| For this kind of refresh | Include these fields in the .csv file | With these values | For these employees |
 |----|----|----|----|
 | **Full** | PersonId | Current </br> <br> All historical | All | 
 |   | ManagerId | Current </br> <br> All historical | All |
