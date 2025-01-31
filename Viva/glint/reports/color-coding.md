@@ -45,7 +45,7 @@ Items with High or Very High Impact on the outcome (for example, Engagement) are
 > If the respondent size of the report is too small, impact is calculated based on the overall company level. [See this guidance to learn more](/../../viva/glint/reports/driver-impact-report#small-teams-can-use-the-driver-impact-report). 
 
 
-## Color Coding for Strengths & Opportunities Sections in other Executive Summary reports
+## Color coding for Strengths & Opportunities Sections in other Executive Summary reports
 
 The processes to determine which items are Strengths or Opportunities are identical to the process described for the manager’s Team Summary Report. **There is an exception related to color coding.** 
 - In these report tables, a blue or red dot is displayed next to each strength and opportunity.
@@ -56,7 +56,7 @@ The processes to determine which items are Strengths or Opportunities are identi
 - Strengths may have a red dot indicating the item is below the benchmark. 
 - If the majority of items are above the benchmark, Opportunities may have a blue dot. 
 
-## Color Coding for the Favorability Scale
+## Color coding for the Favorability Scale
 
 Favorability is calculated from responses that fall within a specific range along the rating scale.
 
