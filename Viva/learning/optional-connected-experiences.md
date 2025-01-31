@@ -36,7 +36,7 @@ If the service URL doesn't have any schema.org data, it sends a request to Bing 
 
 ## Spell Checker 
 
-The spell checker feature in Viva Learning automatically corrects spelling and grammar in user search queries. This feature utilizes [Bing Spell Check API](https://aka.ms/bingspellcheckdoc) for  accurate spell checking. [Bing APIs Terms of use](https://www.microsoft.com/bing/apis/legal)
+The spell checker feature in Viva Learning automatically corrects spelling and grammar in user search queries. This feature utilizes [Bing Spell Check API](https://aka.ms/bingspellcheckdoc) for  accurate spell checking. [Bing APIs Terms of use](https://www.microsoft.com/bing/apis/legal).
  
 
 ## Related articles 
