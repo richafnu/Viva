@@ -1,5 +1,5 @@
 ---
-title: The mean score and aggregate trending in Viva Glint survey results
+title: The mean score and favorability score in Viva Glint survey results
 description: Viva People Science recommends using the average- or mean score -for interpreting feedback results.
 ms.author: JudithWeiner
 author: JudyWeiner
@@ -14,10 +14,10 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 01/30/2025
+ms.date: 01/31/2025
 ---
 
-# The mean score and aggregate trending in Viva Glint survey results
+# The mean score and favorability score in Viva Glint survey results
 
 As the primary metric, the mean score is transformed to a 100-point scale. This metric is a more accurate, reliable, and robust measure compared to the percent favorable, especially for smaller teams. Viva People Science recommends using the average or mean score over the favorability score.
 
@@ -31,10 +31,6 @@ Leaders and managers can identify where to take targeted action by knowing the d
 
 When a score increases or decreases, it’s useful to know where the increase or decrease came from. Reviewing how the favorability distribution changed lets managers know where movement occurred. Is there a pattern to the responses? Are the respondents polarized with equal number of responses in the favorable and unfavorable buckets? Your managers gain significant insight by looking at how responses are distributed in terms of favorability.
 
-## Aggregate trending 
-
-Aggregate trending shows historical data over time. A trend point reflects matching items from one cycle to the cycle immediately before it. Changing items within an aggregate (group) interrupts trend.
-
 ## Use the mean score over the favorability score
 
 **Mean** - or **average** - scores are:
@@ -42,7 +38,7 @@ Aggregate trending shows historical data over time. A trend point reflects match
 - Highly correlated with behavioral and business outcomes.
 - Consistent with other analysis performed.
 
-**Favorability**  helps with understanding the spread and variability of responses, but there are drawbacks:
+**Favorability** scoring helps to understand the spread and variability of responses, but there are drawbacks:
 
 - The mean score isn't shown.
 - External benchmarks aren't available.

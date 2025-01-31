@@ -68,6 +68,10 @@ items:
             href: org-team-insights/team-insights.md
           - name: Organization insights
             href: org-team-insights/org-insights.md
+          - name: Discover organization insights quickly with Microsoft 365 Copilot
+            href: org-team-insights/org-insights-copilot.md
+          - name: Copilot deep-dive reports
+            href: org-team-insights/copilot-deep-dive-reports.md
           - name: Leader reports
             href: org-team-insights/leader-reports.md
           - name: Connect to the Copilot Dashboard
@@ -92,6 +96,8 @@ items:
             href: advanced/admin/upload-org-data-first.md
           - name: Upload organizational data (subsequent upload)
             href: advanced/admin/upload-org-data-subsequent.md
+          - name: Tips for uploading organizational data for Copilot 
+            href: advanced/admin/upload-org-data-copilot.md
           - name: Import organizational data using API (first import)
             href: advanced/admin/import-org-data-first.md
           - name: Import organizational data using API (subsequent import)
@@ -228,6 +234,12 @@ items:
             href: advanced/reference/supported-languages.md 
       - name: Microsoft 365 Copilot in Viva Insights
         items:
+        - name: Discover organization insights quickly with Microsoft 365 Copilot
+          href: org-team-insights/org-insights-copilot.md
+        - name: Copilot deep-dive reports
+          href: org-team-insights/copilot-deep-dive-reports.md
+        - name: Tips for uploading organizational data for Copilot 
+          href: advanced/admin/upload-org-data-copilot.md
         - name: Connect to the Copilot Dashboard
           href: org-team-insights/copilot-dashboard.md
         - name: Delegate access to the Copilot Dashboard

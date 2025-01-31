@@ -14,7 +14,7 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 01/30/2025
+ms.date: 01/31/2025
 ---
 
 # Color coding in Viva Glint reports
@@ -32,20 +32,20 @@ Items with High or Very High Impact on the outcome (for example, Engagement) are
 
 **Blue:** Half of the items with scores highest above the benchmark are considered **Strengths.** 
 > [!NOTE]
-> Not all items considered Strengths may be above benchmark. It’s possible that some items are both below the benchmark *and* displayed as Strengths.
+> It’s possible that some items are both below the benchmark *and* displayed as Strengths. Not all items considered Strengths may score above the benchmark. 
 
 **Red:** Half of the items with scores furthest below the benchmark are considered **Opportunities.** 
 > [!NOTE]
-> Not all items considered Opportunities may be below benchmark. It’s possible that some items are both above the benchmark *and* displayed as Opportunities.
-
+> It’s possible that some items are both above the benchmark *and* displayed as Opportunities. Not all items considered Opportunities may score below the benchmark.
+> 
 > [!TIP]
-> To decrease confusion, there is an optional account setting called “Exclude Negative Strengths & Positive Weaknesses” which can be enabled at the account level. 
+> To decrease confusion, there is an account setting called **Exclude Negative Strengths & Positive Weaknesses** which can be enabled at the account level. 
 
 > [!NOTE]
 > If the respondent size of the report is too small, impact is calculated based on the overall company level. [See this guidance to learn more](/../../viva/glint/reports/driver-impact-report#small-teams-can-use-the-driver-impact-report). 
 
 
-## Color Coding for Strengths & Opportunities Sections in other Executive Summary reports
+## Color coding for Strengths & Opportunities Sections in other Executive Summary reports
 
 The processes to determine which items are Strengths or Opportunities are identical to the process described for the manager’s Team Summary Report. **There is an exception related to color coding.** 
 - In these report tables, a blue or red dot is displayed next to each strength and opportunity.
@@ -54,9 +54,9 @@ The processes to determine which items are Strengths or Opportunities are identi
 
 **If most items are below the benchmark:**
 - Strengths may have a red dot indicating the item is below the benchmark. 
-- If the majority of items are above the benchmark, Opportunities may have a blue dot. 
+- Opportunities may have a blue dot, if most of the items are above the benchmark, 
 
-## Color Coding for the Favorability Scale
+## Color coding for the Favorability Scale
 
 Favorability is calculated from responses that fall within a specific range along the rating scale.
 
@@ -80,5 +80,5 @@ For example: If the minimum and maximum scores are 52 and 80, then Glint creates
   - The middle gray is used for 0 change or difference
   - Dark red shows the biggest negative difference/change
   - Dark blue shows the biggest positive change
-  - The other color buckets are evenly spaced between the maximum/minimum values, with 0 on either side.
+  - The other color buckets are evenly spaced between the maximum/minimum values, with zero on either side.
 
