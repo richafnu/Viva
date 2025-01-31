@@ -41,7 +41,7 @@ Within the strengths section, you may see **realized** or **unrealized** labels.
 
 - **Realized strength:** Something your team is good at and does on a regular basis.
 - **Unrealized strength:** Something that your team is good at but doesn't practice regularly. It should be considered as an opportunity.
-- **Unlabeled:** - The gap between what is realized and unrealized, Used to call out items that deserve attention.
+- **Unlabeled:** The gap between what is realized and unrealized, Used to call out items that deserve attention.
 
 ## Improve driver scores which matter most
 
@@ -74,10 +74,10 @@ Advanced filtering allows users to view survey results from a particular group o
 
 For example, to show how early onboarding experiences impact long-term engagement, review recent engagement survey results filtered by those that had positive or negative onboarding experiences in their employee journey. 
 
-1. Select **Advanced.** 
-1. Select **Yes, enable Advanced Filtering.** 
-1. Select the **+ symbol** in the Filter panel. 
-1. Choose the program from the dropdown menu.
+1. Select **Advanced**. 
+1. Select **Yes, enable Advanced Filtering**. 
+1. Select the **+ symbol** in the Filter panel. 
+1. Choose the program from the dropdown menu.
 
 
 
