@@ -6,7 +6,7 @@ author: JudyWeiner
 manager: MelissaBarry
 audience: admin
 f1.keywords: NOCSH
-keywords: viva strengths and opportunities,realized, unrealized
+keywords: viva strengths and opportunities,realized strengths, unrealized strengths, custom strengths and opportunities
 ms.collection: 
  - m365initiative-viva
  - selfserve
@@ -14,19 +14,34 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 01/30/2025
+ms.date: 01/31/2025
 ---
 
 # Use Viva Glint to act on Strengths and Opportunities
 
 Strengths are areas that a team should celebrate, and Opportunities are areas the team should work on to improve overall engagement (or the survey Key Outcome). 
 
-The algorithm used to identify Strengths and Opportunities is composed of  
+The algorithm used to identify Strengths and Opportunities (S&Os) is composed of  
 - Item scores,
 - impact on engagement,
 - and relativity of the score to a comparison point.  
 
 This comparison could be internal company scores, an external benchmark, or the score for the average item for that survey. 
+
+## Custom Strengths and Opportunities
+
+Outcomes and comparisons used to calculate S&Os can be customized in either of these ways:
+
+- Select **Settings** to reveal the option to change outcomes and comparisons.
+- In the Strengths and Opportunities section, select the **hyperlinked words** to change the outcome or comparison.
+
+## Realized strengths versus unrealized strengths 
+
+Within the strengths section, you may see **realized** or **unrealized** labels. This label might not be visible, as well. 
+
+- **Realized strength:** Something your team is good at and does on a regular basis.
+- **Unrealized strength:** Something that your team is good at but doesn't practice regularly. It should be considered as an opportunity.
+- **Unlabeled:** The gap between what is realized and unrealized, Used to call out items that deserve attention.
 
 ## Improve driver scores which matter most
 
@@ -44,7 +59,7 @@ Knowing which drivers have a high impact allows managers to focus on improving t
 
 Without strong correlation, a driver’s score has low or zero impact.  
 
-## Filter a Viva Glint report 
+## Filter your report 
 
 Glint survey reports use one filtering process across all reports. Data can be filtered for interpretation from this fixed panel which identifies survey programs, attributes. 
 
@@ -59,23 +74,11 @@ Advanced filtering allows users to view survey results from a particular group o
 
 For example, to show how early onboarding experiences impact long-term engagement, review recent engagement survey results filtered by those that had positive or negative onboarding experiences in their employee journey. 
 
-1. Select **Advanced.** 
-1. Select **Yes, enable Advanced Filtering.** 
-1. Select the **+ symbol** in the Filter panel. 
-1. Choose the program from the dropdown menu.
+1. Select **Advanced**. 
+1. Select **Yes, enable Advanced Filtering**. 
+1. Select the **+ symbol** in the Filter panel. 
+1. Choose the program from the dropdown menu.
 
-## Scores calculation overview 
 
-The primary metric is the average score. This score: 
- - Best demonstrates how a group rates a particular item
- - Provides the most robust insight across different scenarios, including viewing scores for small populations and trends over time  
 
- The average score for each item is the average of all the responses to that item, converted to a 0-100 rating scale.  
-
- ### The favorability score 
-
-In addition to the converted 0-100 rating scale, the Glint platform reports favorability in percentages in three categories: Unfavorable, Neutral, and Favorable.  
-Favorability provides an understanding of the spread and variability of scores within the average. Managers learn where movement occurred by looking at how favorability distribution changes over time. 
-
-Viva People Science recommends using the **mean** score over the favorability score. [Read more here.](/viva/glint/reports/mean-score.md)
-
+ 
