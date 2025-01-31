@@ -109,9 +109,9 @@ Copilot uses the following customer uploaded HR data attributes:
 Yes, these are available under the **Organizational Behavior Reports** section on the Home page. 
 
 ### Q2. What controls do admins have? 
-A: Admins can: 
+Admins can: 
 
-* Remove GM roles for users who shouldn’t access Copilot. 
+* Remove GM roles for users who shouldn't access Copilot. 
 * Exclude specific HR attributes or users from data uploads.
 
 ### Related topics
