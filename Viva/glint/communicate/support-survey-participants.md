@@ -14,7 +14,7 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 1/06/2025
+ms.date: 1/28/2025
 ---
 
 # Support survey participants during a live Viva Glint survey
@@ -58,7 +58,7 @@ Your organization may use [attribute-based access](/../../viva/glint/setup/attri
 
 ### Use the "Resend Survey" option in Viva Glint
 
-If a user is eligible for a survey but wasn’t included at the time of launch, use the Viva Glint [Send Survey](/../../viva/glint/setup/people-page) option to send an invite during a live survey. In the configuration section, select **People** and search for a user. After selecting their profile, select **Actions** and choose **Send Survey**, which sends in invite email.
+If a user is eligible for a survey but wasn’t included at the time of launch, use the Glint [Send Survey](/../../viva/glint/setup/people-page) option to send an invite during a live survey. In the configuration section, select **People** and search for a user. After selecting their profile, select **Actions** and choose **Send Survey**, which sends in invite email.
 
 ### Use the Viva Glint survey invite link
 
@@ -73,8 +73,5 @@ Users receive a notification email after using the link if they have no active s
 
 :::image type="content" source="../../media/glint/setup/email-no-active-surveys.png" alt-text="Screenshot of the email a user receives when they use the link to resend survey invites but have no active surveys.":::
 
-## Be mindful of scheduled monthly maintenance
-
-To strive for consistent improvement, Viva Glint undergoes [monthly deployments](/../../Viva/glint/setup/monthly-release-dates) to release new features, enhancements, and fixes. If users are presented with a maintenance message when attempting to access a survey, ask them to revisit the survey the following day.
 
 
