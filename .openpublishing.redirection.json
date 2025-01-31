@@ -2350,6 +2350,11 @@
     "source_path": "viva/engage/work-with-external-users/external-messaging-faq.md",
     "redirect_url": "/viva/engage/overview",
     "redirect_document_id": false
+  },
+  { 
+    "source_path": "viva/engage/configure-your-viva-engage-network/customize-the-look-of-viva-engage.md",
+    "redirect_url": "/viva/engage/overview",
+    "redirect_document_id": false
   }
     ]
 
