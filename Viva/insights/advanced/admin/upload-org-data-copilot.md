@@ -18,7 +18,7 @@ audience: user
 # Tips for uploading organizational data for Microsoft 365 Copilot in Viva Insights
 
 >[!IMPORTANT]
-> Microsoft 365 Copilot in Viva Insights is rolling out gradually and is not yet available to all customers.
+> Microsoft 365 Copilot in Viva Insights is rolling out gradually and isn't yet available to all customers.
 
 
 Microsoft 365 Copilot in Viva Insights is most effective when you upload as much data as possible for each employee attribute in Viva Insights. You should upload as many attributes as your company finds useful, because most questions leaders ask will depend on a combination of multiple attributes. [Learn more about the attributes Copilot in Viva Insights supports](./prepare-org-data.md).
@@ -34,13 +34,13 @@ Here's a list of specific attributes and the questions you can ask Copilot, whos
 | Supervisor Indicator | <li>How does after hours collaboration vary between managers and managers of managers? <li>How much 1:1 time is there in the sales organization between individual contributors and managers?  <li> What is the ratio between managers and individual contributors in the engineering team?  |
 | WeeklyBadgeOnsiteDays | <li>How does average network sizes of employees vary between hybrid, on-site, and mostly remote? <li>What is the distribution of work modes for my finance team in Chicago?  <li>Who are my employees that work on-site on Tim’s team? |
 | CountryOrRegion | <li>What is the after hours collaboration of employees across different countries?  <li>Who are the newly hired data scientists in the U.S.? <li>How many managers in Eastern Europe have less than two hours of manager 1:1 time? |
-| Timezone (Not an uploaded value, automaticallly derived from user settings) | <li>How many employees work in EST?  <li>What is the distribution of employees across time zones?  |
+| Timezone (Not an uploaded value, automatically derived from user settings) | <li>How many employees work in EST?  <li>What is the distribution of employees across time zones?  |
 
 ## Other best practices to keep in mind
 
 * **Align the data types for each column**. Each attribute above has a required data type format. For example, HireDate is a DateTime data type while Function Type is a String. [Learn more about data types and their example values](./prepare-org-data.md#attribute-reference).
 
-* **Choose your population for every attribute**. Upload each attribute with the entire analyzed population, but exclude employees for an attribute that your company considers sensitive, and for employees whose data you don't want to appear for leaders. The only way to exclude data from appearing in Copilot responses is to abstain from uploading data for those employees. This allows you to take control of the data that apears in Copilot for these organizational context attributes. If in doubt, consult the appropriate internal teams at your company.
+* **Choose your population for every attribute**. Upload each attribute with the entire analyzed population, but exclude employees for an attribute that your company considers sensitive, and for employees whose data you don't want to appear for leaders. The only way to exclude data from appearing in Copilot responses is to abstain from uploading data for those employees. This allows you to take control of the data that appears in Copilot for these organizational context attributes. If in doubt, consult the appropriate internal teams at your company.
 
     >[!Note]
     > For questions regarding HR data, Copilot's answers are based only on employees with a Viva Insights license.
