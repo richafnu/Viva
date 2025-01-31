@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 01/30/2025
+ms.date: 01/31/2025
 ---
 
 # Use Viva Glint to act on Strengths and Opportunities
@@ -44,7 +44,7 @@ Knowing which drivers have a high impact allows managers to focus on improving t
 
 Without strong correlation, a driver’s score has low or zero impact.  
 
-## Filter a Viva Glint report 
+## Filter your report 
 
 Glint survey reports use one filtering process across all reports. Data can be filtered for interpretation from this fixed panel which identifies survey programs, attributes. 
 
@@ -64,18 +64,6 @@ For example, to show how early onboarding experiences impact long-term engagemen
 1. Select the **+ symbol** in the Filter panel. 
 1. Choose the program from the dropdown menu.
 
-## Scores calculation overview 
 
-The primary metric is the average score. This score: 
- - Best demonstrates how a group rates a particular item
- - Provides the most robust insight across different scenarios, including viewing scores for small populations and trends over time  
 
- The average score for each item is the average of all the responses to that item, converted to a 0-100 rating scale.  
-
- ### The favorability score 
-
-In addition to the converted 0-100 rating scale, the Glint platform reports favorability in percentages in three categories: Unfavorable, Neutral, and Favorable.  
-Favorability provides an understanding of the spread and variability of scores within the average. Managers learn where movement occurred by looking at how favorability distribution changes over time. 
-
-Viva People Science recommends using the **mean** score over the favorability score. [Read more here.](/viva/glint/reports/mean-score.md)
-
+ 
