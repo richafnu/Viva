@@ -86,4 +86,4 @@ If your organization has a Viva suite or Viva Communications and Communities lic
 ## Next, launch Connections for your organization
 
 After you have finished [planning](plan-viva-connections.md), building, and testing Connections, it's time to let the rest of the organization know that it's available for use. [Learn more about how to launch Connections.](launch-viva-connections.md)
-'
+
