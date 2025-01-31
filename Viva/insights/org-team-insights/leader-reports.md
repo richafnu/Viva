@@ -1,12 +1,15 @@
 ---
-ms.date: 01/06/2025
+ms.date: 01/31/2025
 title: Use Leader reports to uncover key business outcomes
 description: Learn how to use Leader reports in Viva Insights to view metrics and suggested actions focused on specific business outcomes.
 author: zachminers
 ms.author: v-zachminers
 ms.topic: article
 ms.localizationpriority: medium 
-ms.collection: viva-insights-advanced 
+ms.collection: 
+- viva-insights-advanced 
+- viva-copilot
+- magic-ai-copilot
 ms.service: viva-insights
 search.appverid: 
 - MET150 
@@ -16,7 +19,7 @@ audience: Admin
 
 # Use Leader reports to uncover key business outcomes
 
-Leader deep-dive reports in Viva Insights focus on customers, business operations, and agility. You can find these reports under **Team insights** in the Viva Insights app in Teams and on the web.
+Leader deep-dive reports in Viva Insights focus on customers, business operations, and agility. To access these reports, select **Organizational behavior reports** under **More insights** on the Viva Insights Home page.
 
 With these reports, leaders can view a variety of  metrics and suggested actions focused on specific business outcomes. Leaders can further drill down into the insights with custom filters such as time periods and breakdowns by group. [Learn more about filters in organization insights](./org-insights.md).
 
