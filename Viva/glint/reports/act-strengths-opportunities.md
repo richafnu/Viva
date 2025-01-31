@@ -6,7 +6,7 @@ author: JudyWeiner
 manager: MelissaBarry
 audience: admin
 f1.keywords: NOCSH
-keywords: viva strengths and opportunities,realized, unrealized
+keywords: viva strengths and opportunities,realized strengths, unrealized strengths, custom strengths and opportunities
 ms.collection: 
  - m365initiative-viva
  - selfserve
@@ -21,12 +21,27 @@ ms.date: 01/31/2025
 
 Strengths are areas that a team should celebrate, and Opportunities are areas the team should work on to improve overall engagement (or the survey Key Outcome). 
 
-The algorithm used to identify Strengths and Opportunities is composed of  
+The algorithm used to identify Strengths and Opportunities (S&Os) is composed of  
 - Item scores,
 - impact on engagement,
 - and relativity of the score to a comparison point.  
 
 This comparison could be internal company scores, an external benchmark, or the score for the average item for that survey. 
+
+## Custom Strengths and Opportunities
+
+Outcomes and comparisons used to calculate S&Os can be customized in either of these ways:
+
+- Select **Settings** to reveal the option to change outcomes and comparisons.
+- In the Strengths and Opportunities section, select the **hyperlinked words** to change the outcome or comparison.
+
+## Realized strengths versus unrealized strengths 
+
+Within the strengths section, you may see **realized** or **unrealized** labels. This label might not be visible, as well. 
+
+- **Realized strength:** Something your team is good at and does on a regular basis.
+- **Unrealized strength:** Something that your team is good at but doesn't practice regularly. It should be considered as an opportunity.
+- **Unlabeled:** - The gap between what is realized and unrealized, Used to call out items that deserve attention.
 
 ## Improve driver scores which matter most
 
