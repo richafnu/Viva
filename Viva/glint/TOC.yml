@@ -89,8 +89,6 @@ items:
             items:
                - name: Communications rollout plan
                  href: start/recommended-rollout-plan.md
-               - name: Communications checklist
-                 href: start/comms-checklist.md
                - name: Communications templates
                  href: communicate/email-templates-survey-expectations.md
                - name: Introduce Glint survey taking
@@ -315,39 +313,36 @@ items:
             href: setup/exit.survey.md
           - name: Preview and filter a Lifecycle survey
             href: setup/preview-filter-lifecycle-programs.md 
-      - name: Create a 360 feedback program
+      - name: Create a Viva Glint 360 feedback program
         items:
-          - name: 360 Overview and terminology
+          - name: 360 overview and terminology
             href: setup/360-overview.md
-          - name: 360 Feedback programs
+          - name: 360 feedback program setup
             items:
               - name: 360 General settings
                 href: setup/360-general-settings.md
-              - name: 360 User roles and permissions
+              - name: 360 User Role creation and permissions
                 href: setup/360-roles-permissions.md
-              - name: 360 Program design and templates
+              - name: 360 program design and templates
                 href: setup/360-design-templates.md
-          - name: Manage 360 cycles
+          - name: Manage 360 feedback cycles
             items:
               - name: Create a new 360 cycle
                 href: setup/create-new-360-cycle.md
-              - name: Configure 360 cycle settings
                 items:
                   - name: Setup
                     href: ../360-config-cycle-settings.md
-                  - name: 360 Survey questions
+                  - name: 360 feedback items
                     items:
-                       - name: Core questions
+                       - name: Core items
                          href: setup/360-core-questions.md
-                       - name: Adding and editing questions
+                       - name: Adding and editing program items
                          href: setup/360-add-edit-cycle-questions.md
-              - name: 360 Feedback provider selections
+              - name: 360 feedback provider selections
                 href: setup/overview-feedback-provider-selection.md
-              - name: 360 Competencies and survey guidance
+              - name: 360 competencies and reporting
                 href: setup/360-competencies.md
-              - name: 360 Report access and timing
-                href: setup/360-report-access-timing.md
-              - name: 360 Schedule and communications setup
+              - name: 360 Schedule and Communications setup
                 href: setup/360-schedules-comms.md
               - name: Customize 360 email content
                 href: setup/360-email-edits.md
@@ -355,15 +350,13 @@ items:
                 href: setup/360-manage-subjects.md
               - name: Export and import 360 language translations
                 href: setup/360-export-import.md
-              - name: Export CSV reports for 360 Subjects
-                href: setup/360-download-csv.md
           - name: Test and launch 360s
             href: setup/360-test-launch.md
-          - name: Admin experience during live 360 survey
+          - name: Admin experience during a live 360 program
             href: setup/360-live-cycle-actions.md
-          - name: 360 Subject experience
+          - name: 360 subject experience
             href: setup/360-subject-experience.md
-          - name: 360 Feedback provider experience
+          - name: 360 feedback provider experience
             href: setup/360-provider-exp.md
           - name: 360 email communication templates
             href: setup/360-email-templates.md
@@ -371,6 +364,8 @@ items:
             href: setup/360-faqs.md
       - name: Always-On Feedback surveys
         href: setup/always-on-surveys.md
+      - name: Ad Hoc surveys
+        href: setup/ad-hoc-survey.md
       - name: Set up Team Conversations
         href: reports/team-conversations-administrator-setup.md
         items:
@@ -388,7 +383,7 @@ items:
             href: setup/preview-demo-reporting.md
           - name: Preview, enable, and prepare to launch surveys
             href: setup/preview-manage-enable-engage-programs.md   
-          - name: Duplicate, delete, and disable surveys 
+          - name: Duplicate or delete surveys 
             href: setup/delete-survey-data.md
       - name: Edit live surveys or reopen closed surveys
         items:
@@ -412,6 +407,10 @@ items:
             href: reports/aggregate-trending.md
           - name: Reporting features
             href: reports/report-analytics-filtering-favorability-trending.md
+          - name: Color coding
+            href: reports/color-coding.md
+          - name: Mean score
+            href: reports/mean-score.md
           - name: Export reports as PDF
             href: reports/export-report-pdf.md
           - name: Manager reporting trend

@@ -31,7 +31,7 @@ While Viva Goals is being retired, Microsoft remains fully committed to the Viva
 
 We know changes like this can affect your workflows, and we’re here to make this as smooth as possible. Here’s what to expect:
 
-- **Continued access:** Viva Goals will continue to be available to our existing customers until December 31, 2025, to provide you with an opportunity to plan for its end-of-life transition to other OKR solutions if desired. We will continue to maintain Viva Goals' availability, accessibility, and security of the product, and provide product support until its retirement.
+- **Continued access:** Viva Goals will continue to be available to our existing customers until December 31, 2025, to provide you with an opportunity to plan for its end-of-life transition to other OKR solutions if desired. We’ll continue to keep Viva Goals available, accessible, and secure, and we’ll provide support for issues specifically related to accessibility and security until its retirement.
 
 - **No new functionality** Viva Goals will no longer add any new features or functionality to the product. All current design change requests (DCRs) will be closed and no new DCRs will be accepted.
 

@@ -1,12 +1,12 @@
 ---
-title: 360 User Roles and permissions 
-description: Admins in Viva Glint have access to create and edit all Glint programs. You may, however, choose to set up an additional user role to *only* have access to edit 360 programs. 
+title: Viva Glint 360 User Role creation and permissions
+description: Admins in Viva Glint have access to create and edit all Glint programs. You may, however, choose to set up an additional user role to *only* have access to edit 360 programs. Also, set up if and when a 360 subject, manager, and coach can view report feedback.
 ms.author: JudithWeiner
 author: JudyWeiner
 manager: mbarry
 audience: admin
 f1.keywords: NOCSH
-keywords: feedback tab, feedback access, 360 subject creating focus areas,editing 360 participants, ediing 360 subjects, editing 360 feedback providers
+keywords: feedback tab, feedback access, 360 subject creating focus areas, editing 360 participants, editing 360 subjects, editing 360 feedback providers, global reporting guidance
 ms.collection:  
 - m365initiative-viva
 - selfserve 
@@ -14,66 +14,59 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 11/15/2024
+ms.date: 1/29/2025
 ---
 
-# 360 User Roles and permissions 
+# Viva Glint 360 User Role creation and permissions
 
-By default, Viva Glint Administrators have access to create and edit all Glint programs, including 360s. You may, however, choose to set up an extra User Role to *only* have access to edit 360 programs. In this case, you need to create a User Role - or adjust an existing User Role - to have exclusive 360 admin permissions. 
+By default, Viva Glint administrators have access to create and edit all Glint programs, including 360s. You may, however, choose to create a unique User Role with exclusive 360 admin permissions. And, in addition to any unique 360 admin role, other people in your organization need access to 360 feedback. Use this guidance to grant feedback permissions for other User Roles.
 
-More information on [Create a Viva Glint User Role](set-up-user-roles.md).
+## Create a unique 360 admin role
 
-## Create a unique 360 User Role
+> [!IMPORTANT]
+> You can have more than one Glint 360 admin, but the best practice is to limit your total number of unique 360 admins to just a few.
 
-From the Glint admin dashboard, select the **Configuration** symbol and then **User Roles.** 
+From the Glint admin dashboard, select the **Configuration** symbol and then **User Roles** in the **Employees** section. 
 
-1.	If you created a User Role specifically for 360 feedback program administration, select this role. If you’re adding a new 360 feedback admin role, select **+ New Role.**
-1.	On the *Untitled Role* page that opens, name your User Role by selecting the **pencil** symbol. Choose a name easily identifiable for that cycle name.
-1.	Select **Permissions** and scroll down to the **Feedback** section of the page.
+1.	Select **+ New Role**.
+1.	On the **Untitled Role** page that opens, name the User Role by selecting the **pencil symbol**. Choose a name easily identifiable for that role name. In this example, the role of "360 Admin" is being created.
 
-    :::image type="content" source="../../media/glint/setup/360-feedback-access-role.png" alt-text="Screenshot of accessing Permissions in Role Settings.":::
+    :::image type="content" source="../../media/glint/setup/360-unique-manager-role-2.png" alt-text="Screenshot of naming a unique 360 admin User Role.":::
+   
+1. Select **Permissions** and scroll down to the **Feedback** section of the page.
+4. Enable **Access 360 feedback**.
+5. Select **Manage Feedback** to enable users to modify existing 360 feedback programs.
+6. Select **Create 360s** to enable users to create and modify 360 programs.
+7. Select **Save Changes**.
+8. In the **Confirm your changes to Permissions** dialog box which opens, select **Save Permissions.**
 
-4.  Enable **Access 360 feedback**.
-5.	Select **Manage Feedback** to allow anyone in this role to edit 360 programs.  
-6.	Select **Save Changes** and then **Save Permissions**.
+   :::image type="content" source="../../media/glint/setup/confirm-permissions.png" lightbox="../../media/glint/setup/confirm-permissions.png" alt-text="Screenshot of the Confirm your changes to Permissions dialog box.":::
 
-    :::image type="content" source="../../media/glint/setup/360-confirm-changes-permissions.png" lightbox="../../media/glint/setup/360-confirm-changes-permissions.png" alt-text="Screenshot of confirming changes to permissions.":::
+## Add members to a 360 User Role
 
-1.	Now, in **All Members**, add all Subjects and others to be granted access to a subject’s 360 report to that User Role. Use the search bar to search employee names.
+To manually add a person to a new role, scroll down to the Search bar in the **All Members** section. Begin to type the name of the person you're searching for and then select it. Now you see your unique 360 User Role in **All Members**.
 
-## Access to feedback
+:::image type="content" source="../../media/glint/setup/all-members.png" alt-text="Screenshot of an employee name added to the All Members role list.":::
+ 
+For more information on adding User Roles, [see this guidance](/../../viva/glint/setup/set-up-user-roles).
 
-Subjects and leaders involved in 360s need access to the **Feedback tab** on their Glint dashboard. 
+## Give subjects and feedback providers access to the feedback tab
 
-It’s optional to grant feedback providers access to the Feedback tab. Granting access enables them to log in and view any open or historical requests to provide feedback to a 360 subject.
+Subjects and feedback provider participating in 360s need access to the **Feedback tab** on their Glint dashboard. It’s optional to grant feedback providers access to the Feedback tab. Access enables users to log in and view any open or historical requests to provide feedback to a 360 subject.
 
-### Feedback tab features
-
-Subject use of the feedback tab includes:
-
-- Seeing all active feedback requests 
-- Adding or editing feedback providers 
-- Completing their self-assessment 
+Subject use of the feedback tab includes the ability to:
+- See all active feedback requests 
+- Add or edit feedback providers 
+- Complete their self-assessment 
 - View who responded to their 360 cycle, if the admin provided this permission
+- Review all completed feedback history
 
-Subjects can see all completed feedback history.
+### Procedure to enable feedback tab access: 
 
-## Allow 360 subjects to create Focus Areas
+1. From the **Configuration** page of your admin dashboard, select **User Roles** in the **Employees** section.
+1. To grant permissions, select the name of the **User Role**. This role can be a previously created or newly created role just for 360s.
+1. Choose **Permissions**.
+1. **Access 360 Feedback** must be checked in addition to whatever other permissions the role is granted.
 
-Following the procedure for granting feedback access, enable **Create Focus Areas** permission for Subjects to allow them to create a Focus Area from their 360 report. This permission enables the **Focus Areas** tab on their Glint dashboard. 
-
-:::image type="content" source="../../media/glint/setup/360-focus-area-conversations.png" alt-text="Screenshot of Focus Areas tab.":::
-
->[!NOTE]
->Your organization may opt to substitute the word Goals for Focus Areas. There are many opportunities to customize the program to use terminology which is comfortable in your business. *For this reason, written guidance and images may not always appear verbatim.*
-
-## Add and edit employees after the initial role creation
-
-Use the **Add/Edit Employees** button to open the **Choose a way to add employees** window. Follow the on-screen guidance.
-
-:::image type="content" source="../../media/glint/setup/360-add-edit-user-role.png" lightbox="../../media/glint/setup/360-add-edit-user-role.png" alt-text="Screenshot of the Choose a way to add employees pop-up window.":::
-
-> [!TIP]
-> Within a user’s profile, use the **View As** feature to confirm a user’s access to a program.
 
 
