@@ -15,7 +15,7 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 1/29/2025
+ms.date: 1/31/2025
 ---
 
 # Microsoft Copilot Impact Survey template in Viva Glint
@@ -29,7 +29,7 @@ With the Copilot Impact Survey in Viva Glint, organizations can measure the impa
 Read Viva People Science insights in the Viva Glint Community.
 
 > [!div class="nextstepaction"]
-> [Microsoft Copilot in Viva Glint: Bringing AI to Comment Analysis](https://techcommunity.microsoft.com/t5/viva-glint-blog/microsoft-copilot-in-viva-glint-bringing-ai-to-comment-analysis/ba-p/4003914) 
+> [Microsoft Copilot in Viva Glint: Bringing AI to Comment Analysis](https://techcommunity.microsoft.com/blog/viva_glint_blog/surveying-employees-about-ai-at-work/3951915) 
 
 ## Use cases for the Microsoft Copilot Impact Survey
 
