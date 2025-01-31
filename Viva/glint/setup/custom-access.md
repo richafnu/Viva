@@ -14,7 +14,7 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 01/16/2025
+ms.date: 01/31/2025
 ---
 
 # Custom data access in Viva Glint
@@ -27,14 +27,17 @@ Use the custom access export as a Viva Glint Admin to audit users' data access.
 
 1. From the Glint Admin dashboard, select the **Configuration** symbol and then in **Employees** choose **User Roles**.
 2. In the top right corner of the **User Roles** page, select **Export**.
-3. In **Export data** dialog that appears, select a survey **Program**, **Role**, and whether to include:
-   1. **Focus Area Access**: Turn on to include Focus Area access only. Turn off to include survey results access only.
-   2. **Empty Data**: To include users with no data access, turn on.
-   3. **Inactive Data**: To include active **and inactive users**, turn on.
+3. In **Export data** dialog that appears, make selections in the following fields.
+   1. **Programs:** Select one survey program or choose **Select All**.
+   2. **Roles:** Select one User Role or choose **Select All**.
+   3. **Focus Areas:**: Turn on to include Focus Area access only. Turn off to include survey results access only.
+   4. **Include Empty Data**: To include users with no data access, turn on.
+   5. **Include Inactive Data**: To include active **and inactive users**, turn on.
   
       :::image type="content" source="../../media/glint/setup/export-access-dialog.png" alt-text="Screenshot of the Export data dialog with program, role, and data selections.":::  
       
-4. A new dialog appears prompting you to **rename and save** the data to your device. By default, custom access files export to a compressed folder named: **Untitled.zip**.
+6. Select **Export** after making selections.
+7. A new dialog appears prompting you to **rename and save** the data to your device. By default, custom access files export to a compressed folder named: **Untitled.zip**.
 
 ## Custom access file
 
@@ -59,11 +62,14 @@ To prepare your exported custom access file for import to Advanced Configuration
    |user email     | manager reference   |
    |population     | `no change to column label` |
    |add or remove     | `insert this as a new column` populate with "ADD" or "REMOVE" |
-   |access type   | survey uuid |
+   |access type   | survey uuid values or "GOAL" already included in export, depending on Focus Areas selcetion |
    |other attributes    | `no change` To grant new access, add new columns and values based on employee data imported to Glint. |
 
    > [!NOTE]
    > To prevent upload errors, for attributes based on data uploaded to Glint make sure that column labels match your attribute setup exactly.
+   
+   > [!TIP]
+   > To confirm which survey program a survey uuid is connected to, go to **Configuration** and select **Survey Programs**. Choose a survey and note the id at the end of the URL in your web browser. This is the survey uuid that appears in the **access type** column in the custom access export.
  
 3. Edit values in the population column. The first population that a user has access to should be changed from a 1 to a 0, with each new population increasing in number.
    
