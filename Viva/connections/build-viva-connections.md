@@ -27,7 +27,7 @@ After deciding which tasks, audiences, and resources to promote using Viva Conne
 
 You know you're ready to move onto the building phase if you've met the following requirements and reviewed best practices:
 
-- The [most valuable tasks and processes can be completed](plan-viva-connections.md#audit-prioritize-and-modernize-content-to-align-with-key-scenarios-and-tasks-optional) using Connections.
+- The [most valuable tasks and processes can be completed](plan-viva-connections.md#review-prioritize-and-modernize-content-to-align-with-key-scenarios-and-tasks-optional) using Connections.
 - Considerations have been made for [specific audiences](plan-viva-connections.md#planning-process).
 - You have an [adoption and launch plan](launch-viva-connections.md) along with success metrics.
 - (Optional) You’ve got a modern SharePoint home site.
