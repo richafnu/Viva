@@ -17,7 +17,7 @@ ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
 ms.custom: CELA-approved
-ms.date: 02/03/2024
+ms.date: 02/03/2025
 ---
 
 # Responding to Data Subject Requests (DSRs) in Viva Glint
@@ -38,7 +38,7 @@ For information on how to support a request to delete data, visit [Delete user d
      1. Data is removed from Glint except for essential account information associated with your organization’s Microsoft subscription.
      2. To include later, the information must be reuploaded into your company’s employee data.
      3. By deleting the user:
-         1. Survey results are deleted, possibly impacting Glint reports, if deletion control is set to **ON**. [Learn more](https://learn.microsoft.com/en-us/viva/glint/setup/manage-general-settings#user-data).
+         1. Survey results are deleted, possibly impacting Glint reports, if deletion control is set to **ON**. [Learn more](/../../viva/glint/setup/manage-general-settings#user-data).
          2. The user’s data is removed from distribution lists and future surveys.
          3. The user’s role definitions and their reporting permissions are removed.
      4. The display indicates whether the user has direct reports and that the admin needs to reassign the reports later or in the next employee data import. Follow these steps to facilitate a [**retroactive user upload update**](/../../viva/glint/setup/update-glint-reporting-data) if past survey data should reflect the new manager.
