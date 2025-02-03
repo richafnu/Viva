@@ -59,7 +59,7 @@ After the data successfully validates and processes, the overall data-import tas
 
 6. At the bottom, select **Next: Advanced**.
 
-7. On the Advanced page, select "Require secure transfer for REST API operations," "Enable storage account key access," and "Enable hierarchical namespace." For "Minimum TLS version," select at least **Version 1.2**.
+7. On the Advanced page, select "Require secure transfer for REST API operations," "Enable storage account key access," and "Enable hierarchical namespace." For "Minimum TLS version," select at least **Version 1.2**.
 
 8. For all other Advanced settings, you can use the default settings unless you need to make changes.
 
@@ -119,7 +119,7 @@ Next, you’ll need to create a blob SAS URL for authorization, or a blob URL if
 
 **For SAS URL authorization:**
 
-1. When the new storage container you created appears, select it. Then, on the left under **Settings**, select **Access policy**. 
+1. When the new storage container you created appears, select it. Then, on the left under **Settings**, select **Access policy**. 
 
 2. Under **Stored access policies**, select **Add policy**. Provide a unique identifier, such as “BlobStore.” Select **Read** and **List** permissions. Select a start time a few minutes in the past and an end time one year from now. 
 
@@ -127,9 +127,9 @@ Next, you’ll need to create a blob SAS URL for authorization, or a blob URL if
 
 4. You can use the default option under **Signing key**. Under **Stored access policy**, select the policy created above. This will auto-populate the expiry window and permissions list. 
 
-5. For **Allowed IP addresses** and **Allowed protocols**, you can use the default settings. 
+5. For **Allowed IP addresses** and **Allowed protocols**, you can use the default settings. 
 
-6. Select **Generate SAS token and URL**. 
+6. Select **Generate SAS token and URL**. 
 
 7. Copy and securely share the blob SAS URL with the Insights admin. 
 
@@ -140,14 +140,14 @@ Next, you’ll need to create a blob SAS URL for authorization, or a blob URL if
 
 *Applies to: Insights admin*
 
-1. Start the import from one of two places: the **Data hub** page, or the **Organizational data** page under **Data connections**.
+1. Start the import from one of two places: the **Data hub** page, or the **Organizational data** page under **Data connections**.
 
-    1. From **Data hub**:
-        1. In the **Data source** section, under **Azure blob import**, select **Start**.
+    1. From **Data hub**:
+        1. In the **Data source** section, under **Azure blob import**, select **Start**.
 
-    2. From **Data connections**:
-        1. Next to **Current source**, select **Manage data sources**.
-        1. An Azure blob import window appears. Select **Start**.
+    2. From **Data connections**:
+        1. Next to **Current source**, select **Manage data sources**.
+        1. An Azure blob import window appears. Select **Start**.
 
 2. Under **Connection name**, enter a unique name for the import.
 
@@ -155,7 +155,7 @@ Next, you’ll need to create a blob SAS URL for authorization, or a blob URL if
 
 4. Send your Azure contributor your IP address for the allow list.
 
-5. Enter the **Blob SAS URL** or the **Blob URL** for the import provided to you by the Azure contributor in Step 2. 
+5. Enter the **Blob SAS URL** or the **Blob URL** for the import provided to you by the Azure contributor in Step 2. 
 
 6. Upload the .json mapping file provided to you by the Source system admin.
 
@@ -187,20 +187,20 @@ To manually upload the file to the blob location created by the Azure contributo
 
 1. Open a browser and enter the blob SAS URL provided by the Azure contributor. 
 
-2. At the top, select **Upload**. Then, on the right, upload the .csv file you created using the instructions above.
+2. At the top, select **Upload**. Then, on the right, upload the .csv file you created using the instructions above.
 
 **Prepare .json mapping file and send it to the Insights admin**
 
-Indicate the type of refresh you’re performing and how Viva Insights should map your fields:
+Indicate the type of refresh you're performing and how Viva Insights should map your fields:
 
 * ``` “DatasetType”: “HR” ``` (line 2). Leave this as-is. 
 
-* ``` “IsBootstrap”: ``` (line 3). Use “true” to indicate a full refresh and “false” to indicate an incremental refresh.  
+* ``` “IsBootstrap”: ``` (line 3). Use “true” to indicate a full refresh and "false" to indicate an incremental refresh.  
 
 * "Mapping": If you use names other than what Viva Insights uses, change each column header name to match what you use in your source system.
 
 >[!IMPORTANT]
-> Remove any fields that aren’t present in your .csv file.
+> Remove any fields that aren't present in your .csv file.
 
 **Mapping example**
 
@@ -235,7 +235,7 @@ Then, send the .json mapping file to the Insights admin to upload in Insights wh
 
 After the source system admin exports the data and you set up the import, the app starts validating. In most cases, file validation should complete quickly.
 
-After this phase completes, validation has either succeeded or failed. Depending on the outcome, you’ll either receive a success status or a failure status in Import history table in **Organizational data > Data connections**.
+After this phase completes, validation has either succeeded or failed. Depending on the outcome, you'll either receive a success status or a failure status in Import history table in **Organizational data > Data connections**.
 
 For information about what happens next, go to the appropriate section:
 
@@ -244,13 +244,13 @@ For information about what happens next, go to the appropriate section:
 
 #### Validation succeeds
 
-After successful validation, Viva Insights starts processing your new data. Processing can take between a few hours and a day or so. During processing, you’ll see a “Processing” status on the **Import history** table.
+After successful validation, Viva Insights starts processing your new data. Processing can take between a few hours and a day or so. During processing, you'll see a “Processing” status on the **Import history** table.
 
-After processing completes, it's either succeeded or failed. Depending on the outcome, you’ll either find a “Success” or “Failed” status in the **Import history** table.
+After processing completes, it's either succeeded or failed. Depending on the outcome, you'll either find a “Success” or “Failed” status in the **Import history** table.
 
 ##### Processing succeeds
 
-When you find the “Success” status in the **Import history** table, the upload process is complete.
+When you find the “Success” status in the **Import history** table, the upload process is complete.
 
 After you receive the “Success” status, you can:
 
@@ -258,18 +258,18 @@ After you receive the “Success” status, you can:
 * Select the mapping icon to see the mapping settings for the workflow.
 
 >[!Note]
-> Each tenant can have only one import in progress at a time. You need to complete the workflow of one data file, which means you either guide it to a successful validation and processing or abandon it, before you begin the workflow of the next data file. The status or stage of the upload workflow is shown on the **Data connections** tab.
+> Each tenant can have only one import in progress at a time. You need to complete the workflow of one data file, which means you either guide it to a successful validation and processing or abandon it, before you begin the workflow of the next data file. The status or stage of the upload workflow is shown on the **Data connections** tab.
 
 ##### Processing fails
 
-If processing fails, you’ll find a “Processing failed” status in the **Import history** table. For processing to succeed, the source system admin needs to correct errors and push the data to Viva Insights again.
+If processing fails, you'll find a “Processing failed” status in the **Import history** table. For processing to succeed, the source system admin needs to correct errors and push the data to Viva Insights again.
 
 >[!Note]
-> Processing failures are generally due to backend errors. If you’re seeing persistent processing failures and you’ve corrected the data in your imported file, [log a support ticket with us](/microsoft-365/admin/get-help-support).
+> Processing failures are generally due to backend errors. If you're seeing persistent processing failures and you’ve corrected the data in your imported file, [log a support ticket with us](/microsoft-365/admin/get-help-support).
 
 #### Validation fails
 
-If data validation fails, you'll see a "Validation failed" status in the **Import history** table. For validation to succeed, the source system admin needs to correct errors and push the data to Viva Insights again. Under **Actions**, select the download icon to download an error log. Send this log to the source system admin so they know what to correct before sending the data again.
+If data validation fails, you'll see a "Validation failed" status in the **Import history** table. For validation to succeed, the source system admin needs to correct errors and push the data to Viva Insights again. Under **Actions**, select the download icon to download an error log. Send this log to the source system admin so they know what to correct before sending the data again.
 
 The source system admin might find the following section helpful to fix data errors in their export file.
 
@@ -283,7 +283,7 @@ Refer to [Prepare organizational data](./prepare-org-data.md) for specific f
 [Learn more about validation errors and warnings](..//admin/rules-validation-errors.md#validation-errors-and-warnings).
 
 #### Suspended state
-If you see a “Suspended” status in the **Import history** table or when you select **Manage data sources**, this means your authorization credentials have expired or access has been revoked. You’ll need to update your credentials and reconnect the data source.
+If you see a "Suspended" status in the **Import history** table or when you select **Manage data sources**, this means your authorization credentials have expired or access has been revoked. You'll need to update your credentials and reconnect the data source.
 
 ### Manage data source and make changes
 *Applies to: Insights admin*
@@ -295,9 +295,9 @@ After you've set up your data import, use the steps below to make changes like s
 
 On the next page, you can edit the connection name, the blob SAS URL, or the blob URL. If you update the SAS URL or URI, the new location will be used for future data refreshes. 
 
-You can also turn automated imports on or off. When you’re done, select **Save**.
+You can also turn automated imports on or off. When you're done, select **Save**.
 
-To replace or edit the organizational data using the existing blob SAS URL or blob URL, contact your source system admin. When you import data to Viva Insights, you’ll either perform a full or an incremental refresh. If you want to delete fields, you can use a full refresh to do so.
+To replace or edit the organizational data using the existing blob SAS URL or blob URL, contact your source system admin. When you import data to Viva Insights, you'll either perform a full or an incremental refresh. If you want to delete fields, you can use a full refresh to do so.
 
 #### How to indicate a full or incremental refresh
 
@@ -312,17 +312,17 @@ When your import runs, Viva Insights will start to process your data either as a
 
 **Full**
 
-When you perform a full refresh, you’re replacing all your organization’s data in Viva Insights—that is, you overwrite what you’ve already imported. When you perform a full refresh, make sure to provide data for all licensed and unlicensed employees (meaning those who have a Viva Insights subscription and those who don’t). We describe what fields to provide later in this article.
+When you perform a full refresh, you're replacing all your organization's data in Viva Insights—that is, you overwrite what you’ve already imported. When you perform a full refresh, make sure to provide data for all licensed and unlicensed employees (meaning those who have a Viva Insights subscription and those who don't). We describe what fields to provide later in this article.
 
-You can use a full refresh to delete fields, because fields you leave out won’t show up in your data. We talk about deleting data in the next section.
+You can use a full refresh to delete fields, because fields you leave out won't show up in your data. We talk about deleting data in the next section.
 
 **Deleting fields with full refreshes**
 
-To delete fields with a full refresh, export your data as a .csv that contains all fields except the fields you want to delete. Because a full refresh replaces existing data, you’ll end up with every field except the ones you left out during the import.
+To delete fields with a full refresh, export your data as a .csv that contains all fields except the fields you want to delete. Because a full refresh replaces existing data, you'll end up with every field except the ones you left out during the import.
 
 **Incremental**
 
-Perform an incremental refresh when you only want to add some new information to organizational data you’ve already uploaded to Viva Insights. Here’s what you can do with an incremental refresh:
+Perform an incremental refresh when you only want to add some new information to organizational data you’ve already uploaded to Viva Insights. Here's what you can do with an incremental refresh:
 
 * Add new employees
 * Add new attributes for existing employees
@@ -337,13 +337,13 @@ Say you want to add five new hires to your organizational data. During the impor
 
 * Five rows that contain new employee data.
 * Required attributes: PersonId,  ManagerId, Organization, and EffectiveDate.
-* All reserved optional fields (for example, HireDate) that you’ve already imported to Viva Insights. 
+* All reserved optional fields (for example, HireDate) that you've already imported to Viva Insights. 
 
-After the import finishes, the only change you’d notice is five new rows and their values.
+After the import finishes, the only change you'd notice is five new rows and their values.
 
 **Example – adding a new attribute**
 
-Maybe you want to add an optional reserved attribute that wasn’t in your data before—let’s say **Location**—for all existing employees. When you go to import your data, you’d only include the **Location**, **PersonId**, and **EffectiveDate**, with current and historical values for each employee, in your .csv file. After the import finishes, you’d find the same data that was there before, with the exception of a new column for each employee, **Location**.
+Maybe you want to add an optional reserved attribute that wasn’t in your data before—let's say **Location** — for all existing employees. When you go to import your data, you'd only include the **Location**, **PersonId**, and **EffectiveDate**, with current and historical values for each employee, in your .csv file. After the import finishes, you’d find the same data that was there before, with the exception of a new column for each employee, **Location**.
 
 #### Fields to include in the .csv file for full and incremental refreshes
 
@@ -355,7 +355,7 @@ For the refresh types listed below, include the fields in the following table wi
 |   | ManagerId | Current </br> <br> All historical | All |
 |   | Organization | Current </br> <br> All historical | All |
 |   | EffectiveDate | Current </br> <br> All historical | All |
-|   | All reserved optional fields (for example, **HireDate**) that you’ve already imported to Viva Insights | Current </br> <br> All historical | All |
+|   | All reserved optional fields (for example, **HireDate**) that you’ve already imported to Viva Insights | Current </br> <br> All historical | All |
 | **Full** (for deleting reserved optional fields) | PersonId | Current </br> <br> All historical | All | 
 |   | ManagerId | Current </br> <br> All historical | All |
 |  | Organization | Current </br> <br> All historical | All |
@@ -371,7 +371,7 @@ For the refresh types listed below, include the fields in the following table wi
 |   | All reserved optional fields (for example, **HireDate**) that you’ve already imported to Viva Insights | Current </br> <br> All since the last upload | New employees only |
 
 >[!Note]
-> "All historical": Values for previous time periods. For example, if you include monthly data, then you'd include values for every month leading up to this one. When you’re first starting to use Viva Insights, 13 months’ worth of data is recommended. After that, it’s recommended to update data regularly so it builds into 27 months’ worth of data. </br> <br>
+> "All historical": Values for previous time periods. For example, if you include monthly data, then you'd include values for every month leading up to this one. When you're first starting to use Viva Insights, 13 months' worth of data is recommended. After that, it’s recommended to update data regularly so it builds into 27 months' worth of data. </br> <br>
 > "All values since the last upload": Values for the period between uploads. For example, if the last upload was in March and now it’s July, include values for April, May, and June.
 
 ## Related topics
