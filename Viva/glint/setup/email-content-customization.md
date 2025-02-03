@@ -72,7 +72,7 @@ Use this [translation guidance](language-translations.md) to import updated tran
 
 ## Survey End Results Notification email
 
-The Survey End Results Notification email is designed to notify managers that their results are ready for review in Viva Glint dashboards. It contains several sections, including some that link to additional resources. 
+The Survey End Results Notification email is designed to notify managers that their results are ready for review in Viva Glint dashboards. It contains several sections, including some that link to more resources. 
 
 Sections that can be easily customized: Button Text, Greeting, Main Title, Preview Text, Subject Title, Tip Titles, Tip Descriptions
 
@@ -92,7 +92,7 @@ These results notification email sections support multiple paragraphs to break u
 After customizing emails, use the Viva Glint [preview option](preview-manage-enable-engage-programs.md) to send yourself a sample of the survey invite email.
 
 > [!TIP]
-> For email previews in other languages, select a **Preview As** user who's assigned the language code that you want to see a preview for. Learn more in the **Language** section in [Viva Glint employee attribute fundamentals](attribute-fundamentals.md).
+> For email previews in other languages, select a User Role to **Preview As** who uses assigned the language code that you want to see. Learn more in the **Language** section in [Viva Glint employee attribute fundamentals](attribute-fundamentals.md).
 
 ### Preview email communications for Approved cycles
 
@@ -103,12 +103,12 @@ After customizing emails, use the Viva Glint [preview option](preview-manage-ena
 > [!IMPORTANT]
 > A survey must be in **Approved** status for it to be listed as Upcoming or Live.
 
-   :::image type="content" source="../../media/glint/setup/preview-email-steps.png" alt-text="Screenshot of the how to preview email communications from Upcoming and Live cycles.":::
+   :::image type="content" source="../../media/glint/setup/preview-email-steps.png" alt-text="Screenshot of how to preview email communications from Upcoming and Live cycles.":::
 
 1. In the Selet Preview for [Survey Name] window that opens, select from Survey Start, Survey Reminds, Survey End to define which previews to send.
 2. In the **Select a Recipient** box, search for your name or whoever else you want to send the previews to.
 
-   :::image type="content" source="../../media/glint/setup/preview-email-steps.png" alt-text="Screenshot of the how to preview email communications from Upcoming and Live cycles.":::
+   :::image type="content" source="../../media/glint/setup/comms-preview-selection.png" alt-text="Screenshot of how to choose and send email previews.":::
 
 > [!NOTE]
 > - To allow for easier email review, previews for surveys that require authentication via Entra don't include an Entra link behind the Provide Feedback button.
