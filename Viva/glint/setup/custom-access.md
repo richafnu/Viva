@@ -30,9 +30,9 @@ Use the custom access export as a Viva Glint Admin to audit users' data access.
 3. In **Export data** dialog that appears, make selections in the following fields.
    1. **Programs:** Select one survey program or choose **Select All**.
    2. **Roles:** Select one User Role or choose **Select All**.
-   3. **Focus Areas:** Enable to include Focus Area access only. Disable to include survey results access only.
-   4. **Include Empty Data**: Enable to include users with no data access.
-   5. **Include Inactive Data**: Enable to include active **and inactive users**.
+   3. **Focus Areas:** Enable this setting to include Focus Area access only. Disable to include survey results access only.
+   4. **Include Empty Data**: Enable this setting to include users with no data access.
+   5. **Include Inactive Data**: Enable this setting to include active **and inactive users**.
   
       :::image type="content" source="../../media/glint/setup/export-access-dialog.png" alt-text="Screenshot of the Export data dialog with program, role, and data selections.":::  
       
