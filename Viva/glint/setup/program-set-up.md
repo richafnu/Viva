@@ -1,16 +1,16 @@
 ---
 title: Program setup in Program Summary
-description: In Program Setup, define the basics of your program, such as its name and what languages are needed, along with confidentiality directives.
+description: In Program Setup, define the basics of your program, such as its name and what languages are needed, along with confidentiality directives. 
 ms.author: JudithWeiner
 author: JudyWeiner
 manager: elizapo
 audience: admin
 f1.keywords: NOCSH
 keywords: confidentiality setup, basics setup, automatic survey question scrolling, survey comment expansion
-ms.collection:  
-- m365initiative-viva
-- selfserve 
-search.appverid: MET150 
+ms.collection: 
+ - m365initiative-viva
+ - selfserve
+search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
@@ -26,7 +26,7 @@ The **Program Setup** page is the first configuration page within **Program Summ
 
 ## Define the basics  
 
-:::image type="content" source="../../media/glint/setup/program-setup-2.png" alt-text="Screenshot that The Basics section of Program Setup." lighbox="../../media/glint/setup/program-setup-2.png":::
+:::image type="content" source="../../media/glint/setup/program-setup-2.png" alt-text="Screenshot that The Basics section of Program Setup.":::
 
 Select **Edit** to configure or change setup in this section.
 
