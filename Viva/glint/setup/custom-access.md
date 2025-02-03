@@ -14,7 +14,7 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 01/16/2025
+ms.date: 02/03/2025
 ---
 
 # Custom data access in Viva Glint
@@ -27,14 +27,17 @@ Use the custom access export as a Viva Glint Admin to audit users' data access.
 
 1. From the Glint Admin dashboard, select the **Configuration** symbol and then in **Employees** choose **User Roles**.
 2. In the top right corner of the **User Roles** page, select **Export**.
-3. In **Export data** dialog that appears, select a survey **Program**, **Role**, and whether to include:
-   1. **Focus Area Access**: Turn on to include Focus Area access only. Turn off to include survey results access only.
-   2. **Empty Data**: To include users with no data access, turn on.
-   3. **Inactive Data**: To include active **and inactive users**, turn on.
+3. In **Export data** dialog that appears, make selections in the following fields.
+   1. **Programs:** Select one survey program or choose **Select All**.
+   2. **Roles:** Select one User Role or choose **Select All**.
+   3. **Focus Areas:** Enable this setting to include Focus Area access only. Disable to include survey results access only.
+   4. **Include Empty Data**: Enable this setting to include users with no data access.
+   5. **Include Inactive Data**: Enable this setting to include active **and inactive users**.
   
       :::image type="content" source="../../media/glint/setup/export-access-dialog.png" alt-text="Screenshot of the Export data dialog with program, role, and data selections.":::  
       
-4. A new dialog appears prompting you to **rename and save** the data to your device. By default, custom access files export to a compressed folder named: **Untitled.zip**.
+6. Select **Export** after making selections.
+7. A new dialog appears prompting you to **rename and save** the data to your device. By default, custom access files export to a compressed folder named: **Untitled.zip**.
 
 ## Custom access file
 
@@ -51,7 +54,7 @@ The custom data access export includes the following information:
 
 To prepare your exported custom access file for import to Advanced Configuration:
 
-1. Open the exported .csv file by [importing in Microsoft Excel](https://support.microsoft.com/office/import-data-from-a-csv-html-or-text-file-b62efe49-4d5b-4429-b788-e1211b5e90f6) to retain leading zeros and data formats.
+1. To retain leading zeros and data formats, use the [Text Import Wizard](https://support.microsoft.com/office/text-import-wizard-c5b02af6-fda1-4440-899f-f78bafe41857) to open files with a .csv extension.
 2. Update the column labels in the exported file to the following columns:
 
    |Column  |Change to...   |
@@ -59,11 +62,14 @@ To prepare your exported custom access file for import to Advanced Configuration
    |user email     | manager reference   |
    |population     | `no change to column label` |
    |add or remove     | `insert this as a new column` populate with "ADD" or "REMOVE" |
-   |access type   | survey uuid |
+   |access type   | survey uuid values or "GOAL" already included in export, depending on Focus Areas selection |
    |other attributes    | `no change` To grant new access, add new columns and values based on employee data imported to Glint. |
 
    > [!NOTE]
    > To prevent upload errors, for attributes based on data uploaded to Glint make sure that column labels match your attribute setup exactly.
+   
+   > [!TIP]
+   > To confirm which survey program a survey uuid is connected to, go to **Configuration** and select **Survey Programs**. Choose a survey and note the ID at the end of the URL in your web browser. This value is the survey uuid that appears in the **access type** column in the custom access export.
  
 3. Edit values in the population column. The first population that a user has access to should be changed from a 1 to a 0, with each new population increasing in number.
    
@@ -75,7 +81,7 @@ To prepare your exported custom access file for import to Advanced Configuration
    
 5. To grant custom access for:
    - **Survey results**:
-      - Populate the survey uuid column with the survey program unique ID that's included in the access export file.
+      - Populate the survey uuid column with the survey program's unique ID included in the access export file.
       - **To update a user's data access for all surveys that they have access to, leave the survey uuid column blank**.
    - **Focus Areas**:
       - Populate the survey uuid column with "GOAL."
@@ -112,16 +118,16 @@ After exporting and preparing a file, go to Advanced Configuration to upload use
 3. In the **Upload type** dropdown menu, select **MANAGERS_UPLOAD**.
 4. **Apply to**: Ignore, this setting is for retroactive uploads only.
 5. **Incremental**:
-   1. Switch on this toggle to append access to users in your file.
-   2. Switch off this toggle to overwrite all access for users in your file. Users not included in the file aren't impacted.
-6. **Use exact case from the file for First/Last name**: Ignore, this doesn’t apply to access uploads.
+   1. Enable this setting to append access to users in your file.
+   2. Disable this setting to overwrite all access for users in your file. Users not included in the file aren't impacted.
+6. **Use exact case from the file for First/Last name**: Ignore, this setting doesn’t apply to access uploads.
 
    :::image type="content" source="../../media/glint/setup/adv-config-uploads.png" alt-text="Screenshot of the Advanced Configuration Uploads feature.":::
 
 7. Drag and drop your .csv file or browse to choose it in the **Drag and drop to upload** section.
 8. In the **Upload Job Details** page that appears, confirm that the **Uploaded Lines Summary** matches the changes in your file.
 9. Select **Apply Upload to Database** to upload new values.
-10. In the **Load import file into database?** dialog, select Yes.
+10. In the **Load import file into database?** dialog, select **Yes**.
 11. Go to some users' profiles to confirm that customized access appears as expected.
    1. Select the **Configuration** symbol, then in **Employees**, choose **People**.
    2. Search for and select users to spot check.
