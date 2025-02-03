@@ -1,6 +1,6 @@
 ---
 title: Program setup in Program Summary
-description: In Program Setup you define the basics of your program, such as its name and what languages are needed, along with confidentiality directives.
+description: In Program Setup, define the basics of your program, such as its name and what languages are needed, along with confidentiality directives.
 ms.author: JudithWeiner
 author: JudyWeiner
 manager: elizapo
@@ -14,12 +14,12 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 09/10/2024
+ms.date: 02/03/2025
 ---
 
 # Program Setup in Program Summary
 
-The **Program Setup** page is the first configuration page within **Program Summary**. This is where you define the basics of your program.
+The **Program Setup** page is the first configuration page within **Program Summary**, where you define the basics of your program.
 
 :::image type="content" source="../../media/glint/setup/program-setup-from-program-summary.png" alt-text="Screenshot that shows the Program Setup page for configuration within the Program Summary.":::
 
