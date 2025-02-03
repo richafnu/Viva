@@ -42,8 +42,8 @@ However, before you can run your app and start transferring data to Viva Insight
     1. Using the security certificate, the Microsoft 365 admin [registers a new app in Azure](#register-a-new-app-in-azure).
     1. Using IDs from the app registration, the Insights admin [sets up the import](#set-up-the-import-in-viva-insights).
     1. The data source admin prepares their data and either:
-        1.	Exports it from their source system using a custom app based on our API, then, using the same app, imports the data to Viva Insights.
-        2.	Exports it from their source system using a custom app based on our API, then, using our C# solution or PowerShell script, imports the data to Viva Insights.
+        1.	Exports it from their source system using a custom app based on our API, then using the same app, imports the data to Viva Insights.
+        2.	Exports it from their source system using a custom app based on our API, then using our C# solution or PowerShell script, imports the data to Viva Insights.
 
     :::image type="content" source="../images/admin-data-import-flow.png" alt-text=" Diagram of the workflow above."lightbox="../images/admin-data-import-flow-expanded.png":::
 
