@@ -112,5 +112,10 @@ Admins can easily send preview communications from an Approved program cycle. An
 
    :::image type="content" source="../../media/glint/setup/comms-preview-selection.png" alt-text="Screenshot of how to choose and send email previews.":::
 
+Example email preview:
+
+:::image type="content" source="../../media/glint/setup/example-email-preview.png" alt-text="Screenshot of an example preview email.":::
+
+
 > [!NOTE]
 > - To allow for easier email review, previews for surveys that require authentication via Entra don't include an Entra link behind the Provide Feedback button.
