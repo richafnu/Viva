@@ -94,7 +94,7 @@ After customizing emails, use the Viva Glint [preview option](preview-manage-ena
 > [!TIP]
 > For email previews in other languages, select a **Preview As** user who's assigned the language code that you want to see a preview for. Learn more in the **Language** section in [Viva Glint employee attribute fundamentals](attribute-fundamentals.md).
 
-### Easily preview email communications for approved cycles
+### Preview email communications for Approved cycles
 
 1. From your admin dashboard, select **Survey Programs.**
 2. On the **Survey Programs** page, select the survey program you want to review communications for.
