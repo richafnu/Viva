@@ -96,6 +96,8 @@ After customizing emails, use the Viva Glint [preview option](preview-manage-ena
 
 ### Preview email communications for Approved cycles
 
+Admins can easily send preview communications from an Approved program cycle. Any communication set up on the Communications page in Program Summary can be viewed.
+
 1. From your admin dashboard, select **Survey Programs.**
 2. On the **Survey Programs** page, select the survey program you want to review communications for.
 3. In the **Upcoming and Live** tab on the survey program page, select a cycle and then use the ellipses to display the dropdown menu. Select **Preview.**
