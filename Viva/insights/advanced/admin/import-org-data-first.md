@@ -116,7 +116,7 @@ That’s it for now. If you want to get a head start on your next steps, follow 
 
 5. Remove API permissions:
     1. Select **API permissions** from the left rail.
-    2. For each listed **API / Permissions** name, select the ellipses (**...**) to the right of the API—for example, **Microsoft Graph**.
+    2. For each listed **API / Permissions** name, select the ellipsis (**...**) to the right of the API—for example, **Microsoft Graph**.
     3. Select **Remove permission**.
 
         :::image type="content" source="../images/admin-di-upload-remove-perms-1.png" alt-text="Screenshot that shows selecting Remove permissions in Azure. "lightbox="../images/admin-di-upload-remove-perms-1.png":::
