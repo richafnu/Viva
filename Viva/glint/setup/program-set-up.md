@@ -6,14 +6,14 @@ author: JudyWeiner
 manager: elizapo
 audience: admin
 f1.keywords: NOCSH
-keywords: confidentiality setup
+keywords: confidentiality setup, basics setup, automatic survey question scrolling, survey comment expansion
 ms.collection:  
 - m365initiative-viva
 - selfserve 
 search.appverid: MET150 
 ms.topic: article
 ms.service: viva-glint
-ms.localization priority: high
+ms.localizationpriority: high
 ms: custom: CELA-approved
 ms.date: 02/03/2025
 ---
