@@ -14,7 +14,7 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 01/31/2025
+ms.date: 02/03/2025
 ---
 
 # Custom data access in Viva Glint
@@ -30,9 +30,9 @@ Use the custom access export as a Viva Glint Admin to audit users' data access.
 3. In **Export data** dialog that appears, make selections in the following fields.
    1. **Programs:** Select one survey program or choose **Select All**.
    2. **Roles:** Select one User Role or choose **Select All**.
-   3. **Focus Areas:** Turn on to include Focus Area access only. Turn off to include survey results access only.
-   4. **Include Empty Data**: To include users with no data access, turn on.
-   5. **Include Inactive Data**: To include active **and inactive users**, turn on.
+   3. **Focus Areas:** Enable to include Focus Area access only. Disable to include survey results access only.
+   4. **Include Empty Data**: Enable to include users with no data access.
+   5. **Include Inactive Data**: Enable to include active **and inactive users**.
   
       :::image type="content" source="../../media/glint/setup/export-access-dialog.png" alt-text="Screenshot of the Export data dialog with program, role, and data selections.":::  
       
@@ -118,8 +118,8 @@ After exporting and preparing a file, go to Advanced Configuration to upload use
 3. In the **Upload type** dropdown menu, select **MANAGERS_UPLOAD**.
 4. **Apply to**: Ignore, this setting is for retroactive uploads only.
 5. **Incremental**:
-   1. Switch on this toggle to append access to users in your file.
-   2. Switch off this toggle to overwrite all access for users in your file. Users not included in the file aren't impacted.
+   1. Enable this setting to append access to users in your file.
+   2. Disable this setting to overwrite all access for users in your file. Users not included in the file aren't impacted.
 6. **Use exact case from the file for First/Last name**: Ignore, this setting doesn’t apply to access uploads.
 
    :::image type="content" source="../../media/glint/setup/adv-config-uploads.png" alt-text="Screenshot of the Advanced Configuration Uploads feature.":::
