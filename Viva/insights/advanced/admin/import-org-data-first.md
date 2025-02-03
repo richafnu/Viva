@@ -98,8 +98,8 @@ That’s it for now. If you want to get a head start on your next steps, follow 
          :::image type="content" source="../images/admin-di-app-id.png" alt-text="Screenshot that shows the ID and certificate/secret pane in Azure.":::
 
 
-    >[!Important]
-    >Keep these IDs handy. You'll need to provide them later.
+        >[!Important]
+        >Keep these IDs handy. You'll need to provide them later.
 1. Add a certificate:
     1.  Select **Add a certificate or secret**.
 
