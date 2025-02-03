@@ -14,6 +14,7 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
+ms: custom: CELA-approved
 ms.date: 02/03/2025
 ---
 
@@ -25,40 +26,45 @@ The **Program Setup** page is the first configuration page within **Program Summ
 
 ## Define the basics  
 
-:::image type="content" source="../../media/glint/setup/program-summary-setup-vg.png" alt-text="Screenshot that The Basics section of Program Setup.":::
+:::image type="content" source="../../media/glint/setup/program-setup-2.png" alt-text="Screenshot that The Basics section of Program Setup." lighbox="../../media/glint/setup/program-setup-2.png":::
 
-1. Enter a **Program Name**.
-1. Select the admins by searching by **Role** or entering their name into the **Search** feature.
-1. Select the **Default Language** from the dropdown menu.
-1. The list of **Additional Languages** is prepopulated with languages set up for your organization in **General Settings**. To remove languages, select the **X** next to the language name.
-1. **Admin Notifications** These admins are notified of upcoming surveys. They are prepopulated in the General Settings feature. Use the **Search** field to find other admins to add.
-1. Use the **Suggested Action Available** toggle to disable or enable users to create goals.
-1. Use the **Eligible for Nudges** toggle to disable or enable timely messages to managers.  
-1. Confidential Responses are set to **YES** by default.  
-1. Enable **Allow Survey Resubmission** so that participants have the ability to retake their surveys by selecting a link on the survey Thank You page. **NO** means that this feature is disabled and users can't resubmit survey responses.
+Select **Edit** to configure or change setup in this section.
 
-   >[!NOTE]
-   >To remove an admin, select **X** next to their name.
+|Field|Description|Examples/Tips|
+|-------|------------|-----------|
+|**Program Name**|Used in survey and email communications, reporting, and is visible to survey respondants|Engagement, Manager Effectiveness, 30-day Onboarding|
+|**Administrators**| This role can set up, manage, edit, and report on all surveys in the entire program|*Manage Programs* must be enabled for the name to appear in the search box.| 
+|**Default Language**|Appears as set up in General Settings|
+|**Additional Languages**| Populated with languages set up for your organization in General Settings.| Be sure survey items are available in all languages chosen. To remove languages, select the **X** next to the language name.|
+| **Admin Notifications to** |These admins are notified of upcoming surveys and are set in General Settings.|Each survey should have at least one admin in this role who is notified before the survey goes Live. Use the **Search** add names.|
+|**Suggested Action Available** |Enables Users to create goals.|Toggle to enable or disable|
+|**Eligible for Nudges** |Timely messages designed to help managers take action| Toggle to enable or disable. | 
+|**Allow Survey Resubmission** |Allow survey takers to retake their surveys. All previous responses are deleted|  Toggle to enable or disable.|
+|**Enable [Team Conversations](/../../viva/glint/reports/team-conversations-administrator-setup**|Helps managers and survey takers feel like their feedback is heard and acted upon.|Managers receive a personalized summary presentation of survey results. Helps your managers share results, pick Focus Arteas, and identify next steps throught a guided interactive conversation.|
+|**Auto-expand comments input**|With this enabled, a comment box shows after each survey item posed to a survey taker. Disabled, the survey automatically moves to the next item.|Disabled by default. Toggle to enable. This feature prompts more detailed and actionable insights by survey takers, increasing survey engagement.|
+|**Enable Team Conversations Sharing**|Allows managers to share a read-only version of their feedback summary presentation before or after meetings with their team.| Enabled by default when Team Conversations is enabled. |
+|**Enable Viva Pulse Integration** |Enabling this feature sends Glint data for every closed program cycle and future cycles.| See the Reporting page to specificy which roles have access to this integration.  
 
-1. **Enable Team Conversations** is enabled by default. **NO** disables the feature for the program. For more information, see [Team Conversations](https://go.microsoft.com/fwlink/?linkid=2286203). 
-1. When Team Conversations is enabled, **Enable Team Conversations Sharing** is enabled by default. **NO** disables managers from sharing this read-only version of Team Conversations.  
-1. Select the right-facing arrow symbol to **Save and continue**.
+Select **Save Changes** or the **right-facing arrow symbol** to save and continue.
+
+   
 
 ## Confidentiality
 
 :::image type="content" source="../../media/glint/setup/program-setup-confidentiality-2.png" alt-text="Screenshot that shows the Confidentiality setup within Program Setup.":::
 
-**Confidential responses** is set to **Custom Confidential** by default to promote accurate feedback.
+|Field|Description|Examples/Tips|
+|-------|------------|-----------|
+|**Confidential responses** | Set to **Custom Confidential** by default to promote accurate feedback|
+|**Enable Export of Raw Survey Responses** | Enabling this functionality allows admins to export ungrouped, identifiable survey responses. Disabling this function permanently disallows access to or export of those responses, including the ability to transfer the data to a third party. [Learn more about raw survey access](/../../viva/glint/setup/employee-raw-data-export)|
+|**Company Message to Survey Participants** |Allows organizations to add more details tailored to their organization, aiming to ensure that individuals participating in surveys are well informed. Clients may wish to append information like specifying the organizational roles with access to identifiable responses or designating appropriate points of contact within the organization for inquiries  or concerns related to the survey. You can also add guidelines on the proper utilization of the survey and direct respondents towards their company-specific resources for more details. This text gets added at the beginning of the survey under the title "Message from [<Client_Name>]," directly following Glint's confidentiality statement.|
 
-1. **Enable Export of Raw Survey Responses** - Enabling this functionality allows admins to export ungrouped, identifiable survey responses. Disabling this function permanently disallows access to or export of those responses, including the ability to transfer the data to a third party. [Learn more about raw survey access](/../../viva/glint/setup/employee-raw-data-export).
-1. **Company Message to Survey Participants** - Allows organizations to add more details tailored to their organization, aiming to ensure that individuals participating in surveys are well informed. Clients may wish to append information like specifying the organizational roles with access to identifiable responses or designating appropriate points of contact within the organization for inquiries or concerns related to the survey. You can also add guidelines on the proper utilization of the survey and direct respondents towards their company-specific resources for more details. This text gets added at the beginning of the survey under the title "Message from [<Client_Name>]," directly following Glint's confidentiality statement.
-
-   >[!NOTE]
-   > - Translations for the Company Message must be done manually.
-   > - The character limit for the Company Message to Survey Participants is 1,024.
+>[!NOTE]
+> - Translations for the Company Message must be done manually.
+> - The character limit for the Company Message to Survey Participants is 1,024.
 
 >[!TIP]
-> - Custom messaging previously set up within General Settings but edited at the survey level, overrides the initial messaging - **survey level custom messaging takes precedence**.
+> - **Survey level custom messaging takes precedence.** Custom messaging set up in General Settings but edited at the survey level, overrides the initial messaging.
 > - **Employee Lifecycle surveys often target only a few individuals.** For this reason, reducing your confidentiality threshold helps protect their privacy.
 
 ### Next Step
