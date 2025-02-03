@@ -102,6 +102,8 @@ items:
             href: advanced/admin/import-org-data-first.md
           - name: Import organizational data using API (subsequent import)
             href: advanced/admin/import-org-data-subsequent.md
+          - name: Import organizational data with Azure blob import
+            href: advanced/admin/import-org-data-azure.md
           - name: Import business data with Azure 
             href: advanced/admin/import-business-data-azure.md
           - name: Import business data with a .csv file
