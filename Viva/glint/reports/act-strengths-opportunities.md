@@ -41,7 +41,7 @@ Within the strengths section, you may see **realized** or **unrealized** labels.
 
 - **Realized strength:** Something your team is good at and does on a regular basis.
 - **Unrealized strength:** Something that your team is good at but doesn't practice regularly. It should be considered as an opportunity.
-- **Unlabeled:** The gap between what is realized and unrealized, Used to call out items that deserve attention.
+- **Unlabeled:** The gap between what is realized and unrealized. It is used to call out items that deserve attention.
 
 ## Improve driver scores which matter most
 
