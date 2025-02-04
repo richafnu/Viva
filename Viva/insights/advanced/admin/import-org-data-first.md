@@ -1,5 +1,5 @@
 ---
-ms.date: 02/03/2025
+ms.date: 02/04/2025
 title: Import organizational data using API-based import (first import)
 description: Learn how to set up a connection and import your data to the Viva Insights advanced insights app
 author: zachminers
@@ -252,7 +252,7 @@ These two request headers are required for all the APIs mentioned below
 
 ##### Get connector/ping to check if connector is set for a tenant
  
-`[GET] https://api.orginsights.viva.office.com/v1.0/scopes/5989ece0-f90e-40bf-9c79-1a7beccdb861/ingress/connectors/HR`
+`[GET] https://api.orginsights.viva.office.com/v1.0/scopes/<tenantId>/ingress/connectors/HR`
 
 [ResponseBody]  
 
