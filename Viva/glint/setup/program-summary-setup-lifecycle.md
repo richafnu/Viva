@@ -72,7 +72,7 @@ In the first box, define the basics for your program.
 |**Auto-expand comments input**| With this functionality enabled, a comment box shows after each survey item posed to a survey taker. Disabled, the survey automatically moves to the next item.	Disabled by default.| Toggle to enable. This feature prompts more detailed and actionable insights by survey takers, increasing survey engagement.|
 |**Enable Viva Pulse Integration**| Enabling this feature sends Glint data for every closed program cycle and future cycles.|	See the Reporting page to specify which roles have access to this integration.|
 
-## Distribution List page
+### Distribution List page
 
 Before configuring an Employee Lifecycle program, create employee lists based on hire date for Onboarding surveys and termination date for Exit surveys.
 
