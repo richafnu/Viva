@@ -21,15 +21,11 @@ ms.date: 2/04/2025
 
 Lifecycle surveys are a comprehensive approach to understanding the employee experience from onboarding to exit. They allow organizations to get a holistic understanding of the employee experience from beginning to end. Employee Lifecycle surveys are considered "trigger events" because they use the hire or termination date to automatically send. The insights from these surveys help organizations address issues that may cause turnover and help improve the overall employee experience. 
 
-**Onboarding Surveys** are crucial for gauging new hires’ early experiences and ensuring they have the resources and support needed to succeed. They typically occur within the first few weeks of employment and Glint suggests they continue at intervals to track the new employee’s integration into your company. These surveys can cover aspects like the effectiveness of your orientation process, clarity of job expectations, and the supportiveness of the environment. 
+**Onboarding surveys** are crucial for gauging new hires’ early experiences and ensuring they have the resources and support needed to succeed. They typically occur within the first few weeks of employment and Glint suggests they continue at intervals to track the new employee’s integration into your company. These surveys can cover aspects like the effectiveness of your orientation process, clarity of job expectations, and the supportiveness of the environment. 
 
-**Exit Surveys** see to understand the reason that an employee voluntarily leaves your organization. They uncover the reasons behind their departure, which could range from career advancement opportunities elsewhere to dissatisfaction with the work environment. 
+**Exit surveys** survey help to understand the reason that an employee voluntarily leaves your organization. They uncover the reasons behind their departure, which could range from career advancement opportunities elsewhere to dissatisfaction with the work environment. 
 
-## Cross-program intelligence
 
-The impact of Employee Lifecycle surveys is apparent when you introduce the concept of **cross-program intelligence.**  Cross-program intelligence in Viva Glint allows for a comprehensive analysis of employee feedback across various programs such as Engagement, Onboarding, and Exit. This holistic approach enables organizations to identify patterns and correlations that might not be apparent when looking at individual programs in isolation. 
- 
-Interconnected analysis provides value by offering insights across the entire employee lifecycle. It helps HR and senior leaders understand the full impact of their programs and initiatives on employee satisfaction and retention. By examining feedback across multiple programs, organizations can pinpoint critical intervention points and make data-driven decisions to enhance the employee experience.  
 
 ## Recommended cadence and tips for Employee Lifecycle surveys
 
@@ -61,13 +57,13 @@ In the first box, define the basics for your program.
 
 |Field|Description|Tip|
 |----------|------------|-------|
-|**Program Name**|Used in survey and email communications, reporting, and is visible to survey respondents|30-day Onboarding, Exit Survey|
+|**Program Name**|Used in survey and email communications, reporting, and is visible to survey respondents|30-day Onboarding, Exit|
 |**Administrators**|This role can set up, manage, edit, and report on all surveys in the entire program|*Manage Programs* must be enabled for the name to appear in the search box.|
 |**Default Language**|Manage Programs must be enabled for the name to appear in the search box.|
 |**Additional Languages**|Manage Programs must be enabled for the name to appear in the search box.|Be sure survey items are available in all languages chosen. To remove languages, select the **X** next to the language name.|
 |**Suggested Actions Available**|Enables Users to create goals.|	Toggle to enable or disable|
 |**Response Window**|The number of days the employee has to complete the survey once it's Live|Glint suggests 14 days, but you can raise or lower this window.|
-|**Waiting Period Between Surveys**|The number of days before an employee is eligible to take the survey again after the previous survey closes.|Our systems constantly checks for changes in the trigger date so if a survey is already generated for this timeframe, it doesn't generate a new one. In many Employee Lifecycle programs, Glint recommends 30, 60, 90, or even 365 days (one full year).|
+|**Waiting Period Between Surveys** - **Note: this functionality begins on 2/15/2025* |The number of days before an employee is eligible to take the survey again after the previous survey closes.|Our systems constantly checks for changes in the trigger date so if a survey is already generated for this timeframe, it doesn't generate a new one. In many Employee Lifecycle programs, Glint recommends 30, 60, 90, or even 365 days (one full year).|
 |**Allow Survey Resubmission**|Allow survey takers to retake their surveys. All previous responses are deleted.|Toggle to enable or disable.|
 |**Auto-expand comments input**| With this functionality enabled, a comment box shows after each survey item posed to a survey taker. Disabled, the survey automatically moves to the next item.	Disabled by default.| Toggle to enable. This feature prompts more detailed and actionable insights by survey takers, increasing survey engagement.|
 |**Enable Viva Pulse Integration**| Enabling this feature sends Glint data for every closed program cycle and future cycles.|	See the Reporting page to specify which roles have access to this integration.|
