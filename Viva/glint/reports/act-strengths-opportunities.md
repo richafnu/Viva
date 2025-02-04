@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 01/31/2025
+ms.date: 02/04/2025
 ---
 
 # Use Viva Glint to act on Strengths and Opportunities
@@ -61,7 +61,7 @@ Without strong correlation, a driver’s score has low or zero impact.
 
 ## Filter your report 
 
-Glint survey reports use one filtering process across all reports. Data can be filtered for interpretation from this fixed panel which identifies survey programs, attributes. 
+Glint survey reports use one filtering process across all reports. Data can be filtered for interpretation from this fixed panel which identifies available attributes. 
 
 **Follow this process:** 
 1. Select the **filter symbol** at the top of the dashboard to expand the Filters panel.
