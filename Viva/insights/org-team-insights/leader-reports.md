@@ -1,5 +1,5 @@
 ---
-ms.date: 01/31/2025
+ms.date: 02/04/2025
 title: Use Leader reports to uncover key business outcomes
 description: Learn how to use Leader reports in Viva Insights to view metrics and suggested actions focused on specific business outcomes.
 author: zachminers
