@@ -48,10 +48,10 @@ Within the strengths section, you may see **realized** or **unrealized** labels.
 Share these videos with your managers.
 
 - **Lean into your strengths with Microsoft Viva Glint** (2:30)
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RW132G0]
+    > [!VIDEO https://www.microsoft.com/videoplayer/embed/RW132G0]
 
 - **How to think about your opportunities with Microsoft Viva Glint** (3:00)
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RW12ULW]
+    > [!VIDEO https://www.microsoft.com/videoplayer/embed/RW12ULW]
 
 Knowing which drivers have a high impact allows managers to focus on improving the scores of drivers that matter most. A driver's impact is classified as high when: 
 - Employees who rate a driver high, also rate engagement high 
@@ -63,10 +63,10 @@ Without strong correlation, a driver’s score has low or zero impact.
 
 Glint survey reports use one filtering process across all reports. Data can be filtered for interpretation from this fixed panel which identifies available attributes. 
 
-**Follow this process:** 
-1. Select the **filter symbol** at the top of the dashboard to expand the Filters panel.
-2. Select **+ Add Filters** to select attributes available in either the **People** section or the **Question Responses section**.
-3. Select **X** to hide the filter panel.
+**Follow this process**:
+1. Select the **filter symbol** at the top of the dashboard to expand the Filters panel.
+2. Select **+ Add Filters** to select attributes available in either the **People** section or the **Question Responses** section.
+3. Select **X** to hide the filter panel.
 
 ## What is Advanced Filtering? 
 
