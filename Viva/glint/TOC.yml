@@ -409,7 +409,7 @@ items:
             href: reports/report-analytics-filtering-favorability-trending.md
           - name: Color coding
             href: reports/color-coding.md
-          - name: Mean score
+          - name: Mean and favorability scoring
             href: reports/mean-score.md
           - name: Export reports as PDF
             href: reports/export-report-pdf.md
