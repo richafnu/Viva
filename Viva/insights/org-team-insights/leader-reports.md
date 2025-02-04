@@ -1,5 +1,5 @@
 ---
-ms.date: 01/31/2025
+ms.date: 02/04/2025
 title: Use Leader reports to uncover key business outcomes
 description: Learn how to use Leader reports in Viva Insights to view metrics and suggested actions focused on specific business outcomes.
 author: zachminers
@@ -29,7 +29,7 @@ Each report includes three sections:
 
 * Key metrics, which provide a deep dive into each topic, along with a “Why it matters” interpretation and recommended actions
 
-* Metric comparison, which addresses the different business outcomes. In the trend graph, you can view the key metric averages (the key metric in the first data table column), and learn how they change over time. You can view a four-month distribution of averages for:
+* Metric comparison, which addresses the different business outcomes. In the trend graph, you can view the key metric averages (the key metric in the first data table column), and learn how they change over time. You can view a six-month distribution of averages for:
 
     * Your entire company
 
