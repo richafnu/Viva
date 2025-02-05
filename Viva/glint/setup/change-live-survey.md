@@ -64,53 +64,51 @@ Sometimes changing a Live survey may be beneficial.
 
 Select **Save Changes** when editing is complete.
 
-## Edit your Live survey
+## Edit a Live survey
 
 The information is broken out across **Program Summary** setup pages.
 
-## Program Setup
+### Program Setup 
 
 |   Topic   |   Scenario   |   Considerations   |
 | --- | --- | --- |
 | **Various** | You want to edit the **Program Name**. | Edits are visible only to users who haven't started their survey. |
-| **Additional languages** | You want to add a new language as a survey option. | If custom translation text isn't provided, Glint's standard text translations are featured. |
+| **Additional languages** | You want to add a new language as a survey option. | If custom translation text isn't provided, Viva Glint's standard text translations are used. |
 
-## Distribution
-
-|   Topic   |   Scenario   |   Considerations   |
-| --- | --- | --- |
-| **Add users** | Employees not yet included in your *Employee Attribute File* need to participate in the survey. | From the admin dashboard, select the **People** section and then **Send Survey**. Each new user is sent the email invitation immediately. From then on, these new users receive reminders according to the same schedule as all other users. |
-| **Edit a Distribution List** | The list of employees included or excluded in the survey needs adjustment. | A Distribution List can be adjusted at any time but doesn't automatically send a survey invitation to new users. Those invites have to be sent manually. |
-
-## Schedule
+### Distribution
 
 |   Topic   |   Scenario   |   Considerations   |
 | --- | --- | --- |
-| **Survey launch date** | You need to postpone the launch date of the survey. | To avoid potential challenges, make this update a minimum of 24 hours before the survey is scheduled to go live. |
-| **Response window** | You want to decrease or increase the number of days within the survey window. | Adjust a minimum of 48 hours before the original survey end date.<br>Also, make sure your *Communications* emails align with any updated survey window planning.<br><p>> **Note** that live *Schedule* edits are applied at the cycle level. |
-| **Resend Survey Invites** | You want to resend the survey invite email to users who haven't responded yet (the email doesn't send to users who've completed the survey). | Viva Glint Admins can only make this change between the invite send date and the first reminder date. This option is unavailable after the first reminder sends.<br><br>**Note:** Invites begin sending immediately and follow the length of the delivery window set up in **Communications**. |
-| **Reschedule Survey Invites** | You want to reschedule the survey invite email due to issues with the first invite. | Viva Glint Admins can only make this change between the invite send date and the first reminder date. This option is unavailable after the first reminder sends. |
+| **Add users** | Employees not included in your *Employee Attribute File* need to participate in the survey. | From the admin dashboard, select the **People** section and then **Send Survey**. Each new user is sent the email invitation immediately. From then on, these new users receive reminders according to the same schedule as all other users. |
+| **Edit a Distribution List** | The Distribution List (DL) of employees included or excluded in the survey needs adjustment. | A DL can be adjusted at any time but doesn't automatically send a survey invitation to new users. Those invites must be sent manually. |
 
-To manage the schedule for a live survey:
+### Schedule
 
-1. Go to **Configuration** and choose **Survey Programs** in the **Surveys** section.
-2. Select the live survey from the **Survey Programs** list.
-3. In the list of **Upcoming and Live** surveys, go the live survey and select the ellipsis on the far right.
-4. In the dropdown menu, select **Manage Schedule & Invites** and choose from **Schedule**, **Resend Survey Invites**, or **Reschedule Survey Invites** options.
+|   Topic   |   Scenario   |   Considerations   |
+| --- | --- | --- |
+| **Survey launch date** | You need to postpone the launch date of the survey. | To avoid potential challenges, make this update a minimum of 24 hours before the survey is scheduled to go Live. |
+| **Response window** | You want to decrease or increase the number of days for the survey window. | Adjust a minimum of 48 hours before the original survey end date.<br>Be sure your *Communications* email send dates align with the updated survey window.<br><p>**Note** that Live *Schedule* edits are applied at the cycle level. |
+| **Resend Survey Invites** | You want to resend the survey invite email to users who haven't responded yet |The email doesn't send to users who've completed the survey.  Viva Glint admins can only make this change between the invite send date and the first reminder date. This functionality isn't available after the first reminder sends.|
+| **Reschedule Survey Invites** | You want to reschedule the survey invite email due to issues with the first invite. | Viva Glint admins can only make this change between the invite send date and the first reminder date. This functionality isn't available after the first reminder sends. |
+
+#### Manage the schedule for a live survey
+
+1. Navigate to **Configuration** and choose **Survey Programs** in the **Surveys** section.
+2. Select the Live survey to edit from the **Survey Programs** list.
+3. In the list of **Upcoming and Live** surveys, go the Live survey and select the ellipses.
+4. In the dropdown menu, select **Manage Schedule & Invites** and choose from the **Schedule**, **Resend Survey Invites**, or **Reschedule Survey Invites** options.
 
    :::image type="content" source="../../media/glint/setup/live-manage-schedule.png" alt-text="Screenshot of the Manage Schedule & Invites feature for a live Viva Glint survey.":::
 
-## Items (Questions)
+### Items (survey questions or statements)
 
 |   Topic   |   Scenario   |   Considerations   |
 | --- | --- | --- |
-| **The text at the beginning (top) and end (bottom) of the survey** | The **Intro** or **Thank You** text needs adjustments or corrections. | Newly edited text is featured immediately on surveys that haven't been started. |
-| **Question text** | The phrasing of an item needs to be edited. |Survey item rephrasing propagates to future programs only. Live programs aren't affected by edits.|
-| **Add or remove a survey item** | You want to add a new item or remove an item from a live survey. | An item *can't* be added or removed from a Live survey except in an Always-On or an Employee Lifecycle program. |
+| **The text at the beginning and end of the survey** | The **Intro** or **Thank You** text needs adjustments or corrections. | Newly edited text is featured immediately on surveys that haven't started. |
+| **Question text** | The phrasing of an item needs to be edited. |Survey item rephrasing applies to future programs only. Live programs aren't affected by edits.|
+| **Add or remove a survey item** | You want to add a new item or remove an item from a Live survey. | An item *can't* be added or removed from a Live survey except in an Always-On or an Employee Lifecycle program. |
 | **Item order** | The questions need to be reordered. | Newly edited item order is featured immediately on surveys that haven't started. |
-
-> [!NOTE]
-> Changes to survey *sections* and survey *breaks* can't occur during a live cycle. They apply to upcoming cycles only.
+|**Survey sections and survey breaks**| You want to change the formatting of the survey.| Survey section and break additions can't occur during a Live cycle. Section and break changes apply to upcoming cycles only.|
 
 ### Admin process for editing a question during a live survey
 
