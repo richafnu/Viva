@@ -63,7 +63,7 @@ Learn how a user can filter by another survey program's question responses using
 
 1. To filter Microsoft 365 Copilot Impact Survey results by Engagement survey responses, select **+Add Filters** and choose **Question Responses**.
 
-   :::image type="content" source="../../media/glint/reports/cross-program-intelligence-question-filter.png" alt-text="Screenshot of cross-program filtering by question response with the Engagement Dec 2022 survey..":::
+   :::image type="content" source="../../media/glint/reports/cross-program-intelligence-question-filter.png" alt-text="Screenshot of cross-program filtering by question response with the Engagement Dec 2022 survey.":::
 
 1. In the **Question Responses** filter, choose **eSat**, select **Favorable**, and select **Done**.
   
@@ -72,7 +72,7 @@ Learn how a user can filter by another survey program's question responses using
 1. After applying filters, select **Close Filters x** to collapse the filter pane.
 1. Go to the Questions section in the **Executive Summary Report** and note the Copilot Usage breakdown for Engagement survey takers who responded favorably. High percentages of engaged users report that they use Microsoft 365 Copilot "Daily" (42%) or "A few times per week" (46%).
    
-    :::image type="content" source="../../media/glint/reports/copilot-usage-fav.png" alt-text="Screenshot of Copilot usage response breakdown filtered by Egagement Dec 2022 favorable eSat responses.":::
+    :::image type="content" source="../../media/glint/reports/copilot-usage-fav.png" alt-text="Screenshot of Copilot usage response breakdown filtered by Engagement Dec 2022 favorable eSat responses.":::
 
 1. To view Copilot usage for respondents that scored negatively or neutrally for engagement, in the **Question Responses** filter, choose **eSat**, select **Favorable** and **Neutral**, and select **Done**.
 
@@ -80,6 +80,6 @@ Learn how a user can filter by another survey program's question responses using
   
 1. Go to the Questions section in the **Executive Summary Report** and note the Copilot Usage breakdown for Engagement survey takers who responded negatively or neutrally. High percentages of engaged users report that they use Microsoft 365 Copilot "Less than monthly" (45%) or "Never" (55%).
    
-    :::image type="content" source="../../media/glint/reports/copilot-usage-unfav.png" alt-text="Screenshot of Copilot usage response breakdown filtered by Egagement Dec 2022 negative and neutral eSat responses.":::   
+    :::image type="content" source="../../media/glint/reports/copilot-usage-unfav.png" alt-text="Screenshot of Copilot usage response breakdown filtered by Engagement Dec 2022 negative and neutral eSat responses.":::   
 
 
