@@ -25,7 +25,7 @@ Microsoft Viva Glint cross-program intelligence surfaces patterns across separat
 - question responses
 - comment topics and sentiment
 
-> ![NOTE]
+> [!NOTE]
 > To use cross-program intelligence, users need to be in a role with **Cross-Program Advanced Filtering** enabled in the role's **Permissions and Access** section.
 
 ## Confidentiality
@@ -42,7 +42,7 @@ Your organization can use cross-program intelligence to explore topics like:
 - Which manager qualities might explain employee exit reasons.
 - Whether employees rate engagement higher depending on their Microsoft 365 Copilot usage.
 
-> ![TIP]
+> [!TIP]
 > - **Survey results and filtering**: Ensure that you select the appropriate surveys to view results for and surveys to filter by. For example, to view exiting employees' reasons for leaving when their engagement scores are high, go to reports for an Exit survey and use Engagement question responses as filters.
 > - **Timeframes**: Select timeframes for surveys that are close enough to give good results. For example, if you select Exit survey results for July 2024, make sure that the survey that you use as a filter is for the same timeframe.
 
