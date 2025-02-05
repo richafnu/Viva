@@ -63,7 +63,7 @@ Learn how a user can filter by another survey program's question responses using
 
 1. To filter Microsoft 365 Copilot Impact Survey results by Engagement survey responses, select **+Add Filters** and choose **Question Responses**.
 
-
+   :::image type="content" source="../../media/glint/reports/cross-program-intelligence-question-filter" alt-text="Screenshot of cross-program filtering by question response with the Engagement Dec 2022 survey..":::
 
 1. In the **Question Responses** filter, choose **eSat**, select **Favorable**, and select **Done**.
   
