@@ -108,28 +108,26 @@ The information is broken out across **Program Summary** setup pages.
 | **Add or remove a survey item** | You want to add a new item or remove an item from a Live survey. | An item *can't* be added or removed from a Live survey except in an Always-On or an Employee Lifecycle program. |
 | **Item order** | The questions need to be reordered. | Newly edited item order is featured immediately on surveys that haven't started. |
 |**Survey sections and survey breaks**| You want to change the formatting of the survey.| Survey section and break additions can't occur during a Live cycle. Section and break changes apply to upcoming cycles only.|
-| **Question text** | The phrasing or status of an item needs to be edited. |**You need to change text for an item associated with a benchmark**. <ul><li> Once confirmed and saved, the edited item is pushed to all Live and future surveys that use it.</li><li> All programs with the changed item are automatically set to allow survey resubmission.</li><li> If your organization uses Entra ID or personalized links for survey access, you can notify particpants who started or completed the survey via email. Select the checkbox.</li><li>If your organization uses attribute-based survey access, manual notification of the change is required.</li><li> Existing external benchmark assoociations remain the same in the Question Library and in your survey reports. </ul>**You need to change text for an item not associated with a benchmark.** <ul><li>Once confirmed and saved, the edited item is pushed to all live and future surveys that use it.</li><li> All programs with the changed item are automatically set to allow survey resubmission.</li><li> If your organization uses Entra ID or personalized links for survey access, you can notify particpants who started or completed the survey via email. Select the checkbox.</li><li>If your organization uses attribute-based survey access, manual notification of the change is required.</ul> **You need to change benchmark mapping but aren't changing item text**.  <ul><li> External benchmarks are updated in the Question Library. To accurately update reports, re-approve the survey program that includes the changed item.</ul>**You need to change benchmark mapping and change item text.**  <ul><li> Once confirmed and saved, the edited item is pushed to all Live and future surveys that use it.</li><li> All programs with the changed item are automatically set to allow survey resubmission.</li><li>If your organization uses Entra ID or personalized links for survey access, you can notify particpants who started or completed the survey via email. Select the checkbox.</li><li>If your organization uses attribute-based survey access, manual notification of the change is required</li><li> Existing external benchmark associations are updated in the Question Library. </li><li> To accurately update reports, re-approve the survey program that includes the changed item.</ul>|
+| **Question text** | The phrasing or benchmark status of an item needs to be edited. |**You need to change text for an item associated with a benchmark**. <ul><li> Once confirmed and saved, the edited item is pushed to all Live and future surveys that use it.</li><li> All programs with the changed item are automatically set to allow survey resubmission.</li><li> If your organization uses Entra ID or personalized links for survey access, you can notify particpants who started or completed the survey via email. Select the checkbox.</li><li>If your organization uses attribute-based survey access, manual notification of the change is required.</li><li> Existing external benchmark assoociations remain the same in the Question Library and in your survey reports. </ul>**You need to change text for an item not associated with a benchmark.** <ul><li>Once confirmed and saved, the edited item is pushed to all live and future surveys that use it.</li><li> All programs with the changed item are automatically set to allow survey resubmission.</li><li> If your organization uses Entra ID or personalized links for survey access, you can notify particpants who started or completed the survey via email. Select the checkbox.</li><li>If your organization uses attribute-based survey access, manual notification of the change is required.</ul> **You need to change benchmark mapping but aren't changing item text**.  <ul><li> External benchmarks are updated in the Question Library. To accurately update reports, re-approve the survey program that includes the changed item.</ul>**You need to change benchmark mapping and change item text.**  <ul><li> Once confirmed and saved, the edited item is pushed to all Live and future surveys that use it.</li><li> All programs with the changed item are automatically set to allow survey resubmission.</li><li>If your organization uses Entra ID or personalized links for survey access, you can notify particpants who started or completed the survey via email. Select the checkbox.</li><li>If your organization uses attribute-based survey access, manual notification of the change is required</li><li> Existing external benchmark associations are updated in the Question Library. </li><li> To accurately update reports, re-approve the survey program that includes the changed item.</ul>|
 
-### Admin process for editing a question during a live survey
+#### Admin process for editing an item during a Live survey
 
-There are three entry points for editing a question:
-
+There are three entry points for editing an item:
 -	From the **Question Library** on your admin dashboard. This doesn't require survey to go into unapproved state.
 -	From the **Survey Programs, Live** section
 -	From the **Survey Programs, Upcoming** section
 
-**Allow Survey Resubmission** in the **Program Setup** section of **Program Summary** must be toggled to **Yes.** <br>
-If not toggled to **Yes**, a pop-up informs you that the change to **Yes** is made automatically when your edits are saved.
+**Allow Survey Resubmission** in the **Program Setup** section of **Program Summary** must be toggled to **Yes.** If not, an alert informs you that the change to **Yes** is made automatically when your edits are saved.
 
 Hover over the **horizontal ellipsis** next to any survey item to select **Edit Question**.
 
-The Edit Question slider window includes these setup tabs:
-- Question Configuration
-- Associated Programs - again, the **Before you edit this question** dialog box informs whether this question is currently used in one or more Live survey programs.
+The **Edit Question** slider window includes these setup tabs:
+- **Question Configuration**
+- **Associated Programs** - The **Before you edit this question** dialog box informs whether this question is currently used in one or more Live survey programs.
 
 :::image type="content" source="../../media/glint/setup/program-summary-questions-ellipses.png" alt-text="Screenshot of ellipses dropdown menu next to each survey item." lightbox="../../media/glint/setup/program-summary-questions-ellipses.png":::
 
-## Inform survey takers of a Live edit
+#### Inform survey takers of a Live edit
 
 After reviewing your edits to an item, select **Save**. The **Confirm your changes** dialog box displays.
 
@@ -140,43 +138,39 @@ After reviewing your edits to an item, select **Save**. The **Confirm your chang
    - If your organization uses an attribute-based survey access, you must notify participants about these changes and give them the option to retake the survey. **This is mandatory.**
 
    > [!IMPORTANT]
-   > - All survey participants must be made aware of the opportunity to retake a survey if a question is changed during a Live survey. They must also understand that if they retake their survey, all original answers are replaced.
+   > - All survey participants must be notified of the opportunity to retake a survey if a question is changed during a Live survey. They must also understand that if they retake their survey, all original answers are replaced.
    > - Survey takers can use the link from their original survey invitation email to retake their survey. [Use this guidance to resend survey invites](/viva/glint/communicate/support-survey-participants#resend-survey-invites)
-   > - For participants who haven't started the survey, the survey automatically updates with the new version of all items. No notification is required.
+   > - No notification is needed for participants who haven't started the survey, The survey automatically updates with the new version of all items. 
+2. Select **Confirm** in the dialog box or **Back** if you need to make more edits. A one-time notification banner confirms that your item is updated.
 
-2. Select **Confirm** in the dialog box or **Back** if you need to make more edits.
+#### Associated programs
 
-3. A one-time notification banner confirms that your item is updated.
-
-### Associated programs
-
-A list of program names previously used or in use that include this survey item can be viewed here. You may see an alert cautioning you that this question is being used in one or more live surveys. 
-
+A list of program names previously used or currently in use that include this survey item are shown. You see an alert cautioning you that this item is being used in one or more Live surveys. 
 - If you don't want to make this change, choose **Cancel**.
-- You can edit language text, instruction text, and comment placeholder text only. Other fields are disabled and can't be edited until the survey is no longer live.
+- You can edit language text, instruction text, and comment placeholder text only. Other fields are disabled and can't be edited until the survey is no longer Live.
 - Make your changes and select **Save**.
 
 :::image type="content" source="../../media/glint/setup/change-live-q-tooltips.png" alt-text="Screenshot of warning and tips about editing a question during a live survey." lightbox="../../media/glint/setup/change-live-q-tooltips.png":::
 
-## Reporting
+### Reporting
 
 |   Topic   |   Scenario   |   Considerations   |
 | --- | --- | --- |
 | **All items in the Reporting section** | Any section in the Reporting section needs adjustment. | Save all changes, then return to the **Program Summary** and adjust the Approved toggle to **Yes**. |
-| **Benchmark update** | Your external comparison benchmark was updated. | If changes are made to the benchmark in a live program, be certain users with live access are aware so they aren't confused by different results from a past viewing. |
-| **Aggregate Indices** | You need to edit or add an aggregate index. | If changes are made to indices in a live program, be certain users with live access are aware so they aren't confused by results that are different their last viewing. |
-| **Driver Impact Outcomes** | You need to edit or add Driver Impact Outcomes. | If changes are made to Driver Impact Outcomes, be certain users with live access are aware so they aren't confused by different outcome options available in the Driver Impact report. |
+| **Benchmark update** | Your external comparison benchmark was updated. | If changes are made to the benchmark in a Live program, be certain users with Live access are aware so they aren't confused by different results from a past viewing. **Read the section about benchmark status change in the **Items** guidance on this page. |
+| **Aggregate Indices** | You need to edit or add an aggregate index. | If changes are made to indices in a Live program, be certain users with live access are aware so they aren't confused by results that are different from their last viewing. |
+| **Driver Impact Outcomes** | You need to edit or add Driver Impact outcomes. | If changes are made to Driver Impact outcomes, be certain users with Live access are aware and aren't confused by different outcome options shown in the Driver Impact report. |
 
-## Communications
+### Communications
 
 Live Communications edits only apply when made at the cycle level.
 
 |   Topic   |   Scenario   |   Considerations   |
 | --- | --- | --- |
-| **Reminders** | You need to add or delete email reminders, or otherwise edit existing text. | Future reminders can be added, edited, or deleted if adjusted at least the day before they're scheduled to be sent. Reminders can't be added, edited, or deleted, on the day that they're scheduled. |
+| **Reminders** | You need to add or delete email reminders, or otherwise edit existing text. | Future reminders can be added, edited, or deleted if adjusted at least 24 hours before they're scheduled to be sent. Reminders can't be added, edited, or deleted, on the day that they're scheduled to send. |
 | **Results Notification** | You want to turn this feature on or off, edit existing text, or adjust the number of days until the message is sent. | To avoid potential challenges, make changes at least 48 hours before the closing of the survey window. |
 
-## Other Live changes 
+### Other Live changes 
 
 |   Topic   |   Scenario   |   Considerations   |
 | --- | --- | --- |
