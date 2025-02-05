@@ -6,7 +6,7 @@ author: JudyWeiner
 manager: MelissaBarry
 audience: admin
 f1.keywords: NOCSH
-keywords: onboarding, exit surveys, cross-program intelligence
+keywords: onboarding, exit surveys
 ms.collection: 
  - m365initiative-viva
  - selfserve
@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 2/04/2025
+ms.date: 2/05/2025
 ---
 
 # Set up a Viva Glint Employee Lifecycle program
