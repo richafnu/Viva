@@ -134,22 +134,6 @@ The **Edit Question** slider window includes these setup tabs:
 - **Question Configuration**
 - **Associated Programs** - The **Before you edit this question** dialog box informs whether this question is currently used in one or more Live survey programs.
 
-#### Inform survey takers of a Live survey edit
-
-After reviewing your edits to an item, select **Save**. The **Confirm your changes** dialog box displays.
-
-   :::image type="content" source="../../media/glint/setup/confirm-changes-2.png" alt-text="Screenshot of the confirmation dialog box for editing Live survey questions." lightbox="../../media/glint/setup/confirm-changes-2.png":::
-
-1. In the **Confirm your changes** dialog box:
-   - If your organization uses Entra ID or personalized links for survey access, you can notify participants who have started or already completed the survey by checking the **Send an email notification about this change to participants who have already started or completed this survey** box.
-   - If your organization uses an attribute-based survey access, you must notify participants about these changes and give them the option to retake the survey. **This is mandatory.**
-
-   > [!IMPORTANT]
-   > - All survey participants must be notified of the opportunity to retake a survey if a question is changed during a Live survey. They must also understand that if they retake their survey, all original answers are replaced.
-   > - Survey takers can use the link from their original survey invitation email to retake their survey. [Use this guidance to resend survey invites](/viva/glint/communicate/support-survey-participants#resend-survey-invites)
-   > - No notification is needed for participants who haven't started the survey, The survey automatically updates with the new version of all items. 
-2. Select **Confirm** in the dialog box or **Back** if you need to make more edits. A one-time notification banner confirms that your item is updated.
-
 #### Associated programs
 
 A list of program names previously used or currently in use that include this survey item are shown. You see an alert cautioning you that this item is being used in one or more Live surveys. 
