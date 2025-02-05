@@ -112,7 +112,7 @@ The information is broken out across **Program Summary** setup pages.
 
 :::image type="content" source="../../media/glint/setup/questions-confirm-before-changing-no-benchmark.png" alt-text="Screenshot of the Confirm before saving dialog box for item change without benchmark change." lightbox="../../media/glint/setup/questions-confirm-before-changing-no-benchmark.png":::
 
-:::image type="content" source="../../media/glint/setup/questions-confirm-text-no-association-2.png" alt-text="Screenshot of Confirm before saving dialog box for text edit for item with no associated benchmark." lightbox="../../media/glint/setup/questions-confirm-text-no-association-2":::
+:::image type="content" source="../../media/glint/setup/questions-confirm-text-no-association-2.png" alt-text="Screenshot of Confirm before saving dialog box for text edit for item with no associated benchmark." lightbox="../../media/glint/setup/questions-confirm-text-no-association-2.png":::
 
 :::image type="content" source="../../media/glint/setup/questions-confirm-benchmark-change.png" alt-text="Screenshot of Confirm before saving dialog box for a benchmark mapping change only." lightbox="../../media/glint/setup/questions-confirm-benchmark-change.png":::
 
