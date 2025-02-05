@@ -98,7 +98,7 @@ Editing a Distribution List is a global change and affects any program using tha
 From the **Distribution Lists** page, the column entitled **Membership Type** defines if that list is populated manually, by attribute rules, or both.
 
 > [!Note]
-> If a distribution list is populated by an import, it lists "Manual" as its the membership type.
+> If a distribution list is populated by an import, it lists "Manual" as its membership type.
 
 ## Use the dynamic Distribution Lists functionality
 
