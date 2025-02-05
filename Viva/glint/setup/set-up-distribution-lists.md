@@ -24,7 +24,7 @@ Distribution Lists define which employees within your organization should receiv
 Distribution Lists are essential when a survey program isn't intended to be sent to all active employees.  
 
 >[!IMPORTANT]
->In order to set up Distribution Lists, you must have completed [attribute setup](/../../viva/glint/setup/send-employee-attributes) and your [data upload  to the Viva Glint system.](/../../viva/glint/setup/upload-employee-attributes)
+>In order to set up Distribution Lists, you must complete [attribute setup](/../../viva/glint/setup/send-employee-attributes) and your [data upload  to the Viva Glint system.](/../../viva/glint/setup/upload-employee-attributes)
 
 ## Create your Distribution Lists 
 
@@ -48,7 +48,7 @@ Distribution Lists are configured within **Distribution Lists** in the **Employe
        
    - **Add/Edit Employees** - The **Choose a way to add employees** panel opens. Add members to a Distribution List:
 
-     - **Option 1: Attribute Rules**: Use rules like *location* or *manager level* to populate a Distribution List. Follow the instructions in the panel that opens. This section is populated from the Employee Data File uploaded to Viva Glint. Choose either:
+     - **Option 1: Attribute Rules**: To populate a Distribution List, Use rules like *location* or *manager level*. Follow the instructions in the panel that opens. This section is populated from the Employee Data File uploaded to Viva Glint. Choose either:
     
        - **I want to include all active employees only.**
        - **I want to filter all active employees by these populations:**
