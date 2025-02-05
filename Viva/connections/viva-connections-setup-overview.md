@@ -1,5 +1,5 @@
 ---
-ms.date: 01/28/2024
+ms.date: 01/28/2025
 title: "Overview of how to plan, build, and launch Viva Connections"
 ms.reviewer: 
 ms.author: evanatkin
