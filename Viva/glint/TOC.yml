@@ -407,6 +407,8 @@ items:
             href: reports/aggregate-trending.md
           - name: Reporting features
             href: reports/report-analytics-filtering-favorability-trending.md
+          - name: Cross-program intelligence
+            href: reports/cross-program-intelligence.md
           - name: Color coding
             href: reports/color-coding.md
           - name: Mean and favorability scoring
