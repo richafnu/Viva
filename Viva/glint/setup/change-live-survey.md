@@ -46,8 +46,8 @@ Sometimes changing a Live survey may be beneficial.
 | --- | --- | --- |
 | The text at the beginning (top) and end (bottom) of the survey | The *Intro* or *Thank You* text needs adjustments or corrections. | Newly edited text is featured immediately and *only* on surveys that haven't started. |
 | Item text | The phrasing of an item needs to be edited. | Decide whether to change the item while the survey is live or if it can wait until the next cycle. Instructions for editing items in a Live survey are below.|
-| Adding or removing an item | You want to add a new item or remove an item from a Live survey. | An item *can't* be added or removed from a Live survey except in an *Always-On* or *Employee Lifecycle program. |
-| Item order | The survey items need to be reordered. | The newly edited order is featured immediately but *only* on surveys that haven't yet been started. |
+| Adding or removing an item | You want to add a new item or remove an item from a Live survey. | An item *can't* be added or removed from a Live survey except in an Always-On or Employee Lifecycle program. |
+| Item order | The survey items need to be reordered. | The newly edited order is featured immediately but *only* on surveys that haven't started. |
 
 ## Fields which can be edited 
 
@@ -57,11 +57,9 @@ Sometimes changing a Live survey may be beneficial.
 |**Question Type** | Rating, multiple choice, open-ended|
 | **Reporting Label** | For easy identification of your item|
 |**Question Text** | Consider if it's as it should be. Wording shows verbatim.<ul><li> The **+ button** allows you to edit the question.  </li><li> Try not to edit our standard survey items. Item edits may impact language translations and the item's intention to accurately tie to its designated benchmark.|
-|**Instruction Text** |Use this space to provide survey takers with helpful information about how to answer this item.</li></ul>
+|**Instruction Text** |Use this space to provide survey takers with helpful information about how to answer this item.</li></ul>|
 |**Comment Placeholder Text** | **Leave your comments here** appears by default. This text can be customized |
-|**Rating Scale** | 5 or 7 points <ul><li>   Decide whether to include the rating **Label for all options** - The **Low Value** (1-strongly disagree) and **High Value** (5- strongly agree) appear by default. To define values 2, 3, and 4, toggle to **YES** and then assign their meaning. For example: 2 = disagree.
- </li><li> - Decide whether to **Allow Comments** - Toggle to **Yes** or **No.**
- </li><li> - Decide whether this item can be an **Optional Question** and then toggle to **Yes** or **No.**
+|**Rating Scale** |For a 5 or 7 point rating scale: <ul><li>   Decide whether to include the rating **Label for all options** - The **Low Value** (1-strongly disagree) and **High Value** (5- strongly agree) appear by default. To define values 2, 3, and 4, toggle to **YES** and then assign their meaning. For example: 2 = disagree. </li><li> Decide whether to **Allow Comments** and then toggle to **Yes** or **No**. </li><li> Decide whether this item can be an **Optional Question** and then toggle to **Yes** or **No**.</ul></li>|
 |**Suggested Action Template** |To help managers act on feedback, use the dropdown menu to attach this item to a previously configured Suggested Action Template.|
 
 Select **Save Changes** when editing is complete.
