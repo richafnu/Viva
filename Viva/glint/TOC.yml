@@ -81,6 +81,8 @@ items:
             href: setup/access-glint.md
           - name: Survey program types and templates
             href: start/program-types-templates.md
+          - name: People Science surveys and items
+            href: setup/template-research.md
           - name: Monthly deployment dates
             href: setup/monthly-release-dates.md
           - name: Communications for internal readiness
@@ -271,37 +273,33 @@ items:
          items:         
             - name: Team Conversations resource guidance
               href: reports/team-conversations-resource-guidance.md      
-  - name: Validated templates
+  - name: Templates for recurring engagement surveys
     items:
-       - name: People Science template design
-         href: setup/template-research.md
-       - name: Microsoft Copilot Impact survey
+       - name: Microsoft Copilot Impact Survey
          href: setup/copilot-impact-template.md
-       - name: Quarterly Engagement survey 
+       - name: Quarterly Engagement  
          href: setup/quarterly-engagement-template.md
-       - name: Diversity and Inclusion survey 
+       - name: Diversity and Inclusion  
          href: setup/diversity-inclusion.md
-       - name: Culture survey
+       - name: Culture 
          href: setup/culture-template.md
-       - name: Team Effectiveness survey
+       - name: Team Effectiveness 
          href: setup/team-effectiveness-survey.md
-       - name: Manager Effectiveness survey
+       - name: Manager Effectiveness 
          href: setup/manager-effectiveness-survey.md
-       - name: Patient Safety survey
+       - name: Patient Safety 
          href: setup/patient-safety-survey.md
-       - name: Employee Lifecycle Onboarding survey 
+       - name: Employee Lifecycle - Onboarding  
          href: setup/create-onboarding-exit-surveys.md
-       - name: Employee Lifecycle Exit survey
+       - name: Employee Lifecycle - Exit
          href: setup/exit.survey.md
-  - name: Non-templated surveys
-    items:
-       - name: Set up a Microsoft Viva Glint Magnet survey
+       - name: Microsoft Viva Glint Magnet Survey
          href: setup/magnet-rn-excellence.md
-       - name: Set up a Distress Survey
+       - name: Distress Survey
          href: setup/distress-survey.md
-       - name: Set up a Viva Glint productivity survey
+       - name: Productivity survey
          href: setup/create-productivity-survey.md
-  - name: Employee Lifecycle surveys
+  - name: Employee Lifecycle survey setup
     items:
        - name: Set up an Employee Lifecycle survey
          href: setup/program-summary-setup-lifecycle.md
