@@ -21,7 +21,7 @@ ms.date: 02/06/2025
 
 Many healthcare customers use the Microsoft Viva Glint Patient Safety Survey to assess and improve their patient safety culture. This Viva Glint survey template is approved as a reliable measure of patient culture by **The Leapfrog Group**, among the most succinct Leapfrog-approved safety surveys currently available. Seamlessly integrated with Viva Glint, Patient Safety survey insights are designed to provide healthcare leaders with pertinent information in real-time. 
 
-**The Leapfrog Group (Leapfrog),** established in 2000, serves as America's voice for patient safety, quality, and transparency.  Leapfrog collects and reports one-of-a-kind data to empower patients and purchasers to choose the right hospital or surgery center. 
+**The Leapfrog Group (Leapfrog)**, established in 2000, serves as America's voice for patient safety, quality, and transparency. Leapfrog collects and reports one-of-a-kind data to empower patients and purchasers to choose the right hospital or surgery center. 
 
 ## Submitting the Patient Safety Survey for Leapfrog certification
 
@@ -84,7 +84,7 @@ Access the template from the **Configuration symbol** on your Viva Glint admin d
 :::image type="content" source="../../media/glint/setup/patient-survey-template.png" alt-text="Screenshot of the Patient Safety survey template, which is predefined but easy to customize." lightbox="../../media/glint/setup/patient-survey-template.png":::
 
 > [!div class="nextstepaction"]
-> [Follow the guidance in Program Summary for survey setup](/../../viva/glint/setup/program-summary-overview))
+> [Follow the guidance in Program Summary for survey setup](/../../viva/glint/setup/program-summary-overview)
 
 ## Read the Viva People Science blog on patient safety culture
 
