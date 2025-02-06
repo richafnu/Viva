@@ -236,8 +236,6 @@ items:
         href: setup/customize-program.md
       - name: Understand programs and cycles
         href: setup/program-cycle-edits.md    
-      - name: Survey Coach and Tooltips
-        href: setup/survey-coach.md
   - name: Program Summary setup for recurring surveys
     href: setup/program-summary-overview.md
     items:   
