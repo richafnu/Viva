@@ -140,7 +140,7 @@ items:
                     href: setup/set-up-sftp.md
                   - name: People page import
                     href: setup/upload-employee-attributes.md
-  - name: Platform features
+  - name: Platform functionality
     items: 
       - name: General Settings 
         href: setup/manage-general-settings.md
@@ -241,38 +241,38 @@ items:
       - name: Survey Coach and Tooltips
         href: setup/survey-coach.md
   - name: Program Summary setup for recurring surveys
-            href: setup/program-summary-overview.md
-            items:   
-              - name: Program setup 
-                href: setup/program-set-up.md
-              - name: Distribution setup 
-                href: setup/distribution-program-summary.md
-              - name: Schedule setup
-                href: setup/schedule-setup.md
-              - name: Questions setup 
-                href: setup/questions-setup.md
-                items:
-                  - name: Add items and sections
-                    href: setup/add-new-questions.md
-                  - name: Target survey items
-                    href: setup/targeted-survey-items.md
-                  - name: Add item Display Logic
-                    href: setup/viva-glint-display-logic.md
-              - name: Reporting setup
-                href: setup/reporting-setup.md
+    href: setup/program-summary-overview.md
+    items:   
+       - name: Program setup 
+         href: setup/program-set-up.md
+       - name: Distribution setup 
+         href: setup/distribution-program-summary.md
+       - name: Schedule setup
+         href: setup/schedule-setup.md
+       - name: Questions setup 
+         href: setup/questions-setup.md
+         items:
+             - name: Add items and sections
+               href: setup/add-new-questions.md
+             - name: Target survey items
+               href: setup/targeted-survey-items.md
+             - name: Add item Display Logic
+               href: setup/viva-glint-display-logic.md
+             - name: Reporting setup
+               href: setup/reporting-setup.md
                 items:
                   - name: Grant Live versus Phased access
                     href: setup/live-versus-phased-access.md
-              - name: Communications setup 
-                href: setup/program-summary-communications.md
-                items:
+            - name: Communications setup 
+              href: setup/program-summary-communications.md
+              items:
                   - name: Customize survey email content
                     href: setup/email-content-customization.md
                   - name: Multi-language emails
                     href: setup/multi-lang-emails.md                        
-              - name: Coaching setup 
-                href: setup/program-summary-coaching.md
-                items:         
+            - name: Coaching setup 
+              href: setup/program-summary-coaching.md
+              items:         
                   - name: Team Conversations resource guidance
                     href: reports/team-conversations-resource-guidance.md      
   - name: Use validated templates
@@ -281,7 +281,7 @@ items:
          href: setup/template-research.md
        - name: Microsoft Copilot Impact survey
          href: setup/copilot-impact-template.md
-       - name: Quarterly Engagement Survey 
+       - name: Quarterly Engagement survey 
          href: setup/quarterly-engagement-template.md
        - name: Diversity and Inclusion survey 
          href: setup/diversity-inclusion.md
@@ -291,8 +291,12 @@ items:
          href: setup/team-effectiveness-survey.md
        - name: Manager Effectiveness survey
          href: setup/manager-effectiveness-survey.md
-       - name: Patient safety survey
+       - name: Patient Safety survey
          href: setup/patient-safety-survey.md
+       - name: Employee Lifecycle Onboarding survey 
+         href: setup/create-onboarding-exit-surveys.md
+       - name: Employee Lifecycle Exit survey
+         href: setup/exit.survey.md
   - name: Set up non-templated surveys
     items:
        - name: Set up a Microsoft Viva Glint Magnet survey
@@ -305,10 +309,6 @@ items:
     items:
        - name: Set up an Employee Lifecycle survey
          href: setup/program-summary-setup-lifecycle.md
-       - name: Create an onboarding survey 
-         href: setup/create-onboarding-exit-surveys.md
-       - name: Create an exit survey
-         href: setup/exit.survey.md
        - name: Preview and filter a Lifecycle survey
          href: setup/preview-filter-lifecycle-programs.md 
    - name: Create a Viva Glint 360 feedback program
