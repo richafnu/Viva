@@ -1,12 +1,12 @@
 ---
-title: How Viva People Science arrives at engagement survey template items
+title: Viva People Science survey template items
 description: Over 350 million employee survey responses contribute to the research on what is important to the happiness and success of employees at work. 
 ms.author: JudithWeiner
 author: JudyWeiner
 manager: MelissaBarry
 audience: admin
 f1.keywords: NOCSH
-keywords: people success elements, purpose, clarity, growth, empowerment, connection, wellbeing, cord driver, key driver
+keywords: people success elements, purpose, clarity, growth, empowerment, connection, wellbeing, cord driver, key driver, survey item terminology
 ms.collection: 
  - m365initiative-viva
  - selfserve
@@ -14,10 +14,10 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 04/22/2024
+ms.date: 02/06/2025
 ---
 
-# How Viva People Science arrives at engagement survey template items
+# Viva People Science survey template items
 
 Microsoft Viva Glint analyzed over 350 million employee survey responses to determine the employee experiences that were most predictive of engagement - happiness at work and willingness to recommend the company. We uncover key driver themes and use these to build survey templates. 
 
@@ -38,11 +38,12 @@ In addition to evidence of a strong linkage between the People Success Elements 
 |Connection| Employees with a strong sense of belonging are six times more likely to be engaged.|
 |Wellbeing| Employees who feel cared for at work are over three times as likely to be happy at work and recommend working for their organization, an increase of over 35% since 2020. Flexible work arrangements, inclusive workplaces, and work-life balance are the fastest growing priorities for job candidates since the COVID-19 pandemic began.|
 
-## Terminology of survey items
+## Survey item terminology
 
-This terminology helps you understand the Viva People Sciencee methodology for determining survey items:
+This terminology helps you understand the Viva People Science methodology for determining survey items:
 
 |Term |Definition|
 |-----|----------|
 | **Core Drivers (also referred to as Recommended Drivers)** | Items hand-picked by Viva People Science for customer use are included on templates. These items are the strongest predictors of the outcome item(s) in a survey program. We recommend customers to consider these items first when building a survey and to consider them as the best practice “short list.”|
 | **Other Drivers** | Most Viva Glint programs have “other” drivers, too - items that are strong drivers of engagement that we want customers to be aware of but aren't part of the core/recommended driver selection for that program.|
+|**Survey item**|A question or statement posed to a survey participant. Survey items are populated in the Viva Glint Platform in the Question Library and are validated by Viva People Science. Search for an item by a driver keyword, such as "manager," "culture," or "change management."|
