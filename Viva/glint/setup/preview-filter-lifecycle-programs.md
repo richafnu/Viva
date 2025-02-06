@@ -40,7 +40,7 @@ Once your program is approved, preview the survey to test the user experience.
 >[!TIP]
 > When reviewing the introduction and summary for each item, ensure that:
 > - Rating scale is as expected (1-5 or 1-7) 
-> - Rating scale labels are written as expected (Strongly Disagree/Strongly Agree)
+> - Rating scale labels are written as expected (Strongly Disagree - Strongly Agree)
 > - Comments are available 
 > - Items can't be skipped, unless intended 
 > - Macros appear as actual values and don't show up as macros 
@@ -68,7 +68,7 @@ Lifecycle surveys move to Live status shortly after they're enabled. Surveys gen
 4. The survey card on the left changes from gray to blue and displays response rate as users submit surveys.
 
 > [!IMPORTANT]
-> After a Lifecycle survey is enabled for the first time, Viva Glint Admins can make edits by switching the Approved toggle off. When an amin re-approves the survey in the future, the survey **auto-enables**.
+> After a Lifecycle survey is enabled for the first time, Viva Glint Admins can make edits by switching the Approved toggle off. When an admin re-approves the survey in the future, the survey **auto-enables**.
 
 ## Employee Lifecycle reports are unique 
 
@@ -78,10 +78,3 @@ Employee Lifecycle reporting behaves differently than recurring program reportin
 
 [Set up Program Summary for Viva Glint Employee Lifecycle Programs](https://www.microsoft.com/).
  
-
-
-
-
-
-
-
