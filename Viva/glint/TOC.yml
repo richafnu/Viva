@@ -236,41 +236,13 @@ items:
         href: ../solutions/holistic-listening-discovery-workbook.md
       - name: Set up and customize programs
         href: setup/customize-program.md
+      - name: Understand programs and cycles
+        href: setup/program-cycle-edits.md    
       - name: Survey Coach and Tooltips
-        href: setup/survey-coach.md   
-      - name: Use validated templates
-        items:
-          - name: People Science template design
-            href: setup/template-research.md
-          - name: Microsoft Copilot Impact survey
-            href: setup/copilot-impact-template.md
-          - name: Quarterly Engagement Survey 
-            href: setup/quarterly-engagement-template.md
-          - name: Diversity and Inclusion survey 
-            href: setup/diversity-inclusion.md
-          - name: Culture survey
-            href: setup/culture-template.md
-          - name: Team Effectiveness survey
-            href: setup/team-effectiveness-survey.md
-          - name: Manager Effectiveness survey
-            href: setup/manager-effectiveness-survey.md
-          - name: Patient safety survey
-            href: setup/patient-safety-survey.md
-      - name: Set up non-templated surveys
-        items:
-          - name: Set up a Microsoft Viva Glint Magnet survey
-            href: setup/magnet-rn-excellence.md
-          - name: Set up a Distress Survey
-            href: setup/distress-survey.md
-          - name: Set up a Viva Glint productivity survey
-            href: setup/create-productivity-survey.md
-      - name: Set up recurring surveys
-        items:
-          - name: Program Summary setup 
+        href: setup/survey-coach.md
+  - name: Program Summary setup for recurring surveys
             href: setup/program-summary-overview.md
-            items:
-              - name: Understand programs and cycles
-                href: setup/program-cycle-edits.md   
+            items:   
               - name: Program setup 
                 href: setup/program-set-up.md
               - name: Distribution setup 
@@ -302,19 +274,45 @@ items:
                 href: setup/program-summary-coaching.md
                 items:         
                   - name: Team Conversations resource guidance
-                    href: reports/team-conversations-resource-guidance.md  
-      - name: Employee Lifecycle surveys
-        items:
-          - name: Set up an Employee Lifecycle survey
-            href: setup/program-summary-setup-lifecycle.md
-          - name: Create an onboarding survey 
-            href: setup/create-onboarding-exit-surveys.md
-          - name: Create an exit survey
-            href: setup/exit.survey.md
-          - name: Preview and filter a Lifecycle survey
-            href: setup/preview-filter-lifecycle-programs.md 
-      - name: Create a Viva Glint 360 feedback program
-        items:
+                    href: reports/team-conversations-resource-guidance.md      
+  - name: Use validated templates
+    items:
+       - name: People Science template design
+         href: setup/template-research.md
+       - name: Microsoft Copilot Impact survey
+         href: setup/copilot-impact-template.md
+       - name: Quarterly Engagement Survey 
+         href: setup/quarterly-engagement-template.md
+       - name: Diversity and Inclusion survey 
+         href: setup/diversity-inclusion.md
+       - name: Culture survey
+         href: setup/culture-template.md
+       - name: Team Effectiveness survey
+         href: setup/team-effectiveness-survey.md
+       - name: Manager Effectiveness survey
+         href: setup/manager-effectiveness-survey.md
+       - name: Patient safety survey
+         href: setup/patient-safety-survey.md
+  - name: Set up non-templated surveys
+    items:
+       - name: Set up a Microsoft Viva Glint Magnet survey
+         href: setup/magnet-rn-excellence.md
+       - name: Set up a Distress Survey
+         href: setup/distress-survey.md
+       - name: Set up a Viva Glint productivity survey
+         href: setup/create-productivity-survey.md
+  - name: Employee Lifecycle surveys
+    items:
+       - name: Set up an Employee Lifecycle survey
+         href: setup/program-summary-setup-lifecycle.md
+       - name: Create an onboarding survey 
+         href: setup/create-onboarding-exit-surveys.md
+       - name: Create an exit survey
+         href: setup/exit.survey.md
+       - name: Preview and filter a Lifecycle survey
+         href: setup/preview-filter-lifecycle-programs.md 
+   - name: Create a Viva Glint 360 feedback program
+     items:
           - name: 360 overview and terminology
             href: setup/360-overview.md
           - name: 360 feedback program setup
