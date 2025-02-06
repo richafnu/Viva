@@ -25,13 +25,13 @@ Distribution is set up within Program Summary. After completing **Program Setup*
 
 ## Download recipients
 
-:::image type="content" source="../../media/glint/setup/distribution-program-summary-window.png" alt-text="Screenshot of the Distribution page in Program Summary.":::
+:::image type="content" source="../../media/glint/setup/distribution-program-summary-window.png" lightbox="../../media/glint/setup/distribution-program-summary-window.png" alt-text="Screenshot of the Distribution page in Program Summary.":::
 
 To view a spreadsheet of people populated to receive this program, select **Download Recipients**. 
 
 The **Exporting Member Data** window opens. This export includes all individuals - first name, last name, email address, and status- targeted by this survey. Recent edits to this program’s distribution may take a few minutes to update before reflected in the export. Choose whether to include all User Roles. Select **Export**.
 
-:::image type="content" source="../../media/glint/setup/distribution-exporting-data.png" lightbox="../../media/glint/setup/distribution-exporting-data.png" alt-text="Screenshot of the window that opens to download recipients":::
+:::image type="content" source="../../media/glint/setup/distribution-exporting-data.png" lightbox="../../media/glint/setup/distribution-exporting-data.png" alt-text="Screenshot of the window that opens to download recipients.":::
 
 Download confirmation:
 
