@@ -81,6 +81,8 @@ items:
             href: setup/access-glint.md
           - name: Survey program types and templates
             href: start/program-types-templates.md
+          - name: People Science template design
+            href: setup/template-research.md
           - name: Monthly deployment dates
             href: setup/monthly-release-dates.md
           - name: Communications for internal readiness
@@ -275,8 +277,7 @@ items:
               href: reports/team-conversations-resource-guidance.md      
   - name: Validated templates
     items:
-       - name: People Science template design
-         href: setup/template-research.md
+       -
        - name: Microsoft Copilot Impact survey
          href: setup/copilot-impact-template.md
        - name: Quarterly Engagement survey 
