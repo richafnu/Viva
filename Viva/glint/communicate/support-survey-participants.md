@@ -14,12 +14,12 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 1/28/2025
+ms.date: 02/06/2025
 ---
 
 # Support survey participants during a live Viva Glint survey
 
-Introduce Viva Glint surveys and [communicate proactively](/../../viva/glint/communicate/prelaunch-live-email-templates) with your organization about upcoming surveys. During a live Viva Glint survey, participants can use [online support content](https://support.microsoft.com/en-us/topic/viva-glint-overview-87374186-feec-4256-962a-563f99992f08) to answer many of their questions. Take other steps listed here to set up users for success to submit their valuable feedback.
+Introduce Microsoft Viva Glint surveys and [communicate proactively](/../../viva/glint/communicate/prelaunch-live-email-templates) with your organization about upcoming surveys. During a live Viva Glint survey, participants can use [online support content](https://support.microsoft.com/en-us/topic/viva-glint-overview-87374186-feec-4256-962a-563f99992f08) to answer many of their questions. Take other steps listed here to set up users for success to submit their valuable feedback.
 
 ## Create an FAQ document
 
@@ -46,9 +46,31 @@ Your organization may require that you authenticate with Microsoft Entra to acce
 
 ## Confirm eligibility
 
-If a user reaches out because they weren't included in a survey, use Viva Glint to confirm whether they should receive a survey invite. In the configuration section, select **Survey Programs** and then choose your live survey. In the **Distribution section**, confirm which lists are included and excluded. To confirm their eligibility, review Distribution Lists and the requesting user’s profile.
+If a user reaches out because they weren't included in a survey, use Viva Glint to confirm whether they're eligible.
 
-:::image type="content" source="../../media/glint/setup/vg-distribution.png" alt-text="Screenshot of a survey distribution setup with included and excluded employee groups.":::
+### Recurring and Ad Hoc surveys
+
+1. Go to **Configuration** and in **Survey Programs**, select **Surveys**.
+2. Select the live survey.
+3. In the list of **Upcoming and Live** surveys, hover over the right side of the live survey and select the ellipsis.
+4. In the dropdown menu, select **Export Recipients** and enable the **Include all use attributes?** setting to see the user's attribute values as they were when the survey launched.
+5. Search for the user in the exported recipient file to confirm if there were included in the survey.
+
+### Lifecycle and Always-On surveys
+
+> [!NOTE]
+> Viva Glint Admins need [access to Advanced Configuration](understand-advanced-configuration.md#grant-access-to-an-existing-admin-user) to export recipients for Lifecycle and Always-On surveys.
+
+1. Go to **Configuration** and in **Service Configuration**, select **Advanced Configuration**.
+2. In the **Advanced Configuration** menu, select **Data Apps** and choose **Export Users from Survey Cycle**.
+1. Select parameters to export recipients:
+   1. **surveyName:** Select **Load Values** and choose a survey from the dropdown list.
+   1. **cycleName:** Select **Load Values** and choose a cycle from the dropdown list.
+   1. **includeAttributes:** Select **yes** to include all attributes. Select **no** to include required attributes only.
+   1. **includeAllCycles:** Select **yes** to include all cycles (this option is recommended for Lifecycle and Always-On survey eligibility troubleshooting). Select **no** to include the selected cycle only.
+   1. **includePersonalEmail:** Select **yes** to include the personal email attribute (if applicable). Select **no** to exclude. 
+1. Select **Save as ZIP** to download a compressed file of recipients.
+1. Search for the user in the exported recipient file to confirm if there were included in the survey.
 
 ## Validate credentials for attribute-based survey access
 
@@ -58,7 +80,7 @@ Your organization may use [attribute-based access](/../../viva/glint/setup/attri
 
 ### Use the "Resend Survey" option in Viva Glint
 
-If a user is eligible for a survey but wasn’t included at the time of launch, use the Glint [Send Survey](/../../viva/glint/setup/people-page) option to send an invite during a live survey. In the configuration section, select **People** and search for a user. After selecting their profile, select **Actions** and choose **Send Survey**, which sends in invite email.
+If a user is eligible for a survey but wasn’t included at the time of launch, use the Viva Glint [Send Survey](/../../viva/glint/setup/people-page) option to send an invite during a live survey. In the configuration section, select **People** and search for a user. After selecting their profile, select **Actions** and choose **Send Survey**, which sends in invite email.
 
 ### Use the Viva Glint survey invite link
 
