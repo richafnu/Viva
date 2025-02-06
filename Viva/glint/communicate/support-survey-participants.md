@@ -59,7 +59,7 @@ If a user reaches out because they weren't included in a survey, use Viva Glint 
 ### Lifecycle and Always-On surveys
 
 > [!NOTE]
-> Viva Glint Admins need [access to Advanced Configuration](/../../setup/understand-advanced-configuration.md#grant-access-to-an-existing-admin-user) to export recipients for Lifecycle and Always-On surveys.
+> Viva Glint Admins need [access to Advanced Configuration](/viva/glint/setup/understand-advanced-configuration.md#grant-user-access-to-advanced-configuration) to export recipients for Lifecycle and Always-On surveys.
 
 1. Go to **Configuration** and in **Service Configuration**, select **Advanced Configuration**.
 2. In the **Advanced Configuration** menu, select **Data Apps** and choose **Export Users from Survey Cycle**.
