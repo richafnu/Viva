@@ -19,7 +19,7 @@ ms.date: 02/06/2025
 
 # Viva People Science survey templates and items
 
-Microsoft Viva Glint analyzed over 350 million employee survey responses to determine the employee experiences that were most predictive of engagement - happiness at work and willingness to recommend the company. We uncover key driver themes and use these to build survey templates. 
+Microsoft Viva Glint analyzed over 350 million employee survey responses to determine the employee experiences that were most predictive of engagement - happiness at work and willingness to recommend the company. We uncover key driver themes and use these themes to build survey templates. 
 
 The result of our examination of the focus of engagement is a modernized framework (early 2022) called **People Success Elements. These elements are six constructs**: Purpose, Clarity, Growth, Empowerment, Connection, and Wellbeing. The constructs summarize the fundamental needs and expectations that are most critical to a person’s holistic life experience - not only their work experience - and that best shape an environment for high engagement.
 
@@ -44,7 +44,7 @@ This terminology helps you understand the Microsoft Viva People Science methodol
 
 |Term |Definition|
 |-----|----------|
-| **Core Drivers (also referred to as Recommended Drivers)** | Items hand-picked by Viva People Science for customer use are included on templates. These items are the strongest predictors of the outcome item(s) in a survey program. We recommend customers to consider these items first when building a survey and to consider them as the best practice “short list.”|
+| **Core Drivers (also referred to as Recommended Drivers)** | Items hand-picked by Viva People Science for customer use are included on templates. These items are the strongest predictors of the key outcome intended for a survey program. We recommend customers to consider these items first when building a survey and to consider them as the best practice “short list.”|
 | **Other Drivers** | Most Viva Glint programs have “other” drivers, too - items that are strong drivers of engagement that we want customers to be aware of but aren't part of the core/recommended driver selection for that program.|
 |**Survey item**|A question or statement posed to a survey participant. Search for an item by a driver keyword, such as "manager," "culture," or "change management."|
-|**Validated item**| An item in the Viva Glint Question Library with added rigor and research behind it. Some Viva Glint templates are composed of all validated items, but there are cases where a non-validated survey - a survey with one or more non-validated items - is templated.| 
+|**Validated item**| An item in the Viva Glint Question Library with added rigor and research behind it. Some Viva Glint templates are composed of all validated items, but there are cases where a nonvalidated survey - a survey with one or more nonvalidated items - is templated.| 
