@@ -1,5 +1,5 @@
 ---
-ms.date: 02/03/2025
+ms.date: 02/06/2025
 title: Connect to the Microsoft Copilot Dashboard for Microsoft 365 customers
 description: Explains how to set up and use the Microsoft Copilot Dashboard, which provides various metrics to help you see how employees are using Copilot and the impact it could have on your organization.
 author: zachminers
@@ -460,7 +460,7 @@ With a Viva Insights subscription, this section of the dashboard also lets you e
 
 *Applies to: Viva Insights admin* 
 
-If you have a Viva Insights subscription and you’re a **Viva Insights admin**, you can upload survey results as a .csv file.
+If you have a Viva Insights subscription and you’re a **Viva Insights admin**, you can upload survey results as a .csv file. The survey results will appear in the Copilot Dashboard within two days after you upload them, and they'll remain accessible until you perform a new upload.
 
 Your survey should include each of the following statements:
 
