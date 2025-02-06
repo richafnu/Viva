@@ -275,7 +275,7 @@ items:
          items:         
             - name: Team Conversations resource guidance
               href: reports/team-conversations-resource-guidance.md      
-  - name: Use validated templates
+  - name: Validated templates
     items:
        - name: People Science template design
          href: setup/template-research.md
@@ -297,7 +297,7 @@ items:
          href: setup/create-onboarding-exit-surveys.md
        - name: Employee Lifecycle Exit survey
          href: setup/exit.survey.md
-  - name: Set up non-templated surveys
+  - name: Non-templated surveys
     items:
        - name: Set up a Microsoft Viva Glint Magnet survey
          href: setup/magnet-rn-excellence.md
@@ -311,7 +311,7 @@ items:
          href: setup/program-summary-setup-lifecycle.md
        - name: Preview and filter a Lifecycle survey
          href: setup/preview-filter-lifecycle-programs.md 
-  - name: Create a Viva Glint 360 feedback program
+  - name: Viva Glint 360 feedback programs
     items:
        - name: 360 overview and terminology
          href: setup/360-overview.md
@@ -366,13 +366,13 @@ items:
     href: setup/ad-hoc-survey.md
   - name: Set up Team Conversations
     href: reports/team-conversations-administrator-setup.md
-        items:
-          - name: Team Conversations presentation kit
-            href: reports/coaching-team-conversations.md
-          - name: Customize a PowerPoint template in Glint
-            href: setup/custom-ppt-upload.md
-          - name: Customize Team Conversations email content
-            href: reports/team-conversations-content-cusomization.md 
+    items:
+        - name: Team Conversations presentation kit
+          href: reports/coaching-team-conversations.md
+        - name: Customize a PowerPoint template in Glint
+          href: setup/custom-ppt-upload.md
+        - name: Customize Team Conversations email content
+          href: reports/team-conversations-content-cusomization.md 
   - name: Review surveys before launch
     items:
         - name: Review surveys before launch
