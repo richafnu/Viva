@@ -54,7 +54,7 @@ If a user reaches out because they weren't included in a survey, use Viva Glint 
 2. Select the live survey.
 3. In the list of **Upcoming and Live** surveys, hover over the right side of the live survey and select the ellipsis.
 4. In the dropdown menu, select **Export Recipients** and enable the **Include all use attributes?** setting to see the user's attribute values as they were when the survey launched.
-5. Search for the user in the exported recipient file to confirm if there were included in the survey.
+5. Search for the user in the exported recipient file to confirm if they were included in the survey.
 
 ### Lifecycle and Always-On surveys
 
@@ -70,7 +70,7 @@ If a user reaches out because they weren't included in a survey, use Viva Glint 
    1. **includeAllCycles:** Select **yes** to include all cycles (this option is recommended for Lifecycle and Always-On survey eligibility troubleshooting). Select **no** to include the selected cycle only.
    1. **includePersonalEmail:** Select **yes** to include the personal email attribute (if applicable). Select **no** to exclude. 
 1. Select **Save as ZIP** to download a compressed file of recipients.
-1. Search for the user in the exported recipient file to confirm if there were included in the survey.
+1. Search for the user in the exported recipient file to confirm if they were included in the survey.
 
 ## Validate credentials for attribute-based survey access
 
