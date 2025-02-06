@@ -260,21 +260,21 @@ items:
                href: setup/viva-glint-display-logic.md
              - name: Reporting setup
                href: setup/reporting-setup.md
-                items:
+               items:
                   - name: Grant Live versus Phased access
                     href: setup/live-versus-phased-access.md
-            - name: Communications setup 
-              href: setup/program-summary-communications.md
-              items:
-                  - name: Customize survey email content
-                    href: setup/email-content-customization.md
-                  - name: Multi-language emails
-                    href: setup/multi-lang-emails.md                        
-            - name: Coaching setup 
-              href: setup/program-summary-coaching.md
-              items:         
-                  - name: Team Conversations resource guidance
-                    href: reports/team-conversations-resource-guidance.md      
+       - name: Communications setup 
+         href: setup/program-summary-communications.md
+         items:
+            - name: Customize survey email content
+              href: setup/email-content-customization.md
+            - name: Multi-language emails
+              href: setup/multi-lang-emails.md                        
+       - name: Coaching setup 
+         href: setup/program-summary-coaching.md
+         items:         
+            - name: Team Conversations resource guidance
+              href: reports/team-conversations-resource-guidance.md      
   - name: Use validated templates
     items:
        - name: People Science template design
