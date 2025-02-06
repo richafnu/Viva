@@ -19,9 +19,9 @@ ms.date: 02/06/2025
 
 # Set up a Microsoft Viva Glint Patient Safety survey 
 
-Many healthcare customers use the Microsoft Viva Glint Patient Safety Survey to assess and improve their patient safety culture. It's approved as a reliable measure of patient culture by **The Leapfrog Group** and is among the most succinct Leapfrog-approved safety surveys currently available. Seamlessly integrated with Viva Glint, Patient Safety survey insights are designed to provide healthcare leaders with pertinent information in real-time. 
+Many healthcare customers use the Microsoft Viva Glint Patient Safety Survey to assess and improve their patient safety culture. This Viva Glint survey template is approved as a reliable measure of patient culture by **The Leapfrog Group**, among the most succinct Leapfrog-approved safety surveys currently available. Seamlessly integrated with Viva Glint, Patient Safety survey insights are designed to provide healthcare leaders with pertinent information in real-time. 
 
-**The Leapfrog Group (Leapfrog),** established in 2000, serves as America's voice for patient safety, quality and transparency.  Leapfrog collects and reports one-of-a-kind data to empower patients and purchasers to choose the right hospital or surgery center. 
+**The Leapfrog Group (Leapfrog),** established in 2000, serves as America's voice for patient safety, quality, and transparency.  Leapfrog collects and reports one-of-a-kind data to empower patients and purchasers to choose the right hospital or surgery center. 
 
 ## Submitting the Patient Safety Survey for Leapfrog certification
 
@@ -73,13 +73,13 @@ There are also two optional - but recommended - scaled items (1-2), and two comm
 |15|Root Cause|At this organization, we seek to solve problems permanently rather than just up with a 'quick fix.'|
 |16|Teamwork|We support each other in caring for patients safely here.|
 |17|Training|The patient safety-related training I receive is effective.|
-|18|Voice|My imput about patient safety is valued here.|
+|18|Voice|My input about patient safety is valued here.|
 |19|Employee Safety|I feel safe here as an employee.|
 |20|eSat|How happy are you working at [Company Name]?
 
 ## Admins launching the Microsoft Viva Glint Patient Safety Survey 
 
-Access the template from the **Configure symbol** on your Viva Glint admin dashboard. Select **+ New Survey** and then the **Patient Safety Survey** card.
+Access the template from the **Configuration symbol** on your Viva Glint admin dashboard. Select **+ New Survey** and then the **Patient Safety Survey** card.
 
 :::image type="content" source="../../media/glint/setup/patient-survey-template.png" alt-text="Screenshot of the Patient Safety survey template, which is predefined but easy to customize." lightbox="../../media/glint/setup/patient-survey-template.png":::
 
