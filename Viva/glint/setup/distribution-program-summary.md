@@ -21,7 +21,7 @@ ms.date: 01/06/2025
 
 Distribution is set up within Program Summary. After completing **Program Setup** - Program Setup shows a checkmark - choose which of your organization's populations receive this program's survey by using existing Distribution Lists or creating new ones.
 
-:::image type="content" source="../../media/glint/setup/dl-access-from-program-summary.png" alt-text="Screenshot of where to access Distribution List setup from Program Summary.":::
+:::image type="content" source="../../media/glint/setup/dl-access-from-program-summary.png" lightbox="../../media/glint/setup/dl-access-from-program-summary.png" alt-text="Screenshot of where to access Distribution List setup from Program Summary.":::
 
 ## Download recipients
 
@@ -31,7 +31,7 @@ To view a spreadsheet of people populated to receive this program, select **Down
 
 The **Exporting Member Data** window opens. This export includes all individuals - first name, last name, email address, and status- targeted by this survey. Recent edits to this program’s distribution may take a few minutes to update before reflected in the export. Choose whether to include all User Roles. Select **Export**.
 
-:::image type="content" source="../../media/glint/setup/distribution-exporting-data.png" alt-text="Screenshot of the window that opens to download recipients":::
+:::image type="content" source="../../media/glint/setup/distribution-exporting-data.png" lightbox="../../media/glint/setup/distribution-exporting-data.png" alt-text="Screenshot of the window that opens to download recipients":::
 
 Download confirmation:
 
@@ -45,9 +45,9 @@ Commit Distribution Lists to your program:
 
 1. Select the search panel to open a dropdown menu of Distribution Lists available.
 1. Select one or more Distribution Lists.
-1. Select the highlighted right-facing arrow to **Save and Continue**
+1. Select the highlighted right-facing arrow to **Save and Continue**.
 
-:::image type="content" source="../../media/glint/setup/distribution-dropdown-save.png" alt-text="Screenshot of the prepopulated Distribution List dropdown menu.":::
+   :::image type="content" source="../../media/glint/setup/distribution-dropdown-save.png" alt-text="Screenshot of the prepopulated Distribution List dropdown menu.":::
 
 ## Exclude Distribution Lists from a survey
 
