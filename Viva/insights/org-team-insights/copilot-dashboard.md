@@ -460,6 +460,8 @@ With a Viva Insights subscription, this section of the dashboard also lets you e
 
 *Applies to: Viva Insights admin* 
 
+[!VIDEO https://learn.microsoft.com/_themes/docs.theme/master/en-us/_themes/global/video-embed-one-stream.html?id=7f1b8691-ed65-4f68-a4de-576d77bc3b27]
+
 If you have a Viva Insights subscription and you’re a **Viva Insights admin**, you can upload survey results as a .csv file. The survey results will appear in the Copilot Dashboard within two days after you upload them, and they'll remain accessible until you perform a new upload.
 
 Your survey should include each of the following statements:
