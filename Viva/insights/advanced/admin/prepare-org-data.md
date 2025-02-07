@@ -280,8 +280,6 @@ This section contains information about the attributes that you use in the organ
 >[!Note]
 >The “OnsiteDays” field is now “WeeklyBadgeOnsiteDays.” See the table below to learn more.
 
-Video [here](https://learn.microsoft.com/_themes/docs.theme/master/en-us/_themes/global/video-embed-one-stream.html?id=7f1b8691-ed65-4f68-a4de-576d77bc3b27).
-
 | Viva Insights mapped field | Description | Data type | Example value| Required or reserved
 |--------------------------|----------|---|--------------------|----|
 |**PersonId**| Unique identifier for an employee record. It can be the employee's primary SMTP address or email alias.  | Email | `joe@contoso.com`| Required<sup>1</sup>
