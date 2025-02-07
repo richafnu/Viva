@@ -23,6 +23,8 @@ audience: user
 
 Organization insights help leaders and managers build high performing teams. Leaders and managers can see key indicators of their organization’s wellbeing, productivity, and team culture, and they can find features and tools to help support their teams.
 
+> [!VIDEO 7f1b8691-ed65-4f68-a4de-576d77bc3b27]
+
 ## Subscriptions, roles, and access
 
 To view organization insights:
