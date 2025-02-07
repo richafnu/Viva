@@ -280,7 +280,7 @@ This section contains information about the attributes that you use in the organ
 >[!Note]
 >The “OnsiteDays” field is now “WeeklyBadgeOnsiteDays.” See the table below to learn more.
 
-[!VIDEO https://www.microsoft.com/videoplayer/embed/7f1b8691-ed65-4f68-a4de-576d77bc3b27]
+https://learn.microsoft.com/_themes/docs.theme/master/en-us/_themes/global/video-embed-one-stream.html?id=7f1b8691-ed65-4f68-a4de-576d77bc3b27
 
 | Viva Insights mapped field | Description | Data type | Example value| Required or reserved
 |--------------------------|----------|---|--------------------|----|
