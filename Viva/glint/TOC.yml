@@ -271,8 +271,10 @@ items:
             items:         
              - name: Team Conversations resource guidance
                href: reports/team-conversations-resource-guidance.md      
-      - name: Templates for recurring engagement surveys
+      - name: Survey templates
         items:
+         - name: Templates overview and terminology
+           href: setup/templates-intro.md
          - name: Microsoft Copilot Impact Survey
            href: setup/copilot-impact-template.md
          - name: Quarterly Engagement  
