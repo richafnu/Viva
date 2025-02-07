@@ -198,7 +198,7 @@ Change the banner image in the header and set the focal point for the image. The
 >
 > - The greeting is automatically generated and can't be customized.
 > - Depending on your organization’s license type, you might see more dynamic information displayed in the banner.
-> - The banner image and focal point resizes when viewed via the tablet and mobile app.
+> - The banner image and focal point resize when viewed via the tablet and mobile app.
 
 To change the banner image:
 
