@@ -25,8 +25,6 @@ This article covers the second option, Azure blob import.
 
 With an Azure blob import, your Azure subscription’s **Owner** or **Storage Account Contributor (with Role Based Access Control Administrator)** creates a new Storage account with blob container on the Azure portal, and your source system admin configures a periodic export of a .csv file to the blob container’s location. You can then set up Viva Insights to automatically pull business data from the .csv file within this location.
 
-> [!VIDEO 7f1b8691-ed65-4f68-a4de-576d77bc3b27]
-
 ## Workflow
 
 1. Setup:
@@ -44,6 +42,10 @@ With an Azure blob import, your Azure subscription’s **Owner** or **Storage Ac
 3. Processing: Viva Insights processes the data. (If processing isn't successful, you can choose from a few options described in [Processing fails](#processing-fails).) 
 
    After the data successfully validates and processes, the overall data-import task is complete.
+
+## Video tutorial
+
+> [!VIDEO 7f1b8691-ed65-4f68-a4de-576d77bc3b27]
 
 ## Setup
 
