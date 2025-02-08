@@ -170,7 +170,8 @@ For example, the following mobile dashboards are designed around different worke
 ## Step 4: Get ready for the feed
 
 > [!NOTE]
-> An update is planned for Q1 2025 that will replace the Feed experience with an Enterprise News Reader that will present news that's recommended for you from your organization.
+>
+> An update is planned for Q2 2025 that will replace the Feed experience with an Enterprise News Reader that will present news that's recommended for you from your organization.
 
 The feed brings communications from across the organization into one place where it can be easily viewed. This feed helps keep frontline workers, information workers, and hybrid workers alike engaged and informed on important news and announcements. This solution also gives content publishers a reliable method of distributing important news and information.
 
@@ -242,7 +243,7 @@ As your business grows and evolves, you'll likely identify new scenarios that ca
 
 Additionally, users will share feedback that can be used to improve the experience. Each of these scenarios requires time to implement and to communicate as needed. Plan to have a point-person, or team of people, who can manage these tasks over time.  
 
-- **Dashboard:** Once designed and tested by the [owner or member](edit-viva-home.md#manage-permissions) of the experience, the dashboard will only need to be updated to support new scenarios or retire old scenarios.
+- **Dashboard:** Once the [owner or member](edit-viva-home.md#manage-permissions) has designed and tested the experience, the dashboard will only need to be updated to support new scenarios or retire old scenarios.
 
 - **Feed:** Content is dynamically displayed and aggregated from SharePoint news posts and Viva Engage.  
 
