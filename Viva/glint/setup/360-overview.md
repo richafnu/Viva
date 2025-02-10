@@ -51,6 +51,10 @@ Use these definitions to understand a 360 program:
 |**Completed cycle**|The cycle is complete for all subjects, and reports can be released.|
 |**Item**|Viva Glint uses the term "item" to refer to any question or statement put forth to a survey participant.|
 
+## 360 Focus Area Overview report
+
+See this Viva Glint Learn page for guidance on [360 program Focus Area follow up status reporting](/../../viva/glint/reports/focus-area-overview-report?branch=pr-en-us-9382#focus-area-status-by-type).
+
 ## More resources 
 
 - [Privacy protection for 360 feedback programs](/viva/glint/setup/privacy-360-feedback)
