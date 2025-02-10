@@ -19,7 +19,7 @@ ms.date: 2/10/2025
 
 # Use Viva Glint's Focus Area Overview report
 
-The Microsoft Viva Glint Focus Areas Overview report provides a completion status for Focus Areas across teams. The report provides critical insights and easy access to other details.  Leaders and admins use this report to connect managers working on similar Focus Areas and to view feedback comments to read context about what their managers are working on. 
+The Microsoft Viva Glint Focus Areas Overview report provides a completion status for Focus Areas across teams. The report provides critical insights and easy access to other details. Leaders and admins use this report to connect managers working on similar Focus Areas and to view feedback comments to read context about what their managers are working on. 
 
 >[!IMPORTANT]
 >Your organization may use the word "goals," rather than our standard term "Focus Areas." For this reason, the verbiage and images on guidance may not match exactly with your dashboard.
@@ -27,7 +27,10 @@ The Microsoft Viva Glint Focus Areas Overview report provides a completion statu
 
 ## Grant permission for managers to view the Focus Area Overview report 
 
-Open **User Roles** on your Microsoft Viva Glint admin dashboard. Approve **View Focus Areas Reports** in the **Reporting** section of **Managers Permissions and Access**. The report respects access at a per-person level. 
+1. Open **User Roles** on your Microsoft Viva Glint admin dashboard. 
+1. Approve **View Focus Areas Reports** in the **Reporting** section of **Managers Permissions and Access**. 
+
+The report respects access at a per-person level. 
 
 :::image type="content" source="../../media/glint/reports/reporting-view-focus-area-reports.png" alt-text="Screenshot of where to grant permissions for roles to see Focus Area reports.":::
 
@@ -51,7 +54,7 @@ Use this table to understand report sections and descriptions.
 | **Goal Status by Type** | The breakdown of Focus Areas by type. Sections of the report are dynamic, displaying more details when you select them. |
 | **Column Headers** | Select column headers, sortable by status in ascending or descending order |
 | **Status Bars** | Select any status bar to include that data in the **Summary** section. This data provides other insights about the Focus Area type, specifically: <br>- Overall completion status <br>- % of  employees that don't have the Focus Area| 
-| **Percentages** | Hover over the percentage to see detailed information.|
+| **Percentages** | To see detailed information, hover over the percentage score.|
 | **Filter** | Located in the header menu at the top of the page and indicated by an arrow and any selected filters, when collapsed. <br> The selections chosen are automatically added to the filter. To view past reports or modify filters, select the arrow to expand the menu. The current Focus Area period appears by default, but you can look back at previous periods.|
 
 ## Focus Area Status by Type
