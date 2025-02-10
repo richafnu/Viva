@@ -40,7 +40,7 @@ Items have associated tags associated to help you sort and filter them. These ta
 |**Question Type**|<ul><li>**Rating items** use a 5- or 7-point scale.</li><li>**Open ended items** are items that require text responses. </li><li> **Options** are items that require a selection of single- or multiple-choice responses.</ul>|
 |**Action Plan Template**| The action plan content aligned to this item. If shown as "default," the item is using the generic template. If empty, this item has no Action Plan content aligned to it.|
 |**Option Text**|The list of response choices for Options items.|
-|**# of Alternate Forms**|How many other differently-worded item choices are available. No number listed indicates that no alternate items are available. There are three different types of alternate items: <ul><li> **Substitute item:** have slightly different wording but can be used as an equal substitue for the originally recommended items. These items are compareable to the original item benchmark.</li><li>**Related items:** similar to the original recommended items, but could be interpreted differently by employees. These items can't be compared to the original item benchmark. </li><li> **Referent items:** ask employees to think about specific referents (responsible level of management) when measuring this experience. Can't be compared to benchmarks.</ul>|
+|**# of Alternate Forms**|How many differently-worded item choices are available for the "same" item. No number listed indicates that no alternate items are available. There are three types of alternate items: <ul><li> **Substitute items:** have slightly different wording but can be used as an equal substitue for the originally recommended items. These items are compareable to the original item benchmark.</li><li>**Related items:** similar to the original recommended items, but could be interpreted differently by employees. These items can't be compared to the original item benchmark. </li><li> **Referent items:** ask employees to think about specific referents (responsible level of management) when measuring this experience. Can't be compared to benchmarks.</ul>|
 
 ### More about Referents
 
@@ -66,6 +66,7 @@ With all of the above referents, customers often customize the item by inserting
 > For example, "The leadership team" might be replaced with "Fred Smith and his directs"
 > Another example is to simply state the name(s) where the referent would be: I get the support I need from Fred Smith."
 
+
 >[!NOTE]
 >Some items have customized text versions listed as "Referent." These versions allow the user to choose to assign responsibility at a level that is different than the Viva Glint recommended items. Based on idustry best practices, benchmarking, and the best judgement of Viva People Science, a referent is included only when it's clear where the onus for taking action is typically assigned.
 
@@ -77,7 +78,7 @@ Items have metrics to help determine when to use them.
 |-------|------|
 |**Benchmark**|Reads **TRUE** if the item has a benchmark.|
 |**Item Popularity**|The number of customers who used this item in the past 12 months.|
-|**Correlation with eSat**|*The Pearson coefficient (r)* measuring the item's correlation to eSat (happiness at work). *The Pearson coefficient is a measurement quantifying the strength of the association between two variables. Pearson’s correlation coefficient appears as *r.* |
+|**Correlation with eSat**|The *Pearson coefficient (r)* measuring the item's correlation to eSat (happiness at work). *The Pearson coefficient is a measurement quantifying the strength of the association between two variables. Pearson’s correlation coefficient appears as r.* |
 
 ## Item tag categorization
 
