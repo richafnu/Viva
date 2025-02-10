@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 2/04/2025
+ms.date: 2/10/2025
 ---
 
 # Set up a Viva Glint Employee Lifecycle program
@@ -63,9 +63,9 @@ In the first box, define the basics for your program.
 |**Additional Languages**|Manage Programs must be enabled for the name to appear in the search box.|Be sure survey items are available in all languages chosen. To remove languages, select the **X** next to the language name.|
 |**Suggested Actions Available**|Enables Users to create goals.|	Toggle to enable or disable|
 |**Response Window**|The number of days the employee has to complete the survey once it's Live|Glint suggests 14 days, but you can raise or lower this window.|
-|**Waiting Period Between Surveys** - **Note: this functionality begins on 2/15/2025* |The number of days before an employee is eligible to take the survey again after the previous survey closes.|Our systems constantly checks for changes in the trigger date so if a survey is already generated for this timeframe, it doesn't generate a new one. In many Employee Lifecycle programs, Glint recommends 30, 60, 90, or even 365 days (one full year).|
+|**Waiting Period Between Surveys** |The number of days before an employee is eligible to take the survey again after the previous survey closes.|Our systems constantly checks for changes in the trigger date so if a survey is already generated for this timeframe, it doesn't generate a new one. In many Employee Lifecycle programs, Glint recommends 30, 60, 90, or even 365 days (one full year).|
 |**Allow Survey Resubmission**|Allow survey takers to retake their surveys. All previous responses are deleted.|Toggle to enable or disable.|
-|**Auto-expand comments input**| With this functionality enabled, a comment box shows after each survey item posed to a survey taker. Disabled, the survey automatically moves to the next item.	Disabled by default.| Toggle to enable. This feature prompts more detailed and actionable insights by survey takers, increasing survey engagement.|
+|**Auto-expand comments input** - *Note: this functionality begins on 2/15/2025* | With this functionality enabled, a comment box shows after each survey item posed to a survey taker. Disabled, the survey automatically moves to the next item.	Disabled by default.| Toggle to enable. This feature prompts more detailed and actionable insights by survey takers, increasing survey engagement.|
 |**Enable Viva Pulse Integration**| Enabling this feature sends Glint data for every closed program cycle and future cycles.|	See the Reporting page to specify which roles have access to this integration.|
 
 ### Distribution List page
