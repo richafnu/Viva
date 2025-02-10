@@ -60,7 +60,7 @@ People Goals and Development are terms Viva Glint uses to distinguish between tw
 - **Development** goals refer to 360 feedback program Focus Areas.
 - **People** goals refer to Focus Areas for all other types of surveys.
 
-:::image type="content" source="../../media/glint/reports/xxxxxxx.png" alt-text="Screenshot of Focus Area status by type.":::
+:::image type="content" source="../../media/glint/reports/focus-area-overview-status-type.png" alt-text="Screenshot of Focus Area status by type.":::
 
 ### How is the percentage of Focus Area participation calculated?
 
