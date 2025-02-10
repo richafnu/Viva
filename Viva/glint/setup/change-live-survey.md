@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 2/05/2025
+ms.date: 2/10/2025
 ---
 
 # Make changes to a live Viva Glint survey
@@ -106,9 +106,20 @@ The information is broken out across **Program Summary** setup pages.
 | --- | --- | --- |
 | **The text at the beginning and end of the survey** | The **Intro** or **Thank You** text needs adjustments or corrections. | Newly edited text is featured immediately on surveys that haven't started. |
 | **Add or remove a survey item** | You want to add a new item or remove an item from a Live survey. | An item *can't* be added or removed from a Live survey except in an Always-On or an Employee Lifecycle program. |
-| **Item order** | The questions need to be reordered. | Newly edited item order is featured immediately on surveys that haven't started. |
+| **Item order** | The items need to be reordered. | Newly edited item order is featured immediately on surveys that haven't started. |
 |**Survey sections and survey breaks**| You want to change the formatting of the survey.| Survey section and break additions can't occur during a Live cycle. Section and break changes apply to upcoming cycles only.|
-| **Question text** | The phrasing or benchmark status of an item needs to be edited. |**#1 - You need to change text for an item associated with a benchmark, without a benchmark change**. <ul><li> Once confirmed and saved, the edited item is pushed to all Live and future surveys that use it.</li><li> All programs with the changed item are automatically set to allow survey resubmission.</li><li> If your organization uses Entra ID or personalized links for survey access, notify participants who started or completed the survey via email. Select the checkbox.</li><li>If your organization uses attribute-based survey access, manual notification of the change is required.</li><li> Existing external benchmark associations remain the same in the Question Library and in your survey reports. </ul> **#2 - You need to change text for an item not associated with a benchmark.** <ul><li>Once confirmed and saved, the edited item is pushed to all live and future surveys that use it.</li><li> All programs with the changed item are automatically set to allow survey resubmission.</li><li> If your organization uses Entra ID or personalized links for survey access, notify participants who started or completed the survey via email. Select the checkbox.</li><li>If your organization uses attribute-based survey access, manual notification of the change is required.</ul> **#3 - You need to change benchmark mapping but aren't changing item text**.  <ul><li> External benchmarks are updated in the Question Library.</li><li> To accurately update reports, re-approve the survey program that includes the changed item.</ul> **#4 - You need to change benchmark mapping and change item text.**  <ul><li> Once confirmed and saved, the edited item is pushed to all Live and future surveys that use it.</li><li> All programs with the changed item are automatically set to allow survey resubmission.</li><li>If your organization uses Entra ID or personalized links for survey access, notify participants who started or completed the survey via email. Select the checkbox.</li><li>If your organization uses attribute-based survey access, manual notification of the change is required</li><li> Existing external benchmark associations are updated in the Question Library. </li><li> To accurately update reports, re-approve the survey program which includes the changed item.</ul>|
+| **Question text** | The phrasing or benchmark status of an item needs to be edited. | <ul><li> Once confirmed and saved, the edited item is pushed to all Live and future surveys that use it.</li><li> All programs with the changed item are automatically set to allow survey resubmission.</li><li> If your organization uses Entra ID or personalized links for survey access, notify participants who started or completed the survey via email. Select the checkbox.</li><li>If your organization uses attribute-based survey access, manual notification of the change is required.</ul>  
+
+### Question mapping
+
+Mapping to a Viva Glint standard item needs to be updated.
+
+| Scenario | Considerations |
+| -------- | --------| 
+|**#1 - You need to change text for an item associated with a benchmark but without a benchmark change**.|Existing external benchmark associations remain the same in the Question Library and in your survey reports. |
+|**#2 - You need to change text for an item not associated with a benchmark.** | The considerations stated above in **Question text** apply.|
+|**#3 - You need to change benchmark mapping but aren't changing item text**.|  <ul><li> External benchmarks are updated in the Question Library.</li><li> No updates are made to survey items, so Live and future surveys aren't impacted.</ul> |
+|**#4 - You need to change benchmark mapping and change item text.** | <ul><li>The considerations stated above in **Question text** apply.</li><li>Existing external benchmark associations are updated in the Question Library. </li><li> To accurately update reports, re-approve the survey program which includes the changed item.</ul>|
 
 :::image type="content" source="../../media/glint/setup/questions-confirm-before-changing-no-benchmark.png" alt-text="Screenshot of the Confirm before saving dialog box for item change without benchmark change." lightbox="../../media/glint/setup/questions-confirm-before-changing-no-benchmark.png":::
 
