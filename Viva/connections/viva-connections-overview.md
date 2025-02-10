@@ -46,7 +46,7 @@ Viva Connections gives different roles in your organization a personalized landi
 
 > [!NOTE]
 >
-> Updates to the Viva Connections mobile app are planned for Q2 2024.
+> An update is planned for Q2 2025 that will replace the Feed experience with an Enterprise News Reader that will present news that's recommended for you from your organization.
 
 :::image type="content" source="../media/connections/viva-connections-overview/vc3-desktop-mobile-compare.png" alt-text="Screenshot of the Viva Connections app on desktop and mobile." lightbox="../media/connections/viva-connections-overview/vc3-desktop-mobile-compare.png":::
 
@@ -70,7 +70,7 @@ Use the [quick guide to set up Viva Connections](set-up-admin-center.md) or get 
 
 > [!NOTE]
 >
-> - A home site is not a requirement for setting up Viva Connections, but some organizations may choose to use a home site in addition to Viva Connections to provide a secondary landing experience that’s more focused on organizational content. [Learn more about home sites and how they complement Viva Connections](#how-sharepoint-home-sites-and-viva-connections-work-together).
+> - A home site isn't a requirement for setting up Viva Connections, but some organizations might choose to use a home site in addition to Viva Connections to provide a secondary landing experience that’s more focused on organizational content. [Learn more about home sites and how they complement Viva Connections](#how-sharepoint-home-sites-and-viva-connections-work-together).
 
 ## Components to Viva Connections
 
@@ -186,7 +186,7 @@ Accessing Viva Connections from a tablet or mobile device features a more compac
 
 ### The Viva Connections desktop experience
 
-Accessing Viva Connections via Teams, SharePoint home page, or [Viva Suite home website](https://viva.cloud.microsoft/) provides a consistent experience through multiple entry points.
+Users can access Viva Connections via Teams, their organization's SharePoint home page, or the [Viva Suite home website](https://viva.cloud.microsoft/), thus providing a consistent experience through multiple entry points.
 
 :::image type="content" source="../media/connections/viva-connections-overview/vc3-at-a-glance-desktop.png" alt-text="Screenshot of the Viva Connections desktop experience." lightbox="../media/connections/viva-connections-overview/vc3-at-a-glance-desktop.png":::
 
