@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 11/14/2024
+ms.date: 02/10/2025
 ---
 
 # Set up Viva Glint User Roles
@@ -23,7 +23,7 @@ In the **User Roles** feature, admins assign multiple roles with specific permis
 
 :::image type="content" source="../../media/glint/setup/user-roles-access.png" alt-text="Screenshot that shows how to access User Roles from the admin dashboard.":::
 
-## Glint User Role template
+## Viva Glint User Role template
 
 Use our template as a planning tool to define role permissions. There are three filter distinctions:
 
@@ -33,7 +33,7 @@ Use our template as a planning tool to define role permissions. There are three 
 
 The [**User Roles and Access template**](https://www.microsoft.com/download/details.aspx?id=105793) includes prepopulated example roles and instructions for defining permissions. 
 
-**Not all User Roles and prepopulated attributes and permissions in the Glint template may apply to your organization.** To customize your template,use your Employee Attribute File labels (column headers) for attributes specific to your organization.
+**Not all User Roles and prepopulated attributes and permissions in the Viva Glint template may apply to your organization.** To customize your template, use your Employee Attribute File labels (column headers) for attributes specific to your organization.
 
 
 > [!TIP]
@@ -41,22 +41,23 @@ The [**User Roles and Access template**](https://www.microsoft.com/download/deta
 
 ## Preconfigured User Roles
 
-The roles in this table are preconfigured in Glint: 
+The roles in this table are preconfigured in Viva Glint:
 
 |**Role title**|**Data reporting permission level**|
 |---------|----------|
-|**Company Admin**| Employees who are granted **ALL** permission. Includes Advanced Configuration access.|
-|**Active Employees**|  Membership in this role is automatically based on the employee's status in Glint. This role isn't intended to grant data access.|
-|**Inactive Employees**| Membership in this role is automatically based on the employee's status in Glint. This role isn't intended to grant data access.|
-|**Managers**|Includes permission to see reporting for the employees team. Attribute filters aren't defined.|
+|**Company Admin**| Employees who are granted **ALL** permissions. Includes optional Advanced Configuration access.|
+|**Active Employees**|  Membership in this role is automatic based on the employee's status ("ACTIVE") in Viva Glint. This role doesn't grant data access.|
+|**Inactive Employees**| Membership in this role is automatic based on the employee's status ("INACTIVE") in Viva Glint. This role doesn't grant data access.|
+|**Managers**|Includes permission to see reporting for the employee's team based on Viva Glint's calculated manager hierarchy. Attribute filters aren't defined.|
 |**Support Users**| [Other Microsoft 365 users](/viva/glint/setup/add-external-user) who have advanced access. |
 
 > [!IMPORTANT]
-> Predefined User Roles can't be deleted from your Glint programs.
+> - Viva Glint Admins can't delete predefined User Roles from Viva Glint.
+> - Users that need to access Viva Glint dashboards, or the My Surveys tab, need an "ACTIVE" status and to exist in the Active Employees role. Learn more about accessing [Viva Glint](access-glint.md).
 
 ## Modify predefined roles
 
-Viva Glint Admins can modify predefined Glint product roles. This capability reduces the time required to assign roles and reduces the necessity to create new roles.
+Viva Glint Admins can modify predefined Viva Glint product roles. This capability reduces the time required to assign roles and reduces the necessity to create new roles.
 
 Access User Roles from your admin dashboard. Your User Role list may look something like this:
 
@@ -68,7 +69,7 @@ Access User Roles from your admin dashboard. Your User Role list may look someth
    
    :::image type="content" source="../../media/glint/setup/user-roles-permissions.png"alt-text="Screenshot of accessing Permissions in User Roles."lightbox="../../media/glint/setup/user-roles-permissions.png":::
 
-2. View what permissions they have, and now let's add **Manage Survey Programs** with the ability to **Manage Sensitive Comments**.
+2. View what permissions they have and now let's add **Manage Survey Programs** with the ability to **Manage Sensitive Comments**.
 
    :::image type="content" source="../../media/glint/setup/user-roles-add-permissions-2.png"alt-text="Screenshot of adding Permissions in User Roles."lightbox="../../media/glint/setup/user-roles-add-permissions-2.png":::
 
