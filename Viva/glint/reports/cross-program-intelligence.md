@@ -30,7 +30,7 @@ Microsoft Viva Glint cross-program intelligence is an advanced filtering option 
 
 ## Confidentiality
 
-Viva Glint’s pross-Program intelligence always honors the stricter confidentiality threshold between two survey programs to always meet data protection expectations set with participants when they took the survey. 
+Viva Glint’s cross-Program intelligence always honors the stricter confidentiality threshold between two survey programs to always meet data protection expectations set with participants when they took the survey. 
 
 With cross-program filtering, users can filter by attributes and demographics but also by question responses and comment sentiment and topics. To protect confidentiality in these analyses, there's 'always a baseline threshold of 10 respondents for scores and 20 for comments. 
 
