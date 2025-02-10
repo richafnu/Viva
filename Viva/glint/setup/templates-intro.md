@@ -26,6 +26,9 @@ The Viva Glint People Success Taxonomy database contains survey items - question
 
 Each item has a unique Item Name and Question Universally Unique Identifier (UUID) to distinguish it in the Viva Glint platform. The text of each item isn't necessarily unique. Where an item has identical text, but is used in more than one survey template (for example, Onboarding and Engagement), the **tags** associated with the item are different. The identical item text may be used in more than one survey, in which case the **item name** and **UUID** are distinct to that use case. *Identically-stated items may have significantly different benchmark scores between templates because the survey frame of reference and context are different.*
 
+>[!IMPORTANT]
+> Taxonomy is an orderly classification of general principles, generally related to science.
+
 ## Survey item tags
 
 Items have associated tags associated to help you sort and filter them. These tags are helpful to understand:
@@ -45,14 +48,46 @@ Throughout the taxonomy, certain items may contain a *referent* which directs th
 
 > Example **with** a referent: “I feel cared about as a person on my team.” 
 >
-> Example **without** a referent: “At work, I feel cared about as a person.” 
+> Example **without** a referent: “At work, I feel cared about as a person.”
 
+### Referent definitions
 
+|Referent|Description|
+|--------|--------|
+|**(My) Team**|These items may read "my team" or "on my team. The items refer to a group of people that the respondent is a member of and who all work either in the same department or for the same manager.|
+|**Teams**|These items may read "teams" or "work team(s)." The items refer more generally to groups of people across the company, not necessarily the team therespondent is on.|
+|**Coworkers**|These items may read "Coworkers" or "peopler" or "employees." The items refer to other people, in general not necessarilty on the same team as the respondent.|
+|**Manager**|These items may read "my manager" or "my Supervisor." The item refers to the person the respondent reports to directly and who most likely has the most influence over the respondent's job and provides the respondent feedback and employment reviews.|
+|**Leadership**| These items may read "executive team" or "top leaders" or "leadership team." The items generally refer to the to executive team - the CEO and their direct reports.<ul><li>"Leaders" or "leadership" can also be a general reference to leaders at various levels in the company.</li><li>"Leaders in my organization" refers to the management chain above the responder within their larger departent or unit.</ul>|
+|**Company**| These items may also be stated as "where I work" or "at this company" or "here." The items refer to an experience of the entire company overall.|
+|**Industry specific job referent**| Some companies may use specific job titles or common abbreviations. "RN" is an example - Registered Nurse|
 
+With all of the above referents, customers often customize the item by inserting the actual name(s) or using parenthese to clarify specifically who the entity is to be rated by name. 
+> For example, "The leadership team" might be replaced with "Fred Smith and his directs"
+> Another example is to simply state the name(s) where the referent would be: I get the support I need from Fred Smith."
 
+>[!NOTE]
+>Some items have customized text versions listed as "Referent." These versions allow the user to choose to assign responsibility at a level that is different than the Viva Glint recommended items. Based on idustry best practices, benchmarking, and the best judgement of Viva People Science, a referent is included only when it's clear where the onus for taking action is typically assigned.
 
 ## Metrics
-## Terminology
+
+Items have metrics to help determine when to use them.
+
+|Item|Need-to-know|
+|-------|------|
+|**Benchmark**|Reads **TRUE** if the item has a benchmark.|
+|**Item Popularity**|The number of customers who used this item in the past 12 months.|
+|**Correlation with eSat**|*The Pearson coefficient (r)* measuring the item's correlation to eSat (happiness at work). *The Pearson coefficient is a measurement quantifying the strength of the association between two variables. Pearson’s correlation coefficient appears as *r.* |
+
+## Item tag categorization
+
+Item tags are categorized in either of these ways:
+
+- **According to the People Success Elements they measure:** The People Success (Purpose, Growth, Clarity, Empowerment, Connection, and Well-Being) are six over-arching categories that together summarize the fundamental needs and expectations most critical to a person’s holistic life experience (not just their work experience) that best shape the environment for high engagement. 
+
+- **According to the domains of employee experience and 14 main topic areas (Leadership, Job, Communication, Growth, Rewards, etc.) that, based on Viva People Science  research, are the most typical industry categories for employee survey items.**
 
 
-|Taxonomy|An orderly classification of general principles, generally related to science.|
+
+
+
