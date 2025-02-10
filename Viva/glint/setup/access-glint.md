@@ -1,6 +1,6 @@
 ---
 title: Access the Viva Glint platform
-description: Access Microsoft Viva Glint with a Microsoft Entra ID user account and review supported browsers and session timeout information.
+description: Active Microsoft Viva Glint admin and dashboard users can access Viva Glint with a Microsoft Entra ID user account and an ACTIVE status in the Viva Glint app. Use this article to learn about supported internet browsers, access links, session time-outs, login troubleshooting, and dashboard experiences.
 ms.author: aweixelman
 author: AliciaWeixelman
 manager: melissabarry
@@ -19,7 +19,7 @@ ms.date: 02/10/2025
 
 # Access the Viva Glint platform
 
-Active Microsoft Viva Glint admin and dashboard users can access Viva Glint with a Microsoft Entra ID user account and an ACTIVE status in the Viva Glint app. Use this article to learn about supported internet browsers, access links, session timeouts, login troubleshooting, and dashboard experiences. 
+Active Microsoft Viva Glint admin and dashboard users can access Viva Glint with a Microsoft Entra ID user account and an ACTIVE status in the Viva Glint app. Use this article to learn about supported internet browsers, access links, session time-outs, login troubleshooting, and dashboard experiences. 
 
 > [!IMPORTANT]
 > To successfully access Viva Glint, users must:
@@ -52,7 +52,7 @@ Your Entra or other IT admins choose [authentication methods in Microsoft Entra 
 - US - [http://app.us1.glint.cloud.microsoft](http://app.us1.glint.cloud.microsoft)
 - EU - [http://app.eu1.glint.cloud.microsoft](http://app.eu1.glint.cloud.microsoft)
 
-## Session timeout
+## Session time-out
 
 After 20 minutes of inactivity, you're prompted with an initial **"Are you still here?"** message. A Viva Glint session ends after another 10 minutes of inactivity.
 
