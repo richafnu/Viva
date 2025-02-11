@@ -168,7 +168,7 @@ items:
       - name: People page
         href: setup/people-page.md
         items:  
-            - name: Manage external users 
+            - name: Manage Support users 
               href: setup/add-external-user.md
             - name: Export and import User Role members 
               href: setup/export-user-roles.md
