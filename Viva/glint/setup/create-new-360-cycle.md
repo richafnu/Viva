@@ -33,6 +33,7 @@ After choosing the **Glint Manager 360 Program template** or the blank template,
 ## Use the Actions dropdown menu
 
 :::image type="content" source="../../media/glint/setup/360-actions-menu.png" alt-text="Screenshot of the 360 Actions menu.":::
+
 Open the **Actions** dropdown menu to:
 
 ### Duplicate your program
@@ -42,7 +43,7 @@ Only the most recent cycle settings copy. No program history, schedules, or part
 Easily add a group of admins included in a pre-existing role.
 
 ### Update language settings
-Select **Language Setting**s to confirm:
+Select **Language Settings** to confirm:
 - Additional Survey Languages: Options available to feedback providers
 - Default Survey Language: The default survey language
 - Dashboard Languages: Options available to subjects when selecting feedback providers and focus areas
@@ -51,9 +52,9 @@ Select **Language Setting**s to confirm:
 
 ## Set up 360 cycle settings 
 
-Although **Manage Subjects* *appears first on the cycle page, we recommend setting up **Cycle Settings** first. There are five areas to set up. As you move through them, a filled blue circle confirms their completion.
+Although **Manage Subjects** appears first on the cycle page, we recommend setting up **Cycle Settings** first. There are five areas to set up. As you move through them, a filled blue circle confirms their completion.
 
-:::image type="content" source="../../media/glint/setup/360-cycle-settings-first.png"alt-text="Screenshot of the five sections to configure in Cycle Settings.":::
+:::image type="content" source="../../media/glint/setup/360-cycle-settings-first.png" alt-text="Screenshot of the five sections to configure in Cycle Settings.":::
 
 There are three sections to configure:
 - The Basics
@@ -64,16 +65,16 @@ Select **Save** when you're done configuring the page.
 
 ### The Basics
 
-:::image type="content" source="../../media/glint/setup/360-the-basics-2.png"alt-text="Screenshot of the first section to configure in Cycle Settings.":::
+:::image type="content" source="../../media/glint/setup/360-the-basics-2.png" alt-text="Screenshot of the first section to configure in Cycle Settings.":::
 
 ### Feedback provider category settings and confidentiality
 
-:::image type="content" source="../../media/glint/setup/360-categories-confidentiality-2.png"alt-text="Screenshot of the second section to configure in Cycle Settings.":::
+:::image type="content" source="../../media/glint/setup/360-categories-confidentiality-2.png" alt-text="Screenshot of the second section to configure in Cycle Settings.":::
 
 Select up to six feedback provider categories. 
 - Standard categories automatically prepopulate feedback providers based on Manager Hierarchy.
 - Remove the Direct Reports category for individual contributor (IC) subjects.
-- **Or** ask IC subjects to skip adding feedback providers for the Direct Reports category for  cycles with both managers and ICs.
+- **Or** ask IC subjects to skip adding feedback providers for the Direct Reports category for cycles with both managers and ICs.
 
 >[!TIP]
 > To ensure a true 360 view, choose at least three feedback provider categories, in addition to Self.
@@ -95,9 +96,9 @@ Select up to six feedback provider categories.
 
 **Hover over and choose a category** to open the **Edit window** for that category, which looks like this example:
 
-:::image type="content" source="../../media/glint/setup/360-edit-provider-category-2.png"alt-text="Screenshot of an example of a window that opens to edit a feedback provider category.":::
+:::image type="content" source="../../media/glint/setup/360-edit-provider-category-2.png" alt-text="Screenshot of an example of a window that opens to edit a feedback provider category.":::
 
-Edit each field as you’d like. When editing in another language that is available in the dropdown menu, that language saves so you can come back to it later if further edits are needed.
+Edit each field as you’d like. When editing in another language that's available in the dropdown menu, that language saves so you can come back to it later if further edits are needed.
 
 ## Confidentiality Statements
 
@@ -111,7 +112,7 @@ This setting can’t be edited once a cycle is live. Choose between:
 - **On** (default): Subjects see feedback providers and if they've responded. In reports, subjects see which feedback providers responded per category, but responses aren't tied to individual names.
 - **Off**: Subjects see feedback providers but not whether they've responded. In reports, they see only the number of feedback providers who responded.
 
-:::image type="content" source="../../media/glint/setup/360-provider-response-info-2.png"alt-text="Screenshot of the Feedback Provider Response Information window.":::
+:::image type="content" source="../../media/glint/setup/360-provider-response-info-2.png" alt-text="Screenshot of the Feedback Provider Response Information window.":::
 
 ## Delete a program
 All settings and cycles associated with this program are deleted. This step can't be undone.
