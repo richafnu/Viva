@@ -309,16 +309,15 @@ items:
         items:
            - name: 360 overview and terminology
              href: setup/360-overview.md
-           - name: 360 feedback program setup
+           - name: 360 program design and templates
+             href: setup/360-design-templates.md
+           - name: 36 0 foundational setup
              items:
                 - name: 360 General settings
                   href: setup/360-general-settings.md
-                - name: 360 User Role creation and permissions
+                - name: 360 User Roles 
                   href: setup/360-roles-permissions.md
-                - name: 360 program design and templates
-                  href: setup/360-design-templates.md
-           - name: Manage 360 feedback cycles
-             items:
+               
                 - name: Create a new 360 cycle
                   href: setup/create-new-360-cycle.md
                   items:
