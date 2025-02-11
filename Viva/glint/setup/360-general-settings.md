@@ -26,16 +26,16 @@ ms.date: 2/11/2025
 1. Review selections that apply to all your Glint programs and confirm that 360 items are set up. 
 1. [View, edit, or update the information](manage-general-settings.md).
 
-Focus on these items:
+   Focus on these items:
 
-|Section|Item to set up|Description|
-|-------|---------|---------|
-|**Company information**|**Top-level Manager (CEO**)|Confirm that the top-level Manager/CEO for your organization is selected. Manager Hierarchy is a critical piece of information used in 360s to determine feedback provider category assignments and 360 report access.|
-|**Engage Survey Details**| **Require Azure AD for links in survey emails** | Viva Glint Admins, 360 Admins, and 360 subjects must exist in and authenticate with Microsoft Entra ID to access 360 feedback items. Feedback providers have two access options based on the this access setting. Confirm whether this functionality is set to: <br><br> <ul><li>**Yes** to require all users to authenticate with Microsoft Entra ID, or </li> <li>**No** to allow feedback providers to give feedback without authenticating with Microsoft Entra ID</li></ul> <br> **Note:** This setting applies to all surveys and not just 360 feedback programs. [Learn more about survey access methods](understand-survey-access-methods.md)
-|**Features**|**Community Enabled**|Define if access to Viva Glint’s community is allowed |
-|**Features**|**Default Focus Area Privacy**|Set privacy level for users to search for, view, and comment on other users’ focus areas:<br><br><ul><li> **Publicly Visible** - Everyone in the organization </li><li> **Visible to Manager** - The user’s manager, up-level managers, or anyone configured with custom focus area access </li><li> **Visible to Manager and Directs** - The user’s manager, up-level managers, direct reports, or anyone configured with custom focus area access </li><li> **Visible to Manager and Full Team** - The user’s manager, up-level managers, everyone who reports up to the user, or anyone with custom focus area access to the manager </li></ul>|
-|**Localization**|**Supported Survey Languages**|Determines which survey languages are available for users to select in a 360 feedback program|
-|**Localization**|**Supported Dashboard Languages**|Determines which dashboard languages are available to select in a 360 feedback program|
+   |Section|Item to set up|Description|
+   |-------|---------|---------|
+   |**Company information**|**Top-level Manager (CEO**)|Confirm that the top-level Manager/CEO for your organization is selected. Manager Hierarchy is a critical piece of information used in 360s to determine feedback provider category assignments and 360 report access.|
+   |**Engage Survey Details**| **Require Azure AD for links in survey emails** | Viva Glint Admins, 360 Admins, and 360 subjects must exist in and authenticate with Microsoft Entra ID to access 360 feedback items. Feedback providers have two access options based on the this access setting. Confirm whether this functionality is set to: <br><br> <ul><li>**Yes** to require all users to authenticate with Microsoft Entra ID, or </li> <li>**No** to allow feedback providers to give feedback without authenticating with Microsoft Entra ID</li></ul> <br> **Note:** This setting applies to all surveys and not just 360 feedback programs. [Learn more about survey access methods](understand-survey-access-methods.md)
+   |**Features**|**Community Enabled**|Define if access to Viva Glint’s community is allowed |
+   |**Features**|**Default Focus Area Privacy**|Set privacy level for users to search for, view, and comment on other users’ focus areas:<br><br><ul><li> **Publicly Visible** - Everyone in the organization </li><li> **Visible to Manager** - The user’s manager, up-level managers, or anyone configured with custom focus area access </li><li> **Visible to Manager and Directs** - The user’s manager, up-level managers, direct reports, or anyone configured with custom focus area access </li><li> **Visible to Manager and Full Team** - The user’s manager, up-level managers, everyone who reports up to the user, or anyone with custom focus area access to the manager </li></ul>|
+   |**Localization**|**Supported Survey Languages**|Determines which survey languages are available for users to select in a 360 feedback program.|
+   |**Localization**|**Supported Dashboard Languages**|Determines which dashboard languages are available to select in a 360 feedback program|
 
 ## Create a unique 360 admin role
 
@@ -50,11 +50,11 @@ From the Viva Glint admin dashboard, select the **Configuration** symbol and the
     :::image type="content" source="../../media/glint/setup/360-unique-manager-role-2.png" alt-text="Screenshot of naming a unique 360 admin User Role.":::
    
 1. Select **Permissions** and scroll down to the **Feedback** section of the page.
-4. Enable **Access 360 feedback**.
-5. Select **Manage Feedback** to enable users to modify existing 360 feedback programs.
-6. Select **Create 360s** to enable users to create and modify 360 programs.
-7. Select **Save Changes**.
-8. In the **Confirm your changes to Permissions** dialog box which opens, select **Save Permissions.**
+1. Enable **Access 360 feedback**.
+1. Select **Manage Feedback** to enable users to modify existing 360 feedback programs.
+1. Select **Create 360s** to enable users to create and modify 360 programs.
+1. Select **Save Changes**.
+1. In the **Confirm your changes to Permissions** dialog box which opens, select **Save Permissions**.
 
    :::image type="content" source="../../media/glint/setup/confirm-permissions.png" lightbox="../../media/glint/setup/confirm-permissions.png" alt-text="Screenshot of the Confirm your changes to Permissions dialog box.":::
 
