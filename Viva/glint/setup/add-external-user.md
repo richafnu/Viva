@@ -22,14 +22,14 @@ ms.date: 02/11/2025
 The Support User role is designed to grant the right permissions to guests, like Microsoft Partners, and allow Microsoft Viva Glint Administrators to quickly audit how many Support users have access to their Viva Glint application. Support users can help with deployment, advanced insights analysis, and complex support tasks. 
 
 > [!IMPORTANT]
-> Support users must be added to Microsoft Entra ID as **members with a company email address** for your organization before you can add them to to the Viva Glint platform. These users shouldn't be included in your HRIS employee data file.
+> Support users must be added to Microsoft Entra ID as **members with a company email address** for your organization before you can add them to the Viva Glint platform. These users shouldn't be included in your employee data file.
 >
 > [Add and delete users in Microsoft Entra ID](/training/modules/manage-users-and-groups-in-aad/)
 
 ## Add a Support user
 
 > [!CAUTION]
-> Don't add support users to the Viva Glint Company Admin role by [assigning them in the Microsoft 365 admin center](post-provisioning-next-steps.md). Users won't be able to successfully log in to Viva Glint.
+> Don't add support users to the Viva Glint Company Admin role by [assigning them in the Microsoft 365 admin center](post-provisioning-next-steps.md). Users aren't able to successfully log in to Viva Glint.
 
 To add a user:
 
@@ -59,4 +59,4 @@ When a Support user no longer needs access to your Viva Glint account:
 5. In the dialog, select **Delete User.**
 
    > [!IMPORTANT]
-   > This action is irriversible.
+   > This action is irreversible.
