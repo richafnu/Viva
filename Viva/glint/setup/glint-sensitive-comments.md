@@ -14,7 +14,8 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localization priority: high
-ms.date: 08/09/2024
+ms.custom: CELA-approved
+ms.date: 02/10/2025
 ---
 
 # Flag Sensitive comments in Viva Glint
