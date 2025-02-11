@@ -313,31 +313,27 @@ items:
              href: setup/360-design-templates.md
            - name: Set up General settings and User Roles 
              href: setup/360-general-settings.md
-                - name: 360 User Roles 
-                  href: setup/360-roles-permissions.md
            - name: Create a new 360 cycle
              href: setup/create-new-360-cycle.md
+             itmes: 
+               - name: 360 feedback provider selections
+                 href: setup/overview-feedback-provider-selection.md
+               - name: 360 competencies and reporting
+                 href: setup/360-competencies.md
+               - name: 360 Schedule and Communications setup
+                 href: setup/360-schedules-comms.md
+               - name: Customize 360 email content
+                 href: setup/360-email-edits.md
+               - name: Manage 360 subjects, coaches, feedback providers
+                 href: setup/360-manage-subjects.md
+               - name: Export and import 360 language translations
+                 href: setup/360-export-import.md
+           - name: 360 feedback items
              items:
-                - name: Setup
-                  href: ../360-config-cycle-settings.md
-                - name: 360 feedback items
-                  items:
-                     - name: Core items
-                       href: setup/360-core-questions.md
-                     - name: Adding and editing program items
-                       href: setup/360-add-edit-cycle-questions.md
-                - name: 360 feedback provider selections
-                  href: setup/overview-feedback-provider-selection.md
-                - name: 360 competencies and reporting
-                  href: setup/360-competencies.md
-                - name: 360 Schedule and Communications setup
-                  href: setup/360-schedules-comms.md
-                - name: Customize 360 email content
-                  href: setup/360-email-edits.md
-                - name: Manage 360 subjects, coaches, feedback providers
-                  href: setup/360-manage-subjects.md
-                - name: Export and import 360 language translations
-                  href: setup/360-export-import.md
+                - name: Core items
+                  href: setup/360-core-questions.md
+                - name: Adding and editing program items
+                  href: setup/360-add-edit-cycle-questions.md
            - name: Test and launch 360s
              href: setup/360-test-launch.md
            - name: Admin experience during a live 360 program
