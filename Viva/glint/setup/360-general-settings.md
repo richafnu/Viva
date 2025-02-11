@@ -1,6 +1,6 @@
 ---
 title: Microsoft Viva Glint 360 feedback program General Settings and User Roles setup
-description: 360 feedback setup begins in the General Settings section of the admin dashboard. By default, Viva Glint adminis have access to create and edit all Viva Glint programs, including 360s. A best practice, however, choose to create a unique User Role with exclusive 360 admin permissions. 
+description: 360 feedback setup begins in the General Settings section of the admin dashboard. By default, Viva Glint admins have access to create and edit all Viva Glint programs, including 360s. A best practice, however, choose to create a unique User Role with exclusive 360 admin permissions. 
 ms.author: JudithWeiner
 author: JudyWeiner
 manager: mbarry
@@ -19,7 +19,7 @@ ms.date: 2/11/2025
 
 # Microsoft Viva Glint 360 feedback program General Settings and User Roles setup
 
-360 feedback setup begins in the General Settings section of the admin dashboard. By default, Viva Glint adminis have access to create and edit all Viva Glint programs, including 360s. A best practice, however, choose to create a unique User Role with exclusive 360 admin permissions. And, in addition to any unique 360 admin role, other people in your organization need access to 360 feedback. Use this guidance to grant feedback permissions for other User Roles.
+360 feedback setup begins in the General Settings section of the admin dashboard. By default, Viva Glint admins have access to create and edit all Viva Glint programs, including 360s. A best practice, however, choose to create a unique User Role with exclusive 360 admin permissions. And, in addition to any unique 360 admin role, other people in your organization need access to 360 feedback. Use this guidance to grant feedback permissions for other User Roles.
 
 ## Configure General Settings 
 1. From the Viva Glint admin dashboard, select the **Configuration** symbol and then **General Settings**. 
@@ -31,7 +31,7 @@ Focus on these items:
 |Section|Item to set up|Description|
 |-------|---------|---------|
 |**Company information**|**Top-level Manager (CEO**)|Confirm that the top-level Manager/CEO for your organization is selected. Manager Hierarchy is a critical piece of information used in 360s to determine feedback provider category assignments and 360 report access.|
-|**Engage Survey Details**| **Require Azure AD for links in survey emails** | Viva Glint Admins, 360 Admins, and 360 subjects must exist in and authenticate with Microsoft Entra ID to access 360 feedback items. Feedback providers have two access options based on the this access setting. Confirm whether this is set to: <br><br> <ul><li>**Yes** to require all users to authenticate with Microsoft Entra ID, or </li> <li>**No** to allow feedback providers to give feedback without authenticating with Microsoft Entra ID</li></ul> <br> **Note:** This setting applies to all surveys and not just 360 feedback programs. [Learn more about survey access methods](understand-survey-access-methods.md)
+|**Engage Survey Details**| **Require Azure AD for links in survey emails** | Viva Glint Admins, 360 Admins, and 360 subjects must exist in and authenticate with Microsoft Entra ID to access 360 feedback items. Feedback providers have two access options based on the this access setting. Confirm whether this functionality is set to: <br><br> <ul><li>**Yes** to require all users to authenticate with Microsoft Entra ID, or </li> <li>**No** to allow feedback providers to give feedback without authenticating with Microsoft Entra ID</li></ul> <br> **Note:** This setting applies to all surveys and not just 360 feedback programs. [Learn more about survey access methods](understand-survey-access-methods.md)
 |**Features**|**Community Enabled**|Define if access to Viva Glint’s community is allowed |
 |**Features**|**Default Focus Area Privacy**|Set privacy level for users to search for, view, and comment on other users’ focus areas:<br><br><ul><li> **Publicly Visible** - Everyone in the organization </li><li> **Visible to Manager** - The user’s manager, up-level managers, or anyone configured with custom focus area access </li><li> **Visible to Manager and Directs** - The user’s manager, up-level managers, direct reports, or anyone configured with custom focus area access </li><li> **Visible to Manager and Full Team** - The user’s manager, up-level managers, everyone who reports up to the user, or anyone with custom focus area access to the manager </li></ul>|
 |**Localization**|**Supported Survey Languages**|Determines which survey languages are available for users to select in a 360 feedback program|
