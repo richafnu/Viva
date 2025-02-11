@@ -2370,7 +2370,14 @@
     "source_path": "viva/glint/setup/survey-coach.md",
     "redirect_url": "/viva/glint/setup/customize-programs",
     "redirect_document_id": false
-  }
+  },
+  {
+    "source_path": "viva/glint/setup/360-roles-permissions.md",
+    "redirect_url": "/viva/glint/setup/360-general-settings",
+    "redirect_document_id": false
+  {
+
+    
     ]
 
 }
