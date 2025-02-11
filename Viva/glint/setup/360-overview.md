@@ -19,11 +19,11 @@ ms.date: 2/10/2025
 
 # Viva Glint 360 feedback program overview 
 
-The Microsoft Viva Glint 360 feedback program (360s) and process gives insight into a manager's strengths and opportunities with a specific, long-term focus on improvement. 360s gives employees insight from various viewpoints, rather than relying solely on the perspective of an immediate supervisor or manager, 360s invite multiple perspectives. 360s are also known as multi-rater feedback, multisource feedback, or multisource assessments. 
+The Microsoft Viva Glint 360 feedback program (360s) and process gives insight into a manager's strengths and opportunities with a long-term focus on improvement. 360s give employees insight from various viewpoints, rather than relying solely on the perspective of an immediate supervisor or manager. **Research shows that 85% of people struggle with self-awareness - even though 95% of people believe they are self-aware.** The goal of a 360 is to increase self-awareness about key strengths, uncertainties, and the impact a leader has on others. 360s are foundational steps toward professional growth and meaningful change. A 360 isn't a performance evaluation. 
+
+360s are also known as *multi-rater feedback, multisource feedback, or multisource assessments*. 
 
 Viva Glint offers a 360 program template designed for managers. The program is a set of related measures which generate real-time survey analysis, engagement metrics, and Focus Area management techniques. 
-
-**Research shows that 85% of people struggle with self-awareness - even though 95% of people believe they are self-aware.** The goal of a 360 is to increase self-awareness about key strengths, uncertainties, and the impact a leader has on others. Results identify opportunities to improve. 360s are a foundational step to professional growth and meaningful change. A 360 isn't a performance evaluation but is focused on a participant’s development. 
 
 > [!VIDEO https://learn-video.azurefd.net/vod/player?id=bddd87f8-8f2f-4931-a998-3020882fb05c]
 
@@ -32,7 +32,7 @@ Viva Glint offers a 360 program template designed for managers. The program is a
 
 [Use these email templates to introduce the 360 program journey to the people in your organization](/viva/glint/setup/360-email-templates).
 
-## 360 feedback vocabulary
+## 360 feedback terminology
 
 Use these definitions to understand a 360 program:
 
