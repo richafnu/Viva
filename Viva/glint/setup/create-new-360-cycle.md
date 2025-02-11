@@ -49,7 +49,6 @@ Select **Language Setting**s to confirm:
 
 :::image type="content" source="../../media/glint/setup/360-language-settings.png" alt-text="Screenshot of the 360 *Language Settings* window.":::
 
-
 ## Set up 360 cycle settings 
 
 Although **Manage Subjects* *appears first on the cycle page, we recommend setting up **Cycle Settings** first. There are five areas to set up. As you move through them, a filled blue circle confirms their completion.
@@ -76,7 +75,7 @@ Select up to six feedback provider categories.
 - **Or** ask IC subjects to skip adding feedback providers for the Direct Reports category for  cycles with both managers and ICs.
 
 >[!TIP]
->Choose at least three feedback provider categories (in addition to Self) to ensure a true 360 view.
+> To ensure a true 360 view, choose at least three feedback provider categories, in addition to Self.
 
 |Feedback provider category|Minimum confidentiality threshold|Can subject or admin edit prepopulated feedback providers?|How assigned|
 |----------|:-------------:|:-------------:|-------------|
@@ -101,15 +100,15 @@ Edit each field as you’d like. When editing in another language that is availa
 
 ## Confidentiality Statements
 
-You can increase the confidentiality threshold for some feedback provider categories but you can’t decrease the threshold below default values.
+You can increase the confidentiality threshold for some feedback provider categories, but you can’t decrease the threshold less than the default values.
 
 Dependent on the provider category, provider response information settings, and whether your organization included a privacy policy link in General Settings, the 360 confidentiality statement users see varies. [Learn more about Viva Glint 360 privacy and confidentiality](https://go.microsoft.com/fwlink/?linkid=2230922).
 
 ### Feedback provider response information
 
 This setting can’t be edited once a cycle is live. Choose between:
-- **On** (default): Subjects see feedback providers and if they've responded. In reports, subjects see which feedback providers responded per category, but responses are not tied to individual names.
-- **Off**: Subjects see feedback providers but can’t see whether they've responded. In reports, they see only the number of feedback providers who responded.
+- **On** (default): Subjects see feedback providers and if they've responded. In reports, subjects see which feedback providers responded per category, but responses aren't tied to individual names.
+- **Off**: Subjects see feedback providers but not whether they've responded. In reports, they see only the number of feedback providers who responded.
 
 :::image type="content" source="media/glint/setup/360-provider-response-info.png"alt-text="Screenshot of the Feedback Provider Response Information window.":::
 
