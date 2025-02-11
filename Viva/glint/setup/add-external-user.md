@@ -43,10 +43,13 @@ To add a user:
 
 5. Switch the **External user** toggle to **Yes** to flag guests in Viva Glint.
 6. Switch the **Grant user advanced configuration access** setting to **Yes** to allow Support users access to **Advanced Configuration** features.
-7. Select **Add support user.**
+  
+   > [!IMPORTANT]
+   > Users with access to Advanced Configuration settings can make changes to potentially sensitive areas of
+   > your Viva Glint configuration. For an Advanced Configuration overview, see [Understand Advanced
+   > Configuration options in Viva Glint.](understand-advanced-configuration.md)
 
-> [!IMPORTANT]
-> Users with access to Advanced Configuration settings can make changes to potentially sensitive areas of your Viva Glint configuration. For an Advanced Configuration overview, see [Understand Advanced Configuration options in Viva Glint.](understand-advanced-configuration.md)
+7. Select **Add support user.**
 
 ## Remove a Support user
 
