@@ -53,7 +53,7 @@ Select **Language Setting**s to confirm:
 
 Although **Manage Subjects* *appears first on the cycle page, we recommend setting up **Cycle Settings** first. There are five areas to set up. As you move through them, a filled blue circle confirms their completion.
 
-:::image type="content" source="media/glint/setup/360-cycle-settings-do-first.png"alt-text="Screenshot of the five sections to configure in Cycle Settings.":::
+:::image type="content" source="media/glint/setup/360-cycle-settings-first.png"alt-text="Screenshot of the five sections to configure in Cycle Settings.":::
 
 There are three sections to configure:
 - The Basics
@@ -63,11 +63,12 @@ There are three sections to configure:
 Select **Save** when you're done configuring the page.
 
 ### The Basics
-:::image type="content" source="media/glint/setup/360-the-basics.png"alt-text="Screenshot of the first section to configure in Cycle Settings.":::
+
+:::image type="content" source="media/glint/setup/360-the-basics-2.png"alt-text="Screenshot of the first section to configure in Cycle Settings.":::
 
 ### Feedback provider category settings and confidentiality
 
-:::image type="content" source="media/glint/setup/360-categories-confidentiality.png"alt-text="Screenshot of the second section to configure in Cycle Settings.":::
+:::image type="content" source="media/glint/setup/360-categories-confidentiality-2.png"alt-text="Screenshot of the second section to configure in Cycle Settings.":::
 
 Select up to six feedback provider categories. 
 - Standard categories automatically prepopulate feedback providers based on Manager Hierarchy.
@@ -94,7 +95,7 @@ Select up to six feedback provider categories.
 
 **Hover over and choose a category** to open the **Edit window** for that category, which looks like this example:
 
-:::image type="content" source="media/glint/setup/360-edit-provider-category.png"alt-text="Screenshot of an example of a window that opens to edit a feedback provider category.":::
+:::image type="content" source="media/glint/setup/360-edit-provider-category-2.png"alt-text="Screenshot of an example of a window that opens to edit a feedback provider category.":::
 
 Edit each field as you’d like. When editing in another language that is available in the dropdown menu, that language saves so you can come back to it later if further edits are needed.
 
@@ -110,7 +111,7 @@ This setting can’t be edited once a cycle is live. Choose between:
 - **On** (default): Subjects see feedback providers and if they've responded. In reports, subjects see which feedback providers responded per category, but responses aren't tied to individual names.
 - **Off**: Subjects see feedback providers but not whether they've responded. In reports, they see only the number of feedback providers who responded.
 
-:::image type="content" source="media/glint/setup/360-provider-response-info.png"alt-text="Screenshot of the Feedback Provider Response Information window.":::
+:::image type="content" source="media/glint/setup/360-provider-response-info-2.png"alt-text="Screenshot of the Feedback Provider Response Information window.":::
 
 ## Delete a program
 All settings and cycles associated with this program are deleted. This step can't be undone.
