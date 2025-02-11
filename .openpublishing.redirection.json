@@ -2376,6 +2376,11 @@
     "redirect_url": "/viva/glint/setup/360-general-settings",
     "redirect_document_id": false
   {
+  },
+    "source_path": "viva//360-cycle-settings.md",
+    "redirect_url": "/viva/glint/setup/create-new-360-cycle",
+    "redirect_document_id": false
+  {
 
     
     ]
