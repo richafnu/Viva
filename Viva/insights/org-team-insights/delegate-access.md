@@ -99,7 +99,7 @@ Employees who need delegate access can request it for organizational insights (n
 
 5. Enter the name of the group manager or group managers from whom you'd like to request access. You can also add an optional note. Select **Send request**.
 
-    :::image type="content" source="images/request-delegate-access-01.png" alt-text="Screenshot showing how to request delegate access.":::
+    :::image type="content" source="images/request-delegate-access-02.png" alt-text="Screenshot showing how to request delegate access.":::
 
 6. If you're the group manager who was selected in the step above, you'll receive a notification in Teams about the request. To approve or deny the request, select **Go to settings**. 
 
