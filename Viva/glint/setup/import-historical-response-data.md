@@ -237,7 +237,7 @@ If you encounter issues during your import, use this guidance at the following l
 After your External Import processes successfully in Viva Glint, go to your Dashboard and Reports to confirm that scores and data display as expected. Confirm that:
 
 - Reporting hierarchies display as expected.
-- Question sores are accurate.
+- Question scores are accurate.
 - Respondent counts are accurate.
 - Questions that exist in historical data and Viva Glint data trend as expected.
 - Attributes and values that exist in historical data and Viva Glint data trend as expected.
