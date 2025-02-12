@@ -17,7 +17,7 @@ search.appverid: MET150
 ---
 # User roles in Viva Pulse
 
-For Viva Pulse in the Microsoft 365 environment, users can have one or more of the following roles:
+Viva Pulse users can do different tasks based on their roles. Users can have one or more of the following roles:
 * Feedback author
 * Feedback provider
 * Viva Pulse admin

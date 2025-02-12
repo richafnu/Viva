@@ -21,20 +21,17 @@ search.appverid: MET150
 
 # Introduction to Microsoft Viva Pulse
 
-Microsoft Viva Pulse empowers leaders and managers to understand their team’s experience and needs in the moment. Viva Pulse enables team leads to send brief surveys using research-backed templates to get a snapshot of team sentiment and act on feedback. Additionally, Viva Pulse reporting enables analysis of results and trends so leads can pinpoint what's working well and which areas to focus on over time.
+Viva Pulse enables team leads to send brief surveys using research-backed templates to get a snapshot of team sentiment and act on feedback. Additionally, Viva Pulse reporting enables analysis of results and trends so leads can pinpoint what's working well and which areas to focus on over time.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RW1fCHC]
 
 Users can:
 
-* Design surveys using prebuilt templates designed by experts in people science.
-* Select research-backed questions from the question library.
-* Customize surveys by editing and adding to pre-configured sets of questions.
+* [Design, edit, and customize surveys using prebuilt templates](https://support.microsoft.com/topic/create-a-pulse-to-get-feedback-from-your-team-817d3eba-3ce7-4079-80cc-ae8ae96fa61e) designed by experts in people science
 
     :::image type="content" alt-text="Screenshot of Pulse wellbeing survey page" source="/viva/media/pulse-wellbeing-survey.png":::
 
-* Get aggregated feedback and recommendations for next steps
-* View trends over time
+* [View and share aggregated feedback](https://support.microsoft.com/en-us/topic/view-and-share-your-pulse-feedback-results-0e6d21e2-6d4a-445d-ab48-0f1fa3c6fce0) including trends over time and recommended next actions.
 
     :::image type="content" alt-text="Screenshot of Pulse trends page" source="/viva/media/pulse-trends.png":::
 
