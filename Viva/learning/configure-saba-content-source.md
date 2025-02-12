@@ -79,7 +79,7 @@ The account used for Saba setup must have the following security roles:
 > For Saba Cloud integration, you need to have a sabacloud.com domain in your Host URL. If you have a different domain name, you need to raise a support ticket to allow your domain name.
 
 > [!NOTE]
-> Currently, all the users within an organization can discover all the tenant-specific courses but they're only be able to consume the courses that they have access to. User-specific content discovery based on roles and permissions is planned for future releases.
+> Currently, all the users within an organization can discover all the tenant-specific courses but they're only able to consume the courses that they have access to. User-specific content discovery based on roles and permissions is planned for future releases.
 
 ## Learner record sync
 
@@ -99,3 +99,4 @@ Ensure that the SSO configuration on Entra ID and Saba is same and that the user
 
 >[!NOTE]
 > If the SSO on both Entra ID and Saba is already configured in the tenant, as described in this documentation, then no action is required.
+

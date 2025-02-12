@@ -57,4 +57,3 @@ To enable seamless login, admins can set up the following configurations:
 8. Select **Validate** and follow the steps to confirm the configuration works. Users are prompted to use their organization's LinkedIn Learning credentials to sign in.
 
 10. Select **Save** to save the configurations.
-

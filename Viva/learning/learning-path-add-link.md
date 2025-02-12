@@ -81,5 +81,3 @@ To add a SharePoint page or SharePoint site, create a linked object and add the 
     ![Screenshot of the documents library with a new file called Azure.url.](../media/learning/sp-linkinlibrary.png)
 
 The linked object now displays in the Viva Learning app. 
-
- 

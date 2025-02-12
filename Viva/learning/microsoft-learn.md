@@ -18,7 +18,7 @@ description: This article describes the settings for the Microsoft Learn provide
 
 # Microsoft Learn
 
-[Microsoft Learn](/teamblog/introducing-ms-learn) content is available for all users of Viva Learning and enabled by default. Microsoft Learn settings can be managed in the **Manage Providers** section of the Viva [Learning Admin tab](https://learning.cloud.microsoft/admin).
+Microsoft Learn content is available for all users of Viva Learning and enabled by default. Microsoft Learn settings can be managed in the **Manage Providers** section of the Viva [Learning Admin tab](https://learning.cloud.microsoft/admin).
 
 ## Features
 

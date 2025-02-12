@@ -38,7 +38,7 @@ A query consists of two main parts
 
 ### User accessible attributes
 
-Both both admins and learners use these attributes to form precise queries:
+Admins and learners can use these attributes to form precise queries:
 
 |Attributes | Description|
 |-----------|-----------|
