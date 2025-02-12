@@ -45,8 +45,6 @@ items:
           items: 
             - name: Managers using ACT conversations
               href: people-science/managers-using-act-conversations.md
-        - name: Factors for historical imports
-          href: people-science/import-external-people-science-pov.md
         - name: Focus areas and action planning
           href: people-science/people-science-explains-focus-areas.md
         - name: Benchmark methodology
