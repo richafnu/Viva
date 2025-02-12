@@ -26,7 +26,7 @@ For highly trained users, Microsoft Viva Glint Advanced Configuration offers the
 It’s common for an organization to ask the same survey items that leaders are comfortable with. Revisit items to ensure they're aligned to your organization’s current strategy and consider these Viva People Science factors before moving forward with historical imports:
 
 ### When did you conduct your last survey?
-How recent is your data? Has your business gone through significant change like organizational restructure or significant growth or reduction of your employee base? If major changes like these have occurred, historical data as your comparison may not be meaningful, especially if the data is more than one year old.
+How recent is your data? Has your business gone through significant change like organizational restructure or significant growth or reduction of your employee base? If major changes like these occurred, historical data as your comparison may not be meaningful, especially if the data is more than one year old.
 
 ### How does your previous response scale compare to Viva Glint’s?
 Glint’s response scale is a one to five Likert scale ranging from strongly disagree to strongly agree. If your previous items don't use this exact scale, it’s difficult to map items to make meaningful comparisons.
@@ -35,7 +35,7 @@ Glint’s response scale is a one to five Likert scale ranging from strongly dis
 As you review Viva Glint standard items, do these items map to your previous items? It's important to consider intent of the question and the referent. If the items don't align to Viva Glint items, the comparisons aren't relevant.
 
 ### Does a historical data import further your engagement strategy?
-Importing historical data for a non-Viva Glint source can be very complex. Different vendors use various outcome measures, scales, and question wording. Previous items' results in Viva Glint don't often lead to furthering a modern approach to engagement and often results in a less agile approach.
+Importing historical data for a non-Viva Glint source can be complex. Different vendors use various outcome measures, scales, and question wording. Previous items' results in Viva Glint don't often lead to furthering a modern approach to engagement and often results in a less agile approach.
 
 ## 2. Review prerequisites
 
@@ -47,7 +47,7 @@ Data from an external source must meet the prerequisites listed here to be eligi
 - Data are imported to a Recurring or Ad Hoc survey.
 
 > [!IMPORTANT]
-> External imports are not available for Always-on or Lifecycle surveys.
+> External imports aren't available for Always-on or Lifecycle surveys.
 
 ### Survey items
 
@@ -153,7 +153,7 @@ To retain special characters and formatting, use the [Text Import Wizard](https:
   > Review data in a text editor application (like Sublime or Notepad) to ensure that comments aren't enclosed in multiple sets of double quotation marks. For example: ""This is my comment.""
 
 > [!IMPORTANT]
-> Comments that exceed 1024 characters are truncated.
+> Comments that exceed 1,024 characters are truncated.
 
 ### Respondent User File
 
@@ -230,7 +230,7 @@ If you encounter issues during your import, use this guidance at the following l
 - [Error: Duplicate entry](/viva/troubleshoot/glint/historical-import/import-error-duplicate-entry)
 - [Error: Exception date overlap](/viva/troubleshoot/glint/historical-import/import-error-exception-date-overlap)
 - [Error: Missing required field](/viva/troubleshoot/glint/historical-import/import-error-missing-required-field)
-- [Error: User is not in client](/viva/troubleshoot/glint/historical-import/import-error-user-is-not-in-client)
+- [Error: User not in client](/viva/troubleshoot/glint/historical-import/import-error-user-is-not-in-client)
 
 ## 9. Confirm expected results in your dashboard
 
@@ -244,7 +244,7 @@ After your External Import processes successfully in Viva Glint, go to your Dash
 - If comments were included, review the Comments report to confirm that counts are accurate.
 
 > [!NOTE]
-> Viva Glint’s Narrative Intelligence may take time to process large amounts of open-ended feedback. Revisit the Comments report after 24 hours if data is not fully populated.
+> Viva Glint’s Narrative Intelligence may take time to process large amounts of open-ended feedback. Revisit the Comments report after 24 hours if data isn't fully populated.
 
 ## 10. Import current employee data
 After your historical import is complete and results appear as expected, load your current employee data to Viva Glint to overwrite historical user information. Coordinate with other teams that regularly import employee data to Viva Glint to confirm when and how to load current user information. 
