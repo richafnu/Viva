@@ -34,6 +34,10 @@ Help users find important content and resources no matter where they are in Shar
 
 The SharePoint app bar brings together intranet resources and personalized content like sites, news, files, and lists. Enable global navigation to allow users to easily navigate to important intranet resources anywhere in SharePoint. Customize global navigation details and the rest of the content will dynamically display and update personalized content for sites, news, and files. Access your Viva Connections Dashboard, news, or resources. Create sites, files, and lists easily from anywhere in SharePoint.
 
+> [!NOTE]
+>
+> The Connections icon will only show to customers who have enabled a Viva Connections experience with a configured and published dashboard.
+
 :::image type="content" source="../media/connections/sharepoint-app-bar/sharepoint-app-bar-overview.png" lightbox="../media/connections/sharepoint-app-bar/sharepoint-app-bar-overview.png" alt-text="Screenshot of the SharePoint app bar tabs.":::
 
 > [!NOTE]
