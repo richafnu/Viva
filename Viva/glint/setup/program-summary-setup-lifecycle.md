@@ -6,7 +6,7 @@ author: JudyWeiner
 manager: MelissaBarry
 audience: admin
 f1.keywords: NOCSH
-keywords: onboarding, exit surveys, cross-program intelligence
+keywords: onboarding, exit surveys
 ms.collection: 
  - m365initiative-viva
  - selfserve
