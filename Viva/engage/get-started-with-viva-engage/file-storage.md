@@ -21,12 +21,12 @@ search.appverid:
 
 # Viva Engage file storage overview
 
-Files attached to posts in Viva Engage networks connected to Microsoft 365 are stored in SharePoint. Files in community posts are stored in the document library that backs up the community. Storyline posts are stored in a hidden library in the creator’s OneDrive.
+Files attached to posts in Viva Engage networks connected to Microsoft 365 are stored in SharePoint. Files in community posts are stored in the document library that backs up the community. Storyline posts are stored in a hidden library in the creator's OneDrive.
 
 **Exception**: When the Viva Engage network doesn't connect to Microsoft 365 groups, files uploaded to posts are stored directly in Viva Engage cloud storage. It includes files from the following entities:  
 
-- Multiple Viva Engage networks owned by a single Microsoft 365 tenant.  
-- Viva Engage networks that don't enforce Office 365 identity.
+- Multiple Viva Engage networks owned by a single Microsoft 365 tenant.
+- Viva Engage networks that don't enforce Office 365 identity.
 - Viva Engage basic networks.
 
 Learn more about file storage in communities that connect to Microsoft 365 groups:
@@ -40,13 +40,13 @@ Learn more about file storage in communities that connect to Microsoft 365 group
 
 ## Benefits of Sharepoint Storage
 
-For network and tenant administrators, SharePoint has a rich set of security and compliance features that apply to uploaded files in Viva Engage, for Microsoft 365-connected Viva Engage groups. Features include eDiscovery, data loss protection, and in-geo residence for files at rest.  
+For network and tenant administrators, SharePoint has a rich set of security and compliance features that apply to uploaded files in Viva Engage, for Microsoft 365-connected Viva Engage groups. Features include eDiscovery, data loss protection, and in-geo residence for files at rest.
 
 End users work with the familiar SharePoint user interface for file navigation and management, with the following capabilities:
 
 - Use Microsoft Search for greater discoverability and easier access.
 - Browse or search features in SharePoint and Delve to find and access files through Viva Engage, SharePoint, and other Microsoft 365 resources.
-- Enable offline access to files by syncing a SharePoint folders to a folder on their computer.  
+- Enable offline access to files by syncing a SharePoint folders to a folder on their computer.
 
 <!-- Links in the short bulleted list to be hidden but keep for possible future use per request-->
 <!--
@@ -69,28 +69,26 @@ Files uploaded to community posts are stored in the SharePoint document library 
 > For communities residing in Yammer before it became Viva Engage, folders that store attachments to community posts are labeled **Yammer** instead of **Viva Engage**.
 
 **Storyline**
-Files uploaded to storyline posts are stored in a hidden library in the storyline’s owner OneDrive. The Microsoft 365 user experience doesn't provide an entry point to this location, but you can access it through a URL resembling the following example:  
+Files uploaded to storyline posts are stored in a hidden library in the storyline's owner OneDrive. The Microsoft 365 user experience doesn't provide an entry point to this location, but you can access it through a URL resembling the following example:  
 
 `https://<tenantname>-my.sharepoint.com/personal/<useridentifier>/VivaEngage/Attachments/Storyline` 
 
 To determine the precise URL for a user's storyline page, follow these steps: 
 
-1. Open the user's OneDrive in a browser. 
+1. Open the user's OneDrive in a browser and note its URL. 
 
-2. Note the URL to the user's OneDrive. 
+2. Locate the user identifier, which is the part of the URL immediately that follows `my.sharepoint.com/personal/`.
 
-3. Locate the user identifier, which is the part of the URL immediately that follows `my.sharepoint.com/personal/`.
-
-4. Replace everything after the profile identifier and the backslash plus VivaEngage, without a space, case insensitive. The resulting URL resembles this example:
+3. Replace everything after the profile identifier and the backslash plus VivaEngage, without a space, case insensitive. The resulting URL resembles this example:
 
     `https://<tenantname>-my.sharepoint.com/personal/<useridentifier>/VivaEngage` 
 
-5. Press **Enter**. The library appears.
+4. Press **Enter**. The library appears.
 
 [See this page to find out how to enable and disable the Community Resources Module and Files Tab](https://support.microsoft.com/en-gb/topic/manage-viva-engage-community-resources-08fc99bf-c36c-425b-9a98-079e62510135).
 
 > [!Important]
-> **Avoid using SharePoint to modify, replace, delete, move, or rename** the folder structure (**Documents > Apps > Viva Engage**), documents, and rich media for your Viva Engage network. Changing these elements in SharePoint will break the front-end experience of posts, in communities, and in your storyline.  
+> **Avoid using SharePoint to modify, replace, delete, move, or rename** the folder structure (**Documents > Apps > Viva Engage**), documents, and rich media for your Viva Engage network. Changing these elements in SharePoint will break the front-end experience of posts, in communities, and in your storyline.
 
 ## Troubleshoot attachment issues 
 
@@ -98,7 +96,7 @@ To determine the precise URL for a user's storyline page, follow these steps:
 
 Community posts can lose attached files and rich media when the Microsoft 365 group that backs up a connected community is deleted, when the group's SharePoint library is deleted, or if the folder structure (**Documents > Apps > Viva Engage**) is deleted or moved from their location. 
 
-To restore a deleted group, contact your administrator, Help desk, IT, or technical support department. For more information, see [Restore a deleted Microsoft 365 group](/microsoft-365/admin/create-groups/restore-deleted-group?view=o365-worldwide&preserve-view=true). 
+To restore a deleted group, contact your administrator, Help desk, IT or technical support department. For more information, see [Restore a deleted Microsoft 365 group](/microsoft-365/admin/create-groups/restore-deleted-group?view=o365-worldwide&preserve-view=true). 
 
 To restore a document library, follow the instructions in [Restore items in the recycle bin that were deleted from SharePoint or Teams](https://support.microsoft.com/office/restore-items-in-the-recycle-bin-that-were-deleted-from-sharepoint-or-teams-6df466b6-55f2-4898-8d6e-c0dff851a0be).
 
@@ -111,22 +109,22 @@ To fully delete the file, ensure the attachment is removed from the post or from
 #### 2.1 Delete files removed from a post or a reply in a community
 
 1. Open the SharePoint library backing the community. You can do this one of two ways, depending on your environment:
-    - Select the Files tab on the community;
-    - Select **SharePoint Library** from the **Community resources** module in the community’s right navigation. 
-2. Navigate to the **Documents > Apps > Viva Engage** folder. 
+    - Select the **Files** tab on the community;
+    - Select **SharePoint Library** from the **Community resources** module in the community's right navigation. 
+2. Open the **Documents > Apps > Viva Engage** folder. 
 3. Locate the file previously attached to the post and select **Delete**. 
 
 #### 2.2 Permanently delete files removed from a post or a reply on a storyline 
 
-Files attached to storyline posts are stored in a hidden library in the author’s OneDrive. There's no entry point to this location in the Microsoft 365 user experience, but you can access it through a URL resembling the following example:  
+Files attached to storyline posts are stored in a hidden library in the author's OneDrive. There's no entry point to this location in the Microsoft 365 user experience, but you can access it through a URL resembling the following example:
 
 1. Open the user's OneDrive in a browser. 
 
 2. Note the URL to the user's OneDrive. 
 
-3. Locate the user identifier, which is the part of the URL immediately that follows `my.sharepoint.com/personal/`.
+3. Locate the user identifier, which is the part of the URL immediately that follows `my.sharepoint.com/personal/`.
 
-4. Replace everything after the profile identifier and the backslash plus VivaEngage, without a space, case insensitive. The resulting URL resembles this example:
+4. Replace everything after the profile identifier and the backslash plus VivaEngage, without a space, case insensitive. The resulting URL resembles this example:
 
     `https://<tenantname>-my.sharepoint.com/personal/<useridentifier>/VivaEngage` 
 
@@ -145,7 +143,7 @@ Files attached to storyline posts are stored in a hidden library in the author�
 
 ### 3. Resolve images that appear blank in Viva Engage conversation threads
 
-Files attached to community posts are stored in the SharePoint’s document library that backs up the community. Files are stored in the path **Documents > Apps > Viva Engage**.  
+Files attached to community posts are stored in the SharePoint document library that backs up the community. Files are stored in the path **Documents > Apps > Viva Engage**.  
 
 If the library location changes, files and images attached to community posts could appear blank. To solve this issue, take the following steps: 
 
@@ -172,16 +170,31 @@ Engage community members can access the SharePoint library, and open or delete c
 
 Viva Engage stores communities' attachments to posts in the community's SharePoint document library. It stores files in a subfolder named `Apps\Yammer` or `Apps\Viva Engage`. Members can open the community library in the Files tab, or select **Community resources > SharePoint library** on the Viva Engage right pane. From there, members can delete folders or files. 
 
-Community admins can remove the navigation entry points to the library. You remove the **Files** tab and the **Community resources** link by taking the following steps:
+Community admins can remove the navigation entry points to the library. Take the following steps to remove the **Files** tab and the **Community resources** link:
 
-1. Select the `...` option in the bottom-right corner of the community header. 
+1. Select the **...** option in the bottom-right corner of the community header. 
 
 2. Select **Settings** and clear the **Community resources** checkbox.
 
 3. Clear the **Enable Files tab** checkbox.
 
+## File Handling in Viva Engage experiences
+
+You can work with file attachments in the following experiences:
+
+- The Viva Engage app
+- The Viva Engage web browser experience
+- The Viva Engage experience in Teams
+- The integrated Storyline in Teams
+
+Users of the integrated Storyline experience in Microsoft Teams, and in Teams' full Viva Engage experience, can attach files to their storyline posts. Teams places those files in a hidden filesystem. See [Storylines in Viva Engage](https://support.microsoft.com/en-us/topic/storylines-in-viva-engage-cba3c38e-77c6-4ee6-9d5d-6c20522b1fa0) for more information about Storyline features.
+
+Communities in all Viva Engage experiences (App, Web, and Teams) in all contexts support a **Files** tab and a Community resources module. Admins can enable or disable the **Files** tab and the Community resources module.
+
+The content, posts and settings you apply in Viva Engage also appear in all other Viva Engage contexts (App, web, and Teams). For example, if an Engage admin disables the **Files** tab for a community, that tab doesn't appear in the Web experience, the full Viva Engage Teams experience, or in the app.
+
 > [!NOTE]
-> Users of the Viva Engage experience in Microsoft Teams can't access or upload files in the storyline. It also doesn't offer a Files tab or a Community resources module. 
+> If you make a post in your Storyline in the Viva Engage app, the same post appears in the Viva Engage web experience and in Teams. File attachments also do so. If you publish a post in the Storyline for Microsoft Teams, it also appears in the Viva Engage app and in the web experience.
 
 ## Guest access to files
 
@@ -195,7 +208,7 @@ The following table shows how different guests can access uploaded files in Viva
 |**Network-level guest, but not Azure B2B guest**|Automatic file access isn't allowed. A guest must become an Azure B2B guest and a member of the group in Microsoft 365. Alternatively, other group members can grant access to specific files or the entire document library through one of many SharePoint external sharing methods.|No automatic access for network level guests to Viva Engage files saved in SharePoint. If you want to enable access to specific files, add them as an Azure B2B guest on the Office 365 tenant. For more information, see [Microsoft Entra B2B documentation](/azure/active-directory/b2b/). If guests need to upload files to a specific group from SharePoint or have automatic access to files uploaded to SharePoint, add them as a group member in SharePoint.|
 
 > [!NOTE]
-> Guest memberships are separate for Microsoft Entra ID and Viva Engage. Deleting a network-level guest from a Microsoft 365 connected Viva Engage group or from the tenant in Microsoft Entra ID doesn't remove the user in Viva Engage. Deleting a user from Viva Engage doesn't delete the user from a Microsoft 365 group or from Microsoft Entra ID.
+> Guest memberships are separate for Microsoft Entra ID and Viva Engage. Deleting a network-level guest from a Microsoft 365 connected Viva Engage group, or from the tenant in Microsoft Entra ID, doesn't remove the user in Viva Engage. Deleting a user from Viva Engage doesn't delete the user from a Microsoft 365 group or from Microsoft Entra ID.
 
 For more information about Microsoft Entra B2B guests, see [Guest access in a Microsoft Entra B2B](/azure/active-directory/b2b/what-is-b2b).
 
