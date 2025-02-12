@@ -92,7 +92,7 @@ If you choose to keep global navigation disabled, the home icon links to the Sha
     - PNG file type
     - Transparent background recommended
 
-7. Then, enter a **Title** that to be displayed at the top of the global navigation pane.
+7. Then, enter a **Title** that's to be displayed at the top of the global navigation pane.
 
 8. Under **Navigation source** make edits to the selected global navigation source if needed by selecting **Edit global navigation**.
 
