@@ -28,13 +28,13 @@ Help users find important content and resources no matter where they are in Shar
 > [!NOTE]
 > Only Viva Connections customers who are using SharePoint home sites need to enable and customize SharePoint global navigation. Learn more about [How Viva Connections and SharePoint home sites work together to create user experiences](viva-connections-overview.md#how-sharepoint-home-sites-and-viva-connections-work-together).
 
-![Screenshot of the tabs in the SharePoint app bar.](../media/connections/sharepoint-app-bar/app-bar-png.png)
+:::image type="content" source="../media/connections/sharepoint-app-bar/app-bar-png.png" lightbox="../media/connections/sharepoint-app-bar/app-bar-png.png" alt-text="Screenshot of the tabs in the SharePoint app bar.":::
 
 ## The SharePoint app bar experience
 
 The SharePoint app bar brings together intranet resources and personalized content like sites, news, files, and lists. Enable global navigation to allow users to easily navigate to important intranet resources anywhere in SharePoint. Customize global navigation details and the rest of the content will dynamically display and update personalized content for sites, news, and files. Access your Viva Connections Dashboard, news, or resources. Create sites, files, and lists easily from anywhere in SharePoint.
 
-![Screenshot of the SharePoint app bar tabs.](../media/connections/sharepoint-app-bar/sharepoint-app-bar-overview.png)
+:::image type="content" source="../media/connections/sharepoint-app-bar/sharepoint-app-bar-overview.png" lightbox="../media/connections/sharepoint-app-bar/sharepoint-app-bar-overview.png" alt-text="Screenshot of the SharePoint app bar tabs.":::
 
 > [!NOTE]
 >
