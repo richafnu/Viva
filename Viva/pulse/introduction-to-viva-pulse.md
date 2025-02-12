@@ -27,7 +27,7 @@ Viva Pulse enables team leads to send brief surveys using research-backed templa
 
 Users can:
 
-* [Design, edit, and customize surveys using prebuilt templates](https://support.microsoft.com/topic/create-a-pulse-to-get-feedback-from-your-team-817d3eba-3ce7-4079-80cc-ae8ae96fa61e) designed by experts in people science
+* [Design, edit, and customize surveys using prebuilt templates](https://support.microsoft.com/topic/create-a-pulse-to-get-feedback-from-your-team-817d3eba-3ce7-4079-80cc-ae8ae96fa61e) designed by experts in people science.
 
     :::image type="content" alt-text="Screenshot of Pulse wellbeing survey page" source="/viva/media/pulse-wellbeing-survey.png":::
 
