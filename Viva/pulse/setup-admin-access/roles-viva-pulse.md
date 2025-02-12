@@ -17,7 +17,7 @@ search.appverid: MET150
 ---
 # User roles in Viva Pulse
 
-Viva Pulse users can do different tasks based on their roles. Users can have one or more of the following roles:
+For Viva Pulse in the Microsoft 365 environment, users can have one or more of the following roles:
 * Feedback author
 * Feedback provider
 * Viva Pulse admin
@@ -26,8 +26,8 @@ Viva Pulse users can do different tasks based on their roles. Users can have one
 
 Feedback authors are users in your organization who can send Pulse requests to their direct reports, team members, or other users in the organization. If they choose, authors can also add themselves as a recipient to their own pulses. Authors can request feedback from the available research-backed  templates and can leverage the following options to personalize the Pulse to their team’s needs:
 
-* If adding new questions is enabled for your organization, authors can add their own questions to any of the templates. For more information, see [Set up the in-app Viva Pulse experience](./setup-admin-access/set-up-in-app-pulse-experience.md#customization).
-* If editing stock questions is enabled for your organization, authors can update, reorder, or delete the provided questions in any of the templates. For more information, see [Set up the in-app Viva Pulse experience](./setup-admin-access/set-up-in-app-pulse-experience.md#customization).
+* If adding new questions is enabled for your organization, authors can add their own questions to any of the templates. For more information, see [Set up the in-app Viva Pulse experience](/viva/pulse/setup-admin-access/set-up-in-app-pulse-experience.md#customization).
+* If editing stock questions is enabled for your organization, authors can update, reorder, or delete the provided questions in any of the templates. For more information, see [Set up the in-app Viva Pulse experience](/viva/pulse/setup-admin-access/set-up-in-app-pulse-experience.md#customization).
 
 Work in progress is automatically saved as updates are made, so if an author isn’t ready to send their Pulse yet, they can come back to it later.
 
@@ -41,4 +41,4 @@ Feedback providers are the users in an organization who receive a Pulse request.
 
 ### Viva Pulse admin
 
-Users with the Viva Pulse admin role can configure the Viva Pulse experience for their end users from within the Viva Pulse admin experience. Viva Pulse admins must have a license to one of the following: Viva Pulse Standalone, Viva Insights Bundle, Viva Suite, or the Viva Pulse Admin-led trial. For more information, see [Licensing requirements](./get-started/licensing-requirements.md). This role is assigned to users by a Microsoft 365 Global admin. For more information, see [Assign a Viva Pulse Admin in the Microsoft 365 admin center](./setup-admin-access/assign-a-viva-pulse-admin-in-m365-admin-center.md).
+Users with the Viva Pulse admin role can configure the Viva Pulse experience for their end users from within the Viva Pulse admin experience. Viva Pulse admins must have a license to one of the following: Viva Pulse Standalone, Viva Insights Bundle, Viva Suite, or the Viva Pulse Admin-led trial. For more information, see [Licensing requirements](/viva/pulse/get-started/licensing-requirements.md). This role is assigned to users by a Microsoft 365 Global admin. For more information, see [Assign a Viva Pulse Admin in the Microsoft 365 admin center](/viva/pulse/setup-admin-access/assign-a-viva-pulse-admin-in-m365-admin-center.md).
