@@ -23,10 +23,10 @@ search.appverid:
 
 Files attached to posts in Viva Engage networks connected to Microsoft 365 are stored in SharePoint. Files in community posts are stored in the document library that backs up the community. Storyline posts are stored in a hidden library in the creator’s OneDrive.
 
-**Exception**: When the Viva Engage network isn't connected to Microsoft 365 groups, files uploaded to posts are stored directly in Viva Engage cloud storage. It includes files from the following entities:  
+**Exception**: When the Viva Engage network doesn't connect to Microsoft 365 groups, files uploaded to posts are stored directly in Viva Engage cloud storage. It includes files from the following entities:  
 
-- Microsoft 365 tenants that have more than one Viva Engage network  
-- Viva Engage networks that don't enforce Office 365 identity  
+- Multiple Viva Engage networks owned by a single Microsoft 365 tenant.  
+- Viva Engage networks that don't enforce Office 365 identity.
 - Viva Engage basic networks.
 
 Learn more about file storage in communities that connect to Microsoft 365 groups:
@@ -168,31 +168,34 @@ To find the document library that backs up the community, use the [Graph Explore
 
 ### 4. Prevent deletion of files from Viva Engage communities
 
-People in Engage communities can access the SharePoint library and delete chosen folders and files. The permissions that enable this scenario are by design but can risk accidental or unintentional deletion. This section describes how to prevent this issue by removing navigation to the library from Engage communities.  
+Engage community members can access the SharePoint library, and open or delete chosen folders and files. The permissions that enable file access are by design but can risk accidental or unintentional deletion. This section describes how to prevent this issue by removing navigation to the library from Engage communities.  
 
-Attachments to posts in Viva Engage communities are stored in the community's SharePoint document library. Files are stored in a subfolder named `Apps\Yammer` or `Apps\Viva Engage`. Members can open the community library in the Files tab, or select **Community resources > SharePoint library** on the Viva Engage right pane. From there, members can delete folders or files. 
+Viva Engage stores communities' attachments to posts in the community's SharePoint document library. It stores files in a subfolder named `Apps\Yammer` or `Apps\Viva Engage`. Members can open the community library in the Files tab, or select **Community resources > SharePoint library** on the Viva Engage right pane. From there, members can delete folders or files. 
 
 Community admins can remove the navigation entry points to the library. You remove the **Files** tab and the **Community resources** link by taking the following steps:
 
-1. In the community header, select the overflow menu `(...)` in the top-right corner. 
+1. Select the `...` option in the bottom-right corner of the community header. 
 
 2. Select **Settings** and clear the **Community resources** checkbox.
 
 3. Clear the **Enable Files tab** checkbox.
 
+> [!NOTE]
+> Users of the Viva Engage experience in Microsoft Teams can't access or upload files in the storyline. It also doesn't offer a Files tab or a Community resources module. 
+
 ## Guest access to files
 
-The following table shows how each type of guest can access files uploaded in Viva Engage and stored in SharePoint.
+The following table shows how different guests can access uploaded files in Viva Engage and SharePoint-stored files.
 
 | Type of user | Access to group files in Viva Engage | Access to group files in SharePoint |
 |----------|----------|----------|
 |**Conversation-level guest that is in your network**|**Private group**: Can view files shared in the conversation, but can't upload files.<br/>**Public group**: Can view, edit, and upload files.|Conversation level guests can't access any files saved in SharePoint nor upload any files. If you want to enable access to specific files in the conversation, add them as an Azure B2B guest on the Office 365 tenant. File upload isn't permitted.|
-|**Network-level guest that is also an Azure B2B guest, and also a member of the group in Microsoft 365**|Can view, edit, and upload files.|These Azure B2B guests can view, upload, or edit files from the SharePoint Document library only. File access from Viva Engage isn't permitted.|
+|**Network-level guest that is also an Azure B2B guest, and a member of the group in Microsoft 365**|Can view, edit, and upload files.|These Azure B2B guests can view, upload, or edit files from the SharePoint Document library only. File access from Viva Engage isn't permitted.|
 |**Azure B2B guest, but not a member of the group<br/>Network-level guest<br/>Conversation-level guest that isn't in your network**|Automatic file access isn't allowed. These users can request access to specific files.<br/>Can't upload files.|Automatic file access isn't permitted. Guests can request access to specific files. File upload isn't permitted.|
 |**Network-level guest, but not Azure B2B guest**|Automatic file access isn't allowed. A guest must become an Azure B2B guest and a member of the group in Microsoft 365. Alternatively, other group members can grant access to specific files or the entire document library through one of many SharePoint external sharing methods.|No automatic access for network level guests to Viva Engage files saved in SharePoint. If you want to enable access to specific files, add them as an Azure B2B guest on the Office 365 tenant. For more information, see [Microsoft Entra B2B documentation](/azure/active-directory/b2b/). If guests need to upload files to a specific group from SharePoint or have automatic access to files uploaded to SharePoint, add them as a group member in SharePoint.|
 
 > [!NOTE]
-> Guest memberships are separate for Microsoft Entra ID and Viva Engage. Deleting a network-level guest from a Microsoft 365 connected Viva Engage group or from the tenant in Microsoft Entra ID doesn't remove the user in Viva Engage. Deleting a user from Viva Engage doesn't delete the user from a Microsoft 365 group or Microsoft Entra ID.
+> Guest memberships are separate for Microsoft Entra ID and Viva Engage. Deleting a network-level guest from a Microsoft 365 connected Viva Engage group or from the tenant in Microsoft Entra ID doesn't remove the user in Viva Engage. Deleting a user from Viva Engage doesn't delete the user from a Microsoft 365 group or from Microsoft Entra ID.
 
 For more information about Microsoft Entra B2B guests, see [Guest access in a Microsoft Entra B2B](/azure/active-directory/b2b/what-is-b2b).
 
