@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 12/11/2024
+ms.date: 02/13/2025
 ---
 
 # Questions set up in Program Summary
@@ -37,13 +37,23 @@ Standard templates provide prepopulated survey items, along with customizable in
 Customize the introduction message for the survey by hovering over the box with the **Hello** message and select it. In the **Edit Survey Intro** slider panel:
 
 1. Select languages from the **Language** dropdown menu. Languages selected in General Settings are available.
-2.  Edit **Greeting** - "Hello" is prepopulated, but can be customized for your organization.
+2. Edit **Greeting** - "Hello" is prepopulated, but can be customized for your organization.
 3. Edit **Text** - You see default text in the **Text** box. All default text can be edited. Delete macros or add macros by selecting the **blue plus sign (+)** in the Text box.
 4. Select **Save Changes**.
 
    :::image type="content" source="../../media/glint/setup/questions-hello-text.png" alt-text="Screenshot of where to customize introductory text." lightbox="../../media/glint/setup/questions-hello-text.png":::
 
-### Add a logo to the survey intro
+### Add a hyperlink to the survey introduction
+
+To add a link to an employee resource or other information in your survey introduction:
+
+1. Select the **Questions** section of your survey program and select the survey introduction section.
+2. In the **Text** field, add `[Display text](link)`, replacing "Display text" with the text that should become a link. Replace "link" with the URL.
+   1. Example: `[Contoso handbook](http://www.contoso.com)`
+3. Select **Save Changes**.
+4. [Preview your survey](/viva/glint/setup/preview-manage-enable-engage-programs) to confirm that the hyperlink works as expected.
+
+### Add a logo to the survey introduction
 
 > [!TIP]
 > Ensure that logos are horizontally oriented, have a transparent background, and 16MB or smaller in file size.
@@ -59,7 +69,7 @@ Customize the introduction message for the survey by hovering over the box with 
 1. Replace "logo-name" in this text with the name of your uploaded logo: `![logo-name](logo-name "logo-name")`
 1. Copy and paste the `![logo-name](logo-name "logo-name")` text (with your logo name added) and paste into the end of the Text field in the survey introduction message.
 1. Select **Save Changes**.
-1. [Preview your survey](/viva/glint/setup/preview-manage-enable-engage-programs) to confirm that this process is successful.
+1. [Preview your survey](/viva/glint/setup/preview-manage-enable-engage-programs) to confirm that the logo appears as expected.
 
 ## Edit survey items
 
@@ -120,6 +130,9 @@ Customize the **Thank You** concluding message for the survey by hovering over t
    - All dummy text can be edited.
    - The Text field also includes placeholders, called macros, that pull in values based on your employee data or Glint-generated items. Delete macros or add new macros by selecting the blue plus sign (+) in the Text box.
 1. Select **Save Changes**.
+
+> [!NOTE]
+> To add a hyperlink to the survey Thank You message, follow [these steps](#add-a-hyperlink-to-the-survey-introduction).
 
 ## Edit Question cycles
 
