@@ -98,7 +98,7 @@ The information is broken out across **Program Summary** setup pages.
 3. In the list of **Upcoming and Live** surveys, go the Live survey and select the ellipses.
 4. In the dropdown menu, select **Manage Schedule & Invites** and choose from the **Schedule**, **Resend Survey Invites**, or **Reschedule Survey Invites** options.
 
-   <image src="../../media/glint/setup/live-manage-schedule.png" alt-text="Screenshot of the Manage Schedule & Invites feature for a live Viva Glint survey." width=435>
+   <img src="../../media/glint/setup/live-manage-schedule.png" alt-text="Screenshot of the Manage Schedule & Invites feature for a live Viva Glint survey." width=435>
 
 ### Items (survey questions or statements)
 
