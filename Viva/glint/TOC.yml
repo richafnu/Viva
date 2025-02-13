@@ -45,8 +45,6 @@ items:
           items: 
             - name: Managers using ACT conversations
               href: people-science/managers-using-act-conversations.md
-        - name: Factors for historical imports
-          href: people-science/import-external-people-science-pov.md
         - name: Focus areas and action planning
           href: people-science/people-science-explains-focus-areas.md
         - name: Benchmark methodology
@@ -138,6 +136,18 @@ items:
                     href: setup/set-up-sftp.md
                   - name: People page import
                     href: setup/upload-employee-attributes.md
+  - name: Microsoft 365 Copilot in Viva Glint
+    items:
+      - name: Introduction to Copilot in Viva Glint 
+        href: copilot/copilot-admin-intro.md
+      - name: Administrator enablement for Copilot in Viva Glint
+        href: copilot/admin-enable.md
+      - name: Copilot in Viva Glint data, privacy, and security
+        href: setup/copilot-privacy.md
+      - name: Managers using Copilot in Viva Glint 
+        href: setup/copilot-managers.md
+      - name: FAQs-Copilot in Viva Glint 
+        href: setup/copilot-faqs.md 
   - name: Platform functionality
     items: 
       - name: General Settings 
@@ -150,11 +160,13 @@ items:
             - name: Post-survey learning
               href: setup/post-survey-learnings.md
             - name: Opt into external benchmarks
-              href: setup/opting-into-external-benchmarks.md 
+              href: setup/opting-into-external-benchmarks.md
+            - name: Customize a PowerPoint template for reports
+              href: setup/custom-ppt-upload.md
       - name: People page
         href: setup/people-page.md
         items:  
-            - name: Manage external users 
+            - name: Manage Support users 
               href: setup/add-external-user.md
             - name: Export and import User Role members 
               href: setup/export-user-roles.md
@@ -216,18 +228,6 @@ items:
               href: setup/glint-sensitive-comments.md
             - name: Manage confidentiality thresholds
               href: setup/manage-confidentiality-thresholds.md
-  - name: Microsoft 365 Copilot in Viva Glint
-    items:
-      - name: Introduction to Copilot in Viva Glint 
-        href: copilot/copilot-admin-intro.md
-      - name: Administrator enablement for Copilot in Viva Glint
-        href: copilot/admin-enable.md
-      - name: Copilot in Viva Glint data, privacy, and security
-        href: setup/copilot-privacy.md
-      - name: Managers using Copilot in Viva Glint 
-        href: setup/copilot-managers.md
-      - name: FAQs-Copilot in Viva Glint 
-        href: setup/copilot-faqs.md
   - name: Create survey programs
     items: 
       - name: Viva Holistic Listening Vision & Strategy Discovery Workbook
@@ -236,153 +236,143 @@ items:
         href: setup/customize-program.md
       - name: Understand programs and cycles
         href: setup/program-cycle-edits.md    
-      - name: Survey Coach and Tooltips
-        href: setup/survey-coach.md
-  - name: Program Summary setup for recurring surveys
-    href: setup/program-summary-overview.md
-    items:   
-       - name: Program setup 
-         href: setup/program-set-up.md
-       - name: Distribution setup 
-         href: setup/distribution-program-summary.md
-       - name: Schedule setup
-         href: setup/schedule-setup.md
-       - name: Questions setup 
-         href: setup/questions-setup.md
-         items:
-             - name: Add items and sections
-               href: setup/add-new-questions.md
-             - name: Target survey items
-               href: setup/targeted-survey-items.md
-             - name: Add item Display Logic
-               href: setup/viva-glint-display-logic.md
-             - name: Reporting setup
-               href: setup/reporting-setup.md
-               items:
-                  - name: Grant Live versus Phased access
-                    href: setup/live-versus-phased-access.md
-       - name: Communications setup 
-         href: setup/program-summary-communications.md
-         items:
-            - name: Customize survey email content
-              href: setup/email-content-customization.md
-            - name: Multi-language emails
-              href: setup/multi-lang-emails.md                        
-       - name: Coaching setup 
-         href: setup/program-summary-coaching.md
-         items:         
-            - name: Team Conversations resource guidance
-              href: reports/team-conversations-resource-guidance.md      
-  - name: Templates for recurring engagement surveys
-    items:
-       - name: Microsoft Copilot Impact Survey
-         href: setup/copilot-impact-template.md
-       - name: Quarterly Engagement  
-         href: setup/quarterly-engagement-template.md
-       - name: Diversity and Inclusion  
-         href: setup/diversity-inclusion.md
-       - name: Culture 
-         href: setup/culture-template.md
-       - name: Team Effectiveness 
-         href: setup/team-effectiveness-survey.md
-       - name: Manager Effectiveness 
-         href: setup/manager-effectiveness-survey.md
-       - name: Patient Safety 
-         href: setup/patient-safety-survey.md
-       - name: Employee Lifecycle - Onboarding  
-         href: setup/create-onboarding-exit-surveys.md
-       - name: Employee Lifecycle - Exit
-         href: setup/exit.survey.md
-       - name: Microsoft Viva Glint Magnet Survey
-         href: setup/magnet-rn-excellence.md
-       - name: Distress Survey
-         href: setup/distress-survey.md
-       - name: Productivity survey
-         href: setup/create-productivity-survey.md
-  - name: Employee Lifecycle survey setup
-    items:
-       - name: Set up an Employee Lifecycle survey
-         href: setup/program-summary-setup-lifecycle.md
-       - name: Preview and filter a Lifecycle survey
-         href: setup/preview-filter-lifecycle-programs.md 
-  - name: Viva Glint 360 feedback programs
-    items:
-       - name: 360 overview and terminology
-         href: setup/360-overview.md
-       - name: 360 feedback program setup
-         items:
-              - name: 360 General settings
-                href: setup/360-general-settings.md
-              - name: 360 User Role creation and permissions
-                href: setup/360-roles-permissions.md
-              - name: 360 program design and templates
-                href: setup/360-design-templates.md
-       - name: Manage 360 feedback cycles
-         items:
-              - name: Create a new 360 cycle
-                href: setup/create-new-360-cycle.md
-                items:
-                  - name: Setup
-                    href: ../360-config-cycle-settings.md
-                  - name: 360 feedback items
-                    items:
-                       - name: Core items
-                         href: setup/360-core-questions.md
-                       - name: Adding and editing program items
-                         href: setup/360-add-edit-cycle-questions.md
-              - name: 360 feedback provider selections
-                href: setup/overview-feedback-provider-selection.md
-              - name: 360 competencies and reporting
-                href: setup/360-competencies.md
-              - name: 360 Schedule and Communications setup
-                href: setup/360-schedules-comms.md
-              - name: Customize 360 email content
-                href: setup/360-email-edits.md
-              - name: Manage 360 subjects, coaches, feedback providers
-                href: setup/360-manage-subjects.md
-              - name: Export and import 360 language translations
-                href: setup/360-export-import.md
-       - name: Test and launch 360s
-         href: setup/360-test-launch.md
-       - name: Admin experience during a live 360 program
-         href: setup/360-live-cycle-actions.md
-       - name: 360 subject experience
-         href: setup/360-subject-experience.md
-       - name: 360 feedback provider experience
-         href: setup/360-provider-exp.md
-       - name: 360 email communication templates
-         href: setup/360-email-templates.md
-       - name: 360 FAQs
-         href: setup/360-faqs.md
-  - name: Always-On Feedback surveys
-    href: setup/always-on-surveys.md
-  - name: Ad Hoc surveys
-    href: setup/ad-hoc-survey.md
-  - name: Set up Team Conversations
-    href: reports/team-conversations-administrator-setup.md
-    items:
-        - name: Team Conversations presentation kit
-          href: reports/coaching-team-conversations.md
-        - name: Customize a PowerPoint template in Glint
-          href: setup/custom-ppt-upload.md
-        - name: Customize Team Conversations email content
-          href: reports/team-conversations-content-cusomization.md 
-  - name: Review surveys before launch
-    items:
-        - name: Review surveys before launch
-          href: setup/survey-qa.md    
-        - name: Preview data in reports
-          href: setup/preview-demo-reporting.md
-        - name: Preview, enable, and prepare to launch surveys
-          href: setup/preview-manage-enable-engage-programs.md   
-        - name: Duplicate or delete surveys 
-          href: setup/delete-survey-data.md
-  - name: Edit live surveys or reopen closed surveys
-    items:
-        - name: Reopen or extend a survey cycle
-          href: setup/reopen-survey.md
-        - name: Make changes to a live survey
-          href: setup/change-live-survey.md
+      - name: Program Summary setup for recurring surveys
+        href: setup/program-summary-overview.md
+        items:   
+          - name: Program setup 
+            href: setup/program-set-up.md
+          - name: Distribution setup 
+            href: setup/distribution-program-summary.md
+          - name: Schedule setup
+            href: setup/schedule-setup.md
+          - name: Questions setup 
+            href: setup/questions-setup.md
+            items:
+               - name: Add items and sections
+                 href: setup/add-new-questions.md
+               - name: Target survey items
+                 href: setup/targeted-survey-items.md
+               - name: Add item Display Logic
+                 href: setup/viva-glint-display-logic.md
+          - name: Reporting setup
+            href: setup/reporting-setup.md
+            items:
+               - name: Grant Live versus Phased access
+                 href: setup/live-versus-phased-access.md
+          - name: Communications setup 
+            href: setup/program-summary-communications.md
+            items:
+              - name: Customize survey email content
+                href: setup/email-content-customization.md
+              - name: Multi-language emails
+                href: setup/multi-lang-emails.md                        
+          - name: Coaching setup 
+            href: setup/program-summary-coaching.md
+            items:         
+             - name: Team Conversations resource guidance
+               href: reports/team-conversations-resource-guidance.md      
+      - name: Survey templates
+        items:
+         - name: Templates overview and terminology
+           href: setup/templates-intro.md
+         - name: Microsoft Copilot Impact Survey
+           href: setup/copilot-impact-template.md
+         - name: Quarterly Engagement  
+           href: setup/quarterly-engagement-template.md
+         - name: Diversity and Inclusion  
+           href: setup/diversity-inclusion.md
+         - name: Culture 
+           href: setup/culture-template.md
+         - name: Team Effectiveness 
+           href: setup/team-effectiveness-survey.md
+         - name: Manager Effectiveness 
+           href: setup/manager-effectiveness-survey.md
+         - name: Patient Safety 
+           href: setup/patient-safety-survey.md
+         - name: Employee Lifecycle - Onboarding  
+           href: setup/create-onboarding-exit-surveys.md
+         - name: Employee Lifecycle - Exit
+           href: setup/exit.survey.md
+         - name: Microsoft Viva Glint Magnet Survey
+           href: setup/magnet-rn-excellence.md
+         - name: Distress Survey
+           href: setup/distress-survey.md
+         - name: Productivity survey
+           href: setup/create-productivity-survey.md
+      - name: Employee Lifecycle survey setup
+        items:
+           - name: Set up an Employee Lifecycle survey
+             href: setup/program-summary-setup-lifecycle.md
+           - name: Preview and filter a Lifecycle survey
+             href: setup/preview-filter-lifecycle-programs.md 
+      - name: Viva Glint 360 feedback programs
+        items:
+           - name: 360 overview and terminology
+             href: setup/360-overview.md
+           - name: 360 program design and templates
+             href: setup/360-design-templates.md
+           - name: Set up General settings and User Roles 
+             href: setup/360-general-settings.md
+           - name: Create a new 360 cycle
+             href: setup/create-new-360-cycle.md
+             items:
+               - name: Core items
+                 href: setup/360-core-questions.md
+               - name: Adding and editing items
+                 href: setup/360-add-edit-cycle-questions.md
+               - name: 360 feedback provider selections
+                 href: setup/overview-feedback-provider-selection.md
+               - name: 360 competencies and reporting
+                 href: setup/360-competencies.md
+               - name: 360 Schedule and Communications setup
+                 href: setup/360-schedules-comms.md
+               - name: Customize 360 email content
+                 href: setup/360-email-edits.md
+               - name: Manage 360 subjects, coaches, feedback providers
+                 href: setup/360-manage-subjects.md
+               - name: Export and import 360 language translations
+                 href: setup/360-export-import.md
+               - name: Test and launch 360s
+                 href: setup/360-test-launch.md
+               - name: 360 email communication templates
+                 href: setup/360-email-templates.md
+           - name: 360 role experiences
+             items:
+               - name: Admin experience during a live 360 program
+                 href: setup/360-live-cycle-actions.md
+               - name: 360 subject experience
+                 href: setup/360-subject-experience.md
+               - name: 360 feedback provider experience
+                 href: setup/360-provider-exp.md
+           - name: 360 FAQs
+             href: setup/360-faqs.md
+      - name: Always-On Feedback surveys
+        href: setup/always-on-surveys.md
+      - name: Ad Hoc surveys
+        href: setup/ad-hoc-survey.md
+      - name: Set up Team Conversations
+        href: reports/team-conversations-administrator-setup.md
+        items:
+          - name: Team Conversations presentation kit
+            href: reports/coaching-team-conversations.md
+          - name: Customize Team Conversations email content
+            href: reports/team-conversations-content-cusomization.md 
+      - name: Review surveys before launch
+        items:
+          - name: Review surveys before launch
+            href: setup/survey-qa.md    
+          - name: Preview data in reports
+            href: setup/preview-demo-reporting.md
+          - name: Preview, enable, and prepare to launch surveys
+            href: setup/preview-manage-enable-engage-programs.md   
+          - name: Duplicate or delete surveys 
+            href: setup/delete-survey-data.md
+      - name: Edit live surveys or reopen closed surveys
+        items:
+          - name: Reopen or extend a survey cycle
+            href: setup/reopen-survey.md
+          - name: Make changes to a live survey
+            href: setup/change-live-survey.md
   - name: Support survey participants 
     items:
       - name: Provide support during a survey
@@ -399,6 +389,8 @@ items:
             href: reports/aggregate-trending.md
           - name: Reporting features
             href: reports/report-analytics-filtering-favorability-trending.md
+          - name: Cross-program intelligence
+            href: reports/cross-program-intelligence.md
           - name: Color coding
             href: reports/color-coding.md
           - name: Mean and favorability scoring

@@ -158,10 +158,6 @@ items:
                 href: advanced/analyst/cross-collaboration-g2g.md   
               - name: Collaboration between internal and external individuals
                 href: advanced/analyst/external-collaboration.md               
-            - name: Uncover network collaboration insights
-              href: advanced/analyst/network-collaboration-insights.md 
-            - name: Create change management queries
-              href: advanced/analyst/change-management-queries.md 
             - name: Access query results and modify existing queries
               href: advanced/analyst/query-results.md 
             - name: Connect your data to Power BI using the Power BI connector
@@ -170,6 +166,10 @@ items:
             items:
             - name: Introduction to templates
               href: advanced/analyst/templates/introduction-to-templates.md
+            - name: Uncover network collaboration insights
+              href: advanced/analyst/network-collaboration-insights.md 
+            - name: Create change management queries
+              href: advanced/analyst/change-management-queries.md 
             - name: Business resilience
               href: advanced/analyst/templates/business-resilience.md
             - name: Glint and organizational insights report
