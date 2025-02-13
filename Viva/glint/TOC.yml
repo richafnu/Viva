@@ -316,7 +316,7 @@ items:
            - name: General Settings and User Roles  
              href: setup/360-general-settings.md
            - name: Create a new 360 cycle
-             href: setup/create-new-360-cycle.md
+             href: setup/360-create-new-360-cycle.md
              items:
                - name: Core items
                  href: setup/360-core-questions.md
