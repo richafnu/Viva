@@ -62,13 +62,13 @@ To add a link to an employee resource or other information in your survey introd
 1. From the admin dashboard, select **Configuration**. In the **Action Taking** section, select **Content Resources**.
 1. Select **+ New** to add a new resource and **OK** in the languages message that appears.
 1. Add a new title in the **Untitled Resource** and **Title** fields. Survey intro logos can be unique to each survey program. Include the survey name in the title if needed.
-1. In the **Type** field, select **Image**.
-1. Optionally, add a **Description**.
+1. In the **Type** field, select **Image**. Optionally, add a **Description**.
 1. In the **File** field, select **Choose File**. Choose the image file on your device. A preview of the image appears. If the image is as you'd like, select **Save**.
 1. Select **Publish** and then select **Publish** again in the **Publish Resource** dialog box that appears.
 1. On the **Resources** page, filter to **Image** and copy the text of the recently added image from the **Name** column.
 1. Replace "logo-name" in this text with the name of your uploaded logo: `![logo-name](logo-name "logo-name")`
 1. Copy and paste the `![logo-name](logo-name "logo-name")` text (with your logo name added) and paste into the end of the Text field in the survey introduction message.
+1. If your survey has multiple languages, select each language from the **Language** dropdown menu to add the logo to the **Text** field in all languages.
 1. Select **Save Changes**.
 1. [Preview your survey](/viva/glint/setup/preview-manage-enable-engage-programs) to confirm that the logo appears as expected.
 
