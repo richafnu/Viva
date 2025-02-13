@@ -40,17 +40,17 @@ Viva Glint Admins can map custom survey questions to benchmarks from the Questio
 ### Link a question in the Question Library
 
 > [!NOTE]
-> Organizations migrating from LinkedIn Glint to Viva Glint can have hardcoded benchmark values for custom questions and see a **!Benchmark** tag. Use these steps to link eligible custom questions to Viva Glint standard question benchmarks to use automatic benchmarking.
+> Organizations migrating from LinkedIn Glint to Viva Glint can have manually added benchmark values for custom questions and see a **!Benchmark** tag. Use these steps to link eligible custom questions to Viva Glint standard question benchmarks to use automatic benchmarking.
 
 To map a custom question to a benchmark suite in the Question Library:
 
-1. From the admin dashboard, select Configuration then choose Question Library in the Surveys section.
+1. Select **Configuration** from the admin dashboard and choose **Question Library** in the **Surveys** section.
 2. For users in a migrated organization: 
-    1. At the top of the page, a banner indicates how many questions aren't associated with a benchmark. Switch on the Show only warnings setting to filter to these questions.
+    1. At the top of the page, a banner indicates how many questions aren't associated with a benchmark. Switch on the **Show only warnings** setting to filter to these questions.
     2. Select a question with the **!Benchmark** tag.
-3. Next, for migrated or nonmigrated organizations, in the question edit pane that appears, go to the Benchmark field.
+3. Go to the **Benchmark** field (for migrated or nonmigrated organizations) in the question edit pane that appears.
 4. Search for and select a Viva Glint standard question to apply its benchmark to your comparable, custom question.
-5. Select Save Changes at the top of the edit pane.
+5. Select **Save Changes** at the top of the edit pane.
   
    :::image type="content" source="../../media/glint/setup/question-lib-benchmark-warning.png" alt-text="Screenshot of the Question Library with a custom question flagged for benchmark mapping.":::
 
@@ -58,9 +58,9 @@ To map a custom question to a benchmark suite in the Question Library:
 
 To view which benchmarks have a score available for a Viva Glint question:
 
-1. From the admin dashboard, select Configuration and choose Question Library in the Surveys section.
+1. Select **Configuration** from the admin dashboard and choose **Question Library** in the **Surveys** section.
 2. Select a Viva Glint question.
-3. In the edit pane that appears, go to the Benchmark field.
+3. Go to the **Benchmark** field in the edit pane that appears, 
 4. Select the "x of y external benchmarks" link to view which benchmark suites have scores available for the question.
 5. Select the "x custom questions" link to view which custom questions use the associated benchmarks.
   
@@ -71,22 +71,22 @@ To view which benchmarks have a score available for a Viva Glint question:
 
 ### Link a question in Program setup
 
-To map an existing custom question to a benchmark in the Questions section of a survey:
+To map an existing custom question to a benchmark in the **Questions** section of a survey:
 
-1. From the admin dashboard, select Configuration and then in Surveys, choose a survey.
-2. Go to the Questions section of Program Summary and select a question.
-3. In the question edit pane that appears, go to the Benchmark field.
+1. Select **Configuration** from the admin dashboard and then in Surveys, choose a survey.
+2. Go to the **Questions** section of Program Summary and select a question.
+3. Go to the **Benchmark** field in the question edit pane that appears.
 4. Search for and select a Viva Glint standard question to apply its benchmark to your comparable, custom question.
-5. Select Save Changes at the top of the edit pane.
+5. Select **Save Changes** at the top of the edit pane.
 
 ### Link a duplicated question
 
 To map a duplicated question to its original Viva Glint standard question in the Question Library or in a survey:
 
-1. Select a question and choose the Duplicate Question option in the edit pane that appears.
-2. In the benchmark associations dialog that appears, select:
+1. Select a question and choose the **Duplicate Question** option in the edit pane that appears.
+2. Select an option in the benchmark associations dialog that appears:
     1. Yes, keep any inherited benchmarks, to keep benchmarks from the copied standard question, or
     2. No, remove all inherited benchmarks, to discard benchmark information when edits are made that change the question's meaning.
-3. Select Duplicate this question in the dialog.
+3. Select **Duplicate this question** in the dialog.
   
    :::image type="content" source="../../media/glint/setup/benchmark-association-dialog.png" alt-text="Screenshot of the dialog that appears to give the option to map or discard benchmark suites for copied questions.":::
