@@ -40,7 +40,7 @@ Viva Glint Admins can map custom survey questions to benchmarks from the Questio
 ### Link a question in the Question Library
 
 > [!NOTE]
-> Organizations migrating from LinkedIn Glint to Viva Glint can have manually added benchmark values for custom questions and see a **!Benchmark** tag. Use these steps to link eligible custom questions to Viva Glint standard question benchmarks to use automatic benchmarking.
+> Organizations migrating from LinkedIn Glint to Viva Glint may see manually added benchmark values for custom questions and see a **!Benchmark** tag. Use these steps to link eligible custom questions to Viva Glint standard question benchmarks to use automatic benchmarking.
 
 To map a custom question to a benchmark suite in the Question Library:
 
@@ -67,7 +67,7 @@ To view which benchmarks have a score available for a Viva Glint question:
    :::image type="content" source="../../media/glint/setup/view-benchmark-info.png" alt-text="Screenshot of benchmark information options available at the question level.":::
 
 > [!NOTE]
-> Benchmark suites in the "x of y external benchmarks" dialog are based on [external benchmark suites selected in General Settings](opting-into-external-benchmark.md#selecting-external-benchmarks-after-admin-consent).
+> Benchmark suites in the "x of y external benchmarks" dialog are based on [external benchmark suites selected in General Settings](opting-into-external-benchmarks.md#selecting-external-benchmarks-after-admin-consent).
 
 ### Link a question in Program setup
 
@@ -81,7 +81,7 @@ To map an existing custom question to a benchmark in the **Questions** section o
 
 ### Link a duplicated question
 
-To map a duplicated question to its original Viva Glint standard question in the Question Library or in a survey:
+To map a duplicated question to the original Viva Glint standard question in the Question Library or in a survey:
 
 1. Select a question and choose the **Duplicate Question** option in the edit pane that appears.
 2. Select an option in the benchmark associations dialog that appears:
