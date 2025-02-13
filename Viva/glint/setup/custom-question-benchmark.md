@@ -1,5 +1,5 @@
 ---
-title: Link custom survey questions to Viva Glint benchmarks
+title: Link custom questions to Viva Glint benchmarks
 description: As a Microsoft Viva Glint Administrator, associate custom questions with Glint benchmark suites so that users still have a point of comparison in reporting.
 ms.author: aweixelman
 author: AliciaWeixelman
@@ -16,7 +16,7 @@ ms.localizationpriority: high
 ms.date: 02/14/2025
 ---
 
-# Link custom survey questions to Viva Glint benchmarks
+# Link custom questions to Viva Glint benchmarks
 
 As a Microsoft Viva Glint Administrator, associate custom questions with Viva Glint benchmark suites so that users still have a point of comparison in reporting.
 
@@ -66,10 +66,10 @@ To view which benchmarks have a score available for a Viva Glint question:
   
    :::image type="content" source="../../media/glint/setup/view-benchmark-info.png" alt-text="Screenshot of benchmark information options available at the question level.":::
 
-> [!NOTE]
-> Benchmark suites in the "x of y external benchmarks" dialog are based on [external benchmark suites selected in General Settings](opting-into-external-benchmarks.md#selecting-external-benchmarks-after-admin-consent).
+   > [!NOTE]
+   > Benchmark suites in the "x of y external benchmarks" dialog are based on [external benchmark suites selected in General Settings](opting-into-external-benchmarks.md#selecting-external-benchmarks-after-admin-consent).
 
-### Link a question in Program setup
+### Link a question in Program Setup
 
 To map an existing custom question to a benchmark in the **Questions** section of a survey:
 
