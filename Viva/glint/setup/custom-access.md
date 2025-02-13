@@ -14,7 +14,7 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 02/03/2025
+ms.date: 02/13/2025
 ---
 
 # Custom data access in Viva Glint
@@ -87,13 +87,15 @@ To prepare your exported custom access file for import to Advanced Configuration
       - Populate the survey uuid column with "GOAL."
    - **Admin permissions**:
       - Populate the survey uuid column with "ADMIN."
-6. To grant custom access to: 
-   - **Another manager's team that exists in current employee data**:
-      - Include an attribute column labeled: Manager Level 1 and list the Employee ID of the manager that another user should have access to. The manager levels automatically calculate based on the manager ID added to the Manager Level 1 column.
-   - **Another manager's team that doesn't exist in current employee data**:
-      - Include columns for all Manager Level fields populated with manager IDs to build the full manager hierarchy path. To get all levels in this past hierarchy path for an old manager team, [export users from the survey cycle](/viva/glint/setup/glint-data-apps#export_users_from_survey_cycle) and copy Manager Level fields and the manager IDs in them.
-   - **A level in a non-Manager hierarchy**:
-      - Include all levels above the level the user should have access to. Example: To grant access to Location Hierarchy Level 3 = Dublin, include columns for Region, Country, and City.
+6. To grant custom access to manager or non-manager hierarchy data, use this table as a guide.
+
+   |Access  |Attributes to include in file  | Attribute values to include in file  | Example |
+   |:----------|:-----------|:------------|:------------|
+   |Another active manager's team    | Manager Level 1       | Employee ID of the manager that another user should have access to | :::image type="content" source="../../media/glint/setup/custom-access-export-survey3.png" alt-text="Screenshot of a custom access export for a user with customized survey results access."::: |
+   |Another inactive manager's team     | Fields for all manager levels in the iactive manager hierarchy <br>[Export users from the survey cycle](/viva/glint/setup/glint-data-apps#export_users_from_survey_cycle) to get all levels  | Employee IDs of the managers in all levels <br>[Export users from the survey cycle](/viva/glint/setup/glint-data-apps#export_users_from_survey_cycle) to get all IDs  | Manager Level 1 |
+   |A manager's direct reports only  | Manager ID field, with the label from your attribute setup    | Manager IDs of each direct report, in separate rows | Manager Level 1 |
+   |A level in a non-manager hierarchy    | Fields for all levels above and including the level the user should access    | Values for each level in each field | Manager Level 1 |
+
 7. Save your file in .csv format with a comma separator and UTF-8 encoding (Viva Glint accepts UTF-8 and UTF-8 with BOM encoding).
 
 ### Example
