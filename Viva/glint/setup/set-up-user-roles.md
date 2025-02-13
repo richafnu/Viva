@@ -46,8 +46,8 @@ The roles in this table are preconfigured in Viva Glint:
 |**Role title**|**Data reporting permission level**|
 |---------|----------|
 |**Company Admin**| Employees who are granted **ALL** permissions. Includes optional Advanced Configuration access.|
-|**Active Employees**|  Membership in this role is automatic based on the employee's status ("ACTIVE") in Viva Glint. This role doesn't grant data access.|
-|**Inactive Employees**| Membership in this role is automatic based on the employee's status ("INACTIVE") in Viva Glint. This role doesn't grant data access.|
+|**Active Employees**|  Automatic role membership based on the employee's status ("ACTIVE") in Viva Glint. This role doesn't grant data access.|
+|**Inactive Employees**| Automatic role membership based on the employee's status ("INACTIVE") in Viva Glint. This role doesn't grant data access.|
 |**Managers**|Includes permission to see reporting for the employee's team based on Viva Glint's calculated manager hierarchy. Attribute filters aren't defined.|
 |**Support Users**| [Other Microsoft 365 users](/viva/glint/setup/add-external-user) who have advanced access. |
 
@@ -160,7 +160,7 @@ Add members to a User Role by choosing from these options:
 
 :::image type="content" source="../../media/glint/setup/user-roles-attribute-slider.png" alt-text="Screenshot of the **Add Attribute Rules** section in Role Settings.":::
 
-1. From your admin dashboard, choose the **Configure** symbol and then select **User Roles**.  
+1. From your admin dashboard, choose the **Configuration** symbol and then select **User Roles**.  
 2. Choose any role - *excluding preconfigured roles*.
 3. Select  **Add/Edit Employees.**
 4. In the new display window, choose either:
@@ -181,7 +181,7 @@ When you need to assign many individuals to a specific User Role, use the bulk i
 
 :::image type="content" source="../../media/glint/setup/user-roles-import-dialog-box.png" alt-text="Screenshot of the Import Employees to Role dialog box in Role Settings.":::
 
-1. From your admin dashboard, choose the **Configure** symbol and then select **User Roles**.
+1. From your admin dashboard, choose the **Configuration** symbol and then select **User Roles**.
 2. On the **Role Settings** page, select **Export.** In the window that opens, make your selections and select **Export**.
 3. Open the downloaded CSV file and delete all columns except the column with email addresses.
 4. Add or delete email addresses, as needed. This edit can be a full replacement for the existing file so you don't need an *Add* or *Remove* column.
@@ -223,6 +223,6 @@ Learn more about data upload methods for Viva Glint: [Choose a data upload metho
 
 ## Grant custom access
  
-Custom access is for users who need to have their default access overridden. This happens when a role is so specific that it needs to be *per user,* rather than at the User Role level. For example, use custom access for (Human Resources Business Partner) HRBPs who serve unique combinations of employee groups in your organization. To grant custom access in bulk to multiple users for survey, Focus Area, and Admin access, see [Advanced Configuration uploads](advanced-config-uploads.md).
+Custom access is for users who need to have their default access overridden. This access type is useful when a role is so specific that it needs to be *per user,* rather than at the User Role level. For example, use custom access for Human Resources Business Partners (HRBPs) who serve unique combinations of employee groups in your organization. To grant custom access in bulk to multiple users for survey, Focus Area, and Admin access, see [Advanced Configuration uploads](advanced-config-uploads.md).
 
 
