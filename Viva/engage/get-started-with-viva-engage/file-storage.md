@@ -174,27 +174,9 @@ Community admins can remove the navigation entry points to the library. Take the
 
 1. Select the **...** option in the bottom-right corner of the community header. 
 
-2. Select **Settings** and clear the **Community resources** checkbox.
+2. Select **Settings** and turn off the **Community resources** toggle.
 
-3. Clear the **Enable Files tab** checkbox.
-
-## File Handling in Viva Engage experiences
-
-You can work with file attachments in the following experiences:
-
-- The Viva Engage app
-- The Viva Engage web browser experience
-- The Viva Engage experience in Teams
-<!--- The integrated Storyline in Teams-->
-
-Users of <!--the integrated Storyline experience in Microsoft Teams, and in-->Microsoft Teams' full Viva Engage experience can attach files to their storyline posts. Teams places those files in a hidden filesystem. <!--See [Storylines in Viva Engage](https://support.microsoft.com/en-us/topic/storylines-in-viva-engage-cba3c38e-77c6-4ee6-9d5d-6c20522b1fa0) for more information about Storyline features.-->
-
-Communities in all Viva Engage experiences (App, Web, and Teams) support a **Files** tab and a Community resources module. Admins can enable or disable the **Files** tab and the Community resources module.
-
-The content, posts and settings you apply in Viva Engage also appear in all other Viva Engage experiences (App, web, and Teams). For example, if an Engage admin disables the **Files** tab for a community, that tab doesn't appear in the Web experience, the full Viva Engage Teams experience, or in the app.
-<!--
-> [!NOTE]
-> If you make a post in your Storyline in the Viva Engage app, the same post appears in the Viva Engage web experience and in Teams. File attachments also do so. If you publish a post in the Storyline for Microsoft Teams, it also appears in the Viva Engage app and in the web experience.-->
+3. Turn off the **Enable Files tab** toggle.
 
 ## Guest access to files
 
