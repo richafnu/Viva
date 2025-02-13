@@ -14,7 +14,7 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 09/16/2024
+ms.date: 02/13/2025
 ---
 
 # Find validated items in the Viva Glint Question Library
@@ -54,7 +54,7 @@ Glint has done extensive research to identify the most reliable and valid items 
    > [!IMPORTANT]
    > In cases where text is altered to sufficiently alter the item's meaning, the benchmark comparison is no longer valid and the items is now referred to as "customized," not "standard."
    > - For these items, create a copy of the standard item so that it isn't tied to an invalid benchmark for comparison.
-   > - Customized items don't map to external benchmarks. For this reason, if you make a change to a standard survey item, duplicate the question and create a customized version. [Question mapping](/../../viva/glint/setup/question-mapping).
+   > - Customized items don't map to external benchmarks by default. Carefully review [Question mapping](/../../viva/glint/setup/question-mapping) information before [linking a custom question to an external benchmark suite](custom-question-benchmark.md).
 
 ## Edit items from the Question Library 
 
@@ -62,7 +62,8 @@ Any item can be edited by hovering over and selecting the row that the item appe
 
 1. Choose the language. Languages for which this item has been translated are visible in the dropdown menu. 
 1. Edit the reporting label, if desired. 
-1. Edit the item text, if desired. 
+1. Edit the item text, if desired.
+1. Review [Question mapping](/../../viva/glint/setup/question-mapping) information before [linking a custom question to an external benchmark suite](custom-question-benchmark.md) in the Benchmark field.
 1. Add instruction text that helps the user understand the meaning of the item. 
 1. Add comment placeholder text, if desired. 
 1. Change the rating scale, if applicable. 
