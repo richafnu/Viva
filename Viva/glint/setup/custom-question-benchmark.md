@@ -35,20 +35,20 @@ To map custom questions to a Viva Glint benchmark suite, the question should be 
 Viva Glint Admins can map custom survey questions to benchmarks from the Question Library or from the Questions section of a survey program. Link custom or duplicated standard questions to benchmark suites.
 
 > [!CAUTION]
-> To pull the correct benchmark information into reports, [re-approve](preview-manage-enable-engage-programs.md#approve-a-program) all survey programs that use the question with an added or updated benchmark mapping. To view which survey programs use a question, go to the **Question Library**, select the question, and select the **Associated Programs tab**.
+> To pull the correct benchmark information into reports, [reapprove](preview-manage-enable-engage-programs.md#approve-a-program) all survey programs that use the question with an added or updated benchmark mapping. To view which survey programs use a question, go to the **Question Library**, select the question, and select the **Associated Programs tab**.
 
 ### Link a question in the Question Library
 
 > [!NOTE]
-> Organizations migrating from LinkedIn Glint to Viva Glint may have hardcoded benchmark values for custom questions and see a "!Benchmark" tag. Use these steps to link eligible custom questions to Viva Glint standard question benchmarks to use automatic benchmarking.
+> Organizations migrating from LinkedIn Glint to Viva Glint can have hardcoded benchmark values for custom questions and see a **!Benchmark** tag. Use these steps to link eligible custom questions to Viva Glint standard question benchmarks to use automatic benchmarking.
 
 To map a custom question to a benchmark suite in the Question Library:
 
 1. From the admin dashboard, select Configuration then choose Question Library in the Surveys section.
 2. For users in a migrated organization: 
     1. At the top of the page, a banner indicates how many questions aren't associated with a benchmark. Switch on the Show only warnings setting to filter to these questions.
-    2. Select a question with the "!Benchmark" tag.
-3. Next, for migrated or non-migrated organizations, in the question edit pane that appears, go to the Benchmark field.
+    2. Select a question with the **!Benchmark** tag.
+3. Next, for migrated or nonmigrated organizations, in the question edit pane that appears, go to the Benchmark field.
 4. Search for and select a Viva Glint standard question to apply its benchmark to your comparable, custom question.
 5. Select Save Changes at the top of the edit pane.
   
@@ -62,12 +62,12 @@ To view which benchmarks have a score available for a Viva Glint question:
 2. Select a Viva Glint question.
 3. In the edit pane that appears, go to the Benchmark field.
 4. Select the "x of y external benchmarks" link to view which benchmark suites have scores available for the question.
-5. Select the "x custom questions" link to view which custom question use the associated benchmarks.
+5. Select the "x custom questions" link to view which custom questions use the associated benchmarks.
   
    :::image type="content" source="../../media/glint/setup/view-benchmark-info.png" alt-text="Screenshot of benchmark information options available at the question level.":::
 
 > [!NOTE]
-> Benchmark suites in the "x of y external benchmarks" dialog are based on [external benchmark suites selected in General Settings](opting-into-external-benchmark.mds#selecting-external-benchmarks-after-admin-consent).
+> Benchmark suites in the "x of y external benchmarks" dialog are based on [external benchmark suites selected in General Settings](opting-into-external-benchmark.md#selecting-external-benchmarks-after-admin-consent).
 
 ### Link a question in Program setup
 
@@ -81,11 +81,11 @@ To map an existing custom question to a benchmark in the Questions section of a 
 
 ### Link a duplicated question
 
-To map a duplicated question to the Viva Glint standard question that it's copied from in the Question Library or in a survey:
+To map a duplicated question to its original Viva Glint standard question in the Question Library or in a survey:
 
 1. Select a question and choose the Duplicate Question option in the edit pane that appears.
 2. In the benchmark associations dialog that appears, select:
-    1. Yes, keep any inherited benchmarks, to keep benchmarks from the standard question that's copied, or
+    1. Yes, keep any inherited benchmarks, to keep benchmarks from the copied standard question, or
     2. No, remove all inherited benchmarks, to discard benchmark information when edits are made that change the question's meaning.
 3. Select Duplicate this question in the dialog.
   
