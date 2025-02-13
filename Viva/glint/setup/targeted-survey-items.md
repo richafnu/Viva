@@ -28,11 +28,11 @@ To add roles or lists to target and exclude questions:
 3. Find the question to target or exclude and hover on the far right to select the **ellipsis**.  
 4. In the dropdown menu, select **Edit Targeting** to reveal the Targeting edit pane.
    
-   :::image type="content" source="../../media/glint/setup/edit-targeting.png" alt-text="Screenshot that displays Viva Glint's Questions page." lightbox="../../media/glint/setup/edit-targeting.png":::
+   :::image type="content" source="../../media/glint/setup/edit-targeting2.png" alt-text="Screenshot of the question dropdown menu with the Edit Targeting option.":::
    
 5. In the **Targeted lists included** section, select the **Search for or select a custom target...** field to view all of your organization's Distribution Lists and User Roles.
 
-   :::image type="content" source="../../media/glint/setup/targeting-viva.png" alt-text="Screenshot that displays the targeting page of Viva Glint." lightbox="../../media/glint/setup/targeting-viva.png":::
+   :::image type="content" source="../../media/glint/setup/targeting-edit-pane.png" alt-text="Screenshot of the Targeting edit pane with User Roles and Distribution Lists available to select for targeting.":::
    
 6. To target the question to specific users, select one or multiple lists or roles.
 7. In the **Targeted lists excluded** section, select the **Search for or select a custom target...** field and select lists or roles to exclude from this question, if needed.
