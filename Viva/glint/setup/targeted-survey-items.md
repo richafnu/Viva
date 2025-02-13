@@ -21,11 +21,9 @@ ms.date: 02/13/2025
 
 Microsoft Viva Glint Administrators can use Distribution Lists or User Roles to target survey items or exclude items for specific groups of users.
 
-## Target an or exclude users for individual item
-
 To add roles or lists to target and exclude questions:
 
-1. Go to **Configuration** and in **Surveys**, select **Survey Programs**.
+1. Go to **Configuration** and select **Survey Programs** in **Surveys**.
 2. Select and survey and go to the **Questions** section.
 3. Find the question to target or exclude and hover on the far right to select the **ellipsis**.  
 4. In the dropdown menu, select **Edit Targeting** to reveal the Targeting edit pane.
@@ -36,13 +34,13 @@ To add roles or lists to target and exclude questions:
 
    :::image type="content" source="../../media/glint/setup/targeting-viva.png" alt-text="Screenshot that displays the targeting page of Viva Glint." lightbox="../../media/glint/setup/targeting-viva.png":::
    
-6. Select one or multiple lists and roles to target the question to specific users.
-7. In the Targeted lists excluded section, select the **Search for or select a custom target...** field and select lists or roles to exclude from this question, if needed.
+6. To target the question to specific users, select one or multiple lists or roles.
+7. In the **Targeted lists excluded** section, select the **Search for or select a custom target...** field and select lists or roles to exclude from this question, if needed.
 8. Select **Save Changes**.
 
 ## Create a new Distribution List or User Role
 
-If existing lists and roles don't include the right users, create a new Distribution List or User Role:. 
+If existing lists and roles don't include the right users, create a new Distribution List or User Role: 
 
-- [Create a new Distribution List](set-up-distribution-lists,md).
+- [Create a new Distribution List](set-up-distribution-lists.md).
 - [Create a new User Role](set-up-user-roles.md).
