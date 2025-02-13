@@ -98,7 +98,7 @@ The information is broken out across **Program Summary** setup pages.
 3. In the list of **Upcoming and Live** surveys, go the Live survey and select the ellipses.
 4. In the dropdown menu, select **Manage Schedule & Invites** and choose from the **Schedule**, **Resend Survey Invites**, or **Reschedule Survey Invites** options.
 
-   <img src="../../media/glint/setup/live-manage-schedule.png" alt="Screenshot of the Manage Schedule & Invites feature for a live Viva Glint survey." width=435>
+   :::image type="content" source="../../media/glint/setup/live-manage-schedule.png" alt-text="Screenshot of the Manage Schedule & Invites feature for a live Viva Glint survey.":::
 
 ### Items (survey questions or statements)
 
@@ -127,7 +127,7 @@ Mapping to a Viva Glint standard item needs to be updated.
 
 :::image type="content" source="../../media/glint/setup/questions-confirm-benchmark-change.png" alt-text="Screenshot of Confirm before saving dialog box for a benchmark mapping change only." lightbox="../../media/glint/setup/questions-confirm-benchmark-change.png":::
 
-:::image type="content" source="../../media/glint/setup/questions-confirm-text-benchmark-changes.png" alt-text="Screenshot of the Confirm before saving dialog box for benchmark and item text changes." lightbox="../../media/glint/setup/questions-confirm-text-benchmark-changes.png":::
+:::image type="content" source="../../media/glint/setup/questions-confirm-text-benchmark-changes-4.png" alt-text="Screenshot of the Confirm before saving dialog box for benchmark and item text changes." lightbox="../../media/glint/setup/questions-confirm-text-benchmark-changes-4.png":::
 
 
 #### Admin process for editing an item during a Live survey
