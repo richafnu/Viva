@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 02/10/2025
+ms.date: 02/13/2025
 ---
 
 # Set up Viva Glint User Roles
@@ -212,9 +212,14 @@ This functionality works for roles which already have filters and/or populations
 6. Choose whether to include inactive employees or to exclude any employees.
 7. Select **Save Changes**.
 
-### Change a User Role status
+### Change a user's status from ACTIVE to INACTIVE
 
-To change a User Role from ACTIVE to INACTIVE or vice versa, include the users in an upload file with their status changed to "**ACTIVE**" or "**INACTIVE.**" This edit can't be made within the **User Roles** feature. 
+A user's status, "INACTIVE" or "ACTIVE," determines their membership to Viva Glint's [predefined Active or Inactive Employees roles](#preconfigured-user-roles). To update employees' status, Viva Glint Admins can:
+
+- Upload employee data with new status values ("INACTIVE" or "ACTIVE") for users.
+- Upload a full employee file, leaving out users who should be inactivated. Users not included in the file automatically switch to an INACTIVE status.
+
+Learn more about data upload methods for Viva Glint: [Choose a data upload method](choose-upload-method.md).
 
 ## Grant custom access
  
