@@ -121,7 +121,7 @@ Mapping to a Viva Glint standard item needs to be updated.
 |**#3 - You need to change benchmark mapping but aren't changing item text**.|  <ul><li> External benchmarks are updated in the Question Library.</li><li> No updates are made to survey items, so Live and future surveys aren't impacted.</ul> |
 |**#4 - You need to change benchmark mapping and change item text.** | <ul><li>The considerations stated above in **Question text** apply.</li><li>Existing external benchmark associations are updated in the Question Library. </li><li> To accurately update reports, re-approve the survey program which includes the changed item.</ul>|
 
-:::image type="content" source="../../media/glint/setup/questions-confirm-before-changing-no-benchmark.png" alt-text="Screenshot of the Confirm before saving dialog box for item change without benchmark change." lightbox="../../media/glint/setup/questions-confirm-before-changing-no-benchmark.png":::
+:::image type="content" source="../../media/glint/setup/confirm-before-changing-1.png" alt-text="Screenshot of the Confirm before saving dialog box for item change without benchmark change." lightbox="../../media/glint/setup/confirm-before-changing-1.png":::
 
 :::image type="content" source="../../media/glint/setup/questions-confirm-text-no-association-2.png" alt-text="Screenshot of Confirm before saving dialog box for text edit for item with no associated benchmark." lightbox="../../media/glint/setup/questions-confirm-text-no-association-2.png":::
 
