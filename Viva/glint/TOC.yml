@@ -193,6 +193,8 @@ items:
         items:
             - name: Question mapping
               href: setup/question-mapping.md
+            - name: Link custom questions to benchmarks
+              href: setup/custom-question-benchmark.md
             - name: Change item IDs
               href: setup/change-item-id.md
       - name: Nudges
