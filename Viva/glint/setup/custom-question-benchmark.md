@@ -40,14 +40,14 @@ Viva Glint Admins can map custom survey questions to benchmarks from the Questio
 ### Link a question in the Question Library
 
 > [!NOTE]
-> Organizations migrating from LinkedIn Glint to Viva Glint may see manually added benchmark values for custom questions and see a **!Benchmark** tag. Use these steps to link eligible custom questions to Viva Glint standard question benchmarks to use automatic benchmarking.
+> Organizations migrating from LinkedIn Glint to Viva Glint may see manually added benchmark values for custom questions and see a **Benchmark** warning tag. Use these steps to link eligible custom questions to Viva Glint standard question benchmarks to use automatic benchmarking.
 
 To map a custom question to a benchmark suite in the Question Library:
 
 1. Select **Configuration** from the admin dashboard and choose **Question Library** in the **Surveys** section.
 2. For users in a migrated organization: 
     1. At the top of the page, a banner indicates how many questions aren't associated with a benchmark. Switch on the **Show only warnings** setting to filter to these questions.
-    2. Select a question with the **!Benchmark** tag.
+    2. Select a question with the **Benchmark** warning tag.
 3. Go to the **Benchmark** field (for migrated or nonmigrated organizations) in the question edit pane that appears.
 4. Search for and select a Viva Glint standard question to apply its benchmark to your comparable, custom question.
 5. Select **Save Changes** at the top of the edit pane.
