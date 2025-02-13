@@ -22,7 +22,7 @@ ms.date: 02/13/2025
 The Microsoft Viva Glint Question Library contains hundreds of questions and statements (called *items*) that can be included in your surveys. If you choose a template for a specific survey type, the questions and statements that best support the survey goal are prepopulated in the template. You can create and edit items from the Question Library, but Viva Glint suggests using our standard questions as most are mapped to benchmarks.
 
 > [!NOTE]
-> Not all items in the Question Library are posed in question format. Many library items are statements for the survery taker to rate on a given scale. For this reason the term "items" is often used to refer to the contents of the Question Library.
+> Not all items in the Question Library are posed in question format. Many library items are statements for the survey taker to rate on a given scale. For this reason, the term "items" is often used to refer to the contents of the Question Library.
 
 ## There are two versions of some Viva Glint standard Question Library items
 
@@ -49,7 +49,7 @@ Some Viva Glint standard items (questions) have two versions.
 Viva Glint has extensive research that identifies the most reliable and valid items linked to survey goals. Our benchmarks are created using the *exact* text from these items. Even a slight change to a question or statement can alter the meaning enough to invalidate a comparison to the benchmark.  
 
    > [!IMPORTANT]
-   > In cases where text is altered to sufficiently alter the item's meaning, the benchmark comparison is no longer valid and the items is now referred to as "customized," not "standard."
+   > In cases where text changes alter the item's meaning, the benchmark comparison is no longer valid, and the items is now "customized," not "standard."
    > - For these items, create a copy of the standard item so that it isn't tied to an invalid benchmark for comparison.
    > - Customized items don't map to external benchmarks by default. Carefully review [Question mapping](/../../viva/glint/setup/question-mapping) information before [linking a custom question to an external benchmark suite](custom-question-benchmark.md).
 
@@ -77,14 +77,14 @@ There may be cases where slight edits to wording can be accommodated without alt
 |Example|Standard|Modified|Recommendation|
 |-------|--------|-------|-------|
 |**1 - Matching the language of the business**| I would recommend my *manager* to others.|I would recommend my *supervisor* to others.| Modifying a term in the item to make it more specific to your organizational language is acceptable and doesn't affect the benchmark. To retain the benchmark, edit the standard item without creating a copy.| 
-|**2 - Using synonyms**|The recruitment process was *excellent*.|The recruitment process was *great*.|If the replacement word is likely to be interpreted similarly, the item change is acceptable. Edit the standard item without creating a copy to retain the benchmark.|
+|**2 - Using synonyms**|The recruitment process was *excellent*.|The recruitment process was *great*.|If the replacement word is likely to be interpreted similarly, the item change is acceptable. To retain the benchmark, edit the standard item without creating a copy.|
 
 ### Examples of edits that don't retain a valid benchmark comparison
 
 | Example | Standard | Modified | Recommendation |
 |-------|--------|-------|-------|
-| **1 - Altering the subject** | *I feel empowered* to make decisions regarding my work. | *My manager empowers me* to make decisions regarding my work. |  Altering the subject in an item changes the way people respond, and the benchmark is longer be valid. Create a copy of the standard item and customize the copy so that there isn't an invalid benchmark tied to the edited item. |
-| **2 - Altering the subject** | My manager *provides me with feedback that helps me improve my performance*. | My manager and *I have regular conversations*. | When the meaning of an item has been fundamentally altered, the change isn't recommended, and the benchmark is no longer valid. Create a copy of the standard item and customize the copy so that there isn't an invalid benchmark tied to the edited item. |
+| **1 - Altering the subject** | *I feel empowered* to make decisions regarding my work. | *My manager empowers me* to make decisions regarding my work. |  Altering the subject in an item changes the way people respond, and the benchmark is longer valid. Create a copy of the standard item and customize the copy so that there isn't an invalid benchmark tied to the edited item. |
+| **2 - Altering the subject** | My manager *provides me with feedback that helps me improve my performance*. | My manager and *I have regular conversations*. | When the meaning of an item is completely changed, the change isn't recommended, and the benchmark is no longer valid. Create a copy of the standard item and customize the copy so that there isn't an invalid benchmark tied to the edited item. |
 
 ## View associated programs 
 
