@@ -28,7 +28,7 @@ Admins can add or modify survey items on the Questions page.
 
  Refer to the [Learn about Viva Glint program design](/training/modules/viva-glint-learn-about-viva-glint-program-design) module to learn how to implement your organization's listening strategy in your survey program question setup.
 
-## Use Glint's survey templates
+## Use Viva Glint's survey templates
 
 Standard templates provide prepopulated survey items, along with customizable introductory and concluding text. The Viva Glint People Science Team researches and substantiates prepopulated survey items.
 
@@ -50,13 +50,14 @@ To add a link to an employee resource or other information in your survey introd
 1. Select the **Questions** section of your survey program and select the survey introduction section.
 2. In the **Text** field, add `[Display text](link)`, replacing "Display text" with the text that should become a link. Replace "link" with the URL.
    1. Example: `[Contoso handbook](http://www.contoso.com)`
-3. Select **Save Changes**.
-4. [Preview your survey](/viva/glint/setup/preview-manage-enable-engage-programs) to confirm that the hyperlink works as expected.
+3. If your survey has multiple languages, select each language from the **Language** dropdown menu to add the hyperlink to the **Text** field in all languages.
+4. Select **Save Changes**.
+5. [Preview your survey](/viva/glint/setup/preview-manage-enable-engage-programs) to confirm that the hyperlink works as expected.
 
 ### Add a logo to the survey introduction
 
 > [!TIP]
-> Ensure that logos are horizontally oriented, have a transparent background, and 16MB or smaller in file size.
+> Ensure that logos are horizontally oriented, have a transparent background, and 16 MB or smaller in file size.
 
 1. From the admin dashboard, select **Configuration**. In the **Action Taking** section, select **Content Resources**.
 1. Select **+ New** to add a new resource and **OK** in the languages message that appears.
@@ -77,7 +78,7 @@ To add a link to an employee resource or other information in your survey introd
 > Survey items can be edited during the initial survey configuration *and* sometimes during a live survey. [Read about editing live survey items](/viva/glint/setup/question-edit).
 
 There are three entry points where survey items can be edited:
--	In the **Question Library** on your admin dashboard. This entry point doesn't require that the survey is changed to an unapproved state.
+-	In the **Question Library** in Admin Configuration. This entry point doesn't require that the survey is changed to an unapproved state.
 -	In **Survey Programs, Live** 
 -	In **Upcoming Surveys**
 
@@ -128,7 +129,7 @@ Customize the **Thank You** concluding message for the survey by hovering over t
 1. Edit **Greeting** - "Thank you!" is prepopulated, but customize the greeting in a way that's comfortable for you. 
 1. Edit **Text** - You see dummy text in the **Text** box.
    - All dummy text can be edited.
-   - The Text field also includes placeholders, called macros, that pull in values based on your employee data or Glint-generated items. Delete macros or add new macros by selecting the blue plus sign (+) in the Text box.
+   - The Text field also includes placeholders, called macros, that pull in values based on your employee data or Viva Glint-generated items. Delete macros or add new macros by selecting the blue plus sign (+) in the Text box.
 1. Select **Save Changes**.
 
 > [!NOTE]
@@ -145,7 +146,7 @@ To add rating questions, multiple choice questions, open-ended questions, or sec
 ## Edit Display Logic
 
 >[!TIP]
-> Wait to add display logic until after you've arranged your sections and items in the order you want.
+> Wait to add display logic until after your sections and items are in the order you want.
 
 1. In the Display Logic window, set the **Overall logic for conditions** and **Conditions** or **Subconditions**. 
 1. Select **+ Add new condition** to add more.
