@@ -107,7 +107,7 @@ Admins can easily send preview communications from an Approved program cycle. An
 
    :::image type="content" source="../../media/glint/setup/preview-email-steps.png" alt-text="Screenshot of how to preview email communications from Upcoming and Live cycles.":::
 
-1. In the Select Preview for [Survey Name] window that opens, select from Survey Start, Survey Reminds, Survey End to define which previews to send.
+1. In the Select Preview for [Survey Name] window that opens, select from **Survey Start**, **Survey Reminders**, **Survey End** to define which previews to send.
 2. In the **Select a Recipient** box, search for your name or whoever you want to send the previews to.
 
    :::image type="content" source="../../media/glint/setup/comms-preview-selection.png" alt-text="Screenshot of how to choose and send email previews.":::
