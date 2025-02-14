@@ -22,7 +22,7 @@ ms.date: 02/03/2025
 Customize Microsoft Viva Glint email content for survey invites, reminders, and survey results notifications in the Communications section of Program Setup. Optionally, set up a custom email sending domain and a company logo for survey emails. To understand how to enable/disable emails, and for more information about Communications setup, see [Communications setup in Program Summary](program-summary-communications.md).
 
 > [!IMPORTANT]
-> Always-On survey programs don't a Communications section for setup.
+> Always-On survey programs don't have a Communications section for setup.
 
 ## Custom sending domains and themes/logos (optional)
 
@@ -76,7 +76,7 @@ The Survey End Results Notification email is designed to notify managers that th
 
 Sections that can be easily customized: Button Text, Greeting, Main Title, Preview Text, Subject Title, Tip Titles, Tip Descriptions
 
-**Avoid customizing links and icons.**
+**Avoid customizing links and icons**.
 
 These results notification email sections support multiple paragraphs to break up and emphasize important text:
 - Description
@@ -98,16 +98,16 @@ After customizing emails, use the Viva Glint [preview option](preview-manage-ena
 
 Admins can easily send preview communications from an Approved program cycle. Any communication set up on the Communications page in Program Summary can be viewed.
 
-1. From your admin dashboard, select **Survey Programs.**
+1. From your admin dashboard, select **Survey Programs**.
 2. On the **Survey Programs** page, select the survey program you want to review communications for.
-3. In the **Upcoming and Live** tab on the survey program page, select a cycle and then use the ellipses to display the dropdown menu. Select **Preview.**
+3. In the **Upcoming and Live** tab on the survey program page, select a cycle and then use the ellipses to display the dropdown menu. Select **Preview**.
 
 > [!IMPORTANT]
 > A survey must be in **Approved** status for it to be listed as Upcoming or Live.
 
    :::image type="content" source="../../media/glint/setup/preview-email-steps.png" alt-text="Screenshot of how to preview email communications from Upcoming and Live cycles.":::
 
-1. In the Selet Preview for [Survey Name] window that opens, select from Survey Start, Survey Reminds, Survey End to define which previews to send.
+1. In the Select Preview for [Survey Name] window that opens, select from Survey Start, Survey Reminds, Survey End to define which previews to send.
 2. In the **Select a Recipient** box, search for your name or whoever else you want to send the previews to.
 
    :::image type="content" source="../../media/glint/setup/comms-preview-selection.png" alt-text="Screenshot of how to choose and send email previews.":::
