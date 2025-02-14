@@ -15,7 +15,7 @@ ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
 ms.custom: CELA-approved
-ms.date: 02/03/2025
+ms.date: 02/14/2025
 ---
 
 # Program Setup in Program Summary
@@ -26,7 +26,7 @@ The **Program Setup** page is the first configuration page within **Program Summ
 
 ## Define the basics  
 
-:::image type="content" source="../../media/glint/setup/program-setup-2.png" lightbox="../../media/glint/setup/program-setup-2.png" alt-text="Screenshot of the Basics section of Program Setup.":::
+:::image type="content" source="../../media/glint/setup/program-setup-3.png" lightbox="../../media/glint/setup/program-setup-3.png" alt-text="Screenshot of the Basics section of Program Setup.":::
 
 Select **Edit** to configure or change setup in this section.
 
