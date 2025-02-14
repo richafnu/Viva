@@ -108,14 +108,14 @@ Admins can easily send preview communications from an Approved program cycle. An
    :::image type="content" source="../../media/glint/setup/preview-email-steps.png" alt-text="Screenshot of how to preview email communications from Upcoming and Live cycles.":::
 
 1. In the Select Preview for [Survey Name] window that opens, select from Survey Start, Survey Reminds, Survey End to define which previews to send.
-2. In the **Select a Recipient** box, search for your name or whoever else you want to send the previews to.
+2. In the **Select a Recipient** box, search for your name or whoever you want to send the previews to.
 
    :::image type="content" source="../../media/glint/setup/comms-preview-selection.png" alt-text="Screenshot of how to choose and send email previews.":::
 
-Example email preview:
+   Example email preview:
 
-:::image type="content" source="../../media/glint/setup/example-email-preview.png" alt-text="Screenshot of an example preview email.":::
+   :::image type="content" source="../../media/glint/setup/example-email-preview.png" alt-text="Screenshot of an example preview email.":::
 
 
 > [!NOTE]
-> - To allow for easier email review, previews for surveys that require authentication via Entra don't include an Entra link behind the Provide Feedback button.
+> To allow for easier email review, previews for surveys that require authentication via Entra don't include an Entra link behind the Provide Feedback button.
