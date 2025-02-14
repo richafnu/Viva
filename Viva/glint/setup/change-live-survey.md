@@ -98,7 +98,7 @@ The information is broken out across **Program Summary** setup pages.
 3. In the list of **Upcoming and Live** surveys, go the Live survey and select the ellipses.
 4. In the dropdown menu, select **Manage Schedule & Invites** and choose from the **Schedule**, **Resend Survey Invites**, or **Reschedule Survey Invites** options.
 
-   :::image type="content" source="../../media/glint/setup/live-manage-schedule-2.png" alt-text="Screenshot of the Manage Schedule & Invites feature for a live Viva Glint survey." lightbox="../../media/glint/setup/live-manage-schedule-2.png":::
+   :::image type="content" source="../../media/glint/setup/live-manage-schedule-2.png" alt-text="Screenshot of the Manage Schedule & Invites feature for a live Viva Glint survey.":::
 
 ### Items (survey questions or statements)
 
@@ -121,13 +121,13 @@ Mapping to a Viva Glint standard item needs to be updated.
 |**#3 - You need to change benchmark mapping but aren't changing item text**.|  <ul><li> External benchmarks are updated in the Question Library.</li><li> No updates are made to survey items, so Live and future surveys aren't impacted.</ul> |
 |**#4 - You need to change benchmark mapping and change item text.** | <ul><li>The considerations stated above in **Question text** apply.</li><li>Existing external benchmark associations are updated in the Question Library. </li><li> To accurately update reports, re-approve the survey program which includes the changed item.</ul>|
 
-:::image type="content" source="../../media/glint/setup/confirm-before-changing-1.png" alt-text="Screenshot of the Confirm before saving dialog box for item change without benchmark change." lightbox="../../media/glint/setup/confirm-before-changing-1.png":::
+:::image type="content" source="../../media/glint/setup/confirm-before-changing-1.png" alt-text="Screenshot of the Confirm before saving dialog box for item change without benchmark change.":::
 
-:::image type="content" source="../../media/glint/setup/questions-confirm-text-no-association-2.png" alt-text="Screenshot of Confirm before saving dialog box for text edit for item with no associated benchmark." lightbox="../../media/glint/setup/questions-confirm-text-no-association-2.png":::
+:::image type="content" source="../../media/glint/setup/questions-confirm-text-no-association-2.png" alt-text="Screenshot of Confirm before saving dialog box for text edit for item with no associated benchmark.":::
 
-:::image type="content" source="../../media/glint/setup/questions-confirm-benchmark-change.png" alt-text="Screenshot of Confirm before saving dialog box for a benchmark mapping change only." lightbox="../../media/glint/setup/questions-confirm-benchmark-change.png":::
+:::image type="content" source="../../media/glint/setup/questions-confirm-benchmark-change.png" alt-text="Screenshot of Confirm before saving dialog box for a benchmark mapping change only.":::
 
-:::image type="content" source="../../media/glint/setup/questions-confirm-text-benchmark-changes-4.png" alt-text="Screenshot of the Confirm before saving dialog box for benchmark and item text changes." lightbox="../../media/glint/setup/questions-confirm-text-benchmark-changes-4.png":::
+:::image type="content" source="../../media/glint/setup/questions-confirm-text-benchmark-changes-4.png" alt-text="Screenshot of the Confirm before saving dialog box for benchmark and item text changes.":::
 
 
 #### Admin process for editing an item during a Live survey
