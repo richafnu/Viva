@@ -174,7 +174,7 @@ Experience owners are able to create announcements through the Viva Connections 
 
 - **From the SharePoint home site**: The easiest way to access the announcements page is to select **Announcements** from the site navigation and then **+ New announcement**.
 
-   :::image type="content" source="../media/connections/announcements-viva-connections/SharePoint-create-announcement.png" alt-text="Screenshot showing a SharePoint nav bar with Announcements highlighted."lightbox="../media/connections/announcements-viva-connections/SharePoint-create-announcement.png":::
+   :::image type="content" source="../media/connections/announcements-viva-connections/sharePoint-create-announcement.png" alt-text="Screenshot showing a SharePoint nav bar with Announcements highlighted."lightbox="../media/connections/announcements-viva-connections/SharePoint-create-announcement.png":::
 
   >[!NOTE]
   >
