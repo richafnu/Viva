@@ -1,6 +1,6 @@
 ---
 title: Set up attributes in Viva Glint
-description: Set up attributes in Microsoft Viva Glint to create a mapping of fields to expect in your employee data files transmitted to Glint.
+description: Set up attributes in Microsoft Viva Glint to create a mapping of fields to expect in your employee data files transmitted to Viva Glint.
 ms.author: JudithWeiner
 author: JudyWeiner
 manager: MelissaBarry
@@ -14,12 +14,12 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 1/21/2025
+ms.date: 02/14/2025
 ---
 
 # Set up attributes in Viva Glint
 
-Set up attributes in Microsoft Viva Glint to create a mapping of fields to expect in your employee data files transmitted to Glint. Use the decisions made in the [Employee Attribute Template](create-employee-attribute-template.md) as a guide to set up required, custom, hierarchy, and derived attributes.
+Set up attributes in Microsoft Viva Glint to create a mapping of fields to expect in your employee data files transmitted to Viva Glint. Use the decisions made in the [Employee Attribute Template](create-employee-attribute-template.md) as a guide to set up required, custom, hierarchy, and derived attributes.
 
 > [!TIP]
 > Ensure that attribute labels stay consistent over time in your Employee Data File. For example, an attribute set up as "Employee ID," isn't recognized as the same column if renamed "Employee Number."
@@ -93,10 +93,11 @@ Viva Glint calculates attributes based on data sent in your employee attribute f
 |Tenure* |Hire Date   |<1 Year, 1-2 Years, 2-4 Years, 4-6 Years, 6-10 Years, 10-15 Years, 15-20 Years, 20+ Years|
 |Age Grouping     |Birth Year       |<25, 25-29, 30-34, 35-39, 40-44, 45-49, 50-54, 55-59, 60-64, 65-69, 70+       |
 
-*Tenure values for new Viva Glint customers after January 13, 2024. Before this date: 0-1 Year, 1-2 Years, 2-3 Years, 3-4 Years, 4-5 Years, 5-7 Years, 7+ Years.
+\* Tenure values for new Viva Glint customers after January 13, 2024. Before this date: 0-1 Year, 1-2 Years, 2-3 Years, 3-4 Years, 4-5 Years, 5-7 Years, 7+ Years.
 
 > [!IMPORTANT]
-> Don’t include derived attributes in your employee data file, Viva Glint creates these fields.
+> - Don’t include derived attributes in your employee data file, Viva Glint creates these fields.
+> - Age Grouping derivations can be based on Birth Year, but not full Birth Date. Include **Birth Year** in your employee data to create Age Grouping.
 
 1. Select the section with the desired attribute.
 2. Select the desired attribute from the dropdown menu.
@@ -147,7 +148,7 @@ Review a summary of all selections made in attribute setup and use the **Go Back
 :::image type="content" source="../../media/glint/setup/setup-step4-review.png" alt-text="Screenshot of step 4 to review uploaded attribute mapping.":::
 
 > [!NOTE]
-> Glint allows for up to 100 User Attributes. Required, optional system, and hierarchy attributes don't count toward this limit.
+> Viva Glint allows for up to 100 User Attributes. Required, optional system, and hierarchy attributes don't count toward this limit.
 
 ## 5. Choose how you want to import data
 
@@ -163,7 +164,7 @@ Review a summary of all selections made in attribute setup and use the **Go Back
    - Option 2 - Save attributes and discard employee data – Recommended to set up attributes based on your header row and then import finalized employee data later.
 
       > [!TIP]
-      > Glint recommends the **Save attributes and discard employee data** option for initial setup. This allows you to set up and map your attributes in the system and complete your first data import as a separate task.
+      > Viva Glint recommends the **Save attributes and discard employee data** option for initial setup. This allows you to set up and map your attributes in the system and complete your first data import as a separate task.
 
 2. Select **Save**.
 
