@@ -45,9 +45,6 @@ Users with a Microsoft 365 Copilot license receive a monthly personalized notifi
 
 ![Screenshot of Copilot Academy notification in Microsoft Teams.](media/academy-copilot/copilotacademynotifications2.png)
 
-
-![Screenshot of Copilot Academy notification in Microsoft Teams.](media/academy-copilot/copilotacademynotifications.png)
-
 ## Language support 
 
 Copilot Academy is currently available in eight languages: 
