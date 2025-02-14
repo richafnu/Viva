@@ -1,6 +1,6 @@
 ---
 title: Create an SSH key pair
-description: To access your Microsoft Viva Glint SFTP account, create an SSH key pair, which includes a public and private key. 
+description: To access your Microsoft Viva Glint Secure File Transfer Protocol (SFTP) account, create a Secure Shell (SSH) key pair, which includes a public and private key.
 ms.author: aweixelman
 author: AliciaWeixelman
 manager: melissabarry
@@ -14,15 +14,15 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 04/29/2024
+ms.date: 02/14/2025
 ---
 
 # Create an SSH key pair
 
-To access your Microsoft Viva Glint (Secure File Transfer Protocol) SFTP account, create an SSH key pair, which includes a public and private key.
+To access your Microsoft Viva Glint Secure File Transfer Protocol (SFTP) account, create a Secure Shell (SSH) key pair, which includes a public and private key.
 
 > [!NOTE]
-> These instructions are for individual users that connect to Viva Glint SFTP. Your organization may have an HR information system (HRIS) connect directly to SFTP to send employee data. Work with your HRIS team to have a SSH key pair generated for the HRIS to allow it to connect.
+> These instructions are for individual users that connect to Viva Glint SFTP. Your organization may have an HR information system (HRIS) vendor connect directly to SFTP to send employee data. Work with your HRIS team to have an SSH key pair generated for the HRIS vendor to connect.
 
 ## Understand SSH key pair requirements
 
