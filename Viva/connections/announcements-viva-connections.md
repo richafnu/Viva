@@ -58,7 +58,7 @@ Announcements are the best way to communicate targeted, time-sensitive informati
 
 You can view, create, and manage all announcements (active, scheduled, drafts, and expired) from the Announcements page from your Connections experience or SharePoint home site.
 
-:::image type="content" source="./media/connections/announcements-viva-connections/announcements-page.png" alt-text="Screenshot of the announcements page with multiple announcements visible."lightbox"./media/connections/announcements-viva-connections/announcements-page.png":::
+:::image type="content" source="../media/connections/announcements-viva-connections/announcements-page.png" alt-text="Screenshot of the announcements page with multiple announcements visible." lightbox="../media/connections/announcements-viva-connections/announcements-page.png":::
 
 **To access the announcements page in Connections:**
 
@@ -96,7 +96,7 @@ When creating a new announcement, you can choose up to 10 audiences to send to, 
 
 5. Select an **end date and time** (up to two weeks from posting) for the announcement to expire. Expired announcements won't display to users.
 
-    :::image type="content" source="../media/connections/announcements-viva-connections/create-announcement-details.png" alt-text="Screenshot of the announcement details pane with numbered callouts""lightbox"../media/connections/announcements-viva-connections/create-announcement-details.png":::
+    :::image type="content" source="../media/connections/announcements-viva-connections/create-announcement-details.png" alt-text="Screenshot of the announcement details pane with numbered callouts" lightbox="../media/connections/announcements-viva-connections/create-announcement-details.png":::
 
 > [!NOTE]
 >
@@ -106,7 +106,7 @@ When creating a new announcement, you can choose up to 10 audiences to send to, 
 
 7. To allow users to dismiss the announcement after viewing, enable the **Allow users to dismiss setting**.
 
-    :::image type="content" source="../media/connections/announcements-viva-connections/create-announcement-more-options.png" alt-text="Screenshot of the announcment details pane showing the add a link and allow users to dismiss fields""lightbox"../media/connections/announcements-viva-connections/create-announcement-more-options.png":::
+    :::image type="content" source="../media/connections/announcements-viva-connections/create-announcement-more-options.png" alt-text="Screenshot of the announcment details pane showing the add a link and allow users to dismiss fields" lightbox="../media/connections/announcements-viva-connections/create-announcement-more-options.png":::
 
 8. Select **Next** to review the details of your announcement.
 
@@ -118,7 +118,7 @@ When creating a new announcement, you can choose up to 10 audiences to send to, 
 >
 > Once an announcement is sent, message details and end date can still be edited.
 
-   :::image type="content" source="../media/connections/announcements-viva-connections/schedule-announcement.png" alt-text="Screenshot of the announcement review page."lightbox"../media/connections/announcements-viva-connections/schedule-announcement.png":::
+   :::image type="content" source="../media/connections/announcements-viva-connections/schedule-announcement.png" alt-text="Screenshot of the announcement review page." lightbox="../media/connections/announcements-viva-connections/schedule-announcement.png":::
 
 ### Edit an active, scheduled, or draft announcement
 
@@ -126,7 +126,7 @@ When creating a new announcement, you can choose up to 10 audiences to send to, 
 
 2. Select the **pencil** icon next to the announcement you want to edit.
 
-    :::image type="content" source="../media/connections/announcements-viva-connections/edit-announcement.png" alt-text="Screenshot of the announcement page with the edit icon highlighted."lightbox"../media/connections/announcements-viva-connections/edit-announcement.png":::
+    :::image type="content" source="../media/connections/announcements-viva-connections/edit-announcement.png" alt-text="Screenshot of the announcement page with the edit icon highlighted." lightbox="../media/connections/announcements-viva-connections/edit-announcement.png":::
 
 3. Make any desired changes in the **Announcement details**, then select **Next**.
 
@@ -142,7 +142,7 @@ When creating a new announcement, you can choose up to 10 audiences to send to, 
 >
 > Deleted announcements can’t be recovered.
 
-   :::image type="content" source="../media/connections/announcements-viva-connections/delete-announcement.png" alt-text="Screenshot of the announcement page with the delete icon highlighted."lightbox"../media/connections/announcements-viva-connections/delete-announcement.png":::
+   :::image type="content" source="../media/connections/announcements-viva-connections/delete-announcement.png" alt-text="Screenshot of the announcement page with the delete icon highlighted." lightbox="../media/connections/announcements-viva-connections/delete-announcement.png":::
 
 3. When prompted, choose **Yes, delete**.
 
@@ -160,25 +160,25 @@ Announcements sent to users appear differently depending on if they're accessing
 
 **In the Teams mobile app**: Users get a Teams notification displayed on the lock screen of their mobile device alerting them of a new announcement  ([Teams notifications must be enabled by the user](https://support.microsoft.com/office/1cc31834-5fe5-412b-8edb-43fecc78413d)).
 
-   :::image type="content" source="../media/connections/announcements-viva-connections/announcement-mobile-lockscreen.png" alt-text="Screenshot showing the lock screen of a mobile phone with an announcement displayed."lightbox"../media/connections/announcements-viva-connections/announcement-mobile-lockscreen.png":::
+   :::image type="content" source="../media/connections/announcements-viva-connections/announcement-mobile-lockscreen.png" alt-text="Screenshot showing the lock screen of a mobile phone with an announcement displayed." lightbox="../media/connections/announcements-viva-connections/announcement-mobile-lockscreen.png":::
 
 Users can also see the announcement appear under the **Activity** tab in Microsoft Teams. Selecting the announcement opens it in the Connections app on the Teams mobile app.
 
-   :::image type="content" source="../media/connections/announcements-viva-connections/announcement-mobile-activity.png" alt-text="Screenshot of the Activity tab in Teams mobile showing an announcement."lightbox"../media/connections/announcements-viva-connections/announcement-mobile-activity.png":::
+   :::image type="content" source="../media/connections/announcements-viva-connections/announcement-mobile-activity.png" alt-text="Screenshot of the Activity tab in Teams mobile showing an announcement." lightbox="../media/connections/announcements-viva-connections/announcement-mobile-activity.png":::
 
 **From the Connections app in Teams mobile**: Announcements display at the top of the Connections mobile experience.
 
-   :::image type="content" source="../media/connections/announcements-viva-connections/display-announcement-in-connections-for-mobile.png" alt-text="Screenshot of an announcement displaying in the Connections app in Teams mobile."lightbox"../media/connections/announcements-viva-connections/display-announcement-in-connections-for-mobile.png":::
+   :::image type="content" source="../media/connections/announcements-viva-connections/display-announcement-in-connections-for-mobile.png" alt-text="Screenshot of an announcement displaying in the Connections app in Teams mobile." lightbox="../media/connections/announcements-viva-connections/display-announcement-in-connections-for-mobile.png":::
 
 ### How announcements display on desktop
 
 When users [access their Connections experience](https://support.microsoft.com/office/8b4e7f76-f305-49a9-b6d2-09378476f95b#bkmk_access_connections_desktop) through SharePoint, Microsoft Teams, or the Viva Home suite, announcements display above the news spotlight.
 
-   :::image type="content" source="../media/connections/announcements-viva-connections/announcement-desktop.png" alt-text="Screenshot of an announcement in Viva Connections."lightbox"../media/connections/announcements-viva-connections/announcement-desktop.png":::
+   :::image type="content" source="../media/connections/announcements-viva-connections/announcement-desktop.png" alt-text="Screenshot of an announcement in Viva Connections." lightbox="../media/connections/announcements-viva-connections/announcement-desktop.png":::
 
 When in Microsoft Teams, the announcement also appears in the **Activity** tab. Selecting the announcement opens it within the Connections experience.
 
-   :::image type="content" source="../media/connections/announcements-viva-connections/announcement-desktop-activity.png" alt-text="Screenshot of an announcement displaying on the Activities tab in Microsoft Teams."lightbox"../media/connections/announcements-viva-connections/announcement-desktop-activity.png":::
+   :::image type="content" source="../media/connections/announcements-viva-connections/announcement-desktop-activity.png" alt-text="Screenshot of an announcement displaying on the Activities tab in Microsoft Teams." lightbox="../media/connections/announcements-viva-connections/announcement-desktop-activity.png":::
 
 ## Announcements for frontline workers
 
