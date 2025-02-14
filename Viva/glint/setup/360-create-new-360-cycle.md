@@ -21,10 +21,13 @@ ms.date: 2/11/2025
 
 360 programs contain cycles that can be cloned to use on a set schedule. Follow this process:
 
-1.From your manager dashboard, select **360 Feedback Programs.**
-1.Select the **+ New 360 Program** button from the All 360 Programs page
-1.Now choose the **Glint Manager 360 Program template** or the blank template. Hover over the card and select **New Program.** 
-1.An untitled program page opens with a new card which displays the current month and date. In the row above the card, name the program by selecting the **pencil symbol.** Navigate back to the **All 360 Programs** page and you see your new program listed.
+1. From your manager dashboard, select **360 Feedback Programs**.
+
+1. Select the **+ New 360 Program** button from the All 360 Programs page.
+
+1. Now choose the **Glint Manager 360 Program template** or the blank template. Hover over the card and select **New Program**. 
+
+1. An untitled program page opens with a new card which displays the current month and date. In the row above the card, name the program by selecting the **pencil symbol**. Navigate back to the **All 360 Programs** page and you see your new program listed.
 
 ## Use the Actions dropdown menu
 
@@ -50,9 +53,9 @@ Now it's time to set up an individual cycle.
 
 ## Create a new 360 cycle
 
-1. Select **Create New Cycle.**.
+1. Select **Create New Cycle**.
 1. In the **Choose a past cycle to copy from** window, select a cycle to clone. All settings copy except for Schedule & Communication, reminders and subjects.
-2. Use the **pencil symbol** to name your copied template. Give cycles unique names in order to differentiate between them. Only admins see cycle names. Cycle names don’t appear on the user interface or on reports.
+2. Use the **pencil symbol** to name your copied template. Give cycles unique names in order to differentiate between them. Only admins see cycle names. Cycle names don't appear on the user interface or on reports.
 3. The new cycle displays in the **Cycle Name** column.
 
 ## Set up cycle settings 
