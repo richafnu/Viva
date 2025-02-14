@@ -58,7 +58,7 @@ Announcements are the best way to communicate targeted, time-sensitive informati
 
 You can view, create, and manage all announcements (active, scheduled, drafts, and expired) from the Announcements page from your Connections experience or SharePoint home site.
 
-:::image type="content" source="../media/connections/announcements-viva-connections/announcements-page.png" alt-text="Screenshot of the announcements page with multiple announcements visible."lightbox"..media/connections/announcements-viva-connections/announcements-page.png":::
+:::image type="content" source="./media/connections/announcements-viva-connections/announcements-page.png" alt-text="Screenshot of the announcements page with multiple announcements visible."lightbox"./media/connections/announcements-viva-connections/announcements-page.png":::
 
 **To access the announcements page in Connections:**
 
