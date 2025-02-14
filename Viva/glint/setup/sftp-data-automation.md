@@ -30,7 +30,7 @@ Use Microsoft Viva Glint Secure File Transfer Protocol (SFTP) to establish regul
 Before transferring data to Viva Glint with SFTP, ensure that you review information on Viva Glint attribute fundamentals and complete your attribute setup. [Learn more](upload-employee-data.md).
 
 > [!CAUTION]
-> Ensure that all Company Admin users are included in your first file upload, with Employee IDs that match the IDs in Viva Glint. If not, Company Admin users will be deactivated and lose access to the platform.
+> Ensure that all Company Admin users are included in your first file upload, with Employee IDs that match the IDs in Viva Glint. If not, Company Admin users are deactivated and lose access to the platform.
 
 ## Manage SFTP settings
 
@@ -57,7 +57,7 @@ In your SFTP account, there are two (2) directories that Viva Glint monitors for
 > - Files that cause warnings and errors can be downloaded from the **Activity Audit Log** in **General Settings** for 28 days after import.
 
 > [!TIP]
-> For some versions of SAP Success Factors and Workday, "/files" may be auto-appended to the file path for SFTP transmissions. Remove "/files" from the file path ("/user_full" or "/user_delta") to prevent upload errors if your HRIS version auto-appends "/files".
+> For some versions of SAP Success Factors and Workday, "/files" may be autoappended to the file path for SFTP transmissions. To prevent upload errors if your HRIS version autoappends "/files," remove "/files" from the file path ("/user_full" or "/user_delta").
 
 ## Transfer methods
 
@@ -94,10 +94,10 @@ Consistent file format and layout over time ensure successful file imports. Main
 
 ### Naming convention:
 
-Viva Glint recommends the following file naming conventions, where "companyid" is your unique ID within Viva Glint, but this file name method isn't required. Ensure that whichever file name you select is 64 characters or fewer, including the file extension.
+Viva Glint recommends the following file naming conventions, where "company-id" is your unique ID within Viva Glint, but this file name method isn't required. Ensure that whichever file name you select is 64 characters or fewer, including the file extension.
 
-- Companyid_user_full_yyyymmdd.csv
-- Companyid_user_delta_yyyymmdd.csv
+- Company-id_user_full_yyyymmdd.csv
+- Company-id_user_delta_yyyymmdd.csv
 
 For example: contoso_user_delta_20230101.csv
 
