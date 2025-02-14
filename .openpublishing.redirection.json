@@ -2380,9 +2380,17 @@
     "source_path": "viva//360-cycle-settings.md",
     "redirect_url": "/viva/glint/setup/create-new-360-cycle",
     "redirect_document_id": false
+  },
+  {
+      "source_path": "viva/glint/people-science/import-external-people-science-pov.md",
+      "redirect_url": "/viva/glint/setup/import-historical-response-data",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "viva/glint/setup/create-new-360-cycle.md",
+      "redirect_url": "/viva/glint/setup/360-create-new-360-cycle",
+      "redirect_document_id": true
   }
-
     
     ]
-
 }
