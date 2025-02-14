@@ -88,7 +88,7 @@ The information is broken out across **Program Summary** setup pages.
 | --- | --- | --- |
 | **Survey launch date** | You need to postpone the launch date of the survey. | To avoid potential challenges, make this update a minimum of 24 hours before the survey is scheduled to go Live. |
 | **Response window** | You want to decrease or increase the number of days for the survey window. | Adjust a minimum of 48 hours before the original survey end date.<br>Be sure your *Communications* email send dates align with the updated survey window.<br><br>**Note** that Live schedule edits apply at the cycle level. |
-| **Resend Survey Invites** | You want to resend the survey invite email to users who haven't responded yet |The email doesn't send to users who've completed the survey.  Viva Glint admins can only make this change between the invite send date and the first reminder date.<br><br> This functionality isn't available after the first reminder sends.|
+| **Resend Survey Invites** | You want to resend the survey invite email to users who haven't responded yet |The email doesn't send to users who have completed the survey.  Viva Glint admins can only make this change between the invite send date and the first reminder date.<br><br> This functionality isn't available after the first reminder sends.|
 | **Reschedule Survey Invites** | You want to reschedule the survey invite email due to issues with the first invite. | Viva Glint admins can only make this change between the invite send date and the first reminder date.<br><br> This functionality isn't available after the first reminder sends. |
 
 #### Manage the schedule for a live survey
