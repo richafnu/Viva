@@ -29,6 +29,10 @@
           href: configure-lms.md
         - name: Delete learning content sources
           href: delete-content-source.md
+        - name: Manage data sync 
+          items: 
+            - name: Provider setup and sync issues
+              href: provider-setup-sync-issues.md 
         - name: SAP SuccessFactors
           items:
           - name: Overview of SAP SuccessFactors integration
