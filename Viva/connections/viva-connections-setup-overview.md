@@ -1,5 +1,5 @@
 ---
-ms.date: 01/28/2024
+ms.date: 01/28/2025
 title: "Overview of how to plan, build, and launch Viva Connections"
 ms.reviewer: 
 ms.author: evanatkin
@@ -23,7 +23,7 @@ description: "Overview documentation of how to plan, build, and launch Microsoft
 
 # Overview of how to plan, build, and launch Viva Connections
 
-Use [Viva Connections](viva-connections-overview.md) to engage and empower different user groups like frontline workers and information workers across your organization. Integrate Microsoft 365 apps and tools to create experiences that users can use where they are and keep them updated on news, announcements, and provides access to resources from a desktop, mobile, or tablet device.
+Use [Viva Connections](viva-connections-overview.md) to engage and empower different user groups like frontline workers and information workers across your organization. Integrate Microsoft 365 apps and tools to create experiences that users can use where they're and keep them updated on news, announcements, and provides access to resources from a desktop, mobile, or tablet device.
 
 > [!NOTE]
 >
@@ -42,6 +42,10 @@ Use [Connections](viva-connections-overview.md) to create experiences that engag
 - Review the different roles and activities in each phase.
 - Discover planning considerations and best practices.
 - Get guidance for change management, adoption, and end-user training.
+
+> [!NOTE]
+> 
+> An update is planned for Q2 2025 that will replace the Feed experience with an Enterprise News Reader that will present news that's recommended for you from your organization.
 
 ## Step-by-step guidance to provision Viva Connections
 
