@@ -1,6 +1,6 @@
 ---
 title: Manual customization of a Viva Glint PowerPoint presentation
-description: 
+description: Viva Glint template include easy onscreen guidance for presentation customization.
 ms.author: JudithWeiner
 author: JudyWeiner
 manager: MelissaBarry
@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 1/07/2025
+ms.date: 2/18/2025
 ---
 
 # Manual customization of a Viva Glint PowerPoint presentation
@@ -23,7 +23,7 @@ From the downloaded presentation kit tempate export, use the following guideline
 
 **Customize the presentation-manually** using your organization's logo, familiar terminology, and important, relevant text content. Save the presentation with a new and easily identifiable name. In this example, the survey is named *Spring Engagement Survey 2024*.
 
-    :::image type="content" source="../../media/glint/setup/ppt-customized.png" alt-text="Screenshot of a customized PowerPoint template.":::
+:::image type="content" source="../../media/glint/setup/ppt-customized.png" alt-text="Screenshot of a customized PowerPoint template.":::
 
 ## Upload your customized PowerPoint presentation
 
