@@ -3,9 +3,9 @@ title: "Include a Viva Engage feed in a SharePoint page"
 f1.keywords:
 - NOCSH
 ms.author: donnabouldin
-author: Starshine89
+author: v-rgrace
 manager: elizapo
-ms.date: 05/01/2024
+ms.date: 02/18/2025
 audience: Admin
 ms.topic: article
 ms.localizationpriority: medium
