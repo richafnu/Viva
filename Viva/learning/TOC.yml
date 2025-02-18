@@ -29,6 +29,10 @@
           href: configure-lms.md
         - name: Delete learning content sources
           href: delete-content-source.md
+        - name: Manage data sync 
+          items: 
+            - name: Provider setup and sync issues
+              href: provider-setup-sync-issues.md 
         - name: SAP SuccessFactors
           items:
           - name: Overview of SAP SuccessFactors integration
@@ -69,6 +73,8 @@
           href: configure-cornerstone-content-source.md
         - name: Saba
           href: configure-saba-content-source.md
+        - name: AI and Copilot resources
+          href: ai-and-copilot-resources.md 
         - name: Add other content providers
           href: configure-other-content-sources.md
           items:
@@ -115,9 +121,7 @@
         - name: Academy
           items:
           - name: Manage academies
-            href: academy.md
-          - name: Microsoft Copilot Academy
-            href: academy-copilot.md          
+            href: academy.md        
         - name: Search 
           items: 
           - name: Advanced searching 
@@ -134,6 +138,10 @@
           href: content-tagging.md
         - name: Reporting in Viva Learning
           href: reports.md
+    - name: Microsoft 365 Copilot
+      items:
+        - name: Microsoft Copilot Academy
+          href: academy-copilot.md  
     - name: Troubleshoot
       items:
         - name: Learning management systems

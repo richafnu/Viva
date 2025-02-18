@@ -6,7 +6,7 @@ author: JudyWeiner
 manager: MelissaBarry
 audience: admin
 f1.keywords: NOCSH
-keywords: 
+keywords: Copilot in Viva Glint chatbot, Copilot in Viva Glint manager tips, comment summarization for specific topics
 ms.collection:  
 - m365initiative-viva
 - selfserve
@@ -16,7 +16,7 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 11/15/2024
+ms.date: 1/29/2025
 ---
 
 # How managers use Microsoft 365 Copilot in Viva Glint 
@@ -32,7 +32,7 @@ Use your Glint [Team Summary dashboard](/viva/glint/reports/managers-use-team-su
 
 There are two different experiences:
 
-- Initial: This experience includes onboarding instructions for a manager using Copilot for the first time
+- Initial: This experience includes onboarding instructions for a manager using Copilot in Viva Glint for the first time
 - All Copilot in Viva Glint experiences after the initial use
 
 ## First-time user experience for Copilot in Viva Glint
@@ -45,7 +45,7 @@ There are two different experiences:
    
 3. Review the guidance and select **Next**.
    
-4. Experiment with Copilot!
+4. Experiment with Copilot in Viva Glint!
 
 Now, access Copilot in Viva Glint in one of these ways:
 
@@ -55,7 +55,7 @@ Now, access Copilot in Viva Glint in one of these ways:
 > [!TIP]
 > Copilot in Viva Glint can summarize comments on any report in any Ad hoc or Recurring survey.
 
-## Copilot quick tips for managers 
+## Copilot in Viva Glint quick tips for managers 
 
 Use these tips to understand and act on employee feedback quickly:
 
@@ -64,7 +64,7 @@ Use these tips to understand and act on employee feedback quickly:
 |Browse ready-to-use prompts| Prompt guide proactively suggests questions to get you started on data exploration.|
 |Experiment writing your own prompts|Try writing your own prompts on different topics, items, and demographic groups. If a prompt doesn’t work right away, rephrase it.
 |Bundle requests into a single prompt|Follow-up questions aren’t currently supported. Instead, ask multi-step prompts, including your anticipated follow-up question. 
-|Keep queries to Viva Glint data|Copilot in Viva Glint doesn’t access data beyond what is in your dashboard.
+|Keep queries to Glint data|Copilot in Viva Glint doesn’t access data beyond what is in your dashboard.
 |Be specific on your prompt wording|The more detailed your prompt, the more likely Copilot in Viva Glint accurately interprets the intent. 
 
 > [!IMPORTANT]
@@ -85,7 +85,7 @@ This example follows Copilot in Viva Glint comment summarization on the **Commen
 
 1. Select the **Copilot** button.
 
-1. A Copilot in Viva Glint panel opens and provides survey prompts.
+1. A **Copilot in Viva Glint** panel opens and provides survey prompts.
 
    :::image type="content" source="../../media/glint/reports/copilot-summarize-comments.png" alt-text="Screenshot of the Copilot panel." lightbox="../../media/glint/reports/copilot-summarize-comments.png":::
 
@@ -97,7 +97,7 @@ This example follows Copilot in Viva Glint comment summarization on the **Commen
 
 1. Copilot in Viva Glint populates with the summary. In this example, the first prompt is chosen. Copilot summarizes 7,747 comments.
 
-   :::image type="content" source="../../media/glint/reports/copilot-up-to-8000.png" alt-text="Screenshot of a Copilot in Viva Glint summary." lightbox="../../media/glint/reports/copilot-up-to-8000.png":::
+   :::image type="content" source="../../media/glint/reports/copilot-up-to-8000.png" alt-text="Screenshot of a Copilot in Viva Glint summary.":::
 
 2. Use the **View Prompt Guide** menu to display more prompts, or key in your own question in the box provided.
 
@@ -156,7 +156,7 @@ Follow this procedure to view a specific set of comments and summarize them usin
 
 	 :::image type="content" source="../../media/glint/reports/copilot-copy-image.png" alt-text="Screenshot of the Copilot copy symbol.":::
 
-## Copilot use in other Glint reports
+## Copilot in Viva Glint use in other Glint reports
 
 Ask Copilot in Viva Glint different questions to drill down for meaningful insight. It takes practice. Copilot in Viva Glint uses the filters applied to the report the user is viewing.
 
@@ -186,7 +186,7 @@ Copilot in Viva Glint is only preserved within a user session. Once you log out,
 
 Our evaluation process incorporates feedback from early adopters and customers. This ongoing process helps us continuously enhance the Copilot in Viva Glint performance. 
 
-Allow your leaders to give feedback by enabling feedback. **The feedback feature must be set for your organization by the Microsoft 365 Global Administrator.** Enablement occurs within Policy Management in the Microsoft 365 Apps Admin Center. Without this feature enabled, leaders don’t have access to provide feedback.
+Allow your leaders to give feedback by enabling feedback. **The feedback feature must be set for your organization by the Microsoft 365 Global Administrator.** Enablement occurs within Policy Management in the Microsoft 365 Apps Admin Center. Without this feature enabled, leaders don't have access to provide feedback.
 
 We suggest enabling:
 
@@ -194,13 +194,15 @@ We suggest enabling:
   - Allow users to include screenshots and attachments when they submit feedback to Microsoft.
   - Allow users to include log file and relevant content samples when feedback is submitted to Microsoft.
 
-Users see this:
+   Users see this:
 
- :::image type="content" source="../../media/glint/reports/copilot-give-feedback.png" alt-text="Screenshot of how to share Copilot feedback with Microsoft.":::
+   :::image type="content" source="../../media/glint/reports/copilot-give-feedback.png" alt-text="Screenshot of how to share Copilot feedback with Microsoft.":::
 
 ## More feedback resources
 
 [Submit product feedback to Microsoft](https://go.microsoft.com/fwlink/?linkid=2276920)
+
 [Overview of Cloud Policy](https://go.microsoft.com/fwlink/?linkid=2276730)
+
 [Manage Microsoft feedback](https://go.microsoft.com/fwlink/?linkid=2276731)
 

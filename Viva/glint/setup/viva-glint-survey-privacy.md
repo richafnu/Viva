@@ -16,7 +16,7 @@ ms.topic: concept-article
 ms.service: viva-glint
 ms.localizationpriority: high
 ms.custom: CELA-approved
-ms.date: 10/17/2024
+ms.date: 1/13/2025
 ---
 
 # How Viva Glint protects your privacy
@@ -61,7 +61,7 @@ If your organization restricts the export of raw survey responses for confidenti
 
 If your organization approves making raw survey responses available, survey takers are informed in this statement:
 
-> Your responses are confidential and reported to [Organization Name] in aggregate groups of five or more respondents. Write-in comments are reported verbatim if at least 10 people respond to a question. Take care not to identify yourself in the comments. A limited number of people at [Organization Name] will have access to your identifiable survey ressponses. See [Microsoft Viva Glint Reporting and Confidentiality](/viva/glint/reports/confidentiality-suppression-reports), which describes other ways your data may be accessed and your organization's privacy policy.
+> Your responses are confidential and reported to [Organization Name] in aggregate groups of five or more respondents. Write-in comments are reported verbatim if at least 10 people respond to a question. Take care not to identify yourself in the comments. A limited number of people at [Organization Name] will have access to your identifiable survey responses. See [Microsoft Viva Glint Reporting and Confidentiality](/viva/glint/reports/confidentiality-suppression-reports), which describes other ways your data may be accessed and your organization's privacy policy.
 
 > [!IMPORTANT]
 > - ***Organization Name*** and ***confidentiality thresholds*** macros pull in your organization's name and threshold information.
