@@ -50,7 +50,7 @@ ms.date: 02/18/2025
 
 <br>**Q: What is the impact of setting "Delete survey data for deleted users" as "On" in User Data control (General Settings)?** 
 
-**A:**  This setting would delete the User's first name, last name, employee ID, email address, personal email (if used), all other attributes, all survey responses and comments from all reporting. If the deleted User is a manager, this would impact the manager hierarchy reporting as the manager's name will be listed as "Deleted User" and "Deleted User's Team" for any associated cycles. The reporting for all associated attributes would be impacted including response rates.
+**A:**  This setting deletes the User's first name, last name, employee ID, email address, personal email (if used), all other attributes, all survey responses and comments from all reporting. If the deleted User is a manager, this would impact the manager hierarchy reporting as the manager's name will be listed as "Deleted User" and "Deleted User's Team" for any associated cycles. The reporting for all associated attributes would be impacted including response rates.
 
 <br>**Q: What is the impact of setting "Disregard Employee IDs of previously deleted employees" as "Off" in User Data control (General Settings)?**
 
@@ -68,23 +68,26 @@ ms.date: 02/18/2025
 
 **A:** While the actual steps vary by client, an employee's termination is typically updated in the client's HRIS system, which triggers notifications to other service systems (i.e. Entra and Viva Glint). After the User is disabled in the client's HRIS, the User's record may be removed or updated to INACTIVE in the file loaded into Viva Glint. Similarly, Entra may be updated to reflect the User's termination. Viva Glint receives the delete signal from Entra 30 days later and the terminated user's employee record goes into a soft-deleted state for 30 days. During this period, the employee record may be modified per the client's User Data control setting at Disregard Employee IDs of previously deleted employees. After the 30-day period, all data related to the employee is permanently deleted in alignment with the client's User Data control settings at Delete survey data for deleted Users. 
 
-1. A user must be ACTIVE in both Viva Glint and Entra in order to access Viva Glint. *Exception: personalized survey links and attribute-based login for survey takers
-2. Example scenario when both Entra and Viva Glint receive an update regarding the terminated user on the same day:
-  1.Day 1 Entra - the user's record begins 30-day soft delete
-  1.Day 1 Glint - the user's record becomes INACTIVE
-  1.Day 31 Entra - the user's record is permanently deleted, delete signal goes out to applications
-  1.Day 31 Glint - recognizes delete signal from Entra, begins 30-day soft delete
-  1.Day 61 Glint - user's record is permanently deleted
-3. Example scenario when Glint receive an update regarding the terminated user before Entra does:
-  1. Day 1 Glint - the user's record becomes INACTIVE
-  1. Day 10 Entra - the user's record begins 30-day soft delete
-  1. Day 41 Entra - the user's record is permanently deleted, delete signal goes out to applications
-  1. Day 41 Glint - recognizes delete signal from Entra, begins 30-day soft delete
-  1. Day 71 Glint - user's record is permanently deleted
-4. Example scenario when Entra receive an update regarding the terminated user before Glint does:
-  1.Day 1 Entra - the user's record begins 30-day soft delete
-  1.Day 10 Glint - the user's record becomes INACTIVE
-  1.Day 31 Entra - the user's record is permanently deleted, delete signal goes out to applications
-  1.Day 31 Glint - recognizes delete signal from Entra, begins 30-day soft delete
-  1.Day 61 Glint - user's record is permanently deleted
+1. A user must be ACTIVE in both Viva Glint and Entra in order to access Viva Glint. *Exception: personalized survey links and attribute-based login for survey takers.
+   
+1. Example scenario when both Entra and Viva Glint receive an update regarding the terminated user on the same day:
+   1. Day 1 Entra - the user's record begins 30-day soft delete
+   1. Day 1 Glint - the user's record becomes INACTIVE
+   1. Day 31 Entra - the user's record is permanently deleted, delete signal goes out to applications
+   1. Day 31 Glint - recognizes delete signal from Entra, begins 30-day soft delete
+   1. Day 61 Glint - user's record is permanently deleted
+   
+1. Example scenario when Glint receive an update regarding the terminated user before Entra does:
+   1. Day 1 Glint - the user's record becomes INACTIVE
+   1. Day 10 Entra - the user's record begins 30-day soft delete
+   1. Day 41 Entra - the user's record is permanently deleted, delete signal goes out to applications
+   1. Day 41 Glint - recognizes delete signal from Entra, begins 30-day soft delete
+   1. Day 71 Glint - user's record is permanently deleted
+      
+1. Example scenario when Entra receive an update regarding the terminated user before Glint does:
+   1. Day 1 Entra - the user's record begins 30-day soft delete
+   1. Day 10 Glint - the user's record becomes INACTIVE
+   1. Day 31 Entra - the user's record is permanently deleted, delete signal goes out to applications
+   1. Day 31 Glint - recognizes delete signal from Entra, begins 30-day soft delete
+   1. Day 61 Glint - user's record is permanently deleted
 
