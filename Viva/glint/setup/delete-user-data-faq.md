@@ -52,14 +52,6 @@ ms.date: 02/18/2025
 
 **A:**  This setting deletes the User's first name, last name, employee ID, email address, personal email (if used), all other attributes, all survey responses and comments from all reporting. If the deleted User is a manager, this would impact the manager hierarchy reporting as the manager's name will be listed as "Deleted User" and "Deleted User's Team" for any associated cycles. The reporting for all associated attributes would be impacted including response rates.
 
-<br>**Q: What is the impact of setting "Disregard Employee IDs of previously deleted employees" as "Off" in User Data control (General Settings)?**
-
-**A:**
-
-<br>**Q: What is the impact of setting "Disregard Employee IDs of previously deleted employees" as "On" in User Data control (General Settings)?** 
-
-**A:**
-
 <br>**Q: What does the statement “Users deleted from Entra are automatically deleted from Viva Glint” mean in the Technical Migration Checklist Pre-Migration, Step 16?**  
 
 **A:** When Viva Glint receives the delete signal from Microsoft Entra ID for a user, they're not immediately deleted. Users deleted from Entra are updated to the deleted soft-state for 30 days in Viva Glint after the delete signal is received. A User's employee record is in a soft-deleted state for 30 days. During this period, the employee record may be modified from its soft-deleted state and updated to the status provided in the HRIS file per the client's User Data control setting at Disregard Employee IDs of previously deleted employees. After the 30-day period, all data related to the employee is permanently deleted in alignment with the client's User Data control settings at Delete survey data for deleted Users.
