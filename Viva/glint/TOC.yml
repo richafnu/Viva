@@ -45,8 +45,6 @@ items:
           items: 
             - name: Managers using ACT conversations
               href: people-science/managers-using-act-conversations.md
-        - name: Factors for historical imports
-          href: people-science/import-external-people-science-pov.md
         - name: Focus areas and action planning
           href: people-science/people-science-explains-focus-areas.md
         - name: Benchmark methodology
@@ -162,11 +160,13 @@ items:
             - name: Post-survey learning
               href: setup/post-survey-learnings.md
             - name: Opt into external benchmarks
-              href: setup/opting-into-external-benchmarks.md 
+              href: setup/opting-into-external-benchmarks.md
+            - name: Customize a PowerPoint template for reports
+              href: setup/custom-ppt-upload.md
       - name: People page
         href: setup/people-page.md
         items:  
-            - name: Manage external users 
+            - name: Manage Support users 
               href: setup/add-external-user.md
             - name: Export and import User Role members 
               href: setup/export-user-roles.md
@@ -193,6 +193,8 @@ items:
         items:
             - name: Question mapping
               href: setup/question-mapping.md
+            - name: Link custom questions to benchmarks
+              href: setup/custom-question-benchmark.md
             - name: Change item IDs
               href: setup/change-item-id.md
       - name: Nudges
@@ -271,8 +273,10 @@ items:
             items:         
              - name: Team Conversations resource guidance
                href: reports/team-conversations-resource-guidance.md      
-      - name: Templates for recurring engagement surveys
+      - name: Survey templates
         items:
+         - name: Templates overview and terminology
+           href: setup/templates-intro.md
          - name: Microsoft Copilot Impact Survey
            href: setup/copilot-impact-template.md
          - name: Quarterly Engagement  
@@ -307,49 +311,43 @@ items:
         items:
            - name: 360 overview and terminology
              href: setup/360-overview.md
-           - name: 360 feedback program setup
+           - name: 360 program design and templates
+             href: setup/360-design-templates.md
+           - name: Set up a 360 program
              items:
-                - name: 360 General settings
-                  href: setup/360-general-settings.md
-                - name: 360 User Role creation and permissions
-                  href: setup/360-roles-permissions.md
-                - name: 360 program design and templates
-                  href: setup/360-design-templates.md
-           - name: Manage 360 feedback cycles
+           - name: General Settings and User Roles
+             href: setup/360-general-settings.md
+           - name: Create a new 360 program or cycle
+             href: setup/360-create-new-360-cycle.md
              items:
-                - name: Create a new 360 cycle
-                  href: setup/create-new-360-cycle.md
-                  items:
-                    - name: Setup
-                      href: ../360-config-cycle-settings.md
-                    - name: 360 feedback items
-                      items:
-                       - name: Core items
-                         href: setup/360-core-questions.md
-                       - name: Adding and editing program items
-                         href: setup/360-add-edit-cycle-questions.md
-                    - name: 360 feedback provider selections
-                      href: setup/overview-feedback-provider-selection.md
-                    - name: 360 competencies and reporting
-                      href: setup/360-competencies.md
-                    - name: 360 Schedule and Communications setup
-                      href: setup/360-schedules-comms.md
-                    - name: Customize 360 email content
-                      href: setup/360-email-edits.md
-                    - name: Manage 360 subjects, coaches, feedback providers
-                      href: setup/360-manage-subjects.md
-                - name: Export and import 360 language translations
-                  href: setup/360-export-import.md
-           - name: Test and launch 360s
-             href: setup/360-test-launch.md
-           - name: Admin experience during a live 360 program
-             href: setup/360-live-cycle-actions.md
-           - name: 360 subject experience
-             href: setup/360-subject-experience.md
-           - name: 360 feedback provider experience
-             href: setup/360-provider-exp.md
-           - name: 360 email communication templates
-             href: setup/360-email-templates.md
+               - name: Core items
+                 href: setup/360-core-questions.md
+               - name: Adding and editing items
+                 href: setup/360-add-edit-cycle-questions.md
+               - name: 360 feedback provider selections
+                 href: setup/overview-feedback-provider-selection.md
+               - name: 360 competencies and reporting
+                 href: setup/360-competencies.md
+               - name: 360 Schedule and Communications setup
+                 href: setup/360-schedules-comms.md
+               - name: Customize 360 email content
+                 href: setup/360-email-edits.md
+               - name: Manage 360 subjects, coaches, feedback providers
+                 href: setup/360-manage-subjects.md
+               - name: Export and import 360 language translations
+                 href: setup/360-export-import.md
+               - name: Test and launch 360s
+                 href: setup/360-test-launch.md
+               - name: 360 email communication templates
+                 href: setup/360-email-templates.md
+           - name: 360 role experiences
+             items:
+               - name: Admin experience during a live 360 program
+                 href: setup/360-live-cycle-actions.md
+               - name: 360 subject experience
+                 href: setup/360-subject-experience.md
+               - name: 360 feedback provider experience
+                 href: setup/360-provider-exp.md
            - name: 360 FAQs
              href: setup/360-faqs.md
       - name: Always-On Feedback surveys
@@ -361,8 +359,6 @@ items:
         items:
           - name: Team Conversations presentation kit
             href: reports/coaching-team-conversations.md
-          - name: Customize a PowerPoint template in Glint
-            href: setup/custom-ppt-upload.md
           - name: Customize Team Conversations email content
             href: reports/team-conversations-content-cusomization.md 
       - name: Review surveys before launch
@@ -397,6 +393,8 @@ items:
             href: reports/aggregate-trending.md
           - name: Reporting features
             href: reports/report-analytics-filtering-favorability-trending.md
+          - name: Cross-program intelligence
+            href: reports/cross-program-intelligence.md
           - name: Color coding
             href: reports/color-coding.md
           - name: Mean and favorability scoring
