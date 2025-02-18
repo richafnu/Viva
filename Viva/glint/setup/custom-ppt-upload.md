@@ -6,7 +6,7 @@ author: JudyWeiner
 manager: MelissaBarry
 audience: admin
 f1.keywords: NOCSH
-keywords: template folder, presentation template, custom presentation
+keywords: template folder, presentation template, custom presentation, edit presentation slides, add logo to presentation, NORMAL presentation status, FULL presentation status
 ms.collection: 
  - m365initiative-viva
  - selfserve
