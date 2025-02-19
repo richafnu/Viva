@@ -43,30 +43,31 @@ Let's look at an example where you want to replace an existing template item wit
 
 :::image type="content" source="../../media/glint/setup/question-library-dups.png" alt-text="Screenshot of two identically phrased items in the Question Library.":::
 
-1. In the search box, key in **Career Goals.** Many different items come up. Decide which one works for you. Here we've chosen "My career goals can be met at <Company Name>.
-2. Notice that two of the identically phrased statements exist.  You need to investigate why the item exists twice. From looking at the column headers, we know that:
-   -  In the **Name and ID** column, they are both called **Career Goals** but they have a different Question ID.
+1. In the search box, key in **Career Goals.** Many different items come up. Decide which item for you. Here we've chosen **My career goals can be met at <Company Name>.**
+2. Notice that two identically phrased statements exist. You need to investigate why the item exists twice. From looking at the column headers, we know that:
+   
+   -  In the **Name and ID** column, they are both called **Career Goals**, but they have a different Question ID. This tells us they are not exactly the same item.
    -  In the **Question** column, the text is identical.
-   -  In the **Used In** column, you see that you haven't used the item in any survey
+   -  In the **Used In** column, you see that you haven't used the item in any survey.
    -  In the **Tags** column, you see:
-      - The item isn't customized, as the status reads Viva Glint and not Custom)
+      - The item isn't customized, as the status reads Viva Glint and not Custom.
       - Both items are rating questions
       - Both items are both linked to the 2021 Global benchnmark.
-   <br>
-   There must be a difference. What is it? :::image type="icon" source="/office/media/icons/get-started-blue.png"::: 
-3. Hover over the first entry and select it to open the slider panel.
-4. Hover over the second item and look for these key settings to discover differences:
+   
+   **There must be a difference between the two seemingly identical items. What is it?** 
+   
+4. Hover over the first entry and select it to open the slider panel.
+5. Hover over the second item and compare these key settings to discover differences:
    - Rating Scale
    - Program Type
 
  :::image type="content" source="../../media/glint/setup/question-library-discover-difference.png" alt-text="Screenshot of a slider panel in the Question Library.":::
 
-5. You can see that:
-   - The first item is intended for a survey using a 7-point rating scale
-   - The second item is intended for a survey using a 5-point rating scale
+5. You see that:
+   - The first item is intended for a survey using a **7-point rating scale**
+   - The second item is intended for a survey using a **5-point rating scale**
    - Both items are intended for Engagement surveys
-6. Choose the item with the rating scale that matches your survey.
-
+6. Choose the item with the **rating scale** that matches your survey.
 
 ## Survey item terms
 
