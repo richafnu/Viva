@@ -32,7 +32,7 @@ Question Library items are available to help construct powerful and predictive s
 
 ### Add a Question Library item to a template
 
-You may choose to use a template "as is" or you may choose, for example, to delete one item and find another item that better represents the key driver you want data for.
+You may choose to use a template "as is." Or you may choose, for example, to delete one item and find another item that better represents the key driver you want data for.
 
 >[!CAUTION]
 > An item may appear more than once in the Question Library. This scenario occurs because the identically phrased item is used for different templates or templates with different frames of reference and context. Be sure to choose the correct item!
@@ -41,12 +41,12 @@ Let's look at an example where you want to replace an existing template item wit
 
 :::image type="content" source="../../media/glint/question-library-dups.png" alt-text="Screenshot of two identically phrased items in the Question Library.":::
 
-1. In the search box, key in **Career Goals.** Many different items come up. Decide which item works for you. Here we've chosen **My career goals can be met at [Company Name].**
+1. In the search box, key in **Career Goals.** Many different items come up. Decide which item works for you. Let's choose **My career goals can be met at [Company Name].**
 2. Notice that two identically phrased statements exist. You need to investigate why the item exists twice. From looking at the column headers, you see that:
    
-   -  In the **Name and ID** column, both items are called **Career Goals**, but they have a different Question ID. This tells us they are not exactly the same item.
+   -  In the **Name and ID** column, both items are called **Career Goals**, but they have a different Question ID. The Question ID numbers tell us that these items aren't exactly the same item.
    -  In the **Question** column, you see that the text is identical.
-   -  In the **Used In** column, you see that you haven't used the item in any survey.
+   -  In the **Used In** column, you see that the items hasn't been used in any survey.
    -  In the **Tags** column, you see:
       - The item isn't customized, as the status reads Viva Glint and not Custom.
       - Both items are rating questions
@@ -68,7 +68,7 @@ Let's look at an example where you want to replace an existing template item wit
 6. Choose the item with the **rating scale** that matches your survey.
 
 >[!NOTE]
-> Even adding an unedited standard Viva Glint item to a survey program converts it to **Custom** status because the item has become your customer-specific version of the standard item. For this reason, once you've added an item to a survey - even unedited - it becomes a new item in your Question Library, differentiated by it's Custom status.
+> Even adding an unedited standard Viva Glint item to a survey program converts it to **Custom** status because the item becomes your customer-specific version of the standard item. For this reason, once an item is added to a survey - even unedited - it becomes a new item in your Question Library, differentiated by it's Custom status.
 >
 >:::image type="content" source="../../media/glint/setup/question-library-custom-status.png" alt-text="Screenshot of two idential items in the Question Library with different statuses." 
 
