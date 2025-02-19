@@ -70,7 +70,7 @@ Let's look at an example where you want to replace an existing template item wit
 >[!NOTE]
 > Even adding an unedited standard Viva Glint item to a survey program converts it to **Custom** status because the item has become your customer-specific version of the standard item. For this reason, once you've added an item to a survey - even unedited - it becomes a new item in your Question Library, differentiated by it's Custom status.
 >
->:::image type="content" source="../../media/glint/question-library-custom-status.png" alt-text="Screenshot of two idential items in the Question Library with different statuses." 
+>:::image type="content" source="../../media/glint/setup/question-library-custom-status.png" alt-text="Screenshot of two idential items in the Question Library with different statuses." 
 
 ## Survey item terms
 
