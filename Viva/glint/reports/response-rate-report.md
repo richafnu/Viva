@@ -86,4 +86,4 @@ Customize the [email template for small teams](/viva/glint/communicate/results-r
 
 Always-On surveys are open-ended and aren't calculated in the same manner as other Viva Glint survey types. Response rate percentage for Always-On surveys are calculated as follows:
 
-> Number of participants who submitted the survey divided by the total number of participants who started the survey. This includes respondants who may have submitted the survey more than once, which is permitted.
+> Number of participants who submitted the survey divided by the total number of participants who started the survey. This includes respondents who may have submitted the survey more than once, which is permitted.
