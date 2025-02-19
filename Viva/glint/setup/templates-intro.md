@@ -84,7 +84,6 @@ Items can be filtered to help you find exactly the item to support your survey d
 |**Action Plan Template**| The action plan content aligned to this item. If shown as "default," the item is using the generic template. If empty, this item has no Action Plan content aligned to it.|
 |**Option Text**|The list of response choices for Options items|
 |**Tags**|Unique identifiers belonging to a Question Library item|
-|**# of Alternate Forms**|How many differently worded item choices are available for the "same" item. No number listed indicates that no alternate items are available. There are three types of alternate items: <ul><li> **Substitute items:** have slightly different wording but are an equal substitute for the originally recommended items. These alternatively worded items are still comparable to the original item benchmark.</li><li>**Related items:** similar to the original recommended items, but can be interpreted differently by survey takers. These items can't be compared to the original item benchmark. </li><li> **Referent items:** ask employees to think about specific referents (responsible level of management) when measuring this experience. These items can't be compared to benchmarks.</ul>|
 
 ## Referent definitions
 
