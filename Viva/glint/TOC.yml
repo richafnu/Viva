@@ -313,8 +313,6 @@ items:
              href: setup/360-overview.md
            - name: 360 program design and templates
              href: setup/360-design-templates.md
-           - name: Set up a 360 program
-             items:
            - name: General Settings and User Roles
              href: setup/360-general-settings.md
            - name: Create a new 360 program or cycle
