@@ -99,15 +99,16 @@ Items can be filtered to help you find exactly the item to support your survey d
 
 With all of the above referents, you can customize the item by inserting the actual name of who is to be rated. 
 > For example:
-> Viva Glint item: "I get the support I need from <leadership and their directs."
-> Customized item: "I get the support I need from Fred Smith."
-> The item now shows in your Question Library tagged as both a Viva Glint item and a customized item.
+> - Viva Glint item: "I get the support I need from <leadership and their directs."
+> - Customized item: "I get the support I need from Fred Smith."
+> - The item now shows in your Question Library tagged as both a Viva Glint item and a customized item.
 
 ### More about referents
 
 In the Question Library database, certain items contain a *Referent* which directs the survey taker to think specifically about *who* they're rating. About half of the Viva Glint items have referents. If the Referent column status is **None**, the item describes an experience with no clear referent. 
 
-> Example **with** a referent: “I feel cared about as a person on my team.” 
+> Example **with** a referent: “I feel cared about as a person on my team.”
+> 
 > Example **without** a referent: “At work, I feel cared about as a person.”
 
 #### Not all survey items have referents
