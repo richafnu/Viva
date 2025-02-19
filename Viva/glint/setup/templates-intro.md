@@ -67,19 +67,18 @@ With all of the above referents, you can customize the item by inserting the act
 > For example:
 > Viva Glint item: "I get the support I need from <leadership and their directs."
 > Customized item: "I get the support I need from Fred Smith."
-> The item now appears in your Question Library tagged as both a Viva Glint item and a customized item.
+> The item now shows in your Question Library tagged as both a Viva Glint item and a customized item.
 
 ### More about referents
 
 In the Question Library database, certain items contain a *Referent* which directs the survey taker to think specifically about *who* they're rating. About half of the Viva Glint items have referents. If the Referent column status is **None**, the item describes an experience with no clear referent. 
 
 > Example **with** a referent: “I feel cared about as a person on my team.” 
->
 > Example **without** a referent: “At work, I feel cared about as a person.”
 
-#### Not all survey items have Referents
+#### Not all survey items have referents
 
-Unless a theme or topic is predominantly experienced through a referent, Viva Glint recommends using items that focus on the experience itself. This practice allows for the fact that most experiences can have multiple influences. It's important to include items without referents because:
+Unless a theme or topic is predominantly experienced through a referent, Viva Glint recommends using items that focus on the experience itself. This practice allows for the fact that many experiences have multiple influences. It's important to include items without referents because:
 - It gives Viva Glint the ability to compare how the customer scored on the item to our external benchmarks.
 - It ensures the item is relevant to employees across the customer organization. This relevancy is important when using the comparison scores to the Overall Company. Comparisons to benchmarks or company norms are essential to interpreting results. They're an important indicator in determining whether your scores are strong or need improvement.
 - Narrative Intelligence (NLP) is built into the platform to pull meaning from comment data. This ability connects the dots between what employees think about broader topics and how they feel about them. 
