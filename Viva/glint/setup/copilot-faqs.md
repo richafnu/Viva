@@ -32,7 +32,7 @@ ms.date: 2/19/2025
 
 **A:** When a manager or a leader doesn't have access to a specific demographic attribute or group results, Copilot can't find that attribute in the User's report filter, so is unable to use that attribute for filtering comments. Copilot is still able to summarize the comments but without filtering by that attribute.
 Examples:
-1. If a User asks to summarize comments from male employees but doesn't have access to the gender attribute or the male attribute value, Copilot summarize **all** comments and provides a summary. The summary isn't specific to the attribute requested.
+1. If a User asks to summarize comments from male employees but doesn't have access to the gender attribute or the male attribute value, Copilot summarizes **all** comments and provides a summary. The summary isn't specific to the attribute requested.
 2. If a User requests a summary of comments using multiple filters (e.g., Accounting department, Generation X) but lacks permission for one or more of the filters, Copilot generates a summary based **only** on the filters the User has permission to access. The summary excludes restricted filters.
 
 <br>**Q: How often is the Large Language Model (LLM) updated for Copilot in Viva Glint?**
