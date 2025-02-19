@@ -3,9 +3,9 @@ title: "Set up Microsoft 365 Copilot in Viva Engage"
 f1.keywords:
 - NOCSH
 ms.author: donnabouldin
-author: Starshine89
+author: v-rgrace
 manager: elizapo
-ms.date: 09/12/2024
+ms.date: 02/19/2025
 audience: Admin
 ms.topic: article
 ms.service: viva-engage
