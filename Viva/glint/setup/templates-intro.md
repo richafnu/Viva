@@ -17,38 +17,49 @@ search-appverid: MET150
 ms.topic: overview
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 2/10/2025
+ms.date: 2/19/2025
 ---
 
 # Viva Glint survey templates introduction and terminology
 
-The Viva Glint People Success Taxonomy database contains survey items - questions and statements - that each measure a distinct employee experience. The items are available to help customers construct powerful and predictive surveys. Viva Glint standardized template surveys (Engagement, Onboarding, Culture, Diversity & Inclusion, etc.) are constructed using items that are the best predictors of engagement. The Microsoft Viva People Science Research team tests and validates all items and surveys that contain them. 
+The Viva Glint People Success Taxonomy database contains survey items - questions and statements - that each measure a distinct employee experience. The items are available to help customers construct powerful and predictive surveys. Viva Glint standardized template surveys (Engagement, Onboarding, Culture, Diversity & Inclusion, etc.) are constructed using items that are the best predictors of engagement. The Microsoft Viva People Science Research team tests and validates all survey items. 
 
-Each item has a unique Item Name and Question Universally Unique Identifier (UUID) to distinguish it in the Viva Glint platform. The text of each item isn't necessarily unique. Where an item has identical text, but is used in more than one survey template (for example, Onboarding and Engagement), the **tags** associated with the item are different. The identical item text may be used in more than one survey, in which case the **item name** and **UUID** are distinct to that use case. *Identically stated items may have different benchmark scores between templates because the survey frame of reference and context are different.* 
+Each item has a unique Item Name and Question Universally Unique Identifier (UUID) to distinguish it in the Viva Glint platform. Because an item may appear in more than one type of survey (for example, Engagement and Exit), it shows more than once in the Question Library. It shows separately because the identically phrased item is used for templates with different frames of reference and context. 
 
->[!IMPORTANT]
-> Taxonomy is an orderly classification of general principles, typically related to science.
+A question can appear more than once for other reasons as well. An item could appear as both a Viva Glint validated item and an item customized by your organization. This image reflects the eSat survey item - "How happy are you working for your company?", with that scenario:
+
+:::image type="content" source="../../media/glint/setup/question-library-identicals.png" alt-text="Screenshot of the eSat item appearing twice in the Question Library.":::
 
 ## Survey item tags
 
 Items have associated tags associated to help you sort and filter them. These tags are helpful to understand:
 
-|Tag| Definition and other Need-to-Knows|
+|Tag| Definition and Need-to-Knows|
 |-------|------|
 |**Referent**| The group or population (Manager, Coworkers, Company, etc.) a respondent should think about when rating an item.|
-|**Program**|The Viva Glint survey this item is used in. All items listed by program are loaded into the Viva Glint platform, our survey templates, and the Question Library.|
+|**Program**|The Viva Glint survey this item is used in. For example: Engagement, Exit, Onboarding. All items listed by program are loaded into the Viva Glint platform, our survey templates, and the Question Library.|
 |**Question Type**|<ul><li>**Rating items** use a 5- or 7-point scale.</li><li>**Open ended items** are items that require text responses. </li><li> **Options** are items that require a selection of single- or multiple-choice responses.</ul>|
 |**Action Plan Template**| The action plan content aligned to this item. If shown as "default," the item is using the generic template. If empty, this item has no Action Plan content aligned to it.|
 |**Option Text**|The list of response choices for Options items.|
-|**# of Alternate Forms**|How many differently worded item choices are available for the "same" item. No number listed indicates that no alternate items are available. There are three types of alternate items: <ul><li> **Substitute items:** have slightly different wording but are an equal substitute for the originally recommended items. These items are comparable to the original item benchmark.</li><li>**Related items:** similar to the original recommended items, but could be interpreted differently by employees. These items can't be compared to the original item benchmark. </li><li> **Referent items:** ask employees to think about specific referents (responsible level of management) when measuring this experience. Can't be compared to benchmarks.</ul>|
+|**# of Alternate Forms**|How many differently worded item choices are available for the "same" item. No number listed indicates that no alternate items are available. There are three types of alternate items: <ul><li> **Substitute items:** have slightly different wording but are an equal substitute for the originally recommended items. These alternatively worded items are still comparable to the original item benchmark.</li><li>**Related items:** similar to the original recommended items, but could be interpreted differently by employees. These items can't be compared to the original item benchmark. </li><li> **Referent items:** ask employees to think about specific referents (responsible level of management) when measuring this experience. These items can't be compared to benchmarks.</ul>|
 
 ### More about Referents
 
-Throughout the taxonomy, certain items may contain a *referent* which directs the respondent to think specifically about *who* they're rating when they answer the survey item. About half of the Viva Glint items have referents. If the Referent column status is **None**, this item describes an experience with no clear referent. 
+Throughout the taxonomy, certain items may contain a *Referent* which directs the respondent to think specifically about *who* they're rating when they answer the survey item. About half of the Viva Glint items have Referents. If the Referent column status is **None**, this item describes an experience with no clear referent. 
 
-> Example **with** a referent: “I feel cared about as a person on my team.” 
+> Example **with** a Referent: “I feel cared about as a person on my team.” 
 >
-> Example **without** a referent: “At work, I feel cared about as a person.”
+> Example **without** a Referent: “At work, I feel cared about as a person.”
+
+#### Not all survey items have Referents
+
+Unless a given theme or topic is predominantly experienced through a referent, Glint recommends items that focus on the experience itself, allowing for the fact that most experiences can be influenced in multiple ways.
+It is important to include items without referents for a number of reasons:
+ 
+First, it gives us the ability to compare how the customer scored on the question/item to our external benchmarks.
+Second, it ensures the item is relevant to employees across the customer organization, therefore allowing us to compare scores to the overall company. Comparisons to benchmarks and/or company norms are critical to interpreting results because they are one indicator in determining whether the scores are strong or need improvement.
+Third, Narrative Intelligence (NLP) is built into the platform to extract meaning from comment data - connecting the dots between what employees think about broader topics and how they feel about it. 
+![image](https://github.com/user-attachments/assets/a28cc796-7ce3-4ccf-ade7-79bf19f57dda)
 
 ### Referent definitions
 
