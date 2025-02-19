@@ -42,7 +42,9 @@ ms.date: 2/20/2025
 
 ## Use the Actions dropdown menu
 
-Open the **Actions** dropdown menu to:
+:::image type="content" source="../../media/glint/setup/360-action-menu.png" alt-text="Screenshot of the 360 program action menu.":::
+
+Open the program **Actions** dropdown menu to:
 
 ### Duplicate your program
 Only the most recent cycle settings copy. No program history, schedules, or participants are included.
