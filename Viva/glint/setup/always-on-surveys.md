@@ -19,21 +19,20 @@ ms.date: 02/19/2025
 
 # Set up a Viva Glint Always-On Feedback survey
 
-Microsoft Viva Glint Always-On Feedback surveys provide insight on any topic, at any time, from any group of people in your organization. Different than scheduled or recurring programs, Always-On surveys are alwyas open and ready for users to provide insights in real time. Ideally, Always-On surveys are quick and easy to complete. Keep surveys under five minutes; they should take no longer than three minutes to complete.
+Microsoft Viva Glint Always-On Feedback surveys provide insight on any topic, at any time, from any group of people in your organization. Different than scheduled or recurring programs, Always-On surveys are always open and ready for users to provide insights in real time. Ideally, Always-On surveys are quick and easy to complete. Keep surveys under five minutes; they should take no longer than three minutes to complete.
 
 ## Potential use cases
 
-Always-On surveys should pair with the timing of an event, initiative, or situation that your organization wants feedback on. Manage your communication strategy to clarify why the feedback is requested, what it supports, how it's intended to be used, and when employees can expect to hear results. 
+Always-On surveys should pair with the timing of an event, initiative, or situation that your organization wants feedback on. Manage your communication strategy to clarify why the feedback is requested, how it's used, and when employees can see results. 
 
 > [!NOTE]
 > Always-On surveys don't include a Communications section or send any notifications to users. Viva Glint Admins handle Always-On survey notifications outside of the platform.
 
-- Track engagement confidence levels before and after a major event.
+- Determine engagement confidence levels before and after a major event.
 - Get suggestions for improving policies and procedures.
-- Ask people during a tough time, “What can leaders do to support you right now?” 
-- Are recent expats feeling supported in their new countries, especially given recent updates to the expat program?
-- How confident are employees in our new product strategy?
-- What are the most outstanding actions people saw their colleagues do this month to help improve our company?
+- Ask people during a tough time, "What can leaders do to support you right now?" 
+- Determine whether recent expats feel supported in their new countries.
+- Ask how confident employees are in a new product strategy.
 
 ## How to set up an Always-On survey
 
