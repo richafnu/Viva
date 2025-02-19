@@ -1,6 +1,6 @@
 ---
 title: Use Viva Glint cross-program intelligence to filter results across survey programs
-description: Microsoft Viva Glint cross-program intelligence surfaces patterns across separate survey programs, giving HR and leaders a holistic understanding of the employee journey.
+description: Microsoft Viva Glint cross-program intelligence surfaces patterns across separate survey programs, giving leaders a holistic understanding of the employee journey.
 ms.author: aweixelman
 author: AliciaWeixelman
 manager: melissabarry
@@ -19,7 +19,7 @@ ms.date: 02/19/2025
 
 # Use Viva Glint cross-program intelligence to filter results across survey programs
 
-Microsoft Viva Glint cross-program intelligence is an advanced filtering option in Viva Glint that allows users to filter across multiple surveys' results to answer your organization's complex employee sentiment questions. This feature can surface patterns across separate survey programs, giving HR and other leaders a holistic understanding of employee feedback. For a given survey program, users can filter by another survey program's:
+Microsoft Viva Glint cross-program intelligence is an advanced filtering option in Viva Glint that allows users to filter across multiple surveys' results to answer your organization's complex employee sentiment questions. This feature can surface patterns across separate survey programs, giving leaders a holistic understanding of employee feedback. For a given survey program, users can filter by another survey program's:
 
 - attribute values
 - question responses
@@ -38,9 +38,9 @@ With cross-program filtering, users can filter by attributes and demographics bu
 
 Your organization can use cross-program intelligence to explore topics like: 
 
-- How engaged employees are who onboarded in the last 90 days.
-- Which manager qualities might explain employee exit reasons.
-- Whether employees rate engagement higher depending on their Microsoft 365 Copilot usage.
+- How employees rate their engagement after the first 90 days of onboarding.
+- How different manager qualities might explain employee exit reasons.
+- How employees rate their engagement depending on their Microsoft 365 Copilot usage.
 
 > [!TIP]
 > - **Survey results and filtering**: Ensure that you select the appropriate surveys to view results for and surveys to filter by. For example, to view exiting employees' reasons for leaving when their engagement scores are high, go to reports for an Exit survey and use Engagement question responses as filters.
