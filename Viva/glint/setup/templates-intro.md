@@ -53,7 +53,7 @@ Let's look at an example where you want to replace an existing template item wit
       - Both items are rating questions
       - Both items are both linked to the 2021 Global benchnmark.
    <br>
-   There must be a difference. What is it? :::image type="icon" source="/office/media/icons/:::image type="icon" source="/office/media/icons/get-started-blue.png"::: 
+   There must be a difference. What is it? :::image type="icon" source="/office/media/icons/get-started-blue.png"::: 
 3. Hover over the first entry and select it to open the slider panel.
 4. Hover over the second item and look for these key settings to discover differences:
    - Rating Scale
