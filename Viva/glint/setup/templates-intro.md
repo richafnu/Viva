@@ -37,7 +37,7 @@ You may choose to use a template "as is." Or you may choose, for example, to del
 >[!CAUTION]
 > An item may appear more than once in the Question Library. This scenario occurs because the identically phrased item is used for different templates or templates with different frames of reference and context. Be sure to choose the correct item!
 
-Let's look at an example where you want to replace an existing template item with an item about career goals:
+Let's look at an example where you want to replace an existing template item with an item about career goals. You discover two "identical" items exist:
 
 :::image type="content" source="../../media/glint/question-library-dups.png" alt-text="Screenshot of two identically phrased items in the Question Library.":::
 
