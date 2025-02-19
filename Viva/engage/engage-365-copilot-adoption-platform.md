@@ -50,7 +50,7 @@ You have two options for creating a Copilot adoption community in Viva Engage.
 
 :::image type="content" source="../media/engage/admin/adoption-launch-options.png" alt-text="Screenshot shows the landing page where you can create a Microsoft 365 Copilot adoption community or bring Copilot adoption features to an existing community.":::
 
-Setup is similar to creating any other community. The community template reduces setup work and ongoing community management. At completion, the community includes a cover photo, description, and onboarding checklist. Admins can add customizations as needed.
+Copilot community setup resembles any other community. The Copilot community template reduces setup work and ongoing community management. After completion, the community includes a cover photo, description, and an onboarding checklist that is specific to this community. Admins can add customizations.
 
 >[!NOTE]
 > To create this community, Microsoft 365 Copilot licenses _must be present_ on the tenant. *Those licenses don't need to be assigned to the network admin or corporate communicator who's setting up the community*.
@@ -61,23 +61,45 @@ Setup is similar to creating any other community. The community template reduces
 
 The Copilot community experience includes the following features to drive engagement. After you set up the community, you can disable features as needed.  
 
-- **Suggested content** offers a quick way to introduce Copilot capabilities and has various quick tips and tricks available for members. All content is editable before posting. The suggested content aligns with content from the Viva Amplify communications campaign, available through the Copilot Deployment Kit. [Learn more here.](https://techcommunity.microsoft.com/t5/viva-amplify-blog/announcing-the-copilot-deployment-kit-in-viva-amplify/ba-p/4110466)
+- **Review suggested content** offers a quick way to introduce Copilot capabilities and has various quick tips and tricks available for members. All content is editable before posting. The suggested content aligns with content from the Viva Amplify communications campaign, available through the Copilot Deployment Kit. [Learn more here.](https://techcommunity.microsoft.com/t5/viva-amplify-blog/announcing-the-copilot-deployment-kit-in-viva-amplify/ba-p/4110466)
 
     :::image type="content" source="../media/engage/admin/engage-copilot-adoption-sug-content.png" alt-text="Screenshot shows suggested content that is generated on the Copilot adoption community page=.":::
 
 - **Conversation Starters** drive engagement between community members. Conversation starters for this community can't be edited initially, but they can be turned off in the Community settings.
 
-- **Copilot writing assistance** helps members write their posts. Availability for the Copilot writing assistant is controlled at the network level.
+- **Write a Post** helps members write their posts. Availability for the Copilot writing assistant is controlled by admins at the network level.
 
 - **Top questions** shows users the most commonly asked questions in the community for the past 90 days. The Top questions tile appears in the right sidebar for quick reference.
 
-- **Membership suggestion** dynamically grows your community by suggesting new members as your organization allots or assigns Microsoft 365 Copilot licenses. It helps community admins bring the right people into the community to learn and share.
+- **Add a member** dynamically grows your community by suggesting new members as your organization allots or assigns Microsoft 365 Copilot licenses. It helps community admins bring the right people into the community to learn and share.
 
     :::image type="content" source="../media/engage/admin/engage-copilot-adoption-members.png" alt-text="Screenshot of suggested members who receive a Microsoft 365 Copilot license.":::
 
+## Create a new Copilot community
+
+If your network doesn't have the Copilot community set up, and Copilot licensing is in order, take the following steps:
+
+1. Under the banner image in Viva Engage, select **Launch early adopters**. 
+
+2. In the **Create a new community** dialog, choose the options you want, or accept their defaults.
+
+3. When you're finished, select **Create**.
+
+Note that members must have the Copilot license in order to join.
+
+## Convert an existing community to Copilot status
+
+1. Under the banner image in Viva Engage, select **Apply adoption features to an existing community**.
+
+2. In the **Identify community** dialog, search for the community by starting to enter its name. The dialog refreshes to show matches for what you enter.
+
+3. After entering the correct community name, select **Confirm**.
+
 ## Leverage the collective intelligence of your organization
 
-A Copilot adoption community enables its members to leverage their organization's knowledge to find answers and connect with experts. When they enter a question, community members see "Similar questions" from across the network, including from Answers and from other communities to which they have access. The process helps users find what they need without producing duplicate queries. The resulting efficiency allows community admins and subject matter experts to devote their time to other efforts while community members get the information they seek. It also promotes more accurate and more detailed questions.
+A Copilot adoption community enables its members to leverage their organization's knowledge to find answers and connect with experts. When they enter a question, members see "Similar questions" from across the network, including from Answers and from other communities to which they have access.
+
+The process helps users find what they need without producing duplicate queries. The resulting efficiency allows community admins and subject matter experts to pursue other efforts while community members get the information they seek. It also promotes more accurate and more detailed questions.
 
 ## Fuel your Copilot adoption community with information resources
 
