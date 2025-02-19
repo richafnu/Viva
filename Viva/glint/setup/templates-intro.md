@@ -28,7 +28,7 @@ The Microsoft Viva Glint People Success database contains survey items - questio
 
 Question Library items are available to help construct powerful and predictive surveys. Viva Glint standardized template surveys (Engagement, Onboarding, Culture, Diversity & Inclusion, etc.) are developed using items that are the best predictors of engagement. The Microsoft Viva People Science Research team tests and validates all survey items. 
 
-Each item has a unique Item Name and Question ID to distinguish it in the Viva Glint platform. If an item may appear in more than one type of survey (for example, Engagement and Exit), it shows more than once in the Question Library because the identically phrased item is used for templates with different frames of reference and context. 
+Each item has a unique Item Name and Question ID to distinguish it in the Viva Glint platform. If an item appears in more than one type of survey, it shows more than once in the Question Library. This scenario occurs because the identically phrased item is used for templates with different frames of reference and context. 
 
 A question can appear more than once for other reasons, as well. An item could show as both a Viva Glint validated item and an item customized by your organization. This image reflects the eSat survey item - "How happy are you working for your company?", with that scenario:
 
@@ -49,19 +49,19 @@ Items can be filtered to help you find exactly the item to support your survey d
 |**Action Plan Template**| The action plan content aligned to this item. If shown as "default," the item is using the generic template. If empty, this item has no Action Plan content aligned to it.|
 |**Option Text**|The list of response choices for Options items|
 |**Tags**|Unique identifiers belonging to a Question Library item|
-|**# of Alternate Forms**|How many differently worded item choices are available for the "same" item. No number listed indicates that no alternate items are available. There are three types of alternate items: <ul><li> **Substitute items:** have slightly different wording but are an equal substitute for the originally recommended items. These alternatively worded items are still comparable to the original item benchmark.</li><li>**Related items:** similar to the original recommended items, but could be interpreted differently by employees. These items can't be compared to the original item benchmark. </li><li> **Referent items:** ask employees to think about specific referents (responsible level of management) when measuring this experience. These items can't be compared to benchmarks.</ul>|
+|**# of Alternate Forms**|How many differently worded item choices are available for the "same" item. No number listed indicates that no alternate items are available. There are three types of alternate items: <ul><li> **Substitute items:** have slightly different wording but are an equal substitute for the originally recommended items. These alternatively worded items are still comparable to the original item benchmark.</li><li>**Related items:** similar to the original recommended items, but can be interpreted differently by survey takers. These items can't be compared to the original item benchmark. </li><li> **Referent items:** ask employees to think about specific referents (responsible level of management) when measuring this experience. These items can't be compared to benchmarks.</ul>|
 
 ## Referent definitions
 
 |Referent|Description|
 |--------|--------|
 |**Team**|These items may read "my team" or "on my team." The items refer to a group of people that the respondent is a member of and who all work either in the same department or for the same manager.|
-|**Teams**|These items may read "teams" or "work team(s)." The items refer more generally to groups of people across the company, not necessarily the team the respondent is on.|
+|**Teams**|These items may read "teams" or "work team." The items refer more generally to groups of people across the company, not necessarily the team the respondent is on.|
 |**Coworkers**|These items may read "Coworkers" or "people" or "employees." The items refer to other people, in general not necessarily on the same team as the respondent.|
 |**Manager**|These items may read "my manager" or "my Supervisor." The item refers to the person the respondent reports to directly and who most likely has the most influence over the respondent's job and provides the respondent feedback and employment reviews.|
 |**Leadership**| These items may read "executive team" or "top leaders" or "leadership team." The items generally refer to the executive team - the CEO and their direct reports.<ul><li>"Leaders" or "leadership" can also be a general reference to leaders at various levels in the company.</li><li>"Leaders in my organization" refers to the management chain above the responder within their larger department or unit.</ul>|
 |**Company**| These items may also be stated as "where I work" or "at this company" or "here." The items refer to an experience of the entire company overall.|
-|**Industry specific job referent**| Some companies may use specific job titles or common abbreviations. "RN" is an example - Registered Nurse|
+|**Industry specific job referent**| Some companies may use specific job titles or common abbreviations. Registered Nurse (RN) is an example.|
 
 With all of the above referents, you can customize the item by inserting the actual name of who is to be rated. 
 > For example:
@@ -81,7 +81,7 @@ In the Question Library database, certain items contain a *Referent* which direc
 
 Unless a theme or topic is predominantly experienced through a referent, Viva Glint recommends using items that focus on the experience itself. This practice allows for the fact that most experiences can have multiple influences. It's important to include items without referents because:
 - It gives Viva Glint the ability to compare how the customer scored on the item to our external benchmarks.
-- It ensures the item is relevant to employees across the customer organization. This is important when using the comparison scores to the Overall Company. Comparisons to benchmarks or company norms are essential to interpreting results. They're an important indicator in determining whether your scores are strong or need improvement.
+- It ensures the item is relevant to employees across the customer organization. This relevancy is important when using the comparison scores to the Overall Company. Comparisons to benchmarks or company norms are essential to interpreting results. They're an important indicator in determining whether your scores are strong or need improvement.
 - Narrative Intelligence (NLP) is built into the platform to pull meaning from comment data. This ability connects the dots between what employees think about broader topics and how they feel about them. 
 
 ## More information
