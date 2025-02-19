@@ -1,6 +1,6 @@
 ---
 title: Use the trend graph in a Viva Glint Employee Lifecycle program
-description: The Trend Graph for Employee Lifecycle surveys behaves differently than that of recurring survey programs.
+description: Trend Graphs for Microsoft Viva Glint Employee Lifecycle surveys behaves differently than trend for a recurring survey programs.
 ms.author: JudithWeiner
 author: JudyWeiner
 manager: MelissaBarry
@@ -19,7 +19,7 @@ ms.date: 02/19/2025
 
 # Use the trend graph in a Viva Glint Employee Lifecycle program
 
-The Trend Graph for an *Employee Lifecycle (ELC)* survey behaves differently than that of a *recurring* program. 
+Trend Graphs for Microsoft Viva Glint *Employee Lifecycle (ELC)* survey behaves differently than trend for a *recurring* program. 
 
 - ELC surveys, by default, display scores filtered to responses received in the last 90 days. 
 - ELC surveys are always active so reports group based on the date range selected or the default 90 days.  
@@ -43,6 +43,6 @@ The date displayed when you hover over data points is Day 1 of that range - mean
    > - The second data point on the trend graph shows November 23, 2021 - 180 days before today's date.   
 
 > [!NOTE]
-> - The trend graph doesn't reference the actual survey launch date when determining the date to display. It uses 90-day intervals. In this scenario, no responses were received from November 23 - January 8th as the program didn't open until January 9th.
+> - The trend graph doesn't reference the actual survey launch date when determining the date to display. It uses 90-day intervals. In this scenario, no responses were received from November 23 - January 8 as the program didn't open until January 9.
 > - The date used in ELC report filters is the survey generation date (not the survey submission date).
 > - Quarterly date filters are based on calendar year.
