@@ -34,13 +34,15 @@ ms.date: 2/20/2025
    -  In the title row, name the program by selecting the **pencil symbol**. Delete the dummy information and name your program.
    -  In this example, we created a **360 for Small Team Managers** program. It automatically contains the first cycle, in this case "February 2025." The cycle shows as both a card and in a row under the Cycle Name column.
    
-:::image type="content" source="../../media/glint/setup/360-small-teams-program.png" alt-text="Screenshot of the 360 Actions menu.":::
+   :::image type="content" source="../../media/glint/setup/360-small-teams-program.png" alt-text="Screenshot of the Create a 360 program and cycle page.":::
 
-1. Navigate back to the **All 360 Programs** page to see your new program listed. If you have many 360 programs, search for the new program in the Program box.
+1. Navigate back to the **All 360 Programs** page to confirm that your new program is listed. If you have many 360 programs, search for the new program in the Program box.
+
+   :::image type="content" source="../../media/glint/setup/360-all-programs.png" alt-text="Screenshot of the 360 All Programs page confirming your new program is created.":::
 
 ## Use the Actions dropdown menu
 
-:::image type="content" source="../../media/glint/setup/360-actions-menu.png" alt-text="Screenshot of the 360 Actions menu.":::
+
 
 Open the **Actions** dropdown menu to:
 
