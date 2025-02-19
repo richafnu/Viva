@@ -43,7 +43,7 @@ Copilot suggests relevant content and assists users to communicate more effectiv
 
 1. **Suggest what and where to post**. To reach the optimal audience, Copilot assists you to determine good post content and the right places to post it. Copilot identifies content, people, and groups that align with your interests, identity, and objectives. For example, Copilot identifies ongoing conversations that contain themes relevant to your interests. It also highlights ongoing campaigns sponsored by leaders or otherwise relevant to your interests and workplace connections.
 
-2. **Create valuable, engaging, authentic communications**. Copilot assists production of high-quality posts with value, engagment, and authenticity. It helps deciding what points to include in the post, helps compose the post if necessary, and helps edit for tone, length, and keywords. Copilot can also offer feedback on your post. You can attach images to enhance your posts, include calls to action (CTAs) to promote engagement, and tag relevant individuals in their posts.
+2. **Create valuable, engaging, authentic communications**. Copilot assists production of high-quality posts with value, engagement, and authenticity. It helps deciding what points to include in the post, helps compose the post if necessary, and helps edit for tone, length, and keywords. Copilot can also offer feedback on your post. You can attach images to enhance your posts, include calls to action (CTAs) to promote engagement, and tag relevant individuals in their posts.
 
 Copilot empowers with the information and collaboration you need to leverage Viva Engage to achieve your professional goals.
 
