@@ -28,26 +28,24 @@ The Microsoft Viva Glint People Success database contains survey items - questio
 
 ## Understand the Viva Glint Question Library 
 
-Question Library items are available to help construct powerful and predictive surveys. Viva Glint standardized template surveys (Engagement, Onboarding, Culture, Diversity & Inclusion, etc.) are developed using items that are the best predictors of engagement. The Microsoft Viva People Science Research team tests and validates all survey items. 
+Question Library items are available to help construct powerful and predictive surveys. Viva Glint standardized template surveys (Engagement, Onboarding, Culture, Diversity & Inclusion, etc.) are developed using items that are the best predictors of engagement. The Microsoft Viva People Science Research team tests and validates all survey items. Each item has a unique **Item Name** and **Question ID** to distinguish it in the Viva Glint database. 
 
-Each item has a unique **Item Name** and **Question ID** to distinguish it in the Viva Glint database. 
-
-### Add an Question Library item to your template
+### Add a Question Library item to a template
 
 You may choose to use a template "as is" or you may choose, for example, to delete one item and find another item that better represents the key driver you want data for.
 
->[!IMPORTANT]
-> If an item appears in more than one type of survey, it shows more than once in the Question Library. This scenario occurs because the identically phrased item is used for templates with different frames of reference and context. If you'd like to add an item to a template, be sure to choose the correct item!
+>[!CAUTION]
+> An item may appear more than once in the Question Library. This scenario occurs because the identically phrased item is used for different templates or templates with different frames of reference and context. Be sure to choose the correct item!
 
 Let's look at an example where you want to replace an existing template item with an item about career goals:
 
 :::image type="content" source="../../media/glint/question-library-dups.png" alt-text="Screenshot of two identically phrased items in the Question Library.":::
 
-1. In the search box, key in **Career Goals.** Many different items come up. Decide which item for you. Here we've chosen **My career goals can be met at [Company Name].**
-2. Notice that two identically phrased statements exist. You need to investigate why the item exists twice. From looking at the column headers, we know that:
+1. In the search box, key in **Career Goals.** Many different items come up. Decide which item works for you. Here we've chosen **My career goals can be met at [Company Name].**
+2. Notice that two identically phrased statements exist. You need to investigate why the item exists twice. From looking at the column headers, you see that:
    
-   -  In the **Name and ID** column, they are both called **Career Goals**, but they have a different Question ID. This tells us they are not exactly the same item.
-   -  In the **Question** column, the text is identical.
+   -  In the **Name and ID** column, both items are called **Career Goals**, but they have a different Question ID. This tells us they are not exactly the same item.
+   -  In the **Question** column, you see that the text is identical.
    -  In the **Used In** column, you see that you haven't used the item in any survey.
    -  In the **Tags** column, you see:
       - The item isn't customized, as the status reads Viva Glint and not Custom.
@@ -68,6 +66,11 @@ Let's look at an example where you want to replace an existing template item wit
    - The second item is intended for a survey using a **5-point rating scale**
    - Both items are intended for Engagement surveys
 6. Choose the item with the **rating scale** that matches your survey.
+
+>[!NOTE]
+> Even adding an unedited standard Viva Glint item to a survey program converts it to **Custom** status because the item has become your customer-specific version of the standard item. For this reason, once you've added an item to a survey - even unedited - it becomes a new item in your Question Library, differentiated by it's Custom status.
+>
+>:::image type="content" source="../../media/glint/question-library-custom-status.png" alt-text="Screenshot of two idential items in the Question Library with different statuses." 
 
 ## Survey item terms
 
