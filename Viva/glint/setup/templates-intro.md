@@ -98,8 +98,8 @@ Items can be filtered to help you find exactly the item to support your survey d
 |**Industry specific job referent**| Some companies may use specific job titles or common abbreviations. Registered Nurse (RN) is an example.|
 
 With all of the above referents, you can customize the item by inserting the actual name of who is to be rated. 
-> For example:
-> - Viva Glint item: "I get the support I need from <leadership and their directs."
+> For example
+> - Viva Glint item: "I get the support I need from [leadership and their directs]."
 > - Customized item: "I get the support I need from Fred Smith."
 > - The item now shows in your Question Library tagged as both a Viva Glint item and a customized item.
 
