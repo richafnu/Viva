@@ -26,16 +26,47 @@ The Microsoft Viva Glint People Success database contains survey items - questio
 
 :::image type="content" source="../../media/glint/setup/question-library.png" alt-text="Screenshot of the Question Library on an admin dashboard.":::
 
+## Understand the Viva Glint Question Library 
+
 Question Library items are available to help construct powerful and predictive surveys. Viva Glint standardized template surveys (Engagement, Onboarding, Culture, Diversity & Inclusion, etc.) are developed using items that are the best predictors of engagement. The Microsoft Viva People Science Research team tests and validates all survey items. 
 
-Each item has a unique Item Name and Question ID to distinguish it in the Viva Glint platform. If an item appears in more than one type of survey, it shows more than once in the Question Library. This scenario occurs because the identically phrased item is used for templates with different frames of reference and context. 
+Each item has a unique **Item Name** and **Question ID** to distinguish it in the Viva Glint database. 
 
-A question can appear more than once for other reasons, as well. An item could show as both a Viva Glint validated item and an item customized by your organization. This image reflects the eSat survey item - "How happy are you working for your company?", with that scenario:
+### Add an Question Library item to your template
 
-:::image type="content" source="../../media/glint/setup/question-library-identicals.png" alt-text="Screenshot of the eSat item appearing twice in the Question Library.":::
+You may choose to use a template "as is" or you may choose, for example, to delete one item and find another item that better represents the key driver you want data for.
 
 >[!IMPORTANT]
-> Any time you add a Viva Glint *standard* item to a survey, the survey tag refers to the new item as **Custom,** even though the item isn't edited.
+> If an item appears in more than one type of survey, it shows more than once in the Question Library. This scenario occurs because the identically phrased item is used for templates with different frames of reference and context. If you'd like to add an item to a template, be sure to choose the correct item!
+
+Let's look at an example where you want to replace an existing template item with an item about career goals:
+
+:::image type="content" source="../../media/glint/setup/question-library-dups.png" alt-text="Screenshot of two identically phrased items in the Question Library.":::
+
+1. In the search box, key in **Career Goals.** Many different items come up. Decide which one works for you. Here we've chosen "My career goals can be met at <Company Name>.
+2. Notice that two of the identically phrased statements exist.  You need to investigate why the item exists twice. From looking at the column headers, we know that:
+   -  In the **Name and ID** column, they are both called **Career Goals** but they have a different Question ID.
+   -  In the **Question** column, the text is identical.
+   -  In the **Used In** column, you see that you haven't used the item in any survey
+   -  In the **Tags** column, you see:
+      - The item isn't customized, as the status reads Viva Glint and not Custom)
+      - Both items are rating questions
+      - Both items are both linked to the 2021 Global benchnmark.
+   <br>
+   There must be a difference. What is it? :::image type="icon" source="/office/media/icons/:::image type="icon" source="/office/media/icons/get-started-blue.png"::: 
+3. Hover over the first entry and select it to open the slider panel.
+4. Hover over the second item and look for these key settings to discover differences:
+   - Rating Scale
+   - Program Type
+
+ :::image type="content" source="../../media/glint/setup/question-library-discover-difference.png" alt-text="Screenshot of a slider panel in the Question Library.":::
+
+5. You can see that:
+   - The first item is intended for a survey using a 7-point rating scale
+   - The second item is intended for a survey using a 5-point rating scale
+   - Both items are intended for Engagement surveys
+6. Choose the item with the rating scale that matches your survey.
+
 
 ## Survey item terms
 
