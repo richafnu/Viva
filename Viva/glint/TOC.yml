@@ -350,7 +350,7 @@ items:
                  href: setup/360-provider-exp.md
            - name: 360 FAQs
              href: setup/360-faqs.md
-      - name: Always-On Feedback surveys
+      - name: Set up an Always-On Feedback survey
         href: setup/always-on-surveys.md
       - name: Ad Hoc surveys
         href: setup/ad-hoc-survey.md
