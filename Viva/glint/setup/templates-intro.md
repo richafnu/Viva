@@ -1,12 +1,12 @@
 ---
 title: Viva Glint survey templates introduction and terminology
-description: The Viva Glint People Success Taxonomy database contains survey items - questions and statements - that each measure a distinct employee experience. Read this introduction to Viva Glint survey templates and learn the terminology associated with them.
+description: The Viva Glint People Success database contains survey items - questions and statements - that each measure a distinct employee experience. Read this introduction to Viva Glint survey templates and learn the terminology associated with them.
 ms.author: JudithWeiner
 author: JudyWeiner
 manager: MelissaBarry
 audience: admin
 f1.keywords: NOCSH
-keywords: viva glint, recurring surveys, engagement, 
+keywords: viva glint, recurring surveys, engagement, Referents, tags, 
 ms.collection: 
  - m365initiative-viva
  - selfserve
@@ -43,23 +43,21 @@ Items have associated tags associated to help you sort and filter them. These ta
 |**Option Text**|The list of response choices for Options items.|
 |**# of Alternate Forms**|How many differently worded item choices are available for the "same" item. No number listed indicates that no alternate items are available. There are three types of alternate items: <ul><li> **Substitute items:** have slightly different wording but are an equal substitute for the originally recommended items. These alternatively worded items are still comparable to the original item benchmark.</li><li>**Related items:** similar to the original recommended items, but could be interpreted differently by employees. These items can't be compared to the original item benchmark. </li><li> **Referent items:** ask employees to think about specific referents (responsible level of management) when measuring this experience. These items can't be compared to benchmarks.</ul>|
 
-### More about Referents
+### More about referents
 
 Throughout the taxonomy, certain items may contain a *Referent* which directs the respondent to think specifically about *who* they're rating when they answer the survey item. About half of the Viva Glint items have Referents. If the Referent column status is **None**, this item describes an experience with no clear referent. 
 
-> Example **with** a Referent: “I feel cared about as a person on my team.” 
+> Example **with** a referent: “I feel cared about as a person on my team.” 
 >
-> Example **without** a Referent: “At work, I feel cared about as a person.”
+> Example **without** a referent: “At work, I feel cared about as a person.”
 
 #### Not all survey items have Referents
 
-Unless a given theme or topic is predominantly experienced through a referent, Glint recommends items that focus on the experience itself, allowing for the fact that most experiences can be influenced in multiple ways.
-It is important to include items without referents for a number of reasons:
- 
-First, it gives us the ability to compare how the customer scored on the question/item to our external benchmarks.
-Second, it ensures the item is relevant to employees across the customer organization, therefore allowing us to compare scores to the overall company. Comparisons to benchmarks and/or company norms are critical to interpreting results because they are one indicator in determining whether the scores are strong or need improvement.
-Third, Narrative Intelligence (NLP) is built into the platform to extract meaning from comment data - connecting the dots between what employees think about broader topics and how they feel about it. 
-![image](https://github.com/user-attachments/assets/a28cc796-7ce3-4ccf-ade7-79bf19f57dda)
+Unless a theme or topic is predominantly experienced through a referent, Viva Glint recommends using items that focus on the experience itself. This practice allows for the fact that most experiences can have multiple influences. It's important to include items without referents because:
+- It gives Viva Glint the ability to compare how the customer scored on the item to our external benchmarks.
+- It ensures the item is relevant to employees across the customer organization. This is important for using the comparison scores to the Overall Company. Comparisons to benchmarks or company norms are essential to interpreting results, They're an important indicator in determining whether your scores are strong or need improvement.
+- Narrative Intelligence (NLP) is built into the platform to pull meaning from comment data. This ability connects the dots between what employees think about broader topics and how they feel about it. 
+
 
 ### Referent definitions
 
