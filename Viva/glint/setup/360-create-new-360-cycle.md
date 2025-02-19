@@ -14,12 +14,14 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 2/11/2025
+ms.date: 2/20/2025
 ---
 
 # Create a new 360 program or cycle
 
-360 programs contain cycles that can be cloned to use on a set schedule. Follow this process:
+360 programs contain cycles that can be cloned to use for other groups. 
+
+## Create a new 360 program
 
 1. From your manager dashboard, select **360 Feedback Programs**.
 
@@ -27,7 +29,14 @@ ms.date: 2/11/2025
 
 1. Now choose the **Glint Manager 360 Program template** or the blank template. Hover over the card and select **New Program**. 
 
-1. An untitled program page opens with a new card which displays the current month and date. In the row above the card, name the program by selecting the **pencil symbol**. Navigate back to the **All 360 Programs** page and you see your new program listed.
+1. An untitled program page opens.
+   -  A card displays the current month and date. **This automatically generated and populated card represents the first cycle of your program.**
+   -  In the title row, name the program by selecting the **pencil symbol**. Delete the dummy information and name your program.
+   -  In this example, we created a **360 for Small Team Managers** program. It automatically contains the first cycle, in this case "February 2025." The cycle shows as both a card and in a row under the Cycle Name column.
+   
+:::image type="content" source="../../media/glint/setup/360-small-teams-program.png" alt-text="Screenshot of the 360 Actions menu.":::
+
+1. Navigate back to the **All 360 Programs** page to see your new program listed. If you have many 360 programs, search for the new program in the Program box.
 
 ## Use the Actions dropdown menu
 
