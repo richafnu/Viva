@@ -23,7 +23,7 @@ Microsoft Viva Glint Always-On Feedback surveys provide insight on any topic, at
 
 ## Potential use cases
 
-Always-On surveys should pair with the timing of an event, initiative, or situation that your organization wants feedback on. Manage your communication strategy to clarify why the feedback is requested, how it's used, and when employees can see results. 
+Always-On surveys should pair with the timing of an event, initiative, or situation that your organization wants feedback on. Manage your communication strategy to clarify why the feedback is requested, how leaders use it, and when employees can see results. 
 
 > [!NOTE]
 > Always-On surveys don't include a Communications section or send any notifications to users. Viva Glint Admins handle Always-On survey notifications outside of the platform.
@@ -70,4 +70,4 @@ To create a new Always-On survey:
    3. Select **Yes, enable the survey** in the **Enable Survey** dialog that appears. The survey card on the left changes from gray to blue and displays response rate as users submit surveys.
 
 > [!IMPORTANT]
-> After an Always-On survey is enabled for the first time, Viva Glint Admins can make edits by switching the Approved toggle off. When an admin re-approves the survey in the future, the survey **auto-enables**.
+> After an Always-On survey is enabled for the first time, Viva Glint Admins can make edits by switching the Approved toggle off. When an admin reapproves the survey in the future, the survey **auto-enables**.
