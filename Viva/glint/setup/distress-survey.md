@@ -14,28 +14,28 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 05/20/2024
+ms.date: 01/22/2025
 ---
 
 # Suggested content for a Viva Glint Distress survey
 
-When societal or global events introduce instability and disruption to our natural patterns in work and personal lives, it causes distress. COVID-19 is an example—it introduced a personal impact on our core human needs for safety and security. Without addressing fundamental concerns, organizations cannot run “business as usual.”
+When societal or global events introduce instability and disruption to our natural patterns in work and personal lives, it causes distress. COVID-19 is an example of this kind of event. It introduced a personal impact on our core human needs for safety and security. Without leaders addressing fundamental concerns, organizations can't run business as usual.
 
 **What do people need at work to remain happy and successful?**
 
 People always need these things at work:
-- They want to feel valued and confident about the future of their organization, and their place in it.
-- They want to feel a sense of belonging.
-- They want to feel trust in their leaders.
-- They want to clearly understand how to be their best and do their best work.
+- To feel valued and confident about the future of their organization and their place in it.
+- To feel a sense of belonging.
+- To feel trust in their leaders.
+- To clearly understand how to be their best and do their best work.
 
 **During times of distress, they need more.** 
 
-People need reassurance that their leaders are prioritizing their safety and wellbeing needs. Employees have a heightened urgency to receive timely, fact-based, and candid communications about what’s happening, why, and the impact on them. They also need the opportunity to express fears and concerns and feel a sense of control over their circumstances. 
-
-Change-management, uncertainty, and many other unexpected and overarching factors bring a feeling of unsettlement and the unknown. Consider adding Viva People Science suggested Distress Survey items to a scheduled engagement survey or creating an ad hoc distress survey to learn how your people are feeling and what they need.
+People need reassurance that their leaders are prioritizing their safety and wellbeing. During times of uncertainty, employees have a heightened urgency to receive timely, fact-based communications about what’s happening, why, and the impact on them. They need the opportunity to express fears and concerns and feel a sense of control over their circumstances. 
 
 ## Instances where a distress survey benefits your org
+
+Change-management, uncertainty, and other unexpected factors bring a feeling of unsettlement and the unknown. To learn how your people are feeling and what they need, consider adding the Viva People Science templated Distress Survey to a scheduled engagement survey or creating an Ad Hoc Distress Survey 
 
 - Major political, social, hostile, or economic events 
 - Sudden catastrophic (local or global) natural disaster events
@@ -58,7 +58,7 @@ Find any of these suggested survey items in the Question Library on your Glint a
 |Item Name|	Item Text|
 |-------|--------|
 |Belonging|I feel a sense of belonging at <COMPANY_NAME>.|
-| Boundaries|I am able to disconnect from work during non-work time. |
+| Boundaries|I am able to disconnect from work during nonwork time. |
 |Change for Better|As a result of these challenging times, what do you see changing for the better?| 
 |Communications|<COMPANY_NAME_UPPERCASE> is doing a good job communicating with employees.|
 |Contribution|I understand what I can do to help our company during the current situation.| 
