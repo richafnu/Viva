@@ -1,6 +1,6 @@
 ---
 title: Use the trend graph in a Viva Glint Employee Lifecycle program
-description: Trend Graphs for Microsoft Viva Glint Employee Lifecycle surveys behaves differently than trend for a recurring survey programs.
+description: Trend Graphs for Microsoft Viva Glint Employee Lifecycle surveys behave differently than trend for a recurring survey programs.
 ms.author: JudithWeiner
 author: JudyWeiner
 manager: MelissaBarry
