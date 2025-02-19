@@ -61,7 +61,7 @@ Let's look at an example where you want to replace an existing template item wit
    - Rating Scale
    - Program Type
 
- :::image type="content" source="../../media/glint/question-library-discover-difference-copy.png" alt-text="Screenshot of a slider panel in the Question Library." lightbox="../../media/glint/question-library-discover-difference-copy.png" :::
+:::image type="content" source="../../media/glint/question-library-discover-difference copy.png" alt-text="Screenshot of a slider panel in the Question Library." lightbox="../../media/glint/question-library-discover-difference copy.png" :::
 
 5. You see that:
    - The first item is intended for a survey using a **7-point rating scale**
