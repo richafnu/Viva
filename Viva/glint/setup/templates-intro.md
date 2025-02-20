@@ -17,7 +17,7 @@ search-appverid: MET150
 ms.topic: overview
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 2/19/2025
+ms.date: 2/20/2025
 ---
 
 # Viva Glint survey templates introduction and terminology
@@ -97,11 +97,11 @@ Items can be filtered to help you find exactly the item to support your survey d
 |**Company**| These items may also be stated as "where I work" or "at this company" or "here." The items refer to an experience of the entire company overall.|
 |**Industry specific job referent**| Some companies may use specific job titles or common abbreviations. Registered Nurse (RN) is an example.|
 
-With all of the above referents, you can customize the item by inserting the actual name of who is to be rated. 
-> For example
+With all referents, you can customize the item by inserting the actual name of who is to be rated. 
+> For example -
 > - Viva Glint item: "I get the support I need from [leadership and their directs]."
-> - Customized item: "I get the support I need from Fred Smith."
-> - The item now shows in your Question Library tagged as both a Viva Glint item and a customized item.
+> - Customized item: "I get the support I need from [Manager Name]"
+> - The item now shows in your Question Library tagged as a Custom item, no longer a Viva Glint item, and the item text reads "I get the support I need from [Manager Name].
 
 ### More about referents
 
