@@ -77,7 +77,7 @@ Edits for custom templates occur offline. The first time you open a folder, you 
 
 This first slide can easily be modified by editing the slide elements.  
 
-:::image type="content" source="../../media/glint/setup/ppt-title-page.png" alt-text="Screenshot of a the cover page of a customized PowerPoint template."::: 
+:::image type="content" source="../../media/glint/setup/ppt-title-page.png" alt-text="Screenshot of the cover page of a customized PowerPoint template."::: 
 
 - **Viva Glint logo** 
  - You can delete or move the Viva Glint logo
@@ -113,16 +113,16 @@ On this slide, focus on “Slide Image Size." The text **NORMAL** or **FULL** de
 
 1. Enter the **Slide Master** view from the **View** menu bar. 
 
-  :::image type="content" source="../../media/glint/setup/ppt-slide-master.png" alt-text="Screenshot of the PowerPoint Slide Master on the View menu bar."::: 
+    :::image type="content" source="../../media/glint/setup/ppt-slide-master.png" alt-text="Screenshot of the PowerPoint Slide Master on the View menu bar."::: 
 
 2. Find the Slide Master layout slide named "Report Content Layout."  In the Viva Glint default template, this slide shows last in the Slide Master view and is blank. If unsure, hover over the page with your mouse and you should see the slide named as “Report Content Layout”. 
 
-  :::image type="content" source="../../media/glint/setup/ppt-report-content-layout.png" alt-text="Screenshot of the Report Content Layout view." lightbox="../../media/glint/setup/ppt-report-content-layout.png"::: 
+    :::image type="content" source="../../media/glint/setup/ppt-report-content-layout.png" alt-text="Screenshot of the Report Content Layout view." lightbox="../../media/glint/setup/ppt-report-content-layout.png"::: 
 
 3.  Edit this slide to remove default text boxes, add new ones, add images - such as logos or graphics - set background colors, to change font colors, etc.
 4.  Customization to this slide is applied to each of the slides containing data exported from the Viva Glint platform report.
 5. Close the **Master** and save your template. 
-6. The customizations applied to the Report Content Layout doesn't show on the slides after closing the Slide Master.
+6. The customizations applied to the Report Content Layout don't show on the slides after closing the Slide Master.
 
    :::image type="content" source="../../media/glint/setup/ppt-close-master.png" alt-text="Screenshot of the Close Master feature on the View menu bar."::: 
  
