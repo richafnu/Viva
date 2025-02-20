@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 2/18/2025
+ms.date: 2/20/2025
 ---
 
 # Manual customization of a Viva Glint PowerPoint presentation
