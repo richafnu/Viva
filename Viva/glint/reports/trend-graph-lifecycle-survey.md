@@ -103,6 +103,6 @@ A user at Contoso wants to view Exit survey scores over time based on six month 
 | Data point  | "Surveyed on" date displayed   | Score date range|
 |:----------|:-----------|:------------|
 | Most recent        | Jul 1, 2024  | Jul 1, 2024 - Dec 31, 2024 |
-| Second most recent | Dec 31, 2023 | Dec 31, 2023 - Jul 1, 2023 |  
+| Second most recent | Dec 31, 2023 | Dec 31, 2023 - Jul 1, 2024 |  
 | Third most recent  | Jul 1, 2023  | Jul 1, 2023 - Dec 31, 2023 |
 | Fourth most recent | Dec 31, 2022 | Dec 31, 2022 - Jul 1, 2023 |  
