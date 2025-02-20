@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 2/18/2025
+ms.date: 2/20/2025
 ---
 
 # Create a customized PowerPoint template and folder
@@ -71,7 +71,7 @@ Edits for custom templates occur offline. The first time you open a folder, you 
 ### Slides of interest
 
 >[!IMPORTANT]
->Different steps are required to adjust elements and settings of the template slides. Be sure managers or leaders making presentations read **Slides of interest** before proceeding with any edits to a component.
+>Different steps are required to adjust elements and settings of the template slides. Be sure to read this full article before proceeding with any edits to a component.
 
 #### Cover Page/Title slide: 
 
@@ -89,11 +89,11 @@ This first slide can easily be modified by editing the slide elements.
 
  - **Special text replacement values**
    -  **Program.Name (included by default in the template):** The text in the box is replaced with the name of the program set in your Viva Glint platform. For example, "Glint Quarterly Engagement Program 5pt.” 
-   - **Survey Name:** if you edit the “Survey.Name” text, this snippet is replaced with the name of the Survey set in your Viva Glint platform. For example, "Culture Survey", "Engagement Survey", or "People Survey." 
+   - **Survey.Name:** if you edit the text “Survey.Name” in a text box, it's replaced with the name of the Survey set in your Viva Glint platform. For example, "Culture Survey", "Engagement Survey", or "People Survey." 
    - **Report.Name:**  if you add the text "Report.Name" in a text box, it's replaced with the name of the chosen report. For example, "Executive Summary Report" or “Heat Map Report." 
 
 >[!TIP]
-> To identify the survey the presentation refers to, use the *Survey* name instead of the *Program* name . 
+> To identify the survey the presentation refers to, use the **Survey.Name** name instead of the **Program.Name** name . 
 
 #### Placeholder slide
 
@@ -120,8 +120,9 @@ On this slide, focus on “Slide Image Size." The text **NORMAL** or **FULL** de
   :::image type="content" source="../../media/glint/setup/ppt-report-content-layout.png" alt-text="Screenshot of the Report Content Layout view." lightbox="../../media/glint/setup/ppt-report-content-layout.png"::: 
 
 3.  Edit this slide to remove default text boxes, add new ones, add images - such as logos or graphics - set background colors, to change font colors, etc.
-4. Close the **Master** and save your template. 
-5. The customizations applied to the Report Content Layout doesn't show on the slides after closing the Slide Master.
+4.  Customization to this slide is applied to each of the slides containing data exported from the Viva Glint platform report.
+5. Close the **Master** and save your template. 
+6. The customizations applied to the Report Content Layout doesn't show on the slides after closing the Slide Master.
 
    :::image type="content" source="../../media/glint/setup/ppt-close-master.png" alt-text="Screenshot of the Close Master feature on the View menu bar."::: 
  
@@ -133,9 +134,8 @@ Two optional text boxes are included in the Viva Glint default template:
   
 You can remove these text boxes or leave them to provide space for end users to add notes. If you keep the boxes, change the title “Add a title Here” to, for example, “Click in the section below to add your notes.” This box displays in each slide. The text box "Add you annotation here" only displays once the end user clicks into that section of the slide.  
 
-**Need-to-knows:**
-- Remember to consider the **NORMAL** vs **FULL** sizing options when adding text boxes. If you edited the Slide Image Size to FULL there isn't space left on the slide for other images or text boxes.  
-- Customization to this slide is applied to each of the slides containing data exported from the Viva Glint platform report.
+>[!TIP]
+> Remember to consider the **NORMAL** vs **FULL** sizing options when adding text boxes. If you edited the Slide Image Size to FULL there isn't space left on the slide for other images or text boxes.  
 
 >[!NOTE]
 > Download the Glint default template for all the dashboard languages needed in order to view reports across different dashboard languages. Repeat each step for each language.
@@ -194,7 +194,7 @@ Your customized presentation can be used for any Glint feedback presentation.
 
     :::image type="content" source="../../media/glint/setup/custom-ppt-reporting-tab.png" alt-text="Screenshot of the PowerPoint Export Template dropdown menu in the Reporting tab.":::
 
->[!TIP]
+> [!TIP]
 > Once your customized template is selected as the PowerPoint Export Template, review the look and feel of the customized template by downloading any report in PowerPoint. Make any necessary edits to your customized template, upload again, and replace the previous version. Several iterations of this process might be necessary to achieve the desired result. 
 
 
