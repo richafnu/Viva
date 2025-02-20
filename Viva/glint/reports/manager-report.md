@@ -14,7 +14,7 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 01/16/2025
+ms.date: 02/20/2025
 ---
 
 # The Viva Glint Manager report in Viva Glint
@@ -22,6 +22,9 @@ ms.date: 01/16/2025
 The Microsoft Viva Glint Manager Report displays a **Directs** or **Roll-up Hierarchy** view of comparisons for two different survey items. These preset items are assigned during survey setup and are the default settings. The manager or Human Resource Business Partners (HRBP) can change which items are displayed by using the **question label** at the top of the column. Similar to other reports, column headers are static and can be used as a sorting feature. 
 
 :::image type="content" source="../../media/glint/reports/manager-report.png" alt-text="Screenshot of the Manager Report access card in the admin Reports tab.":::
+
+> [!IMPORTANT]
+> To make the Manager Report available in Reports for users, their **User Role** must have your organization's Manager ID attribute selected for **Report Sections** in the role's **Report Attributes**.
 
 ## Manager Report terminology
 
