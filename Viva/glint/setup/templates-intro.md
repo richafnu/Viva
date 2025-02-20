@@ -46,11 +46,11 @@ Let's look at an example where you want to replace an existing template item wit
    
    -  In the **Name and ID** column, both items are called **Career Goals**, but they have a different Question ID. The Question ID numbers tell us that these items aren't exactly the same item.
    -  In the **Question** column, you see that the text is identical.
-   -  In the **Used In** column, you see that the items hasn't been used in any survey.
+   -  In the **Used In** column, you see that the items haven't been used in any survey.
    -  In the **Tags** column, you see:
       - The item isn't customized, as the status reads Viva Glint and not Custom.
       - Both items are rating questions
-      - Both items are both linked to the 2021 Global benchnmark.
+      - Both items are both linked to the 2021 Global benchmark.
    
    **There must be a difference between the two seemingly identical items. What is it?** 
    
@@ -68,9 +68,9 @@ Let's look at an example where you want to replace an existing template item wit
 6. Choose the item with the **rating scale** that matches your survey.
 
 >[!NOTE]
-> Even adding an unedited standard Viva Glint item to a survey program converts it to **Custom** status because the item becomes your customer-specific version of the standard item. For this reason, once an item is added to a survey - even unedited - it becomes a new item in your Question Library, differentiated by it's Custom status.
+> Even adding an unedited standard Viva Glint item to a survey program converts it to **Custom** status because the item becomes your customer-specific version of the standard item. For this reason, once an item is added to a survey - even unedited - it becomes a new item in your Question Library, differentiated by its Custom status.
 
-  :::image type="content" source="../../media/glint/setup/question-library-custom-status.png" alt-text="Screenshot of two idential items in the Question Library with different statuses." 
+  :::image type="content" source="../../media/glint/setup/question-library-custom-status.png" alt-text="Screenshot of two identical items in the Question Library with different statuses." 
 
 ## Survey item terms
 
@@ -108,9 +108,9 @@ For example -
 
 In the Question Library database, certain items contain a *Referent* which directs the survey taker to think specifically about *who* they're rating. About half of the Viva Glint items have referents. If the Referent column status is **None**, the item describes an experience with no clear referent. 
 
-   Example **with** a referent: “I feel cared about as a person on my team.”
+   Example **with** a referent: "I feel cared about as a person on my team."
  
-   Example **without** a referent: “At work, I feel cared about as a person.”
+   Example **without** a referent: "At work, I feel cared about as a person."
 
 #### Not all survey items have referents
 
