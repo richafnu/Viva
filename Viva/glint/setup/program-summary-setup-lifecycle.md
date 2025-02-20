@@ -1,5 +1,5 @@
 ---
-title: Set up a Viva Glint Employee Lifecycle program
+title: Set up a Viva Glint Onboarding survey
 description: Viva Glint Employee Lifecycle programs measure the employee experience during key moments in the employment journey.
 ms.author: JudithWeiner
 author: JudyWeiner
@@ -14,38 +14,22 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 2/10/2025
+ms.date: 2/20/2025
 ---
 
-# Set up a Viva Glint Employee Lifecycle program
-
-Lifecycle surveys are a comprehensive approach to understanding the employee experience from onboarding to exit. They allow organizations to get a holistic understanding of the employee experience from beginning to end. Employee Lifecycle surveys are considered "trigger events" because they use the hire or termination date to automatically send. The insights from these surveys help organizations address issues that may cause turnover and help improve the overall employee experience. 
+# Set up a Viva Glint Onboarding survey
 
 **Onboarding surveys** are crucial for gauging new hires’ early experiences and ensuring they have the resources and support needed to succeed. They typically occur within the first few weeks of employment and Glint suggests they continue at intervals to track the new employee’s integration into your company. These surveys can cover aspects like the effectiveness of your orientation process, clarity of job expectations, and the supportiveness of the environment. 
 
-**Exit surveys** help to understand the reason that an employee voluntarily leaves your organization. They uncover the reasons behind their departure, which could range from career advancement opportunities elsewhere to dissatisfaction with the work environment. 
+## Recommended cadence and tips for Onboarding surveys
 
+ **Onboarding surveys for new hires:** within the first week of employment, then again at 30 days *and* at 90 days
 
-
-## Recommended cadence and tips for Employee Lifecycle surveys
-
-Glint recommends this cadence:
-
-- **Onboarding surveys for new hires:** within the first week of employment, then again at 30 days *and* at 90 days
-- **Exit surveys for voluntary terminations:** as soon as possible
-
-### Onboarding tips
+**Onboarding tips:**
 
 - Onboarding survey Distribution List date ranges are relative to Hire Date.
 - If the users should receive the survey 30 days after their hire date, set the first value to **after 30 days.** For the end value, provide enough of a window so that if someone has their hire date updated late in your user data, they still trigger the survey.
 - Don't make the survey taker window too short. Delayed data file imports to Glint might cause people to miss being included.
-
-### Exit survey tips
-
-- Exit survey Distribution List date ranges are relative to the Termination Date.
-- Choose to have Exit Surveys go to a company email or a personal email or both.
-- If you're using **Company Email Address**, we recommend setting the date range from **14 days before the Termination Date to 1 day after.**
-- If you're using **Company email + Personal email**, we recommend setting the date range from **14 days before termination date to 30 days after.**
 
 ## Program Summary setup for Employee Lifecycle survey templates
 
