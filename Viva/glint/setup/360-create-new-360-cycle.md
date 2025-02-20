@@ -23,7 +23,7 @@ ms.date: 2/20/2025
 
 ## Create a new 360 *program*
 
-1. From your manager dashboard, select **360 Feedback Programs**.
+1. From your admin dashboard, select **360 Feedback Programs**.
 
 1. Select the **+ New 360 Program** button from the All 360 Programs page.
 
