@@ -26,7 +26,7 @@ Microsoft Viva Glint recurring surveys happen at definite points in time and tre
 - ELC results appear in dashboards in real time and follow program confidentiality thresholds for displaying results to users who have access.
 
 > [!NOTE]
-> **For the Executive Summary Report in Employee Lifecycle programs:** If program settings allow, and a unique user submits more than one survey response, a records is included in raw data exports representing each of the user's unique submissions. **However, aggregated reports in the platform count them only once**.
+> **For the Executive Summary Report in Employee Lifecycle programs:** If program settings allow users to submit multiple surveys for an ELC survey, they may have multiple response records in raw survey response exports. **However, aggregated reports in the platform count them only once**.
 
 ## Date filters for Lifecycle reports
 
@@ -39,7 +39,7 @@ Users have access to multiple preset date range filters and can apply custom dat
 
 ### Default date range
 
-Reports for ELC surveys default to a view of results for surveys delivered in the past 90 days. The date displayed when you hover over data points is the first day of that range - meaning that **the most recent** data point is 90 days before today's date and previous data points in trend lines displly data with ranges whose start dates are 90-day increments in the past. See the following table for more information.
+Reports for ELC surveys default to a view of results for surveys delivered in the past 90 days. The date displayed when you hover over data points is the first day of that range - meaning that **the most recent** data point is 90 days before today's date and previous data points in trend lines display data with ranges whose start dates are 90-day increments in the past. For more information, see the following table.
 
 | Data point  | "Surveyed on" date displayed   | Score date range|
 |:----------|:-----------|:------------|
@@ -50,7 +50,7 @@ Reports for ELC surveys default to a view of results for surveys delivered in th
 
 ### Other date ranges
 
-Users can select the following preset date ranges or enter custom date ranges when viewing ELC survey results. Use these tables to determine the date ranges that are used to display scores for each timeframe.
+Aside from the defailt range, users can select the following preset date ranges or enter custom dates when viewing ELC survey results. Use these tables to determine the date ranges that are used to display scores for each timeframe.
 
 ### Last 30 days
 
@@ -96,7 +96,7 @@ Users can select the following preset date ranges or enter custom date ranges wh
 
 ## Example
 
-A user at Contoso wants to view Exit survey scores over time based on six month periods. In this case, they need to select a custom date range because no preset date ranges show scores based on siwx month timeframes. They select Jul 1, 2024 through Dec 31, 2024, which gives them a trend line in the Executuve Summary Report where the most recent data point shows a score for that timeframe. The previous data points on the trend line show six month scores going back in time, displayed in the table.
+A user at Contoso wants to view Exit survey scores over time based on six month periods. In this case, they need to select a custom date range because no preset date ranges show scores based on six month timeframes. They select July 1, 2024 through December 31, 2024, which gives them a trend line in the Executive Summary Report where the most recent data point shows a score for that timeframe. The previous data points on the trend line show six month scores going back in time, displayed in the table.
 
 :::image type="content" source="../../media/glint/reports/elc-custom-date-range.png" alt-text="Screenshot of a custom date range applied for a lifecycle report.":::
 
