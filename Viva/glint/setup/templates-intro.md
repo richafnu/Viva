@@ -59,18 +59,18 @@ Let's look at an example where you want to replace an existing template item wit
    - Rating Scale
    - Program Type
 
-:::image type="content" source="../../media/glint/question-library-discover-difference copy.png" alt-text="Screenshot of a slider panel in the Question Library." lightbox="../../media/glint/question-library-discover-difference copy.png" :::
+   :::image type="content" source="../../media/glint/question-library-discover-difference copy.png" alt-text="Screenshot of a slider panel in the Question Library." lightbox="../../media/glint/question-library-discover-difference copy.png" :::
 
 5. You see that:
-   - The first item is intended for a survey using a **7-point rating scale**
-   - The second item is intended for a survey using a **5-point rating scale**
-   - Both items are intended for Engagement surveys
+   - The first item is intended for a survey using a **7-point rating scale**.
+   - The second item is intended for a survey using a **5-point rating scale**.
+   - Both items are intended for Engagement surveys.
 6. Choose the item with the **rating scale** that matches your survey.
 
 >[!NOTE]
 > Even adding an unedited standard Viva Glint item to a survey program converts it to **Custom** status because the item becomes your customer-specific version of the standard item. For this reason, once an item is added to a survey - even unedited - it becomes a new item in your Question Library, differentiated by it's Custom status.
->
->:::image type="content" source="../../media/glint/setup/question-library-custom-status.png" alt-text="Screenshot of two idential items in the Question Library with different statuses." 
+
+  :::image type="content" source="../../media/glint/setup/question-library-custom-status.png" alt-text="Screenshot of two idential items in the Question Library with different statuses." 
 
 ## Survey item terms
 
@@ -98,18 +98,19 @@ Items can be filtered to help you find exactly the item to support your survey d
 |**Industry specific job referent**| Some companies may use specific job titles or common abbreviations. Registered Nurse (RN) is an example.|
 
 With all referents, you can customize the item by inserting the actual name of who is to be rated. 
-> For example -
-> - Viva Glint item: "I get the support I need from [leadership and their directs]."
-> - Customized item: "I get the support I need from [Manager Name]"
-> - The item now shows in your Question Library tagged as a Custom item, no longer a Viva Glint item, and the item text reads "I get the support I need from [Manager Name].
+
+For example -
+ - Viva Glint item: "I get the support I need from [leadership and their directs]."
+ - Customized item: "I get the support I need from [Manager Name]"
+ - The item now shows in your Question Library tagged as a Custom item, no longer a Viva Glint item, and the item text reads "I get the support I need from [Manager Name].
 
 ### More about referents
 
 In the Question Library database, certain items contain a *Referent* which directs the survey taker to think specifically about *who* they're rating. About half of the Viva Glint items have referents. If the Referent column status is **None**, the item describes an experience with no clear referent. 
 
-> Example **with** a referent: “I feel cared about as a person on my team.”
-> 
-> Example **without** a referent: “At work, I feel cared about as a person.”
+   Example **with** a referent: “I feel cared about as a person on my team.”
+ 
+   Example **without** a referent: “At work, I feel cared about as a person.”
 
 #### Not all survey items have referents
 
