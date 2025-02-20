@@ -77,8 +77,7 @@ In the first box, define the basics for your program.
 |**Enable Export of Raw Survey Responses** | Enabling this functionality allows admins to export ungrouped, identifiable survey responses. Disabling this function permanently disallows access to or export of those responses, including the ability to transfer the data to a third party.| [Learn more about raw survey access](/../../viva/glint/setup/employee-raw-data-export)|
 |**Company Message to Survey Participants** |Allows organizations to add more details tailored to their organization, aiming to ensure that individuals participating in surveys are well informed. Clients may wish to append information like specifying the organizational roles with access to identifiable responses or designating appropriate points of contact within the organization for inquiries  or concerns related to the survey. You can also add guidelines on the proper utilization of the survey and direct respondents towards their company-specific resources for more details. This text gets added at the beginning of the survey under the title "Message from [<Client_Name>]," directly following Glint's confidentiality statement.|<li>Translations for the Company Message must be done manually.</li><li>The character limit for the Company Message to Survey Participants is 1,024</li><li>**Survey level custom messaging takes precedence**. Custom messaging set up in General Settings but edited at the survey level, overrides the initial messaging.</li><li>Employee Lifecycle surveys often target only a few individuals. For this reason, reducing your confidentiality threshold helps protect their privacy.</li>|
 
-
-### Distribution List page
+### Distribution page
 
 Before configuring an Employee Lifecycle program, create employee lists based on hire date for Onboarding surveys and termination date for Exit surveys.
 
@@ -99,7 +98,10 @@ Before configuring an Employee Lifecycle program, create employee lists based on
 >[!CAUTION]
 >You can't use the same number of days for the beginning and end value in the Distribution List. For example: "45 days after to 45 days after" - the query would be unable to find any users.
 >
-### Finish setting up the Program Summary pages
+### Questions page
+### Reporting page
+### Communications page
+### Coaching page
 
 The other pages required for setup in Program Summary work the same way as for a recurring-type survey program. Follow the guidance on these pages:
 
