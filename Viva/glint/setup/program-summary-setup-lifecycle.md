@@ -21,9 +21,9 @@ ms.date: 2/20/2025
 
 **Onboarding surveys** are crucial for gauging new hires’ early experiences and ensuring they have the resources and support needed to succeed. They typically occur within the first few weeks of employment and Microsoft Viva Glint suggests they continue at intervals to track the new employee’s integration into your company. These surveys can cover aspects like the effectiveness of your orientation process, clarity of job expectations, and the supportiveness of the environment. 
 
-## Recommended cadence and tips for Onboarding surveys
+## Recommended cadence and tips 
 
- Onboarding surveys for new hires are recommended within the first week of employment. Then send another Onboarding survey at 30 days and at 90 days of employment.
+Onboarding surveys for new hires are recommended within the first week of employment. Then send another Onboarding survey at 30 days and at 90 days of employment.
 
 **Onboarding tips:**
 
