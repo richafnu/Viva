@@ -21,7 +21,7 @@ ms.date: 2/20/2025
 
 :::image type="content" source="../../media/glint/setup/360-survey-questions.png" lightbox="../../media/glint/setup/360-add-question.png" alt-text="Screenshot of the Survey Questions page and the + button to add or edit.":::
 
-The **Survey Questions** page of Cycle Settings populates exactly as the template its copied from. You can add or modify these items. 
+The **Survey Questions** page of Cycle Settings populates exactly as the template it is copied from. You can add or modify these items. 
 
 Add items from your Viva Glint Question Library by selecting the **+ symbol**. 
 - You can use the **+ symbol** under the question list.
@@ -60,7 +60,7 @@ To add the item, select **Add Question**.
 >[!CAUTION]
 >  Edit items only when necessary. Edits may impact language translations and change the intention of the item.
 
-Select the verticle ellipses to open the dropdown menu and then select **Edit Question.**
+Select the vertical ellipsis to open the dropdown menu and then select **Edit Question.**
 
 :::image type="content" source="../../media/glint/setup/360-edit-question.png" alt-text="Screenshot of the Edit Question option in the verticle ellipses dropdown menu.":::
 
