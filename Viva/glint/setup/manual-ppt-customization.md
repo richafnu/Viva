@@ -19,7 +19,7 @@ ms.date: 2/20/2025
 
 # Manual customization of a Viva Glint PowerPoint presentation
 
-From the downloaded presentation kit tempate export, use the following guidelines.
+From the downloaded presentation kit template export, use the following guidelines.
 
 **Customize the presentation-manually** using your organization's logo, familiar terminology, and important, relevant text content. Save the presentation with a new and easily identifiable name. In this example, the survey is named *Spring Engagement Survey 2024*.
 
@@ -30,7 +30,7 @@ From the downloaded presentation kit tempate export, use the following guideline
 1.	From the **PowerPoint Templates for Reports** window, choose the folder for your customized template to be added to. In this example, *Spring Engagement* is opened.
 2.	Select **Upload a PowerPoint file** to open the **Upload a PowerPoint file** dialog box.
 
-    :::image type="content" source="../../media/glint/setup/custom-ppt-new-tab.png" alt-text="Screenshot of the how to download the new template and open in a new tab.":::
+    :::image type="content" source="../../media/glint/setup/custom-ppt-new-tab.png" alt-text="Screenshot showing how to download the new template and open in a new tab.":::
 
 3.	Browse your files to drag and drop the custom template into the upload box.
 4.	Select a language to upload and then select **Upload file**. Upload as many languages into the folder as needed.
@@ -42,7 +42,7 @@ From the downloaded presentation kit tempate export, use the following guideline
 
 ### Edit the presentation template
 
-To edit, open, or delete a folder, use the ellipses next to the template name.
+To edit, open, or delete a folder, use the ellipsis next to the template name.
 
 :::image type="content" source="../../media/glint/setup/custom-ppt-ellipses.png" alt-text="Screenshot of the template folder dropdown menu.":::
  
