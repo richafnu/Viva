@@ -50,7 +50,7 @@ Reports for ELC surveys default to a view of results for surveys delivered in th
 
 ### Other date ranges
 
-Aside from the defailt range, users can select the following preset date ranges or enter custom dates when viewing ELC survey results. Use these tables to determine the date ranges that are used to display scores for each timeframe.
+Aside from the default range, users can select the following preset date ranges or enter custom dates when viewing ELC survey results. Use these tables to determine the date ranges that are used to display scores for each timeframe.
 
 ### Last 30 days
 
@@ -96,13 +96,21 @@ Aside from the defailt range, users can select the following preset date ranges 
 
 ## Example
 
-A user at Contoso wants to view Exit survey scores over time based on six month periods. In this case, they need to select a custom date range because no preset date ranges show scores based on six month timeframes. They select July 1, 2024 through December 31, 2024, which gives them a trend line in the Executive Summary Report where the most recent data point shows a score for that timeframe. The previous data points on the trend line show six month scores going back in time, displayed in the table.
+A user at Contoso wants to view Exit survey scores over time based on six month periods. In this case, they need to select a custom date range because no preset date ranges show scores based on six month timeframes. They select July 1, 2024 through December 31, 2024.
 
 :::image type="content" source="../../media/glint/reports/elc-custom-date-range.png" alt-text="Screenshot of a custom date range applied for a lifecycle report.":::
+
+The previous data points on the trend line show six month scores going back in time, displayed in the table.
 
 | Data point  | "Surveyed on" date displayed   | Score date range|
 |:----------|:-----------|:------------|
 | Most recent        | Jul 1, 2024  | Jul 1, 2024 - Dec 31, 2024 |
 | Second most recent | Dec 31, 2023 | Dec 31, 2023 - Jul 1, 2024 |  
 | Third most recent  | Jul 1, 2023  | Jul 1, 2023 - Dec 31, 2023 |
-| Fourth most recent | Dec 31, 2022 | Dec 31, 2022 - Jul 1, 2023 |  
+| Fourth most recent | Dec 31, 2022 | Dec 31, 2022 - Jul 1, 2023 | 
+| Fifth most recent  | Jul 1, 2022  | Jul 1, 2022 - Dec 31, 2022 |  
+| Sixth most recent  | Dec 31, 2021 | Dec 31, 2021 - Jul 1, 2022 |  
+
+And the trend line in the Executive Summary Report shows data points going back in time by six month increments.
+
+:::image type="content" source="../../media/glint/reports/elc-trend-example.png" alt-text="Screenshot of an Executive Summary Report for an ELC survey with a custom six month date range applied.":::
