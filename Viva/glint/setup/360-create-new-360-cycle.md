@@ -46,27 +46,27 @@ ms.date: 2/20/2025
 
 Open the program **Actions** dropdown menu to:
 
-**Duplicate your program**
+- **Duplicate your program**
 
-Only the most recent cycle settings copy. No program history, schedules, or participants are included. Select **Duplicate Program.** Select **Save Changes**.
+  Only the most recent cycle settings copy. No program history, schedules, or participants are included. Select **Duplicate Program.** Select **Save Changes**.
 
-**Add or edit admin access**
+- **Add or edit admin access**
 
-Easily add a group of admins included in a preexisting User Role. These are defined in User Roles on your admin dashboard. Select **Save Changes**.
+  Easily add a group of admins included in a preexisting User Role. These are defined in User Roles on your admin dashboard. Select **Save Changes**.
 
-**Update language settings**
+- **Update language settings**
 
-Set your default language and other languages for this program:
-- **Additional Survey Languages:** Options available to feedback providers
-- **Default Survey Language:** The default survey language
-- **Dashboard Languages:** Options available to 360 participants when the log in to Viva Glint. Languages are preset in General Setting from your admin dashboard.
-Select **Save Changes**.
+  Set your default language and other languages for this program:
+  - **Additional Survey Languages:** Options available to feedback providers
+  - **Default Survey Language:** The default survey language
+  - **Dashboard Languages:** Options available to 360 participants when the log in to Viva Glint. Languages are preset in General Setting from your admin dashboard.
+  Select **Save Changes**.
 
-:::image type="content" source="../../media/glint/setup/360-language-settings.png" alt-text="Screenshot of the 360 *Language Settings* window.":::
+  :::image type="content" source="../../media/glint/setup/360-language-settings.png" alt-text="Screenshot of the 360 *Language Settings* window.":::
 
-**Delete**
+- **Delete**
 
-All settings and cycles associated with this program are deleted and can't be undone. Select **Delete Program** to confirm.
+  All settings and cycles associated with this program are deleted and can't be undone. Select **Delete Program** to confirm.
 
 ## Create a 360 *cycle*
 
