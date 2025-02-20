@@ -99,19 +99,19 @@ Here's an example of the **May 2025** cycle page:
 
 :::image type="content" source="../../media/glint/setup/360-may-cycle-setup.png" alt-text="Screenshot of the setup page for a new cycle." lightbox="../../media/glint/setup/360-may-cycle-setup.png":::
 
-### Setup page
+## Setup page
 
 There are three sections to review. Remember, they are preconfigured for you.
 
-#### The Basics
+### The Basics
 
 :::image type="content" source="../../media/glint/setup/360-basics.png" alt-text="Screenshot of the first section to configure in Cycle Setup.":::
 
-##### Manage translations in The Basics
+#### Manage translations in The Basics
 
 Select **Manage Translations** to open **The Basics Translations** slider panel. Each translation added autosaves after selecting the next language.
 
-#### Feedback Provider Category Settings and Confidentiality
+### Feedback Provider Category Settings and Confidentiality
 
 Edit each category as needed. When editing in another language that's available in the dropdown menu, that language saves so you can come back to it later if further edits are needed. Hover over and select the row to open the **Edit** slider panel.
 
@@ -138,7 +138,7 @@ From the copied cycle, up to six feedback provider categories are preset.
 > [!IMPORTANT]
 > *At least three feedback providers must respond at the *survey level* to show feedback in a subject's report. This requirement doesn't apply to the *question* level.
 
-#### Confidentiality Statements
+#### Confidentiality threshold
 
 You can increase the confidentiality threshold for some feedback provider categories, but you can’t decrease the threshold less than the default values.
 Dependent on the provider category, provider response information settings, and whether your organization included a privacy policy link in General Settings, the 360 confidentiality statement users see varies. [Learn more about Viva Glint 360 privacy and confidentiality](/viva/glint/setup/viva-glint-survey-privacy).
@@ -160,9 +160,13 @@ Select **Save** when you're done configuring the Setup page.
 ## Use these guidance pages to complete 360 cycle setup
 
 There are four more pages to configure:
+
 [Survey Questions](/../../viva/glint/setup/360-add-edit-cycle-questions)
+
 [Overview & Feedback provider Selection Content](/../../viva/glint/setup/overview-feedback-provider-selection)
+
 [Competencies & Reporting](/../../viva/glint/setup/360-competencies)
+
 [Schedule & Communication](/../../viva/glint/setup/360-schedules-comms)
 
 
