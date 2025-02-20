@@ -76,7 +76,7 @@ Remember, your first cycle has been automatically added to the page. Now select 
 
 1. From the dialog box which opens, use the dropdown menu to select the cycle to copy. Select **Create New Cycle**. In this example, only the first cycle is available as no others are created.
 
-   :::image type="content" source="../../media/glint/setup/360-february.png" alt-text="Screenshot of the "Choose a past cycle to copy from" window.":::
+   :::image type="content" source="../../media/glint/setup/360-february.png" alt-text="Screenshot of the Choose a past cycle to copy from window.":::
 
 1. Now, on the **Cycle** page you see the *Copy title.** Use the **pencil symbol** to rename this new cycle. Let's rename this cycle **May 2025.**
 
@@ -84,7 +84,7 @@ Remember, your first cycle has been automatically added to the page. Now select 
 
 1. Use the left facing arrow to navigate back to the **Program** page to confirm that your new cycle is created. It also shows in the **Cycle Name** column.
 
-  :::image type="content" source="../../media/glint/setup/360-confirm-new-cycle.png" alt-text="Screenshot of the 360 Program page with the original cycle and a new cycle.":::
+   :::image type="content" source="../../media/glint/setup/360-confirm-new-cycle.png" alt-text="Screenshot of the 360 Program page with the original cycle and a new cycle.":::
 
 ## Edit cycle settings 
  
