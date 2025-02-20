@@ -26,7 +26,7 @@ The Microsoft Viva Glint Manager Report displays a **Directs** or **Roll-up Hier
 > [!IMPORTANT]
 > To make the Manager Report available in Reports for users, their **User Role** must have your organization's Manager ID attribute selected for **Report Sections** in the role's **Report Attributes**.
 >
-> :::image type="content" source="../../media/glint/reports/manager-id-report-attribute.png" alt-text="Screenshot of Manager ID selected in a role's Report Attributes."::
+> :::image type="content" source="../../media/glint/reports/manager-id-report-attribute.png" alt-text="Screenshot of Manager ID selected in a role's Report Attributes.":::
 
 ## Manager Report terminology
 
