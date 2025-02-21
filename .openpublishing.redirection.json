@@ -2395,6 +2395,11 @@
       "source_path": "viva/glint/setup/create-new-360-cycle.md",
       "redirect_url": "/viva/glint/setup/360-create-new-360-cycle",
       "redirect_document_id": true
+  },
+  {
+     "source_path": "viva/glint/setup/manual-ppt-customization.md",
+     "redirect_url": "/viva/glint/setup/custom-ppt-upload",
+     "redirect_document_id": true
   }
     
     ]
