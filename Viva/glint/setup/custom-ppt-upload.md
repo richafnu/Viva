@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 2/20/2025
+ms.date: 2/21/2025
 ---
 
 # Create a customized PowerPoint template and folder
@@ -89,11 +89,11 @@ This first slide can easily be modified by editing the slide elements.
 
  - **Special text replacement values**
    -  **Program.Name (included by default in the template):** The text in the box is replaced with the name of the program set in your Viva Glint platform. For example, "Glint Quarterly Engagement Program 5pt.” 
-   - **Survey.Name:** if you edit the text “Survey.Name” in a text box, it's replaced with the name of the Survey set in your Viva Glint platform. For example, "Culture Survey", "Engagement Survey", or "People Survey." 
+   - **Survey.Name:** if you add the text “Survey.Name” in a text box, it's replaced with the name of the Survey set in your Viva Glint platform. For example, "Culture Survey", "Engagement Survey", or "People Survey." 
    - **Report.Name:**  if you add the text "Report.Name" in a text box, it's replaced with the name of the chosen report. For example, "Executive Summary Report" or “Heat Map Report." 
 
 >[!TIP]
-> To identify the survey the presentation refers to, use the **Survey.Name** name instead of the **Program.Name** name . 
+> To identify the survey the presentation refers to, use the **Survey.Name** text instead of the **Program.Name** text . 
 
 #### Placeholder slide
 
