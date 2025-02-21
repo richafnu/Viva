@@ -1,6 +1,6 @@
 ---
 title: Customize Viva Glint feedback reports
-description: Provide flexibility for users by editing, adding and removing sections of Viva Glint feedback reports. 
+description: Provide flexibility for users by editing, adding, and removing sections of Viva Glint feedback reports. 
 ms.author: JudithWeiner
 author: JudyWeiner
 manager: mbarry
