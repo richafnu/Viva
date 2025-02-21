@@ -91,7 +91,7 @@ Now you need to create a custom Distribution List.
 
 1. Select the **Configuration** symbol on your admin dashboard and then select **Distribution Lists**.
 2. Select **+ New Distribution List**.
-3. Name your new list by using the **pencil symbol** to deleted the *Untitled* content. Let's follow an example that creates a program titled **30-day Onboarding Distribution List**.
+3. Name your new list by using the **pencil symbol** to delete the *Untitled* content. Let's follow an example that creates a program titled **30-day Onboarding Distribution List**.
 4. Select **Add/Edit Employees**.
 
    :::image type="content" source="../../media/glint/setup/elc-30-day.png" alt-text="Screenshot of creating a 30-day Onboarding Distribution List setup.":::
@@ -108,7 +108,7 @@ Now you need to create a custom Distribution List.
 8. Select a date and then select **Done.**
 9. Select **Save Changes**. Your completed Distribution List for Hire Date looks like this:
 
-   :::image type="content" source="../../media/glint/setup/elc-hire-date.png" alt-text="Screenshot of a Hire Date Distribution List created.":::
+   :::image type="content" source="../../media/glint/setup/elc-hire-date-list.png" alt-text="Screenshot of a Hire Date Distribution List created.":::
    
 ### Questions page
 
