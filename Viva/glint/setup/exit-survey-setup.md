@@ -98,12 +98,12 @@ Now you need to create a custom Distribution List.
    
 5. From the **Chose a way to add employee** dialog box which opens, select the **Attribute Rules** tile. 
 
-  ::image type="content" source="../../media/glint/setup/elc-attribute-rules.png" alt-text="Screenshot of the Attribute Rules tile in Distribution setup.":::
+   :::image type="content" source="../../media/glint/setup/elc-attribute-rules.png" alt-text="Screenshot of the Attribute Rules tile in Distribution setup.":::
     
 6. The **Add Attribute Rules** slider panel opens. Select **I want to include all active employees by these populations** and **Include Inactive Employees.** Use the Search bar to manually find the employee names who left your employ and should receive the Exit survey.
 7. Select **Save Changes.**
 
-   ::image type="content" source="../../media/glint/setup/elc-attribute-rules-exit.png" alt-text="Screenshot of the Attribute Rules slider panel in Distribution setup.":::
+   :::image type="content" source="../../media/glint/setup/elc-attribute-rules-exit.png" alt-text="Screenshot of the Attribute Rules slider panel in Distribution setup.":::
 
 ### Questions page
 
