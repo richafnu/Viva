@@ -13,7 +13,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 02/14/2025
+ms.date: 02/21/2025
 ---
 
 # Link custom questions to Viva Glint benchmarks
@@ -88,5 +88,8 @@ To map a duplicated question to the original Viva Glint standard question in the
     1. Yes, keep any inherited benchmarks, to keep benchmarks from the copied standard question, or
     2. No, remove all inherited benchmarks, to discard benchmark information when edits are made that change the question's meaning.
 3. Select **Duplicate this question** in the dialog.
+
+> [!NOTE]
+> Mapping a copied question to a Viva Glint standard question only links it to external benchmark suites and doesn't map any internal benchmarks or trend from Viva Glint standard questions.
   
    :::image type="content" source="../../media/glint/setup/benchmark-association-dialog.png" alt-text="Screenshot of the dialog that appears to give the option to map or discard benchmark suites for copied questions.":::
