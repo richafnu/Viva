@@ -34,7 +34,7 @@ The first Onboarding survey for new hires is recommended at 30 days. Consider se
 ## Create an Onboarding Survey
 
 1. From your admin dashboard, select **Survey Programs.**
-2. Under **Lifecycle** on the Create a Program page, select the **Onboarding** tile and then **Create Program.**
+2. Under **Lifecycle** on the Create a Program page, select the **Onboarding** tile, and then **Create Program.**
 
    :::image type="content" source="../../media/glint/setup/onboarding-card.png" alt-text="Screenshot of the Onboarding card for a Lifecycle survey.":::
 
@@ -59,7 +59,7 @@ In the first box, define the basics for your program.
 |**Program Name**|Used in survey and email communications, reporting. The name is visible to survey respondents|30-day Onboarding, 60-day Onboarding|
 |**Administrators**|This role can set up, manage, edit, and report on all surveys in the program|*Manage Programs* must be enabled for the name to appear in the search box.|
 |**Default Language**|Manage Programs must be enabled for the name to appear in the search box.|
-|**Additional Languages**|All languages set up in General Settings will display. **X** any language to delete it for this program.|Be sure survey items are available in all languages chosen.|
+|**Additional Languages**|All languages set up in General Settings display. **X** any language to delete it for this program.|Be sure survey items are available in all languages chosen.|
 |**Suggested Actions Available**|Enables Users to create goals.|	Toggle to enable or disable|
 |**Response Window**|The number of days the employee has to complete the survey once it's live|Glint suggests 14 days, but you can raise or lower this window.|
 |**Waiting Period Between Surveys** |The number of days before an employee is eligible to take the survey again after the previous survey closes.|Our system constantly checks for changes in the trigger date so if a survey is already generated for this timeframe, it doesn't generate a new one. In many Employee Lifecycle programs, Glint recommends 30, 60, 90, or even 365 days (one full year).|
@@ -81,7 +81,7 @@ Select **Save Changes** when all edits are complete.
 
 ### Distribution page
 
-Your Employee Attribute File contains a Hire Date attribute for each employee. This is used for sending Onboarding surveys. Note that you may not use the same terminology that Viva Glint uses in guidance. In this example, the Employee Attribute File column header is **Start Date**:
+Your Employee Attribute File contains a Hire Date attribute for each employee. This list is used for sending Onboarding surveys. You may not use the same terminology that Viva Glint uses in guidance. In this example, the Employee Attribute File column header is **Start Date**:
 
 :::image type="content" source="../../media/glint/setup/elc-distribution-attribute.png" alt-text="Screenshot of the Employee Attribute dropdown menu in Employee Lifecycle Distribution setup.":::
 
@@ -112,7 +112,7 @@ Now you need to create a custom Distribution List.
    
 ### Questions page
 
-Viva Glint suggests using the 14 core questions populated on the Onboarding template. You can replace them with others that are suggested by the Microsoft People Science research team. [View the core questions and alternates here](/../../viva/glint/setup/create-onboarding-exit-surveys).
+Viva Glint suggests using the 14 core questions populated on the Onboarding template. You can replace them with others suggested by the Microsoft People Science research team. [View the core questions and alternates here](/../../viva/glint/setup/create-onboarding-exit-surveys).
 
 [Learn more about Questions setup and editing in Program Summary](/../../viva/glint/setup/questions-setup)
 
