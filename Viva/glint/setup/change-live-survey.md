@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 2/13/2025
+ms.date: 2/21/2025
 ---
 
 # Make changes to a live Viva Glint survey
@@ -50,17 +50,14 @@ Sometimes changing a Live survey may be beneficial.
 | Item order | The survey items need to be reordered. | The newly edited order is featured immediately but *only* on surveys that haven't started. |
 
 ## Fields which can be edited 
+Only these fields can be edited when a survey is Live.
 
 |Field|Need-to-knows|
 |--------|--------------|
-|**Language** | From languages prepopulated in the dropdown menu|
-|**Question Type** | Rating, multiple choice, open-ended|
-| **Reporting Label** | For easy identification of your item|
-|**Question Text** | Consider if it's as it should be. Wording shows verbatim.<ul><li> The **+ button** allows you to edit the question.  </li><li> Try not to edit our standard survey items. Item edits may impact language translations and the item's intention to accurately tie to its designated benchmark.|
+|**Question Text** | Wording shows verbatim.<ul><li> The **+ button** allows you to edit the question.  </li><li> Try not to edit our standard survey items. Item edits may impact language translations and the item's intention to accurately tie to its designated benchmark.</li><li>Changes to the item apply to all survey programs and Live survey questionnaires using this item. This change includes the survey where the admin initialized the change.</li><li> Changes can also be made from the Question Library.</li><li> **Be aware if the item is used in multiple programs, emails send for each of those surveys.** |
 |**Instruction Text** |Use this space to provide survey takers with helpful information about how to answer this item.</li></ul>|
 |**Comment Placeholder Text** | **Leave your comments here** appears by default. This text can be customized |
-|**Rating Scale** |For a 5 or 7 point rating scale: <ul><li>   Decide whether to include the rating **Label for all options** - The **Low Value** (1-strongly disagree) and **High Value** (5- strongly agree) appear by default. To define values 2, 3, and 4, toggle to **YES** and then assign their meaning. For example: 2 = disagree. </li><li> Decide whether to **Allow Comments** and then toggle to **Yes** or **No**. </li><li> Decide whether this item can be an **Optional Question** and then toggle to **Yes** or **No**.</ul></li>|
-|**Suggested Action Template** |To help managers act on feedback, use the dropdown menu to attach this item to a previously configured Suggested Action Template.|
+|**Benchmark** | |
 
 Select **Save Changes** when editing is complete.
 
