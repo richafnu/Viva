@@ -23,7 +23,7 @@ ms.date: 2/21/2025
 
 ### Recommended cadence and tips 
 
-Onboarding surveys for new hires are recommended within the first week of employment. Then send another Onboarding survey at 30 days and at 90 days of employment.
+The first Onboarding survey for new hires is recommended at 30 days. Consider sending another Onboarding survey at 60 and at 90 days of employment.
 
 **Onboarding tips:**
 
