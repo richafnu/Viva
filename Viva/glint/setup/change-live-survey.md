@@ -44,8 +44,8 @@ Sometimes changing a Live survey may be beneficial.
 
 |   Topic   |   Scenario   |   Considerations   |
 | --- | --- | --- |
-| The text at the beginning (top) and end (bottom) of the survey | The *Intro* or *Thank You* text needs adjustments or corrections. | Newly edited text is featured immediately and *only* on surveys that haven't started. |
-| Item text | The phrasing of an item needs to be edited. | Decide whether to change the item while the survey is live or if it can wait until the next cycle. Instructions for editing items in a Live survey are below.|
+| The text at the beginning (top) and end (bottom) of the survey | The *Intro* or *Thank You* text needs adjustments or corrections. | Newly edited text is featured immediately and *only* if a survey taker hasn't started their survey. |
+| Item text | The phrasing of an item needs to be edited. | Decide whether to change the item while the survey is live or if it can wait until the next cycle. Follow Live survey edits guideline.|
 | Adding or removing an item | You want to add a new item or remove an item from a Live survey. | An item *can't* be added or removed from a Live survey except in an Always-On or Employee Lifecycle program. |
 | Item order | The survey items need to be reordered. | The newly edited order is featured immediately but *only* on surveys that haven't started. |
 
@@ -85,7 +85,7 @@ The information is broken out across **Program Summary** setup pages.
 | --- | --- | --- |
 | **Survey launch date** | You need to postpone the launch date of the survey. | To avoid potential challenges, make this update a minimum of 24 hours before the survey is scheduled to go Live. |
 | **Response window** | You want to decrease or increase the number of days for the survey window. | Adjust a minimum of 48 hours before the original survey end date.<br>Be sure your *Communications* email send dates align with the updated survey window.<br><br>**Note** that Live schedule edits apply at the cycle level. |
-| **Resend Survey Invites** | You want to resend the survey invite email to users who haven't responded yet |The email doesn't send to users who have completed the survey.  Viva Glint admins can only make this change between the invite send date and the first reminder date.<br><br> This functionality isn't available after the first reminder sends.|
+| **Resend Survey Invites** | You want to resend the survey invite email to users who yet to respond |The email doesn't send to survey takers with completed surveys.  Viva Glint admins can only make this change between the invite send date and the first reminder date.<br><br> This functionality isn't available after the first reminder sends.|
 | **Reschedule Survey Invites** | You want to reschedule the survey invite email due to issues with the first invite. | Viva Glint admins can only make this change between the invite send date and the first reminder date.<br><br> This functionality isn't available after the first reminder sends. |
 
 #### Manage the schedule for a live survey
@@ -101,9 +101,9 @@ The information is broken out across **Program Summary** setup pages.
 
 |   Topic   |   Scenario   |   Considerations   |
 | --- | --- | --- |
-| **The text at the beginning and end of the survey** | The **Intro** or **Thank You** text needs adjustments or corrections. | Newly edited text is featured immediately on surveys that haven't started. |
+| **The text at the beginning and end of the survey** | The **Intro** or **Thank You** text needs adjustments or corrections. | Newly edited text is featured immediately on unopened surveys. |
 | **Add or remove a survey item** | You want to add a new item or remove an item from a Live survey. | An item *can't* be added or removed from a Live survey except in an Always-On or an Employee Lifecycle program. |
-| **Item order** | The items need to be reordered. | Newly edited item order is featured immediately on surveys that haven't started. |
+| **Item order** | The items need to be reordered. | Newly edited item order is featured immediately on opened surveys. |
 |**Survey sections and survey breaks**| You want to change the formatting of the survey.| Survey section and break additions can't occur during a Live cycle. Section and break changes apply to upcoming cycles only.|
 | **Question text** | The phrasing or benchmark status of an item needs to be edited. | <ul><li> Once confirmed and saved, the edited item is pushed to all Live and future surveys that use it.</li><li> All programs with the changed item are automatically set to allow survey resubmission.</li><li> If your organization uses Entra ID or personalized links for survey access, notify participants who started or completed the survey via email. Select the checkbox.</li><li>If your organization uses attribute-based survey access, manual notification of the change is required.</ul>  
 
@@ -114,9 +114,9 @@ Mapping to a Viva Glint standard item needs to be updated.
 | Scenario | Considerations |
 | -------- | --------| 
 |**#1 - You need to change text for an item associated with a benchmark but without a benchmark change**.|Existing external benchmark associations remain the same in the Question Library and in your survey reports. |
-|**#2 - You need to change text for an item not associated with a benchmark.** | The considerations stated above in **Question text** apply.|
+|**#2 - You need to change text for an item not associated with a benchmark.** | The considerations stated in **Question text** apply.|
 |**#3 - You need to change benchmark mapping but aren't changing item text**.|  <ul><li> External benchmarks are updated in the Question Library.</li><li> No updates are made to survey items, so Live and future surveys aren't impacted.</ul> |
-|**#4 - You need to change benchmark mapping and change item text.** | <ul><li>The considerations stated above in **Question text** apply.</li><li>Existing external benchmark associations are updated in the Question Library. </li><li> To accurately update reports, re-approve the survey program which includes the changed item.</ul>|
+|**#4 - You need to change benchmark mapping and change item text.** | <ul><li>The considerations stated in **Question text** apply.</li><li>Existing external benchmark associations are updated in the Question Library. </li><li> To accurately update reports, re-approve the survey program which includes the changed item.</ul>|
 
 :::image type="content" source="../../media/glint/setup/confirm-before-changing-1.png" alt-text="Screenshot of the Confirm before saving dialog box for item change without benchmark change.":::
 
@@ -130,7 +130,7 @@ Mapping to a Viva Glint standard item needs to be updated.
 #### Admin process for editing an item during a Live survey
 
 There are three entry points for editing an item:
--	From the **Question Library** on your admin dashboard. This doesn't require survey to go into unapproved state.
+-	From the **Question Library** on your admin dashboard. This entry point doesn't require survey to go into unapproved state.
 -	From the **Survey Programs, Live** section
 -	From the **Survey Programs, Upcoming** section
 
@@ -166,7 +166,7 @@ Live Communications edits only apply when made at the cycle level.
 
 |   Topic   |   Scenario   |   Considerations   |
 | --- | --- | --- |
-| **Reminders** | You need to add or delete email reminders, or otherwise edit existing text. | Future reminders can be added, edited, or deleted if adjusted at least 24 hours before they're scheduled to be sent. Reminders can't be added, edited, or deleted, on the day that they're scheduled to send. |
+| **Reminders** | You need to add or delete email reminders, or otherwise edit existing text. | Future reminders can be added, edited, or deleted if adjusted at least 24 hours their scheduled send time. Reminders can't be added, edited, or deleted, on the day that they're scheduled to send. |
 | **Results Notification** | You want to turn this feature on or off, edit existing text, or adjust the number of days until the message is sent. | To avoid potential challenges, make changes at least 48 hours before the closing of the survey window. |
 
 ### Other Live changes 
