@@ -14,7 +14,7 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 01/30/2025
+ms.date: 02/21/2025
 ---
 
 # Customize Viva Glint feedback reports
@@ -44,9 +44,12 @@ From the customized report page, select the **dropdown arrow** next to Export. T
 
 Rename the new report so it's readily identifiable. **Renaming is essential so the new report doesn't replace the original report.** Select whether to use the latest data. **Yes** allows automatic updates for future surveys have results. Select **Save**.
 
-### Delete reports
+> [!NOTE]
+> The "Use latest data" option is only visible when a user accesses results for the most recent survey cycle for Recurring and Ad Hoc surveys.
 
-If a section of a report doesn’t provide the insight you're looking for, delete the report using the ellipses dropdown menu.
+### Delete report sections
+
+If a section of a report doesn’t provide the insight you're looking for, delete the report section using the ellipsis dropdown menu.
 
 ## Add a section to a report
 
