@@ -303,8 +303,10 @@ items:
            href: setup/create-productivity-survey.md
       - name: Employee Lifecycle survey setup
         items:
-           - name: Set up an Employee Lifecycle survey
+           - name: Set up an Onboarding survey
              href: setup/program-summary-setup-lifecycle.md
+           - name: Set up an Exit survey
+             href: setup/exit-survey-setup.md
            - name: Preview and filter a Lifecycle survey
              href: setup/preview-filter-lifecycle-programs.md 
       - name: Viva Glint 360 feedback programs
