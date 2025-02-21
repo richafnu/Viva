@@ -109,25 +109,28 @@ Now you need to create a custom Distribution List.
 9. Select **Save Changes**. Your completed Distribution List for Hire Date looks like this:
 
     ::image type="content" source="../../media/glint/setup/elc-hire-date.png" alt-text="Screenshot of a Hire Date Distribution List created.":::
-
-
+   
 ### Questions page
+
+Viva Glint suggests using the 14 core questions populated on the Onboarding template. You can replace them with others that are suggested by the Microsoft People Science research team. [View the core questions and alternates here](/../../viva/glint/setup/create-onboarding-exit-surveys).
+
+[Learn more about Questions setup and editing in Program Summary](/../../viva/glint/setup/questions-setup?branch=pr-en-us-9461)
+
 ### Reporting page
+
+[Set up the Report page as described in this guidance](/../../viva/glint/setup/reporting-setup?branch=pr-en-us-9461)
+
+The default for interpreting Onboarding reports is a 90-day look-back period. Report recommendations:
+- The **Overall Results** report is recommended for viewing Onboarding surveys. Data can be set up and customized to surface useful insights. Filters are dependent on the attributes sent to Viva Glint in your Employee Attribute File and must meet confidentiality requirements.
+- Understanding how to interpret [**trending](/../../viva/glint/reports/aggregate-trending) is essential to gaining the best insights from Onboarding feedback.
+
 ### Communications page
+
+[Set up the Communications page as described in this guidance](/../../viva/glint/setup/program-summary-communications)
+
 ### Coaching page
 
-The other pages required for setup in Program Summary work the same way as for a recurring-type survey program. Follow the guidance on these pages:
-
-|Program Summary page|Tips|
-|-------|----------|
-| **[Questions](/viva/glint/setup/questions-setup)** ||
-|**[Reporting](/viva/glint/setup/reporting-setup)**|<li>The [Overall Results report](/viva/glint/reports/overall-results) is recommended for viewing Employee Lifecycle surveys. Within this report, data can be set up and customized to surface useful insights. Filters are dependent on the attributes sent to Glint in your Employee Attribute File and must meet confidentiality requirements.</li><li>Understanding [how to interpret the trend graph](/viva/glint/reports/trend-graph-lifecycle-survey) is essential to gaining the best insights from Employee Lifecycle data.</li><li>**The default** for Employee Lifecycle reports is a 90-day look-back period.|
-|**[Communication](/viva/glint/setup/program-summary-communications)**||
-|**[Coaching](/viva/glint/setup/program-summary-coaching)**||
-
-
-
-
+[Set up the Coaches page as described in this guidance](/../../viva/glint/setup/program-summary-coaching)
 
 
 ## Related resource
