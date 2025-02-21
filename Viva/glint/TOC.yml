@@ -148,7 +148,7 @@ items:
         href: setup/copilot-managers.md
       - name: FAQs-Copilot in Viva Glint 
         href: setup/copilot-faqs.md 
-  - name: Platform functionality
+  - name: Manage settings, features, and data
     items: 
       - name: General Settings 
         href: setup/manage-general-settings.md
