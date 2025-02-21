@@ -80,12 +80,12 @@ This first slide can easily be modified by editing the slide elements.
 :::image type="content" source="../../media/glint/setup/ppt-title-page.png" alt-text="Screenshot of the cover page of a customized PowerPoint template."::: 
 
 - **Viva Glint logo** 
- - You can delete or move the Viva Glint logo
- - You can add your logo anywhere on this page - drag and drop, move and resize, as desired. 
+   - You can delete or move the Viva Glint logo.
+   - You can add your logo anywhere on this page - drag and drop, move and resize, as desired. 
 
  - **Title line/ “Viva Glint Results Review”**
-  - This text is included by default
-  - You can edit the text within this text box, delete it, move and resize, as desired
+   - This text is included by default.
+   - You can edit the text within this text box, delete it, move and resize, as desired.
 
  - **Special text replacement values**
    -  **Program.Name (included by default in the template):** The text in the box is replaced with the name of the program set in your Viva Glint platform. For example, "Glint Quarterly Engagement Program 5pt.” 
