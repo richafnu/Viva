@@ -109,7 +109,7 @@ Now you need to create a custom Distribution List.
 
 Viva Glint suggests using the six core questions populated on the Exit template. [View the core questions here](/../../viva/glint/setup/exit.survey).
 
-[Learn more about Questions setup and editing in Program Summary](/../../viva/glint/setup/questions-setup)
+[Learn more about Questions setup and editing in Program Summary](/../../viva/glint/setup/questions-setup?branch=pr-9461)
 
 ### Reporting page
 

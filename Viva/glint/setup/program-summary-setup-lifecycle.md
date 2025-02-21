@@ -98,17 +98,17 @@ Now you need to create a custom Distribution List.
    
 5. From the **Chose a way to add employee** dialog box which opens, select the **Attribute Rules** tile. 
 
-  ::image type="content" source="../../media/glint/setup/elc-attribute-rules.png" alt-text="Screenshot of the Attribute Rules tile in Distribution setup.":::
+   :::image type="content" source="../../media/glint/setup/elc-attribute-rules.png" alt-text="Screenshot of the Attribute Rules tile in Distribution setup.":::
     
 6. The **Add Attribute Rules** slider panel opens. Select **I want to filter all active employees by these populations.**
 7. Select **+ New Population** and then **Add Filters.** Find the respective attribute value from your User data, such as "Hire Date" for Onboarding.
 
-   ::image type="content" source="../../media/glint/setup/elc-add-attributes-panel.png" alt-text="Screenshot of the Add Attribute Rules slider panel in Distribution setup.":::
+   :::image type="content" source="../../media/glint/setup/elc-add-attributes-panel.png" alt-text="Screenshot of the Add Attribute Rules slider panel in Distribution setup.":::
     
 8. Select a date and then select **Done.**
 9. Select **Save Changes**. Your completed Distribution List for Hire Date looks like this:
 
-    ::image type="content" source="../../media/glint/setup/elc-hire-date.png" alt-text="Screenshot of a Hire Date Distribution List created.":::
+   :::image type="content" source="../../media/glint/setup/elc-hire-date.png" alt-text="Screenshot of a Hire Date Distribution List created.":::
    
 ### Questions page
 
@@ -118,7 +118,7 @@ Viva Glint suggests using the 14 core questions populated on the Onboarding temp
 
 ### Reporting page
 
-[Set up the Report page as described in this guidance](/../../viva/glint/setup/reporting-setup?branch=pr-en-us-9461)
+[Set up the Report page as described in this guidance](/../../viva/glint/setup/reporting-setup)
 
 The default for interpreting Onboarding reports is a 90-day look-back period. Report recommendations:
 - The **Overall Results** report is recommended for viewing Onboarding surveys. Data can be set up and customized to surface useful insights. Filters are dependent on the attributes sent to Viva Glint in your Employee Attribute File and must meet confidentiality requirements.
