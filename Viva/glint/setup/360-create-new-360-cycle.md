@@ -1,5 +1,5 @@
 ---
-title: Create a new 360 program or cycle
+title: Create a new 360 program and cycle
 description: 360 programs contain cycles that can be cloned to use on a set schedule.
 ms.author: JudithWeiner
 author: JudyWeiner
@@ -14,77 +14,116 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 2/11/2025
+ms.date: 2/21/2025
 ---
 
-# Create a new 360 program or cycle
+# Create a new 360 program and cycle
 
-360 programs contain cycles that can be cloned to use on a set schedule. Follow this process:
+360 programs contain cycles that can be cloned to use for other groups. 
 
-1. From your manager dashboard, select **360 Feedback Programs**.
+## Create a new 360 *program*
+
+1. From your admin dashboard, select **360 Feedback Programs**.
 
 1. Select the **+ New 360 Program** button from the All 360 Programs page.
 
 1. Now choose the **Glint Manager 360 Program template** or the blank template. Hover over the card and select **New Program**. 
 
-1. An untitled program page opens with a new card which displays the current month and date. In the row above the card, name the program by selecting the **pencil symbol**. Navigate back to the **All 360 Programs** page and you see your new program listed.
+1. An untitled program page opens.
+   -  A card displays the current month and date. **This automatically generated and populated card represents the first cycle of your program.**
+   -  In the title row, name the program by selecting the **pencil symbol**. Delete the dummy information and name your program.
+   -  In this example, we created a **360 for Small Team Managers** program. It automatically populates the first cycle, in this case "February 2025." *The cycle shows as both a card and in the row under the Cycle Name column.*
+   
+      :::image type="content" source="../../media/glint/setup/360-small-teams-program.png" alt-text="Screenshot of the Create a 360 program and cycle page.":::
 
-## Use the Actions dropdown menu
+1. Navigate back to the **All 360 Programs** page to confirm that your new program is listed. If you have many 360 programs, search for the new program in the Program box.
 
-:::image type="content" source="../../media/glint/setup/360-actions-menu.png" alt-text="Screenshot of the 360 Actions menu.":::
+   :::image type="content" source="../../media/glint/setup/360-all-programs.png" alt-text="Screenshot of the 360 All Programs page confirming your new program is created.":::
 
-Open the **Actions** dropdown menu to:
+## Use the *program* Actions menu
 
-### Duplicate your program
-Only the most recent cycle settings copy. No program history, schedules, or participants are included.
+:::image type="content" source="../../media/glint/setup/360-action-menu-2.png" alt-text="Screenshot of the 360 program action menu-2360-action-menu-2.":::
 
-### Add or edit admin access 
-Easily add a group of admins included in a pre-existing role.
+Open the program **Actions** dropdown menu to:
 
-### Update language settings
-Select **Language Settings** to confirm:
-- Additional Survey Languages: Options available to feedback providers
-- Default Survey Language: The default survey language
-- Dashboard Languages: Options available to subjects when selecting feedback providers and focus areas
+- **Duplicate your program**
 
-:::image type="content" source="../../media/glint/setup/360-language-settings.png" alt-text="Screenshot of the 360 *Language Settings* window.":::
+  Only the most recent cycle settings copy. No program history, schedules, or participants are included. Select **Duplicate Program.** Select **Save Changes**.
 
-Now it's time to set up an individual cycle.
+- **Add or edit admin access**
 
-## Create a new 360 cycle
+  Easily add a group of admins included in a preexisting User Role. These are defined in User Roles on your admin dashboard. Select **Save Changes**.
 
-1. Select **Create New Cycle**.
-1. In the **Choose a past cycle to copy from** window, select a cycle to clone. All settings copy except for Schedule & Communication, reminders and subjects.
-2. Use the **pencil symbol** to name your copied template. Give cycles unique names in order to differentiate between them. Only admins see cycle names. Cycle names don't appear on the user interface or on reports.
-3. The new cycle displays in the **Cycle Name** column.
+- **Update language settings**
 
-## Set up cycle settings 
+  Set your default language and other languages for this program:
+  - **Additional Survey Languages:** Options available to feedback providers
+  - **Default Survey Language:** The default survey language
+  - **Dashboard Languages:** Options available to 360 participants when the log in to Viva Glint. Languages are preset in General Setting from your admin dashboard.
+  Select **Save Changes**.
+
+  :::image type="content" source="../../media/glint/setup/360-language-settings.png" alt-text="Screenshot of the 360 *Language Settings* window.":::
+
+- **Delete**
+
+  All settings and cycles associated with this program are deleted and can't be undone. Select **Delete Program** to confirm.
+
+## Create a 360 *cycle*
+
+Remember, your first cycle is automatically added to the page. Now select **+ New Cycle.**
+
+:::image type="content" source="../../media/glint/setup/360-new-cycle.png" alt-text="Screenshot of the 360 New Cycle button.":::
+
+1. From the dialog box which opens, use the dropdown menu to select the cycle to copy. Select **Create New Cycle**. In this example, only the first cycle is available as no others are created.
+
+   :::image type="content" source="../../media/glint/setup/360-february.png" alt-text="Screenshot of the Choose a past cycle to copy from window.":::
+
+1. Now, on the **Cycle** page you see the *Copy title.** Use the **pencil symbol** to rename this new cycle. Let's rename this cycle **May 2025.**
+
+   :::image type="content" source="../../media/glint/setup/360-may.png" alt-text="Screenshot of renaming a program cycle.":::
+
+1. Use the left facing arrow to navigate back to the **Program** page to confirm that your new cycle is created. It also shows in the **Cycle Name** column.
+
+   :::image type="content" source="../../media/glint/setup/360-confirm-new-cycle.png" alt-text="Screenshot of the 360 Program page with the original cycle and a new cycle.":::
+
+## Edit cycle settings 
+ 
+Select the new cycle to configure. All settings from the copied schedule populate other than the Schedule & Communication page, reminders, and 360 subjects. You see that there are five pages to set up on the page that opens. As you move through them, a filled blue circle confirms their completion. The first four rows appear complete in a cloned cycle. 
 
 > [!TIP]
-> Although **Manage Subjects** appears first on the cycle page, set up **Cycle Settings** first. There are five areas to set up. As you move through them, a filled blue circle confirms their completion. Circles will appear complete if the cycle is cloned. Review for editing, as needed.
+> Although **Manage Subjects** appears first on the cycle page, set up **Cycle Settings** first.  
 
 :::image type="content" source="../../media/glint/setup/360-cycle-settings-first.png" alt-text="Screenshot of the five sections to configure in Cycle Settings.":::
 
+Here's an example of the **May 2025** cycle page:
+
+:::image type="content" source="../../media/glint/setup/360-may-cycle-setup.png" alt-text="Screenshot of the setup page for a new cycle." lightbox="../../media/glint/setup/360-may-cycle-setup.png":::
+
+## Setup page
+
+There are three sections to review. Remember, they are preconfigured for you.
+
 ### The Basics
 
-There are three sections to configure:
-- The Basics
-- Feedback provider category settings and confidentiality
-- Feedback provider response information
+:::image type="content" source="../../media/glint/setup/360-basics.png" alt-text="Screenshot of the first section to configure in Cycle Setup.":::
 
-:::image type="content" source="../../media/glint/setup/360-the-basics-2.png" alt-text="Screenshot of the first section to configure in Cycle Settings.":::
+#### Manage translations in The Basics
+
+Select **Manage Translations** to open **The Basics Translations** slider panel. Each translation added autosaves after selecting the next language.
 
 ### Feedback Provider Category Settings and Confidentiality
 
-:::image type="content" source="../../media/glint/setup/360-categories-confidentiality-2.png" alt-text="Screenshot of the second section to configure in Cycle Settings.":::
-
-Select up to six feedback provider categories. 
-- Standard categories automatically prepopulate feedback providers based on Manager Hierarchy.
-- Remove the Direct Reports category for individual contributor (IC) subjects.
-- **Or** ask IC subjects to skip adding feedback providers for the Direct Reports category for cycles with both managers and ICs.
+Edit each category as needed. When editing in another language that's available in the dropdown menu, that language saves so you can come back to it later if further edits are needed. Hover over and select the row to open the **Edit** slider panel.
 
 >[!TIP]
 > To ensure a true 360 view, choose at least three feedback provider categories, in addition to Self.
+
+:::image type="content" source="../../media/glint/setup/360-categories-confidentiality-2.png" alt-text="Screenshot of the second section to configure in Cycle Settings." 
+
+From the copied cycle, up to six feedback provider categories are preset. 
+- Standard categories automatically prepopulate feedback providers based on Manager Hierarchy.
+- Remove the Direct Reports category for individual contributor (IC) subjects.
+- **For cycles with both managers and Individual Contributors (IC)** ask subjects to skip adding feedback providers for the Direct Reports category.
 
 |Feedback provider category|Minimum confidentiality threshold|Can subject or admin edit prepopulated feedback providers?|How assigned|
 |----------|:-------------:|:-------------:|-------------|
@@ -97,34 +136,45 @@ Select up to six feedback provider categories.
 |Custom|3*|N/A|Commonly used for *Collaborators*|
 
 > [!IMPORTANT]
-> *At least three feedback providers must respond at the *survey level* to show feedback in a subject's report. This requirement isn't applicable at the *question* level.
+> *At least three feedback providers must respond at the *survey level* to show feedback in a subject's report. This requirement doesn't apply to the *question* level.
 
-#### Edit a feedback provider category
-
-**Hover over and choose a category** to open the **Edit window** for that category, which looks like this example:
-
-:::image type="content" source="../../media/glint/setup/360-edit-provider-category-2.png" alt-text="Screenshot of an example of a window that opens to edit a feedback provider category.":::
-
-Edit each field as you’d like. When editing in another language that's available in the dropdown menu, that language saves so you can come back to it later if further edits are needed.
-
-#### Confidentiality Statements
+#### Confidentiality threshold
 
 You can increase the confidentiality threshold for some feedback provider categories, but you can’t decrease the threshold less than the default values.
+Dependent on the provider category, provider response information settings, and whether your organization included a privacy policy link in General Settings, the 360 confidentiality statement users see varies. [Learn more about Viva Glint 360 privacy and confidentiality](/viva/glint/setup/viva-glint-survey-privacy).
 
-Dependent on the provider category, provider response information settings, and whether your organization included a privacy policy link in General Settings, the 360 confidentiality statement users see varies. [Learn more about Viva Glint 360 privacy and confidentiality](https://go.microsoft.com/fwlink/?linkid=2230922).
+Here's an example of the Edit Manager slider panel, where the confidentiality statement can be edited:
+
+:::image type="content" source="../../media/glint/setup/360-edit-confidentiality.png" alt-text="Screenshot of the Edit Manager slider panel." 
 
 ### Feedback Provider Response Information
 
 This setting can’t be edited once a cycle is live. Choose between:
-- **On** (default): Subjects see feedback providers and if they've responded. In reports, subjects see which feedback providers responded per category, but responses aren't tied to individual names.
-- **Off**: Subjects see feedback providers but not whether they've responded. In reports, they see only the number of feedback providers who responded.
+- **On** (default): Subjects see responded feedback providers. In reports, subjects see which feedback providers responded per category, but responses aren't tied to individual names.
+- **Off**: Subjects see feedback providers but no information about their response status. In reports, they see only the number of feedback providers who responded.
 
 :::image type="content" source="../../media/glint/setup/360-provider-response-info-2.png" alt-text="Screenshot of the Feedback Provider Response Information window.":::
 
-Select **Save** when you're done configuring the page.
+Select **Save** when you're done configuring the Setup page.
+
+## Use these guidance pages to complete 360 cycle setup
+
+There are four more pages to configure:
+
+[Survey Questions](/../../viva/glint/setup/360-add-edit-cycle-questions)
+
+[Overview & Feedback provider Selection Content](/../../viva/glint/setup/overview-feedback-provider-selection)
+
+[Competencies & Reporting](/../../viva/glint/setup/360-competencies)
+
+[Schedule & Communication](/../../viva/glint/setup/360-schedules-comms)
 
 
-## Delete a program
-All settings and cycles associated with this program are deleted. This step can't be undone.
+
+
+
+
+
+
 
 
