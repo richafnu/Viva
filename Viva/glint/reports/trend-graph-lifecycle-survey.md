@@ -1,12 +1,12 @@
 ---
-title: Use the trend graph in a Viva Glint Employee Lifecycle program
-description: Trend Graphs for Microsoft Viva Glint Employee Lifecycle surveys behave differently than trend for a recurring survey programs.
+title: Trend data for Viva Glint Employee Lifecycle programs
+description: Microsoft Viva Glint recurring surveys happen at definite points in time and trend based on each survey launch. But scores for  Viva Glint Employee Lifecycle (ELC) surveys trend differently because of their ongoing nature.
 ms.author: JudithWeiner
 author: JudyWeiner
 manager: MelissaBarry
 audience: admin
 f1.keywords: NOCSH
-keywords: viva strengths and opportunities
+keywords: lifecycle trend, trend line, trend scores, ELC, exit trend, onboarding trend
 ms.collection:  
 - m365initiative-viva
 - selfserve 
@@ -14,35 +14,103 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 02/19/2025
+ms.date: 02/20/2025
 ---
 
-# Use the trend graph in a Viva Glint Employee Lifecycle program
+# Trend scores for Viva Glint Employee Lifecycle programs
 
-Trend Graphs for Microsoft Viva Glint *Employee Lifecycle (ELC)* survey behaves differently than trend for a *recurring* program. 
+Microsoft Viva Glint recurring surveys happen at definite points in time and trend based on each survey launch. But scores for Viva Glint Employee Lifecycle (ELC) surveys trend differently because of their ongoing nature.
 
-- ELC surveys, by default, display scores filtered to responses received in the last 90 days. 
-- ELC surveys are always active so reports group based on the date range selected or the default 90 days.  
-- ELC responses appear on the dashboard in real time. A manager sees responses on their dashboard after the program thresholds are met and according to their user permissions.
-
-> [!NOTE]
-> **For the Executive Summary Report in Employee Lifecycle programs:** If program settings allow, and a unique user submits more than one survey response, an entry row is included in the raw data export representing each of the unique user's submissions. **However, the UI counts them only once**.
-
-## When the default period is used 
-
-- The latest data point on the graph is any surveys received within the past 90 days. 
-- The next point is the 90 days before the first data point (180 days - 91 days before today). 
-- The point on the graph before that date is 90 days before the second data point (270 days - 181 days before today), and so on.  
-
-The date displayed when you hover over data points is Day 1 of that range - meaning that *the most recent* data point is 90 days before today's date (the date being studied). The survey launch date isn't dependent on this date. A date earlier than the survey launch date can be displayed on one of these data points. 
-
-  >**Example**: 
-   > - Today's date is May 21, 2022. 
-   > - The Exit survey launched on January 9, 2022. 
-   > - The first data point on the trend graph shows February 21, 202 - 90 days before today's date. 
-   > - The second data point on the trend graph shows November 23, 2021 - 180 days before today's date.   
+- ELC surveys, by default, display scores filtered to surveys delivered in the last 90 days. 
+- ELC surveys are always active so reports group based on the date range selected and not a specific survey date, like with recurring surveys.  
+- ELC results appear in dashboards in real time and follow program confidentiality thresholds for displaying results to users who have access.
 
 > [!NOTE]
-> - The trend graph doesn't reference the actual survey launch date when determining the date to display. It uses 90-day intervals. In this scenario, no responses were received from November 23 - January 8 as the program didn't open until January 9.
-> - The date used in ELC report filters is the survey generation date (not the survey submission date).
-> - Quarterly date filters are based on calendar year.
+> **For the Executive Summary Report in Employee Lifecycle programs:** If program settings allow users to submit multiple surveys for an ELC survey, they may have multiple response records in raw survey response exports. **However, aggregated reports in the platform count them only once**.
+
+## Date filters for Lifecycle reports
+
+Users have access to multiple preset date range filters and can apply custom date ranges in ELC survey reports. Keep in mind that:
+
+- ELC survey reports use **survey delivery date** as the date type for filtering in reports.
+- Dates are based on calendar year (not fiscal year) in ELC survey reports.
+
+:::image type="content" source="../../media/glint/reports/elc-date-filter-options.png" alt-text="Screenshot of date filter options for lifecycle surveys.":::
+
+### Default date range
+
+Reports for ELC surveys default to a view of results for surveys delivered in the past 90 days. The date displayed when you hover over data points is the first day of that range - meaning that **the most recent** data point is 90 days before today's date and previous data points in trend lines display data with ranges whose start dates are 90-day increments in the past. For more information, see the following table.
+
+| Data point  | "Surveyed on" date displayed   | Score date range|
+|:----------|:-----------|:------------|
+| Most recent        | 90 days before today's date   | 90 days before today - today                   |
+| Second most recent | 180 days before today's date  | 180 days before today - 90 days before today   |  
+| Third most recent  | 270 days before today's date  | 270 days before today - 180 days before today  |
+| Fourth most recent | 360 days before today's date  | 360 days before today - 270 days before today  |
+
+### Other date ranges
+
+Aside from the default range, users can select the following preset date ranges or enter custom dates when viewing ELC survey results. Use these tables to determine the date ranges that are used to display scores for each timeframe.
+
+### Last 30 days
+
+| Data point  | "Surveyed on" date displayed   | Score date range|
+|:----------|:-----------|:------------|
+| Most recent        | 30 days before today's date   | 30 days before today - today                   |
+| Second most recent | 60 days before today's date  | 60 days before today - 30 days before today   |  
+| Third most recent  | 90 days before today's date  | 90 days before today - 60 days before today  |
+| Fourth most recent | 120 days before today's date  | 120 days before today - 90 days before today  |
+
+### Monthly
+
+> [!NOTE]
+> Monthly views are based on calendar year, not fiscal year.
+
+| Data point  | "Surveyed on" date displayed   | Score date range|
+|:----------|:-----------|:------------|
+| Most recent        | First day of current month   | First day of current month - today                 |
+| Second most recent | First day of previous month  | First day of previous month - end of previous month  |  
+| Third most recent  | First day of previous month  | First day of previous month - end of previous month  |
+| Fourth most recent | First day of previous month  | First day of previous month - end of previous month  |
+
+### Quarterly
+
+> [!NOTE]
+> Quarterly views are based on calendar year, not fiscal year.
+
+| Data point  | "Surveyed on" date displayed   | Score date range|
+|:----------|:-----------|:------------|
+| Most recent        | First day of current quarter   | First day of current quarter - today                 |
+| Second most recent | First day of previous quarter  | First day of previous quarter - end of previous quarter  |  
+| Third most recent  | First day of previous quarter  | First day of previous quarter - end of previous quarter  |
+| Fourth most recent | First day of previous quarter  | First day of previous quarter - end of previous quarter  |
+
+### Custom date range
+
+| Data point  | "Surveyed on" date displayed   | Score date range|
+|:----------|:-----------|:------------|
+| Most recent        | Start date of custom date range  | Start date - end date of custom date range              |
+| Second most recent | Custom range days before start date | Custom range days before start date - custom range start date |  
+| Third most recent  | Custom range days x2 before start date  | Custom range days x2 before start date - custom range days before start date |
+| Fourth most recent | Custom range days x3 before start date  | Custom range days x3 before start date - custom range days x2 before start date |
+
+## Example
+
+A user at Contoso wants to view Exit survey scores over time based on six month periods. In this case, they need to select a custom date range because no preset date ranges show scores based on six month timeframes. They select July 1, 2024 through December 31, 2024.
+
+:::image type="content" source="../../media/glint/reports/elc-custom-date-range.png" alt-text="Screenshot of a custom date range applied for a lifecycle report.":::
+
+The previous data points on the trend line show six month scores going back in time, displayed in the table.
+
+| Data point  | "Surveyed on" date displayed   | Score date range|
+|:----------|:-----------|:------------|
+| Most recent        | Jul 1, 2024  | Jul 1, 2024 - Dec 31, 2024 |
+| Second most recent | Dec 31, 2023 | Dec 31, 2023 - Jul 1, 2024 |  
+| Third most recent  | Jul 1, 2023  | Jul 1, 2023 - Dec 31, 2023 |
+| Fourth most recent | Dec 31, 2022 | Dec 31, 2022 - Jul 1, 2023 | 
+| Fifth most recent  | Jul 1, 2022  | Jul 1, 2022 - Dec 31, 2022 |  
+| Sixth most recent  | Dec 31, 2021 | Dec 31, 2021 - Jul 1, 2022 |  
+
+And the trend line in the Executive Summary Report shows data points going back in time by six month increments.
+
+:::image type="content" source="../../media/glint/reports/elc-trend-example.png" alt-text="Screenshot of an Executive Summary Report for an ELC survey with a custom six month date range applied.":::
