@@ -14,7 +14,7 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 2/20/2025
+ms.date: 2/21/2025
 ---
 
 # Create a new 360 program and cycle
@@ -70,7 +70,7 @@ Open the program **Actions** dropdown menu to:
 
 ## Create a 360 *cycle*
 
-Remember, your first cycle has been automatically added to the page. Now select **+ New Cycle.**
+Remember, your first cycle is automatically added to the page. Now select **+ New Cycle.**
 
 :::image type="content" source="../../media/glint/setup/360-new-cycle.png" alt-text="Screenshot of the 360 New Cycle button.":::
 
@@ -150,8 +150,8 @@ Here's an example of the Edit Manager slider panel, where the confidentiality st
 ### Feedback Provider Response Information
 
 This setting can’t be edited once a cycle is live. Choose between:
-- **On** (default): Subjects see feedback providers and if they've responded. In reports, subjects see which feedback providers responded per category, but responses aren't tied to individual names.
-- **Off**: Subjects see feedback providers but not whether they've responded. In reports, they see only the number of feedback providers who responded.
+- **On** (default): Subjects see responded feedback providers. In reports, subjects see which feedback providers responded per category, but responses aren't tied to individual names.
+- **Off**: Subjects see feedback providers but no information about their response status. In reports, they see only the number of feedback providers who responded.
 
 :::image type="content" source="../../media/glint/setup/360-provider-response-info-2.png" alt-text="Screenshot of the Feedback Provider Response Information window.":::
 
