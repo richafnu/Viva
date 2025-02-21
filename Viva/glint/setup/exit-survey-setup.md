@@ -35,7 +35,7 @@ Send Exit surveys for voluntary terminations as soon as possible.
 ## Create an Exit survey
 
 1. From your admin dashboard, select **Survey Programs.**
-2. Under **Lifecycle** on the Create a Program page, select the **Exit** tile and then **Create Program.**
+2. Under **Lifecycle** on the Create a Program page, select the **Exit** tile, and then **Create Program.**
 
    :::image type="content" source="../../media/glint/setup/elc-exit-card.png" alt-text="Screenshot of the Exit card for a Lifecycle survey.":::
 
@@ -81,7 +81,7 @@ Select **Save Changes** when all edits are complete.
 
 ### Distribution page
 
-Your Employee Attribute File contains a Termination Date attribute for each employee. This is used for sending Exit surveys. Note that you may not use the same terminology that Viva Glint uses in guidance. In this example, your Employee Attribute File column header might read **End Date**. Find the *Termination Date* in the Employee Attribute dropdown menu and select it. 
+Your Employee Attribute File contains a Termination Date attribute for each employee. This date is used for sending Exit surveys. You may not use the same terminology that Viva Glint uses in guidance. In this example, your Employee Attribute File column header might read **End Date**. Find the *Termination Date* in the Employee Attribute dropdown menu and select it. 
 
 :::image type="content" source="../../media/glint/setup/elc-attribute.png" alt-text="Screenshot of the Employee Attribute dropdown menu in Employee Lifecycle Distribution setup.":::
 
@@ -91,7 +91,7 @@ Now you need to create a custom Distribution List.
 
 1. Select the **Configuration** symbol on your admin dashboard and then select **Distribution Lists**.
 2. Select **+ New Distribution List**.
-3. Name your new list by using the **pencil symbol** to deleted the *Untitled* content. Let's follow an example that creates an Exit survey named **Why I Left.** 
+3. Name your new list by using the **pencil symbol** to delete the *Untitled* content. Let's follow an example that creates an Exit survey named **Why I Left.** 
 4. Select **Add/Edit Employees**.
 
    :::image type="content" source="../../media/glint/setup/elc-why-left.png" alt-text="Screenshot of creating an Exit survey Distribution List setup.":::
@@ -107,7 +107,7 @@ Now you need to create a custom Distribution List.
 
 ### Questions page
 
-Viva Glint suggests using the 6 core questions populated on the Exit template. [View the core questions here](/../../viva/glint/setup/exit).
+Viva Glint suggests using the six core questions populated on the Exit template. [View the core questions here](/../../viva/glint/setup/exit.survey).
 
 [Learn more about Questions setup and editing in Program Summary](/../../viva/glint/setup/questions-setup?branch=pr-en-us-9461)
 
