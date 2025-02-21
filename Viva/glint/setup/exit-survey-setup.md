@@ -23,7 +23,7 @@ ms.date: 2/21/2025
 
 ### Recommended cadence and tips for Exit surveys
 
-- **Exit surveys for voluntary terminations:** as soon as possible.
+Send Exit surveys for voluntary terminations as soon as possible.
 
 **Exit survey tips**
 
@@ -132,14 +132,3 @@ Report recommendations:
 [Preview and filter Employee Lifecycle programs](/viva/glint/setup/preview-filter-lifecycle-programs)
 
 
-
-
-
-
-
-|Program Summary page|Tips|
-|-------|----------|
-| **[Questions](/viva/glint/setup/questions-setup)** ||
-|**[Reporting](/viva/glint/setup/reporting-setup)**|<li>The [Overall Results report](/viva/glint/reports/overall-results) is recommended for viewing Employee Lifecycle surveys. Within this report, data can be set up and customized to surface useful insights. Filters are dependent on the attributes sent to Glint in your Employee Attribute File and must meet confidentiality requirements.</li><li>Understanding [how to interpret the trend graph](/viva/glint/reports/trend-graph-lifecycle-survey) is essential to gaining the best insights from Employee Lifecycle data.</li><li>**The default** for Employee Lifecycle reports is a 90-day look-back period.|
-|**[Communication](/viva/glint/setup/program-summary-communications)**||
-|**[Coaching](/viva/glint/setup/program-summary-coaching)**||
