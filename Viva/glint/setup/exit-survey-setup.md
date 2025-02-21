@@ -109,11 +109,11 @@ Now you need to create a custom Distribution List.
 
 Viva Glint suggests using the six core questions populated on the Exit template. [View the core questions here](/../../viva/glint/setup/exit.survey).
 
-[Learn more about Questions setup and editing in Program Summary](/../../viva/glint/setup/questions-setup?branch=pr-en-us-9461)
+[Learn more about Questions setup and editing in Program Summary](/../../viva/glint/setup/questions-setup)
 
 ### Reporting page
 
-[Set up the Report page as described in this guidance](/../../viva/glint/setup/reporting-setup?branch=pr-en-us-9461)
+[Set up the Report page as described in this guidance](/../../viva/glint/setup/reporting-setup)
 
 Report recommendations:
 - The **Overall Results** report is recommended for viewing Exit surveys. Data can be set up and customized to surface useful insights. Filters are dependent on the attributes sent to Viva Glint in your Employee Attribute File and must meet confidentiality requirements.
