@@ -14,14 +14,14 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 2/20/2025
+ms.date: 2/21/2025
 ---
 
 # Set up a Viva Glint Onboarding survey
 
 **Onboarding surveys** are crucial for gauging new hires’ early experiences and ensuring they have the resources and support needed to succeed. They typically occur within the first few weeks of employment and Microsoft Viva Glint suggests they continue at intervals to track the new employee’s integration into your company. These surveys can cover aspects like the effectiveness of your orientation process, clarity of job expectations, and the supportiveness of the environment. 
 
-## Recommended cadence and tips 
+### Recommended cadence and tips 
 
 Onboarding surveys for new hires are recommended within the first week of employment. Then send another Onboarding survey at 30 days and at 90 days of employment.
 
@@ -75,29 +75,42 @@ In the first box, define the basics for your program.
 |-------|------------|-----------|
 |**Confidential responses** | Promotes accurate feedback| Enabled to **Custom Confidential** by default|
 |**Enable Export of Raw Survey Responses** | Enabling this functionality allows admins to export ungrouped, identifiable survey responses. Disabling this function permanently disallows access to or export of those responses, including the ability to transfer the data to a third party.| [Learn more about raw survey access](/../../viva/glint/setup/employee-raw-data-export)|
-|**Company Message to Survey Participants** |Allows organizations to add more details tailored to their organization, aiming to ensure that individuals participating in surveys are well informed. Clients may wish to append information like specifying the organizational roles with access to identifiable responses or designating appropriate points of contact within the organization for inquiries  or concerns related to the survey. You can also add guidelines on the proper utilization of the survey and direct respondents towards their company-specific resources for more details. This text gets added at the beginning of the survey under the title "Message from [<Client_Name>]," directly following Glint's confidentiality statement.|<li>Translations for the Company Message must be done manually.</li><li>The character limit for the Company Message to Survey Participants is 1,024</li><li>**Survey level custom messaging takes precedence**. Custom messaging set up in General Settings but edited at the survey level, overrides the initial messaging.</li><li>Employee Lifecycle surveys often target only a few individuals. For this reason, reducing your confidentiality threshold helps protect their privacy.</li>|
+|**Company Message to Survey Participants** |Allows organizations to add more details tailored to their organization, aiming to ensure that individuals participating in surveys are well informed. Clients may wish to append information like specifying the organizational roles with access to identifiable responses or designating appropriate points of contact within the organization for inquiries  or concerns related to the survey. You can also add guidelines on the proper utilization of the survey and direct respondents towards their company-specific resources for more details. This text gets added at the beginning of the survey under the title "Message from [<Client_Name>]," directly following Glint's confidentiality statement.|<li>Translations for the Company Message must be done manually.</li><li>The character limit for the Company Message to Survey Participants is 1,024.</li><li>**Survey level custom messaging takes precedence**. Custom messaging set up in General Settings but edited at the survey level, overrides initial messaging.</li><li>Employee Lifecycle surveys often target only a few people. For this reason, a reduction of the confidentiality threshold helps protect their privacy.</li>|
+
+Select **Save Changes** when all edits are complete.
 
 ### Distribution page
 
-Before configuring an Employee Lifecycle program, create employee lists based on hire date for Onboarding surveys and termination date for Exit surveys.
+Your Employee Attribute File contains a Hire Date attribute for each employee. This is used for sending Onboarding surveys. Note that you may not use the same terminology that Viva Glint uses in guidance. In this example, the Employee Attribute File column header is **Start Date**:
 
-**Process to create an Employee Lifecycle Distribution List:**
+:::image type="content" source="../../media/glint/setup/elc-distribution-attribute.png" alt-text="Screenshot of the Employee Attribute dropdown menu in Employee Lifecycle Distribution setup.":::
 
-1. Select the **Configuration** symbol on the admin dashboard and then select **Distribution Lists**.
-2. Select **New Distribution List**.
-3. Name your new list.
+#### Create an Employee Lifecycle Distribution List
+
+Now you need to create a custom Distribution List.
+
+1. Select the **Configuration** symbol on your admin dashboard and then select **Distribution Lists**.
+2. Select **+ New Distribution List**.
+3. Name your new list by using the **pencil symbol** to deleted the *Untitled* content. Let's follow an example that creates a 30-day Onboarding Distribution List.
 4. Select **Add/Edit Employees**.
-5. Select the **Attribute Rules** tile.
-6. Select **I want to filter all active employees by these populations.**
-7. Select **+ New Population** and find the respective attribute value from your user data, such as "Hire Date" for Onboarding or "Termination Date" for an Exit survey.
-8. Set the date range for your Distribution List window.
-9. Add filters if the distribution should only go to a select population.
-10. If the survey should include Inactive employees (Exit surveys), be sure the **Include Inactive Employees** box is marked.
-11. Select **Save Changes**.
 
->[!CAUTION]
->You can't use the same number of days for the beginning and end value in the Distribution List. For example: "45 days after to 45 days after" - the query would be unable to find any users.
->
+   :::image type="content" source="../../media/glint/setup/elc-30-day.png" alt-text="Screenshot of creating a 30-day Employee Lifecycle Distribution setup.":::
+   
+5. From the **Chose a way to add employee** dialog box which opens, select the **Attribute Rules** tile. 
+
+  ::image type="content" source="../../media/glint/setup/elc-attribute-rules.png" alt-text="Screenshot of the Attribute Rules tile in Distribution setup.":::
+    
+6. The **Add Attribute Rules** slider panel opens. Select **I want to filter all active employees by these populations.**
+7. Select **+ New Population** and then **Add Filters.** Find the respective attribute value from your User data, such as "Hire Date" for Onboarding.
+
+   ::image type="content" source="../../media/glint/setup/elc-add-attributes-panel.png" alt-text="Screenshot of the Add Attribute Rules panel in Distribution setup.":::
+    
+8. Select a date and then select **Done.**
+9. Select **Save Changes**. Your completed Distribution List for Hire Date looks like this:
+
+    ::image type="content" source="../../media/glint/setup/elc-hire-date.png" alt-text="Screenshot of a Hire Date Distribution List created.":::
+
+
 ### Questions page
 ### Reporting page
 ### Communications page
