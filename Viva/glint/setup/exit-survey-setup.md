@@ -1,6 +1,6 @@
 ---
 title: Set up a Viva Glint Exit survey
-description: Viva Glint Exit surveys 
+description: Viva Glint Exit surveys help to understand why a person voluntarily left your organization.
 ms.author: JudithWeiner
 author: JudyWeiner
 manager: MelissaBarry
@@ -14,29 +14,41 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 2/20/2025
+ms.date: 2/21/2025
 ---
 
 # Set up a Viva Glint Exit survey
 
 **Exit surveys** help to understand the reason that an employee voluntarily leaves your organization. They uncover the reasons behind their departure, which could range from career advancement opportunities elsewhere to dissatisfaction with the work environment. 
 
-## Recommended cadence and tips for Exit surveys
+### Recommended cadence and tips for Exit surveys
 
-- **Exit surveys for voluntary terminations:** as soon as possible
+- **Exit surveys for voluntary terminations:** as soon as possible.
 
-### Exit survey tips
+**Exit survey tips**
 
 - Exit survey Distribution List date ranges are relative to the Termination Date.
 - Choose to have Exit Surveys go to a company email or a personal email or both.
-- If you're using **Company Email Address**, we recommend setting the date range from **14 days before the Termination Date to 1 day after.**
-- If you're using **Company email + Personal email**, we recommend setting the date range from **14 days before termination date to 30 days after.**
+  - If you're using **Company Email Address**, set the date range from **14 days before the Termination Date to 1 day after.**
+  - If you're using **Company email + Personal email**, set the date range from **14 days before termination date to 30 days after.**
+
+## Create an Exit survey
+
+1. From your admin dashboard, select **Survey Programs.**
+2. Under **Lifecycle** on the Create a Program page, select the **Exit** tile and then **Create Program.**
+
+   :::image type="content" source="../../media/glint/setup/elc-exit-card.png" alt-text="Screenshot of the Exit card for a Lifecycle survey.":::
+
+## Name your program
+
+The program title reads **Exit**. You can use the **pencil symbol** to give it a different name. For example, you can add the name of your company.
 
 
+## Program Summary setup
 
-## Program Summary setup for Employee Lifecycle survey templates
+There are six pages to set up. To set up each page, hover over each row and select it. 
 
-Select **My Surveys** on the admin dashboard. Choose an **Onboarding** or **Exit** survey template and then **Program Summary** pages. There are six pages to set up. Begin with **Program Setup**.
+:::image type="content" source="../../media/glint/setup/elc-exit-program-setup.png" alt-text="Screenshot of Program Summary for an Exit Lifecycle survey.":::
 
 ### Program Setup page
 
@@ -44,41 +56,86 @@ In the first box, define the basics for your program.
 
 |Field|Description|Tip|
 |----------|------------|-------|
-|**Program Name**|Used in survey and email communications, reporting, and is visible to survey respondents|30-day Onboarding, Exit|
+|**Program Name**|Used in survey and email communications, reporting, and is visible to survey respondents|Exit, [Company Name] Exit Survey|
 |**Administrators**|This role can set up, manage, edit, and report on all surveys in the entire program|*Manage Programs* must be enabled for the name to appear in the search box.|
 |**Default Language**|Manage Programs must be enabled for the name to appear in the search box.|
 |**Additional Languages**|Manage Programs must be enabled for the name to appear in the search box.|Be sure survey items are available in all languages chosen. To remove languages, select the **X** next to the language name.|
 |**Suggested Actions Available**|Enables Users to create goals.|	Toggle to enable or disable|
-|**Response Window**|The number of days the employee has to complete the survey once it's Live|Glint suggests 14 days, but you can raise or lower this window.|
-|**Waiting Period Between Surveys** |The number of days before an employee is eligible to take the survey again after the previous survey closes.|Our system constantly checks for changes in the trigger date so if a survey is already generated for this timeframe, it doesn't generate a new one. In many Employee Lifecycle programs, Glint recommends 30, 60, 90, or even 365 days (one full year).|
+|**Response Window**|The number of days the employee has to complete the survey once it's live|Glint suggests 14 days, but you can raise or lower this window.|
+|**Waiting Period Between Surveys** |For an Exit survey, the default is set at 365 days.|If someone returns to your organization and leaves again, they can take the survey at the time of their exit.|
 |**Allow Survey Resubmission**|Allow survey takers to retake their surveys. All previous responses are deleted.|Toggle to enable or disable.|
-|**Auto-expand comments input** - *Note: this functionality begins on 2/15/2025* | With this functionality enabled, a comment box shows after each survey item posed to a survey taker. Disabled, the survey automatically moves to the next item.	Disabled by default.| Toggle to enable. This feature prompts more detailed and actionable insights by survey takers, increasing survey engagement.|
+|**Auto-expand comments input** | With this functionality enabled, a comment box shows after each survey item posed to a survey taker. Disabled, the survey automatically moves to the next item.	Disabled by default.| Toggle to enable. This feature prompts more detailed and actionable insights by survey takers, increasing survey engagement.|
 |**Enable Viva Pulse Integration**| Enabling this feature sends Glint data for every closed program cycle and future cycles.|	See the Reporting page to specify which roles have access to this integration.|
 
-### Distribution List page
+### Confidentiality section in Program Setup
 
-Before configuring an Employee Lifecycle program, create employee lists based on hire date for Onboarding surveys and termination date for Exit surveys.
+:::image type="content" source="../../media/glint/setup/program-setup-confidentiality-2.png" alt-text="Screenshot that shows the Confidentiality setup within Program Setup.":::
 
-**Process to create an Employee Lifecycle Distribution List:**
+|Field|Description|Examples/Tips|
+|-------|------------|-----------|
+|**Confidential responses** | Promotes accurate feedback| Enabled to **Custom Confidential** by default|
+|**Enable Export of Raw Survey Responses** | Enabling this functionality allows admins to export ungrouped, identifiable survey responses. Disabling this function permanently disallows access to or export of those responses, including the ability to transfer the data to a third party.| [Learn more about raw survey access](/../../viva/glint/setup/employee-raw-data-export)|
+|**Company Message to Survey Participants** |Allows organizations to add more details tailored to their organization, aiming to ensure that individuals participating in surveys are well informed. Clients may wish to append information like specifying the organizational roles with access to identifiable responses or designating appropriate points of contact within the organization for inquiries  or concerns related to the survey. You can also add guidelines on the proper utilization of the survey and direct respondents towards their company-specific resources for more details. This text gets added at the beginning of the survey under the title "Message from [<Client_Name>]," directly following Glint's confidentiality statement.|<li>Translations for the Company Message must be done manually.</li><li>The character limit for the Company Message to Survey Participants is 1,024.</li><li>**Survey level custom messaging takes precedence**. Custom messaging is set up in General Settings but edited at the survey level. Custom messaging overrides initial messaging.</li><li>Exit surveys often target only a few people. For this reason, a reduction of the confidentiality threshold helps protect privacy.</li>|
 
-1. Select the **Configuration** symbol on the admin dashboard and then select **Distribution Lists**.
-2. Select **New Distribution List**.
-3. Name your new list.
+Select **Save Changes** when all edits are complete.
+
+### Distribution page
+
+Your Employee Attribute File contains a Termination Date attribute for each employee. This is used for sending Exit surveys. Note that you may not use the same terminology that Viva Glint uses in guidance. In this example, your Employee Attribute File column header might read **End Date**. Find the *Termination Date* in the Employee Attribute dropdown menu and select it. 
+
+:::image type="content" source="../../media/glint/setup/elc-attribute.png" alt-text="Screenshot of the Employee Attribute dropdown menu in Employee Lifecycle Distribution setup.":::
+
+### Create an Exit Distribution List:**
+
+Now you need to create a custom Distribution List.
+
+1. Select the **Configuration** symbol on your admin dashboard and then select **Distribution Lists**.
+2. Select **+ New Distribution List**.
+3. Name your new list by using the **pencil symbol** to deleted the *Untitled* content. Let's follow an example that creates an Exit survey named **Why I Left.** 
 4. Select **Add/Edit Employees**.
-5. Select the **Attribute Rules** tile.
-6. Select **I want to filter all active employees by these populations.**
-7. Select **+ New Population** and find the respective attribute value from your user data, such as "Hire Date" for Onboarding or "Termination Date" for an Exit survey.
-8. Set the date range for your Distribution List window.
-9. Add filters if the distribution should only go to a select population.
-10. If the survey should include Inactive employees (Exit surveys), be sure the **Include Inactive Employees** box is marked.
-11. Select **Save Changes**.
 
->[!CAUTION]
->You can't use the same number of days for the beginning and end value in the Distribution List. For example: "45 days after to 45 days after" - the query would be unable to find any users.
->
-### Finish setting up the Program Summary pages
+   :::image type="content" source="../../media/glint/setup/elc-why-left.png" alt-text="Screenshot of creating an Exit survey Distribution List setup.":::
+   
+5. From the **Chose a way to add employee** dialog box which opens, select the **Attribute Rules** tile. 
 
-The other pages required for setup in Program Summary work the same way as for a recurring-type survey program. Follow the guidance on these pages:
+  ::image type="content" source="../../media/glint/setup/elc-attribute-rules.png" alt-text="Screenshot of the Attribute Rules tile in Distribution setup.":::
+    
+6. The **Add Attribute Rules** slider panel opens. Select **I want to include all active employees by these populations** and **Include Inactive Employees.** Use the Search bar to manually find the employee names who left your employ and should receive the Exit survey.
+7. Select **Save Changes.**
+
+   ::image type="content" source="../../media/glint/setup/elc-attribute-rules-exit.png" alt-text="Screenshot of the Attribute Rules slider panel in Distribution setup.":::
+
+### Questions page
+
+Viva Glint suggests using the 6 core questions populated on the Exit template. [View the core questions here](/../../viva/glint/setup/exit).
+
+[Learn more about Questions setup and editing in Program Summary](/../../viva/glint/setup/questions-setup?branch=pr-en-us-9461)
+
+### Reporting page
+
+[Set up the Report page as described in this guidance](/../../viva/glint/setup/reporting-setup?branch=pr-en-us-9461)
+
+Report recommendations:
+- The **Overall Results** report is recommended for viewing Exit surveys. Data can be set up and customized to surface useful insights. Filters are dependent on the attributes sent to Viva Glint in your Employee Attribute File and must meet confidentiality requirements.
+- Understanding how to interpret [**trending](/../../viva/glint/reports/aggregate-trending) is essential to gaining the best insights from Exit feedback.
+
+### Communications page
+
+[Set up the Communications page as described in this guidance](/../../viva/glint/setup/program-summary-communications)
+
+### Coaching page
+
+[Set up the Coaches page as described in this guidance](/../../viva/glint/setup/program-summary-coaching)
+
+## Related resource
+
+[Preview and filter Employee Lifecycle programs](/viva/glint/setup/preview-filter-lifecycle-programs)
+
+
+
+
+
+
 
 |Program Summary page|Tips|
 |-------|----------|
