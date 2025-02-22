@@ -44,13 +44,12 @@ In the Viva Engage admin home page, you see a new pane titled **Deploying Copilo
 
 You have two options for creating a Copilot adoption community in Viva Engage.
 
-- Accept the configuration presets to **create a new community**. 
-  The new community type includes onboarding prompts and a community template.
+- **Launch early adopters**: Accept the configuration presets to create a new community. 
+  The new community type includes onboarding prompts, a setup checklist, and a community template.
 
-- Apply the adoption features to an **existing community**.
-  This option adds new features (setup checklist, suggested members and content, pinning resources and adding experts) to your community without impacting existing content and customizations.
-<!--
->:::image type="content" source="../media/engage/admin/adoption-launch-options.png" alt-text="Screenshot shows the landing page where you can create a Microsoft 365 Copilot adoption community or bring Copilot adoption features to an existing community.":::-->
+- **Apply adoption features to an existing community**: This option adds the new features (setup checklist, suggested members and content, pinning resources and adding experts) to your existing community without impacting current content and customizations.
+
+:::image type="content" source="../media/engage/admin/engage-copilot-adoption-intro.png" alt-text="Screenshot shows the landing page where you can create a Microsoft 365 Copilot adoption community or bring Copilot adoption features to an existing community.":::
 
 Copilot community setup resembles any other community. The Copilot community template reduces setup work and ongoing community management. After setup completion, the community includes a cover photo, description, and an onboarding checklist that is specific to this community. Admins can add customizations.
 
@@ -61,17 +60,15 @@ Copilot community setup resembles any other community. The Copilot community tem
 
 ## Explore tools to build membership, content, and engagement
 
-The Copilot community experience includes the following onboarding checklist features to drive engagement. After you set up the community, you can disable features as needed.  
+The Copilot community experience includes the following onboarding checklist to drive engagement. After you set up the community, you can disable features as needed.  
+
+    :::image type="content" source="../media/engage/admin/engage-copilot-adoption-sug-content.png" alt-text="Screenshot shows suggested content that is generated on the Copilot adoption community page=.":::
 
 - **Pin resources** enables admins to add links to important or useful information. A pane on the right side of the page enables additions when the community is live.
 
 - **Review suggested content** offers a quick way to introduce Copilot capabilities and has various quick tips and tricks available for members. All content is editable before posting. The suggested content aligns with content from the Viva Amplify communications campaign, available through the Copilot Deployment Kit. [Learn more here.](https://techcommunity.microsoft.com/t5/viva-amplify-blog/announcing-the-copilot-deployment-kit-in-viva-amplify/ba-p/4110466)
 
-    :::image type="content" source="../media/engage/admin/engage-copilot-adoption-sug-content.png" alt-text="Screenshot shows suggested content that is generated on the Copilot adoption community page=.":::
-
-<!--- **Conversation Starters** drive engagement between community members. Conversation starters for this community can't be edited initially, but they can be turned off in the Community settings.-->
-
-- **Add a community expert** enables admins to select community members as experts for the community. Search by their name. People selected as experts must be marked as an expert using the **Introducing community experts** panel. A pane on the right side of the page enables additions when the community is live.
+- **Add a community expert** enables admins to select community members as *experts* for the community. Search by their name. People selected as experts must be marked as an expert using the **Introducing community experts** panel. A pane on the right side of the page enables additions when the community is live.
 
 - **Write a Post** helps members write their posts. Admins control availability for the Copilot writing assistant at the network level.
 
@@ -83,8 +80,6 @@ The Copilot community experience includes the following onboarding checklist fea
 
 For Viva Engage admins, the Home page displays the introductory content that describes the Copilot upgrade.   
 
-:::image type="content" source="../media/engage/admin/engage-copilot-adoption-intro.png" alt-text="Admin home page in Engage shows Copilot rollout information.":::
-
 If your network doesn't have the Copilot community set up, and Copilot licensing is in place, take the following steps:
 
 1. Under the admin banner in Viva Engage, select **Launch early adopters**. 
@@ -93,12 +88,15 @@ If your network doesn't have the Copilot community set up, and Copilot licensing
 
 3. When you're finished, select **Create**.
 
->[!NOTE]
+> [!NOTE]
 > Members must have the Microsoft 365 Copilot license in order to join.
 
-### Convert an existing community to Copilot status
+### Convert an existing community to Copilot
 
-You can convert an existing community in your network to act as the Copilot community. As community members acquire the Microsoft 365 Copilot license, they appear as members in the converted community.
+You can convert an existing community in your network to act as the Copilot community. As community members acquire the Microsoft 365 Copilot license, they appear as members in the converted community. 
+
+> [!NOTE]
+> You can run a single community in your network as a Copilot community.
 
 1. Under the banner image in Viva Engage, select **Apply adoption features to an existing community**.
 
@@ -114,9 +112,11 @@ The process helps users find what they need without producing duplicate queries.
 
 ## Fuel your Copilot adoption community with information resources
 
-Community admins can proactively address questions by uploading informational documents, like FAQs, through the Answers Intelligent Importer. From the imported content, Intelligent Importer generates question-and-answer pairs. Admins can review and edit question pairs before posting. For details, see [Intelligent Importer](/viva/engage/eac-answers-importer).
+Community admins can proactively address questions by uploading informational documents, like FAQs, through the [Answers Intelligent Importer](/viva/engage/eac-answers-importer). From the imported content, Intelligent Importer generates question-and-answer pairs. Admins can review and edit the output before posting.
 
-:::image type="content" source="../media/engage/admin/engage-copilot-adoption-importer.png" alt-text="Screenshot shows how AI turns your documents into a list of questions and answers that you can edit and import.":::
+Select the import tool in the **Intelligent Importer** pane, and load a PDF, Doc file, or text file. The AI model analyzes the imported document and produces a set of question-answer pairs.
+
+:::image type="content" source="../media/engage/admin/engage-copilot-adoption-importer.png" alt-text="Screenshot shows how AI turns imported documents into a list of questions and answers that you can edit and import.":::
 
 ### Features available by Viva Engage role
 
@@ -162,4 +162,4 @@ You can find these resources under the ellipses (...) menu on the right side of 
 You can't remove access to the community configuration settings, but only network admins and corporate communicators see the discoverable banner in their home feed and admin center. 
 
 >[!NOTE]
-> After you create a new Copilot adoption community, admins can delete it from community settings. Select the ellipses (...) menu for the Copilot adoption community, select **Settings**, and select **Delete this community** at the bottom of the page.
+> After you create the new Copilot adoption community, admins can delete it from community settings. Select the ellipses (...) menu for the Copilot adoption community, select **Settings**, and select **Delete this community** at the bottom of the page.
