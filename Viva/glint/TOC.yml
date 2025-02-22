@@ -148,7 +148,7 @@ items:
         href: setup/copilot-managers.md
       - name: FAQs-Copilot in Viva Glint 
         href: setup/copilot-faqs.md 
-  - name: Platform functionality
+  - name: Manage settings, features, and data
     items: 
       - name: General Settings 
         href: setup/manage-general-settings.md
@@ -303,30 +303,34 @@ items:
            href: setup/create-productivity-survey.md
       - name: Employee Lifecycle survey setup
         items:
-           - name: Set up an Employee Lifecycle survey
+           - name: Set up an Onboarding survey
              href: setup/program-summary-setup-lifecycle.md
+           - name: Set up an Exit survey
+             href: setup/exit-survey-setup.md
            - name: Preview and filter a Lifecycle survey
              href: setup/preview-filter-lifecycle-programs.md 
       - name: Viva Glint 360 feedback programs
         items:
            - name: 360 overview and terminology
              href: setup/360-overview.md
-           - name: 360 program design and templates
-             href: setup/360-design-templates.md
+             items:
+               - name: 360 program design and templates
+                 href: setup/360-design-templates.md
            - name: General Settings and User Roles
              href: setup/360-general-settings.md
            - name: Create a new 360 program or cycle
              href: setup/360-create-new-360-cycle.md
              items:
-               - name: Core items
-                 href: setup/360-core-questions.md
-               - name: Adding and editing items
+               - name: Survey Questions setup
                  href: setup/360-add-edit-cycle-questions.md
-               - name: 360 feedback provider selections
+                 items:
+                   - name: Core items
+                     href: setup/360-core-questions.md
+               - name: 360 Feedback Provider Selections
                  href: setup/overview-feedback-provider-selection.md
-               - name: 360 competencies and reporting
+               - name: 360 Competencies & Reporting
                  href: setup/360-competencies.md
-               - name: 360 Schedule and Communications setup
+               - name: 360 Schedule & Communications setup
                  href: setup/360-schedules-comms.md
                - name: Customize 360 email content
                  href: setup/360-email-edits.md
