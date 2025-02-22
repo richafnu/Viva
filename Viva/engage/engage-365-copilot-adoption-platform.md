@@ -62,8 +62,6 @@ Copilot community setup resembles any other community. The Copilot community tem
 
 The Copilot community experience includes the following onboarding checklist to drive engagement. After you set up the community, you can disable features as needed.  
 
-    :::image type="content" source="../media/engage/admin/engage-copilot-adoption-sug-content.png" alt-text="Screenshot shows suggested content that is generated on the Copilot adoption community page=.":::
-
 - **Pin resources** enables admins to add links to important or useful information. A pane on the right side of the page enables additions when the community is live.
 
 - **Review suggested content** offers a quick way to introduce Copilot capabilities and has various quick tips and tricks available for members. All content is editable before posting. The suggested content aligns with content from the Viva Amplify communications campaign, available through the Copilot Deployment Kit. [Learn more here.](https://techcommunity.microsoft.com/t5/viva-amplify-blog/announcing-the-copilot-deployment-kit-in-viva-amplify/ba-p/4110466)
