@@ -22,10 +22,8 @@ Use Microsoft Viva Glint test surveys and reviewers in your organization to ensu
 
 - ensure that survey setup is accurate and complete
 - familiarize yourself with the Viva Glint survey experience
-- 
-
-## How and when to test a survey
-
+- verify that unique survey requirements work as expected
+- identify communication or training needs for your organization
 
 ## Survey review checklist
 
@@ -40,9 +38,9 @@ Use this checklist to review Viva Glint test surveys in preparation for survey l
 | &#9744; | Attribute-based access | ...the survey link provided takes you to a survey access page to enter your information |
 | &#9744; |  | ...the survey landing page is free of typos and misspellings |
 | &#9744; |  | ...the survey landing page displays at least 2 fields for you to enter information |
-| &#9744; |  | ...the survey landing page takes you to the survey introduction when you enter information into acccess fields |
+| &#9744; |  | ...the survey landing page takes you to the survey introduction when you enter information into access fields |
 | &#9744; | Survey | ...the survey introduction message is free of typos and misspellings |
-| &#9744; |  | ...all links in the the survey introduction message resolve correctly |
+| &#9744; |  | ...all links in the survey introduction message resolve correctly |
 | &#9744; |  | ...the survey introduction message is translated correctly (if applicable) |
 | &#9744; |  | ...survey questions appear in the expected order |
 | &#9744; |  | ...survey question comment fields appear as expected (visible after a response is selected or only when a user selects "+ comment") |
@@ -51,7 +49,7 @@ Use this checklist to review Viva Glint test surveys in preparation for survey l
 | &#9744; |  | ...question targeting shows as expected (if applicable) |
 | &#9744; |  | ...question display logic works as expected (if applicable) |
 | &#9744; |  | ...the survey thank you message is free of typos and misspellings |
-| &#9744; |  | ...all links in the the survey thank you message resolve correctly |
+| &#9744; |  | ...all links in the survey thank you message resolve correctly |
 | &#9744; |  | ...the survey thank you message is translated correctly (if applicable) |
 | &#9744; |  | ...the survey submission process works as expected |
 | &#9744; |  | ...the post-survey learning experience appears as expected (if applicable) |
