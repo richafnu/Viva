@@ -474,6 +474,14 @@ At least two to three weeks before launching your first Viva Glint survey, condu
 
 Each test user can review the survey experience with this checklist: [Review a Viva Glint test survey](survey-testing.md).
 
+Provide instructions for users on items that you want them to focus on, including:
+
+- email invite and reminder delivery days and times
+- attribute-based access survey link experience (provide link, if applicable)
+- languages they should review (if applicable)
+- question targeting they should confirm (if applicable)
+- question display logic (if applicable)
+
 ## Launch a test survey
 
 Launch a test survey to your project team to confirm that emails arrive and the survey-taking experience appears as expected. To set up a test survey:
