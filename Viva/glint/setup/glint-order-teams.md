@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 10/15/2024
+ms.date: 02/24/2025
 ---
 
 # Viva Glint Licensing
@@ -22,7 +22,8 @@ ms.date: 10/15/2024
 Subscription plans of Viva suite or Viva Glint are required for using Microsoft Viva Glint. The total number of active licenses in your subscriptions should be greater than or equal to the number of active users in the app. 
 
 > [!NOTE]
-> Individual user license assigment isn't required for Viva Glint.
+> - Individual user license assigment isn't required for Viva Glint.
+> - [Support users](add-external-user.md) don't count toward your organization's Viva Glint licenses.
 
 ## Notifications for exceeding licenses
 
