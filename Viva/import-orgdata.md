@@ -4,7 +4,7 @@ ms.reviewer: elizapo
 ms.author: elizapo
 author: lizap
 manager: elizapo
-ms.date: 2/19/2025
+ms.date: 2/24/2025
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -123,7 +123,7 @@ Only the global admin can update or delete organizational data stored in the Mic
 
 To update or delete an end user's organizational data, create and upload a new .csv file containing only the users whose data you want to update or delete. 
 
-- To update a value, include all of the attributes that you want to update. Provide a different value for any attribute that you want to change. If you include an attribute but don't provide a value (and *don't set it to an empty string*), the current value in the Microsoft 365 User Profile is used. The value isn't updated. New uploads merge with previous data and don't overwrite that data.
+- To update a value, include all of the attributes that you want to update. Provide a different value for any attribute that you want to change. If you include an attribute but don't provide a value (and *don't set it to an empty string*), the current value in the Microsoft 365 User Profile is used, and the value isn't updated. New uploads merge with previous data and don't overwrite that data.
 - To delete a value, set the value for the attribute to an empty string by using two single quotes (''). (Set the **Microsoft_Layer** attribute "-1".) To delete all of the data for a user, enter the empty string or integer value for all of their attributes.
 
 
