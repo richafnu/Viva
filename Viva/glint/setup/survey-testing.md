@@ -27,7 +27,7 @@ Use Microsoft Viva Glint test surveys and reviewers in your organization to ensu
 
 ## Survey review checklist
 
-Use this checklist to review Viva Glint test surveys in preparation for survey launches. View online or use the Print > Save As PDF option in your web browser to mark off items as you review.
+Use this checklist to review Viva Glint test surveys in preparation for survey launches. View online or use the Print > Save As PDF option in your web browser to mark off items as you review. Note any issues and provide them to your Viva Glint project lead.
 
 |:::image type="icon" source="/office/media/icons/task-checklist-planning-blue.png" :::  |Item |Check that...|
 |:----------|:-----------|:------------|
