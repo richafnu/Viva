@@ -14,17 +14,21 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 10/08/2024
+ms.date: 2/25/2025
 ---
 
 # Managers using Viva Glint Team Conversations
 
-Managers use their Team Conversations Presentation Kit to launch, send, and present Team Conversations to their team. Team Conversations help managers have a meaningful conversation that moves their team forward to achieve organizational goals. 
+Managers use a Team Conversations Presentation Kit to launch, send, and present guided Team Conversations to their team. Team Conversations help managers have a meaningful conversation that moves their team forward to achieve organizational goals. Team Conversations must be enabled for the program in **General Settings**.
 
 Watch and share this 3-minute video:
 [Propelling Action Through Team Conversations](https://www.microsoft.com/en-us/videoplayer/embed/RE5fHQ2?postJsllMsg=true)
 
-## Manager guidelines for launching Team Conversations
+To view the 4-step Manager Concierge - the Team Conversations Presentation Kit guide - as a manager sees it, choose a manager with Team Conversations permissions from the **People feature** on your manager dashboard. Select **View As**.
+
+In this fictious example, our manager's name is Aisha. They see this on their Viva Glint dashboard:
+
+:::image type="content" source="../../media/glint/setup/4-step-manager-dashboard.png" alt-text="Screenshot of the 4-step Team Conversations guide for managers.":::
 
 From the manager dashboard:
 
