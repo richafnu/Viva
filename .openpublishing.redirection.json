@@ -2356,7 +2356,12 @@
     "redirect_url": "/viva/engage/overview",
     "redirect_document_id": false
   },
-  {    
+  {
+    "source_path": "viva/engage/integrate-viva-engage-with-other-apps/viva-engage-and-newsfeed.md",
+    "redirect_url": "/viva/engage/overview",
+    "redirect_document_id": false
+  },
+  {
     "source_path": "viva/glint/communicate/email-templates-survey-expectations.md",
     "redirect_url": "/viva/glint/start/recommended-rollout-plan",
     "redirect_document_id": false
@@ -2380,9 +2385,22 @@
     "source_path": "viva//360-cycle-settings.md",
     "redirect_url": "/viva/glint/setup/create-new-360-cycle",
     "redirect_document_id": false
+  },
+  {
+      "source_path": "viva/glint/people-science/import-external-people-science-pov.md",
+      "redirect_url": "/viva/glint/setup/import-historical-response-data",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "viva/glint/setup/create-new-360-cycle.md",
+      "redirect_url": "/viva/glint/setup/360-create-new-360-cycle",
+      "redirect_document_id": true
+  },
+  {
+     "source_path": "viva/glint/setup/manual-ppt-customization.md",
+     "redirect_url": "/viva/glint/setup/custom-ppt-upload",
+     "redirect_document_id": true
   }
-
     
     ]
-
 }
