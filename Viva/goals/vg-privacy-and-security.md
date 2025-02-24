@@ -226,7 +226,7 @@ Yes. See the [Microsoft Privacy Statement](https://privacy.microsoft.com/privacy
 
 #### How do you ensure that sub-processors meet data handling standards?
 
-See the [Subprocessors and Data Privacy Whitepaper](https://www.microsoft.com/download/details.aspx?id=106293) to understand how Microsoft subprocessors handle your data.
+See the [Subprocessors and Data Privacy Whitepaper](https://www.microsoft.com/download/details.aspx?id=30679) to understand how Microsoft subprocessors handle your data.
 
 ### Viva Goals Data Residency
 
