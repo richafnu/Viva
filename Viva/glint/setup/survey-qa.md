@@ -30,7 +30,7 @@ Selections that admins make in [General Settings](manage-general-settings.md) la
 
 |Section  |Item  |Confirm that...|
 |:----------|:-----------|:------------|
-|Company Information     |Client Name       |The organization name here is correct; it appears in surveys and email invites and reminders.        |
+|Company Information     |Client Name       |The organization name is correct; it appears in surveys and email invites and reminders.        |
 |      |Client Time Zone       |The correct default time zone that Viva Glint uses to send communications is selected.        |
 |      |Company Privacy Policy (optional)        |If configured, the correct link to your company policy is included. [Learn more](add-privacy-policy.md)        |
 |      |Company Message to Survey Participants (optional)      |If configured, the message and translations here are accurate. To customize for each survey, add in Program Setup.        |
@@ -67,7 +67,7 @@ Choose a tab based on your survey type (for example: Recurring for an Engagement
 |Eligible for Nudges|This setting is set to Yes or No correctly to enable or disable Nudges for managers to act on survey results.   |High|Yes|
 |Allow Survey Resubmission|This setting is set to Yes or No correctly to allow or disallow users to reset their own surveys and resubmit during live surveys.   |High|No|
 |Enable Team Conversations|This setting is set to Yes or No correctly to enable or disable Team Conversations for managers to act on results with a guided, in-platform experience.  |High|Yes|
-|Auto-expand comments input   |This setting is set to Yes to automatically expand comment boxes after a reponse is entered or No to let users select "+ comment."  |Medium        |Yes        |
+|Auto-expand comments input   |This setting is set to Yes to automatically expand comment boxes after a response is entered or No to let users select "+ comment."  |Medium        |Yes        |
 |Confidential Responses|This setting is set to Yes or No correctly. This setting can only be switched to No for Employee Lifecycle surveys.  |High|No|
 |Enable Export of Raw Survey Responses|This setting is set to Yes or No correctly to allow or disallow the export of raw respondent data for this program.   |High|No|
 |Company Message to Survey Participants|Any optional custom messaging to survey participants and accompanying translations are entered correctly.  |High|Yes|
@@ -139,7 +139,7 @@ Choose a tab based on your survey type (for example: Recurring for an Engagement
 
 > [!NOTE]
 > - The Team Conversations setting only appears in a Program Role when Team Conversations have been enabled in Program Setup.
-> - Aggregate Indices can't be deleted after they're setup.
+> - Aggregate Indices can't be deleted after they're set up.
 
 ### Communications
 
@@ -152,7 +152,7 @@ Choose a tab based on your survey type (for example: Recurring for an Engagement
 
 > [!NOTE]
 > - *This setting only appears when your organization has a Personal Email Optional System Attribute set up. Personal emails are recommended for contacting exiting employees.
-> - **Reminder emails can be added/edited at the survey cycle level if the added reminders aren't scheduled to send for at least 24 hours. New reminders can't be added to sent the same day.
+> - **Reminder emails can be added/edited at the survey cycle level if the added reminders aren't scheduled to send for at least 24 hours. New reminders can't be added to send the same day.
 
 ### Coaching
 
@@ -184,7 +184,7 @@ Choose a tab based on your survey type (for example: Recurring for an Engagement
 |Response Window|The correct number of days is selected.   |High|Yes**|
 |Waiting Period Between Surveys|The correct number of days is selected.   |High|Yes**|
 |Allow Survey Resubmission|This setting is set to Yes or No correctly to allow or disallow users to reset their own surveys and resubmit during live surveys.   |High|No|
-|Auto-expand comments input   |This setting is set to Yes to automatically expand comment boxes after a reponse is entered or No to let users select "+ comment."  |Medium        |Yes        |
+|Auto-expand comments input   |This setting is set to Yes to automatically expand comment boxes after a response is entered or No to let users select "+ comment."  |Medium        |Yes        |
 |Confidential Responses|This setting is set to Yes or No correctly. This setting can only be switched to No for Employee Lifecycle surveys.  |High|No|
 |Enable Export of Raw Survey Responses|This setting is set to Yes or No correctly to allow or disallow the export of raw respondent data for this program.   |High|No|
 |Company Message to Survey Participants|Any optional custom messaging to survey participants and accompanying translations are entered correctly.  |High|Yes|
@@ -240,7 +240,7 @@ Choose a tab based on your survey type (for example: Recurring for an Engagement
 |Broader Team Insights PowerPoint Export Template|The correct template is selected.   |Low|Yes|
 
 > [!NOTE]
-> Aggregate Indices can't be deleted after they're setup.
+> Aggregate Indices can't be deleted after they're set up.
 
 ### Communications
 
@@ -253,7 +253,7 @@ Choose a tab based on your survey type (for example: Recurring for an Engagement
 
 > [!NOTE]
 > - *This setting only appears when your organization has a Personal Email Optional System Attribute set up. Personal emails are recommended for contacting exiting employees.
-> - **Reminder emails can be added/edited at the survey cycle level if the added reminders aren't scheduled to send for at least 24 hours. New reminders can't be added to sent the same day.
+> - **Reminder emails can be added/edited at the survey cycle level if the added reminders aren't scheduled to send for at least 24 hours. New reminders can't be added to send the same day.
 
 ### Coaching
 
@@ -284,7 +284,7 @@ Choose a tab based on your survey type (for example: Recurring for an Engagement
 |Suggested Actions Available|This setting is set to Yes or No correctly to allow or disallow users to create Focus Areas based on suggestion action templates.  |High|Yes|
 |Eligible for Nudges|This setting is set to Yes or No correctly to enable or disable Nudges for managers to act on survey results.   |High|Yes|
 |Allow Survey Resubmission|This setting is set to Yes or No correctly to allow or disallow users to reset their own surveys and resubmit during live surveys.   |High|No|
-|Auto-expand comments input   |This setting is set to Yes to automatically expand comment boxes after a reponse is entered or No to let users select "+ comment."  |Medium        |Yes        |
+|Auto-expand comments input   |This setting is set to Yes to automatically expand comment boxes after a response is entered or No to let users select "+ comment."  |Medium        |Yes        |
 |Confidential Responses|This setting is set to Yes or No correctly. This setting can only be switched to No for Employee Lifecycle surveys.  |High|No|
 |Enable Export of Raw Survey Responses|This setting is set to Yes or No correctly to allow or disallow the export of raw respondent data for this program.   |High|No|
 |Company Message to Survey Participants|Any optional custom messaging to survey participants and accompanying translations are entered correctly.  |High|Yes|
@@ -350,7 +350,7 @@ Choose a tab based on your survey type (for example: Recurring for an Engagement
 |Broader Team Insights PowerPoint Export Template|The correct template is selected.   |Low|Yes|
 
 > [!NOTE]
-> Aggregate Indices can't be deleted after they're setup.
+> Aggregate Indices can't be deleted after they're set up.
 
 ### Communications
 
@@ -363,7 +363,7 @@ Choose a tab based on your survey type (for example: Recurring for an Engagement
 
 > [!NOTE]
 > - *This setting only appears when your organization has a Personal Email Optional System Attribute set up. Personal emails are recommended for contacting exiting employees.
-> - **Reminder emails can be added/edited at the survey cycle level if the added reminders aren't scheduled to send for at least 24 hours. New reminders can't be added to sent the same day.
+> - **Reminder emails can be added/edited at the survey cycle level if the added reminders aren't scheduled to send for at least 24 hours. New reminders can't be added to send the same day.
 
 ### Coaching
 
@@ -394,7 +394,7 @@ Choose a tab based on your survey type (for example: Recurring for an Engagement
 |Suggested Actions Available|This setting is set to Yes or No correctly to allow or disallow users to create Focus Areas based on suggestion action templates.  |High|Yes|
 |Response Window|The correct number of days is selected.   |High|Yes**|
 |Next Survey Available|The correct number of days is selected.   |High|Yes**|
-|Auto-expand comments input   |This setting is set to Yes to automatically expand comment boxes after a reponse is entered or No to let users select "+ comment."  |Medium        |Yes        |
+|Auto-expand comments input   |This setting is set to Yes to automatically expand comment boxes after a response is entered or No to let users select "+ comment."  |Medium        |Yes        |
 |Confidential Responses|This setting is set to Yes or No correctly. This setting can only be switched to No for Employee Lifecycle surveys.  |High|No|
 |Enable Export of Raw Survey Responses|This setting is set to Yes or No correctly to allow or disallow the export of raw respondent data for this program.   |High|No|
 |Company Message to Survey Participants|Any optional custom messaging to survey participants and accompanying translations are entered correctly.  |High|Yes|
@@ -446,7 +446,7 @@ Choose a tab based on your survey type (for example: Recurring for an Engagement
 |Broader Team Insights PowerPoint Export Template|The correct template is selected.   |Low|Yes|
 
 > [!NOTE]
-> Aggregate Indices can't be deleted after they're setup.
+> Aggregate Indices can't be deleted after they're set up.
 
 ### Coaching
 
@@ -466,13 +466,13 @@ Choose a tab based on your survey type (for example: Recurring for an Engagement
 After reviewing your survey setup and confirming that employee data is imported to Viva Glint, use the [Generate Report Preview](preview-demo-reporting.md) option to preview how attributes and questions look in reports.
 
 > [!IMPORTANT]
-> The Generate Report Preview option is only available for Recurring and Ad-Hoc survey types.
+> The Generate Report Preview option is only available for Recurring and Ad Hoc survey types.
 
 ## Select a group of survey testers
 
-At least two to three weeks before launching your first Viva Glint survey, conduct testing with a group of users on your project team. Include your Viva Glint core project team and any stakeholders who should provide signoff on the survey. For complex setups and surveys with multiple translations, involve testers who can validate all languages selected.
+At least two to three weeks before launching your first Viva Glint survey, conduct testing with a group of users on your project team. Include your Viva Glint core project team and any stakeholders who should provide approval for the survey. For complex setups and surveys with multiple translations, involve testers who can validate all languages selected.
 
-Each test user can review the survey experience with this checklist: [Review a Viva Glint test survey](setup/survey-testing.md).
+Each test user can review the survey experience with this checklist: [Review a Viva Glint test survey](survey-testing.md).
 
 ## Launch a test survey
 
