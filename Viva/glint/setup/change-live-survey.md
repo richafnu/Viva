@@ -44,10 +44,10 @@ Sometimes changing a Live survey may be beneficial.
 
 |   Topic   |   Scenario   |   Considerations   |
 | --- | --- | --- |
-| The text at the beginning (top) and end (bottom) of the survey | The *Intro* or *Thank You* text needs adjustments or corrections. | Newly edited text is featured immediately and *only* if a survey taker hasn't started their survey. |
+| The text at the beginning (top) and end (bottom) of the survey | The *Intro* or *Thank You* text needs adjustments or corrections. | Newly edited text is featured immediately and *only* if a survey taker hasn't begun the survey. |
 | Item text | The phrasing of an item needs to be edited. | Decide whether to change the item while the survey is live or if it can wait until the next cycle. Follow Live survey edits guideline.|
 | Adding or removing an item | You want to add a new item or remove an item from a Live survey. | An item *can't* be added or removed from a Live survey except in an Always-On or Employee Lifecycle program. |
-| Item order | The survey items need to be reordered. | The newly edited order is featured immediately but *only* on surveys that haven't started. |
+| Item order | The survey items need to be reordered. | The newly edited order is featured immediately but *only* on surveys that aren't started. |
 
 ## Fields which can be edited 
 Only these fields can be edited when a survey is Live.
@@ -69,7 +69,7 @@ The information is broken out across **Program Summary** setup pages.
 
 |   Topic   |   Scenario   |   Considerations   |
 | --- | --- | --- |
-| **Various** | You want to edit the **Program Name**. | Edits are visible only to users who haven't started their survey. |
+| **Various** | You want to edit the **Program Name**. | Edits are visible only to users with unstarted surveys |
 | **Additional languages** | You want to add a new language as a survey option. | If custom translation text isn't provided, Viva Glint's standard text translations are used. |
 
 ### Distribution
@@ -130,7 +130,7 @@ Mapping to a Viva Glint standard item needs to be updated.
 #### Admin process for editing an item during a Live survey
 
 There are three entry points for editing an item:
--	From the **Question Library** on your admin dashboard. This entry point doesn't require survey to go into unapproved state.
+-	From the **Question Library**, on your admin dashboard. This entry point doesn't require survey to go into unapproved state.
 -	From the **Survey Programs, Live** section
 -	From the **Survey Programs, Upcoming** section
 
