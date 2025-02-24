@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 2/21/2025
+ms.date: 2/24/2025
 ---
 
 # Make changes to a live Viva Glint survey
@@ -54,7 +54,7 @@ Only these fields can be edited when a survey is Live.
 
 |Field|Need-to-knows|
 |--------|--------------|
-|**Question Text** | Wording shows verbatim.<ul><li> The **+ button** allows you to edit the question.  </li><li> Try not to edit our standard survey items. Item edits may impact language translations and the item's intention to accurately tie to its designated benchmark.</li><li>Changes to the item apply to all survey programs and Live survey questionnaires using this item. This change includes the survey where the admin initialized the change.</li><li> Changes can also be made from the Question Library.</li><li> **Be aware if the item is used in multiple programs, emails send for each of those surveys.** |
+|**Question Text** | Wording shows verbatim.<ul><li> The **+ button** allows you to edit the question.  </li><li> Try not to edit our standard survey items. Item edits may impact language translations and the item's intention to accurately tie to its designated benchmark.</li><li>Changes to the item apply to all survey programs and Live survey questionnaires in Recurring and Ad Hoc programs using this item. This change includes the survey where the admin initialized the change.</li><li> Changes can also be made from the Question Library.</li><li> **Be aware if the item is used in multiple programs, emails send for each of those surveys in Recurring Ad Hoc programs..** |
 |**Instruction Text** |Use this space to provide survey takers with helpful information about how to answer this item.</li></ul>|
 |**Comment Placeholder Text** | **Leave your comments here** appears by default. This text can be customized |
 |**Benchmark** | |
