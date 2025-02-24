@@ -28,7 +28,7 @@ To view the 4-step Manager Concierge - the Team Conversations Presentation Kit g
 
 In this fictious example, our manager's name is Aisha. They see this on their Viva Glint dashboard:
 
-:::image type="content" source="../../media/glint/setup/4-step-manager-dashboard.png" alt-text="Screenshot of the 4-step Team Conversations guide for managers.":::
+:::image type="content" source="../../media/glint/reports/4-step-manager-dashboard.png" alt-text="Screenshot of the 4-step Team Conversations guide for managers.":::
 
 From the manager dashboard:
 
