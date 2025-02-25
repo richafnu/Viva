@@ -17,6 +17,8 @@ items:
   items:
     - name: Prerequisites and admin roles
       href: setup-admin-access/prerequisites-and-admin-roles.md
+    - name: User roles in Viva Pulse
+      href: setup-admin-access/roles-viva-pulse.md
     - name: Assign a Viva Pulse admin in the Microsoft 365 admin center
       href: setup-admin-access/assign-a-viva-pulse-admin-in-m365-admin-center.md
     - name: Manage, install, and pin Viva Pulse in the Teams admin center
@@ -39,7 +41,7 @@ items:
       href: setup-admin-access/tenant-admin-dashboard.md
 - name: Viva integrations
   items:
-    - name: Measure Copilot impact in your organization
+    - name: Measure Microsoft 365 Copilot impact in your organization
       href: viva-integrations/measure-copilot-impact-in-your-organization.md
 - name: Troubleshoot
   items:

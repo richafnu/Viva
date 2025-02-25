@@ -1,12 +1,12 @@
 ---
-title: Use and set up a Viva Glint Employee Lifecycle program
-description: Viva Glint Employee Lifecycle programs measure the employee experience during key moments in the employment journey.
+title: Set up a Viva Glint Onboarding survey
+description: Viva Glint Employee Onboarding surveys measure the employee experience during key moments based on a person's Hire Date.
 ms.author: JudithWeiner
 author: JudyWeiner
 manager: MelissaBarry
 audience: admin
 f1.keywords: NOCSH
-keywords: onboarding, exit surveys, cross-program intelligence
+keywords: onboarding, Hire Date, 
 ms.collection: 
  - m365initiative-viva
  - selfserve
@@ -14,90 +14,124 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 10/17/2024
+ms.date: 2/21/2025
 ---
 
-# Use and set up a Viva Glint Employee Lifecycle program
+# Set up a Viva Glint Onboarding survey
 
-Lifecycle surveys are a comprehensive approach to understanding the employee experience throughout their tenure at an organization, from onboarding to exit. They allow organizations to get a holistic understanding of the employee experience from beginning to end. They are considered "trigger events" because they use the hire or termination date to automatically send. The insights from these surveys are invaluable for organizations to address issues that may be causing turnover and to improve the overall employee experience. 
+**Onboarding surveys** are crucial for gauging new hires’ early experiences and ensuring they have the resources and support needed to succeed. They typically occur within the first few weeks of employment and Microsoft Viva Glint suggests they continue at intervals to track the new employee’s integration into your company. These surveys can cover aspects like the effectiveness of your orientation process, clarity of job expectations, and the supportiveness of the environment. 
 
-**Onboarding Surveys** are crucial for gauging new hires’ early experiences and ensuring they have the resources and support needed to succeed. They typically occur within the first few weeks of employment and may continue at intervals to track the new employee’s integration into the company. These surveys can cover aspects like the effectiveness of your orientation process, clarity of job expectations, and the supportiveness of the environment. 
+### Recommended cadence and tips 
 
-**Exit Surveys** see to understand the reason that an employee voluntarily leaves your organization. They uncover the reasons behind their departure, which could range from career advancement opportunities elsewhere to dissatisfaction with the work environment. 
+The first Onboarding survey for new hires is recommended at 30 days. Consider sending another Onboarding survey at 60 and at 90 days of employment.
 
-## Cross-program intelligence
+**Onboarding tips:**
 
-The pimpact of Lifecycle surveys is apparent when you introduce the concept of cross-program intelligence.  Cross-program intelligence in Viva Glint allows for a comprehensive analysis of employee feedback across various programs such as Engagement, Onboarding, and Exit. This holistic approach enables organizations to identify patterns and correlations that might not be apparent when looking at individual programs in isolation. 
- 
-Interconnected analysis provides value by offering insights across the entire employee lifecycle. It helps HR and senior leaders understand the full impact of their programs and initiatives on employee satisfaction and retention. By examining feedback across multiple programs, organizations can pinpoint critical intervention points and make data-driven decisions to enhance the employee experience.  
+- Onboarding survey Distribution List date ranges are relative to Hire Date.
+- If a person receives the survey 30 days after their Hire Date, set the first value to **after 30 days.** For the end value, provide enough of a window so that if a Hire Date updated late into your Employee Attribute File, they still trigger the survey.
+- Don't make the survey taker window too short. Delayed data imports to Viva Glint might cause people to miss an intended Onboarding survey.
 
-## Recommended cadence for Employee Lifecycle surveys
+## Create an Onboarding Survey
 
-Viva Glint recommends this cadence:
+1. From your admin dashboard, select **Survey Programs.**
+2. Under **Lifecycle** on the Create a Program page, select the **Onboarding** tile, and then **Create Program.**
 
-- Onboarding surveys for new hires: within the first week of employment, then again at 30 days *and* at 90 days
-- Exit surveys with voluntary terminations: as soon as possible
+   :::image type="content" source="../../media/glint/setup/onboarding-card.png" alt-text="Screenshot of the Onboarding card for a Lifecycle survey.":::
 
-## Distribution List setup
+## Name your program
 
-Before configuring an Employee Lifecycle program, visit the [Distribution Lists](/viva/glint/setup/set-up-distribution-lists) lesson to create new lists based on hire date for Onboarding surveys and on Termination date for Exit surveys.
+The program title reads **Onboarding**. You can use the **pencil symbol** to give it a different name. For example, you can add the name of your company.
 
-**Steps to create an Employee Lifecycle distribution list:**
+## Program Summary setup 
 
-1. Select the **Configuration** symbol on the admin dashboard and then select **Distribution Lists**.
-2. Select **New Distribution List**.
-3. Name your new list.
+There are six pages to set up. To set up each page, hover over each row and select it. 
+
+:::image type="content" source="../../media/glint/setup/lifecycle-program-summary.png" alt-text="Screenshot of the Program Summary setup for an Onboarding survey.":::
+
+### Program Setup page
+
+In the first box, define the basics for your program. 
+
+:::image type="content" source="../../media/glint/setup/onboarding-basics.png" alt-text="Screenshot of the Basics setup for an Onboarding survey.":::
+
+|Field|Description|Tip|
+|----------|------------|-------|
+|**Program Name**|Used in survey and email communications, reporting. The name is visible to survey respondents|30-day Onboarding, 60-day Onboarding|
+|**Administrators**|This role can set up, manage, edit, and report on all surveys in the program|*Manage Programs* must be enabled for the name to appear in the search box.|
+|**Default Language**|Manage Programs must be enabled for the name to appear in the search box.|
+|**Additional Languages**|All languages set up in General Settings display. **X** any language to delete it for this program.|Be sure survey items are available in all languages chosen.|
+|**Suggested Actions Available**|Enables Users to create goals.|	Toggle to enable or disable|
+|**Response Window**|The number of days the employee has to complete the survey once it's live|Glint suggests 14 days, but you can raise or lower this window.|
+|**Waiting Period Between Surveys** |The number of days before an employee is eligible to take the survey again after the previous survey closes.|Our system constantly checks for changes in the trigger date so if a survey is already generated for this timeframe, it doesn't generate a new one. In many Employee Lifecycle programs, Glint recommends 30, 60, 90, or even 365 days (one full year).|
+|**Allow Survey Resubmission**|Allow survey takers to retake their surveys. All previous responses are deleted.|Toggle to enable or disable.|
+|**Auto-expand comments input** | With this functionality enabled, a comment box shows after each survey item posed to a survey taker. Disabled, the survey automatically moves to the next item.	Disabled by default.| Toggle to enable. This feature prompts more detailed and actionable insights by survey takers, increasing survey engagement.|
+|**Enable Viva Pulse Integration**| Enabling this feature sends Glint data for every closed program cycle and future cycles.|	See the Reporting page to specify which roles have access to this integration.|
+
+### Confidentiality section in Program Setup
+
+:::image type="content" source="../../media/glint/setup/program-setup-confidentiality-2.png" alt-text="Screenshot that shows the Confidentiality setup within Program Setup.":::
+
+|Field|Description|Examples/Tips|
+|-------|------------|-----------|
+|**Confidential responses** | Promotes accurate feedback| Enabled to **Custom Confidential** by default|
+|**Enable Export of Raw Survey Responses** | Enabling this functionality allows admins to export ungrouped, identifiable survey responses. Disabling this function permanently disallows access to or export of those responses, including the ability to transfer the data to a third party.| [Learn more about raw survey access](/../../viva/glint/setup/employee-raw-data-export)|
+|**Company Message to Survey Participants** |Allows organizations to add more details tailored to their organization, aiming to ensure that individuals participating in surveys are well informed. Clients may wish to append information like specifying the organizational roles with access to identifiable responses or designating appropriate points of contact within the organization for inquiries  or concerns related to the survey. You can also add guidelines on the proper utilization of the survey and direct respondents towards their company-specific resources for more details. This text gets added at the beginning of the survey under the title "Message from [<Client_Name>]," directly following Glint's confidentiality statement.|<li>Translations for the Company Message must be done manually.</li><li>The character limit for the Company Message to Survey Participants is 1,024.</li><li>**Survey level custom messaging takes precedence**. Custom messaging is set up in General Settings but edited at the survey level. Custom messaging overrides initial messaging.</li><li>Onboarding surveys often target only a few people. For this reason, a reduction of the confidentiality threshold helps protect privacy.</li>|
+
+Select **Save Changes** when all edits are complete.
+
+### Distribution page
+
+Your Employee Attribute File contains a Hire Date attribute for each employee. This list is used for sending Onboarding surveys. You may not use the same terminology that Viva Glint uses in guidance. In this example, the Employee Attribute File column header is **Start Date**:
+
+:::image type="content" source="../../media/glint/setup/elc-distribution-attribute.png" alt-text="Screenshot of the Employee Attribute dropdown menu in Employee Lifecycle Distribution setup.":::
+
+#### Create an Onboarding Distribution List
+
+Now you need to create a custom Distribution List.
+
+1. Select the **Configuration** symbol on your admin dashboard and then select **Distribution Lists**.
+2. Select **+ New Distribution List**.
+3. Name your new list by using the **pencil symbol** to delete the *Untitled* content. Let's follow an example that creates a program titled **30-day Onboarding Distribution List**.
 4. Select **Add/Edit Employees**.
-5. Select the **Attribute Rules** tile.
-6. Select **I want to filter all active employees by these populations.**
-7. Select **+ New Population** and find the respective attribute value from your user data, such as "Hire Date" for Onboarding or "Termination Date" for an Exit survey.
-8. Set the date range for your Distribution List window.
-9. Add filters if the distribution should only go to a select population.
-10. If the survey should include Inactive employees (Exit surveys), be sure the **Include Inactive Employees** box is marked.
-11. Select **Save Changes**.
 
-### Tips for Employee Lifecycle programs
+   :::image type="content" source="../../media/glint/setup/elc-30-day.png" alt-text="Screenshot of creating a 30-day Onboarding Distribution List setup.":::
+   
+5. From the **Chose a way to add employee** dialog box which opens, select the **Attribute Rules** tile. 
 
-**Onboarding**
+   :::image type="content" source="../../media/glint/setup/elc-attribute-rules.png" alt-text="Screenshot of the Attribute Rules tile in Distribution setup.":::
+    
+6. The **Add Attribute Rules** slider panel opens. Select **I want to filter all active employees by these populations.**
+7. Select **+ New Population** and then **Add Filters.** Find the respective attribute value from your User data, such as "Hire Date" for Onboarding.
 
-- Onboarding surveys Distribution List date ranges are relative to Hire Date.
-- If the users should receive the survey 30 days after their hire date, ensure you set the first value to **after 30 days.** For the end value, provide enough of a window so that if someone has their hire date updated late in your user data, they still trigger the survey.
-- Don't make the survey taker window too small. Delayed imports might cause people to miss being included.
-- You can't use the same number of days for the beginning and end value in the Distribution List. For example: "45 days after to 45 days after" - the query would be unable to find any users.
+   :::image type="content" source="../../media/glint/setup/elc-add-attributes-panel.png" alt-text="Screenshot of the Add Attribute Rules slider panel in Distribution setup.":::
+    
+8. Select a date and then select **Done.**
+9. Select **Save Changes**. Your completed Distribution List for Hire Date looks like this:
 
-**Exit**
+   :::image type="content" source="../../media/glint/setup/elc-hire-date-list.png" alt-text="Screenshot of a Hire Date Distribution List created.":::
+   
+### Questions page
 
-- Exit survey Distribution List date ranges are relative to the Termination Date.
-- Choose to have Exit Surveys go to a company email and/or a personal email.
-- If using **Company Email Address**, we recommend setting the date range from *14 days before the Termination Date to 1 day after.*
-- If using **Company email + Personal email**, we recommend setting the date range from *14 days before termination date to 30 days after.*
+Viva Glint suggests using the 14 core questions populated on the Onboarding template. You can replace them with others suggested by the Microsoft People Science research team. [View the core questions and alternates here](/../../viva/glint/setup/create-onboarding-exit-surveys).
 
-## Program Summary setup for Employee Lifecycle survey templates
+[Learn more about Questions setup and editing in Program Summary](/../../viva/glint/setup/questions-setup)
 
-Select **My Surveys** on the admin dashboard. Choose the **Onboarding** or **Exit** survey template and then in the **Program Summary** section, set up the following pages:
+### Reporting page
 
-- [Program Setup](/viva/glint/setup/program-set-up)
-  
- > [!IMPORTANT]
- > Employee Lifecycle surveys often target only a few individuals. If that's the case, reducing your confidentiality threshold helps protect their privacy.
+[Set up the Report page as described in this guidance](/../../viva/glint/setup/reporting-setup)
 
-- [Distribution](/viva/glint/setup/set-up-distribution-lists)
-- [Questions](/viva/glint/setup/questions-setup)
-- [Reporting](/viva/glint/setup/reporting-setup)
+The default for interpreting Onboarding reports is a 90-day look-back period. Report recommendations:
+- The **Overall Results** report is recommended for viewing Onboarding surveys. Data can be set up and customized to surface useful insights. Filters are dependent on the attributes sent to Viva Glint in your Employee Attribute File and must meet confidentiality requirements.
+- Understanding how to interpret [**trending](/../../viva/glint/reports/aggregate-trending) is essential to gaining the best insights from Onboarding feedback.
 
->[!IMPORTANT]
-> The Overall Results report is recommended for viewing Employee Lifecycle surveys.
->
-> Within this report, data can be set up and customized to surface useful insights. Filters are dependent on the attributes sent to Glint in your Employee Attribute File and must meet confidentiality requirements. [Read about the Overall Results report](/viva/glint/reports/overall-results).
+### Communications page
 
->[!IMPORTANT]
-> Understanding [how to interpret the trend graph](/viva/glint/reports/trend-graph-lifecycle-survey) is essential to gaining the best insights from Employee Lifecycle data.
+[Set up the Communications page as described in this guidance](/../../viva/glint/setup/program-summary-communications)
 
->[!TIP]
-> **The default** for Employee Lifecycle reports is a 90-day look-back period.
+### Coaching page
 
-- [Communication](/viva/glint/setup/program-summary-communications)
-- [Coaching](/viva/glint/setup/program-summary-coaching)
+[Set up the Coaches page as described in this guidance](/../../viva/glint/setup/program-summary-coaching)
+
 
 ## Related resource
 

@@ -14,7 +14,7 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 8/23/2024
+ms.date: 1/21/2025
 ---
 
 # Test and launch a Glint 360 feedback cycle
@@ -27,11 +27,11 @@ Check every detail of a Microsoft Viva Glint 360 feedback cycle before selecting
 
 ## Preview a 360 cycle
 
-When each section of a 360 cycle is set up successfully, a blue check mark appears on sections to indicate that an admin can schedule the cycle.  
+When each section of a 360 cycle is set up successfully, a blue check mark displays to indicate that an admin can schedule the cycle.  
 
 All sections of a 360 cycle must be set up, reviewed, and saved and at least one (1) subject must be added before the cycle can be scheduled.
 
-To view 360 cycle reviews, from the cycle page, select **Actions** and then **Preview Survey** from the dropdown menu.
+To preview 360 cycles, from the cycle page, select **Actions** and then **Preview Survey** from the dropdown menu.
 
 :::image type="content" source="../../media/glint/setup/360-cycle-actions-menu.png" alt-text="Screenshot of the Actions dropdown menu on a Glint 360 cycle page.":::
 
@@ -43,12 +43,13 @@ When previewing a survey, confirm that:
 - Comments are available for rated items
 - Rated items are marked as optional (recommended)
 - Open-ended items display as expected
-- Reporting guidance is available, if enabled
+- Survey guidance is available, if enabled
 - Feedback provider category displays names
 - Competencies are mapped
 
 ## Preview the 360 report
 
+Reporting guidance is available, if enabled.
 From the 360 cycle page:
 
 1. Select **Actions** and then **Preview Online Report**.

@@ -63,7 +63,7 @@ As a live event organizer, make sure that you and your audience have the necessa
  
 - You must be an admin to assign roles for the live event (producers, presenters, and so on). Only assigned roles receive an invite, which allows them to join the event through a link. Learn more about [roles assigned through Teams](https://support.microsoft.com/office/schedule-and-produce-a-live-event-in-new-yammer-using-teams-d891bff6-eda2-493f-8b0d-d87932e7937d#roles).
 
-- Co-producers and presenters that you assign must also have a Teams license and Teams must be enabled. (Select the Microsoft 365 app launcher and look for a Teams icon.) 
+- Co-producers and presenters that you assign must also have a Teams license and Teams must be enabled. (Select Microsoft 365 Copilot and look for a Teams icon.) 
 
 - Your public or private group must be connected to Microsoft 365 and **Enforce Office 365 identity** setting must be selected for the organization. To restrict attendance to members only, use a private community. Non-members can attend and participate in live events scheduled in a public community.  
 
