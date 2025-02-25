@@ -1,6 +1,6 @@
 ---
 title: Managers using Viva Glint Team Conversations
-description: Managers use their Team Conversations Presentation Kit to launch, send, and present Team Conversations to their team.
+description: Managers can use a Team Conversations Presentation Kit to launch, send, and present feedback and solutions to their team.
 ms.author: JudithWeiner
 author: JudyWeiner
 manager: MelissaBarry
@@ -19,10 +19,12 @@ ms.date: 2/25/2025
 
 # Managers using Viva Glint Team Conversations
 
-Managers use a Team Conversations Presentation Kit to launch, send, and present guided Team Conversations to their team. Team Conversations help managers have a meaningful conversation that moves their team forward to achieve organizational goals. Team Conversations must be enabled for the program in **General Settings**.
+Managers use a Microsoft Viva Glint Team Conversations Presentation Kit to launch, send, and present feedback and solutions to their team. Team Conversations help managers have a meaningful conversation that moves their team forward to achieve organizational goals. Team Conversations must be enabled for the program in **General Settings**.
 
 Watch and share this 3-minute video:
 [Propelling Action Through Team Conversations](https://www.microsoft.com/en-us/videoplayer/embed/RE5fHQ2?postJsllMsg=true)
+
+## View the Team Conversations guide as a manager sees it
 
 To view the 4-step Manager Concierge - the Team Conversations Presentation Kit guide - as a manager sees it, choose a manager with Team Conversations permissions from the **People feature** on your manager dashboard. Select **View As**.
 
@@ -30,30 +32,46 @@ In this fictious example, our manager's name is Aisha. They see this on their Vi
 
 :::image type="content" source="../../media/glint/reports/4-step-manager-dashboard.png" alt-text="Screenshot of the 4-step Team Conversations guide for managers.":::
 
-From the manager dashboard:
+For admins, Viva Glint refers to this 4-step guide as the **Manager Concierge.** 
 
-1. Select **Launch Team Conversation** (Step 3) in Manager Concierge. A customized message appears, explaining the Team Conversations presentation process.
-2. Select **Get Started**.
-3. Review the presentation using the slide titles for navigation. Each slide is intended to facilitate conversation with thought prompts provided.
+### Step 1 - Give Feedback
 
-## Sharing Team Conversations
+:::image type="content" source="../../media/glint/reports/step-1-manager-concierge.png" alt-text="Screenshot of Step 1 in the Team Conversations guide for managers.":::
 
-When **Team Conversations Sharing** is enabled, team members (end users) access it through a link sent to them. The presentation looks the same as the manager's presentation but can't be edited or marked as complete. The recipient also can't forward the presentation to anyone. The presentation is in read-only format.
+Your manager sees the date the survey closed on.
 
-1. From the results dashboard, in Manager Concierge, select **Launch Team Conversations.**
-2. Select **Get Started**.
-3. Select the **Share** button.
-4. Select **Send a Copy**.
-5. Select the **Email** option.
-6. **Add the email address(es)** for each employee the presentation is to be shared with. 
-7. Select **Send**.
+### Step 2 - Interpret results
 
->[!NOTE]
-> To receive Team Conversations, the user must have access to the User Role permission **View my Surveys**.
+:::image type="content" source="../../media/glint/reports/step-2-manager-concierge.png" alt-text="Screenshot of Step 2 in the Team Conversations guide for managers.":::
 
-## Slide guidance for presenting the Team Conversations Kit
+Managers should select **View Interpretation Guide** to open the **Guidance for Managers Window**.
 
-Select **Start Presentation**. This hides the page list, practices, and tips. Select **Stop Presentation** when you want to pause for conversation with your team.
+:::image type="content" source="../../media/glint/reports/tc-guidance-managers.png" alt-text="Screenshot of the Guidance for Managers window Step 2 of the Team Conversations guide." lightbox="../../media/glint/reports/tc-guidance-managers.png":::
+
+### Step 3 - Discuss with your team
+
+:::image type="content" source="../../media/glint/reports/step-3-manager-concierge.png" alt-text="Screenshot of Step 3 in the Team Conversations guide for managers.":::
+
+1. Managers select **Download Presentation Kit** to see the Team Conversations Presentation Kit set up for them by the Viva Glint admin in Program Summary. See [Admin setup for Viva Glint Team Conversations](/../../viva/glint/reports/team-conversations-administrator-setup)
+2. Managers open the downloaded PowerPoint presentation on their browser or desktop.
+
+  :::image type="content" source="../../media/glint/reports/tc-powerpoint-results.png" alt-text="Screenshot of a Team Conversations PowerPoint presentation.":::
+
+3. Managers should review the presentation using the slide titles for navigation. Each slide is intended to facilitate conversation with thought prompts provided.
+
+   [Instructions for manual customization of a PowerPoint presentation are found here in Viva Glint Learn](/../../viva/glint/setup/custom-ppt-upload).
+
+### Step 4 - Commit to next steps
+
+:::image type="content" source="../../media/glint/reports/step-4-manager-concierge.png" alt-text="Screenshot of Step 4 in the Team Conversations guide for managers.":::
+
+Managers select **Choose a Focus Area**. A list of suggested Focus Areas generated based on feedback from their recent survey.
+
+:::image type="content" source="../../media/glint/reports/tc-choose-focus-area.png" alt-text="Screenshot of Focus Areas generated for a manager. lightbox="../../media/glint/reports/tc-choose-focus-area.png":::
+
+## Manager guidance for presenting Team Conversations 
+
+Select **Start Presentation** on the manager dashboard. This functionality hides the page list, practices, and tips. Select **Stop Presentation** to pause for conversation.
 
 Team Conversations covers the following, in your preselected terminology:
 
@@ -64,9 +82,6 @@ Team Conversations covers the following, in your preselected terminology:
 - A look at Multiple Choice questions
 - Assistance with choosing a Focus Area
 - Assistance with taking small steps forward
-
->[!NOTE]
-> Terminology may appear differently on your platform than in this guidance, depending on what terms are used by your organization.
 
 |Slide|Process|
 |------|-------|
@@ -81,11 +96,26 @@ Team Conversations covers the following, in your preselected terminology:
 |**Use the recap window**|Displays where you are in your conversation. Check marks indicate when: <br> <ul><li>Results are reviewed </li> <li>A Focus Area is selected </li> <li>The team has Committed to Focus Area</li></ul>|
 |**Share results**|1. Select team members from the search box.<br>2. Use the default message or customize the message in the **Add a message** box.<br>3. Select **Share Results.**|
 
+## Sharing Team Conversations
+
+When **Team Conversations Sharing** is enabled, team members access it through a link emailed to them. The presentation looks the same as the manager's presentation but can't be edited or marked as complete. The recipient can't forward the presentation and is in read-only format.
+
+1. From their results dashboard, select **Launch Team Conversations.**
+2. Select **Get Started**.
+3. Select the **Share** button.
+4. Select **Send a Copy**.
+5. Select the **Email** option.
+6. **Add the email address(es)** for each employee the presentation is to be shared with. 
+7. Select **Send**.
+
+>[!NOTE]
+> To receive Team Conversations, the user must have access to the User Role permission **View my Surveys**.
+
 ## Team Conversations can be accessed after the conversation end date
 
 Managers with dashboard access can review Team Conversations status at any time.
 
-1. From the Glint dashboard, select the **My Surveys** tab.
+1. From the Viva Glint dashboard, select the **My Surveys** tab.
 2. There are different views within Manager Concierge:
     - If the survey is Live, Step 3 indicates **Discuss with your team**.
     - If the survey is closed, Step 3 indicates **Launch Team Conversation**. Team Conversations will generate only under these conditions:
