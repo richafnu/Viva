@@ -14,12 +14,15 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 10/14/2024
+ms.date: 02/25/2025
 ---
 
 # Allowlist information for Viva Glint
 
 Microsoft Viva Glint operates in two distinct geographical regions: the United States (US) and in the European Union (EU). Add approved domains, IP addresses, and ports, which can be different depending on your account's region, to your organization's allowlist. Viva Glint recommends that you add **full domains,** and not the specific addresses. For example, to ensure users receive invites from no-reply@glint.mail.microsoft, add **glint.mail.microsoft** to your allowed list.
+
+> [!NOTE]
+> For [multitenant organizations](glint-mto.md), allowlist updates only need to be made for tenants where the Viva Glint app is installed.
 
 ## Add email sender domains
 
@@ -29,7 +32,7 @@ Viva Glint emails come from one of the domains listed here for the US and EU. Ad
 - microsoft.com - Microsoft Email Communications
 - email1.microsoft.com - Newsletter and Product Updates
 
-#### Glint survey and system emails for the US and EU originate from:
+#### Viva Glint survey and system emails for the US and EU originate from:
 
 - **no-reply@glint.mail.microsoft**
 
@@ -81,7 +84,7 @@ Your organization may need to take steps to allow users to post and reply to que
 
 Some Viva Glint applications require the use of **third-party cookies**, like hosted learning content. Should you receive an error saying that your browser is missing an authentication cookie, take appropriate steps to allow this third-party cookie.
 
-## IP exceptions
+## SFTP IP exceptions
 
 If your organization requires an **IP exception** for Viva Glint's SFTP server, use the IP address based on your Viva Glint region (US or EU) and selected SFTP port (22 or 1122):
 
