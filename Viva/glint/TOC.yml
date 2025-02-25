@@ -170,10 +170,10 @@ items:
               href: setup/add-external-user.md
             - name: Export and import User Role members 
               href: setup/export-user-roles.md
-            - name: Delete Sser data 
+            - name: Delete user data 
               href: setup/delete-user-data.md
               items:
-                 - name: FAQs for deleting User data
+                 - name: FAQs for deleting user data
                    href: setup/delete-user-data-faq.md
             - name: Update employee IDs 
               href: setup/id-update.md             
