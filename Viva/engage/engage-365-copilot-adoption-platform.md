@@ -6,7 +6,7 @@ ms.reviewer: echan
 ms.author: donnabouldin
 author: v-rgrace
 manager: elizapo
-ms.date: 02/19/2025
+ms.date: 02/24/2025
 audience: Admin
 ms.topic: concept-article
 ms.service: viva-engage
@@ -76,22 +76,19 @@ The Copilot community experience includes the following onboarding checklist to 
 
 ## Create a new Copilot community
 
-For Viva Engage admins, the Home page displays the introductory content that describes the Copilot upgrade.   
+For Viva Engage admins, the Home page displays introductory content about the Copilot upgrade.   
 
 If your network doesn't have the Copilot community set up, and Copilot licensing is in place, take the following steps:
 
 1. Under the admin banner in Viva Engage, select **Launch early adopters**. 
 
-2. In the **Create a new community** dialog, choose the options you want, or accept their defaults. You can also add new members in this page or do so after enabling the community.
+2. In the **Create a new community** dialog, choose the options you want, or accept the defaults. You can also add new members in this page or do so after enabling the community.
 
 3. When you're finished, select **Create**.
 
-> [!NOTE]
-> Members must have the Microsoft 365 Copilot license in order to join.
-
 ### Convert an existing community to Copilot
 
-You can convert an existing community in your network to act as the Copilot community. As community members acquire the Microsoft 365 Copilot license, they appear as members in the converted community. 
+You can convert an existing community in your network to act as the Copilot community. When community members acquire the Microsoft 365 Copilot license, they appear as members in the Copilot-converted community. 
 
 > [!NOTE]
 > You can run a single community in your network as a Copilot community.
@@ -108,7 +105,7 @@ A Copilot adoption community enables its members to apply their organization's k
 
 The process helps users find what they need without producing duplicate queries. The resulting efficiency allows community admins and subject matter experts to pursue other efforts while community members get the information they seek. It also promotes more accurate and more detailed questions.
 
-## Fuel your Copilot adoption community with information resources
+## Build your Copilot adoption community with information resources
 
 Community admins can proactively address questions by uploading informational documents, like FAQs, through the [Answers Intelligent Importer](/viva/engage/eac-answers-importer). From the imported content, Intelligent Importer generates question-and-answer pairs. Admins can review and edit the output before posting.
 
