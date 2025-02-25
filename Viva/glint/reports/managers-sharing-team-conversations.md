@@ -67,7 +67,7 @@ Managers should select **View Interpretation Guide** to open the **Guidance for 
 
 Managers select **Choose a Focus Area**. A list of suggested Focus Areas generated based on feedback from their recent survey.
 
-:::image type="content" source="../../media/glint/reports/tc-choose-focus-area.png" alt-text="Screenshot of Focus Areas generated for a manager. lightbox="../../media/glint/reports/tc-choose-focus-area.png":::
+:::image type="content" source="../../media/glint/reports/tc-choose-focus-area.png" alt-text="Screenshot of Focus Areas generated for a manager." lightbox="../../media/glint/reports/tc-choose-focus-area.png":::
 
 ## Manager guidance for presenting Team Conversations 
 
