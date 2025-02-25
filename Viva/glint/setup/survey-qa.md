@@ -470,7 +470,7 @@ After reviewing your survey setup and confirming that employee data is imported 
 
 ## Launch a test survey
 
-To verify that your Viva Glint survey setup wrks as expected, launch a test survey to a group of test users, collect feedback, make updates, and delete the test survey after testing is complete. 
+To verify that your Viva Glint survey setup works as expected, launch a test survey to a group of test users, collect feedback, make updates, and delete the test survey after testing is complete. 
 
 ### Select a group of survey testers
 
@@ -507,7 +507,7 @@ Launch a test survey to your project team to confirm that emails arrive and the 
 
 ### Capture survey tester feedback
 
-Use this template to create your own log to track and resolve survey testet feedback. The first row is populated with an example.
+Use this template to create a log to track and resolve survey tester feedback. The first row is populated with an example.
 
 | Issue category |Issue | Description | Tester | Date logged | Status | Resolution |
 |:----------|:-----------|:------------|:----------|:-----------|:------------|:------------|
