@@ -173,8 +173,8 @@ items:
             - name: Delete user data 
               href: setup/delete-user-data.md
               items:
-                 - name: FAQs for deleting user data
-                   href: setup/delete-user-data-faq.md
+                - name: FAQs for deleting user data
+                  href: setup/delete-user-data-faq.md
             - name: Update employee IDs 
               href: setup/id-update.md             
       - name: Distribution Lists 
