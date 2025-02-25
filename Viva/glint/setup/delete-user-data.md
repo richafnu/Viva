@@ -63,13 +63,13 @@ Follow these steps to facilitate a [**retroactive user upload update**](/../../v
 > Glint 360 responses are also deleted with these requests.
 
 > [!NOTE]
-> Should a deleted user be *reinstated*, their data needs to be uploaded as if they are a new employee. No previous data is stored once deleted.
+> Should a deleted user be *reinstated*, their data needs to be uploaded as if they're a new employee. No previous data is stored once deleted.
 
 ## Employee IDs reuse control
 
 Glint Admins, as data controllers, can reuse employee IDs and reassign them to new or rehired employees. They can choose to either: 
 
 1. Exclude data associated with employee IDs of previously removed employees from uploads, or
-2. Update the already deleted records with the status provided in the HRIS file.
+2. Update the already deleted records with the status provided in the Human Resources Information System (HRIS) file.
 
 This configuration is set at the platform level, applies to all records equally, and excludes data by default (option 1). [Learn more](/../../viva/glint/setup/manage-general-settings#user-data).
