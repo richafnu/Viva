@@ -19,7 +19,7 @@ ms.date: 2/25/2025
 
 # Managers using Viva Glint Team Conversations
 
-Managers use a Microsoft Viva Glint Team Conversations Presentation Kit to launch, send, and present feedback and solutions to their team. Team Conversations help managers have a meaningful conversation that moves their team forward to achieve organizational goals. Team Conversations must be enabled for the program in **General Settings**.
+Managers use a Microsoft Viva Glint Team Conversations Presentation Kit to launch, send, and present feedback and solutions to their team. Team Conversations help managers have a meaningful conversation that moves their team forward to achieve organizational goals. Team Conversations must be enabled for the program in **General Settings**. Admins provide the Team Conversations dashboard experience for managers when setting up surveys.
 
 Watch and share this 3-minute video:
 [Propelling Action Through Team Conversations](https://www.microsoft.com/en-us/videoplayer/embed/RE5fHQ2?postJsllMsg=true)
@@ -28,7 +28,7 @@ Watch and share this 3-minute video:
 
 To view the 4-step Manager Concierge - the Team Conversations Presentation Kit guide - as a manager sees it, choose a manager with Team Conversations permissions from the **People feature** on your manager dashboard. Select **View As**.
 
-In this fictious example, our manager's name is Aisha. They see this on their Viva Glint dashboard:
+In this fictious example, our manager's name is Aisha. They see this Viva Glint dashboard:
 
 :::image type="content" source="../../media/glint/reports/4-step-manager-dashboard.png" alt-text="Screenshot of the 4-step Team Conversations guide for managers.":::
 
@@ -86,14 +86,14 @@ Team Conversations covers the following, in your preselected terminology:
 |Slide|Process|
 |------|-------|
 |**Choose a Focus Area**|1. Select an **Opportunity** with your team from the choices available.<br>2. Select **Choose** next to the Opportunity your team agrees to work on.<br>3. Use the **Remove** option to change the selection. Focus Areas can also be chosen from the **Strengths** tab and **Other** tab, which includes actionable items that aren't part of the top three Strengths & Opportunities (S&O) list.<br>|
-|**Steps Forward**|The Focus Area selected is added to this slide. Add Action Items to support the effort. Glint provides Suggested Actions for your consideration. Select **+ Add Action Item** to add it to your plan. Multiple items may be added.|
+|**Steps Forward**|The Focus Area selected is added to this slide. Add Action Items. Viva Glint provides Suggested Actions for your consideration. Select **+ Add Action Item** to add it to your plan. Multiple items may be added.|
 |**Summary Section**|When the conversation is shared with the team, the manager should **Mark as Done**. Changes can be made later.|
 
 ## Actions to take after Team Conversations is set up
 
 |Action|Process|
 |------|-------|
-|**Use the recap window**|Displays where you are in your conversation. Check marks indicate when: <br> <ul><li>Results are reviewed </li> <li>A Focus Area is selected </li> <li>The team has Committed to Focus Area</li></ul>|
+|**Use the recap window**|Displays where you are in your conversation. Check marks indicate when: <br> <ul><li>Results are reviewed </li> <li>A Focus Area is selected </li> <li>The team is recorded as **Committed to Focus Area**</li></ul>|
 |**Share results**|1. Select team members from the search box.<br>2. Use the default message or customize the message in the **Add a message** box.<br>3. Select **Share Results.**|
 
 ## Sharing Team Conversations
@@ -118,7 +118,7 @@ Managers with dashboard access can review Team Conversations status at any time.
 1. From the Viva Glint dashboard, select the **My Surveys** tab.
 2. There are different views within Manager Concierge:
     - If the survey is Live, Step 3 indicates **Discuss with your team**.
-    - If the survey is closed, Step 3 indicates **Launch Team Conversation**. Team Conversations will generate only under these conditions:
+    - If the survey is closed, Step 3 indicates **Launch Team Conversation**. Team Conversations generates only under these conditions:
         1. The cycle is closed
         2. The role has Live access
         3. The role's Team Conversations permission is enabled
