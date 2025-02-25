@@ -368,8 +368,10 @@ items:
             href: reports/team-conversations-content-cusomization.md 
       - name: Review surveys before launch
         items:
-          - name: Review surveys before launch
-            href: setup/survey-qa.md    
+          - name: Check admin survey setup before launch
+            href: setup/survey-qa.md
+          - name: Review a test survey before launch
+            href: setup/survey-testing.md
           - name: Preview data in reports
             href: setup/preview-demo-reporting.md
           - name: Preview, enable, and prepare to launch surveys
