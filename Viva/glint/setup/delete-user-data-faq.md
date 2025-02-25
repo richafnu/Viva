@@ -1,6 +1,6 @@
 ---
 title: FAQs for deleting user data
-description: In order to comply with a General Data Protection Regulation (GDPR) data subject request, a Microsoft Viva Glint administrator can delete User data from the platform.
+description: A Microsoft Viva Glint administrator can delete user data from the platform in such a manner that complies with Microsoft standards. 
 ms.author: JudithWeiner
 author: JudyWeiner
 manager: mbarry
@@ -19,6 +19,8 @@ ms.date: 02/25/2025
 ---
 
 # FAQs for deleting user data
+
+A Microsoft Viva Glint administrator can delete user data from the platform in such a manner that complies with Microsoft standards. 
 
 **Q: When will user records be deleted from Viva Glint?**
 **A:** When Viva Glint receives the delete signal from a Data Subject Request (DSR) or Microsoft Entra ID for a user, they're not immediately deleted. A user's employee record is in a soft-deleted state in accordance with [Microsoft's data handling standards](https://learn.microsoft.com/compliance/assurance/assurance-data-retention-deletion-and-destruction-overview). During this period, the employee record may be modified from its soft-deleted state and updated to the status provided in the Human Resource Information System (HRIS) file per the client's User Data control setting at **Disregard Employee IDs** of previously deleted employees. After this period, all data related to the employee is permanently deleted in alignment with the client's User Data control settings at **Delete survey data for deleted users.** 
