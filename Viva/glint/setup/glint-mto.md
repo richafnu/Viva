@@ -33,7 +33,7 @@ Multitenant organization (MTO) is a Microsoft 365 feature that enables your comp
 
 Select a step to jump to instructions for a specific part of multitenant organization setup for Viva Glint. 
 
-|:::image type="icon" source="/office/media/icons/task-list-planning-blue.png" ::: |[Plan for MTO](#plan-for-mto)| :::image type="icon" source="/office/media/icons/administrator.png" ::: |[Set up MTO](#set-up-mto)| :::image type="icon" source="/office/media/icons/migration-blue.png" ::: |[Sync users](#sync-users) |:::image type="icon" source="/office/media/icons/users-people.png" ::: |[Import users from all tenants to the Viva Glint app](#import-users-from-all-tenants-to-the-glint-app) |
+|:::image type="icon" source="/office/media/icons/task-list-planning-blue.png" ::: |[Plan for MTO](#plan-for-mto)| :::image type="icon" source="/office/media/icons/administrator.png" ::: |[Set up MTO](#set-up-mto)| :::image type="icon" source="/office/media/icons/migration-blue.png" ::: |[Sync users](#sync-users) |:::image type="icon" source="/office/media/icons/users-people.png" ::: |[Import users from all tenants to the Viva Glint app](#import-users-from-all-tenants-to-the-viva-glint-app) |
 |:---|:---|:---|:---|:---|:---|:---|:---|
 
 ### Plan for MTO
