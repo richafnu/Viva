@@ -481,11 +481,12 @@ items:
                 href: reports/managers-use-team-summary-dashboard.md
   - name: Take action as a manager
     items:
-      - name: The ACT framework and Team Conversations
-        href: reports/take-action-team-conversations.md
-      - name: Use Team Conversations
+      - name: Managers using Team Conversations
         href: reports/managers-sharing-team-conversations.md
-      - name: Create Focus Areas
+        items:
+           - name: The ACT framework and Team Conversations
+             href: reports/take-action-team-conversations.md
+      - name: Managers Creating Focus Areas
         href: setup/focus-areas-managers-creating.md      
   - name: Viva integrations
     items:
