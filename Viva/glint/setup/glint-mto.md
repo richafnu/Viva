@@ -14,37 +14,40 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 09/23/2024
+ms.date: 02/25/2025
 ---
 
 # Set up Viva Glint for a multitenant organization
 
-Multitenant organization (MTO) is a Microsoft 365 feature that enables your company to form a tenant group in your organization. MTO allows users in a tenant group to access an instance of Microsoft Viva Glint installed in only one tenant. Glint admins can survey and grant report access to employees across the tenant group for an organization-wide view of employee sentiment. Use the guidance in this article to learn more about multitenant organization setup, syncing users between tenants, and ensuring all users exist in the Glint application. [Learn more about MTO](/entra/identity/multi-tenant-organizations/multi-tenant-organization-overview).
+Multitenant organization (MTO) is a Microsoft 365 feature that enables your company to form a tenant group in your organization. MTO allows users in a tenant group to access an instance of Microsoft Viva Glint installed in only one tenant. Viva Glint Administrators can survey and grant report access to employees across the tenant group for an organization-wide view of employee sentiment. Use the guidance in this article to learn more about multitenant organization setup, syncing users between tenants, and ensuring all users exist in the Viva Glint application. [Learn more about MTO](/entra/identity/multi-tenant-organizations/multi-tenant-organization-overview).
 
 #### Terminology
 
-- **Target tenant:** The tenant where Glint is installed and where the Microsoft 365 global admin sets up an MTO policy. 
-- **Source tenant:** Any other tenants with users that access Glint in the target tenant.
+- **Target tenant:** The tenant where Viva Glint is installed and where the Microsoft 365 global admin sets up an MTO policy. 
+- **Source tenant:** Any other tenants with users that access Viva Glint in the target tenant.
+
+> [!NOTE]
+> [Allowlist updates](allowed-list.md) only need to be made to target tenants where the Viva Glint app is installed.
 
 ### Get started
 
 Select a step to jump to instructions for a specific part of multitenant organization setup for Viva Glint. 
 
-|:::image type="icon" source="/office/media/icons/task-list-planning-blue.png" ::: |[Plan for MTO](#plan-for-mto)| :::image type="icon" source="/office/media/icons/administrator.png" ::: |[Set up MTO](#set-up-mto)| :::image type="icon" source="/office/media/icons/migration-blue.png" ::: |[Sync users](#sync-users) |:::image type="icon" source="/office/media/icons/users-people.png" ::: |[Import users from all tenants to the Glint app](#import-users-from-all-tenants-to-the-glint-app) |
+|:::image type="icon" source="/office/media/icons/task-list-planning-blue.png" ::: |[Plan for MTO](#plan-for-mto)| :::image type="icon" source="/office/media/icons/administrator.png" ::: |[Set up MTO](#set-up-mto)| :::image type="icon" source="/office/media/icons/migration-blue.png" ::: |[Sync users](#sync-users) |:::image type="icon" source="/office/media/icons/users-people.png" ::: |[Import users from all tenants to the Viva Glint app](#import-users-from-all-tenants-to-the-glint-app) |
 |:---|:---|:---|:---|:---|:---|:---|:---|
 
 ### Plan for MTO
 
-Meet internally with your MTO stakeholders, review requirements, and consider Glint survey access methods to plan for your MTO setup.
+Meet internally with your MTO stakeholders, review requirements, and consider Viva Glint survey access methods to plan for your MTO setup.
 
 > [!NOTE]
-> Multiple installations of Glint on one tenant aren’t currently supported.
+> Multiple installations of Viva Glint on one tenant aren’t currently supported.
 
 | :::image type="icon" source="/office/media/icons/task-list-planning-blue.png" ::: |Step<br> <br> _roles involved_| More information |
 |:---|:---|:---|
-|:::image type="icon" source="/office/media/icons/meeting.png" ::: | **Meet with stakeholders** <br> <br>_Microsoft 365 global admin_ <br> <br>_Viva Glint admin_ <br> <br>_IT team members_ <br> <br>_Glint project team members_| Determine:<br> <br> <ul><li>How many tenants your organization uses</li> <li>Whether employees exist in different tenants</li> <li>What your Glint survey needs are across different tenants and employee populations</li> <li>How you currently use Glint for organization-wide surveys</li></ul>|
-| :::image type="icon" source="/office/media/icons/compliance-blue.png" ::: | **Review requirements** <br> <br>_Microsoft 365 global admin_ | <ul><li>All tenants exist in the same cloud</li><li>All tenants use Microsoft Entra ID </li><li>Glint is installed in one tenant where all Glint licenses used in the MTO are purchased (regardless of the home tenant of the user)</li> <li>[Target and source tenant prerequisites](https://go.microsoft.com/fwlink/?linkid=2282429)</li><li>[License requirements](https://go.microsoft.com/fwlink/?linkid=2282509)<li>[Learn about MTO limitations](/entra/identity/multi-tenant-organizations/multi-tenant-organization-known-issues)</li> </ul>|
-|:::image type="icon" source="/office/media/icons/users-settings.png" ::: | **Determine survey access methods and users to sync** <br> <br>_Viva Glint admin_ <br> <br>_Glint project team_ | <ul><li>**Authentication with Microsoft Entra ID**<br> _Survey takers must exist in Entra and in the Glint app_ <br></li> <li>**Personalized links**<br> _Survey takers need to exist in the Glint app only_ <br></li> <li>**Attribute-based survey access**<br> _Survey takers need to exist in the Glint app only_</li> <li>[Learn more about Glint survey access methods](/viva/glint/setup/understand-survey-access-methods)</li></ul><br> **All users that access survey results must exist in Entra**|
+|:::image type="icon" source="/office/media/icons/meeting.png" ::: | **Meet with stakeholders** <br> <br>_Microsoft 365 global admin_ <br> <br>_Viva Glint admin_ <br> <br>_IT team members_ <br> <br>_Viva Glint project team members_| Determine:<br> <br> <ul><li>How many tenants your organization uses</li> <li>Whether employees exist in different tenants</li> <li>What your Viva Glint survey needs are across different tenants and employee populations</li> <li>How you currently use Viva Glint for organization-wide surveys</li></ul>|
+| :::image type="icon" source="/office/media/icons/compliance-blue.png" ::: | **Review requirements** <br> <br>_Microsoft 365 global admin_ | <ul><li>All tenants exist in the same cloud</li><li>All tenants use Microsoft Entra ID </li><li>Viva Glint is installed in one tenant where all Viva Glint licenses used in the MTO are purchased (regardless of the home tenant of the user)</li> <li>[Target and source tenant prerequisites](https://go.microsoft.com/fwlink/?linkid=2282429)</li><li>[License requirements](https://go.microsoft.com/fwlink/?linkid=2282509)<li>[Learn about MTO limitations](/entra/identity/multi-tenant-organizations/multi-tenant-organization-known-issues)</li> </ul>|
+|:::image type="icon" source="/office/media/icons/users-settings.png" ::: | **Determine survey access methods and users to sync** <br> <br>_Viva Glint admin_ <br> <br>_Viva Glint project team_ | <ul><li>**Authentication with Microsoft Entra ID**<br> _Survey takers must exist in Entra and in the Glint app_ <br></li> <li>**Personalized links**<br> _Survey takers need to exist in the Viva Glint app only_ <br></li> <li>**Attribute-based survey access**<br> _Survey takers need to exist in the Viva Glint app only_</li> <li>[Learn more about Glint survey access methods](/viva/glint/setup/understand-survey-access-methods)</li></ul><br> **All users that access survey results must exist in Entra**|
 
 > [!TIP]
 > See [Viva Glint for a multitenant organization FAQ](mto-faq.md) for answers to commonly asked MTO, cross-tenant sync, and B2B collaboration questions.
@@ -76,7 +79,7 @@ There are two options to sync users for MTO and Viva Glint: B2B collaboration or
 > Cross-tenant synchronization is recommended and offers a more automated and streamlined user sync method.
 
 > [!IMPORTANT]
-> - If your organization already has cross-tenant synchronization set up for users that need to access Glint in the target tenant, skip this step.
+> - If your organization already has cross-tenant synchronization set up for users that need to access Viva Glint in the target tenant, skip this step.
 > - If your organization uses [B2B direct connect](/entra/external-id/b2b-direct-connect-overview), accounts for source tenant users aren't created in the target tenant. Cross-tenant synchronization is still needed to sync users and doesn't affect any existing B2B direct connect setups. 
 
 | :::image type="icon" source="/office/media/icons/migration-blue.png" ::: |Sync option <br> <br> _roles involved_| More information |
@@ -85,14 +88,14 @@ There are two options to sync users for MTO and Viva Glint: B2B collaboration or
 |:::image type="icon" source="/office/media/icons/upload-blue.png" ::: | **Option 2: B2B collaboration** <br> <br>_Target tenant Microsoft 365 global admin_ <br> <br>_Source tenant Microsoft 365 global admin_ | <ol><li>**Optional:** In the target and source tenants, [confirm that autoredemption is selected in cross-tenant access settings](https://go.microsoft.com/fwlink/?linkid=2282349)</li><li>As the target tenant admin, [prepare a comma-separated value (.csv) file with user information](https://go.microsoft.com/fwlink/?linkid=2282050)</li> <li>As the target tenant admin, [upload the file to Microsoft Entra ID](https://go.microsoft.com/fwlink/?linkid=2282051)</li><li>As the target tenant admin, [confirm that users are added to the directory](https://go.microsoft.com/fwlink/?linkid=2282052)</li></ol>|
 
 
-### Import users from all tenants to the Glint app
+### Import users from all tenants to the Viva Glint app
 
-To successfully access surveys and results, all users need to be imported to the Glint application, regardless of their home tenant. Glint offers two methods to import users:
+To successfully access surveys and results, all users need to be imported to the Viva Glint application, regardless of their home tenant. Viva Glint offers two methods to import users:
 
 | :::image type="icon" source="/office/media/icons/users-people.png" ::: |Import method <br> <br> _roles involved_| More information|
 |:---|:---|:---|
 |:::image type="icon" source="/office/media/icons/database.png" ::: | **Secure File Transfer Protocol (SFTP)** <br> <br>_Viva Glint admin_ <br> <br>_HR information system team_| <ul><li>[SFTP and data automation](/viva/glint/setup/sftp-data-automation)</li></ul> |
-|:::image type="icon" source="/office/media/icons/files-blue.png" ::: | **People page import** <br> <br>_Viva Glint admin_ | <ul><li>[People page import in the Glint platform](/viva/glint/setup/upload-employee-attributes)</li> </ul>|
+|:::image type="icon" source="/office/media/icons/files-blue.png" ::: | **People page import** <br> <br>_Viva Glint admin_ | <ul><li>[People page import in the Viva Glint platform](/viva/glint/setup/upload-employee-attributes)</li> </ul>|
 
 ### Related resources
 
