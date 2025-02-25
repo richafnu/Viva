@@ -172,6 +172,9 @@ items:
               href: setup/export-user-roles.md
             - name: Delete user data 
               href: setup/delete-user-data.md
+              items:
+                - name: FAQs for deleting user data
+                  href: setup/delete-user-data-faq.md
             - name: Update employee IDs 
               href: setup/id-update.md             
       - name: Distribution Lists 
@@ -365,8 +368,10 @@ items:
             href: reports/team-conversations-content-cusomization.md 
       - name: Review surveys before launch
         items:
-          - name: Review surveys before launch
-            href: setup/survey-qa.md    
+          - name: Check admin survey setup before launch
+            href: setup/survey-qa.md
+          - name: Review a test survey before launch
+            href: setup/survey-testing.md
           - name: Preview data in reports
             href: setup/preview-demo-reporting.md
           - name: Preview, enable, and prepare to launch surveys
@@ -478,11 +483,12 @@ items:
                 href: reports/managers-use-team-summary-dashboard.md
   - name: Take action as a manager
     items:
-      - name: The ACT framework and Team Conversations
-        href: reports/take-action-team-conversations.md
-      - name: Use Team Conversations
+      - name: Managers using Team Conversations
         href: reports/managers-sharing-team-conversations.md
-      - name: Create Focus Areas
+        items:
+           - name: The ACT framework and Team Conversations
+             href: reports/take-action-team-conversations.md
+      - name: Managers Creating Focus Areas
         href: setup/focus-areas-managers-creating.md      
   - name: Viva integrations
     items:
