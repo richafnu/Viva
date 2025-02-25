@@ -13,7 +13,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 02/24/2025
+ms.date: 02/25/2025
 ---
 
 # Review Viva Glint settings and survey programs before launch
@@ -468,7 +468,11 @@ After reviewing your survey setup and confirming that employee data is imported 
 > [!IMPORTANT]
 > The Generate Report Preview option is only available for Recurring and Ad Hoc survey types.
 
-## Select a group of survey testers
+## Launch a test survey
+
+To verify that your Viva Glint survey setup wrks as expected, launch a test survey to a group of test users, collect feedback, make updates, and delete the test survey after testing is complete. 
+
+### Select a group of survey testers
 
 At least two to three weeks before launching your first Viva Glint survey, conduct testing with a group of users on your project team. Include your Viva Glint core project team and any stakeholders who should provide approval for the survey. For complex setups and surveys with multiple translations, involve testers who can validate all languages selected.
 
@@ -482,7 +486,7 @@ Provide instructions for users on items that you want them to focus on, includin
 - question targeting they should confirm (if applicable)
 - question display logic (if applicable)
 
-## Launch a test survey
+### Set up a test survey
 
 Launch a test survey to your project team to confirm that emails arrive and the survey-taking experience appears as expected. To set up a test survey:
 
@@ -500,6 +504,17 @@ Launch a test survey to your project team to confirm that emails arrive and the 
 1. Go to the **Communications** section to confirm timing and invites/reminders are selected for your test survey's **Response Window**.
 1. [Approve and Enable](preview-manage-enable-engage-programs.md) your test survey.
 2. Collect feedback from survey testers and update your survey setup based on feedback.
+
+### Capture survey tester feedback
+
+Use this template to create your own log to track and resolve survey testet feedback. The first row is populated with an example.
+
+| Issue category |Issue | Description | Tester | Date logged | Status | Resolution |
+|:----------|:-----------|:------------|:----------|:-----------|:------------|:------------|
+| Email | Email went to junk | Viva Glint survey invite went to Junk folder instead of inbox | Test User | January 13, 2025 | Resolved | Worked with IT to update allowlist |
+|  |  |  |  |  |  |  |
+|  |  |  |  |  |  |  |
+|  |  |  |  |  |  |  |
 
 ### Delete a test survey
 
