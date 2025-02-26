@@ -49,8 +49,8 @@ There are two enablement options to consider on this page:
 
 Indicate how many days the Team Conversations Window should remain open for. This drives the reminder schedule for Team Conversations. Even after the Team Conversation window closes users can still access their Team Conversation via My Surveys. Once set, the program indicates the conversation start and end date scheduled and how many days remain. 
 
->[!TIP]
->The default response window is 28 days, although the window can be set for up to 180 days. Response window refers to the number of days the survey is open to responders and is not specific to Team Conversations.  
+> [!TIP]
+> The default response window is 28 days, although the window can be set for up to 180 days. Response window refers to the number of days the survey is open to responders and isn't specific to Team Conversations.  
 
 ### Reporting page 
 
@@ -78,7 +78,7 @@ Emails send if these circumstances are met:
 - A User Role moved to live access at least seven days ago
 - The survey close date is within the last 45 days
 
-Emails won't send under these circumstances:
+Emails don't send under these circumstances:
  
 - Team Conversations is OFF
 - The cycle is open 
@@ -117,7 +117,7 @@ Edit and preview by selecting **Edit**. Edits made to notifications are only for
 
 ### Conversation Reminders 
 
-Reminders schedule when the User Role group gets Live access. If admins grant live access to roles at different times, their Team Conversations reminders are on different schedules. The Conversation Start email can be turned on or off until the day it's sent but not after the start of the Team Conversations. An existing Reminder email (before the Conversation End date) can be deleted or modified until the day before the last group of users is scheduled to receive it. 
+Reminders schedule when the User Role group gets Live access. If admins grant live access to roles at different times, their Team Conversations reminders are on different schedules. The Conversation Start email can be turned on or off until the day it sends but not after the start of the Team Conversations. An existing Reminder email (before the Conversation End date) can be deleted or modified until the day before the last group of users is scheduled to receive it. 
 
 Reminders:
 
@@ -128,7 +128,7 @@ Reminders:
 
 ### Conversation Summary Notification
 
-This is an optional email that managers can send to their team before and/or after a conversation when Team Conversations sharing is enabled in Program Setup.
+This email is an optional message that managers can send to their team before and/or after a conversation when Team Conversations sharing is enabled in Program Setup.
 
 - Can only be enabled or disabled
 - Can be sent in any language enabled for the survey
