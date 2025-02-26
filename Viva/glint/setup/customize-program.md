@@ -21,15 +21,15 @@ ms.date: 2/26/2025
 
 Use prepopulated or blank templates to set up your feedback program. Customize as you like. Use our best design principles and guidance to ensure you have the right program for the people targeted in your organization. 
 
-## Watch this 5-minute video on Best Practice Survey Design Principles:
+## Watch this 5-minute video on Best Practice Survey Design Principles
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RW17rE8]
 
-A well-designed survey asks questions that are relevant to the employee experience, aligns with your company's strategic priorities, and elicits candid and actionable feedback. Learn what the Microsoft Viva People Science research has to share about creating a great survey. [Read this eBook about Viva Glint survey design principles](https://adoption.microsoft.com/files/viva/glint/Survey-design-principles-with-Microsoft-Viva-Glint.pdf)
+A well-designed survey asks questions that are relevant to the employee experience, aligns with your company's strategic priorities, and elicits candid and actionable feedback. Learn what the Microsoft Viva People Science research has to share about creating a great survey. [Read this eBook about Viva Glint survey design principles](https://adoption.microsoft.com/files/viva/glint/Survey-design-principles-with-Microsoft-Viva-Glint.pdf).
 
 ## Use the Holistic Listening Vision and Strategy Discovery Workbook 
 
-**Articulate your business priorities and needs.** Take time to align with your internal stakeholders to build your employee listening strategy and to design a program that reflects the needs of your organization,  
+**Articulate your business priorities and needs.** Take time to align with your internal stakeholders to build your employee listening strategy and to design a program that reflects the needs of your organization.  
 
 Download and complete the [Holistic Listening Vision and Strategy Discovery Workbook](https://www.microsoft.com/download/details.aspx?id=106205). This workbook helps you articulate critical business information, which is important to consider alongside your listening strategy and also to track the progress of your goals over time. 
 
