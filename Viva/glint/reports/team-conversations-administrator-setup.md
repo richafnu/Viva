@@ -11,8 +11,7 @@ ms.collection:
 - m365initiative-viva
 - selfserve 
 search.appverid: MET150 
-ms.topic: article![image](https://github.com/user-attachments/assets/2e559fe8-ea01-475b-bda4-5d40f0ffba25)
-
+ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
 ms.date: 02/26/2025
