@@ -37,12 +37,12 @@ Download and complete the [Holistic Listening Vision and Strategy Discovery Work
 
 ### Viva Glint program and cycle cadence
 
-Different needs should determine the cadence of your Viva Glint programs and cycles. Consider other survey programs already in place. Too many surveys simultaneously influence whether you can act on feedback in a timely, meaningful manner. If you have an annual engagement program in place, consider shift the pulse frequency from annual to semi-annual to quarterly over time allowing you to make the necessary process, organizational, and leadership mindset changes needed to maximize the benefits of a more frequent pulsing cycle.
+Different needs should determine the cadence of your Viva Glint programs and cycles. Consider other survey programs already in place. Too many surveys simultaneously influence whether you can act on feedback in a timely, meaningful manner. Alternately, consider shifting an annual engagement program from annual to semi-annual or even to quarterly. More frequent surveys allow you to make necessary process and leadership mindset changes needed to maximize the benefits of feedback.
 
 **Consider fatigue!**
 - **Survey fatigue:** Most people want to give constructive feedback and want it to be easy. Keep surveys short, relevant, and easy to use. Take quick and visible action on the feedback.
-- **Leader fatigue:** People have a lot on their plates. Set the expectation that leaders and teams use feedback to help them focus their existing efforts. Can they support each other in better ways to help them achieve their goals?. 
-- **HR fatigue:** Human Resources (HR) can be overwhelmed with requests for help understanding and using the survey results. Viva Glint's prescribed content resources for taking action on Focus Areas are easily added to manager action plans.
+- **Leader fatigue:** People have a lot on their plates. Set the expectation that leaders and teams use feedback to help them focus their existing efforts. Can they support each other in better ways to help them achieve their goals?
+- **HR fatigue:** Human Resources (HR) can be overwhelmed with requests for help to understand and use survey results. Viva Glint's prescribed resources for taking action on Focus Areas are easily added to manager action plans.
 
 > [!NOTE]
 > The Blank recurring survey template doesn't support adding cycles, so plan accordingly.
