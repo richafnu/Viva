@@ -76,7 +76,7 @@ Select sections by scrolling through the tabs in the slider window. Add or delet
 
 Viva Glint suggests using both prescriptive and representative comments when reviewing your Comments report.
 
-- **Prescriptive comments** are identified by **Narrative Intelligence**, which offers specific actionable suggestions for improvement in a Focus Area. You can access deep insights from Narrative Intelligence. Continuous listening as part of ongoing conversations, and developing Focus Areas with your teams leads to identifying the most appropriate actions to improve employee engagement and business goals.
+- **Prescriptive comments** are identified by **Narrative Intelligence**, which offers specific actionable suggestions for improvement in a Focus Area. You can access deep insights from Narrative Intelligence. Continuous listening as part of ongoing conversations, and developing Focus Areas with your teams lead to identifying the most appropriate actions to improve employee engagement and business goals.
 
 - **Representative Comments** represent overall themes are isolated and shown together. You only need to read a few to get a sense of the whole.
 
