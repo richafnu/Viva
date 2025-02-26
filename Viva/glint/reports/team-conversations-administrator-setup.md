@@ -14,7 +14,7 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 06/20/2024
+ms.date: 02/26/2025
 ---
 
 # Admin setup for Viva Glint Team Conversations
@@ -123,6 +123,7 @@ Reminders begin when the User Role group gets Live access. This may be different
 
 ### Conversation Summary Notification 
 
+- Only appears when Team Converstions Sharing is enabled in Program Setup
 - Can only be enabled or disabled, no date changes 
 - Broader Team Insights (BTI) links appear when appropriate 
 - Can be sent in any language enabled for the survey 
