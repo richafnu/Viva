@@ -20,11 +20,11 @@ ms.date: 2/26/2025
 # Use Viva Glint’s Comments report 
 
 The Comments report is your window into Microsoft Viva Glint's Narrative Intelligence technology, which helps managers interpret comment data by highlighting important topic areas, sentiment analysis, and keywords. 
-Reviewing comments allows managers to gain further insights into their results. Comments provide helpful context around scores you're exploring. When a comment count is present, select it to view it and interact with Viva Glint’s full Narrative Intelligence experience. Comments can be viewed by demographic or survey item. 
+Reviewing comments allows managers to gain further insights into their results. Comments provide helpful context around scores you're exploring. When a comment count is present, select it to view it and interact with Viva Glint’s full Narrative Intelligence experience. Comments are available by demographic group or survey item. 
 
 ## Access the Comments dashboard
 
-The Comments report, for those with comments permission, is accessed from the Viva Glint dashboard by selecting the **Reports** tab and then **Comments**.
+The Comments report is accessed from the Viva Glint dashboard by selecting the **Reports** tab and then **Comments**.
 
 The Comments report is divided into sections. **Overview** displays by default.
 
@@ -64,7 +64,7 @@ Hover over a topic bubble for more information about sentiment or favorability. 
 ## Add sections to the Comments report
 In the **Comments** section, you can view all comments or see them by category. 
 
-There are two ways to add additional sections:
+There are two ways to add sections:
 - Select the **+ Add section** button, or
 - Use the **More** dropdown menu and choose **+ Add Section**
 
@@ -76,7 +76,7 @@ Select sections by scrolling through the tabs in the slider window. Add or delet
 
 Viva Glint suggests using both prescriptive and representative comments when reviewing your Comments report.
 
-- **Prescriptive comments** are those identified by **Narrative Intelligence**, which offers specific actionable suggestions for improvement in a Focus Area. You can access deep insights from Narrative Intelligence. Continuous listening as part of ongoing conversations, and developing Focus Areas with your teams leads to identifying the most appropriate actions to improve employee engagement and business goals.
+- **Prescriptive comments** are identified by **Narrative Intelligence**, which offers specific actionable suggestions for improvement in a Focus Area. You can access deep insights from Narrative Intelligence. Continuous listening as part of ongoing conversations, and developing Focus Areas with your teams leads to identifying the most appropriate actions to improve employee engagement and business goals.
 
 - **Representative Comments** represent overall themes are isolated and shown together. You only need to read a few to get a sense of the whole.
 
@@ -87,7 +87,7 @@ You may redact terms flagged as Personally Identifiable Information (PII) or as 
 - Select **Un-Redact All** to replace ##### with the original comments.
 - Use the **vertical ellipses** next to an individual comment to select **Redact** or **Un-Redact**.
 
-Follow this process to redact or quarantine:
+To redact or quarantine, follow this process:
 1. Select the **ellipses** next to the comment. 
 2. By selecting **Quarantine**, the comment is visible only to admins with **Manage Sensitive Comments** capability. Comments may be unquarantined. 
 
