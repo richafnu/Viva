@@ -2405,6 +2405,12 @@
     "source_path": "viva/glint/setup/360-report-access-timing.md",
     "redirect_url": "/viva/glint/setup/360-competencies",
     "redirect_document_id": true
+  },
+  { 
+   "source_path": "viva/glint/setup/survey-coach.md",
+   "redirect_url": "/viva/glint/setup/program-summary-coaching",
+   "redirect_document_id": true
   }
-    ]
+    
+  ]
 }
