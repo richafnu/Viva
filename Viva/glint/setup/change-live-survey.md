@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 2/24/2025
+ms.date: 2/27/2025
 ---
 
 # Make changes to a live Viva Glint survey
@@ -174,7 +174,7 @@ Live Communications edits only apply when made at the cycle level.
 |   Topic   |   Scenario   |   Considerations   |
 | --- | --- | --- |
 | **Manager hierarchies** | Your reporting displays incorrect leadership hierarchies due to errors in your Employee Attribute File. | Change only after the close of the survey window. |
-| **Add bulk survey participants** | An extra group of employees needs to be added to the platform. | Submit a delta file of the employees to be added. Then, manually send them the survey invite from within the **People** configuration page. |
+| **Add bulk survey participants** | An extra group of employees needs to be added to the platform. | Identify the employees to be added. Then, manually send them the survey invite from within the **People** configuration page. |
 | **Add users not in the Distribution List** | Employees outside of the Distribution List need to be included. | From the admin Configuration dashboard, select the **People** feature, then **Employee**, then **Action**, then **Send Survey**. |
 | **Email timing** | You want to adjust the time emails are sent. | Adjust timing at the cycle level only and consider the user time zones. |
 
