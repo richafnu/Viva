@@ -1,5 +1,5 @@
 ---
-title: Set up a Viva Glint Always-On Feedback survey
+title: Set up a Viva Glint Always-On feedback survey
 description: Microsoft Viva Glint Always-On Feedback surveys provide insight on any topic, at any time, from any group of people in your organization.
 ms.author: JudithWeiner
 author: JudyWeiner
@@ -17,9 +17,9 @@ ms.localizationpriority: high
 ms.date: 02/25/2025
 ---
 
-# Set up a Viva Glint Always-On Feedback survey
+# Set up a Viva Glint Always-On feedback survey
 
-Microsoft Viva Glint Always-On Feedback surveys provide insight on any topic, at any time, from any group of people in your organization. Different than scheduled or recurring programs, Always-On surveys are always open and ready for users to provide insights in real time. Ideally, Always-On surveys are quick and easy to complete. Keep surveys under five minutes. In fact, they should take no longer than three minutes to complete.
+Microsoft Viva Glint Always-On feedback surveys provide insight on any topic, at any time, from any group of people in your organization. Different than scheduled or recurring programs, Always-On surveys are always open and ready for users to provide insights in real time. Ideally, Always-On surveys are quick and easy to complete. Keep surveys under five minutes. In fact, they should take no longer than three minutes to complete.
 
 ## Potential use cases
 
@@ -67,7 +67,7 @@ To create a new Always-On survey:
 8. Enable your Always-On survey when you're ready to make it available to your organization.
    1. Use the toggle at the top of the page to switch the survey to **Approved**.
    2. Hover over the survey card on the left and select **Enable Survey**.
-   3. Select **Yes, enable the survey** in the **Enable Survey** dialog that appears. The survey card on the left changes from gray to blue and displays response rate as users submit surveys.
+   3. Select **Yes, enable the survey** in the **Enable Survey** dialog. The survey tile changes from gray to blue and displays response rate as users submit surveys.
 
 > [!IMPORTANT]
 > After an Always-On survey is enabled for the first time, Viva Glint admins can make edits by switching the Approved toggle off. When an admin reapproves the survey in the future, the survey **auto-enables**.
