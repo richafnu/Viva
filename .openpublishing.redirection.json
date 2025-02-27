@@ -2316,11 +2316,6 @@
     "redirect_url": "/viva/glint/introduction-viva-glint",
     "redirect_document_id":false
   },
-  {  
-    "source_path": "viva/glint/setup/360-report-access-timing.md",
-    "redirect_url": "/viva/glint/360-roles-permissions",
-    "redirect_document_id":false
-  },
   { 
     "source_path": "viva/engage/configure-your-viva-engage-network/deprecation-of-basic-freemium-networks.md",
     "redirect_url": "/viva/engage/overview",
@@ -2369,11 +2364,6 @@
   {
     "source_path": "viva/glint/people-science/patient-safety.md",
     "redirect_url": "/viva/glint/setup/patient-safety-survey",
-    "redirect_document_id": false
-  },
-  {
-    "source_path": "viva/glint/setup/survey-coach.md",
-    "redirect_url": "/viva/glint/setup/customize-programs",
     "redirect_document_id": false
   },
   {
