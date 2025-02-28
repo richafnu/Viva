@@ -77,7 +77,7 @@ items:
         items:
           - name: Access Viva Glint
             href: setup/access-glint.md
-          - name: Survey program types and templates
+          - name: Program types, surveys, and templates
             href: start/program-types-templates.md
           - name: People Science surveys and items
             href: setup/template-research.md
