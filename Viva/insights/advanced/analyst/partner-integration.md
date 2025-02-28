@@ -5,7 +5,7 @@ title: Viva Insights partner integration
 description: Learn how to integrate Microsoft Viva Insights and partner application data for more advanced analysis
 author: zachminers
 ms.author: v-zachminers
-ms.topic: article
+ms.topic: integration
 ms.localizationpriority: medium 
 ms.collection: viva-insights-advanced 
 ms.service: viva-insights
