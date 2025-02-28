@@ -12,7 +12,7 @@ ms.collection:
  - selfserve
  - essentials-privacy
 search-appverid: MET150
-ms.topic: article
+ms.topic: how-to
 ms.service: viva-glint
 ms.localizationpriority: high
 ms.custom: CELA-approved
