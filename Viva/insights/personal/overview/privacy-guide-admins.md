@@ -125,7 +125,7 @@ The processing of an employee's personal data ceases when they're opted out, whe
 
 End users can opt in or out of Viva Insights via the **Settings > Privacy** menu in the Viva Insights app in Teams or on the web, as shown in this example:
 
-![Opt out](../teams/images/opt-out.png)
+:::image type="content" source="../../images/vi-user-opt-in-opt-out.png" alt-text="Screenshot that shows the Viva Insights privacy settings.":::
 
 ## Microsoft Graph
 

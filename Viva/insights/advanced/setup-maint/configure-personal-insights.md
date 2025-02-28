@@ -1,5 +1,5 @@
 ---
-ms.date: 01/21/2025
+ms.date: 03/03/2025
 title: Configure personal insights defaults
 description: Configuration options that Microsoft 365 administrators can make for personal insights in Microsoft Viva Insights
 author: zachminers
@@ -86,10 +86,16 @@ Go to our [Teams admin tasks](teams-admin-setup.md) doc for more information abo
     :::image type="content" source="../../images/mya/setup/manage-settings-insights.png" alt-text="Screenshot that shows Manage settings for Viva Insights in the Viva Insights admin page.":::
 
 1. In the resulting pane:
-    1. Select **Viva Insights web experience** to keep all Viva Insights users in your organization opted _in_ for access to the Viva Insights app on the web. Clear the selection for **Viva Insights web experience** to opt _out_ users.  
-    2. Select **Digest email** to keep all Viva Insights users in your organization opted _in_ for access to the [digest mails](../../personal/use/email-digests-3.md). Clear the selection for **Digest email** to opt _out_ users.  
-    3. Select **Insights Outlook add-in and inline suggestions** to keep all users in your organization opted _in_ for access to the add-in. Deselect it to opt _out_ users. If you opt out of the Viva Insights Outlook add-in, the Productivity inline suggestions are also turned _off_ for all users. Individuals can also turn [inline suggestions](https://support.microsoft.com/en-us/topic/inline-suggestions-in-outlook-064a323e-6dc7-40e9-ab1b-199de8d39db5) *on* or *off* through their own **Settings** within the Viva Insights add-in.  
-    4. Select **Meeting effectiveness surveys** to keep all users in your organization opted _in_ for access to the surveys. Deselect it to opt _out_ users. If you opt out users, they won't see an option for meeting effectiveness surveys in their settings.
+    1. Select **Personal and organization insights web experience** to keep all Viva Insights users in your organization opted *in* for access to the Viva Insights app on the web. Clear the selection to opt *out* users.  
+
+        :::image type="content" source="../images/vi-admin-opt-in-opt-out.png" alt-text="Screenshot that shows the Microsoft Viva Insights settings pane.":::
+
+        >[!Note]
+        >If you turn off **Personal and organization insights web experience**, users who have access to the Microsoft Copilot Dashboard will continue to have access to the dashboard.
+
+    1. Select **Digest email** to keep all Viva Insights users in your organization opted _in_ for access to the [digest mails](../../personal/use/email-digests-3.md). Clear the selection for **Digest email** to opt _out_ users.  
+    1. Select **Insights Outlook add-in and inline suggestions** to keep all users in your organization opted _in_ for access to the add-in. Deselect it to opt _out_ users. If you opt out of the Viva Insights Outlook add-in, the Productivity inline suggestions are also turned _off_ for all users. Individuals can also turn [inline suggestions](https://support.microsoft.com/en-us/topic/inline-suggestions-in-outlook-064a323e-6dc7-40e9-ab1b-199de8d39db5) *on* or *off* through their own **Settings** within the Viva Insights add-in.  
+    1. Select **Meeting effectiveness surveys** to keep all users in your organization opted _in_ for access to the surveys. Deselect it to opt _out_ users. If you opt out users, they won't see an option for meeting effectiveness surveys in their settings.
     
        >[!Note]
        >Meeting effectiveness surveys are only available in the classic Teams client, not the new Teams.
@@ -98,8 +104,6 @@ Go to our [Teams admin tasks](teams-admin-setup.md) doc for more information abo
 
        >[!Note]
        >After a new tenant is established, it can take up to 48 hours for this functionality to become available.
-
-    :::image type="content" source="../../Images/MyA/setup/insights-settings-pane1.png" alt-text="Screenshot that shows the Microsoft Viva Insights (formerly MyAnalytics) settings pane with all selections enabled.":::
 
 1. Select **Save**.
 
