@@ -6,7 +6,7 @@ manager: elizapo
 ms.reviewer: chrisarnoldmsft
 ms.date: 09/18/2024
 audience: admin
-ms.topic: article
+ms.topic: install-set-up-deploy
 ms.service: viva-learning
 search.appverid: MET150
 ms.collection:
