@@ -6,7 +6,7 @@ manager: elizapo
 ms.reviewer: chrisarnoldmsft
 ms.date: 11/29/2023
 audience: admin
-ms.topic: article
+ms.topic: release-notes
 ms.service: viva-learning
 search.appverid: MET150
 ms.collection:
