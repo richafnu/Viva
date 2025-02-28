@@ -1,5 +1,5 @@
 ---
-ms.date: 02/06/2025
+ms.date: 02/27/2025
 title: Connect to the Microsoft Copilot Dashboard for Microsoft 365 customers
 description: Explains how to set up and use the Microsoft Copilot Dashboard, which provides various metrics to help you see how employees are using Copilot and the impact it could have on your organization.
 author: zachminers
@@ -65,7 +65,7 @@ If you have access to the Copilot Dashboard, you can find it in the [Teams or we
 
 If you have access to the dashboard, you can also delegate access to the dashboard to other people in your company. [Learn how](../org-team-insights/delegate-access.md). 
 
-## How access to the Copilot Dashboard is determined
+## How automatic access to the Copilot Dashboard is determined
 
 For customers who use Microsoft Entra ID (formerly known as Azure Active Directory) to manage user profile data like organization or manager data, the Copilot Dashboard is automatically available to a limited number of users. Access is based on Microsoft Entra ID Data, specifically the manager hierarchy attribute. Microsoft 365 Global Administrators can disable access at any time.  
 
