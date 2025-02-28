@@ -37,8 +37,8 @@ An important consideration when implementing Team Effectiveness surveys is custo
 
 Setting up a Team Effectiveness Survey as a recurring survey or as an Always-On survey allows leaders to use it as is most useful to their situation. A Team Effectiveness recurring survey should be repeated 30-60 days after the initial feedback. The survey should take no more than about four minutes to complete. 
 
->[!TIP]
->Best practic: Survey, debrief and act, survey again.
+> [!TIP]
+> Best practice: Survey, debrief and act, survey again.
 
 ## Viva Glint Team Effectiveness Survey items
 
