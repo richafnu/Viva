@@ -26,7 +26,7 @@ audience: Admin
 >This article discusses the Briefing email. We've paused sending Briefing emails to make some improvements. Users can still access the [Viva Insights Outlook add-in](../use/add-in.md) or [Viva Insights app in Teams](../teams/introduction.md) for key functionality until this service resumes. For more information about this change, see [Briefing pause](../reference/briefing-pause.md).
 
 >[!Important]
->This article also discusses the Digest email. Beginning at the end of March 2024, we’ll be pausing the digest email, which is typically sent twice a month. All the content from digest emails will still be available within the [Viva Insights app in Teams or on the web.](https://support.microsoft.com/topic/viva-insights-app-in-teams-and-on-the-web-f07f80a1-177d-4541-9185-31493b74fc0f) You can continue to explore and analyze your data insights seamlessly. To learn more about this change, refer to the [Digest email pause.](/Viva/insights/personal/reference/digest-pause)
+>This article also discusses the Digest email, which we've paused. All the content from Digest emails is still available within the [Viva Insights app in Teams or on the web.](https://support.microsoft.com/topic/viva-insights-app-in-teams-and-on-the-web-f07f80a1-177d-4541-9185-31493b74fc0f) You can continue to explore and analyze your data insights seamlessly. To learn more about this change, refer to the [Digest email pause.](/Viva/insights/personal/reference/digest-pause)
 
 By using the data that is generated from everyday work in Microsoft 365, personal insights in Microsoft Viva Insights help people understand how they spend their limited time and who they spend it with. Then it provides intelligent tips on how to work smarter.
 
