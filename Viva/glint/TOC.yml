@@ -150,20 +150,7 @@ items:
         href: setup/copilot-faqs.md 
   - name: Manage settings, features, and data
     items: 
-      - name: General Settings 
-        href: setup/manage-general-settings.md
-        items: 
-            - name: Attribute-based survey access
-              href: setup/attribute-based-survey-access.md
-            - name: Send in user time zones
-              href: setup/time-zones.md
-            - name: Post-survey learning
-              href: setup/post-survey-learnings.md
-            - name: Opt into external benchmarks
-              href: setup/opting-into-external-benchmarks.md
-            - name: Customize a PowerPoint template for reports
-              href: setup/custom-ppt-upload.md
-      - name: People page
+      - name: Manage user data with People
         href: setup/people-page.md
         items:  
             - name: Manage Support users 
@@ -176,56 +163,65 @@ items:
                 - name: FAQs for deleting user data
                   href: setup/delete-user-data-faq.md
             - name: Update employee IDs 
-              href: setup/id-update.md             
-      - name: Distribution Lists 
+              href: setup/id-update.md    
+      - name: Set up and manage Distribution Lists 
         href: setup/set-up-distribution-lists.md
         items:
             - name: Import users
               href: setup/import-members-distribution-lists.md
             - name: Export users
               href: setup/export-distribution-lists.md
-      - name: User Roles
+      - name: Set up and manage User Roles
         href: setup/set-up-user-roles.md
         items:
             - name: Custom User Roles
               href: setup/custom-user-role.md
             - name: Custom data access export
-              href: setup/custom-access.md
-      - name: Question Library
+              href: setup/custom-access.md       
+      - name: Manage item in the Question Library
         href: setup/question-library.md
         items:
-            - name: Question mapping
+            - name: Map custom and standard items
               href: setup/question-mapping.md
-            - name: Link custom questions to benchmarks
+            - name: Link custom items to benchmarks
               href: setup/custom-question-benchmark.md
-            - name: Change item IDs
+            - name: Change item IDs to fix trend
               href: setup/change-item-id.md
-      - name: Nudges
+      - name: Set up Nudges for managers
         href: communicate/communicate-with-nudges.md
-      - name: Set up Focus Area periods
-        href: setup/focus-area-period-feature.md
-      - name: Suggested Action templates
-        href: setup/customize-action-plans.md
-      - name: Content Resources
+      - name: Manage Content Resources for action taking
         items:
           - name: Link Content Resources to Suggested Action templates
             href: setup/link-survey-item-action-template.md
           - name: Embed videos
-            href: setup/embedding-content-resources.md
-      - name: Manage language translations for surveys and emails
-        href: setup/language-translations.md
-      - name: Character limits
-        href: setup/survey-character-limits.md
-      - name: Activity Audit Log
-        href: setup/activity-audit-log.md       
-      - name: Advanced Configuration
+            href: setup/embedding-content-resources.md 
+      - name: Customize Suggested Action templates
+        href: setup/customize-action-plans.md
+      - name: Set up Focus Area periods
+        href: setup/focus-area-period-feature.md
+      - name: Manage General Settings 
+        href: setup/manage-general-settings.md
+        items: 
+            - name: Attribute-based survey access
+              href: setup/attribute-based-survey-access.md
+            - name: Send in user time zones
+              href: setup/time-zones.md
+            - name: Post-survey learning
+              href: setup/post-survey-learnings.md
+            - name: Opt into external benchmarks
+              href: setup/opting-into-external-benchmarks.md
+            - name: Customize a PowerPoint template for reports
+              href: setup/custom-ppt-upload.md
+      - name: Monitor events with Activity Audit Log
+        href: setup/activity-audit-log.md   
+      - name: Manage Advanced Configuration settings
         href: setup/understand-advanced-configuration.md
         items: 
             - name: Import historical data 
               href: setup/import-historical-response-data.md
             - name: Update data in reports
               href: setup/update-glint-reporting-data.md
-            - name: Use Data Apps
+            - name: Manage data with Data Apps
               href: setup/glint-data-apps.md
             - name: Use Uploads
               href: setup/advanced-config-uploads.md
@@ -235,13 +231,43 @@ items:
               href: setup/manage-confidentiality-thresholds.md
   - name: Create survey programs
     items: 
-      - name: Viva Holistic Listening Vision & Strategy Discovery Workbook
-        href: ../solutions/holistic-listening-discovery-workbook.md
-      - name: Set up and customize programs
+      - name: Design an effective survey
         href: setup/customize-program.md
-      - name: Understand programs and cycles
+      - name: Understand recurring programs and cycles
         href: setup/program-cycle-edits.md    
-      - name: Program Summary setup for recurring surveys
+      - name: Manage translations for survey content
+        href: setup/language-translations.md  
+      - name: Review Character limits
+        href: setup/survey-character-limits.md
+      - name: Survey templates
+        items:
+         - name: Templates overview and terminology
+           href: setup/templates-intro.md
+         - name: Microsoft Copilot Impact Survey
+           href: setup/copilot-impact-template.md
+         - name: Quarterly Engagement  
+           href: setup/quarterly-engagement-template.md
+         - name: Diversity and Inclusion  
+           href: setup/diversity-inclusion.md
+         - name: Culture 
+           href: setup/culture-template.md
+         - name: Team Effectiveness 
+           href: setup/team-effectiveness-survey.md
+         - name: Manager Effectiveness 
+           href: setup/manager-effectiveness-survey.md
+         - name: Patient Safety 
+           href: setup/patient-safety-survey.md
+         - name: Employee Lifecycle - Onboarding  
+           href: setup/create-onboarding-exit-surveys.md
+         - name: Employee Lifecycle - Exit
+           href: setup/exit.survey.md
+         - name: Microsoft Viva Glint Magnet Survey
+           href: setup/magnet-rn-excellence.md
+         - name: Distress Survey
+           href: setup/distress-survey.md
+         - name: Productivity survey
+           href: setup/create-productivity-survey.md
+      - name: Set up a recurring survey
         href: setup/program-summary-overview.md
         items:   
           - name: Program setup 
@@ -276,35 +302,7 @@ items:
             items:         
              - name: Team Conversations resource guidance
                href: reports/team-conversations-resource-guidance.md      
-      - name: Survey templates
-        items:
-         - name: Templates overview and terminology
-           href: setup/templates-intro.md
-         - name: Microsoft Copilot Impact Survey
-           href: setup/copilot-impact-template.md
-         - name: Quarterly Engagement  
-           href: setup/quarterly-engagement-template.md
-         - name: Diversity and Inclusion  
-           href: setup/diversity-inclusion.md
-         - name: Culture 
-           href: setup/culture-template.md
-         - name: Team Effectiveness 
-           href: setup/team-effectiveness-survey.md
-         - name: Manager Effectiveness 
-           href: setup/manager-effectiveness-survey.md
-         - name: Patient Safety 
-           href: setup/patient-safety-survey.md
-         - name: Employee Lifecycle - Onboarding  
-           href: setup/create-onboarding-exit-surveys.md
-         - name: Employee Lifecycle - Exit
-           href: setup/exit.survey.md
-         - name: Microsoft Viva Glint Magnet Survey
-           href: setup/magnet-rn-excellence.md
-         - name: Distress Survey
-           href: setup/distress-survey.md
-         - name: Productivity survey
-           href: setup/create-productivity-survey.md
-      - name: Employee Lifecycle survey setup
+      - name: Set up an Employee Lifecycle survey
         items:
            - name: Set up an Onboarding survey
              href: setup/program-summary-setup-lifecycle.md
@@ -312,7 +310,11 @@ items:
              href: setup/exit-survey-setup.md
            - name: Preview and filter a Lifecycle survey
              href: setup/preview-filter-lifecycle-programs.md 
-      - name: Viva Glint 360 feedback programs
+      - name: Set up an Always-On Feedback survey
+        href: setup/always-on-surveys.md
+      - name: Set up an Ad Hoc survey
+        href: setup/ad-hoc-survey.md
+      - name: Set up 360 feedback programs
         items:
            - name: 360 overview and terminology
              href: setup/360-overview.md
@@ -355,10 +357,6 @@ items:
                  href: setup/360-provider-exp.md
            - name: 360 FAQs
              href: setup/360-faqs.md
-      - name: Set up an Always-On Feedback survey
-        href: setup/always-on-surveys.md
-      - name: Ad Hoc surveys
-        href: setup/ad-hoc-survey.md
       - name: Set up Team Conversations
         href: reports/team-conversations-administrator-setup.md
         items:
@@ -378,18 +376,16 @@ items:
             href: setup/preview-manage-enable-engage-programs.md   
           - name: Duplicate or delete surveys 
             href: setup/delete-survey-data.md
-      - name: Edit live surveys or reopen closed surveys
-        items:
-          - name: Reopen or extend a survey cycle
-            href: setup/reopen-survey.md
-          - name: Make changes to a live survey
-            href: setup/change-live-survey.md
   - name: Support survey participants 
     items:
       - name: Provide support during a survey
         href: communicate/support-survey-participants.md
       - name: Create an FAQ document
         href: communicate/survey-taker-faq.md 
+      - name: Reopen or extend a survey cycle
+        href: setup/reopen-survey.md
+      - name: Make changes to a live survey
+        href: setup/change-live-survey.md   
   - name: View survey results
     items:
       - name: Survey reports guide
@@ -430,6 +426,8 @@ items:
            href: reports/overall-results.md
          - name: Heat Map Report
            href: reports/heat-map.md
+         - name: Multiple Choice Question Report
+           href: reports/multi-choice-report.md
          - name: Focus Area Overview report
            href: reports/focus-area-overview-report.md
          - name: Comments Report
@@ -490,7 +488,7 @@ items:
              href: reports/take-action-team-conversations.md
       - name: Managers Creating Focus Areas
         href: setup/focus-areas-managers-creating.md      
-  - name: Viva integrations
+  - name: Integrate with other Microsoft apps
     items:
       - name: Viva Glint and Viva Insights
         items:    
