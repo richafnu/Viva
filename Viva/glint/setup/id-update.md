@@ -28,6 +28,9 @@ Use the Microsoft Viva Glint employee ID update feature to keep employee informa
 - Changes in HR information system (HRIS) vendor
 - Incorrect IDs
 
+> [!CAUTION]
+> Update ID values with these processes **before** uploading user records with new employee IDs with the [Edit Employee List and Details option](upload-employee-attributes.md#import-employee-data). Uploading users with new IDs before updating ID values can result in [DUPLICATED_EMAIL](/viva/troubleshoot/glint/data-file-upload/fix-upload-duplicate-data-warnings?toc=%2Fviva%2Fglint%2Ftoc.json&bc=%2Fviva%2Fbreadcrumb%2Ftoc.json#duplicated_email) and [DUPLICATED_EXTERNAL_USER_ID](/viva/troubleshoot/glint/data-file-upload/fix-upload-duplicate-data-warnings?toc=%2Fviva%2Fglint%2Ftoc.json&bc=%2Fviva%2Fbreadcrumb%2Ftoc.json#duplicated_external_user_id) errors.
+
 ## Update a user's employee ID
 
 To update a user's ID:
@@ -48,9 +51,6 @@ To update a user's ID:
     > "**Update didn't save.** This Employee ID is already in use by user@contoso.com"
 
 ## Update employee IDs in bulk
-
-> [!CAUTION]
-> Update ID values with this process **before** uploading user records with new employee IDs in Viva Glint. Upload users with new IDs before updating ID values can result in [DUPLICATED_EMAIL](/viva/troubleshoot/glint/data-file-upload/fix-upload-duplicate-data-warnings?toc=%2Fviva%2Fglint%2Ftoc.json&bc=%2Fviva%2Fbreadcrumb%2Ftoc.json#duplicated_email) and [DUPLICATED_EXTERNAL_USER_ID](/viva/troubleshoot/glint/data-file-upload/fix-upload-duplicate-data-warnings?toc=%2Fviva%2Fglint%2Ftoc.json&bc=%2Fviva%2Fbreadcrumb%2Ftoc.json#duplicated_external_user_id) errors.
 
 To update users' IDs in bulk:
 
