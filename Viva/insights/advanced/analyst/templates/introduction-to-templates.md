@@ -4,7 +4,7 @@ title: Introduction to Power BI templates in Microsoft Viva Insights
 description: Learn about Microsoft Viva Insights Power BI templates
 author: zachminers
 ms.author: v-zachminers
-ms.topic: article
+ms.topic: overview
 ms.localizationpriority: medium 
 ms.collection: viva-insights-advanced 
 ms.service: viva-insights
