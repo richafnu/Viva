@@ -430,6 +430,8 @@ items:
            href: reports/overall-results.md
          - name: Heat Map Report
            href: reports/heat-map.md
+         - name: Multiple Choice Question Report
+           href: reports/multi-choice-report.md
          - name: Focus Area Overview report
            href: reports/focus-area-overview-report.md
          - name: Comments Report
