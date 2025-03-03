@@ -102,7 +102,7 @@ Choose a tab based on your survey type (for example: Recurring for an Engagement
 |Item   |Confirm that...  |Impact|Editable during live survey|
 |:----------|:-----------|:------------|:------------|
 |Welcome text and translations    |Welcome text and translations are accurate.       |High        |Yes        |
-|Questions|All questions are part of the survey and that the upcoming cycle number is selected for the right questions.   |High|No|
+|Questions|All questions are part of the survey and that the upcoming cycle number is selected for the right questions.   |High|Yes*|
 |Questions: Order|Questions are in the correct order.   |High|Yes|
 |Questions: Text and translations|Customized question text and translations are accurate.   |High|Yes*|
 |Questions: Targeting|Distribution lists selected to target questions are accurate.   |High|No|
