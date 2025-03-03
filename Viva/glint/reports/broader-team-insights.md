@@ -25,7 +25,7 @@ Team leaders who use Microsoft Viva Glint action taking tools see a significant 
 
 Managers of small teams may not have enough team members overall - or response rate size - to view their team’s survey responses. While it's critical to protect survey respondents’ confidentiality, it's also critical to empower small team managers with feedback and action-taking capabilities. Broader Team Insights (BTI) helps bridge that gap. 
 
-BTI isn't only limited to managers of small teams. Team leaders at all levels who use BTI are better able to anchor their team’s feedback in the context of their larger department. Extended access to feecback facilitates better conversations and aligns actions with cross-functional teams.
+BTI isn't only limited to managers of small teams. Team leaders at all levels who use BTI are better able to anchor their team’s feedback in the context of their larger department. Extended access to feedback facilitates better conversations and aligns actions with cross-functional teams.
 
 ## What does the Broader Team Insights dashboard show?   
 
