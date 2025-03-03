@@ -25,8 +25,8 @@ The Microsoft Viva Glint Multiple Choice Question Report allows users to see a b
 
 > [!NOTE]
 > The Multiple Choice Question Report only appears as an option in Reports when: 
-> - There is at least one multiple choice or multi-select question for a selected survey
-> - The Multiple Choice Question Report is selected for a user's role in a survey's Reporting setup
+> - The selected survey has at least one multiple choice or multi-select question.
+> - The selected survey's Reporting setup for a role has the Multiple Choice Question Report selected in the Report Template Access section.
 
 To access the Multiple Choice Question Report:
 
@@ -35,7 +35,7 @@ To access the Multiple Choice Question Report:
    
    :::image type="content" source="../../media/glint/reports/multi-choice-question-report-tile.png" alt-text="Screenshot of the Multiple Choice Question report tile in Reports.":::
 
-3. Note that, by default, the report displays two sections based on primary and secondary hierarchy selections in General Settings.
+3. By default, the report displays two sections based on primary and secondary hierarchy selections in General Settings.
 
 ## Filter and edit the Multiple Choice Question Report
 
@@ -63,7 +63,7 @@ To delete a section:
 
 ## Percentage breakdowns in the Multiple Choice Question Report
 
-The Multiple Choice Question Report shows a table for each question, listing the response options from the question vertically on the left. Horizontally, each response shows a percentage broken down by the attribute selected for the section. When questions allow users to make multiple selections, the total percentage for each attribute for a multi-select question is greater than 100%. To full the full response option text for an option, hover over the partial response in the table.
+The Multiple Choice Question Report shows a table for each question, listing the response options from the question vertically. Horizontally, each response shows a percentage broken down by the attribute selected for the section. When questions allow users to make multiple selections, the total percentage for each attribute for a multi-select question is greater than 100%. To full the full response option text for an option, hover over the partial response in the table.
 
 ### Color-coding
 
