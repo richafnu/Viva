@@ -1,5 +1,5 @@
 ---
-ms.date: 02/06/2025
+ms.date: 02/28/2025
 title: Connect to the Microsoft Copilot Dashboard for Microsoft 365 customers
 description: Explains how to set up and use the Microsoft Copilot Dashboard, which provides various metrics to help you see how employees are using Copilot and the impact it could have on your organization.
 author: zachminers
@@ -65,7 +65,7 @@ If you have access to the Copilot Dashboard, you can find it in the [Teams or we
 
 If you have access to the dashboard, you can also delegate access to the dashboard to other people in your company. [Learn how](../org-team-insights/delegate-access.md). 
 
-## How access to the Copilot Dashboard is determined
+## How automatic access to the Copilot Dashboard is determined
 
 For customers who use Microsoft Entra ID (formerly known as Azure Active Directory) to manage user profile data like organization or manager data, the Copilot Dashboard is automatically available to a limited number of users. Access is based on Microsoft Entra ID Data, specifically the manager hierarchy attribute. Microsoft 365 Global Administrators can disable access at any time.  
 
@@ -164,7 +164,7 @@ By default, the **Scope** and **Organization** filters are determined by your [M
 >[!Note]
 >If you upload an organizational data file, upload data for every employee in the company. Or, if your Insights admin has limited access to organizational data, upload data for every employee in your analysis, as well as managers in the hierarchy between those being analyzed, and the top-level leader in the company. This ensures that the **Scope** filter accurately reflects the hierarchy.
 >
->If you upload an organizational data file, this permanently changes the source of the Copilot Dashboard data from Microsoft Entra ID to the data file. To keep your organizational data current, you must regularly upload .csv files. To revert back to Microsoft Entra ID as the source, [file a support ticket with us](/microsoft-365/admin/get-help-support).
+>If you upload an organizational data file, this permanently changes the source of the Copilot Dashboard data from Microsoft Entra ID to the data file, *except* for the senior leader list within the "Your company" **Scope** filter. To keep your organizational data current, you must regularly upload .csv files. To revert back to Microsoft Entra ID as the source, [file a support ticket with us](/microsoft-365/admin/get-help-support).
 
 >[!Note]
 >If your Global admin and Viva Insights admin *both* upload organizational data, the dashboard will merge the uploads and prioritize the more recent data.
@@ -173,7 +173,7 @@ The **Scope** filter is based on the Microsoft Entra ID attribute "ManagerID" to
 
 * When you select "Your company," the dashboard metrics include all employees who have a Copilot license, which is based on the Microsoft Entra ID "Person ID" by default.  
 
-* When you select the groups listed within "Your company," the dashboard metrics include all employees who report directly or indirectly to this leader. This senior leader list is determined by the top second levels in the company based on manager hierarchy. By default, the manager hierarchy is based on the Microsoft Entra ID attribute "ManagerID." It can be updated if your admin uploads organizational data.
+* When you select the groups listed within "Your company," the dashboard metrics include all employees who report directly or indirectly to this leader. This senior leader list is determined by the top second levels in the company based on manager hierarchy. By default, the manager hierarchy is based on the Microsoft Entra ID attribute "ManagerID."
 
 * When you select "Your group," the dashboard metrics include everyone who reports to you directly or indirectly. The manager hierarchy is identified based on the Microsoft Entra ID attribute "ManagerID" by default. Different logged in users will see different data for "Your group."
 
@@ -598,10 +598,10 @@ Any employee who has been assigned a Copilot license, including the following se
 * Intelligent Search
 
 **Q8. After I assign new Viva Insights or Copilot licenses for the first time, how long will it take for the Copilot Dashboard to turn on with the data?**
-To start data processing, you'll need to assign at least 10 Viva Insights licenses or at least 50 Copilot licenses. Once you do that, the process could take up to a week.
+To start data processing, you'll need to assign at least 10 Viva Insights licenses or at least 50 Copilot licenses. Once you do that, the process could take up to five days.
 
 **Q9. After the dashboard is turned on with the data, if I subsequently assign *new* Copilot licenses, how long will it take for the new data to reflect in the dashboard?**
-Once you assign a new Copilot license to your employees, it will take up to two weeks to update and include the employees with the new assigned license.
+Once you assign a new Copilot license to your employees, it will take up to five days to update and include the employees with the new assigned license.
 
 **Q10. If I assign new Copilot licenses to people, when will I see their data in the dashboard?**
 Once you assign a new Copilot license to your employees, it will take up to one week to update and include the employees with the new assigned license.
