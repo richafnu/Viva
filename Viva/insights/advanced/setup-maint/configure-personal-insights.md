@@ -44,7 +44,7 @@ You need to be an Exchange Online (EXO) admin role to configure users for Viva I
 
 ### Defaults 
 
-When you set defaults at the tenant or user level, you’re setting users’ initial access to Viva Insights. However, users have the flexibility to keep the status you set or change it. Users can learn how to opt in or out of Viva Insights here: [Opt out of Viva Insights](https://support.microsoft.com/en-us/topic/opt-out-of-viva-insights-ecfd76f9-52ef-4882-9235-be1f59c25967). The exception is if a user's license with a Viva Insights service plan expires. In that case, the user can't opt in.
+When you set defaults at the tenant or user level, you’re setting users’ initial access to Viva Insights. However, users have the flexibility to keep the status you set or change it. Users can learn how to opt in or out of Viva Insights here: [Opt out of Viva Insights](https://support.microsoft.com/topic/opt-out-of-viva-insights-ecfd76f9-52ef-4882-9235-be1f59c25967). The exception is if a user's license with a Viva Insights service plan expires. In that case, the user can't opt in.
 
 Defaults you can set are:
 
@@ -94,7 +94,7 @@ Go to our [Teams admin tasks](teams-admin-setup.md) doc for more information abo
         >If you turn off **Personal and organization insights web experience**, users who have access to the Microsoft Copilot Dashboard will continue to have access to the dashboard.
 
     1. Select **Digest email** to keep all Viva Insights users in your organization opted _in_ for access to the [digest mails](../../personal/use/email-digests-3.md). Clear the selection for **Digest email** to opt _out_ users.  
-    1. Select **Insights Outlook add-in and inline suggestions** to keep all users in your organization opted _in_ for access to the add-in. Deselect it to opt _out_ users. If you opt out of the Viva Insights Outlook add-in, the Productivity inline suggestions are also turned _off_ for all users. Individuals can also turn [inline suggestions](https://support.microsoft.com/en-us/topic/inline-suggestions-in-outlook-064a323e-6dc7-40e9-ab1b-199de8d39db5) *on* or *off* through their own **Settings** within the Viva Insights add-in.  
+    1. Select **Insights Outlook add-in and inline suggestions** to keep all users in your organization opted _in_ for access to the add-in. Deselect it to opt _out_ users. If you opt out of the Viva Insights Outlook add-in, the Productivity inline suggestions are also turned _off_ for all users. Individuals can also turn [inline suggestions](https://support.microsoft.com/topic/inline-suggestions-in-outlook-064a323e-6dc7-40e9-ab1b-199de8d39db5) *on* or *off* through their own **Settings** within the Viva Insights add-in.  
     1. Select **Meeting effectiveness surveys** to keep all users in your organization opted _in_ for access to the surveys. Deselect it to opt _out_ users. If you opt out users, they won't see an option for meeting effectiveness surveys in their settings.
     
        >[!Note]
@@ -242,7 +242,7 @@ Get-DefaultTenantMyAnalyticsFeatureConfig
 
 ### Configure access at the user level
 
-You can use PowerShell to configure Viva Insights access for individual users in your organization. For example, you could opt out the user completely, which would turn off all Viva Insights functionality for that user. However, the user can choose to [opt back in](https://support.microsoft.com/en-us/topic/opt-out-of-viva-insights-ecfd76f9-52ef-4882-9235-be1f59c25967). 
+You can use PowerShell to configure Viva Insights access for individual users in your organization. For example, you could opt out the user completely, which would turn off all Viva Insights functionality for that user. However, the user can choose to [opt back in](https://support.microsoft.com/topic/opt-out-of-viva-insights-ecfd76f9-52ef-4882-9235-be1f59c25967). 
 
 >[!Important]
 >The PowerShell cmdlets [Get-UserAnalyticsConfig](/powershell/module/exchange/get-useranalyticsconfig) and [Set-UserAnalyticsConfig](/powershell/module/exchange/set-useranalyticsconfig), which you might have used to configure access to Viva Insights, are no longer available. Instead, use the following new cmdlets: [Get-MyAnalyticsFeatureConfig](/powershell/module/exchange/get-myanalyticsfeatureconfig) and [Set-MyAnalyticsFeatureConfig](/powershell/module/exchange/set-myanalyticsfeatureconfig), which offer the same functionality along with some additional granular control.
