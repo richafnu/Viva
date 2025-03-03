@@ -43,7 +43,7 @@ The Viva Engage admin center's **Manage storyline** page controls the availabili
 After you enable storyline, all network members with access to Viva Engage see the **Storyline** tab, and a storyline feed on their profile page. They can also react and respond to others’ storyline posts. 
 
 > [!NOTE]
-> After you enable storyline, metwork users also see the Storyline feature *in Microsoft Teams*. Users don't need to install anything else to see the storyline. 
+> After you enable storyline, network users also see the Storyline feature *in Microsoft Teams*. Users don't need to install anything else to see the storyline. 
 
 To restrict storyline usage, see [Restrict which users can post to their storyline](/viva/engage/eac-storyline?branch=pr-en-us-8285#restrict-which-users-can-post-to-their-storyline).
 
