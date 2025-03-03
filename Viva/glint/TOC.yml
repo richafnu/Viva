@@ -240,7 +240,7 @@ items:
       - name: Review Character limits
         href: setup/survey-character-limits.md
       - name: Survey templates
-       items:
+        items:
          - name: Templates overview and terminology
            href: setup/templates-intro.md
          - name: Microsoft Copilot Impact Survey
