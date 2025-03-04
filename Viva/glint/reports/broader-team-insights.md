@@ -1,6 +1,6 @@
 ---
 title: Use Viva Glint’s Broader Team Insights feature
-description: "Broader Team Insights bridges the confidentiality-driven gap for managers of small teams that may not have enough team members or survey responses to view their own team’s responses."
+description: Broader Team Insights bridges the confidentiality-driven gap for managers of small teams that may not have enough team members or survey responses to view their own team’s responses.
 ms.author: JudithWeiner
 author: JudyWeiner
 manager: Melissa Barry
@@ -19,11 +19,11 @@ ms.date: 03/04/2025
 
 # Use the Viva Glint Broader Team Insights feature
 
-Team leaders who use Microsoft Viva Glint action taking tools see a significant increase in scores. However, up to 50% of managers’ teams are too small to allow them access to their own team’s results. Viva Glint considers a small team as a team with less than five team members or a team who's survey respondents didn't meet the required confidentiality threshold. Enabling Broader Team Insights (BTI) emposers managers to impact employee engagement even when their own team's data can't be shared. 
+Managers’ teams are often too small to allow them access to their own team’s survey results. Microsoft Viva Glint considers a small team as a team with less than five team members or a team who's survey respondents didn't meet the required confidentiality threshold. Enabling Broader Team Insights (BTI) empowers managers to impact employee engagement even when their own team's data can't be viewed or shared. 
 
 ## Empower managers of small teams 
 
-Managers of small teams may not have enough team members overall - or response rate size - to view their team’s survey responses. While it's critical to protect survey respondents’ confidentiality, it's also critical to empower small team managers with feedback and action-taking capabilities. Broader Team Insights (BTI) helps bridge that gap. 
+Managers of small teams may not have enough team members overall or enough respondents to view their team’s survey results. While it's critical to protect survey respondents’ confidentiality, it's also critical to empower small team managers with feedback and action-taking capabilities. Broader Team Insights (BTI) helps bridge that gap. 
 
 BTI isn't only limited to managers of small teams. Team leaders at all levels who use BTI are better able to anchor their team’s feedback in the context of their larger department. Extended access to feedback facilitates better conversations and aligns actions with cross-functional teams.
 
@@ -72,7 +72,7 @@ There are two levels of reporting access in Viva Glint:
 > BTI functionality honors Live/Phased setting for the leader of the team whose report date is being used by a small team manager using BTI. This functionality overrides the original manager's access.
 > Example: If a small team manager's direct leader is enabled for Live access, the access level of the small team manager with BTI enabled also has Live access to results for this survey. The small team manager's access changes to Live, even if their own access is set to Phased.
 
-[Read more about Live vs Phased access](/../../viva/glint/reports/broader-team-insights). 
+[Read more about Live vs Phased access](/viva/glint/setup/live-versus-phased-access). 
 
 > [!TIP]
 >Set a calendar reminder to grant Phased access to leaders who have Live access permission only.
