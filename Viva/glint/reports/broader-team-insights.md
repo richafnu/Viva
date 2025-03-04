@@ -14,7 +14,7 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 03/03/2025
+ms.date: 03/04/2025
 ---
 
 # Use the Viva Glint Broader Team Insights feature
@@ -63,18 +63,22 @@ The first section in **Reporting** is **Program Roles**. In this section, custom
 - The padlock icon symbolizes that this role isn't editable on this page and can only be edited in **Program Setup**.
 - Hovering over a role displays the trash can symbol. Select the **trash can** to remove that role.
 
-## Choose Live versus Phased reports access 
+## Live versus Phased reports access 
 
 There are two levels of reporting access in Viva Glint:
 
 - **Live access**: Reporting access is readily available, in real time, as surveys are completed. Admins always have *Live* access and can't be included in *Phased* access rollout.
 - **Phased access**:  Recommended for managers and HRBPs (Human Resources Business Partners) for action planning, tracking, and reviewing feedback results for completed surveys. *Phased* access excludes this role group from real-time, live survey results. *Phased* access is configured at the program level but occurs at the cycle level.
 
+> [!IMPORTANT]
+> BTI honors Live/Phased setting for the leader of the team whose report date displays. This functionality overrides the original manager's access.
+> Example: If a small team manager's direct manager is enabled for Live access, the manager of the small team - or team that hasn't met confidentiality standards - also has Live access to results for this survey, even if their own access is set to Phased. This reporting access functionality is true for whichever manager a manager using BTI sees results for.
+
 [Read more about Live vs Phased access](/../../viva/glint/reports/broader-team-insights). 
 
 > [!TIP]
 >Set a calendar reminder to grant Phased access to leaders who have Live access permission only.
-> 
+
 ## How turnover affects what Broader Team Insights results display
 
 Turnover within roles is inevitable. For this reason, as with action taking, we recommend that either HR or the next level up manager exports all feedback results to save and share offline as needed. 
