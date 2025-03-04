@@ -1,8 +1,8 @@
 ---
 title: Manage Viva Glint Advanced Configuration settings and tasks
-description: For highly trained users, Viva Glint offers Advanced Configuration options, which allow users to view and modify advanced platform settings and perform complex data updates.
-ms.author: JudithWeiner
-author: JudyWeiner
+description: Microsoft Viva Glint offers Advanced Configuration options which allow users to view and modify advanced platform settings and perform complex data updates.
+ms.author: aweixelman
+author: AliciaWeixelman
 manager: MelissaBarry
 audience: admin
 f1.keywords: NOCSH
