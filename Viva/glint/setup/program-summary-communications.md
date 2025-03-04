@@ -1,5 +1,5 @@
 ---
-title: Communications setup in Program Summary
+title: Viva Glint survey Communications setup
 description: Notifying employees about a survey's start and sending reminders throughout the survey window are essential for improving survey participation.
 ms.author: JudithWeiner
 author: JudyWeiner
@@ -14,10 +14,10 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 12/12/2024
+ms.date: 03/04/2025
 ---
 
-# Communications setup in Program Summary
+# Viva Glint survey Communications setup
 
 Notifying employees about a survey's start and sending reminders throughout the survey window are essential for improving survey participation. 
 
@@ -100,11 +100,11 @@ The dropdown menu from the **Add survey Reminder** button lets admins add remind
 
 ### Customize email content
 
-Use this email [customization guidance](email-content-customization.md) to add custom text to your Glint survey emails.
+Use this email [customization guidance](email-content-customization.md) to add custom text to your Viva Glint survey emails.
 
 ## Notifications when survey results are available
 
-The results notification email is a one-time notification to let users know that survey results are available. The email sends to users in roles with **live** reporting access 24-hours before the email to all others (including phased access). 
+The results notification email is a one-time notification to let users know that survey results are available. The email sends to users in roles with **live** reporting access 24 hours before the email to all others (including phased access). 
 
 > [!IMPORTANT]
 > For all users to receive a results notification, ensure that all roles are granted access (phased or live) in the **Reporting** section of the survey program before the survey closes. 
@@ -121,7 +121,7 @@ To set up the results notification email:
 2. Select **Save Changes** in the top right of the edit pane.
 
 > [!IMPORTANT]
-> Access must be scheduled to be live 24 hours before the results notification email is scheduled for sending.
+> Access must be scheduled to be live 48 hours before the results notification email is scheduled for sending.
 
 > [!NOTE]
 > To edit **Team Conversations** notifications, [follow this guidance](/viva/glint/reports/team-conversations-administrator-setup).
