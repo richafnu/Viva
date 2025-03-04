@@ -19,7 +19,7 @@ ms.date: 03/04/2025
 
 # Use the Viva Glint Broader Team Insights feature
 
-Team leaders who use Microsoft Viva Glint action taking tools see a significant increase in scores. However, up to 50% of managers’ teams are too small to allow them access to their own team’s results. Viva Glint considers a small team as a team with less than five team members or a team who's survey respondents didn't meet the required confidentiality threshold. By enabling Broader Team Insights (BTI), managers are empowered to significantly impact employee engagement.  
+Team leaders who use Microsoft Viva Glint action taking tools see a significant increase in scores. However, up to 50% of managers’ teams are too small to allow them access to their own team’s results. Viva Glint considers a small team as a team with less than five team members or a team who's survey respondents didn't meet the required confidentiality threshold. Enabling Broader Team Insights (BTI) emposers managers to impact employee engagement even when their own team's data can't be shared. 
 
 ## Empower managers of small teams 
 
@@ -40,9 +40,7 @@ Create more engaged people, align teams, and promote greater business performanc
 
 ## Access Broader Team Insights
 
-When results are ready, the team manager receives an email with a link to view results. The email may indicate that while results are available, there is no access to the manager's own team’s results. Because confidentiality standards weren't met, a summary of results of the next team who has met confidentiality requirements are instead available for reviewing and sharing.
-
-This BTI summary report view provides the manager the opportunity to see guidance on how to have a conversation with their own team about the BTI results and an abbreviated view of the Executive Summary report.
+When results are ready, the team manager receives an email with a link to view results. The email may indicate that while results are available, there is no access to the manager's own team’s results. Because confidentiality standards weren't met, a summary of results of the next team who did meet confidentiality requirements are instead available for reviewing and sharing. This BTI summary report view provides the manager the opportunity to see guidance on how to have a conversation with their own team about the survey results and an abbreviated view of the Executive Summary report.
 
 ## Set up Broader Team Insights
 
@@ -71,8 +69,8 @@ There are two levels of reporting access in Viva Glint:
 - **Phased access**:  Recommended for managers and HRBPs (Human Resources Business Partners) for action planning, tracking, and reviewing feedback results for completed surveys. *Phased* access excludes this role group from real-time, live survey results. *Phased* access is configured at the program level but occurs at the cycle level.
 
 > [!IMPORTANT]
-> BTI honors Live/Phased setting for the leader of the team whose report date displays. This functionality overrides the original manager's access.
-> Example: If a small team manager's direct manager is enabled for Live access, the manager of the small team - or team that hasn't met confidentiality standards - also has Live access to results for this survey, even if their own access is set to Phased. This reporting access functionality is true for whichever manager a manager using BTI sees results for.
+> BTI functionality honors Live/Phased setting for the leader of the team whose report date is being used by a small team manager using BTI. This functionality overrides the original manager's access.
+> Example: If a small team manager's direct leader is enabled for Live access, the access level of the small team manager with BTI enabled also has Live access to results for this survey. The small team manager's access changes to Live, even if their own access is set to Phased.
 
 [Read more about Live vs Phased access](/../../viva/glint/reports/broader-team-insights). 
 
