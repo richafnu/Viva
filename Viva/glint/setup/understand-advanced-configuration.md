@@ -38,7 +38,7 @@ Microsoft Viva Glint offers Advanced Configuration options which allow users to 
 
 To access, a Viva Glint Admin must enable Advanced Configuration access on an admin user's profile in Viva Glint.
 
-### Grant access to a Company Admin user
+### Grant access to an existing admin user
 
 > [!NOTE]
 > Viva Glint Admins can update their own access to Advanced Configuration.
@@ -58,16 +58,14 @@ After enabling access, when a user selects the **Configuration** symbol, then go
 
 To manage Support users' access to Viva Glint and Advanced Configuration, follow the guidance in this article: [Manage Support users in Viva Glint](add-external-user.md).
 
-## Explore Advanced Configuration menu options
-
-### Details
+## Advanced Configuration: Details
 
 View specifics about how information displays in Viva Glint reporting and which features are enabled. For more information on reviewing and editing reporting thresholds in the Details or Surveys section, see [Manage confidentiality thresholds](manage-confidentiality-thresholds.md).
 
 | Setting | Description |
 | --- | --- |
-| **Auto Action Plans** | Enable autogeneration of action plans for eligible users. |
-| **Custom Surveys Enabled** | Advanced survey customization, no action required. |
+| **Auto Action Plans** | Enable autogeneration of action plans for eligible users |
+| **Custom Surveys Enabled** | Advanced survey customization, no action required |
 | **Rated Confidentiality Threshold** | Scores don't display for fewer responses than this threshold. Viva Glint standard: 5 |
 | **Suppression Threshold** | To prevent guessing the scores of respondent groups with insufficient data, the next biggest group is suppressed until the total insufficient + suppressed = or exceeds this number. Viva Glint standard: 2 |
 | **Parent Team Suppression Threshold** | Access results for teams that would have been suppressed for parent team respondents greater than or equal to this threshold. Viva Glint standard: 400 |
@@ -81,7 +79,7 @@ View specifics about how information displays in Viva Glint reporting and which 
 | **Maximum number of Alerts for a population** | In the Alerts report, the maximum number of attributes to combine for a group. Viva Glint standard: 2 |
 | **Alert and Insight Hierarchy Limitation** | In the Alerts report, when hierarchies are selected, the maximum number of levels considered. Viva Glint standard: 3 |
 | **Attribute Cardinality Management** | In the Alerts report, when values for an attribute exceed this number, the attribute isn't included in the report. Viva Glint standard: 100 |
-| **Insight Probability Threshold** | In the Alerts report, the statistical likelihood that results aren't by chance and are significant. Viva Glint standard: .05 |
+| **Insight Probability Threshold** | In the Alerts report, the statistical likelihood that results aren't by chance and are significant. Viva Glint standard: 0.05 |
 | **Comments Search Threshold** | Comments don't display for fewer question responses than this threshold. Viva Glint standard: 10 |
 | **Comments Confidentiality Threshold** | Comments don't display by topics for fewer responses than this threshold. Viva Glint standard: 10 |
 | **Minimum Difference for Driver Impact Report** | In the Driver Impact report, the minimum difference from the item score for the entire company. Viva Glint standard: 5 |
@@ -97,7 +95,7 @@ View specifics about how information displays in Viva Glint reporting and which 
 | **Frequency of in-product feedback shown on non-MLE Dashboard** | Percentage of users that see in-product feedback questions in their non-Team Summary dashboard. Viva Glint standard: 10 |
 | **Enable Filter Suppression on Scores** | Disable users' ability to filter to teams whose scores are suppressed |
 
-### Surveys
+## Advanced Configuration: Surveys
 
 For a simpler view of existing survey programs, go to **Configuration** symbol and select **Survey Programs**. Use the **Advanced Configuration Surveys** option to view advanced technical details related to your survey programs. The main page for Surveys includes:
 
@@ -135,17 +133,17 @@ Select a survey program to view more details and options. For more information o
 | **Default survey locale** | Displays selection from Survey Programs: Survey: Program Setup |
 | **Additional Survey Locales** | Displays selection from Survey Programs: Survey: Program Setup |
 | **Enable Follow Up** | Enable follow up questions that encourage more open-ended comments in surveys |
-| **Sensitive Comments** | Enable sensitive comment flagging in the admin view of the Comments report for personally identifiable information (PII), sensitive topics, and profanity [Learn more](glint-sensitive-comments.md) |
+| **Sensitive Comments** | Enable sensitive comment flagging in the admin view of the Comments report for personally identifiable information (PII), sensitive topics, and profanity. [Learn more](glint-sensitive-comments.md) |
 
-### Users
+## Advanced Configuration: Users
 
 To export Viva Glint users select the **Configuration** symbol, choose **People,** and then **Export**.
 
-### External Import
+## Advanced Configuration: External Import
 
 Import external survey results to see trend for past items that continue to be asked in Viva Glint survey programs. [Learn more](import-historical-response-data.md).
 
-### Data Apps
+## Advanced Configuration: Data Apps
 
 Use Viva Glint Data Apps to export recipients or update attribute values for users in closed surveys. [Learn more](glint-data-apps.md).
 
@@ -154,7 +152,7 @@ Use Viva Glint Data Apps to export recipients or update attribute values for use
 | **EXPORT_USERS_FROM_SURVEY_CYCLE** | Export survey recipients, attributes, and hierarchies as they existed when a survey launched |
 | **RETROACTIVE_PULSE_UPDATE** | Update employee attributes associated with a closed survey cycle |
 
-### Uploads
+## Advanced Configuration: Uploads
 
 Use the Uploads option to:
 
@@ -162,12 +160,12 @@ Use the Uploads option to:
 - Update users' custom data access in bulk.
 - Perform retroactive data updates to correct employee attributes in reporting.
 
-#### Upload types:
+### Upload types:
 
 - **MANAGERS_UPLOAD:** Upload custom results data access for dashboard users in bulk. [Learn more](advanced-config-uploads.md#perform-a-managers_upload).
 - **Retroactive User Updates:** Update user data in closed surveys to correct reporting. [Use Advanced Configuration Uploads](advanced-config-uploads.md#perform-retroactive-user-updates).
 - **ROLE_UPLOAD:** To upload users to a Viva Glint User Role, follow the guidance in this article: [Import and export Viva Glint User Roles](export-user-roles.md).
 
-### Menu option - Running Jobs
+## Advanced Configuration: Running Jobs
 
 Review details, statuses, and start times for Advanced Configuration tasks performed within the last 15 minutes to 48 hours, depending on the selected timeframe.
