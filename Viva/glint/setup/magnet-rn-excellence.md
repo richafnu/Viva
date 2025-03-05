@@ -14,12 +14,12 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 05/31/2024
+ms.date: 03/05/2025
 ---
 
 # Set up a Microsoft Viva Glint RN Excellence (Magnet®️) survey
 
-Using the Viva Glint platform, organizations can view invaluable data from their Registered Nurses (RNs) and meet the RN Satisfaction requirements for the Magnet® Recognition program. The RN Excellence survey can be launched as a standalone or added onto an existing company survey.
+Using the Viva Glint platform, organizations can collect data from their Registered Nurses (RNs) and meet the RN Satisfaction requirements for the Magnet® Recognition program. The RN Excellence survey can be launched as a standalone survey or added onto an existing company survey.
 
 ## Get access to real-time data
 
@@ -57,6 +57,11 @@ Follow our recommended survey order.
 |Magnet| Development| Resources	I have the resources I need to further my professional development.|
 |Magnet|Staff Resources|	We have enough employees to get our work done.|
 |Magnet| Job Resources|I have the resources I need to do my job well.|
+
+### Reporting
+
+>[!IMPORTANT]
+> Microsoft Viva Glint doesn't offer CxPM, PSC, or reporting support for customers using the RN Excellence survey. To obtain a hospital or clinic unit-level report for Magnet®️ certification, work through a Microsoft partner. Workforce Science Associates (WSA) and Mercer can partner with you.  
 
 
 
