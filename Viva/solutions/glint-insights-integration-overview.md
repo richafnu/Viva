@@ -1,5 +1,5 @@
 ---
-ms.date: 11/18/2024
+ms.date: 3/05/2025
 title: Integrate Viva Glint and Viva Insights to maximize data insight 
 description: Organizational leaders, HR analysts, and other stakeholders can bring Microsoft Viva Glint and Microsoft Viva Insights together into their business to better understand their people’s full work experience. 
 author: zachminers
@@ -68,4 +68,4 @@ Audience: For HR leadership, HR business partners, people analytics specialists 
 
 You can also find the [Glint + Insights Playbook directly from the Microsoft Adoption site](https://adoption.microsoft.com/viva/glint/). **You'll need to scroll down on the Adoption site just a bit to locate the playbook.**
 
-:::image type="content" source="..\media\glint\setup\glint-insights-playbook.png" alt-text="Screenshot of how to locate the Glint and Insights Playbook on the Microsoft Adoption site.":::
+:::image type="content" source="..\media\glint\setup\glint-insights-playbook-1.png" alt-text="Screenshot of how to locate the Glint and Insights Playbook on the Microsoft Adoption site." lightbox="..\media\glint\setup\glint-insights-playbook-1.png:::
