@@ -56,12 +56,14 @@ There are two items to configure on the Reporting page for each User Role that s
 
 ## Communications setup
 
-Team Conversations messages are designed to notify managers when they can begin conversations, remind them of an upcoming conversation due date, and prompt users whose conversations are overdue. Conversation emails begin to send seven days after a recurring survey closes for roles that have live access to results. To successfully send messages, ensure that:
+Team Conversations messages are designed to notify managers when they can begin conversations, remind them of an upcoming conversation due date, and prompt users whose conversations are overdue. Conversation emails begin to send seven* days after survey results are released for roles that have live access. To successfully send messages, ensure that:
 
 - Team Conversations is enabled for a survey and for roles 
 - The survey cycle is closed
 - User Roles moved to live access at least seven days ago
 - The survey close date is within the last 45 days
+
+\* Viva Glint defaults to seven days, but Viva Glint Admins can edit the number of days for conversation start and reminder emails.
 
 When Team Conversations are enabled, these emails appear in the Communications section:
 
