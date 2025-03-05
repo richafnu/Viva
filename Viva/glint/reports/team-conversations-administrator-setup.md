@@ -14,7 +14,7 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 03/04/2025
+ms.date: 03/05/2025
 ---
 
 # Set up Viva Glint Team Conversations
@@ -27,18 +27,18 @@ Microsoft Viva Glint Administrators can set up Team Conversations for managers. 
 
 ## Enable Team Conversations in Program Setup
 
-To enabled Team Conversations as a Viva Glint Admin:
+To enable Team Conversations as a Viva Glint Admin:
 
 1. Select **Configuration** and select **Survey Programs** from the Surveys section.
-1. Select a survey program that should have Team Conversations to be enabled.
-
-There are two settings to consider in Program Setup: 
-
-- Enable Team Conversations – Switch toggle to **Yes**. 
-- Enable Team Conversations Sharing - Switch toggle to **Yes** or **No**. This setting allows managers to  share their Team Conversations with users in roles that have **View My Surveys** permissions. 
+1. Select a survey program that should have Team Conversations enabled.
+2. Enable Team Conversations by switching the toggle to **Yes**.
+3. Enable or disable Team Conversations Sharing by toggling to **Yes** or **No**. This setting allows managers to  share their Team Conversations with users in roles that have **View My Surveys** permissions. 
 
 > [!NOTE]
-> Team Conversations are only generated for managers with survey results that meet confidentiality threshold requirements.  
+> Team Conversations only generate for managers with survey results that meet confidentiality threshold requirements.
+
+> [!IMPORTANT]
+> When a Viva Glint Admin enables Team Conversations for a survey that's already set up, an "Additional configuration needed" message appears in Program Setup. Use the information in this article to set up Schedule, Reporting, and Communications survey sections for Team Conversations.
 
 ## Schedule setup
 
@@ -54,7 +54,7 @@ There are two items to configure on the Reporting page for each User Role that s
 1. Enable Team Conversations for that role by toggling Team Conversations button to **On**. 
 1. Select **Team Summary** as the **Dashboard Default** from the dropdown menu. 
 
-## Communications set up
+## Communications setup
 
 Team Conversations messages are designed to notify managers when they can begin conversations, remind them of an upcoming conversation due date, and prompt users whose conversations are overdue. Conversation emails begin to send seven days after a recurring survey closes for roles that have live access to results. To successfully send messages, ensure that:
 
@@ -66,12 +66,12 @@ Team Conversations messages are designed to notify managers when they can begin 
 When Team Conversations are enabled, these emails appear in the Communications section:
 
 | Email | Default send timeframe | Description | 
-|:---|:---|:---|
+|:----------|:----------|:----------|
 | Conversation Start Notification | Seven days after survey results are released | Notification to managers that results are available to present to their team |
 | Reminder 1 | For incomplete conversations, seven days before due date | Reminder to managers to meet with their team to share results and select focus areas |
 | Reminder 2 | For incomplete conversations, three days before due date | Reminder to managers to meet with their team to share results and select focus areas |
 | Conversation Overdue Reminder 1 | For incomplete conversations, three days after due date | Notification that conversation is overdue |
-| Conversation Summary Notification | Manager-driven, ad hoc | When sharing is enabled, a summary email that managers can send before and/or after conversations with their team |
+| Conversation Summary Notification | Manager-driven, unscheduled | When sharing is enabled, a summary email that managers can send before and/or after conversations with their team |
 
 > [!NOTE]
 > If you enable Team Conversations for a User Role after the conversation start date, start emails immediately send once Team Conversations is switched to **On**. 
@@ -92,7 +92,7 @@ For start and reminder emails, Viva Glint Admins can:
 - Add more reminders by selecting **+ Conversation Reminder**
 
 > [!NOTE]
-> Admins can enable or disable (not delete) the Conversation Summary Email, but scheduling the number of days after the conversation due date isn't available. This email is only visible when sharing is enabled in Program Setup and sent ad hoc by managers to share conversation summaries with their teams. 
+> Admins can enable or disable (not delete) the Conversation Summary Email, but scheduling the number of days after the conversation due date isn't available. This email is only visible when sharing is enabled in Program Setup and sent by managers to share conversation summaries with their teams. 
 
 ### Conversation email scheduling 
 
