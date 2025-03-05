@@ -21,7 +21,7 @@ description: Learn how to create RaaS reports for catalog, user, assignment, and
 # Create RaaS reports on the Workday portal
 
 This article consists of steps required for enabling catalog, user, assignment, and completion data sync in Workday and Viva Learning integration. 
-Admins are required to create a custom RaaS report on the Workday portal. Once you have created integration system user of Workday portal and have provided all security access, follow these steps to create the required RaaS reports.  
+Admins are required to create a custom RaaS report on the Workday portal. After you create the integration system user for Workday portal and provide all security access, follow these steps to create the required RaaS reports.  
 
 
 > [!NOTE]
@@ -136,7 +136,7 @@ This report should be created from the primary Admin account of Workday to avoid
 
            :::image type="content" alt-text="Screenshot of the View URLS Web Service window with the option to edit content types and dates" source="../media/learning/wd-s2.2-11.png" lightbox="/viva/media/learning/wd-s2.2-11.png":::
 
-        1. Select **JSON**, this opens a new window.
+        1. Select **JSON.** This action opens a new window.
   
            :::image type="content" alt-text="Screenshot of the new window that opens when you select JSON." source="../media/learning/wd-s2.2-12.png" lightbox="../media/learning/wd-s2.2-12.png":::
 
@@ -193,8 +193,8 @@ This report should be created from the primary Admin account of Workday to avoid
     
          | And/Or |(|Field | Operator | Comparison type | Comparison value |)|Indexed|
          | - | - | - | - | - |-| -| -| 
-         | And | <blank> | Hire Date | greater than or equal to | Prompt the user for the value | Starting Prompt | <blank> | Yes| 
-         |And | <blank> | Hire Date | less than or equal to | Prompt the user for the value | Ending Prompt |<blank>| Yes | 
+         | And | | Hire Date | greater than or equal to | Prompt the user for the value | Starting Prompt |  | Yes| 
+         |And | | Hire Date | less than or equal to | Prompt the user for the value | Ending Prompt || Yes | 
 
     1. Add the Prompts: Go to Prompts. Mark "Display Prompt Values in Subtitles" and add following prompt values. You can directly copy and paste these values.  
     
@@ -203,12 +203,12 @@ This report should be created from the primary Admin account of Workday to avoid
 
       | Field | Prompt qualifier | Label for prompt | Label for prompt XML alias | Default type | Default value | Required | Don't prompt at run time| Do Not include in Subtitle |
       | - | - | - | - | -| - | - | - | - |
-      | Contingent Worker type | <blank> | <blank> | Contingent_Worker_Type | No default value |<blank> |<blank> | Yes | <blank> |
-      | Employee Type | <blank> | <blank> |Employee_Type | No default value | <blank> | <blank> | Yes  | <blank> |
-      | Worker Types |<blank> | <blank> | Worker_Types | No default value |<blank> | <blank> | Yes | <blank> |
-      | Include Terminated workers | <blank> | <blank> | Include_Terminated_Workers | Specify default value | Yes |<blank> | Yes |<blank>|
-      | Hire Date | Starting Prompt | Start_Date | Start_Date | No default value | <blank>| Yes | <blank>| <blank>|
-      | Hire Date | Ending Prompt | End_Date | End_Date | No default value |<blank> | Yes | <blank>|<blank>|
+      | Contingent Worker type |   |   | Contingent_Worker_Type | No default value |  |  | Yes |   |
+      | Employee Type |   |   |Employee_Type | No default value |   |   | Yes  |   |
+      | Worker Types |  |   | Worker_Types | No default value |  |   | Yes |   |
+      | Include Terminated workers |   |   | Include_Terminated_Workers | Specify default value | Yes |  | Yes | |
+      | Hire Date | Starting Prompt | Start_Date | Start_Date | No default value |  | Yes |  |  |
+      | Hire Date | Ending Prompt | End_Date | End_Date | No default value |  | Yes |  | |
 
 
     1. Go to **Advanced** and select the field `Optimized for Performance.` 
@@ -273,8 +273,8 @@ This report should be created from the primary Workday admin account to avoid an
 
    | Field | Label for Prompt| Label for Prompt XML Alias | Default Type | Default value | Required | Don't Prompt at Runtime |
    | - | - | - | - | - | - | - |
-   |  Learning Organizations for Learning Assignment | Learning_Organizations_for_Learning_Assignment | Learning_Organizations_for_Learning_Assignment | No default Value | <blank> | Yes | <blank> | 
-   | Include Subordinate Organizations |<blank>| Include_Subordinate_Organizations | Specify default value | Yes | Yes | Yes | 
+   |  Learning Organizations for Learning Assignment | Learning_Organizations_for_Learning_Assignment | Learning_Organizations_for_Learning_Assignment | No default Value |   | Yes |   | 
+   | Include Subordinate Organizations | | Include_Subordinate_Organizations | Specify default value | Yes | Yes | Yes | 
 
 6. Add date filters to the report for delta sync. 
         
