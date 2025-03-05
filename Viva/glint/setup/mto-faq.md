@@ -25,7 +25,7 @@ Use these frequently asked questions as your company sets up multitenant organiz
 The [multitenant organization (MTO) capability in Microsoft 365](/entra/identity/multi-tenant-organizations/multi-tenant-organization-overview) allows organizations to manage multiple tenants under a single umbrella enabling secure collaboration and resource sharing across these tenants. Tenant admins create an MTO policy in the target tenant and add source tenants. This option was created for Viva Glint customers to seamlessly access the product like they currently do in LinkedIn Glint.
 
 ## Are there any options for organizations who already use B2B collaboration or cross-tenant synchronization (CTS) to access Viva Glint?
-Customers with B2B Collab or cross-tenant synchronization (CTS) can access Viva Glint. The following shows the Viva Glint dashboard access and experience for each customer sync type:
+Customers with B2B Collab or cross-tenant synchronization (CTS) can access Viva Glint. The following table shows the Viva Glint dashboard access and experience for each customer sync type:
 
 |Sync method   |Dashboard access and experience   |
 |:----------|:-----------|
@@ -76,16 +76,16 @@ Restricting MTO to specific app isn't currently possible. MTO setup impacts sync
 ## How long does it take to set up MTO?
 One working session of an hour with the Microsoft 365 or Microsoft Entra Admin should be enough to enable MTO and test. But, factor in another session in case you run into any problems.
 
-## How does MTO impact guest users? Can our organization add guest users without converting them to members?
+## How does MTO impact guests? Can our organization add guests without converting them to members?
 MTO uses any B2B collaboration or CTS and doesn't automatically change the external user setup.
 
-- B2B collaboration sets up the target tenant members as **external guest users** by default. These users are automatically added as external guests in MTO policy. Most customers don't hit the external guest maximum of 50,000 monthly average users (MAU). If an organization hits this limit, they can choose between keeping their guest users at an extra cost or converting them to member users.
+- B2B collaboration sets up the target tenant members as **external guest users** by default. These users are automatically added as external guests in MTO policy. Most customers don't hit the external guest maximum of 50,000 monthly average users (MAU). If an organization hits this limit, they can choose between keeping their guests at an extra cost or converting them to member users.
 - CTS sets up the target tenant members as **external member users** by default. These users are automatically added as external members in the MTO policy. There's an unlimited number of member users allowed.
 
 Learn more:
 
 - [Workforce tenant overview](/entra/external-id/what-is-b2b)
-- [Properties of a B2B guest user](/entra/external-id/user-properties)
+- [Properties of a B2B guest](/entra/external-id/user-properties)
 
 ## Can I give dashboard access to users outside of my target tenant?
 Yes. Admins need to add the users to the target tenant, import the users’ HRIS data to Viva Glint, and share credentials with the users so they can access the Viva Glint Dashboard.
@@ -113,7 +113,7 @@ A P1 license is required to set up an MTO policy and if your organization access
 | B2B collab only  | Billing is based on monthly active users (MAU), which is the count of unique external users who authenticate to your tenants within a calendar month. To determine the total number of MAUs, we combine MAUs from all workforce and external tenants that are linked to a subscription. <br><br> For B2B collaboration in multitenant organizations, this billing model applies only to external users with a UserType of Guest. It doesn’t apply to external members that originate from within the multitenant organization, which have a UserType of Member.<br><br>External ID consists of a core offer and premium add-ons. The Microsoft Entra External ID core offering is free for the first 50,000 MAU. [Learn more](/entra/external-id/external-identities-pricing)   |
 | No sync | No license requirement due to no sync options.  |
 
-## Are there any additional costs associated with enabling MTO?
+## Are there any other costs associated with enabling MTO?
 No.
 
 ## Does our organization need to make [allowlist updates](allowed-list.md) for all tenants in our MTO?
@@ -135,7 +135,7 @@ No, allowlist updates only need to be made to target tenants where the Viva Glin
 **B2B collaboration**: 
 
 - [Configure cross-tenant access settings for B2B collaboration](/entra/external-id/cross-tenant-access-settings-b2b-collaboration)
-- [Bulk invite guest users for B2B collaboration](/entra/external-id/tutorial-bulk-invite)
+- [Bulk invite guests for B2B collaboration](/entra/external-id/tutorial-bulk-invite)
 - [B2B monthly active user (MAU) licensing](/entra/external-id/external-identities-pricing)
 
 **Cross-tenant synchronization**: 
