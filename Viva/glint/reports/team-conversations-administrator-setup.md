@@ -38,7 +38,7 @@ To enable Team Conversations as a Viva Glint Admin:
 > Team Conversations only generate for managers with survey results that meet confidentiality threshold requirements.
 
 > [!IMPORTANT]
-> When a Viva Glint Admin enables Team Conversations for a survey that's already set up, an "Additional configuration needed" message appears in Program Setup. Use the information in this article to set up Schedule, Reporting, and Communications survey sections for Team Conversations.
+> When a Viva Glint Admin enables Team Conversations for an existing survey, an "Additional configuration needed" message appears in Program Setup. Use the information in this article to set up Schedule, Reporting, and Communications survey sections for Team Conversations.
 
 ## Schedule setup
 
@@ -81,7 +81,9 @@ When Team Conversations are enabled, these emails appear in the Communications s
 Edit and preview by selecting **Edit**. Edits made to notifications are only for the current program. Switching from Edit to **Preview** (and languages) automatically saves changes. 
 
 > [!TIP]
-> Plan to make all edits to start/reminder emails and their send dates before the first User Role in your organization gets live access and is scheduled to receive their Team Conversations start email.
+> Plan to make all edits to conversation emails and their send dates before:
+> - the first User Role in your organization gets live access
+> - the scheduled conversation start date for the first User Role in your organization
 
 For start and reminder emails, Viva Glint Admins can:
 
