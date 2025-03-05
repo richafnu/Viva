@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 2/27/2025
+ms.date: 3/05/2025
 ---
 
 # Make changes to a live Viva Glint survey
@@ -59,7 +59,8 @@ Only these fields can be edited when a survey is Live.
 |**Comment Placeholder Text** | **Leave your comments here** appears by default. This text can be customized |
 |**Benchmark** | |
 
-Select **Save Changes** when editing is complete.
+> [!IMPORTANT]
+> Edits to a question apply only to live and upcoming survey cycles. The edited question is not reflected in past reports.
 
 ## Edit a Live survey
 
