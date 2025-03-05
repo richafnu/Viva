@@ -14,7 +14,7 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 02/25/2025
+ms.date: 03/05/2025
 ---
 
 # Viva Glint for a multitenant organization FAQ
@@ -25,7 +25,7 @@ Use these frequently asked questions as your company sets up multitenant organiz
 The [multitenant organization (MTO) capability in Microsoft 365](/entra/identity/multi-tenant-organizations/multi-tenant-organization-overview) allows organizations to manage multiple tenants under a single umbrella enabling secure collaboration and resource sharing across these tenants. Tenant admins create an MTO policy in the target tenant and add source tenants. This option was created for Viva Glint customers to seamlessly access the product like they currently do in LinkedIn Glint.
 
 ## Are there any options for organizations who already use B2B collaboration or cross-tenant synchronization (CTS) to access Viva Glint?
-Customers with B2B Collab or cross-tenant synchronization (CTS) can access Viva Glint. The following shows the Glint dashboard access and experience for each customer sync type:
+Customers with B2B Collab or cross-tenant synchronization (CTS) can access Viva Glint. The following shows the Viva Glint dashboard access and experience for each customer sync type:
 
 |Sync method   |Dashboard access and experience   |
 |:----------|:-----------|
@@ -40,14 +40,14 @@ Microsoft 365 admins can install Viva Glint to only one tenant - the target tena
 1. All users from source tenants need to be synced to the target tenant with B2B collaboration or CTS and all users (across all tenants) must be imported to the Viva Glint app.
 1. Viva Glint admins can send a survey to all synced users or selected users from the target tenant and need to complete all survey setup actions in the target tenant. These users receive the survey but may not be able to access depending on if the organization chooses sign-in using Microsoft Entra ID as a survey access method.
 
-|Users synced with B2B collab or CTS  |HRIS import to Viva Glint app complete  |Require Azure AD (Microsoft Entra) for links in survey emails |Dashboard access for source tenant users |Survey access for source tenant users|
-|:----------|:-----------|:-----------|:-----------|:-----------|
-| Yes | No  | Yes | No | No |
-| Yes  | No | No | No | No |
-| No  | Yes  | Yes | No  | No |
-| No  | Yes  | No | No | Yes |
-| Yes | Yes  | Yes | Yes  | Yes |
-| Yes | Yes  | No | Yes  | Yes |
+|                |Users synced with B2B collab or CTS  |HRIS import to Viva Glint app complete  |Require Microsoft Entra for links in survey emails |Dashboard access for source tenant users |Survey access for source tenant users|
+|------------------|:----------|:-----------|:-----------|:-----------|:-----------|
+|**Scenario A**| Yes | No  | Yes | No | No |
+|**Scenario B**| Yes | No  | No | No | No |
+|**Scenario C**| No  | Yes | Yes | No  | No |
+|**Scenario D**| No  | Yes | No | No | Yes |
+|**Scenario E**| Yes | Yes | Yes | Yes  | Yes |
+|**Scenario F**| Yes | Yes | No | Yes  | Yes |
 
 ## My organization doesn't use B2B collaboration or CTS but does have multiple tenants. Can all users access Viva Glint?
 No. Consider this scenario, where a customer has two tenants:
