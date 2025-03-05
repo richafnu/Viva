@@ -60,7 +60,7 @@ From the Viva Glint admin dashboard, select the **Configuration** symbol and the
 
 ## Grant program privileges
 
-Your program configuration specifies which user groups have privileges. Use this procedure to grant user groups permissions to view 360s :
+Your program configuration specifies which user groups have privileges. Use this procedure to grant user groups permissions to view 360s:
 
 1. From the admin dashboard, select the **Configuration symbol** and then **360 Feedback Programs.**
 1. Select the program to be edited.
