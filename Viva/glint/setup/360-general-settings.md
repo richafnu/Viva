@@ -6,7 +6,7 @@ author: JudyWeiner
 manager: mbarry
 audience: admin
 f1.keywords: NOCSH
-keywords: localization, supported languages, dashboard languages, unique 360 admin role, 360 user role permissions, 
+keywords: localization, supported languages, dashboard languages, unique 360 admin role, 360 user role permissions, granting 360 permissions
 ms.collection:  
 - m365initiative-viva
 - selfserve 
@@ -14,7 +14,7 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 2/11/2025
+ms.date: 3/05/2025
 ---
 
 # Microsoft Viva Glint 360 feedback program General Settings and User Roles setup
@@ -57,6 +57,28 @@ From the Viva Glint admin dashboard, select the **Configuration** symbol and the
 1. In the **Confirm your changes to Permissions** dialog box which opens, select **Save Permissions**.
 
    :::image type="content" source="../../media/glint/setup/confirm-permissions.png" lightbox="../../media/glint/setup/confirm-permissions.png" alt-text="Screenshot of the Confirm your changes to Permissions dialog box.":::
+
+## Grant program privileges
+
+Your program configuration specifies which user groups have privileges. Use this procedure to grant user groups permissions to view 360s :
+
+1. From the admin dashboard, select the **Configuration symbol** and then **360 Feedback Programs.**
+1. Select the program to be edited.
+1. From the Actions dropdown menu, select **Add/Edit Admin Access**. 
+1. Use the Search box to see the available User Roles and select the one you want. The dropdown list under the Search box shows the User Roles that have Manage Feedback permission. In this case, select the user role name for each group you want to give privileges to.
+1. To remove program privileges from a user role, hover over the User Role and select X.
+1. The User Role name is added to the dropdown list. This role doesn't have permission for any program that is already live.
+1. Select **Save Changes.**
+    
+## Assign 360 permission to all 360 participants
+
+You must assign the Access 360 Feedback permission to all subjects, coaches, and raters so they can participate in 360 feedback cycles.
+To assign permissions:
+1. From the admin dashboard, select the **Configuration symbol"and then **User Roles**.
+3. Select the User Role.
+4. Select **Permissions.**
+5. Select **Access 360 Feedback.**
+6. Select **Save Changes.**
 
 ## Add members to a 360 User Role
 
