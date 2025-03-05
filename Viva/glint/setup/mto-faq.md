@@ -40,14 +40,14 @@ Microsoft 365 admins can install Viva Glint to only one tenant - the target tena
 1. All users from source tenants need to be synced to the target tenant with B2B collaboration or CTS and all users (across all tenants) must be imported to the Viva Glint app.
 1. Viva Glint admins can send a survey to all synced users or selected users from the target tenant and need to complete all survey setup actions in the target tenant. These users receive the survey but may not be able to access depending on if the organization chooses sign-in using Microsoft Entra ID as a survey access method.
 
-|                |Users synced with B2B collab or CTS  |HRIS import to Viva Glint app |Microsoft Entra for  survey email links |Dashboard access for source tenant users |Survey access for source tenant users|
+|                                        |Users synced with B2B collab or CTS  |HRIS import to Viva Glint app |Microsoft Entra for  survey email links |Dashboard access for source tenant users |Survey access for source tenant users|
 |------------------|:----------|:-----------|:-----------|:-----------|:-----------|
-|**Scenario A**            | Yes | No  | Yes | No | No |
-|**Scenario B**            | Yes | No  | No | No | No |
-|**Scenario C**            | No  | Yes | Yes | No  | No |
-|**Scenario D**            | No  | Yes | No | No | Yes |
-|**Scenario E**            | Yes | Yes | Yes | Yes  | Yes |
-|**Scenario F**            | Yes | Yes | No | Yes  | Yes |
+|**Scenario A**| Yes | No  | Yes | No | No |
+|**Scenario B**| Yes | No  | No | No | No |
+|**Scenario C**| No  | Yes | Yes | No  | No |
+|**Scenario D**| No  | Yes | No | No | Yes |
+|**Scenario E**| Yes | Yes | Yes | Yes  | Yes |
+|**Scenario F**| Yes | Yes | No | Yes  | Yes |
 
 ## My organization doesn't use B2B collaboration or CTS but does have multiple tenants. Can all users access Viva Glint?
 No. Consider this scenario, where a customer has two tenants:
