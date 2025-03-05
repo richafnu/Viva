@@ -57,13 +57,15 @@ This report should be created from the primary Admin account of Workday to avoid
 3. Add report fields.
    1. Once you select **OK**, Data Source has "Learning Content" as a value. Remove any existing value in the Data Source Filter field and add "Manageable Learning Content".
    1. Add the fields in "Columns" as outlined in the following schema. You see three objects for field "rating"; select the one with a hash (#) icon next to it.
+   > [!IMPORTANT]
+   > These column values are case sensitive.
 
    | Business object| Field | Column heading override| Column heading override XML alias|
    | --- | ---- | ---- | --- |
-   | Learning content | Workday ID | LearningObjectId | LearningObjectId|
+   | Learning Content | Workday ID | LearningObjectId | LearningObjectId|
    | Learning Content | Title | Title | Title |
    | Learning Content | Description | Description | Description |
-   | Learning Content | Link to Learning content | DeepLinkUrl | DeepLinkUrl |
+   | Learning Content | Link to Learning Content | DeepLinkUrl | DeepLinkUrl |
    | Learning Content | Duration in Minutes | Duration | Duration |
    | Learning Content | Inactive Status | Inactive | Inactive |
    | Learning Content | Learning Content Type | ContentType | ContentType |
@@ -84,7 +86,7 @@ This report should be created from the primary Admin account of Workday to avoid
 
    | Business Object | Group column heading | Group column heading XML Alias |
    | --- | --- | --- |
-   | Languages | Languages | Languages |
+   | Language | Languages | Languages |
    | Learning content | learningContent_group | learningContent_group| 
 
 5. Add filters to the report under "Filter section" 
@@ -99,12 +101,14 @@ This report should be created from the primary Admin account of Workday to avoid
     :::image type="content" alt-text="Screenshot of the formatted fields for filter values." source="../media/learning/workday-filters-for-catalog-raas.png" lightbox="../media/learning/workday-filters-for-catalog-raas.png":::
 
 6. **Add the Prompts:** Go to **Prompts**. Mark "Display Prompt Values in Subtitles" and add following prompt values. You can directly copy and paste these values. 
+   > [!IMPORTANT]
+   > These column values are case sensitive.
 
    | Field | Prompt qualifier | Label for prompt | Label for prompt XML alias | Default type | Default value | Required | 
    | - | - | - | - | - | - | -| 
    | Learning Content Type | Prompt #1 | contentType | contentType | No default value | | Yes | 
-   | Last updated | Prompt #2 | Start_Date | Start_Date | No default value | | Yes | 
-   | Last updated | Prompt #3 | End_Date | End_Date | No default value | | Yes |
+   | Last Updated | Prompt #2 | Start_Date | Start_Date | No default value | | Yes | 
+   | Last Updated | Prompt #3 | End_Date | End_Date | No default value | | Yes |
     
 
    :::image type="content" alt-text="Screenshot of the formatted fields for prompt values." source="../media/learning/workday-prompts-for-catalog-raas.png" lightbox="../media/learning/workday-prompts-for-catalog-raas.png":::
@@ -161,11 +165,15 @@ This report should be created from the primary Admin account of Workday to avoid
     1. Indicate report type as "Advanced."
     1. Check "Enable as Web service" 
     1. Check "Optimized for performance" 
-    1. In the "Data source," go to "All" and select "Workers for HCM reporting." Select **OK**.
+    1. In the "Data source," go to "All" and select "Workers for HCM Reporting." Select **OK**.
 
 1. Add report **Fields**.
 
 1. Add the fields in "Columns."
+
+   > [!IMPORTANT]
+   > These column values are case sensitive.
+
 
     | Business object | Field | Column heading override | Column heading override XML alias | 
     |  - | - | - | - |
@@ -173,7 +181,7 @@ This report should be created from the primary Admin account of Workday to avoid
     |Worker | Preferred Name – First Name | FirstName | FirstName | 
     |Worker | Preferred Name – Last Name | LastName | LastName |
     | Worker | User Name | UserName | UserName |
-    | Worker | Worker is Terminated | Terminated | Terminated | 
+    | Worker | "Worker is Terminated" or "Terminated" | Terminated | Terminated | 
     |Worker | Public Primary Work Email Address | Email_Address | Email_Address |
     |     Worker  |     Employee ID  |     Employee_ID  |     Employee_ID  |
 
@@ -181,23 +189,27 @@ This report should be created from the primary Admin account of Workday to avoid
 
    1. **Add filters to the report**
 
-      1. Add following values in "Filter on Instances". Follow the steps mentioned below for adding calculated field. 
+      1. Add following values in "Filter on Instances". Follow the steps mentioned below for adding the calculated field.
     
-         | And/Or | Field | Operator | Comparison type | Comparison value |
-         | - | - | - | - | - |
-         | And | Hire Date | greater than or equal to | Prompt the user for the value | Starting Prompt | 
-         |And | Hire Date | less than or equal to | Prompt the user for the value | Ending Prompt |
+         | And/Or |(|Field | Operator | Comparison type | Comparison value |)|Indexed|
+         | - | - | - | - | - |-| -| -| 
+         | And | <blank> | Hire Date | greater than or equal to | Prompt the user for the value | Starting Prompt | <blank> | Yes| 
+         |And | <blank> | Hire Date | less than or equal to | Prompt the user for the value | Ending Prompt |<blank>| Yes | 
 
-    1. Add the Prompts: Go to Prompts. Mark "Display Prompt Values in Subtitles" and add following prompt values. You can directly copy paste these values.  
+    1. Add the Prompts: Go to Prompts. Mark "Display Prompt Values in Subtitles" and add following prompt values. You can directly copy and paste these values.  
+    
+   > [!IMPORTANT]
+   > These column values are case sensitive.
 
-       | Field | Prompt qualifier | Label for prompt | Label for prompt XML alias | Default type | Default value | Required | Don't prompt at run time| 
-       | - | - | - | - | -| - | - | - |
-       | Contingent Worker type | Contingent_Worker_Type | No default value | | | Yes |
-       | Employee Type | Employee_Type | No default value | | | Yes | 
-       | Worker Types | Worker_Types | No default value | | | Yes | 
-       | Include Terminated workers | Include_Terminated_Workers | Specify default value | Yes | | Yes |
-       | Hire Date | Starting Prompt | Start_Date | Start_Date | No default value | | Yes | 
-       | Hire Date | Ending Prompt | End_Date | End_Date | No default value | | Yes | |
+      | Field | Prompt qualifier | Label for prompt | Label for prompt XML alias | Default type | Default value | Required | Don't prompt at run time| Do Not include in Subtitle |
+      | - | - | - | - | -| - | - | - | - |
+      | Contingent Worker type | <blank> | <blank> | Contingent_Worker_Type | No default value |<blank> |<blank> | Yes | <blank> |
+      | Employee Type | <blank> | <blank> |Employee_Type | No default value | <blank> | <blank> | Yes  | <blank> |
+      | Worker Types |<blank> | <blank> | Worker_Types | No default value |<blank> | <blank> | Yes | <blank> |
+      | Include Terminated workers | <blank> | <blank> | Include_Terminated_Workers | Specify default value | Yes |<blank> | Yes |<blank>|
+      | Hire Date | Starting Prompt | Start_Date | Start_Date | No default value | <blank>| Yes | <blank>| <blank>|
+      | Hire Date | Ending Prompt | End_Date | End_Date | No default value |<blank> | Yes | <blank>|<blank>|
+
 
     1. Go to **Advanced** and select the field `Optimized for Performance.` 
 
@@ -227,6 +239,9 @@ This report should be created from the primary Workday admin account to avoid an
     1. Once you select **OK**, the "Data Source" automatically sets the value as "Learning Assignment Records." For the "Data Source Filter" field, remove any existing value and add "Assignment Records for ~Person~from Learning Organization". You can copy this value and paste in the field directly.
     1. Add the fields in "Columns" as outlined below. You see two objects for “Learning Assignment," select the one with a blue icon next to it.
     
+   > [!IMPORTANT]
+   > These column values are case sensitive.
+    
     |Business object | Field | Column heading override | Column heading override XML alias| 
     | - | - | - | - | 
     | Learning Assignment | Workday ID | AssignmentId | AssignmentId
@@ -239,24 +254,27 @@ This report should be created from the primary Workday admin account to avoid an
     |Learning Assignment |  Assignment Record Completion Moment | CompletionDate | CompletionDate | 
     | Learning Assignment | Required | AssignmentType | AssignmentType | 
 
-    > [!NOTE]
-    > The `In progress` status from Workday doesn't sync to Viva Learning.
+   > [!NOTE]
+   > The `In progress` status from Workday doesn't sync to Viva Learning.
 
 4. Under "Group Column Headings", add the following fields.
 
-   | Business object | Group column heading XML alias | 
-   | - | - | 
-   | Assigned By | Assigned_By_group |
-   | Learning Assignment | Learning_Assignment_group |
-   | Learning Content | Learning_Content_group |
-   | Worker | Worker_group |
+   | Business object |Group Column Heading| Group column heading XML alias | 
+   | - | - | - | 
+   | Assigned By | Assigned_By_group| Assigned_By_group |
+   | Learning Assignment | Learning_Assignment_group | Learning_Assignment_group |
+   | Learning Content | Learning_Content_group |Learning_Content_group |
+   | Worker | Worker_group |Worker_group|
 
 5. Under Prompt mark "Display Prompt Values in Subtitles" and, add following the prompt values. You can directly copy and paste these values. In the 'Default Value' field for "learning Organization for Learning Assignment," provide the default value of the top organization (root organization) for which you need the report that is being pivoted.
 
-   | Field | Label for Prompt XML Alias | Default Type | Default value | Required | Don't Prompt at Runtime |
-   | - | - | - | - | - | - | 
-   |  Learning Organizations for Learning Assignment | Learning_Organizations_for_Learning_Assignment | No default Value | | Yes | | 
-   | Include Subordinate Organizations | Include_Subordinate_Organizations | Specify default value | Yes | Yes | Yes | 
+   > [!IMPORTANT]
+   > These label values are case sensitive.
+
+   | Field | Label for Prompt| Label for Prompt XML Alias | Default Type | Default value | Required | Don't Prompt at Runtime |
+   | - | - | - | - | - | - | - |
+   |  Learning Organizations for Learning Assignment | Learning_Organizations_for_Learning_Assignment | Learning_Organizations_for_Learning_Assignment | No default Value | <blank> | Yes | <blank> | 
+   | Include Subordinate Organizations |<blank>| Include_Subordinate_Organizations | Specify default value | Yes | Yes | Yes | 
 
 6. Add date filters to the report for delta sync. 
         
@@ -275,7 +293,7 @@ This report should be created from the primary Workday admin account to avoid an
        | Field | Value |
        | - | - |
        |Field | Modified Date|
-       | Operator | Greater than or equal to |
+       | Operator | greater than or equal to |
        | Comparison Type | Prompt the user for the value and ignore the filter condition if the value is blank |
        | Comparison Value | Starting Prompt | 
 
@@ -284,7 +302,7 @@ This report should be created from the primary Workday admin account to avoid an
        | Field | Value |
        | - | - | 
        |Field | ModifiedDate|
-       | Operator | Less than or equal to | 
+       | Operator | less than or equal to | 
        |Comparison Type | Prompt the user for the value and ignore the filter condition if the value is blank |
        | Comparison Value | Ending Prompt | 
    
@@ -302,14 +320,17 @@ This report should be created from the primary Workday admin account to avoid an
 
            - For Starting Prompt, add value `Start_Date` in fields **Label for Prompt** and **Label for Prompt XML Alias**
            - For Ending Prompt, add value `End_Date` in fields **Label for Prompt** and **Label for Prompt XML Alias**
+         
+   > [!IMPORTANT]
+   > These label values are case sensitive.
 
-    1. Go to **Advanced**. Uncheck the field **Optimized for Performance**
+    2. Go to **Advanced**. Uncheck the field **Optimized for Performance**
 
-    1. Save the report. Select **OK.**
+    3. Save the report. Select **OK.**
 
-    1. Share the report with Integrated System User (ISU) and the respective security group, which you created while enabling content sync.
+    4. Share the report with Integrated System User (ISU) and the respective security group, which you created while enabling content sync.
 
-    1. Within the next 24 hours LRS sync calls the report API and accordingly data reflect in Viva Learning, provided Admin has enabled LRS on Admin portal. Refer to this document for configuration steps on Admin portal.
+    5. Within the next 24 hours LRS sync calls the report API and accordingly data reflect in Viva Learning, provided Admin has enabled LRS on Admin portal. Refer to this document for configuration steps on Admin portal.
 
 > [!NOTE]
 > The assignments with the completion status of "manually waived" aren't displayed in the Viva Learning user experience. 
@@ -338,6 +359,9 @@ This report should be created from the primary Workday admin account to avoid an
     
    1. Add the fields in "Columns" as per below schema. You see two objects for “learning Enrollment, select the one with a blue icon next to it.
 
+   > [!IMPORTANT]
+   > These column values are case sensitive.
+
       | Business object | Field | Column heading override | Column heading override XML alias |
       | - | - | - | - |
       |Learning Enrollment | Workday ID | EnrollmentId | EnrollmentId |
@@ -365,8 +389,8 @@ This report should be created from the primary Workday admin account to avoid an
           |---|---|---|---|---|---|---|---|
           |     And    |          |     Completion Date    |     greater than or   equal to    |     Prompt the user   for the value    |     Starting Prompt    |          |          |
           |     And    |          |     Completion Date    |     less than or   equal to    |     Prompt the user   for the value    |     Ending Prompt    |          |          |
-          |     And    |          |     Learning   Assignment    |     Is empty    |          |          |          |          |
-          |     And    |          |     Completion   Status    |     In the selection   list    |     Value specified   in the filter    |     Completed    |          |     Yes    |
+          |     And    |          |     Learning   Assignment    |     is empty    |          |          |          |          |
+          |     And    |          |     Completion   Status    |     in the selection   list    |     Value specified   in this filter    |     Completed    |          |     Yes    |
         
         
     :::image type="content" alt-text="Screenshot of the self-enrollment completion filters in Workday" source="../media/learning/workday-self-enrollment-completion-filters.png" lightbox="../media/learning/workday-self-enrollment-completion-filters.png":::
@@ -377,13 +401,17 @@ This report should be created from the primary Workday admin account to avoid an
 1. Go to **Prompts**.
 
     1. Select **Populate Undefined Prompt Defaults**. This selection quickly adds the start and ending prompt for the completion date, which is defined in previous step. You can also enter the prompts as shown in the image below. Once the prompts are populated, this check box selection is gone.
+   
+    2. Select **Display Prompt Value in Subtitle**.
     
        :::image type="content" alt-text="Screenshot of the Workday self enrollment completion prompts." source="../media/learning/workday-self-enrollment-completion-prompts.png" lightbox="../media/learning/workday-self-enrollment-completion-prompts.png":::
 
-    2. Add following values in the new prompts and select “OK”.
+    3. Add following values in the new prompts and select “OK”.
 
        - For Starting Prompt, add value StartDate in fields Label for Prompt and Label for Prompt XML Alias
        - For Ending Prompt, add value EndDate in fields Label for Prompt and Label for Prompt XML Alias
+   > [!IMPORTANT]
+   > These label values are case sensitive.
 
 2. Go to **Advanced.** Check the field **Optimized for Performance**. 
 
