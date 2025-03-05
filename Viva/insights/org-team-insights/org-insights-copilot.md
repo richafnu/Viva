@@ -1,5 +1,5 @@
 ---
-ms.date: 02/27/2025
+ms.date: 03/04/2025
 title: Discover organizational insights quickly with Microsoft 365 Copilot in Viva Insights
 description: Explains how to use Microsoft 365 Copilot in Viva Insights to access organizational insights about your company, and use Copilot to answer questions about your organization.
 author: zachminers
@@ -95,7 +95,6 @@ Copilot uses the following customer uploaded HR data attributes:
 * **HireDate**
 * **FunctionType**
 * **CountryOrRegion**
-* **PersonIsManager**
 * **WeeklyBadgeOnsiteDays**
 
 [Learn more about Viva Insights attributes and their descriptions](../advanced/admin/prepare-org-data.md#attribute-reference).
