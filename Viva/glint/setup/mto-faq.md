@@ -42,12 +42,12 @@ Microsoft 365 admins can install Viva Glint to only one tenant - the target tena
 
 |                |Users synced with B2B collab or CTS  |HRIS import to Viva Glint app |Microsoft Entra for  survey email links |Dashboard access for source tenant users |Survey access for source tenant users|
 |------------------|:----------|:-----------|:-----------|:-----------|:-----------|
-|**Scenario A**| Yes | No  | Yes | No | No |
-|**Scenario B**| Yes | No  | No | No | No |
-|**Scenario C**| No  | Yes | Yes | No  | No |
-|**Scenario D**| No  | Yes | No | No | Yes |
-|**Scenario E**| Yes | Yes | Yes | Yes  | Yes |
-|**Scenario F**| Yes | Yes | No | Yes  | Yes |
+|**Scenario A**            | Yes | No  | Yes | No | No |
+|**Scenario B**            | Yes | No  | No | No | No |
+|**Scenario C**            | No  | Yes | Yes | No  | No |
+|**Scenario D**            | No  | Yes | No | No | Yes |
+|**Scenario E**            | Yes | Yes | Yes | Yes  | Yes |
+|**Scenario F**            | Yes | Yes | No | Yes  | Yes |
 
 ## My organization doesn't use B2B collaboration or CTS but does have multiple tenants. Can all users access Viva Glint?
 No. Consider this scenario, where a customer has two tenants:
