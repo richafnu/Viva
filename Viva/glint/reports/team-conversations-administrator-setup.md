@@ -65,7 +65,7 @@ Team Conversations messages are designed to notify managers when they can begin 
 
 When Team Conversations are enabled, these emails appear in the Communications section:
 
-| Email | Default send timeframe | Description | 
+| Email | Default delivery timeframe | Description | 
 |:----------|:----------|:----------|
 | Conversation Start Notification | Seven days after survey results are released | Notification to managers that results are available to present to their team |
 | Reminder 1 | For incomplete conversations, seven days before due date | Reminder to managers to meet with their team to share results and select focus areas |
@@ -102,7 +102,7 @@ Reminders schedule for users in a role when the User Role gets live access to a 
 
 > [!IMPORTANT]
 > - Viva Glint Admins can't delete a reminder email after the first user/role scheduled to receive a reminder gets that email.
-> - Viva Glint Admins can only edit reminders when there is a role in phased access or the earliest due date for any role is still in the future.
+> - Viva Glint Admins can only edit reminders when there's a role in phased access or the earliest due date for any role is still in the future.
 
 ### Customize Team Conversations email content
 
