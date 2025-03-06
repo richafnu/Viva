@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 03/05/2025
+ms.date: 03/06/2025
 ---
 
 # Viva Glint survey Communications setup
@@ -104,10 +104,12 @@ Use this email [customization guidance](email-content-customization.md) to add c
 
 ## Notifications when survey results are available
 
-The results notification email is a one-time notification to let users know that survey results are available. The email sends to users in roles with **live** reporting access 48 hours before the email to all others (including phased access). 
+The results notification email is a one-time notification to let users know that survey results are available. The email sends to users in roles with **live** reporting access. 
 
 > [!IMPORTANT]
-> For all users to receive a results notification, ensure that all roles are granted access (phased or live) in the **Reporting** section of the survey program before the survey closes. 
+> - The email is sent only to users whose roles are included in the **Reporting** section of **Program Summary.**
+> - Release the results to users with Phased access at least 48 hours before the Survey End email is scheduled to send. [Follow these guidelines](/../../viva/glint/setup/live-versus-phased-access#change-from-live-to-phased-access)
+
 
 To set up the results notification email:
 
@@ -120,8 +122,6 @@ To set up the results notification email:
    - The default is three (3) and the maximum is 30 days.
 2. Select **Save Changes** in the top right of the edit pane.
 
-> [!IMPORTANT]
-> Access must be scheduled to be live 48 hours before the results notification email is scheduled for sending.
 
 > [!NOTE]
 > To edit **Team Conversations** notifications, [follow this guidance](/viva/glint/reports/team-conversations-administrator-setup).
