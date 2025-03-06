@@ -26,13 +26,16 @@ Microsoft Viva Glint is a people-driven platform that provides visibility into t
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RW17jMY]
 
+> [!TIP]
+> To stay informed about Viva Glint and other Microsoft Employee Experience solutions, [register for the Viva Glint newsletter](https://adoption.microsoft.com/viva/glint/newsletter/).
+
 ## Get started
 
 Coordinate with your Microsoft 365 Global Administrator to set up your tenant. Use the Viva Glint deployment guide to complete one-time setup tasks and launch your first survey.
 
 | :::image type="icon" source="/office/media/icons/get-started-blue.png" ::: |Phase| Tasks |
 |:---|:---|:---|
-|:::image type="icon" source="/office/media/icons/shopping-cart-blue.png" ::: | **Set up a tenant** <br> <br>_Microsoft 365 global admin_ | <ul><li>[Set up a tenant](/viva/glint/setup/viva-glint-tenant-provision)</li> <li>[Licensing](/viva/glint/setup/glint-order-teams)</li> <li>[Assign Viva Glint Administrators](/viva/glint/setup/post-provisioning-next-steps)</li> <li>[Ensure users can access via Microsoft Entra ID](/viva/glint/setup/access-with-azure-ad)</li></ul>|
+|:::image type="icon" source="/office/media/icons/shopping-cart-blue.png" ::: | **Set up a tenant** <br> <br>_Microsoft 365 Global Administrator_ | <ul><li>[Set up a tenant](/viva/glint/setup/viva-glint-tenant-provision)</li> <li>[Licensing](/viva/glint/setup/glint-order-teams)</li> <li>[Assign Viva Glint Administrators](/viva/glint/setup/post-provisioning-next-steps)</li> <li>[Ensure users can access via Microsoft Entra ID](/viva/glint/setup/access-with-azure-ad)</li></ul>|
 | :::image type="icon" source="/office/media/icons/settings.png" ::: | **Deploy Viva Glint and launch a survey** <br> <br>_Viva Glint Administrator_ <br> <br>_IT, Security, HR information system team, works councils (EU)_| <ul><li> [Viva Glint deployment guide](https://go.microsoft.com/fwlink/?linkid=2301488) </li></ul>|
 
 ## Ongoing measurement
@@ -48,7 +51,7 @@ After initial tenant and platform setup, complete these regular tasks to gather 
 
 ## Training
 
-Use Viva Glint learning paths and modules to gain badges and deepen your understanding of the Glint platform.
+Use Viva Glint learning paths and modules to gain badges and deepen your understanding of the Viva Glint platform.
 
 | :::image type="icon" source="/office/media/icons/education-tutorial-blue.png" ::: |Learning | Options |
 |:---|:---|:---|
