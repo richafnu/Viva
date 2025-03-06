@@ -41,7 +41,7 @@ Coordinate with your Microsoft 365 Global Administrator to set up your tenant.
 Use the Viva Glint deployment guide to complete one-time setup tasks and launch your first survey.
 
 > [!div class="nextstepaction"]
-> :::image type="icon" source="/office/media/icons/download-blue.png" ::: [Download the Viva Glint deployment guide](https://go.microsoft.com/fwlink/?linkid=2301488)
+> [Download the Viva Glint deployment guide](https://go.microsoft.com/fwlink/?linkid=2301488)
 
 ## Ongoing measurement
 
