@@ -14,27 +14,21 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 08/27/2024
+ms.date: 03/06/2025
 ---
 
 # Communicate with Viva Glint Nudges
 
-Microsoft Viva Glint Nudges is a system of intelligent, personalized email notifications designed to meet managers where they are in their flow of work. Nudges encourage managers to take simple steps to drive their team’s engagement and performance. Nudge notifications can include a link to the manager dashboard.
+Microsoft Viva Glint Nudges are personalized email notifications designed to meet managers where they are in their flow of work. Nudges encourage managers to take simple steps to drive their team’s engagement and performance. Nudge notifications can include a link to the manager dashboard.
 
-Who receives a Nudge - and which Nudge - is set up at the User Role level. 
- 
-Nudges has filters to ensure they're only sent when relevant. If a user repeatedly doesn't open or interact with Nudge emails, they're automatically unsubscribed. 
+Nudges are set up at the User Role and have filters to ensure they're sent only when relevant. If a user repeatedly doesn't open or interact with Nudge emails, they're automatically unsubscribed. 
 
-## Nudges are sent on a recurring schedule
+**Nudges are sent on a set schedule.** Managers receive unique messages with each Nudge to keep the experience fresh, focused, and relevant as it unfolds. Nudges simplify key behaviors into bite-sized steps and make action taking collaborative. Nudges aren't sent to managers of small teams or to managers who didn’t receive enough feedback to meet confidentiality thresholds. 
 
-Recurring communications keep employees on track over time. Managers receive unique messages with each Nudge to keep the experience fresh, focused, and relevant. Nudges simplify key behaviors into lightweight, bite-sized steps and make action taking collaborative.
-
-Notifications that survey results are ready for viewing aren't sent to managers of small teams or to managers who didn’t receive enough feedback to meet confidentiality thresholds. 
-
-If a user is in multiple recipient groups, they may receive emails from either group depending on the cadence of each group and its next send date. Users are guaranteed to never receive more than one email per week. 
+If a user is in multiple recipient groups, they may receive emails from either groups. Users are guaranteed to never receive more than one Nudge per week. 
 
 > [!NOTE]
-> Nudge communications might not send exactly between the two hour window specified during platform configuration. The total email send time is dependent upon the number of communications being sent.
+> Nudge communications might not send exactly between the two hour window specified during platform configuration. The send time is dependent upon the number of communications being sent.
 
 ## Understand Nudge terminology
 
@@ -42,6 +36,33 @@ If a user is in multiple recipient groups, they may receive emails from either g
 |---|---|
 | **Recipient group** | Defines who receives Nudges and at what frequency |
 | **Teammates** | This term has a different meaning dependent upon the employee role:<br>- Individual contributors: Managers + peers <br>- First-line manager: Manager + directs <br>- Manager of Mangers: Manager + direct |
+
+## How managers benefit from Nudges
+
+Nudges differ from other Viva Glint notifications because they're driven by high priority messages. Users typically receive notifications of low priority messages, such as, “Your survey is live” or “You have an upcoming conversation.”  Nudges are sent only for high priority messages, such as:
+
+- Concierge-like Nudges to interpret and share results and commit to a Focus Area.
+- Reminders and suggestions for taking action on Focus Areas.
+
+This table shows the conditions and triggers used to send Nudge notifications:
+
+|Condition|Message|Action|
+|--------|--------|---------|
+|When a suvey is Live| [Survey Name} is live!<br> *If a manager has multiple live surveys running, a consolidated message is sent, listing each survey*.|Invite your teammates to respond!|No action required|
+|Manager hasn't viewed survey results|**Heading** - Your survey results are ready.<br>**Body** - Review your [Survey Name] results and prepare to share with your team.|Interpret results from the manager dashboard.|
+|Manager viewed results but hasn't decided on a Focus Area|**Heading** - It’s time to check-in with your team. <br>**Body** - Talk with your team about results, celebrate wins, and collaborate on what next steps to take to build trust, transparency, and shared ownership of action. | [Use the Team Conversations Presentation Kit](/../../viva/glint/reports/managers-sharing-team-conversations)|
+|Manager received the previous Nudge but still haven't created a Focus Area.|**Heading** - Take one small step to build your team's engagement.<br> **Body** - Small steps can have a big impact. <br>You discussed results with your team, it's time to choose a Focus Area. We support you with action items, best practices, and ongoing reminders.|Choose a Focus Area.|
+|Manager has an active Focus Area created|**Heading** - How are you and your team progressing on your goal? <br> **Body** -If the goal has an active action item:<li>
+Next up on [Driver] : [Action Item]<li><li>For example: Next up on Opinions Count: Listening Tips for Leaders</ul> <br>If the goal has no active action items:
+<ul>Next up on [Driver]: [Recommendation] <li><li>Next up on Opinions Count:  Work on: Listening Tips for Leaders</ul>||Take action on a Focus Area|
+|Survey is live and manager has not yet viewed results or survey is closed, an action item is created and action has been taken. 
+The FocusArea may or may not have an active action item associated with it. The Nudge message will be sent accordingly. |**Heading Variants** - How are you progressing on your action items? Let's check-in.<br> **Body Variant** - Now is a good time to reflect, celebrate the progress you've made with your team, and decide if you'd like to keep working on this goal. If you're done, remember to mark the goal "Complete" to get credit for your work!|Reflect on action>
+
+It's important to share results with your team and let them know they've been heard. Glint has a Powerpoint Presentation Kit to get you started!
+
+This message is only sent once.
+
+
 
 ## How admins set up Nudges 
 
