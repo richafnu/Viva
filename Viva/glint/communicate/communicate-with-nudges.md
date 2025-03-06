@@ -51,58 +51,49 @@ This table shows the conditions and triggers used to send Nudge notifications:
 |When a suvey is Live| [Survey Name} is live!<br> *If a manager has multiple live surveys running, a consolidated message is sent, listing each survey*.|Invite your teammates to respond!|No action required|
 |Manager hasn't viewed survey results|**Heading** - Your survey results are ready.<br>**Body** - Review your [Survey Name] results and prepare to share with your team.|Interpret results from the manager dashboard.|
 |Manager viewed results but hasn't decided on a Focus Area|**Heading** - It’s time to check-in with your team. <br>**Body** - Talk with your team about results, celebrate wins, and collaborate on what next steps to take to build trust, transparency, and shared ownership of action. | [Use the Team Conversations Presentation Kit](/../../viva/glint/reports/managers-sharing-team-conversations)|
-|Manager received the previous Nudge but still haven't created a Focus Area.|**Heading** - Take one small step to build your team's engagement.<br> **Body** - Small steps can have a big impact. <br>You discussed results with your team, it's time to choose a Focus Area. We support you with action items, best practices, and ongoing reminders.|Choose a Focus Area.|
-|Manager has an active Focus Area created|**Heading** - How are you and your team progressing on your goal? <br> **Body** -If the goal has an active action item:<li>
-Next up on [Driver] : [Action Item]<li><li>For example: Next up on Opinions Count: Listening Tips for Leaders</ul> <br>If the goal has no active action items:
-<ul>Next up on [Driver]: [Recommendation] <li><li>Next up on Opinions Count:  Work on: Listening Tips for Leaders</ul>||Take action on a Focus Area|
-|Survey is live and manager has not yet viewed results or survey is closed, an action item is created and action has been taken. 
-The FocusArea may or may not have an active action item associated with it. The Nudge message will be sent accordingly. |**Heading Variants** - How are you progressing on your action items? Let's check-in.<br> **Body Variant** - Now is a good time to reflect, celebrate the progress you've made with your team, and decide if you'd like to keep working on this goal. If you're done, remember to mark the goal "Complete" to get credit for your work!|Reflect on action>
-
-It's important to share results with your team and let them know they've been heard. Glint has a Powerpoint Presentation Kit to get you started!
-
-This message is only sent once.
-
-
+|Manager received the previous Nudge but hasn't created a Focus Area.|**Heading** - Take one small step to build your team's engagement.<br> **Body** - Small steps can have a big impact. You discussed results with your team, it's time to choose a Focus Area. We support you with action items, best practices, and ongoing reminders.|Choose a Focus Area.|
+|Manager has an active Focus Area created. <br> *The Focus Area may or may not have an active action item associated with it. The Nudge is sent accordingly.* |**Heading** - How are you and your team progressing on your goal? <br><br> **Body** - <br> If the goal has an active action item: <br> **Next up on [Driver]:[Action Item]**. <br> For example: Next up on Opinions Count: Listening Tips for Leaders <br><br> If the goal has no active action items: <br> **Next up on [Driver]:[Recommendation]** <br> For example, Next up on Opinions Count: Work on Listening Tips for Leaders|Take action on a Focus Area|
+|Survey is live and manager hasn't viewed results. <br> Or, the survey is closed, an action item is created, and action is taken.|**Heading Variants** - How are you progressing on your action items? Let's check-in.<br> **Body Variant** - Now is a good time to reflect, celebrate the progress you've made with your team, and decide if you'd like to keep working on this goal. If you're done, remember to mark the goal "Complete" to get credit for your work!|Reflect on action|
 
 ## How admins set up Nudges 
 
-To set up Nudges, recipient groups must be created and enabled. Only one User Role can be selected per recipient group. You may create multiple groups to reach more User Roles or choose to send Nudges at a different frequency for each group.
+To set up Nudges, recipient groups must be created and enabled. Only one User Role can be selected per recipient group. You can create multiple groups to reach more User Roles or send Nudges at a different frequency for each group.
 
-From the Glint admin dashboard, select **Configure**, then  **Nudges**  in the  **Notifications** section. 
+From the Viva Glint admin dashboard, select the **Configuration symbol**, then **Nudges** in the  **Notifications** section. 
 
    > [!NOTE]
-   >Nudge configuration may also be accessed via the **Communications** set up page in **Program Summary** for a specific survey.
+   >Nudge setup can also be accessed on the **Communications, Program Summary** page.
 
 ### Add a new recipient group
 
 There are several sections to set up.
 
-### Recipients 
+### Set up recipients 
 
 1. Select **+ New Recipient Group**.
-1. Choose who receives the Nudges: 
-    1. User Role: Select a role from the dropdown menu. Add only one User Role per group. If you have one User Role that includes all managers, it reduces the number of recipient groups you need to create.
-    2. Exclude: Select individual users or Distribution Lists from the search bar. A Distribution List must already be created for it to be available. 
-    3. Recipient List: Download the list of recipients to a *.csv* file to have it for reference.  
+1. Choose who receives the Nudge: 
+    1. **User Role**: Select a role from the dropdown menu. Add only one User Role per group. If you have one User Role that includes all managers, it reduces the number of recipient groups you need to create.
+    2. **Exclude**: Select individual users or Distribution Lists from the search bar. A Distribution List mus be created for it to be available. 
+    3. **Recipient List**: Download the list of recipients to a *.csv* file to have it for reference.  
     
-### Timing
+### Set up timing
 
-Defines when and how frequently users receive Nudges.
+Defines when and how frequently users receive Nudges. From the dropdown menu, choose to send Nudges from every one to eight weeks. Frequency can be adjusted after a survey launches.
 
-- Frequency: From the dropdown menu, choose to send Nudges from every one to eight weeks. Frequency can be adjusted after a survey launches.
   > [!TIP]
   >Send Nudges every two to four weeks.
+> 
   >Send Day: Choose a business day of the week.
-  >Window: Select the number of days Nudge messages will send after a survey closes.  
-  >Align Nudges to your survey cadence, i.e., 90 days for quarterly surveys, 180 days for biannual survey.
+> 
+  >Window: Select the number of days Nudge messages will send after a survey closes.
+>   
+  >Align Nudges to your survey cadence. For example, 90 days for quarterly surveys, 180 days for biannual survey.
       
-### Content 
-
-Configure the emails that are sent to your recipient group. 
+### Provide content 
 
 Select the **Nudge #** to enable, disable, or preview. The corresponding slider window opens.
 
-- Enable or disable by using ON and OFF. 
+- Enable or disable by using **ON** and **OFF**. 
 - Preview what your Nudge looks like: It includes your company logo, the survey name, highlight where the user is in the results process, and a link to view results.
 - Results process: 
   - Nudge #1: Interpret results 
@@ -110,20 +101,20 @@ Select the **Nudge #** to enable, disable, or preview. The corresponding slide
   - Nudge #3: Choose a Focus Area (or whatever term your organization uses) 
   - Nudge #4: Focus Area reminder 
 
-### Enabled programs 
+### Enable programs 
 
 Nudges are enabled at the program level within each specific survey program. Your Recipient Group shows on the Nudges landing page under **Configuration**.
 
 ## Edit Nudge details 
 
-Once Nudge details are saved, they can't be edited within specific programs or cycles. All editing must be done by selecting **Configure** on the admin dashboard, then **Nudges**.
+Once Nudge details are saved, they can't be edited within specific programs or cycles. Editing must be done by selecting **Configure** on the admin dashboard, then **Nudges**.
 To make changes to a recipient group: 
 
 1. Select **Disable**, then **Disable Recipient Group**, then **Edit Details**.  
 1. Make changes and select **Save Changes**.  
 1. Select **Enable** and then **Enable Recipient Group** on the Configuration section of the Nudges landing page to incorporate the changes into your programs.
 
-### How long will Nudges continue to send?
+### How long do Nudges continue to send?
 
 Nudges send within 90 days of the survey closing, regardless of the date Nudges are enabled. For example, if a program is on a quarterly cadence, Nudges stop when the next cycle starts.
 
@@ -131,8 +122,8 @@ Nudges send within 90 days of the survey closing, regardless of the date Nudge
 
 Switch the **Eligible for Nudges** feature to **YES** or **NO** on the **Program Setup** page in **Program Summary**. **Suggested Action Plans** must be switched to **ON**, to enable Nudges.
 
-### View a list of programs enabled for roles in Nudges
+### View programs enabled for roles in Nudges
 
-From the admin dashboard select **Nudges**, then **View Details** (for an enabled User Role within the Configuration section). The Recipient Group Setup page opens for that User Role. The bottom section displays **Enabled Programs**.
+From the admin dashboard select **Nudges**, then **View Details** (for an enabled User Role within the Configuration section). The Recipient Group Setup page opens for that User Role. Review the **Enabled Programs** section.
 
 
