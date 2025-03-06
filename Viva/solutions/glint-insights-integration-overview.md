@@ -68,4 +68,4 @@ Audience: For HR leadership, HR business partners, people analytics specialists,
 
 You can also find the [Glint + Insights Playbook directly from the Microsoft Adoption site](https://adoption.microsoft.com/viva/glint/). **You'll need to scroll down on the Adoption site just a bit to locate the playbook.**
 
-:::image type="content" source="/../../solutions/images/glint-insights-playbook-1.png" alt-text="Screenshot of how to locate the Glint and Insights Playbook on the Microsoft Adoption site." lightbox="/../../solutions/images/glint-insights-playbook-1.png":::
+:::image type="content" source="/viva/solutions/images/glint-insights-playbook.png" alt-text="Screenshot of how to locate the Glint and Insights Playbook on the Microsoft Adoption site." lightbox="/viva/solutions/images/glint-insights-playbook.png":::
