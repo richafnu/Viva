@@ -291,7 +291,7 @@ items:
           - name: Reporting setup
             href: setup/reporting-setup.md
             items:
-               - name: Grant Live versus Phased access
+               - name: Release results to roles in phased access
                  href: setup/live-versus-phased-access.md
           - name: Communications setup 
             href: setup/program-summary-communications.md
