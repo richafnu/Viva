@@ -688,6 +688,9 @@ Groups identified as top information brokers serve as key disseminators of infor
 
 Each group within your specified collaborative network has a Bridging Index, which is a numerical representation of the extent to which that group acts as an information broker. Of these, we highlight and rank the groups with the top five Bridging Index scores, assigning them a **bridging rank**. 
 
+>[!Important]
+>Because the Bridging Index is a graph computation metric, the value of the metric is slightly different for each computation. For example, a group might have a Bridging Index of one value in an initial report, then a Bridging Index that's marginally higher or lower in a subsequent report for the same date range. 
+
 The bridging rank is displayed for the top five information brokers, with "1" being the highest rank. The higher the rank, the more that group is in the path of information flow. The bridging rank, to be clear, indicates a *ranking* of information flow, not the *amount* of information flow. 
 
 Just like the other insight categories, the card surfaces a key insight which is supported by a list of **top highlights** for the third insights category. Hover over each highlight to see which area of the graph it relates to. 
