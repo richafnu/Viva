@@ -31,14 +31,16 @@ Microsoft Viva Glint is a people-driven platform that provides visibility into t
 
 ## Get started
 
-### :::image type="icon" source="/office/media/icons/deploy-blue.png" ::: Coordinate with your Microsoft 365 Global Administrator to set up your tenant. 
+### :::image type="icon" source="/office/media/icons/deploy-blue.png" ::: Set up a tenant
+Coordinate with your Microsoft 365 Global Administrator to set up your tenant. 
 
 - [Set up a tenant](/viva/glint/setup/viva-glint-tenant-provision)
 - [Licensing](/viva/glint/setup/glint-order-teams)
 - [Assign Viva Glint Administrators](/viva/glint/setup/post-provisioning-next-steps)
 - [Ensure users can access via Microsoft Entra ID](/viva/glint/setup/access-with-azure-ad)
 
-### :::image type="icon" source="/office/media/icons/settings.png" ::: Use the Viva Glint deployment guide to complete one-time setup tasks and launch your first survey.
+### :::image type="icon" source="/office/media/icons/settings.png" ::: Deploy Viva Glint and launch a survey
+Use the Viva Glint deployment guide to complete one-time setup tasks and launch your first survey.
 
 > [!div class="nextstepaction"]
 > [Download the Viva Glint deployment guide](https://go.microsoft.com/fwlink/?linkid=2301488)
