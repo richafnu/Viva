@@ -33,16 +33,16 @@ Microsoft Viva Glint is a people-driven platform that provides visibility into t
 
 Coordinate with your Microsoft 365 Global Administrator to set up your tenant. Use the Viva Glint deployment guide to complete one-time setup tasks and launch your first survey.
 
-| :::image type="icon" source="/office/media/icons/get-started-blue.png" ::: |Phase| Tasks |
+| :::image type="icon" source="/office/media/icons/get-started-blue.png" ::: |Phase| Tasks and resources|
 |:---|:---|:---|
 |:::image type="icon" source="/office/media/icons/shopping-cart-blue.png" ::: | **Set up a tenant** <br> <br>_Microsoft 365 Global Administrator_ | <ul><li>[Set up a tenant](/viva/glint/setup/viva-glint-tenant-provision)</li> <li>[Licensing](/viva/glint/setup/glint-order-teams)</li> <li>[Assign Viva Glint Administrators](/viva/glint/setup/post-provisioning-next-steps)</li> <li>[Ensure users can access via Microsoft Entra ID](/viva/glint/setup/access-with-azure-ad)</li></ul>|
-| :::image type="icon" source="/office/media/icons/settings.png" ::: | **Deploy Viva Glint and launch a survey** <br> <br>_Viva Glint Administrator_ <br> <br>_IT, Security, HR information system team, works councils (EU)_| <ul><li> [Viva Glint deployment guide](https://go.microsoft.com/fwlink/?linkid=2301488) </li></ul>|
+| :::image type="icon" source="/office/media/icons/settings.png" ::: | **Deploy Viva Glint and launch a survey** <br> <br>_Viva Glint Administrator_ <br> <br>_IT, Security, HR information system team, works councils (EU)_| :::image type="icon" source="/office/media/icons/download-blue.png" ::: **Download the [Viva Glint deployment guide](https://go.microsoft.com/fwlink/?linkid=2301488)** |
 
 ## Ongoing measurement
 
 After initial tenant and platform setup, complete these regular tasks to gather employee feedback and embed action-taking into your organization as a Viva Glint Administrator.
 
-| :::image type="icon" source="/office/media/icons/trend-graph-blue.png" ::: |Phase | Tasks |
+| :::image type="icon" source="/office/media/icons/trend-graph-blue.png" ::: |Phase | Tasks and resources|
 |:---|:---|:---|
 |:::image type="icon" source="/office/media/icons/administrator.png" ::: | **Set up and adjust surveys** | <ul><li>[Confirm current data uploaded](/viva/glint/setup/people-page)</li> <li>[Select a survey population](/viva/glint/setup/set-up-distribution-lists)</li> <li>[Revisit your Discovery Workbook to adjust organizational priorities](https://www.microsoft.com/download/details.aspx?id=106205)</li><li>[Set up or adjust a survey](/viva/glint/setup/program-summary-overview)</li> <li>[Select new survey items](/viva/glint/setup/add-new-questions)</li> <li>[Consider updates to survey communications](/viva/glint/setup/email-content-customization)</li> <li>[Define feedback goals](/viva/glint/people-science/people-science-explains-focus-areas)</li></ul>|
 |:::image type="icon" source="/office/media/icons/success-blue.png" ::: | **Launch** | <ul><li>[Review settings and survey before launch](/viva/glint/setup/survey-qa?tabs=recurring)</li> <li> [Preview and enable a survey](/viva/glint/setup/preview-manage-enable-engage-programs)</li></ul>|
