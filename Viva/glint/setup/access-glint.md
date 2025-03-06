@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 02/10/2025
+ms.date: 03/03/2025
 ---
 
 # Access the Viva Glint platform
@@ -23,7 +23,8 @@ Active Microsoft Viva Glint admin and dashboard users can access Viva Glint with
 
 > [!IMPORTANT]
 > To successfully access Viva Glint, users must:
-> - Exist in Entra with a Member Type of "Member" (not "Guest"). Learn more about how Microsoft 365 Global Administrators or Entra admins can [set up access to Viva Glint with Microsoft Entra ID](access-with-azure-ad.md).
+> - Exist in Microsoft Entra. Learn more about how Microsoft 365 Global Administrators or Entra admins can [set up access to Viva Glint with Microsoft Entra ID](access-with-azure-ad.md).
+>     - Users can have a member type of Guest or Member. Invited Guests from other tenants in a [multitenant organization](glint-mto.md) and [Support users](add-external-user.md) need to select a domain when logging in. [Learn more](#sign-in-as-a-guest-or-support-user)
 > - Exist in the Viva Glint app with an "ACTIVE" employee status and membership to the Active Employees role.
 
 ## Select a supported browser
@@ -51,6 +52,21 @@ Your Entra or other IT admins choose [authentication methods in Microsoft Entra 
 
 - US - [http://app.us1.glint.cloud.microsoft](http://app.us1.glint.cloud.microsoft)
 - EU - [http://app.eu1.glint.cloud.microsoft](http://app.eu1.glint.cloud.microsoft)
+
+## Sign in as a Guest or Support user
+
+Invited Guests from other tenants in a [multitenant organization](glint-mto.md) and [Support users](add-external-user.md) need to take these steps to access Viva Glint with member types of "Guest" in Entra.
+
+1. Select the appropriate link for the organization's region:
+   - US - [http://app.us1.glint.cloud.microsoft](http://app.us1.glint.cloud.microsoft)
+   - EU - [http://app.eu1.glint.cloud.microsoft](http://app.eu1.glint.cloud.microsoft)
+2. Select **Sign-in options** in the **Sign in** dialog.
+3. Select **Sign in to an organization.**
+4. Enter the **domain name**, for example: `contoso.onmicrosoft.com`, of the organization you'd like to sign in to and select **Next**.
+5. Enter your email and password, select **Sign in**, and follow other sign-on prompts (for example: multifactor authentication).
+
+> [!TIP]
+> To prevent sign-in issues, try accessing Viva Glint in a new InPrivate or Incognito window.
 
 ## Session time-out
 

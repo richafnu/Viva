@@ -1,5 +1,5 @@
 ---
-ms.date: 02/05/2025
+ms.date: 02/25/2025
 title: Glint and organizational insights report 
 description: Connect Glint and Viva Insights data to explore behaviors and take action
 author: zachminers
