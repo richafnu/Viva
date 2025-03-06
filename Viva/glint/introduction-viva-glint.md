@@ -17,7 +17,7 @@ search-appverid: MET150
 ms.topic: overview
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 12/03/2024
+ms.date: 03/06/2025
 ---
 
 # Introduction to Microsoft Viva Glint
@@ -26,24 +26,16 @@ Microsoft Viva Glint is a people-driven platform that provides visibility into t
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RW17jMY]
 
-### Get started
+## Get started
 
-Use these guides to complete one-time setup tasks, collect ongoing feedback, find learning resources, and use support methods for issues and questions.
-
-|:::image type="icon" source="/office/media/icons/get-started-blue.png" ::: |[Tenant and platform setup](#tenant-and-platform-setup)| :::image type="icon" source="/office/media/icons/trend-graph-blue.png" ::: |[Ongoing measurement](#ongoing-measurement)| :::image type="icon" source="/office/media/icons/education-tutorial-blue.png" ::: |[Training](#training) |:::image type="icon" source="/office/media/icons/help.png" ::: |[Get support](#get-support) |
-|:---|:---|:---|:---|:---|:---|:---|:---|
-
-### Tenant and platform setup
-
-Complete one-time setup tasks to lay the foundation for your employee engagement and lifecycle measurement programs.
+Coorindate with your Microsoft 365 Global Administrator to set up your tenant. Use the Viva Glint deployment guide to complete one-time setup tasks and launch your first survey.
 
 | :::image type="icon" source="/office/media/icons/get-started-blue.png" ::: |Phase| Tasks |
 |:---|:---|:---|
-|:::image type="icon" source="/office/media/icons/shopping-cart-blue.png" ::: | **Purchase & provisioning** <br> <br>_Microsoft 365 global admin_ | <ul><li>[Set up a tenant](/viva/glint/setup/viva-glint-tenant-provision)</li> <li>[Licensing](/viva/glint/setup/glint-order-teams)</li> <li>[Assign Viva Glint admins](/viva/glint/setup/post-provisioning-next-steps)</li> <li>[Ensure users can access via Microsoft Entra ID](/viva/glint/setup/access-with-azure-ad)</li></ul>|
-| :::image type="icon" source="/office/media/icons/settings.png" ::: | **Platform setup** <br> <br>_Viva Glint admin_ <br> <br>_IT, Security, HR information system team, works councils (EU)_| <ul><li>[Understand privacy and confidentiality](/viva/glint/setup/viva-glint-privacy)</li><li>[Meet with works councils](/viva/glint/setup/works-council) </li><li>[Work with IT to update allowed list](/viva/glint/setup/allowed-list)</li> <li>[Prepare, review, and upload data](/viva/glint/setup/upload-employee-data)</li> <li>[Choose survey access methods](/viva/glint/setup/understand-survey-access-methods)</li> <li>[Set up User Roles](/viva/glint/setup/set-up-user-roles)</li> <li>[Set up Distribution Lists](/viva/glint/setup/set-up-distribution-lists)</li> <li>[Configure organization-level settings](/viva/glint/setup/platform-features-settings)</li></ul>|
-|:::image type="icon" source="/office/media/icons/task-checklist-planning-blue.png" ::: | **Measurement strategy** <br> <br>_Viva Glint admin_ <br> <br>_Glint project team & stakeholders_ | <ul><li>[Communications plan](/viva/glint/start/recommended-rollout-plan)</li> <li>[Learn why a measurement strategy matters](https://adoption.microsoft.com/files/viva/glint/Defining-a-measurement-strategy.pdf)</li><li>[Define your listening and vision strategy with the Discovery Workbook](https://www.microsoft.com/download/details.aspx?id=106205)</li> <li>[Design a survey](https://adoption.microsoft.com/files/viva/glint/Survey-design-principles-with-Microsoft-Viva-Glint.pdf)</li> <li>[Plan and drive adoption](https://adoption.microsoft.com/en-us/viva/glint/)</li></ul>|
+|:::image type="icon" source="/office/media/icons/shopping-cart-blue.png" ::: | **Set up a tenant** <br> <br>_Microsoft 365 global admin_ | <ul><li>[Set up a tenant](/viva/glint/setup/viva-glint-tenant-provision)</li> <li>[Licensing](/viva/glint/setup/glint-order-teams)</li> <li>[Assign Viva Glint admins](/viva/glint/setup/post-provisioning-next-steps)</li> <li>[Ensure users can access via Microsoft Entra ID](/viva/glint/setup/access-with-azure-ad)</li></ul>|
+| :::image type="icon" source="/office/media/icons/settings.png" ::: | **Deploy Viva Glint and launch a survey** <br> <br>_Viva Glint admin_ <br> <br>_IT, Security, HR information system team, works councils (EU)_| <ul><li> [Viva Glint deployment guide](https://go.microsoft.com/fwlink/?linkid=2301488) </li></ul>|
 
-### Ongoing measurement
+## Ongoing measurement
 
 After initial tenant and platform setup, complete these regular tasks to gather employee feedback and embed action-taking into your organization as a Viva Glint admin.
 
@@ -54,7 +46,7 @@ After initial tenant and platform setup, complete these regular tasks to gather 
 |:::image type="icon" source="/office/media/icons/health-blue.png" ::: | **Monitor live survey progress** | <ul><li>[Track response rates during a live survey](/viva/glint/reports/response-rate-report)</li> <li>[Support participants during a live survey](/viva/glint/communicate/support-survey-participants)</li></ul>|
 |:::image type="icon" source="/office/media/icons/users-people.png" ::: | **Results rollout and action taking** | <ul><li>[Prepare results for senior leadership](/viva/glint/communicate/diy-presentation-template)</li> <li>[Communicate a results rollout plan](/viva/glint/communicate/results-rollout-templates)</li> <li>[Propel action-taking through conversations](/viva/glint/people-science/propelling-action-taking)</li> <li>[Track managers' Focus Area progress](/viva/glint/reports/focus-area-overview-report)</li></ul>|
 
-### Training
+## Training
 
 Use Viva Glint learning paths and modules to gain badges and deepen your understanding of the Glint platform.
 
@@ -63,7 +55,7 @@ Use Viva Glint learning paths and modules to gain badges and deepen your underst
 |:::image type="icon" source="/office/media/icons/notebook-blue.png" ::: | **Learning paths and modules** | <ul><li>[Courses for admins](https://go.microsoft.com/fwlink/?linkid=2275357)</li> <li>[Courses for Managers](https://go.microsoft.com/fwlink/?linkid=2275358)</li></ul>|
 |:::image type="icon" source="/office/media/icons/certificate-blue.png" ::: | **Badge certifications** | <ul><li>[Viva Glint Foundations badge](https://go.microsoft.com/fwlink/?linkid=2275359)</li> <li>[Viva Glint Manager badge](https://go.microsoft.com/fwlink/?linkid=2275437)</li></ul>|
 
-### Get support
+## Get support
 
 Find support for technical, product, deployment, or authentication issues.
 
