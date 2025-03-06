@@ -31,12 +31,17 @@ Microsoft Viva Glint is a people-driven platform that provides visibility into t
 
 ## Get started
 
-Coordinate with your Microsoft 365 Global Administrator to set up your tenant. Use the Viva Glint deployment guide to complete one-time setup tasks and launch your first survey.
+:::image type="icon" source="/office/media/icons/deploy-blue.png ::: Coordinate with your Microsoft 365 Global Administrator to set up your tenant. 
 
-| :::image type="icon" source="/office/media/icons/get-started-blue.png" ::: |Phase| Tasks and resources|
-|:---|:---|:---|
-|:::image type="icon" source="/office/media/icons/shopping-cart-blue.png" ::: | **Set up a tenant** <br> <br>_Microsoft 365 Global Administrator_ | <ul><li>[Set up a tenant](/viva/glint/setup/viva-glint-tenant-provision)</li> <li>[Licensing](/viva/glint/setup/glint-order-teams)</li> <li>[Assign Viva Glint Administrators](/viva/glint/setup/post-provisioning-next-steps)</li> <li>[Ensure users can access via Microsoft Entra ID](/viva/glint/setup/access-with-azure-ad)</li></ul>|
-| :::image type="icon" source="/office/media/icons/settings.png" ::: | **Deploy Viva Glint and launch a survey** <br> <br>_Viva Glint Administrator_ <br> <br>_IT, Security, HR information system team, works councils (EU)_| :::image type="icon" source="/office/media/icons/download-blue.png" ::: **Download the [Viva Glint deployment guide](https://go.microsoft.com/fwlink/?linkid=2301488)** |
+- [Set up a tenant](/viva/glint/setup/viva-glint-tenant-provision)
+- [Licensing](/viva/glint/setup/glint-order-teams)
+- [Assign Viva Glint Administrators](/viva/glint/setup/post-provisioning-next-steps)
+- [Ensure users can access via Microsoft Entra ID](/viva/glint/setup/access-with-azure-ad)
+
+:::image type="icon" source="/office/media/icons/settings.png" ::: Use the Viva Glint deployment guide to complete one-time setup tasks and launch your first survey.
+
+> [!div class="nextstepaction"]
+> [Download the Viva Glint deployment guide](https://go.microsoft.com/fwlink/?linkid=2301488)
 
 ## Ongoing measurement
 
