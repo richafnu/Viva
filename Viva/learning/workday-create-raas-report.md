@@ -100,7 +100,7 @@ This report should be created from the primary Admin account of Workday to avoid
 
     :::image type="content" alt-text="Screenshot of the formatted fields for filter values." source="../media/learning/workday-filters-for-catalog-raas.png" lightbox="../media/learning/workday-filters-for-catalog-raas.png":::
 
-6. **Add the Prompts:** Go to **Prompts**. Mark "Display Prompt Values in Subtitles" and add following prompt values. You can directly copy and paste these values. 
+6. **Add the Prompts:** Go to **Prompts**. Mark "Prompt Values in Subtitles" and add following the prompt values. You can directly copy and paste these values. 
    > [!IMPORTANT]
    > These column values are case sensitive.
 
@@ -196,7 +196,7 @@ This report should be created from the primary Admin account of Workday to avoid
          | And | | Hire Date | greater than or equal to | Prompt the user for the value | Starting Prompt |  | Yes| 
          |And | | Hire Date | less than or equal to | Prompt the user for the value | Ending Prompt || Yes | 
 
-    1. Add the Prompts: Go to Prompts. Mark "Display Prompt Values in Subtitles" and add following prompt values. You can directly copy and paste these values.  
+    1. Add the Prompts: Go to Prompts. Mark "Display Prompt Values in Subtitles" and add the following prompt values. You can directly copy and paste these values.  
     
    > [!IMPORTANT]
    > These column values are case sensitive.
@@ -254,7 +254,10 @@ This report should be created from the primary Workday admin account to avoid an
     |Learning Assignment |  Assignment Record Completion Moment | CompletionDate | CompletionDate | 
     | Learning Assignment | Required | AssignmentType | AssignmentType | 
 
-   > [!NOTE]
+
+    :::image type="content" alt-text="Screenshot of the table in the View Custom Report for the Viva Learning Users report." source="../media/learning/workday-lrs-assignment-raas-3.png" lightbox="/viva/media/learning/workday-lrs-assignment-raas-3.png":::
+
+    > [!NOTE]
    > The `In progress` status from Workday doesn't sync to Viva Learning.
 
 4. Under "Group Column Headings", add the following fields.
@@ -374,11 +377,11 @@ This report should be created from the primary Workday admin account to avoid an
 
    1. Under "Group Column Headings", add these fields: 
 
-      | Business object | Group column heading XML alias |
-      | -- | -- | 
-      | Learning Content Detail | Learning_Content_Detail_group |
-      | Learning Enrollment | Learning_Enrollment_group | 
-      | Learning Enrollment Participant | Learning_Enrollment_Participant_group | 
+      | Business object | Group Column Heading | Group column heading XML alias |
+      | -- | -- | --| 
+      | Learning Content Detail | Learning_Content_Detail_group | Learning_Content_Detail_group |
+      | Learning Enrollment | Learning_Enrollment_group | Learning_Enrollment_group | 
+      | Learning Enrollment Participant | Learning_Enrollment_Participant_group |Learning_Enrollment_Participant_group | 
 
     1. Add filters to the report for delta sync.
 
