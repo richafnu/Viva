@@ -31,7 +31,7 @@ Microsoft Viva Glint is a people-driven platform that provides visibility into t
 
 ## Get started
 
-:::image type="icon" source="/office/media/icons/deploy-blue.png ::: Coordinate with your Microsoft 365 Global Administrator to set up your tenant. 
+:::image type="icon" source="/office/media/icons/deploy-blue.png" ::: Coordinate with your Microsoft 365 Global Administrator to set up your tenant. 
 
 - [Set up a tenant](/viva/glint/setup/viva-glint-tenant-provision)
 - [Licensing](/viva/glint/setup/glint-order-teams)
