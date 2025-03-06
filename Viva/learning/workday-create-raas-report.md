@@ -255,7 +255,7 @@ This report should be created from the primary Workday admin account to avoid an
     | Learning Assignment | Required | AssignmentType | AssignmentType | 
 
 
-    :::image type="content" alt-text="Screenshot of the table in the View Custom Report for the Viva Learning Users report." source="../media/learning/workday-lrs-assignment-raas-3.png" lightbox="/viva/media/learning/workday-lrs-assignment-raas-3.png":::
+    :::image type="content" alt-text="Screenshot of the table for LRS (learner record sync) assignment RaaS report column values. The text values you need to enter are outlined in the preceeding table." source="../media/learning/workday-lrs-assignment-raas-3.png" lightbox="/viva/media/learning/workday-lrs-assignment-raas-3.png":::
 
     > [!NOTE]
    > The `In progress` status from Workday doesn't sync to Viva Learning.
