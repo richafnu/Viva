@@ -1,5 +1,5 @@
 ---
-title: Grant Live versus Phased access in Viva Glint reporting
+title: Release results to roles in phased access
 description: Grant live or phased access to determine when managers have access to survey results.
 ms.author: JudithWeiner
 author: JudyWeiner
@@ -14,12 +14,10 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 03/03/2025
+ms.date: 03/06/2025
 ---
 
-# Grant *Live* versus *Phased* access in Viva Glint reporting
-
-## Choose reporting level access for managers
+# Release results to roles in phased access
 
 There are two levels of reporting access in Microsoft Viva Glint:
 
