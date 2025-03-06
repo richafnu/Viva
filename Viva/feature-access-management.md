@@ -65,7 +65,6 @@ You can use feature access management to manage access to the following features
 ||[Copilot Assisted Value](https://go.microsoft.com/fwlink/?linkid=2281051)|No|AI admin|VivaInsights|
 ||[Copilot in Viva Insights](/viva/insights/advanced/analyst/copilot-query)|No|AI admin**|VivaInsights|
 ||[Digest Welcome Email](/viva/insights/advanced/setup-maint/configure-personal-insights#configure-access-at-the-tenant-level)|No| Global admin|VivaInsights|
-||Internal benchmarks*|No|AI admin, Insights admin|VivaInsights|
 ||[Meeting cost and quality](https://aka.ms/meetingcostandqualitypost)|No|Insights admin|VivaInsights|
 ||[Reflection](https://support.microsoft.com/topic/reflect-in-viva-insights-55379cb7-cf2a-408d-b740-2b2082eb3743)|No|Insights admin|VivaInsights|
 |Pulse|[Customization](/viva/pulse/setup-admin-access/set-up-in-app-pulse-experience#customization)|No|Viva Pulse admin|VivaPulse|
