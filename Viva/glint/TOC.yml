@@ -17,12 +17,13 @@ items:
             href: setup/privacy-protection-reporting.md
           - name: Privacy protection for 360 feedback programs
             href: setup/privacy-360-feedback.md
-      - name: Raw data export
-        href: setup/employee-raw-data-export.md
+      - name: Export raw response data
         items:
-          - name: Extreme circumstances
+          - name: Access raw survey responses
+            href: setup/employee-raw-data-export.md
+          - name: Make requests for extreme circumstances
             href: setup/raw-data-extreme-circumstances.md
-          - name: Responding to Data Subject Requests (DSRs)
+          - name: Respond to Data Subject Requests (DSRs)
             href: setup/raw-data-request-response.md
   - name: Connect and learn
     items:   
@@ -77,13 +78,19 @@ items:
         items:
           - name: Access Viva Glint
             href: setup/access-glint.md
-          - name: Program types, surveys, and templates
-            href: start/program-types-templates.md
-          - name: People Science surveys and items
-            href: setup/template-research.md
-          - name: Monthly deployment dates
-            href: setup/monthly-release-dates.md
-          - name: Communications for internal readiness
+          - name: Design your survey experience
+            items:     
+               - name: Program types, surveys, and templates
+                 href: start/program-types-templates.md
+               - name: People Science surveys and items
+                 href: setup/template-research.md
+               - name: Monthly deployment dates
+                 href: setup/monthly-release-dates.md
+               - name: Partner with works councils
+                 href: setup/works-council.md
+               - name: Choose survey access methods
+                 href: setup/understand-survey-access-methods.md  
+          - name: Prepare internal messages and resources
             items:
                - name: Communications rollout plan
                  href: start/recommended-rollout-plan.md
@@ -93,15 +100,13 @@ items:
                  href: communicate/prelaunch-live-email-templates.md
                - name: Communicate results, next steps, and progress
                  href: communicate/results-rollout-templates.md
-          - name: FAQs for dashboard users
-            href: start/faqs-dashboard-users.md
-          - name: FAQs for survey takers
-            href: start/faqs-survey-takers.md
-          - name: Works Councils
-            href: setup/works-council.md
-          - name: Technical tasks
+               - name: Create FAQs for dashboard users
+                 href: start/faqs-dashboard-users.md
+               - name: Create FAQs for survey takers
+                 href: start/faqs-survey-takers.md
+          - name: Coordinate with IT and Security
             items:
-              - name: Allowlist
+              - name: Make allowlist updates
                 href: setup/allowed-list.md
               - name: Set up access with Microsoft Entra ID
                 href: setup/access-with-azure-ad.md
@@ -109,11 +114,9 @@ items:
                 href: setup/sftp-ssh-key-gen.md
               - name: Convert a key to OpenSSH format
                 href: setup/convert-ssh-key.md
-          - name: Survey access methods
-            href: setup/understand-survey-access-methods.md  
           - name: Prepare employee data
             items:       
-              - name: Prepare and upload
+              - name: Meet and plan with data stakeholders
                 href: setup/upload-employee-data.md
               - name: Attribute fundamentals
                 href: setup/attribute-fundamentals.md
@@ -164,21 +167,21 @@ items:
                   href: setup/delete-user-data-faq.md
             - name: Update employee IDs 
               href: setup/id-update.md    
-      - name: Set up and manage Distribution Lists 
+      - name: Manage Distribution Lists 
         href: setup/set-up-distribution-lists.md
         items:
             - name: Import users
               href: setup/import-members-distribution-lists.md
             - name: Export users
               href: setup/export-distribution-lists.md
-      - name: Set up and manage User Roles
+      - name: Manage User Roles
         href: setup/set-up-user-roles.md
         items:
             - name: Custom User Roles
               href: setup/custom-user-role.md
             - name: Custom data access export
               href: setup/custom-access.md       
-      - name: Manage item in the Question Library
+      - name: Manage items in the Question Library
         href: setup/question-library.md
         items:
             - name: Map custom and standard items
@@ -202,17 +205,17 @@ items:
       - name: Manage General Settings 
         href: setup/manage-general-settings.md
         items: 
-            - name: Attribute-based survey access
+            - name: Set up attribute-based access
               href: setup/attribute-based-survey-access.md
-            - name: Send in user time zones
+            - name: Send emails in user time zones
               href: setup/time-zones.md
-            - name: Post-survey learning
+            - name: Enable post-survey learning
               href: setup/post-survey-learnings.md
-            - name: Opt into external benchmarks
+            - name: Opt in for external benchmarks
               href: setup/opting-into-external-benchmarks.md
             - name: Customize a PowerPoint template for reports
               href: setup/custom-ppt-upload.md
-      - name: Monitor events with Activity Audit Log
+      - name: Monitor events in Activity Audit Log
         href: setup/activity-audit-log.md   
       - name: Manage Advanced Configuration settings
         href: setup/understand-advanced-configuration.md
@@ -237,7 +240,7 @@ items:
         href: setup/program-cycle-edits.md    
       - name: Manage translations for survey content
         href: setup/language-translations.md  
-      - name: Review Character limits
+      - name: Review character limits
         href: setup/survey-character-limits.md
       - name: Survey templates
         items:
@@ -288,7 +291,7 @@ items:
           - name: Reporting setup
             href: setup/reporting-setup.md
             items:
-               - name: Grant Live versus Phased access
+               - name: Release results to roles in phased access
                  href: setup/live-versus-phased-access.md
           - name: Communications setup 
             href: setup/program-summary-communications.md
