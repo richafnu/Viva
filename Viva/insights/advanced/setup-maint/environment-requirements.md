@@ -104,15 +104,13 @@ After users get assigned licenses with an applicable service plan, they get acce
 | [Shared no-meeting day plan](https://support.microsoft.com/topic/shared-no-meeting-day-plan-32d22a61-280f-487d-b352-47effe338fbb)  | Viva Insights subscription  |
 | [Shared focus plan](https://support.microsoft.com/topic/shared-focus-plan-6847226d-e5b1-498a-a7a5-e77d4405bb97) | Viva Insights subscription  |
 | [Schedule breaks, learning, and message catch-up](https://support.microsoft.com/topic/time-management-features-in-viva-insights-da568337-8568-47cd-9f47-213537873571)  | Viva Insights subscription  |
-| [Schedule send suggestions in email](https://support.microsoft.com/topic/schedule-send-in-outlook-0b0c0c20-8fa1-44b9-b5bc-57f160046639)  | MyAnalytics (Full) service plan |
+| [Outlook add-in inline suggestions: Read stats](https://support.microsoft.com/topic/inline-suggestions-in-outlook-064a323e-6dc7-40e9-ab1b-199de8d39db5) | MyAnalytics (Full) service plan with Office 365 E5 | 
+| [Outlook add-in inline suggestions: Schedule send](https://support.microsoft.com/en-us/topic/schedule-send-in-outlook-0b0c0c20-8fa1-44b9-b5bc-57f160046639) | MyAnalytics (Full) service plan with Office 365 E5/P1 |
 | [Quiet time](https://support.microsoft.com/topic/quiet-time-in-viva-insights-ec70888d-8840-4f20-9819-af6bfc17e143) | Insights by MyAnalytics with Office 365 E1/E3/A1/A3 *or* MyAnalytics (Full) service plan with Office 365 E5 |
 | [Send praise](https://support.microsoft.com/topic/praise-in-viva-insights-4977c923-f3d1-4134-9d1c-ee29dc01ae27) | Insights by MyAnalytics with Office 365 E1/E3/A1/A3 *or* MyAnalytics (Full) service plan with Office 365 E5 |
 | [Focus plan](https://support.microsoft.com/topic/focus-plan-for-viva-insights-a079a744-010e-4fee-8552-a2799d0c62ea) | Insights by MyAnalytics with Office 365 E1/E3/A1/A3 *or* MyAnalytics (Full) service plan with Office 365 E5 |
 | [Virtual commute](https://support.microsoft.com/topic/virtual-commute-in-viva-insights-8be83785-f5ec-4e84-8cff-f0abb117f876) | Insights by MyAnalytics with Office 365 E1/E3/A1/A3 *or* MyAnalytics (Full) service plan with Office 365 E5 |
 | [Breather break](https://support.microsoft.com/topic/quiet-time-in-viva-insights-ec70888d-8840-4f20-9819-af6bfc17e143) | Insights by MyAnalytics with Office 365 E1/E3/A1/A3 *or* MyAnalytics (Full) service plan with Office 365 E5  |
-| [Outlook add-in inline suggestions: Read stats](https://support.microsoft.com/topic/inline-suggestions-in-outlook-064a323e-6dc7-40e9-ab1b-199de8d39db5) | MyAnalytics (Full) service plan with Office 365 E5 | 
-| [Outlook add-in inline suggestions: Schedule send](https://support.microsoft.com/topic/inline-suggestions-in-outlook-064a323e-6dc7-40e9-ab1b-199de8d39db5) | Insights by MyAnalytics with Office 365 E3 *or* MyAnalytics (Full) service plan with Office 365 E5 |
-| [Outlook add-in inline suggestions: Schedule send plan](https://support.microsoft.com/en-us/topic/schedule-send-in-outlook-0b0c0c20-8fa1-44b9-b5bc-57f160046639) | MyAnalytics (Full) service plan with Office 365 E5/P1 |
 | [Book non-recurring focus session](https://support.microsoft.com/topic/focus-with-viva-insights-41e6274d-a1ac-42a5-8e9e-ac432e0447c9) | Active Exchange Online account (no Viva Insights service plan needed) |
 | [Reflect](https://support.microsoft.com/topic/reflect-in-viva-insights-55379cb7-cf2a-408d-b740-2b2082eb3743) | Active Exchange Online account (no Viva Insights service plan needed)  |
 
