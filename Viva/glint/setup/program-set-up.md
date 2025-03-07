@@ -26,10 +26,9 @@ Program Setup page is the first section of a Microsoft Viva Glint survey that le
 Use the information in the table to guide you through each field in Program Setup.
 
 > [!IMPORTANT]
-> Not all fields are available for each survey type. See the Survey types column for more information.
+> Not all fields are available for each survey type. For more information, see the **Survey types** column.
 
-:::image type="content" source="../../media/glint/setup/program-setup-3.png" alt-text="Screenshot of Viva Glint survey Program Setup, which lists features and settings an admin can set up for a survey.":::
-
+:::image type="content" source="../../media/glint/setup/glint-program-setup.png" alt-text="Screenshot of Viva Glint survey Program Setup, which lists features and settings an admin can set up for a survey.":::
 
 |Field|Description|Examples/Tips|Survey types|
 |:-------|:------------|:-----------|:-----------|
