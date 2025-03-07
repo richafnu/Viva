@@ -205,12 +205,6 @@ items:
     items: 
       - name: Design an effective survey
         href: setup/customize-program.md
-      - name: Understand recurring programs and cycles
-        href: setup/program-cycle-edits.md    
-      - name: Manage translations for survey content
-        href: setup/language-translations.md  
-      - name: Review character limits
-        href: setup/survey-character-limits.md
       - name: Survey templates
         items:
          - name: Templates overview and terminology
@@ -239,9 +233,34 @@ items:
            href: setup/distress-survey.md
          - name: Productivity survey
            href: setup/create-productivity-survey.md
-      - name: Set up a recurring survey
+      - name: Set up a Recurring survey
         href: setup/program-summary-overview.md
-        items:   
+        items: 
+          - name: Understand programs and cycles
+            href: setup/program-cycle-edits.md
+          - name: Set up Team Conversations
+            href: reports/team-conversations-administrator-setup.md
+            items:
+               - name: Team Conversations presentation kit
+                 href: reports/coaching-team-conversations.md
+               - name: Customize Team Conversations email content
+                 href: reports/team-conversations-content-cusomization.md
+               - name: Team Conversations resource guidance
+                 href: reports/team-conversations-resource-guidance.md     
+      - name: Set up an Employee Lifecycle survey
+        items:
+           - name: Set up an Onboarding survey
+             href: setup/program-summary-setup-lifecycle.md
+           - name: Set up an Exit survey
+             href: setup/exit-survey-setup.md
+           - name: Preview and filter a Lifecycle survey
+             href: setup/preview-filter-lifecycle-programs.md 
+      - name: Set up an Always-On Feedback survey
+        href: setup/always-on-surveys.md
+      - name: Set up an Ad Hoc survey
+        href: setup/ad-hoc-survey.md
+      - name: Survey setup sections and resources
+        items:
           - name: Program setup 
             href: setup/program-set-up.md
           - name: Distribution setup 
@@ -271,21 +290,22 @@ items:
                 href: setup/multi-lang-emails.md                        
           - name: Coaching setup 
             href: setup/program-summary-coaching.md
-            items:         
-             - name: Team Conversations resource guidance
-               href: reports/team-conversations-resource-guidance.md      
-      - name: Set up an Employee Lifecycle survey
-        items:
-           - name: Set up an Onboarding survey
-             href: setup/program-summary-setup-lifecycle.md
-           - name: Set up an Exit survey
-             href: setup/exit-survey-setup.md
-           - name: Preview and filter a Lifecycle survey
-             href: setup/preview-filter-lifecycle-programs.md 
-      - name: Set up an Always-On Feedback survey
-        href: setup/always-on-surveys.md
-      - name: Set up an Ad Hoc survey
-        href: setup/ad-hoc-survey.md
+          - name: Manage translations for survey content
+            href: setup/language-translations.md  
+          - name: Review character limits
+            href: setup/survey-character-limits.md
+       - name: Review surveys before launch
+         items:
+          - name: Check admin survey setup before launch
+            href: setup/survey-qa.md
+          - name: Review a test survey before launch
+            href: setup/survey-testing.md
+          - name: Preview data in reports
+            href: setup/preview-demo-reporting.md
+          - name: Preview, enable, and prepare to launch surveys
+            href: setup/preview-manage-enable-engage-programs.md   
+          - name: Duplicate or delete surveys 
+            href: setup/delete-survey-data.md           
       - name: Set up 360 feedback programs
         items:
            - name: 360 overview and terminology
@@ -329,25 +349,6 @@ items:
                  href: setup/360-provider-exp.md
            - name: 360 FAQs
              href: setup/360-faqs.md
-      - name: Set up Team Conversations
-        href: reports/team-conversations-administrator-setup.md
-        items:
-          - name: Team Conversations presentation kit
-            href: reports/coaching-team-conversations.md
-          - name: Customize Team Conversations email content
-            href: reports/team-conversations-content-cusomization.md 
-      - name: Review surveys before launch
-        items:
-          - name: Check admin survey setup before launch
-            href: setup/survey-qa.md
-          - name: Review a test survey before launch
-            href: setup/survey-testing.md
-          - name: Preview data in reports
-            href: setup/preview-demo-reporting.md
-          - name: Preview, enable, and prepare to launch surveys
-            href: setup/preview-manage-enable-engage-programs.md   
-          - name: Duplicate or delete surveys 
-            href: setup/delete-survey-data.md
   - name: Support survey participants 
     items:
       - name: Provide support during a survey
