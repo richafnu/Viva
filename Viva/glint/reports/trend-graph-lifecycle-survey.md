@@ -134,5 +134,4 @@ The default report timing for ELC is 90 days. Sometimes people in your organizat
 >   - Reporting reflects one (1) response but two departments.
 >   - Each department shows their respective scores.
 >   - "All" is reported as the average of both submissions.
->   - :::image type="content" source="../../media/glint/reports/response-reporting.png" alt-text="Screenshot of response number reporting for an ELC survey.":::
 
