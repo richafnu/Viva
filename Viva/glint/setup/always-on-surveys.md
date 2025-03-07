@@ -19,7 +19,7 @@ ms.date: 03/07/2025
 
 # Set up a Viva Glint Always-On feedback survey
 
-Microsoft Viva Glint Always-On feedback surveys provide insight on any topic, at any time, from any group of people in your organization. Different than scheduled or recurring programs, Always-On surveys are always open and ready for users to provide insights in real time. Ideally, Always-On surveys are quick and easy to complete. Keep surveys under five minutes. In fact, they should take no longer than three minutes to complete.
+Microsoft Viva Glint Always-On feedback surveys provide insight on any topic, at any time, from any group of people in your organization. Different than scheduled or recurring programs, Always-On surveys are always open and ready for users to provide insights in real time. Ideally, Always-On surveys are quick and easy to complete in a few minutes. [Learn about survey types](/viva/glint/start/program-types-templates#types-of-surveys).
 
 ## Potential use cases
 
@@ -61,9 +61,10 @@ To create a new Always-On survey:
    | :::image type="icon" source="/office/media/icons/users-people.png" :::   |[Distribution](distribution-program-summary.md)        |Select Distribution Lists or User Roles to include in or exclude from the survey invite list.        |
    | :::image type="icon" source="/office/media/icons/help.png" :::  |[Questions](questions-setup.md)       | Add survey introduction text, select questions, and add a survey thank you message.      |
    | :::image type="icon" source="/office/media/icons/usage-report-blue.png" :::  |[Reporting](reporting-setup.md)       |  Define which roles have access to this survey's results and determine key reporting views.      |
-   | :::image type="icon" source="/office/media/icons/chat-room-conversation-blue.png" ::: |[Coaching](program-summary-coaching.md)       | Confirm or customize content for managers' Team Summary dashboards.       |
+   | :::image type="icon" source="/office/media/icons/chat-room-conversation-blue.png" ::: |[Coaching](program-summary-coaching.md)       | Confirm or customize content that helps users interpret results on their dashboards.    |
 
 7. [Preview your survey](preview-filter-lifecycle-programs.md#preview-your-survey) after completing each setup section.
+8. [Review survey setup](survey-qa.md) before enabling for your organization.
 8. Enable your Always-On survey when you're ready to make it available to your organization.
    1. Use the toggle at the top of the page to switch the survey to **Approved**.
    2. Hover over the survey card on the left and select **Enable Survey**.
