@@ -294,8 +294,8 @@ items:
             href: setup/language-translations.md  
           - name: Review character limits
             href: setup/survey-character-limits.md
-       - name: Review surveys before launch
-         items:
+      - name: Review surveys before launch
+        items:
           - name: Check admin survey setup before launch
             href: setup/survey-qa.md
           - name: Review a test survey before launch
