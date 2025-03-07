@@ -114,7 +114,7 @@ The trend line in the Executive Summary Report shows data points going back in t
 
 ## Understand how response numbers show in ELC reporting
 
-The default report timing for ELC is 90 days. Sometimes people in your organization make take the survey frequently - the waiting period is less than 90 days. How is this counted?
+The default report timing for ELC is 90 days. Sometimes people in your organization may take the survey frequently - the waiting period is less than 90 days. How is this data counted?
  - The responses number shows for unique users only. Repeat survey takers count only once.
  - Multiple responses submitted by a single user are counted in the aggregate and the multiple choice report.
 
