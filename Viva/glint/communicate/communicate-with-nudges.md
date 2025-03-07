@@ -117,12 +117,15 @@ To make changes to a recipient group:
 ## Nudge FAQs
 
 **How long do Nudges continue to send?**
-Nudges send within 90 days of the survey closing, regardless of the date Nudges are enabled. For example, if a program is on a quarterly cadence, Nudges stop when the next cycle starts.
+
+Nudges send within 90 days of the survey closing, regardless of the date Nudges are enabled. For example, if a program is on a quarterly cadence, Nudges stop when the next cycle starts.
 
 **How can I nclude or exclude programs from receiving Nudges?**
+
 Switch the **Eligible for Nudges** feature to **YES** or **NO** on the **Program Setup** page in **Program Summary**. **Suggested Action Plans** must be switched to **ON**, to enable Nudges.
 
-**Where do I view programs enabled for roles in Nudges?**
-From the admin dashboard select **Nudges**, then **View Details** (for an enabled User Role within the Configuration section). The Recipient Group Setup page opens for that User Role. Review the **Enabled Programs** section.
+**Where do I view programs enabled for roles in Nudges?**
+
+From the admin dashboard select **Nudges**, then **View Details** (for an enabled User Role within the Configuration section). The Recipient Group Setup page opens for that User Role. Review the **Enabled Programs** section.
 
 
