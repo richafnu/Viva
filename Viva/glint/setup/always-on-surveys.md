@@ -64,6 +64,7 @@ To create a new Always-On survey:
    | :::image type="icon" source="/office/media/icons/chat-room-conversation-blue.png" ::: |[Coaching](program-summary-coaching.md)       | Confirm or customize content that helps users interpret results on their dashboards.    |
 
 7. [Preview your survey](preview-filter-lifecycle-programs.md#preview-your-survey) after completing each setup section.
+8. [Review survey setup](survey-qa.md) before enabling for your organization.
 8. Enable your Always-On survey when you're ready to make it available to your organization.
    1. Use the toggle at the top of the page to switch the survey to **Approved**.
    2. Hover over the survey card on the left and select **Enable Survey**.
