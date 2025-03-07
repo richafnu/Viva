@@ -14,7 +14,7 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 02/25/2025
+ms.date: 03/07/2025
 ---
 
 # Set up a Viva Glint Always-On feedback survey
@@ -70,4 +70,13 @@ To create a new Always-On survey:
    3. Select **Yes, enable the survey** in the **Enable Survey** dialog. The survey tile changes from gray to blue and displays response rate as users submit surveys.
 
 > [!IMPORTANT]
-> After an Always-On survey is enabled for the first time, Viva Glint admins can make edits by switching the Approved toggle off. When an admin reapproves the survey in the future, the survey **auto-enables**.
+> After an Always-On survey is enabled for the first time, Viva Glint admins can make edits by switching the Approved toggle to **Off**. When an admin reapproves the survey in the future, the survey **auto-enables**.
+
+## Understand how response numbers show in Always-On reporting
+
+The default report timing for Always-On surveys is 90 days. Sometimes people in your organization make take the survey frequently - the waiting period is less than 90 days. How is this counted?
+ - The responses number shows for unique users only. Repeat survey takers count only once.
+ - Multiple responses submitted by a single user are counted in the aggregate and the multiple choice report.
+
+> **Example**
+> Your organization has a survey with waiting period of one (1) day and the survey includes multiple-choice questions where only one option can be selected. The 90-day default report shows the number of unique user responses, but the multiple choice for a demographic, hierarchy, or a team adds up to more than 100%. 
