@@ -25,37 +25,6 @@ items:
             href: setup/raw-data-extreme-circumstances.md
           - name: Respond to Data Subject Requests (DSRs)
             href: setup/raw-data-request-response.md
-  - name: Connect and learn
-    items:   
-      - name: Viva Glint resources
-        href: start/brochure-summary.md
-      - name: Learning paths and modules
-        href: start/viva-glint-learning-paths-and-modules.md
-      - name: Badge certifications
-        href: start/viva-glint-badging.md
-      - name: Newsletter registration
-        href: setup/newsletter-register.md
-      - name: Submit product feedback
-        href: setup/glint-product-feedback.md      
-      - name: Viva People Science research
-        items:
-        - name: Viva People Science and Glint
-          href: start/people-science-viva-glint.md
-        - name: Propel action-taking
-          href: people-science/propelling-action-taking.md
-          items: 
-            - name: Managers using ACT conversations
-              href: people-science/managers-using-act-conversations.md
-        - name: Focus areas and action planning
-          href: people-science/people-science-explains-focus-areas.md
-        - name: Benchmark methodology
-          items:
-            - name: Use benchmarks effectively
-              href: people-science/people-science-benchmark-philosophy.md
-            - name: Benchmark collateral
-              href: setup/benchmarks.md
-            - name: Choose comparison data
-              href: setup/survey-comparison-data.md
   - name: Plan and deploy
     items:
       - name: Glint tenant provisioning
@@ -507,6 +476,37 @@ items:
                  href: ../insights/advanced/admin/partitions.md
                - name: Glint and Insights analyst report
                  href: ../insights/advanced/analyst/templates/glint.md             
+  - name: Connect and learn
+    items:   
+      - name: Viva Glint resources
+        href: start/brochure-summary.md
+      - name: Learning paths and modules
+        href: start/viva-glint-learning-paths-and-modules.md
+      - name: Badge certifications
+        href: start/viva-glint-badging.md
+      - name: Newsletter registration
+        href: setup/newsletter-register.md
+      - name: Submit product feedback
+        href: setup/glint-product-feedback.md      
+      - name: Viva People Science research
+        items:
+        - name: Viva People Science and Glint
+          href: start/people-science-viva-glint.md
+        - name: Propel action-taking
+          href: people-science/propelling-action-taking.md
+          items: 
+            - name: Managers using ACT conversations
+              href: people-science/managers-using-act-conversations.md
+        - name: Focus areas and action planning
+          href: people-science/people-science-explains-focus-areas.md
+        - name: Benchmark methodology
+          items:
+            - name: Use benchmarks effectively
+              href: people-science/people-science-benchmark-philosophy.md
+            - name: Benchmark collateral
+              href: setup/benchmarks.md
+            - name: Choose comparison data
+              href: setup/survey-comparison-data.md
   - name: Troubleshoot
     items:
       - name: Data File Uploads
