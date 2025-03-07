@@ -33,10 +33,11 @@ To set up Distribution for your survey:
 1. Select the search field for **Distribution For This Program**. Existing lists and roles appear.
 1. Select one or more Distribution Lists or User Roles.
 2. Select the search field for **Exclude Groups**. Existing lists and roles appear.
-1. Select one or more Distribution Lists or User Roles if some users should be excluded from the survey.
-1. Select the highlighted right-facing arrow icon to **Save and Continue**.
-
+   
    :::image type="content" source="../../media/glint/setup/distribution-dropdown-save.png" alt-text="Screenshot of the prepopulated Distribution List dropdown menu.":::
+   
+1. Select one or more Distribution Lists or User Roles if some users should be excluded from the survey.
+1. Select the highlighted right-facing arrow icon to **Save and Continue**. 
 
 ## Download recipients
 
@@ -54,6 +55,9 @@ To download a spreadsheet of eligible users for a survey, select **Download Reci
 
 1. Select **Download Recipients**.
 2. Choose whether to **Include all user roles** in the **Exporting Member Data** dialog that appears.
-3. Select **Export** to download a file to your device. A **Report Downloaded!** message appears in another tab when your data downloads.
+   
+   :::image type="content" source="../../media/glint/setup/distribution-exporting-data.png" lightbox="../../media/glint/setup/distribution-exporting-data.png" alt-text="Screenshot of the window that opens to download recipients.":::
+   
+4. Select **Export** to download a file to your device. A **Report Downloaded!** message appears in another tab when your data downloads.
 
-:::image type="content" source="../../media/glint/setup/distribution-exporting-data.png" lightbox="../../media/glint/setup/distribution-exporting-data.png" alt-text="Screenshot of the window that opens to download recipients.":::
+
