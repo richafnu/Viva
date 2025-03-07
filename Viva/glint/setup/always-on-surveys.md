@@ -61,7 +61,7 @@ To create a new Always-On survey:
    | :::image type="icon" source="/office/media/icons/users-people.png" :::   |[Distribution](distribution-program-summary.md)        |Select Distribution Lists or User Roles to include in or exclude from the survey invite list.        |
    | :::image type="icon" source="/office/media/icons/help.png" :::  |[Questions](questions-setup.md)       | Add survey introduction text, select questions, and add a survey thank you message.      |
    | :::image type="icon" source="/office/media/icons/usage-report-blue.png" :::  |[Reporting](reporting-setup.md)       |  Define which roles have access to this survey's results and determine key reporting views.      |
-   | :::image type="icon" source="/office/media/icons/chat-room-conversation-blue.png" ::: |[Coaching](program-summary-coaching.md)       | Confirm or customize content for managers' Team Summary dashboards.       |
+   | :::image type="icon" source="/office/media/icons/chat-room-conversation-blue.png" ::: |[Coaching](program-summary-coaching.md)       | Confirm or customize content that helps users interpret results on their dashboards.    |
 
 7. [Preview your survey](preview-filter-lifecycle-programs.md#preview-your-survey) after completing each setup section.
 8. Enable your Always-On survey when you're ready to make it available to your organization.
