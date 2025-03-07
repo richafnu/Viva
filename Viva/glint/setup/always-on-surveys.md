@@ -19,7 +19,7 @@ ms.date: 03/07/2025
 
 # Set up a Viva Glint Always-On feedback survey
 
-Microsoft Viva Glint Always-On feedback surveys provide insight on any topic, at any time, from any group of people in your organization. Different than scheduled or recurring programs, Always-On surveys are always open and ready for users to provide insights in real time. Ideally, Always-On surveys are quick and easy to complete. Keep surveys under five minutes. In fact, they should take no longer than three minutes to complete.
+Microsoft Viva Glint Always-On feedback surveys provide insight on any topic, at any time, from any group of people in your organization. Different than scheduled or recurring programs, Always-On surveys are always open and ready for users to provide insights in real time. Ideally, Always-On surveys are quick and easy to complete in a few minutes. [Learn about survey types](/viva/glint/start/program-types-templates#types-of-surveys).
 
 ## Potential use cases
 
