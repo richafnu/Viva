@@ -1,6 +1,6 @@
 ---
-title: Distribution setup in Program Summary
-description: Distribution lists are how admins define which employees within an organization should receive a survey.
+title: Viva Glint survey Distribution setup 
+description: After completing **Program Setup** for a Microsoft Viva Glint survey, set up the Distribution section. Choose which employees are eligible for a survey by selecting Distribution Lists to include or exclude.
 ms.author: JudithWeiner
 author: JudyWeiner
 manager: mbarry
@@ -14,48 +14,46 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 01/06/2025
+ms.date: 02/07/2025
 ---
 
-# Distribution setup in Program Summary
+# Viva Glint survey Distribution setup 
 
-Distribution is set up within Program Summary. After completing **Program Setup** - Program Setup shows a checkmark - choose which of your organization's populations receive this program's survey by using existing Distribution Lists or creating new ones.
+After completing **Program Setup** for a Microsoft Viva Glint survey, set up the Distribution section. Choose which employees are eligible for a survey by selecting Distribution Lists or User Roles to include and exclude.
 
-:::image type="content" source="../../media/glint/setup/dl-access-from-program-summary.png" lightbox="../../media/glint/setup/dl-access-from-program-summary.png" alt-text="Screenshot of where to access Distribution List setup from Program Summary.":::
+## Include or exclude lists or roles for a survey
 
-## Download recipients
+Use the search field in the Distribution section to select Distribution Lists or User Roles. If you don't see the appropriate list or role in dropdown menus, [set up a new list](/../../viva/glint/setup/set-up-distribution-lists) or a [new role](set-up-user-roles.md).
 
-:::image type="content" source="../../media/glint/setup/distribution-program-summary-window.png" lightbox="../../media/glint/setup/distribution-program-summary-window.png" alt-text="Screenshot of the Distribution page in Program Summary.":::
+To set up Distribution for your survey:
 
-To view a spreadsheet of people populated to receive this program, select **Download Recipients**. 
+> [!NOTE]
+> For Lifecycle surveys, select an **Employee Attribute** (hire or exit date) before selecting lists and roles.
 
-The **Exporting Member Data** window opens. This export includes all individuals - first name, last name, email address, and status- targeted by this survey. Recent edits to this program’s distribution may take a few minutes to update before reflected in the export. Choose whether to include all User Roles. Select **Export**.
-
-:::image type="content" source="../../media/glint/setup/distribution-exporting-data.png" lightbox="../../media/glint/setup/distribution-exporting-data.png" alt-text="Screenshot of the window that opens to download recipients.":::
-
-Download confirmation:
-
-:::image type="content" source="../../media/glint/setup/distribution-report-downloaded.png" alt-text="Screenshot of the Report Downloaded message.":::
-
-## Add Distribution Lists to a survey
-
-Use the search panel to select Distribution Lists. Distribution Lists are populated before the survey setup stage, in [Managing features and settings](/../../viva/glint/setup/set-up-distribution-lists).
-
-Commit Distribution Lists to your program:
-
-1. Select the search panel to open a dropdown menu of Distribution Lists available.
-1. Select one or more Distribution Lists.
-1. Select the highlighted right-facing arrow to **Save and Continue**.
+1. Select the search field for **Distribution For This Program**. Existing lists and roles appear.
+1. Select one or more Distribution Lists or User Roles.
+2. Select the search field for **Exclude Groups**. Existing lists and roles appear.
+1. Select one or more Distribution Lists or User Roles if some users should be excluded from the survey.
+1. Select the highlighted right-facing arrow icon to **Save and Continue**.
 
    :::image type="content" source="../../media/glint/setup/distribution-dropdown-save.png" alt-text="Screenshot of the prepopulated Distribution List dropdown menu.":::
 
-## Exclude Distribution Lists from a survey
+## Download recipients
 
-Sometimes you may want to exclude a certain group from a survey cycle. Search for the list to exclude and select the **X** next to it.
+To download a spreadsheet of eligible users for a survey, select **Download Recipients**. This file includes:
 
-:::image type="content" source="../../media/glint/setup/program-summary-distribution-exclude.png" alt-text="Screenshot of the Exclude Groups field on the Distribution page in Program Summary.":::
+- First name
+- Last name
+- Email address
+- Employee ID
+- Status
+- A column for each User Role that users belong to, when **Include all user roles** is set to "Yes" for the export.
 
-## Next step
+> [!NOTE]
+> For Lifecycle surveys, the **Download Recipients** option isn't available. To get a list of recipients for a Lifecycle survey, follow [these steps](/viva/glint/communicate/support-survey-participants#lifecycle-and-always-on-surveys).
 
-> [!div class="nextstepaction"]
-> [Schedule setup in Program Summary](https://go.microsoft.com/fwlink/?linkid=2231341)
+1. Select **Download Recipients**.
+2. Choose whether to **Include all user roles** in the **Exporting Member Data** dialog that appears.
+3. Select **Export** to download a file to your device. A **Report Downloaded!** message appears in another tab when your data downloads.
+
+:::image type="content" source="../../media/glint/setup/distribution-exporting-data.png" lightbox="../../media/glint/setup/distribution-exporting-data.png" alt-text="Screenshot of the window that opens to download recipients.":::
