@@ -19,7 +19,7 @@ ms.date: 03/07/2025
 
 # Set up a Viva Glint Recurring survey
 
-Use Microsoft Viva Glint Recurring surveys to measure employee sentiment on topics that you want regular feedback on over time. Recurring surveys help organizations track important themes like engagement, manager effectiveness, or culture at regular intervals. [Learn about survey types here](/viva/glint/start/program-types-templates#types-of-surveys)
+Use Microsoft Viva Glint Recurring surveys to measure employee sentiment on topics that you want regular feedback on over time. Recurring surveys help organizations track important themes like engagement, manager effectiveness, or culture at regular intervals. [Learn about survey types](/viva/glint/start/program-types-templates#types-of-surveys).
 
 ## How to set up a Recurring survey
 
