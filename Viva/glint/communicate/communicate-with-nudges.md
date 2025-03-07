@@ -6,7 +6,7 @@ author: JudyWeiner
 manager: MelissaBarry
 audience: admin
 f1.keywords: NOCSH
-keywords: viva strengths and opportunities
+keywords: managers using nudges, triggers, Nudge triggers
 ms.collection:  
 - m365initiative-viva
 - selfserve 
@@ -14,7 +14,7 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 03/06/2025
+ms.date: 03/07/2025
 ---
 
 # Communicate with Viva Glint Nudges
@@ -48,12 +48,12 @@ This table shows the conditions and triggers used to send Nudge notifications:
 
 | Condition | Message | Action |
 |--------|--------|---------|
-|When a survey is Live| [Survey Name} is live!<br> *If a manager has multiple live surveys running, a consolidated message is sent, listing each survey*.|Invite your teammates to respond!|No action required|
+|When a survey is Live| [Survey Name] is live! Invite your teammates to respond! <br> *If a manager has multiple live surveys running, a consolidated message is sent, listing each survey*.|No action required|
 |Manager hasn't viewed survey results|**Heading** - Your survey results are ready.<br>**Body** - Review your [Survey Name] results and prepare to share with your team.|Interpret results from the manager dashboard.|
 |Manager viewed results but hasn't decided on a Focus Area|**Heading** - It’s time to check in with your team. <br>**Body** - Talk with your team about results, celebrate wins, and collaborate on what next steps to take to build trust, transparency, and shared ownership of action. | [Use the Team Conversations Presentation Kit](/../../viva/glint/reports/managers-sharing-team-conversations)|
 |Manager received the previous Nudge but hasn't created a Focus Area.|**Heading** - Take one small step to build your team's engagement.<br> **Body** - Small steps have a large impact. You discussed results with your team, it's time to choose a Focus Area. We support you with action items, best practices, and ongoing reminders.|Choose a Focus Area.|
-|Manager has an active Focus Area created. <br> *The Focus Area may or may not have an active action item associated with it. The Nudge is sent accordingly.* |**Heading** - How are you and your team progressing on your goal? <br><br> **Body** - <br> If the goal has an active action item: <br> **Next up on [Driver]:[Action Item]**. <br> For example: Next up on Opinions Count: Listening Tips for Leaders <br><br> If the goal has no active action items: <br> **Next up on [Driver]:[Recommendation]** <br> For example, Next up on Opinions Count: Work on Listening Tips for Leaders|Take action on a Focus Area|
-|Survey is live and manager hasn't viewed results. <br> Or, the survey is closed, an action item is created, and action is taken.|**Heading Variants** - How are you progressing on your action items? Let's check-in.<br> **Body Variant** - Now is a good time to reflect, celebrate the progress you've made with your team, and decide if you'd like to keep working on this goal. If you're done, remember to mark the goal "Complete" to get credit for your work!|Reflect on action|
+|Manager has an active Focus Area created. <br> *The Focus Area may or may not have an active action item associated with it. The Nudge is sent accordingly.* |**Heading** - How are you and your team progressing on your goal? <br><br> **Body** - <br> **If the goal has an active action item:** <br> **Next up on [Driver]:[Action Item]** <br> *For example: Next up on Opinions Count: Listening Tips for Leaders* <br><br> **If the goal has no active action items:** <br> **Next up on [Driver]:[Recommendation]** <br> *For example, Next up on Opinions Count: Work on Listening Tips for Leaders*|Take action on a Focus Area|
+|Survey is live and manager hasn't viewed results. <br> Or, the survey is closed, an action item is created, and action is taken.|**Heading Variants** - How are you progressing on your Focus Area? Let's check-in.<br> **Body Variant** - Now is a good time to reflect, celebrate the progress you've made with your team, and decide if you'd like to keep working on this goal. If you're done, remember to mark the goal "Complete" to get credit for your work!|Reflect on action|
 
 ## How admins set up Nudges 
 
@@ -114,16 +114,15 @@ To make changes to a recipient group:
 1. Make changes and select **Save Changes**.  
 1. Select **Enable** and then **Enable Recipient Group** on the Configuration section of the Nudges landing page to incorporate the changes into your programs.
 
-### How long do Nudges continue to send?
+## Nudge FAQs
 
+**How long do Nudges continue to send?**
 Nudges send within 90 days of the survey closing, regardless of the date Nudges are enabled. For example, if a program is on a quarterly cadence, Nudges stop when the next cycle starts.
 
-### Include or exclude programs from receiving Nudges
-
+**How can I nclude or exclude programs from receiving Nudges?**
 Switch the **Eligible for Nudges** feature to **YES** or **NO** on the **Program Setup** page in **Program Summary**. **Suggested Action Plans** must be switched to **ON**, to enable Nudges.
 
-### View programs enabled for roles in Nudges
-
+**Where do I view programs enabled for roles in Nudges?**
 From the admin dashboard select **Nudges**, then **View Details** (for an enabled User Role within the Configuration section). The Recipient Group Setup page opens for that User Role. Review the **Enabled Programs** section.
 
 
