@@ -1,12 +1,12 @@
 ---
-title: Set up Program Summary pages for a Viva Glint recurring surveys
-description: Once you choose a survey template, set up your survey in the seven pages of Program Summary.
+title: Set up a Viva Glint recurring survey
+description: Use Microsoft Viva Glint recurring surveys to measure employee sentiment on topics that you want regular feedback on over time.
 ms.author: JudithWeiner
 author: JudyWeiner
 manager: MelissaBarry
 audience: admin
 f1.keywords: NOCSH
-keywords: Distribution, survey setup, program setup, survey schedule, reporting, question setup, communications setup, coaching
+keywords: survey setup, program setup, create survey, recurring survey, engagement survey
 ms.collection: 
  - m365initiative-viva
  - selfserve
@@ -14,34 +14,39 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 12/11/2024
+ms.date: 03/07/2025
 ---
 
-# Set up Program Summary pages for a Viva Glint recurring surveys
+# Set up a Viva Glint Recurring survey
 
-The first step for setting up a Microsoft Viva Glint program is to set up **Program Summary**.
+Use Microsoft Viva Glint Recurring surveys to measure employee sentiment on topics that you want regular feedback on over time. Recurring surveys help organizations track important themes like engagement, manager effectiveness, or culture at regular intervals. [Learn about survey types](/viva/glint/start/program-types-templates#types-of-surveys).
 
-## Access Program Summary to set up a new survey
+## How to set up a Recurring survey
 
-If you need help choosing a survey, [learn about survey types here](https://go.microsoft.com/fwlink/?linkid=2231202). 
-
-1. From your admin dashboard, select the **Configuration** symbol.
-2. In the **Survey** section, choose **Survey Programs**.
+1. From your admin dashboard, select **Configuration**.
+2. In the **Surveys** section, choose **Survey Programs**.
 3. Select **+ New Program.**
-4. Choose your survey template or start from scratch with a blank template. Select **Create Program** on the corresponding card.
+4. Choose a survey template or start with a blank template in the **Recurring** section.
 
-## Program Summary setup
+   :::image type="content" source="../../media/glint/setup/recurring-survey-templates.png" alt-text="Screenshot of Viva Glint Recurring survey templates available to admins.":::
+   
+5. Hover over a template and select **Create Program**.
+6. After creating a new survey program from a template, follow the guidance listed for each section of your Recurring survey setup.
 
-In Program Summary, there are up to seven pages to be set up. Not all pages are needed for all programs. Only pages required for the program chosen are shown for you to set up. These pages can include:
+   |:::image type="icon" source="/office/media/icons/administrator.png" :::  |Setup section |Description|
+   |:----------|:-----------|:------------|
+   | :::image type="icon" source="/office/media/icons/settings.png" :::  |[Program Setup](program-set-up.md)        |Define basics like languages, optional features, and confidentiality settings.        |
+   | :::image type="icon" source="/office/media/icons/users-people.png" :::   |[Distribution](distribution-program-summary.md)        |Select Distribution Lists or User Roles to include in or exclude from the survey invite list.        |
+   | :::image type="icon" source="/office/media/icons/calendar-blue.png" :::  |[Schedule](schedule-setup.md)       |Set the next start date and recurrence for future surveys.        |
+   | :::image type="icon" source="/office/media/icons/help.png" :::  |[Questions](questions-setup.md)       | Add survey introduction text, select questions, and add a survey thank you message.      |
+   | :::image type="icon" source="/office/media/icons/usage-report-blue.png" :::  |[Reporting](reporting-setup.md)       |  Define which roles have access to this survey's results and determine key reporting views.      |
+   | :::image type="icon" source="/office/media/icons/whats-new-megaphone-blue.png" ::: |[Communications](program-summary-communications.md)       |  Set a schedule and customize content for survey invites, reminders, survey results notification, and conversation emails (when Team Conversations are enabled).     |
+   | :::image type="icon" source="/office/media/icons/chat-room-conversation-blue.png" ::: |[Coaching](program-summary-coaching.md)       | Confirm or customize content that helps users interpret results on their dashboards and use Team Conversations (when enabled).       |
 
-- [Program Summary: Program Setup](program-set-up.md)
-- [Program Summary: Distribution](set-up-distribution-lists.md)
-- [Program Summary: Schedule](schedule-setup.md)
-- [Program Summary: Questions](questions-setup.md)
-- [Program Summary: Reporting](reporting-setup.md)
-- [Program Summary: Communications](program-summary-communications.md)
-- [Program Summary: Coaching](program-summary-coaching.md)
+   As you set up each section a checkmark indicates that the section is set up completely and allows you to move to the next setup section. 
 
-A checkmark indicates that the page is set up correctly and allows you to move to the next Program Summary setup page. To move ahead before finishing a page, add dummy data to the page. Don't forget to come back and change that dummy data to accurate information!
+   :::image type="content" source="../../media/glint/setup/program-summary-checkmarks.png" alt-text="Screenshot of a completed Program Summary. A checkmark appears on the right of each row.":::
 
-:::image type="content" source="../../media/glint/setup/program-summary-checkmarks.png" alt-text="Screenshot of a completed Program Summary. A checkmark appears on the right of each row.":::
+7. [Preview your survey](preview-manage-enable-engage-programs.md#preview-the-survey) after completing each setup section.
+8. [Review survey setup](survey-qa.md) before survey launch.
+9. [Enable and launch your survey](preview-manage-enable-engage-programs.md#enable-a-program).
