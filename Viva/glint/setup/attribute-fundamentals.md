@@ -92,9 +92,11 @@ If you also supply language values to indicate users’ dashboard languages (for
 > [!NOTE]
 > Dashboards do not support languages that are read from right to left.
 
-#### Upcoming language changes
+### Upcoming language changes
 
 In April 2025, some supported languages and codes for Viva Glint change. For more information, see the following tables.
+
+#### Changes - no action needed 
 
 Languages whose codes and display language in platform dropdown menus change, but **Viva Glint Admins don't need to take any action**. Custom translations remain in Viva Glint and any old versions of codes in imported data automatically map to new codes.
 
@@ -108,19 +110,23 @@ Languages whose codes and display language in platform dropdown menus change, bu
 | Serbian            | Serbian (Latin)         | sr_RS | sr-Latn-RS  | Srpski                 |       |
 | Tagalog            | Filipino                | tl_PH | fil-PH      | Tagalog                |       |
 
+#### Changes - export custom translations
+
 Languages whose codes and display language in platform dropdown menus change, and **Viva Glint Admins may need to take action**. Custom translations **don't remain** in Viva Glint but any old versions of codes in imported data automatically map to new codes. Export custom translations for these languages by August 2025 at the latest.
 
 | Current language  | Language as of April 2025 | Current language code | Language code as of April 2025 | Localized version | Localized version as of April 2025 |
 |:----------|:-----------|:------------|:------------|:------------|:------------|
-| Austrian (German)   | German                 | de_AT  | de-DE  | َÖsterreichisches Deutsch  |       |
+| Austrian (German)   | German                 | de_AT  | de-DE  | Österreichisches Deutsch  |       |
 | Chinese (Hong Kong) | Chinese (Traditional)  | zh_HK  | zh_TW  | 廣東話                     |       |
 | Bengali             | Bangla                 | bn_BD  | bn-IN  | বাংলা                      |       |
+
+#### Changes - export custom translations and choose a new supported language
 
 Languages that aren't supported in Viva Glint after April 2025. If Viva Glint Admins make no updates, users are directed to an organization's default language. Export custom translations for these languages by August 2025 at the latest.
 
 | Current language  | Language as of April 2025 | Current language code | Language code as of April 2025 | Localized version | Localized version as of April 2025 |
 |:----------|:-----------|:------------|:------------|:------------|:------------|
-| Armenian       | None  | hy_AM  | None  | َՀայերեն          | None  |
+| Armenian       | None  | hy_AM  | None  | Հայերեն          | None  |
 | Haitian Creole | None  | fr_HT  | None  | Kreyòl Ayisyen   | None  |
 | Northern Sotho | None  | ns_ZA  | None  | Sesotho sa Leboa | None  |
 | Swahili        | None  | sw_KE  | None  | Kiswahili        | None  |
