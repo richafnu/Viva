@@ -117,6 +117,4 @@ Manager isn't technically a role that can be assigned. The Insights admin can en
 ## Next steps
 
 > [!div class="nextstepaction"]
-> [Configure manager settings](./manager-settings.md)
-
-*Applies to: Insights Administrator*
+> [Enable or disable advanced insights with PowerShell](./control-advanced-insights-powershell.md)

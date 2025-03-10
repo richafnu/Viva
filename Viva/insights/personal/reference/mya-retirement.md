@@ -5,7 +5,7 @@ title: MyAnalytics retirement
 description: About retiring MyAnalytics
 author: zachminers
 ms.author: v-zachminers
-ms.topic: conceptual
+ms.topic: article
 ms.localizationpriority: medium 
 ms.service: viva-insights
 ms.collection: 

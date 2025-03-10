@@ -4,7 +4,7 @@ title: Upload organizational data during setup
 description: Get a quick overview of how to upload organizational data as part of setup
 author: zachminers
 ms.author: v-zachminers
-ms.topic: article
+ms.topic: install-set-up-deploy
 ms.localizationpriority: medium 
 ms.collection: viva-insights-advanced 
 ms.service: viva-insights
