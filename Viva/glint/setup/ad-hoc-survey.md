@@ -14,12 +14,12 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 03/07/2025
+ms.date: 03/10/2025
 ---
 
 # Set up a Viva Glint Ad Hoc survey
 
-Use Viva Glint Ad Hoc surveys to measure something out of the ordinary, like a significant announcement or new programs. A one-time Ad Hoc survey is useful when societal or global events introduce instability and disruption to work patterns and personal lives. Give employees the opportunity to express concerns by reaching out for Ad Hoc feedback. [Learn more about survey types](/viva/glint/start/program-types-templates#types-of-surveys).
+Use Viva Glint Ad Hoc surveys to measure something out of the ordinary, like a significant announcement or a new program. A one-time Ad Hoc survey is useful when societal or global events introduce instability and disruption to work patterns and personal lives. Give employees the opportunity to express concerns by reaching out for Ad Hoc feedback. [Learn more about survey types](/viva/glint/start/program-types-templates#types-of-surveys).
 
 ## How an Ad Hoc survey can help people remain happy and successful 
 
@@ -35,7 +35,6 @@ People need these assurances at work:
 2. In the **Surveys** section, select **Survey Programs**.
 3. Select **+ New Program**.
 4. Choose a survey template or start with a blank template in the **Ad Hoc** section.
-5. Select **Create Program**.
 
    :::image type="content" source="../../media/glint/setup/ad-hoc-survey-templates.png" alt-text="Screenshot of Viva Glint Ad Hoc survey templates available to admins.":::
 
