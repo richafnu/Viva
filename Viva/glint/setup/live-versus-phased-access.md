@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 03/06/2025
+ms.date: 03/10/2025
 ---
 
 # Release results to roles in phased access
@@ -38,3 +38,10 @@ There are two levels of reporting access in Microsoft Viva Glint:
 6. Select **Provide Access**. *Visible to All Reporting Roles and Release Completed* is displayed.
 
 Once the next program cycle begins, and if the last cycle has *Phased* access, access defaults back to *Live.*
+
+
+>[!IMPORTANT]
+>
+>When a Recurring or Ad Hoc survey is Live and the User Role is assigned as Phased, they must wait until the survey ends to to gain reporting access. Access can't be switched during a Live survey.
+
+
