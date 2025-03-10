@@ -14,7 +14,7 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 12/02/2024
+ms.date: 03/10/2025
 ---
 
 # Viva Glint 360 language translations export and import 
@@ -22,7 +22,8 @@ ms.date: 12/02/2024
 After setting up a Microsoft Viva Glint 360 cycle and making all customizations in English, use Export and Import Cycle Content options to apply all updates to translations.
 
 > [!NOTE]
-> Standard 360 content includes translations for selected languages.
+> - Standard 360 content includes translations for selected languages.
+> - See [Upcoming language changes](attribute-fundamentals.md#upcoming-language-changes) for changes to supported languages and codes effective April 10, 2025.
 
 ## Export and edit content from the 360 cycle page
 
