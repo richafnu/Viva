@@ -1,6 +1,6 @@
 ---
 title: Viva Glint 360 feedback program overview 
-description: The Microsoft Viva Glint 360 Feedback program and process gives insight into a manager's strengths and opportunities with a specific, long-term focus.
+description: The Microsoft Viva Glint 360 Feedback program and process give insight into a manager's strengths and opportunities with a specific, long-term focus.
 ms.author: JudithWeiner
 author: JudyWeiner
 manager: mbarry
