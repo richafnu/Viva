@@ -4,7 +4,7 @@ ms.author: bhaswatic
 author: bhaswatic
 manager: elizapo
 ms.reviewer: chrisarnoldmsft
-ms.date: 09/18/2024
+ms.date: 03/10/2025
 audience: admin
 ms.topic: article
 ms.service: viva-learning
@@ -21,7 +21,7 @@ description: An introduction to managing your organization's skills library.
 You can manage your skills library by adding and deleting skills from the default skills library. You can import, export, and delete skills from your custom skill library. You can also control whether skills are available for users.
 
 > [!NOTE]
-> Skills in Viva is currently available only for private preview customers. The features described here are subject to change.
+> Skills is currently available only for private preview customers. The features described here are subject to change.
 
 ## Manage where skills are available and skills suggestions
 
@@ -82,25 +82,25 @@ Follow these steps to either import your custom skills library for the first tim
 > - Reimporting custom skills library overwrites existing data. New skills will be added to your library. Deleted skills and any data associated with those skills will be deleted. Any updates to skill name or skill description will be reflected in the user's experience.
 > - The admin completing custom import must have permissions to view and edit the uploaded .csv files in SharePoint. 
 
-To import customs skills into Skills for Viva:
+To import customs skills into Skills:
 
 1. In the [Microsoft 365 admin center](https://admin.microsoft.com/adminportal/home#/featureexplorer), select **Settings**, and then select **Viva**.  
 2. Select **Manage skills library**. Select the **Skills library** tab, and then select **New import**.  
 
 3. Select **Download library template** and **Download mapping template.** 
 4. Open the template files you downloaded. Follow the steps in [Create the custom skills files](/viva/skills/skills-get-started#create-the-custom-skills-files) to create your skills library and skills mapping files.
-9. Paste the file paths for both files into the **Skills library file path** and **Skill mapping file path** fields. 
-10. Select **Next** to begin file validation. If there's a problem with the file, you see an error message at this step.  
+5. Paste the file paths for both files into the **Skills library file path** and **Skill mapping file path** fields. 
+6. Select **Next** to begin file validation. If there's a problem with the file, you see an error message at this step.  
 
    > [!NOTE]
    > - The admin importing your custom skills information must have permissions to view and edit the uploaded .csv files in SharePoint.
    > - If you see a "file not found" error, try deleting "%20" strings from your pasted file paths. 
 
-11. Review your custom skills data.  
+7. Review your custom skills data.  
 
-12. Acknowledge that importing custom skills will immediately impact your users' experience if skills is turned on.  
+8. Acknowledge that importing custom skills will immediately impact your users' experience if skills is turned on.  
 
-13. Select **Confirm** to import.  
+9. Select **Confirm** to import.  
 
 If your library is published for users, the changes are reflected within 24 hours in their experience. 
 
