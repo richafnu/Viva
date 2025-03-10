@@ -42,5 +42,5 @@ Different needs should determine the cadence of your Viva Glint programs and cyc
 **Consider fatigue!**
 - **Survey fatigue:** Most people want to give constructive feedback and want it to be easy. Keep surveys short, relevant, and easy to use. Take quick and visible action on the feedback.
 - **Leader fatigue:** People have a lot on their plates. Set the expectation that leaders and teams use feedback to help them focus their existing efforts. Can they support each other in better ways to help them achieve their goals?
-- **HR fatigue:** Human Resources (HR) can be overwhelmed with requests for help to understand and use survey results. Viva Glint's prescribed resources for taking action on Focus Areas are easily added to manager action plans.
+- **HR fatigue:** Human Resources (HR) can be overwhelmed with requests for help with understanding and using survey results. Viva Glint's prescribed resources for taking action on Focus Areas are easily added to manager action plans.
 
