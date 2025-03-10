@@ -6,7 +6,7 @@ author: JudyWeiner
 manager: MelissaBarry
 audience: admin
 f1.keywords: NOCSH
-keywords: viva glint, recurring surveys, engagement, Referents, tags, 
+keywords: viva glint, Viva Glint recurring surveys, Viva Glint engagement programs, Referents, tags, Viva Glint Question Library, add a survey item to a template
 ms.collection: 
  - m365initiative-viva
  - selfserve
@@ -17,10 +17,12 @@ search-appverid: MET150
 ms.topic: overview
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 2/20/2025
+ms.date: 3/10/2025
 ---
 
 # Viva Glint survey templates introduction and terminology
+
+Use this page in conjunction with this [Microsoft Learn overview of Viva Glint survey templates](/../../viva/glint/start/program-types-templates)
 
 The Microsoft Viva Glint People Success database contains survey items - questions and statements - that each measure a distinct employee experience. The database is found in the Question Library on your admin dashboard. 
 
