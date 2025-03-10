@@ -6,7 +6,7 @@ author: JudyWeiner
 manager: mbarry
 audience: admin
 f1.keywords: NOCSH
-keywords: 360 terminology, 360 email templates
+keywords: 360 survey terminology, 360 feedback terminology, 360 email templates, set up a 360 Glint survey, set up a 360 Glint program, 360 subject, 360 feedback provider, 360 coach
 ms.collection:  
 - m365initiative-viva
 - selfserve 
@@ -14,7 +14,7 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 2/10/2025
+ms.date: 3/10/2025
 ---
 
 # Viva Glint 360 feedback program overview 
