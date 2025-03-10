@@ -31,7 +31,7 @@ To edit the default content for **Interpretation**, **Top Strengths**, and **Top
 
 2. In the edit pane that appears, make updates to the **Header**, **Coaching Text**, and **Select Resource** fields to customize content for strengths and opportunities. The **Select Resource** option is the only editable content for the **Interpretation guide**.
   
-   :::image type="content" source="../../media/glint/setup/coaching-edit-strengths.png" alt-text="Screenshot of the edit pane for the Strengths item in Viva Glint Coaching setup for a survey." lightbox="../../media/glint/setup/coaching-edit-strengths.png.":::
+   :::image type="content" source="../../media/glint/setup/coaching-edit-strengths.png" alt-text="Screenshot of the edit pane for the Strengths item in Viva Glint Coaching setup for a survey." lightbox="../../media/glint/setup/coaching-edit-strengths.png":::
 
 3. If needed, use the **Language** dropdown menu to make updates in all available dashboard languages.
 4. Select **Save Changes**.
