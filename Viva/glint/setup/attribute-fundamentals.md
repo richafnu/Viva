@@ -105,7 +105,7 @@ Languages whose codes and display language in platform dropdown menus change, bu
 | Arabic             | Arabic                  | ar_EG | ar-SA       | عربي                   |       |
 | Azerbaijani        | Azerbaijani (Latin)     | az_AZ | az-Latn-AZ  | Azərbaycanca           |       |
 | Bosnian            | Bosnian (Latin)         | bs_BA | bs-Latn-BA  | Bosanski               |       |
-| Spanish (Americas) | Spanish (North America) | es_US | es-MX       | Latino Latinoamericano |       |
+| Spanish (Americas) | Spanish (North America) | es_US | es-MX       | Español Latinoamericano |       |
 | Norwegian          | Norwegian (Bokmål)      | no_NO | nb-NO       | Norsk                  |       |
 | Serbian            | Serbian (Latin)         | sr_RS | sr-Latn-RS  | Srpski                 |       |
 | Tagalog            | Filipino                | tl_PH | fil-PH      | Tagalog                |       |
