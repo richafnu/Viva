@@ -89,18 +89,18 @@ To import customs skills into Skills:
 
 3. Select **Download library template** and **Download mapping template.** 
 4. Open the template files you downloaded. Follow the steps in [Create the custom skills files](/viva/skills/skills-get-started#create-the-custom-skills-files) to create your skills library and skills mapping files.
-9. Paste the file paths for both files into the **Skills library file path** and **Skill mapping file path** fields. 
-10. Select **Next** to begin file validation. If there's a problem with the file, you see an error message at this step.  
+5. Paste the file paths for both files into the **Skills library file path** and **Skill mapping file path** fields. 
+6. Select **Next** to begin file validation. If there's a problem with the file, you see an error message at this step.  
 
    > [!NOTE]
    > - The admin importing your custom skills information must have permissions to view and edit the uploaded .csv files in SharePoint.
    > - If you see a "file not found" error, try deleting "%20" strings from your pasted file paths. 
 
-11. Review your custom skills data.  
+7. Review your custom skills data.  
 
-12. Acknowledge that importing custom skills will immediately impact your users' experience if skills is turned on.  
+8. Acknowledge that importing custom skills will immediately impact your users' experience if skills is turned on.  
 
-13. Select **Confirm** to import.  
+9. Select **Confirm** to import.  
 
 If your library is published for users, the changes are reflected within 24 hours in their experience. 
 
