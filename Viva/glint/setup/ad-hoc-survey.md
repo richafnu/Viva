@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 03/07/2025
+ms.date: 03/10/2025
 ---
 
 # Set up a Viva Glint Ad Hoc survey
@@ -35,7 +35,6 @@ People need these assurances at work:
 2. In the **Surveys** section, select **Survey Programs**.
 3. Select **+ New Program**.
 4. Choose a survey template or start with a blank template in the **Ad Hoc** section.
-5. Select **Create Program**.
 
    :::image type="content" source="../../media/glint/setup/ad-hoc-survey-templates.png" alt-text="Screenshot of Viva Glint Ad Hoc survey templates available to admins.":::
 
