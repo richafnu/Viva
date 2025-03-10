@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 01/24/2025
+ms.date: 03/10/2025
 ---
 
 # Create your Viva Glint Employee Attribute Template
@@ -26,7 +26,7 @@ Ensure that attribute labels that you set up initially stay consistent over time
 > Use Viva Glint's **[Employee Attribute Template](https://www.microsoft.com/en-us/download/details.aspx?id=105533)** as guidance to ensure that data is uploaded in the correct format, incorporating our recommendations and requirements.
 
 > [!IMPORTANT]
-> See the Language Codes tab of the [Employee Attribute Template](https://www.microsoft.com/en-us/download/details.aspx?id=105533) for changes to supported languages and codes effective April 10, 2025.
+> See [Upcoming language changes](attribute-fundamentals.md#upcoming-language-changes) for changes to supported languages and codes effective April 10, 2025.
 
 ## Why is creating an employee data template important? 
 
