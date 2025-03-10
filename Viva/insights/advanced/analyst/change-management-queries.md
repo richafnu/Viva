@@ -48,15 +48,15 @@ Before you can run the ONA query and populate the report in the advanced insight
 
 ### Select and customize your attributes
 
-6. Under **Select and prepare organizational attributes for analysis**, select up to three organizational attributes you’d like to use to factor into your analysis. These attributes control how employees are grouped in the ONA experience. Your choice of attributes depends on the specific questions you’d like to address with the analysis. For example, if you want to learn about employee collaboration across different organizational structures and assess the impact of hybrid work on collaboration, we suggest grouping employees using the attributes "Organization," "HybridWorkState," and “OnsiteDays.” You can’t select attributes that have more than 100 values. [Learn more about organizational data](../admin/org-data-overview.md).
+1. Under **Select and prepare organizational attributes for analysis**, select up to three organizational attributes you'd like to use to factor into your analysis. These attributes control how employees are grouped in the ONA experience. Your choice of attributes depends on the specific questions you'd like to address with the analysis. For example, if you want to learn about employee collaboration across different organizational structures and assess the impact of hybrid work on collaboration, we suggest grouping employees using the attributes "Organization," "HybridWorkState," and "OnsiteDays." You can't select attributes that have more than 100 values. [Learn more about organizational data](../admin/org-data-overview.md).
 
-    There are three steps to this process. First, you’ll select your attributes. Then, you’ll customize the attributes’ values to better align with the comparisons you’re looking to make. Thirdly, you’ll select attribute values as “focus” values to tailor your analysis to those values.
+    There are three steps to this process. First, you'll select your attributes. Then, you'll customize the attributes' values to better align with the comparisons you're looking to make. Thirdly, you'll select attribute values as "focus" values to tailor your analysis to those values.
 
-    For this hypothetical scenario, let’s assume that the data for the attribute “Organization” has undergone significant changes between the before and after periods, and to reflect that in the analysis you’d like to rename one of its values, and combine two other values.
+    For this hypothetical scenario, let's assume that the data for the attribute “Organization” has undergone significant changes between the before and after periods, and to reflect that in the analysis you'd like to rename one of its values, and combine two other values.
 
     To begin with the first step, select **Add attributes**.
 
-7. In this scenario, you would select the attribute **Organization**.
+1. In this scenario, you would select the attribute **Organization**.
 
     :::image type="content" source="../images/ona-query-setup-01.png" alt-text="Screenshot showing how to select your attributes.":::
 
@@ -68,9 +68,9 @@ Before you can run the ONA query and populate the report in the advanced insight
 
     At the top right, select **Save and continue**.
 
-8. In the **Node view**, select the values you’d like to combine. When you combine values, the newly formed groups are applied to both the before and after time periods. We recommend as much parity as possible between the before and after periods, for reliable before/after comparisons in your analysis.  
+1. In the **Node view**, select the values you'd like to combine. When you combine values, the newly formed groups are applied to both the before and after time periods. We recommend as much parity as possible between the before and after periods, for reliable before/after comparisons in your analysis.  
 
-    For the attribute “Organization,” you want to make a new group comprised of the “Inventory Management” and “Facilities” values. Select those values.
+    For the attribute “Organization,” you want to make a new group comprised of the "Inventory Management" and "Facilities" values. Select those values.
 
      :::image type="content" source="../images/query-setup-03.png" alt-text="Screenshot showing how to combine the attribute values.":::
 
@@ -86,7 +86,7 @@ Before you can run the ONA query and populate the report in the advanced insight
 
 ### Select focused values
 
-9. Finally, if you like, you can select up to three values as focused values. This will let you focus the results of your analysis on these particular groups and the groups with which they most closely collaborate. You can select up to three of these values to focus your analysis from the query’s summary view page, described below.
+1. Finally, if you like, you can select up to three values as focused values. This will let you focus the results of your analysis on these particular groups and the groups with which they most closely collaborate. You can select up to three of these values to focus your analysis from the query’s summary view page, described below.
 
     For example, if you select “Internal services” and “IT operations” as focused values, you can hone in on the collaboration changes just for those groups, and the groups’ closest collaborators, in your analysis.
 
@@ -94,9 +94,9 @@ Before you can run the ONA query and populate the report in the advanced insight
 
     When you’re finished, at the top right, select **Save and finish**.
 
-10. You’re brought back to the main query setup page. To add and customize another attribute, under **Select and prepare organizational attributes for analysis**, select **Add attributes**, and follow the same steps outlined above for that attribute.
+1. You're brought back to the main query setup page. To add and customize another attribute, under **Select and prepare organizational attributes for analysis**, select **Add attributes**, and follow the same steps outlined above for that attribute.
 
-    Or, to make changes to how you’ve customized your chosen attributes, select **View or edit** next to the attribute you want to further customize. Or, to remove the attribute entirely and choose a new one, select **Remove**.
+    Or, to make changes to how you've customized your chosen attributes, select **View or edit** next to the attribute you want to further customize. Or, to remove the attribute entirely and choose a new one, select **Remove**.
 
     When you’re ready to run the query, at the screen’s top right, select **Run**.
 
@@ -112,9 +112,9 @@ To view the results, find your query under **Query name**, then select the Netwo
 
 ### Explore insights in summary view
 
-At the top of the screen, you’ll see two cards that provide two categories of insights relevant to your query: **Significant change in collaboration** and **Showing signs of insularity**. These two cards provide two different types of insights and data points related to collaboration and working patterns.
+At the top of the screen, you'll see two cards that provide two categories of insights relevant to your query: **Significant change in collaboration** and **Showing signs of insularity**. These two cards provide two different types of insights and data points related to collaboration and working patterns.
 
-Let’s now discuss the insights provided by each category, and how you can navigate the ONA experience for each.
+Let's now discuss the insights provided by each category, and how you can navigate the ONA experience for each.
 
 ## Insight category #1 - Significant change in collaboration
 
@@ -170,7 +170,7 @@ This is the first view you’ll see after you select **Explore more**. It provid
 
 :::image type="content" source="../images/ona-hotspot-1-side-by-side.png" alt-text="Screenshot showing the side-by-side view for the first insight category." lightbox="../images/ona-hotspot-1-side-by-side.png":::
 
-Here’s how to interpret this view of nodes:
+Here's how to interpret this view of nodes:
 
 * The nodes are grouped based on the “People grouped by” selection, and their size is based on the number of people in the group.
 
@@ -178,7 +178,7 @@ Here’s how to interpret this view of nodes:
 
 * Any focused groups shown in the view are indicated with concentric circles.
 
-* A gray “other” node contains  other groups which have been filtered out of the network view in order to facilitate a more readable network visualization. You can use the **Filter groups** tool described below to display these groups as individual nodes. You can also select the gray “Other” node to see the groups it includes and incorporate them into the view.
+* A gray “other” node contains other groups which have been filtered out of the network view in order to facilitate a more readable network visualization. You can use the **Filter groups** tool described below to display these groups as individual nodes. You can also select the gray “Other” node to see the groups it includes and incorporate them into the view.
 
 * The colors around the nodes represent how the groups are segmented, such as by employee level or geography. The segments that constitute a group is governed by the “Segment groups by” selection.
 
@@ -246,7 +246,7 @@ Here are a few ways you can explore this view.
 
 4. **Go back to before/after view**. At the top right, select the outward facing box. Any time period changes you made in the full screen view will carry over to the “before/after” view.
 
-:::image type="content" source="../images/ona-hotspot-3-fullscreen-02.png" alt-text="Screenshot showing the button to go back to side by side view.":::
+    :::image type="content" source="../images/ona-hotspot-3-fullscreen-02.png" alt-text="Screenshot showing the button to go back to side by side view.":::
 
 ### Matrix view
 
@@ -282,11 +282,11 @@ Just like with the network view, you can use the matrix view to analyze collabor
 
 The insights provided by the Significant change in collaboration insight category are calculated using the following two metrics:
 
-* **Group collaboration time invested**, which determines the connecting lines between the nodes
+* **Group collaboration time invested**, which determines the connecting lines between the nodes.
 
-* **Group size**, which determines the size of the nodes and the size of the segments around them
+* **Group size**, which determines the size of the nodes and the size of the segments around them.
 
-Let’s dive a little bit deeper into some of these metrics and how their results are calculated.
+Let's dive a little bit deeper into some of these metrics and how their results are calculated.
 
 #### Group collaboration time invested
 
