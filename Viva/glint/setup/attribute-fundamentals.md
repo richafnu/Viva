@@ -102,13 +102,13 @@ Languages whose codes and display language in platform dropdown menus change, bu
 
 | Current language  | Language as of April 2025 | Current language code | Language code as of April 2025 | Localized version | Localized version as of April 2025 |
 |:----------|:-----------|:------------|:------------|:------------|:------------|
-| Arabic             | Arabic                  | ar_EG | ar-SA       | عربي                   |       |
-| Azerbaijani        | Azerbaijani (Latin)     | az_AZ | az-Latn-AZ  | Azərbaycanca           |       |
-| Bosnian            | Bosnian (Latin)         | bs_BA | bs-Latn-BA  | Bosanski               |       |
-| Spanish (Americas) | Spanish (North America) | es_US | es-MX       | Español Latinoamericano |       |
-| Norwegian          | Norwegian (Bokmål)      | no_NO | nb-NO       | Norsk                  |       |
-| Serbian            | Serbian (Latin)         | sr_RS | sr-Latn-RS  | Srpski                 |       |
-| Tagalog            | Filipino                | tl_PH | fil-PH      | Tagalog                |       |
+| Arabic             | Arabic                  | ar_EG | ar-SA       | عربي                   | العربية (المملكة العربية السعودية)        |
+| Azerbaijani        | Azerbaijani (Latin)     | az_AZ | az-Latn-AZ  | Azərbaycanca           | azərbaycan (Azərbaycan)      |
+| Bosnian            | Bosnian (Latin)         | bs_BA | bs-Latn-BA  | Bosanski               | bosanski (Bosna i Hercegovina)       |
+| Spanish (Americas) | Spanish (North America) | es_US | es-MX       | Español Latinoamericano | español (México)       |
+| Norwegian          | Norwegian (Bokmål)      | no_NO | nb-NO       | Norsk                  | norsk bokmål (Norge)      |
+| Serbian            | Serbian (Latin)         | sr_RS | sr-Latn-RS  | Srpski                 | srpski (Srbija)       |
+| Tagalog            | Filipino                | tl_PH | fil-PH      | Tagalog                | Filipino (Pilipinas)       |
 
 #### Changes - export custom translations
 
@@ -116,9 +116,9 @@ Languages whose codes and display language in platform dropdown menus change, an
 
 | Current language  | Language as of April 2025 | Current language code | Language code as of April 2025 | Localized version | Localized version as of April 2025 |
 |:----------|:-----------|:------------|:------------|:------------|:------------|
-| Austrian (German)   | German                 | de_AT  | de-DE  | Österreichisches Deutsch  |       |
-| Chinese (Hong Kong) | Chinese (Traditional)  | zh_HK  | zh_TW  | 廣東話                     |       |
-| Bengali             | Bangla                 | bn_BD  | bn-IN  | বাংলা                      |       |
+| Austrian (German)   | German                 | de_AT  | de-DE  | Österreichisches Deutsch  | Deutsch (Deutschland)       |
+| Chinese (Hong Kong) | Chinese (Traditional)  | zh_HK  | zh_TW  | 廣東話                     | 中文(台灣)       |
+| Bengali             | Bangla                 | bn_BD  | bn-IN  | বাংলা                      | বাংলা (ভারত)      |
 
 #### Changes - export custom translations and choose a new supported language
 
