@@ -2424,7 +2424,7 @@
   {
     "source_path": "viva/glint/setup/export-distribution-lists.md",
     "redirect_url": "/viva/glint/setup/set-up-distribution-lists",
-    "redirect_document_id": true
+    "redirect_document_id": false
   }
  ]
 }
