@@ -67,7 +67,7 @@ Your organization is solely responsible for determining whether Extreme Circumst
 In some jurisdictions, Viva Glint users may have certain rights related to their personal data, including the rights to access, correct, delete, and restrict processing. Because raw survey responses are linked (or linkable) to identifiable survey takers, they are considered personal data. [Learn more about DSRs](/compliance/regulatory/gdpr-data-subject-requests).
 
 >[!IMPORTANT]
-> You may have multiple Viva Glint experiences in your tenant. As each experience operates independently, users personal data may be distributed across multiple experiences. For this reason, users must request data deletion (DSRs) for each instance they are part of.
+> You may have multiple Viva Glint experiences in your tenant. As each experience operates independently, users' personal data may be distributed across multiple experiences. For this reason, users must request data deletion (DSRs) for each instance they are part of.
 
 If you need to provide a survey taker with their raw survey responses in order to fulfill a DSR, you can do so even if export of this data has been disabled. Viva Glint allows admins to send a survey taker’s raw survey responses directly to the survey taker without accessing or viewing this data. Learn how to [respond to DSRs in Viva Glint](raw-data-request-response.md).
 
