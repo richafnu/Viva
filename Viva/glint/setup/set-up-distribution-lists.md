@@ -130,12 +130,18 @@ If your organization needs to add most users to a list based on attribute rules,
 
 ## Use date-based lists
 
+Viva Glint Employee Lifecycle surveys use exit and hire dates in your employee data to automatically trigger Exit and Onboarding surveys. Use date-based distribution lists to include all eligible users based on ranges of dates tied to exit and hire date information. 
 
-The date range selected for an attribute should always be equal or greater to the frequency at which you update your employee data files. For companies that integrate their HRIS files automatically, this works well. For companies that manually update employee files, make sure that the window set is wide enough to include the frequency with which employee data is refreshed. 
+When selecting a number of days before and after a date, consider:
 
-For example, if a window is set to 15 days but employee files are only updated every 30 days, the survey likely misses new employees who should get the survey, since the date range is only set to the file uploaded 30-45 days earlier. Instead, set the window for at least 30 days so you're sure to include everyone.
+- How often your organization uploads employee data
+- How quickly new and termed employee data is updated in your HR information system
+- The Response Window in a survey's Program Setup (the number of days a user has to complete a survey, usually 14 days)
 
-## View how a Distribution List is populated
+
+
+
+## View how a list is populated
 
 On the **Distribution Lists** page, the **Membership Type** column defines if that list is populated manually, by attribute rules, or both. 
 
@@ -159,9 +165,9 @@ Viva Glint Admins can delete lists by hovering over the list and selecting the *
 
 To delete the Distribution List, remove it from the Distribution section of the program.
 
-1. From the admin dashboard, select **Survey Programs**.
+1. Select **Configuration** and then select **Survey Programs**.
 2. **Select the survey.**
-3. Under Program Summary, select **Distribution** and remove the list.
+3. Select **Distribution** and remove the list.
 4. Repeat this process for all survey programs that use the list.
 5. Return to **Distribution Lists** and select the **Delete** option for the list.
 6. In the **Are you sure?** dialog that appears, select **Yes, I'm sure.**
