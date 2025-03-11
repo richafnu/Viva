@@ -29,7 +29,7 @@ The first Onboarding survey for new hires is recommended at 30 days. Consider se
 
 - Onboarding survey Distribution List date ranges are relative the hire date that you include in data your organization uploads to Viva Glint.
    - For example, if a person should receive a survey 30 days after their hire date, cast a wide net with the days after the hire date range in a list by choosing 30 - 45 days after hire date. 
-- Don't make the response window too short. Delayed data imports to Viva Glint might cause people to miss out on an intended Onboarding survey.
+- Don't make the response window too short. Delayed data imports to Viva Glint might cause people to miss an intended Onboarding survey.
 
 Learn more about using [date-based Distribution Lists](set-up-distribution-lists.md#use-date-based-lists).
 
