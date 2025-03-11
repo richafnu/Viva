@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 04/23/2024
+ms.date: 03/11/2025
 ---
 
 # Manager Quick Guide - Confidentiality
@@ -64,10 +64,12 @@ If BTI isn't enabled for managers, leaders of small teams can still hold ACT Con
 
 ## More Resources
 
-Refer to the following pages for more guidance:
 >**Microsoft Learn Documentation** 
 - [How Viva Glint helps you protect your data privacy](viva-glint-survey-privacy.md)
 >**Microsoft Learn Training**
 - [What are the basics of how Viva Glint emphasizes confidentiality?](/training/modules/viva-glint-learn-how-setup-viva-glint/4-what-basics-viva-glint-emphasizes-confidentiality)
 - [What is Viva Glint confidentiality and how do I navigate the Viva Glint app?](/training/modules/viva-glint-navigate-share-viva-glint-results/1-describe-confidentiality-navigate-viva-glint)
+
+
+
 
