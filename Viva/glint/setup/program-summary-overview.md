@@ -28,10 +28,13 @@ Use Microsoft Viva Glint Recurring surveys to measure employee sentiment on topi
 3. Select **+ New Program.**
 4. Choose a survey template or start with a blank template in the **Recurring** section.
 
+   > [!IMPORTANT]
+   > The blank recurring survey template doesn't currently support adding multiple cycles. To ensure that new survey cycles are supported, use a preloaded Recurring survey template and remove unneeded questions. 
+
    :::image type="content" source="../../media/glint/setup/recurring-survey-templates.png" alt-text="Screenshot of Viva Glint Recurring survey templates available to admins.":::
    
-5. Hover over a template and select **Create Program**.
-6. After creating a new survey program from a template, follow the guidance listed for each section of your Recurring survey setup.
+6. Hover over a template and select **Create Program**.
+7. After creating a new survey program from a template, follow the guidance listed for each section of your Recurring survey setup.
 
    |:::image type="icon" source="/office/media/icons/administrator.png" :::  |Setup section |Description|
    |:----------|:-----------|:------------|
@@ -47,6 +50,6 @@ Use Microsoft Viva Glint Recurring surveys to measure employee sentiment on topi
 
    :::image type="content" source="../../media/glint/setup/program-summary-checkmarks.png" alt-text="Screenshot of a completed Program Summary. A checkmark appears on the right of each row.":::
 
-7. [Preview your survey](preview-manage-enable-engage-programs.md#preview-the-survey) after completing each setup section.
-8. [Review survey setup](survey-qa.md) before survey launch.
-9. [Enable and launch your survey](preview-manage-enable-engage-programs.md#enable-a-program).
+8. [Preview your survey](preview-manage-enable-engage-programs.md#preview-the-survey) after completing each setup section.
+9. [Review survey setup](survey-qa.md) before survey launch.
+10. [Enable and launch your survey](preview-manage-enable-engage-programs.md#enable-a-program).
