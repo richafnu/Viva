@@ -25,7 +25,7 @@ Set up the Schedule for your Microsoft Viva Glint survey by choosing a launch da
 > - The Schedule section is only available for Recurring and Ad Hoc surveys.
 > - Ad Hoc surveys don't include options to set a survey recurrence or a schedule preview.
 
-:::image type="content" source="../../media/glint/setup/survey-schedule.png" alt-text="Screenshot of the Viva Glint survey Schedule page that lets admins choose things like survey launch date.":::
+:::image type="content" source="../../media/glint/survey-schedule.png" alt-text="Screenshot of the Viva Glint survey Schedule page that lets admins choose things like survey launch date.":::
 
 ## Set up a survey Schedule
 
