@@ -42,10 +42,10 @@ To set up a new Distribution List:
 
 There are multiple ways for Viva Glint Admins to add users to a list, including:
 
-- Attribute rules that automatically add users based on employee data imported to Viva Glint
-- Search and select individual users to add
-- File imports to add multiple users that don't share an attribute value
-- A blended approach that combines attribute rules and the search + add feature
+- [Attribute rules](#use-attribute-rules-to-add-users) that automatically add users based on employee data imported to Viva Glint
+- [Search and select](#search-for-and-add-individual-users) individual users
+- [File imports](#import-users) to add multiple users that don't share an attribute value
+- [A blended approach](#use-a-blended-approach-to-add-users) that combines attribute rules and the search + add feature
 
 ### Use attribute rules to add users
 
@@ -138,7 +138,9 @@ When selecting a number of days before and after a date, consider:
 - How quickly new and termed employee data is updated in your HR information system
 - The Response Window in a survey's Program Setup (the number of days a user has to complete a survey, usually 14 days)
 
+For example, to ensure that 
 
+:::image type="content" source="../../media/glint/setup/dl-day-range.png" alt-text="Screenshot of a Viva Glint date-based distribution list with 30 days before and after hire date.":::
 
 
 ## View how a list is populated
