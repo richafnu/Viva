@@ -17,7 +17,7 @@ ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
 ms.custom: CELA-approved
-ms.date: 1/27/2025
+ms.date: 3/11/2025
 ---
 
 # Access Viva Glint raw survey responses
@@ -28,7 +28,9 @@ In Microsoft Viva Glint, "raw survey responses" refers to unaggregated survey re
 
 By default, Viva Glint’s in-product reporting does not include raw survey responses and is reported in the aggregate. However, your organization may choose to make some surveys “identifiable,” meaning survey responses are directly linked to the survey taker. If a survey is identifiable, survey takers are informed before taking the survey. Learn more about [Viva Glint confidentiality and reporting](viva-glint-survey-privacy.md).
 
-While raw survey responses are not included in Viva Glint default reporting, Viva Glint Administrators can export them unless export is disabled. Even when export of raw survey responses is disabled, your organization may still access raw survey responses if it determines that certain Extreme Circumstances exist. Learn more about the [Extreme Circumstances exception](#exception-for-extreme-circumstances).
+While raw survey responses are not included in Viva Glint default reporting, Viva Glint Administrators can export them unless export is disabled. Even when export of raw survey responses is disabled, your organization may still access raw survey responses if it determines that certain Extreme Circumstances exist. Learn more about the [Extreme Circumstances exception](#exception-for-extreme-circumstances). 
+
+
 
 ## Configuring raw survey response export
 
@@ -63,6 +65,9 @@ Your organization is solely responsible for determining whether Extreme Circumst
 ## Responding to Data Subject Requests (DSRs) when export of raw survey responses is disabled
 
 In some jurisdictions, Viva Glint users may have certain rights related to their personal data, including the rights to access, correct, delete, and restrict processing. Because raw survey responses are linked (or linkable) to identifiable survey takers, they are considered personal data. [Learn more about DSRs](/compliance/regulatory/gdpr-data-subject-requests).
+
+>[!IMPORTANT]
+> You may have multiple Viva Glint experiences in your tenant. As each experience operates independently, users personal data may be distributed across multiple experiences. For this reason, users must request data deletion (DSRs) for each instance they are part of.
 
 If you need to provide a survey taker with their raw survey responses in order to fulfill a DSR, you can do so even if export of this data has been disabled. Viva Glint allows admins to send a survey taker’s raw survey responses directly to the survey taker without accessing or viewing this data. Learn how to [respond to DSRs in Viva Glint](raw-data-request-response.md).
 
