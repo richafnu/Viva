@@ -30,7 +30,9 @@ Manager Quick Guides are easy to share with your teams and provide managers and 
 ## More resources for managers
 
 [Managers using Team Conversations](/../../viva/glint/reports/managers-sharing-team-conversations)
+
 [Managers using Focus Areas](/../../viva/glint/setup/focus-areas-managers-creating)
+
 [Survey reports guide](/../../viva/glint/reports/survey-reports-overview)
 
 
