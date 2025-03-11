@@ -28,7 +28,7 @@ Microsoft Viva Glint Distribution Lists define which employees in your organizat
 
 To set up a new Distribution List:
 
-1. Select **Configuration** and in the **Employees** section, select **Distribution Lists**. The Distribution List page displays all existing lists and their number of members.
+1. Select **Configuration** and in the **Employees** section select **Distribution Lists**. The Distribution List page displays all existing lists and their number of members.
 
    :::image type="content" source="../../media/glint/setup/distro-list-overview.png" alt-text="Screenshot of the Distribution List window.":::
 
@@ -36,7 +36,7 @@ To set up a new Distribution List:
 
    :::image type="content" source="../../media/glint/setup/distro-list-add-new.png" alt-text="Screenshot of Distribution List setup steps.":::
    
-1. Add a unique name to the list to replace the "Untitled Distribution List..." default name. If another list already uses that name, an error message appears.
+1. To replace the "Untitled Distribution List...," add a unique name to the list default name. If another list already uses that name, an error message appears.
 
 ## Add users to a Distribution List
 
@@ -77,7 +77,7 @@ To manually add individual users:
 1. Select **Configuration** and then choose **Distribution Lists**.
 2. Select the Distribution List that you need to add employees to.
 3. Enter a name or email address in the **+ Search for an employee to add** field at the bottom of the list.
-4. Selec the user from search results to add them to the list.
+4. Select the user from search results to add them to the list.
 
 #### Import users
 
@@ -119,7 +119,7 @@ To import a file of users to a list:
 
 ### Use a blended approach to add users
 
-If your organization needs to add most users to a list based on attribute rules, but also needs to add a small number of users manually, consider a blended approach.
+If your organization needs to add most users to a list based on attribute rules, but also needs to add a few users manually, consider a blended approach.
 
 1. Set up a new list and add an [attribute rule](#use-attribute-rules-to-add-users) for it.
 2. When users need to be added manually, add them with the **[Search and add user](#search-for-and-add-individual-users)** feature in the list.
@@ -169,5 +169,5 @@ To delete the Distribution List, remove it from the Distribution section of the 
 :::image type="content" source="../../media/glint/setup/confirm-delete-distro-list.png" alt-text="Screenshot of Are you sure window to confirm deletion of a Distribution List.":::
 
 > [!NOTE]
-> Deleting a Distribution List is a permanent action. The data of the members of that list is not deleted.
+> Deleting a Distribution List is a permanent action. The data of the members of that list isn't deleted.
 
