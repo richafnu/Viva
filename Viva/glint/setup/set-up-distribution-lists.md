@@ -130,18 +130,22 @@ If your organization needs to add most users to a list based on attribute rules,
 
 ## Use date-based lists
 
-Viva Glint Employee Lifecycle surveys use exit and hire dates in your employee data to automatically trigger Exit and Onboarding surveys. Use date-based distribution lists to include all eligible users based on ranges of dates tied to exit and hire date information. 
+Viva Glint Employee Lifecycle surveys use exit and hire dates in your employee data to automatically trigger Exit and Onboarding surveys. Use date-based distribution lists to include all eligible users based on ranges of dates tied to exit and hire date information.
 
-When selecting a number of days before and after a date, consider:
+To set up a date-based list:
 
-- How often your organization uploads employee data
-- How quickly new and termed employee data is updated in your HR information system
-- The Response Window in a survey's Program Setup (the number of days a user has to complete a survey, usually 14 days)
+1. [Set up a list](#set-up-a-distribution-list)
+2. [Use attribute rules to add users](#use-attribute-rules-to-add-users)
+3. Select a date attribute, usually exit or hire date
+4. Select a day range related to the date that employees are eligible.
+5. When selecting a number of days before and after a date, consider:
+   - How often your organization uploads employee data
+   - How quickly new and termed employee data is updated in your HR information system
+   - The Response Window in a survey's Program Setup (the number of days a user has to complete a survey, usually 14 days)
 
-For example, to ensure that 
+For example, to ensure that users have enough time to respond to a 30-day onboarding survey, a Viva Glint Admin can choose to make users eligible 30 days to 50 days after their hire date. This setup allows users to receive invites and respond with enough time based on this organization's bi-monthly import of employee data. 
 
-:::image type="content" source="../../media/glint/setup/dl-day-range.png" alt-text="Screenshot of a Viva Glint date-based distribution list with 30 days before and after hire date.":::
-
+:::image type="content" source="../../media/glint/setup/dl-day-range-onboard.png" alt-text="Screenshot of a Viva Glint date-based distribution list for a a 30-day onboarding survey.":::
 
 ## View how a list is populated
 
