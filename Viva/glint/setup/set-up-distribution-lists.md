@@ -14,7 +14,7 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 03/11/2025
+ms.date: 03/12/2025
 ---
 
 # Set up and manage Viva Glint Distribution Lists
@@ -167,7 +167,7 @@ Editing a Distribution List is a global change and affects any program using tha
 
 Viva Glint Admins can delete lists by hovering over the list and selecting the **Delete** option. A **Delete Distribution List** dialog opens with a list of survey programs that use the list. 
 
-:::image type="content" source="../../media/glint/setup/delete-distribution-list.png" alt-text="Screenshot of Delete Distribution List slider window.":::
+:::image type="content" source="../../media/glint/setup/delete-dl-alert.png" alt-text="Screenshot of the Viva Glint distribution list deletion dialog that alerts users to surveys that use the list.":::
 
 To delete the Distribution List, remove it from the Distribution section of the program.
 
@@ -178,7 +178,7 @@ To delete the Distribution List, remove it from the Distribution section of the 
 5. Return to **Distribution Lists** and select the **Delete** option for the list.
 6. In the **Are you sure?** dialog that appears, select **Yes, I'm sure.**
 
-:::image type="content" source="../../media/glint/setup/confirm-delete-distro-list.png" alt-text="Screenshot of Are you sure window to confirm deletion of a Distribution List.":::
+:::image type="content" source="../../media/glint/setup/delete-dl-confirm.png" alt-text="Screenshot of the Viva Glint distribution list deletion confirmation dialog.":::
 
 > [!NOTE]
 > Deleting a Distribution List is a permanent action. The data of the members of that list isn't deleted.
