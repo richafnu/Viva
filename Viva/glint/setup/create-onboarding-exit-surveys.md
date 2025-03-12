@@ -25,19 +25,18 @@ Our Viva People Science team continually updates Viva Glint survey templates so 
 
 ## Creating a people-centric organization begins with onboarding
 
-We're all new employees at one time or another. We start with excitement for the future, anticipation of challenges to come, and desire for belonging with our new colleagues. With effective people practices, hopes can become a reality, and we can be happy and successful in our new roles. Successful onboarding experiences can increase new hires’ role clarity, social integration, and learning and can subsequently increase performance, retention, and organizational commitment.
+We're all new employees at one time or another. We start with excitement for the future, anticipation of challenges to come, and desire for belonging with our new colleagues. With effective people practices, hopes can become a reality, and we can be happy and successful in our new roles. Successful onboarding experiences can increase new hires’ role clarity, social integration, and learning and can then increase performance, retention, and organizational commitment.
 
 ## Why is onboarding so important? 
 
 Research shows it typically takes 12 months for new hires to reach their full performance potential, but many organizations continue to think of onboarding as just a few events. They often focus on orientation only and risk early disengagement and undesirable attrition. 
 
 - 56% of newly onboarded employees are likely to consider changing jobs within a year (Microsoft 2022 Work Trend Index). 
-- 30% of new hires have left a job in first 90 days. 
-- With the “Great Reshuffle” trend, many people are rethinking where, when, and why they work. 
+- 30% of new hires leave a job in first 90 days. 
 
 Onboarding feedback creates an opportunity for organizations to rethink their onboarding experience to direct their new hires’ excitement and curiosity to sustainable, positive outcomes. 
 
-## Viva Glint Onboarding Lifecycle program content
+## Viva Glint Onboarding program content
 
 |Item Name|Item Text|
 |---------|----------|
@@ -59,7 +58,7 @@ Onboarding feedback creates an opportunity for organizations to rethink their on
 |Barriers|What barriers (if any) are slowing you down right now?|
 |Reasons for joining|What were the main reasons you joined [Company Name]?|
 
-### Additional Onboarding Lifecycle items to consider
+### Other Onboarding items to consider
 
 |Item Name|Item Text|
 |---------|----------|
