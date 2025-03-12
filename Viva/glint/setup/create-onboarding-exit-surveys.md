@@ -6,7 +6,7 @@ author: JudyWeiner
 manager: MelissaBarry
 audience: admin
 f1.keywords: NOCSH
-keywords: viva strengths and opportunities
+keywords: viva glint onboarding, new hire surveys, onboarding surveys, onboarding template, employee lifecycle survey
 ms.collection: 
  - m365initiative-viva
  - selfserve
