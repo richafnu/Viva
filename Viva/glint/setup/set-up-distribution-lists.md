@@ -51,7 +51,7 @@ There are multiple ways for Viva Glint Admins to add users to a list, including:
 
 To automatically add users to a list based on their attribute values in data imported to Viva Glint:
 
-1. Select **Configuration** and in the **Employees** section, select **Distribution Lists**.
+1. Select **Configuration** and in the **Employees** section select **Distribution Lists**.
 2. Select the list that should have an attribute rule added.
 3. Select **Add/Edit Employees** and in the **Choose a way to add employees** dialog, select **Attribute Rules.**
 4. In the **Add Attribute Rules** edit pane that appears:
@@ -138,14 +138,14 @@ To set up a date-based list:
 2. [Use attribute rules to add users](#use-attribute-rules-to-add-users)
 3. Select a date attribute, usually exit or hire date
 4. Select a day range related to the date that employees are eligible.
-5. When selecting a number of days before and after a date, consider:
+5. When selecting days before and after a date, consider:
    - How often your organization uploads employee data
    - How quickly new and termed employee data is updated in your HR information system
    - The Response Window in a survey's Program Setup (the number of days a user has to complete a survey, usually 14 days)
 
 For example, to ensure that users have enough time to respond to a 30-day onboarding survey, a Viva Glint Admin can choose to make users eligible 30 days to 50 days after their hire date. This setup allows users to receive invites and respond with enough time based on this organization's bi-monthly import of employee data. 
 
-:::image type="content" source="../../media/glint/setup/dl-day-range-onboard.png" alt-text="Screenshot of a Viva Glint date-based distribution list for a a 30-day onboarding survey.":::
+:::image type="content" source="../../media/glint/setup/dl-day-range-onboard.png" alt-text="Screenshot of a Viva Glint date-based distribution list for a 30-day onboarding survey.":::
 
 ## View how a list is populated
 
