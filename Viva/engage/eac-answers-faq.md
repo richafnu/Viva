@@ -39,19 +39,19 @@ Answers are visible to anyone in your organization who has a Viva Suite license.
 
 **Can admins disable the Answers Digest sent to their organization?**
 
-Currently, admins can't configure or disable the automated Answers Digest emails from Answers in Viva.
+Admins can't configure or disable the automated Answers Digest emails from Answers in Viva.
 
 **Is guest access permitted for Answers?**
 
 Answers doesn't support guest access.
 
-**Can our organization use Answers without Topics?**
+**Can our organization use Answers without topics?**
 
-Yes, Answers works with or without Viva Topics for users with the Viva Engage Knowledge Service plan. Employees with Viva Topics licensing have additional knowledge management experiences, such as Topics cards on hover and AI-suggested topics. In 2025, Viva Topics will be retired, but a simplified topics model will continue in Viva Engage. For details about the Viva Topics retirement, see [Changes coming to Topics](/microsoft-365/topics/changes-coming-to-topics?view=o365-worldwide).
+Viva Engage supports a simplified topics experience as a subset of Answers. All licensed users can subscribe to topics in Answers' **Discover new topics** panel.
 
 **Why can’t users in my organization access Answers?**
 
-Check that your Viva Engage network meets the [technical requirements](/viva/engage/eac-answers-overview-setup), and your users have the correct license to access Answers. Your Viva Engage network must be in Native mode and have legacy Viva Engage topics migrated to Topics.
+Check that your Viva Engage network meets the [technical requirements](/viva/engage/eac-answers-overview-setup), and your users have the correct license to access Answers. Your Viva Engage network have legacy Viva Engage topics migrated to Topics.
 
 ## See also
 
