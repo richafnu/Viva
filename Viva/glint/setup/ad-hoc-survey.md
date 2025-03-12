@@ -1,12 +1,12 @@
 ---
-title: Use and set up a Viva Glint Ad Hoc survey
-description: Use a Viva Glint Ad Hoc survey to measure something out of the ordinary, like a significant announcement, a new program, or a societal or global event. Deliver an unscheduled survey at a pivotal time when employees need support mechanisms in place and their feedback is essential.
+title: Set up a Viva Glint Ad Hoc survey
+description: Use Viva Glint Ad Hoc surveys to measure something out of the ordinary, like a significant announcements or new programs.
 ms.author: JudithWeiner
 author: JudyWeiner
 manager: MelissaBarry
 audience: admin
 f1.keywords: NOCSH
-keywords: 
+keywords: ad hoc survey, one-time survey, unscheduled survey, org change survey
 ms.collection: 
  - m365initiative-viva
  - selfserve
@@ -14,20 +14,14 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 1/22/2025
+ms.date: 03/10/2025
 ---
 
-# Use and set up a Viva Glint Employee Ad Hoc survey
+# Set up a Viva Glint Ad Hoc survey
 
-Use a Viva Glint Ad Hoc survey to measure something out of the ordinary, like a significant announcement, or a new program. Change-management, uncertainty, and other unexpected factors bring a feeling of unsettlement and the unknown. An Ad Hoc survey is useful when societal or global events introduce instability and disruption to the natural patterns in our work and personal lives. COVID-19 is an example of this type of event. It introduced a personal impact on our core human needs for safety and security. Without leaders addressing fundamental concerns, organizations can't run business as usual.
+Use Viva Glint Ad Hoc surveys to measure something out of the ordinary, like a significant announcement or a new program. A one-time Ad Hoc survey is useful when societal or global events introduce instability and disruption to work patterns and personal lives. Give employees the opportunity to express concerns by reaching out for Ad Hoc feedback. [Learn more about survey types](/viva/glint/start/program-types-templates#types-of-surveys).
 
-People need reassurance that their leaders are prioritizing their safety and wellbeing. During uncertain times, employees have a heightened urgency to receive timely and fact-based communications about what's happening, why, and its impact on them. They need the opportunity to express fears and concerns and feel a sense of control over their circumstances. During these times, use a Viva Glint Ad Hoc survey. 
-
-## Cadence for Ad Hoc surveys
-
-Ad Hoc surveys are unplanned. They aren't part of your original Viva Glint survey program design. Deliver an unscheduled -Ad Hoc- survey at a pivotal time when employees need support mechanisms in place and their feedback is essential.
-
-## What people need at work to remain happy and successful 
+## How an Ad Hoc survey can help people remain happy and successful 
 
 People need these assurances at work:
 - To feel valued and confident about the future of their organization, and their place in it.
@@ -35,20 +29,32 @@ People need these assurances at work:
 - To feel trust in their leaders.
 - To understand how to be their best and do their best work.
 
-## Admin setup for an Ad Hoc survey
+## How to set up an Ad Hoc survey
 
 1. From the admin dashboard, select **Configuration**.
 2. In the **Surveys** section, select **Survey Programs**.
 3. Select **+ New Program**.
-4. Select the **blank Ad Hoc template card**.
-5. Select **Create Program**.
+4. Choose a survey template or start with a blank template in the **Ad Hoc** section.
 
-   :::image type="content" source="../../media/glint/setup/ad-hoc-survey-card.png" alt-text="Screenshot of the Ad Hoc recurring survey template card.":::
+   :::image type="content" source="../../media/glint/setup/ad-hoc-survey-templates.png" alt-text="Screenshot of Viva Glint Ad Hoc survey templates available to admins.":::
 
-6. Title your survey by using the **pencil symbol** to replace *Untitled Ad-Hoc*.
-7. Follow the steps to set up the seven pages within [**Program Summary**](/viva/glint/setup/program-summary-overview).
+5. Hover over a template and select **Create Program**.
+6. After creating a new survey program from a template, follow the guidance listed for each section of your Ad Hoc survey setup.
 
-   :::image type="content" source="../../media/glint/setup/ad-hoc-program-summary.png" alt-text="Screenshot of the Ad Hoc Program Summary page.":::
+   |:::image type="icon" source="/office/media/icons/administrator.png" :::  |Setup section |Description|
+   |:----------|:-----------|:------------|
+   | :::image type="icon" source="/office/media/icons/settings.png" :::  |[Program Setup](program-set-up.md)        |Define basics like languages, optional features, and confidentiality settings.        |
+   | :::image type="icon" source="/office/media/icons/users-people.png" :::   |[Distribution](distribution-program-summary.md)        |Select Distribution Lists or User Roles to include in or exclude from the survey invite list.        |
+   | :::image type="icon" source="/office/media/icons/calendar-blue.png" :::  |[Schedule](schedule-setup.md)       |Set the next start date and recurrence for future surveys.        |
+   | :::image type="icon" source="/office/media/icons/help.png" :::  |[Questions](questions-setup.md)       | Add survey introduction text, select questions, and add a survey thank you message.      |
+   | :::image type="icon" source="/office/media/icons/usage-report-blue.png" :::  |[Reporting](reporting-setup.md)       |  Define which roles have access to this survey's results and determine key reporting views.      |
+   | :::image type="icon" source="/office/media/icons/whats-new-megaphone-blue.png" ::: |[Communications](program-summary-communications.md)       |  Set a schedule and customize content for survey invites, reminders, and survey results notification emails.     |
+   | :::image type="icon" source="/office/media/icons/chat-room-conversation-blue.png" ::: |[Coaching](program-summary-coaching.md)       | Confirm or customize content that helps users interpret results on their dashboards.       |
+
+7. [Preview your survey](preview-manage-enable-engage-programs.md#preview-the-survey) after completing each setup section.
+8. [Review survey setup](survey-qa.md) before survey launch.
+9. [Enable and launch your survey](preview-manage-enable-engage-programs.md#enable-a-program).
+
 
 
 
