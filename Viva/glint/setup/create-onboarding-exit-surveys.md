@@ -1,5 +1,5 @@
 ---
-title: Create a  Viva Glint Onboarding survey
+title: Use Viva Glint onboarding surveys
 description: Employee onboarding surveys provide data about how a new hire feels about their introduction to your organization and its culture.
 ms.author: JudithWeiner
 author: JudyWeiner
@@ -14,10 +14,10 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 06/06/2024
+ms.date: 03/12/2025
 ---
 
-# Create a Viva Glint onboarding survey 
+# Use Viva Glint onboarding surveys 
 
 Microsoft Viva Glint believes that ongoing, frequent communications to solicit and collect employee feedback is crucial to an organization’s success. The Viva Glint Onboarding Employee Lifecycle survey provides data about how a new hire feels about their introduction to your organization and its culture.
 
@@ -76,4 +76,4 @@ Onboarding feedback creates an opportunity for organizations to rethink their on
 
 ## Next step
 
-[Follow Employee Lifecycle Program Summary guidance to set up your onboarding program](https://go.microsoft.com/fwlink/?linkid=2262631).
+[Set up a Viva Glint Onboarding survey](program-summary-setup-lifecycle.md).
