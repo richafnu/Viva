@@ -43,8 +43,8 @@ The Answers Intelligent Importer is enabled by default.
 
 1. Edit or delete items in the list, as needed. You can improve future import results by using the thumbs up and thumbs down icons to provide feedback.
 
-1. Select the pairs you want to import (up to 20) and select **Post**.
-If the post is successful, it returns a confirmation message and the question-and-answer pairs appear on the community landing page. 
+1. Select the Q&A pairs you want to import (up to 20) and select **Post**.
+When the post is successful, it returns a confirmation message and the question-and-answer pairs appear on the community landing page. 
 Content posted through this feature follows the same rules of visibility as other knowledge content posted within that community.
 
 ## File requirements
