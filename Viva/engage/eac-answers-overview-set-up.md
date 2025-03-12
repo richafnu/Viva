@@ -41,13 +41,13 @@ For more information about permissions, see [Manage admin roles in Viva Engage](
 
 ## Technical requirements
 
-By default, the Answers experience is enabled for networks where Viva Engage is enabled for the organization, and for all users of Viva Engage services. For the best Answers experience, we recommend that all organizations [install the Viva Engage app in Microsoft Teams](/viva/engage/setup#installing-viva-engage). 
+By default, the Answers experience is enabled for networks where Viva Engage is enabled, and for all users of Viva Engage services. For the best Answers experience, we recommend that all organizations [install the Viva Engage app in Microsoft Teams](/viva/engage/setup#installing-viva-engage). 
 
 ## Compliance and Answers data
 
-By default, a group in Microsoft 365 backs up your Answers data. This group follows your organization’s default data [retention policies](/microsoft-365/compliance/retention-policies-yammer). The Answers backing group activates when a user posts the first question in the group or creates a question attachment. All Microsoft 365 Global admins are assigned as owners of the backing group, which is labeled *Group for Answers in Viva Engage – DO NOT DELETE.*
+By default, a group in Microsoft 365 backs up your Answers data. This group follows your organization’s default data [retention policies](/microsoft-365/compliance/retention-policies-yammer). The Answers backing group activates when a user posts the first question in the group or creates a question attachment. All Microsoft 365 Global admins are owners of the backing group, which is labeled *Group for Answers in Viva Engage – DO NOT DELETE.*
 
-Backing group owners should ensure that Answers remains compliant with network policies and doesn't get accidentally deleted. Admins can export group data before deleting the backing group in Microsoft 365. **Deletion of the Answers data backing group stops Answers from working.**
+Backing group owners should ensure that Answers remains compliant with network policies. *Avoid accidental deletion of the backing group.* Admins can export group data before deleting the backing group in Microsoft 365. **Deletion of the Answers data backing group stops Answers from working.**
 
 >[!NOTE]
 > You can recover a soft delete within 30 days. A hard delete produces *permanent* data loss.
