@@ -177,9 +177,9 @@ To delete the Distribution List, remove it from the Distribution section of the 
 4. Repeat this process for all survey programs that use the list.
 5. Return to **Distribution Lists** and select the **Delete** option for the list.
 6. In the **Are you sure?** dialog that appears, select **Yes, I'm sure.**
+  
+   :::image type="content" source="../../media/glint/setup/delete-dl-confirm.png" alt-text="Screenshot of the Viva Glint distribution list deletion confirmation dialog.":::
 
-:::image type="content" source="../../media/glint/setup/delete-dl-confirm.png" alt-text="Screenshot of the Viva Glint distribution list deletion confirmation dialog.":::
-
-> [!NOTE]
-> Deleting a Distribution List is a permanent action. The data of the members of that list isn't deleted.
+   > [!IMPORTANT]
+   > Deleting a Distribution List is a permanent action. The data of the members of that list isn't deleted.
 
