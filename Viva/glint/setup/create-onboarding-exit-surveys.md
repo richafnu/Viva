@@ -21,7 +21,7 @@ ms.date: 03/12/2025
 
 Microsoft Viva Glint believes that ongoing, frequent communications to solicit and collect employee feedback is crucial to an organization’s success. The Viva Glint Onboarding Employee Lifecycle survey provides data about how a new hire feels about their introduction to your organization and its culture.
 
-Our Viva People Science team continually updates Glint survey templates so that they're always relevant in the current world of work.
+Our Viva People Science team continually updates Viva Glint survey templates so that they're always relevant in the current world of work.
 
 ## Creating a people-centric organization begins with onboarding
 
