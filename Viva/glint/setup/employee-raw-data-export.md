@@ -17,7 +17,7 @@ ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
 ms.custom: CELA-approved
-ms.date: 3/11/2025
+ms.date: 3/12/2025
 ---
 
 # Access Viva Glint raw survey responses
@@ -101,8 +101,8 @@ If export is enabled for a survey program, you can export raw survey responses f
 2.	Select your survey program and go to the **Completed cycles** tab.
 3.	On the row with the appropriate cycle, select the ellipses (three dots) and then **Export Raw Survey Responses.**
 1. In the export panel that appears:
-   1. Choose whether to include Comments, Survey Sent Date, and Use question's description instead of UUID in the Export Options section.
-   1. Select attributes to include. To improve the usability of exports, new attributes are available: Survey Cycle ID, Date Filter, Comments Topics, and Sensitive Comments Flag.
+   1. Select attributes to include in the Export Options section. Choose from: Survey Cycle ID, Survey Sent Date, Comments, Comment Topics, Sensitive Comment Flag, and Use question's description instead of UUID.
+   1. Select attributes from your organization in the Attributes section.
    2. After making all selections, select **Export.**
 5.	Your CSV file downloads to your device. Larger files take more time to generate. You receive an email when your file is ready to download.
 
@@ -113,12 +113,15 @@ If export is enabled for a survey program, you can export raw survey responses f
 3.	Choose **Export Raw Survey Responses.**
 1. In the export panel that appears:
    1. Select a Start Date and End Date in the Date Range section.
-   2. Choose whether to include Comments or Survey Sent Date.
-   1. Select attributes to include. To improve the usability of exports, new attributes are available: Survey Cycle ID, Date Filter, Comments Topics, and Sensitive Comments Flag. Survey Start Date is also available for Always-On surveys.
-   2. After making all selections, select **Export.**
+   1. Select a date type:
+      1. The date the participant started the survey (which matches Reports).
+      2. The date the participant completed the survey.
+   1. Select attributes to include in the Export Options section. Choose from: Survey Cycle ID, Survey Sent Date, Comments, Comments Topics, Sensitive Comments Flag, and Use question's description instead of UUID. Survey Start Date is also available for Always-On surveys.
+   2. Select attributes from your organization in the Attributes section.
+   3. After making all selections, select **Export.**
 5.	The CSV file downloads to your device. Larger files take more time to generate. You receive an email when your file is ready to download.
 
-## Raw survey response file layout
+## Raw survey response file layout and content
 
 The fields included in your Viva Glint raw survey response exports varies. Variation is based on the attributes that your organization sends, export selections, and the items included in your survey. The following columns are always included, with a field for every survey item:
 
@@ -127,9 +130,15 @@ The fields included in your Viva Glint raw survey response exports varies. Varia
 |Survey Cycle Creation Date   |The date and time that surveys were generated for users.       |YYYY-MM-DD hh:mm:ss|
 |Survey Cycle Completion Date|The date and time the survey was completed by each user.    |YYYY-MM-DD hh:mm:ss|
 |Survey Cycle Title|The name of the survey cycle.  |\<Month> \<Year> \<Program name> Survey|
-|ItemText1  |Full text of survey item. |Numeric response value.|
-|ItemText2  |Full text of survey item. |Numeric response value.|
-|ItemText3  |Full text of survey item. |Numeric response value.|
+|ItemText1  |Full text of survey item or question UUID. |Numeric response value.|
+|ItemText2  |Full text of survey item or question UUID. |Numeric response value.|
+|ItemText3  |Full text of survey item or question UUID. |Numeric response value.|
+
+### Partial, blank, and termed employee response handling
+
+- Partially completed surveys that participants don't submit aren't included in raw response exports.
+- Blank surveys with no question responses or comments aren't included in raw response exports.
+- Surveys submitted by terminated employees are included in raw response exports. Consider your organization's [data deletion settings](manage-general-settings.md#user-data) and how they affect terminated employee response data.
 
 >[!NOTE]
 > - The export option is only available to admins.
