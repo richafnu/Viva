@@ -25,7 +25,7 @@ Our Viva People Science team continually updates Viva Glint survey templates so 
 
 ## Creating a people-centric organization begins with onboarding
 
-We're all new employees at one time or another. We start with excitement for the future, anticipation of challenges to come, and desire for belonging with our new colleagues. With effective people practices, hopes can become a reality, and we can be happy and successful in our new roles. Successful onboarding experiences can increase new hires’ role clarity, social integration, and learning and can then increase performance, retention, and organizational commitment.
+We're all new employees at one time or another. We start with excitement for the future, anticipation of challenges to come, and desire for belonging with our new colleagues. With effective people practices, hopes can become a reality, and we can be happy and successful in our new roles. Successful onboarding experiences can increase new hires' role clarity, social integration, and learning and can then increase performance, retention, and organizational commitment.
 
 ## Why is onboarding so important? 
 
@@ -75,4 +75,4 @@ Onboarding feedback creates an opportunity for organizations to rethink their on
 
 ## Next step
 
-[Set up a Viva Glint Onboarding survey](program-summary-setup-lifecycle.md).
+[Set up a Viva Glint Onboarding survey](program-summary-setup-lifecycle.md)
