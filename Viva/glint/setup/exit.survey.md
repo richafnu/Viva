@@ -1,12 +1,12 @@
 ---
-title: Create an Employee Lifecycle exit survey
+title: Use Viva Glint Exit surveys
 description: Long-term business success is connected to engaging and retaining capable and motivated team members. Use the Viva Glint exit survey to collect valuable insights to improve employee turnover.
 ms.author: JudithWeiner
 author: JudyWeiner
 manager: MelissaBarry
 audience: admin
 f1.keywords: NOCSH
-keywords: 
+keywords: viva glint exit, termed employee surveys, exit surveys, exit template, employee lifecycle survey
 ms.collection:  
 - m365initiative-viva
 - selfserve 
@@ -14,10 +14,10 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 06/06/2024
+ms.date: 03/12/2025
 ---
 
-# Create an Employee Lifecycle Exit survey
+# Use Viva Glint Exit surveys
 
 Your team reported great quarterly numbers; the customers are raving about your product; you're excited about the future and realize that it's all because of your employees. One day you open your inbox and read that your star performer is leaving. Could this have been prevented?
 
@@ -47,4 +47,4 @@ Consider that although an employee is no longer part of your team, they can stil
 Use the Viva Glint Exit template to set up an ongoing program for employees that leave your organization, for any reason. 
 
 > [!div class="nextstepaction"]
-> [Start here to set up a Viva Glint exit survey](https://go.microsoft.com/fwlink/?linkid=2262631)
+> [Set up a Viva Glint Exit survey](exit-survey-setup.md)
