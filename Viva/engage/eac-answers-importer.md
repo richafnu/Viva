@@ -23,14 +23,14 @@ search.appverid:
 
 Community admins can generate question-and-answer pairs by uploading informational documents in Viva Engage. The **Answers Intelligent Importer** uses AI to transform your static documents into dynamic interactive conversations, ensuring that your organization's valuable content is easy to retrieve and reuse.
 
-Generated question-and-answer pairs follow the same rules of visibility as other content in that community. Your uploaded source files are stored on [Microsoft SharePoint](/viva/engage/get-started-with-viva-engage/file-storage) with other files in that community and are viewable by all members of that community.
+Generated question-and-answer pairs follow the same rules of visibility as other content in the community. [Microsoft SharePoint](/viva/engage/get-started-with-viva-engage/file-storage) stores your uploaded source files with other files in that community. All files are viewable by all members of the community.
 
 >[!NOTE]
->Currently this premium feature is only available for communities, but will soon be accessible to Engage admins on the Answers page. Viva Engage premium is included with a _Viva Suite_ or _Employee Communities and Communications_ license.
+>The premium Answers feature appears for communities and for Engage admins on the Answers page. Viva Engage premium is included with a _Viva Suite_ or _Employee Communities and Communications_ license.
 
 ## Import documents using Answers Intelligent Importer
 
-Community admins can populate their communities with useful information by importing informational documents. The Answers Intelligent Importer is enabled by default.
+The Answers Intelligent Importer is enabled by default.
 
 :::image type="content" source="../media/engage/admin/import-access-points.png" alt-text="Screenshot shows the location on the community page that lets you import a file to generate questions and answers.":::
 
@@ -71,4 +71,4 @@ Engage admins can control the Answers Intelligent Importer in their Viva Engage 
 1. On the **Feature management** tab, select the **Answers** button  to open the Answers configuration options.
 1. Under **Intelligent Importer availability**, turn on **Premium Communities**.
 
-When this setting is enabled, community admins with access to premium functionalities on Engage can access and use the Intelligent Importer feature in their communities.  
+When you enable the setting, community admins with access to premium functionalities on Engage can use the Intelligent Importer feature for their communities.  
