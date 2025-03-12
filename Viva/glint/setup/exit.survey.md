@@ -19,9 +19,9 @@ ms.date: 03/12/2025
 
 # Use Viva Glint Exit surveys
 
-An employee’s exit is a critical part of your organization's employee lifecycle. Without an effective exit program, you may miss the opportunity to gather feedback that helps identify triggers that may cause future employee departures. Organizations that collect exit data with Microsoft Viva Glint Exit surveys can use it to proactively improve the overall employee experience, resulting in better engagement, performance, and retention, as well as reduced business disruption and costs. 
+An employee’s exit is a critical part of your organization's employee lifecycle. Without an effective exit program, you may miss the opportunity to gather feedback that helps identify triggers that may cause future employee departures. Organizations that collect data with Microsoft Viva Glint Exit surveys can use it to proactively improve the overall employee experience. Increase engagement, performance, and retention, and reduce business disruption and costs by measuring Exit experiences. 
 
-Viva Glint Exit surveys help organizations understand why people leave, the experience they had as they left, and what they can do for the organization after departing. They can a brand ambassador or tarnish your reputation with negative feedback and reviews.
+Viva Glint Exit surveys help organizations understand why people leave, the experience they had as they left, and what they can do for the organization after departing. They can be a brand ambassador or tarnish your reputation with negative feedback and reviews.
 
 ## Viva Glint Exit survey program items
 
