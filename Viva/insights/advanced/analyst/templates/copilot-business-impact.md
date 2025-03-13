@@ -4,7 +4,7 @@ title: Copilot Business Impact report
 description: Learn how to use the Microsoft 365 Copilot Business Impact Power BI template to understand how Copilot usage impacts business results at your company.
 author: zachminers
 ms.author: v-zachminers
-ms.topic: article
+ms.topic: how-to
 ms.localizationpriority: medium 
 ms.collection:
 - viva-insights-advanced
