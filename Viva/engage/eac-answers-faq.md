@@ -47,11 +47,11 @@ Answers doesn't support guest access.
 
 **Can our organization use Answers without topics?**
 
-Viva Engage supports a simplified topics experience as a subset of Answers. Licensed users can subscribe to topics in Answers' **Discover new topics** panel. Users otherwise won't see them in their feed.
+Viva Engage supports a simplified topics experience as a subset of Answers. Licensed users can subscribe to topics in Answers' **Discover new topics** panel. Users otherwise don't see them in their feed.
 
 **Why can’t users in my organization access Answers?**
 
-Check that your Viva Engage network meets the [technical requirements](/viva/engage/eac-answers-overview-setup), and your users have the correct license to access Answers. Your Viva Engage network have legacy Viva Engage topics migrated to Topics.
+Check that your Viva Engage network meets the [technical requirements](/viva/engage/eac-answers-overview-setup), and your users have the correct license to access Answers.
 
 ## See also
 
