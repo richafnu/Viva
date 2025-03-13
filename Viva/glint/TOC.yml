@@ -289,12 +289,11 @@ items:
         href: setup/always-on-surveys.md
       - name: Set up an Ad Hoc survey
         href: setup/ad-hoc-survey.md
-      
-      - name: Review surveys before launch
+      - name: Review and test surveys before launch
         items:
-          - name: Check admin survey setup before launch
+          - name: Review and set up a test survey
             href: setup/survey-qa.md
-          - name: Review a test survey before launch
+          - name: Check a survey as a tester
             href: setup/survey-testing.md
           - name: Preview data in reports
             href: setup/preview-demo-reporting.md
