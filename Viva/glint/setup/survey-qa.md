@@ -1,6 +1,6 @@
 ---
-title: Review Viva Glint settings and survey programs before launch
-description: To prepare for a smooth survey launch for your Microsoft Viva Glint programs, use the guidance and checklists available here to confirm that all of your platform and survey settings are correct.
+title: Review and test Viva Glint surveys before launch
+description: To prepare for a smooth launch for your Microsoft Viva Glint survey programs, use the guidance and checklists available here to confirm that all of your platform and survey settings are correct.
 ms.author: aweixelman
 author: AliciaWeixelman
 manager: melissabarry
@@ -17,7 +17,7 @@ ms.localizationpriority: high
 ms.date: 03/13/2025
 ---
 
-# Review Viva Glint settings and survey programs before launch
+# Review and test Viva Glint surveys before launch
 
 To prepare for a smooth launch for your Microsoft Viva Glint survey programs, use the guidance and checklists available here to confirm that all of your platform and survey settings are correct.
 
@@ -28,26 +28,25 @@ Selections that admins make in [General Settings](manage-general-settings.md) la
 > [!NOTE]
 > Not all General Settings fields are included here, but settings that have the biggest impact to survey takers are included.
 
-
 |Section  |Item  |Confirm that...|
 |:----------|:-----------|:------------|
 |Company Information     |Client Name       |The organization name is correct; it appears in surveys and email invites and reminders.        |
 |      |Client Time Zone       |The correct default time zone that Viva Glint uses to send communications is selected.        |
 |      |Company Privacy Policy (optional)        |If configured, the correct link to your company policy is included. [Learn more](add-privacy-policy.md)        |
 |      |Company Message to Survey Participants (optional)      |If configured, the message and translations here are accurate. To customize for each survey, add in Program Setup.        |
-|Communications     |Send Surveys in Users' Time Zones       |This is switched to Yes or No to enable or disable [sending communications in user's time zones](time-zones.md).         |
+|Communications     |Send Surveys in Users' Time Zones       |This setting is switched to Yes or No to enable or disable [sending communications in user's time zones](time-zones.md).         |
 |Reporting     |Attributes for Alerts       |Attributes are selected to use for populations in the [Alerts Report](/viva/glint/reports/alerts-report-attrition-risk). **When blank, no alerts are generated**.        |
 |      |Primary Hierarchy      |The correct primary hierarchy is selected for default reporting views and sections (usually Manager Hierarchy).        |
 |      |Secondary Hierarchy       |The correct secondary hierarchy is selected for default reporting views and sections.        |
 |Engage Survey Details     |Require Azure AD for links in survey emails       |This setting is switched to:<br><br> Yes to require survey participants to authenticate with Entra ID to access surveys. <br> No to allow survey participants to access surveys with personalized links.<br>[Learn more](understand-survey-access-methods.md).        |
 |      |Attribute-based Survey Access       |If needed, attributes are selected for an alternate survey access method for deskless workers. [Learn more](attribute-based-survey-access.md)        |
-|Features     |Employee Post-Survey Action Taking       |This is set to Yes or No to determine if survey participants see recommended LinkedIn Learning videos on their survey Thank you page. This applies to all surveys.        |
+|Features     |Employee Post-Survey Action Taking       |This setting is set to Yes or No to determine if survey participants see recommended LinkedIn Learning videos on their survey Thank you page. This setting applies to all surveys.        |
 |Technical Configuration     |SFTP Setup       |Secure File Transfer Protocol (SFTP) setup is complete if your organization imports employee data with this method. [Learn more](set-up-sftp.md).        |
 |Localization     |Comments Analytics Languages       |Languages that should be translated to English for comment analysis are selected. **Languages must be selected before a survey launches to successfully analyze non-English comments.**       |
 |      |Default Survey Language       |The correct default language is selected for survey participants.        |
-|      |Supported Survey Languages       |Correct additional languages for survey participants are selected.        |
+|      |Supported Survey Languages       |Correct languages for survey participants are selected.        |
 |      |Default Dashboard Language       |The correct default language is selected for dashboard users.        |
-|      |Supported Dashboard Languages       |Correct additional languages for dashboard users are selected.         |
+|      |Supported Dashboard Languages       |Correct languages for dashboard users are selected.         |
 
 ## Review survey setup
 
@@ -63,7 +62,7 @@ Review each section of your survey program setup before launching a test survey 
 |Program Name    |The correct value is entered and there are no spelling errors.       |Low        | All |
 |Administrators|The correct User Roles are selected as program admins.   |Low| All |
 |Default Language|The correct default language is selected.  |Medium| All |
-|Additional Languages|Correct additional survey languages are selected. Languages available are based on Supported Survey Languages selected in General Settings  |Medium| All |
+|Additional Languages|Correct survey languages are selected. Languages available are based on Supported Survey Languages selected in General Settings  |Medium| All |
 |Admin Notifications To|The correct user is selected for admin notification emails for this program.    |Medium| Recurring and Ad Hoc |
 |Suggested Actions Available|This setting is set to Yes or No correctly to allow or disallow users to create Focus Areas based on suggestion action templates.  |High| All |
 |Response Window | The number of days the survey is open for responses is correct.  | High  | Lifecycle and Always-On |
@@ -176,7 +175,7 @@ After reviewing your survey setup and confirming that employee data is imported 
 
 ## Launch a test survey
 
-To verify that your Viva Glint survey setup works as expected, launch a test survey to a group of test users, collect feedback, make updates, and delete the test survey after testing is complete. 
+To verify that your Viva Glint survey setup, launch a test survey to a group of users, collect feedback, make updates, and delete the test survey after testing is complete. 
 
 ### Select a group of survey testers
 
@@ -197,7 +196,7 @@ Provide instructions for users on items that you want them to focus on, includin
 Launch a test survey to your project team to confirm that emails arrive and the survey-taking experience appears as expected. To set up a test survey:
 
 > [!IMPORTANT]
-> Always create a copy of your survey program to launch a test survey. Test survey programs can be deleted, but test cycles in a survey program can't be deleted.
+> To launch a test survey, always create a copy of your survey program. Viva Glint Admins can delete test survey programs, but not test survey cycles in a survey program.
 
 1. From the admin dashboard, select **Configuration** and then choose **Survey Programs**.
 1. On the far right of your completed survey program, select the ellipses and choose **Duplicate** from the menu that appears.
