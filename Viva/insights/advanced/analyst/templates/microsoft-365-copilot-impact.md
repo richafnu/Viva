@@ -4,7 +4,7 @@ title: Microsoft 365 Copilot impact report
 description: Learn how to use the Microsoft 365 Copilot impact Power BI template to understand the effects of Copilot usage among employees across your organization.
 author: zachminers
 ms.author: v-zachminers
-ms.topic: article
+ms.topic: how-to
 ms.localizationpriority: medium 
 ms.collection: 
 - viva-insights-advanced
