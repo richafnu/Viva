@@ -4,7 +4,7 @@ title: Publish reports
 description: Provides instructions to Viva Insights analysts and admins on how to publish and view insights reports and customize their settings.
 author: zachminers
 ms.author: v-zachminers
-ms.topic: article
+ms.topic: how-to
 ms.localizationpriority: medium 
 ms.collection: viva-insights-advanced 
 ms.service: viva-insights
