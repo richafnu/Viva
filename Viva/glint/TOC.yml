@@ -471,7 +471,13 @@ items:
                - name: Analyst setup of Partitions in Viva Insights
                  href: ../insights/advanced/admin/partitions.md
                - name: Glint and Insights analyst report
-                 href: ../insights/advanced/analyst/templates/glint.md             
+                 href: ../insights/advanced/analyst/templates/glint.md
+      - name: Viva Glint and Microsoft Teams
+        items:
+          - name: Use Teams for Viva Glint notifications
+            href: setup/glint-teams.md
+          - name: Preview Viva Glint Teams notifications
+            href: setup/glint-teams-previews.md
   - name: Connect and learn
     items:   
       - name: Viva Glint resources
