@@ -15,6 +15,7 @@ ms.collection:
   - highpri
 ms.localizationpriority: medium
 description: What's New - Release Notes for Microsoft Viva Learning.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # What's New in Viva Learning 

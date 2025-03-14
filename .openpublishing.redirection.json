@@ -19,7 +19,13 @@
       "source_path": "viva/learning/workday-integration.md",
       "redirect_url": "/viva/learning/workday-intro",
       "redirect_document_id": true
-    },    
+    },   
+    { 
+      "source_path": "viva/learning/whats-new.md",
+      "redirect_url": "viva/learning/overview-viva-learning.md",
+      "redirect_document_id": true
+    },
+
     {
       "source_path": "viva/learning/configure-successfactors-content-source.md",
       "redirect_url": "/viva/learning/sfsf-introduction",
