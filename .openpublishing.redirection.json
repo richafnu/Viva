@@ -2429,7 +2429,7 @@
   {
     "source_path": "viva/glint/start/brochure-summary.md",
     "redirect_url": "/viva/glint/introduction-viva-glint",
-    "redirect_document_id": true
+    "redirect_document_id": false
   }   
  ]
 }
