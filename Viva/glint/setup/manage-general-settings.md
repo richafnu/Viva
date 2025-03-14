@@ -57,7 +57,7 @@ Also, set up what your employees see when they open an email sharing information
 |**Enable Email Notifications for Focus Area Comments**    | Enable for comments and user tagging.  | 
 |**Hide Focus Area/Comment Text in Focus Area Emails**    | Managers may receive an email notification when someone comments on their Focus Area (goal) or a new one is cascaded to them. Enable to hide these details from these emails. Disable to allow goal title and comment text to display.    | 
 |**Send Survey in Users’ Time Zones**    | Send invitations in user’s time zones on the survey start date. [Learn more](time-zones.md). | 
-|**Microsoft Teamss** | Enable your company to receive survey notifications and all Nudges via Teams. Overview and [installation process here](glint-teams.md). | 
+|**Microsoft Teams** | Enable your company to receive survey notifications and all Nudges via Teams. Overview and [installation process here](glint-teams.md). | 
 
 ## Reporting  
 
