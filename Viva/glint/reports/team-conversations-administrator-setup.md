@@ -1,9 +1,9 @@
 ---
 title: Set up Viva Glint Team Conversations
 description: Microsoft Viva Glint Administrators can set up Team Conversations for managers. Team Conversations allow managers to meet with their teams and have meaningful discussions on their team's results and choose Focus Areas.
-ms.author: SarahBerg
-author: SarahAnneBerg
-manager: elizapo
+ms.author: aweixelman
+author: AliciaWeixelman
+manager: melissabarry
 audience: admin
 f1.keywords: NOCSH
 keywords: set up team conversations, team conversations, conversation sharing, take action
@@ -11,145 +11,107 @@ ms.collection:
 - m365initiative-viva
 - selfserve 
 search.appverid: MET150 
-ms.topic: article
+ms.topic: install-set-up-deploy
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 02/26/2025
+ms.date: 03/05/2025
 ---
 
 # Set up Viva Glint Team Conversations
 
 Microsoft Viva Glint Administrators can set up Team Conversations for managers. Team Conversations allow managers to meet with their teams and have meaningful discussions on their team's results and choose Focus Areas. [Learn more](take-action-team-conversations.md).
 
-## Setting up Team Conversations in Program Summary
+> [!NOTE]
+> - Team Conversations are only available for Recurring surveys.
+> - [Nudges](/viva/glint/communicate/communicate-with-nudges) can coexist with Team Conversations but don't send when the Team Conversations window is open.
 
-To enabled Team Conversations as a Viva Glint Admin:
+## Enable Team Conversations in Program Setup
+
+To enable Team Conversations as a Viva Glint Admin:
 
 1. Select **Configuration** and select **Survey Programs** from the Surveys section.
-1. Select a survey program that should have Team Conversations to be enabled.
+1. Select a survey program that should have Team Conversations enabled.
+2. Enable Team Conversations by switching the toggle to **Yes**.
+3. Enable or disable Team Conversations Sharing by toggling to **Yes** or **No**. This setting allows managers to  share their Team Conversations with users in roles that have **View My Surveys** permissions. 
 
 > [!NOTE]
-> Team Conversations are only available for Recurring surveys.
+> Team Conversations only generate for managers with survey results that meet confidentiality threshold requirements.
 
-### Program Setup page
+> [!IMPORTANT]
+> When a Viva Glint Admin enables Team Conversations for an existing survey, an "Additional configuration needed" message appears in Program Setup. Use the information in this article to set up Schedule, Reporting, and Communications survey sections for Team Conversations.
 
-There are two enablement options to consider on this page: 
+## Schedule setup
 
-- Enable Team Conversations – Toggle to **YES**. 
-- Team Conversations sharing - managers can share their Team Conversations Presentation Kit with users who have **View My Surveys** permissions. 
-
-
->[!TIP]
->Team Conversations are only generated for managers with survey results that meet confidentiality threshold requirements.  
-
-   > [!NOTE]
-   >Ensure user roles have the permissions of "View My Surveys" and "View Dashboard and Reports.
-
-### Schedule page 
-
-Indicate how many days the Team Conversations Window should remain open for. This drives the reminder schedule for Team Conversations. Even after the Team Conversation window closes users can still access their Team Conversation via My Surveys. Once set, the program indicates the conversation start and end date scheduled and how many days remain. 
+Indicate how many days the Team Conversations Window should remain open. This drives the reminder schedule for Team Conversations. Even after the Team Conversation window closes users can still access their Team Conversations via My Surveys. Once set, conversation start and end dates display after the conversation days setting. 
 
 > [!TIP]
-> The default response window is 28 days, although the window can be set for up to 180 days. Response window refers to the number of days the survey is open to responders and isn't specific to Team Conversations.  
+> The default response window is 28 days, but Viva Glint Admins can enter up to 180 days.  
 
-### Reporting page 
+## Reporting setup
 
 There are two items to configure on the Reporting page for each User Role that should have access to Team Conversations. Select the down-facing arrow next to the User Role in the **Program Roles** section and then: 
 
-1. Enable Team Conversations for that role by toggling Team Conversations button to **ON**. 
-1. Select **Team Summary** as the default dashboard from the dropdown menu for that role. 
+1. Enable Team Conversations for that role by toggling Team Conversations button to **On**. 
+1. Select **Team Summary** as the **Dashboard Default** from the dropdown menu. 
 
-### Communications page 
+## Communications setup
 
-Default Team Conversations email presets:  
+Team Conversations messages are designed to notify managers when they can begin conversations, remind them of an upcoming conversation due date, and prompt users whose conversations are overdue. Conversation emails begin to send seven* days after survey results are released for roles that have live access. To successfully send messages, ensure that:
 
-- Conversation Start Notification: Seven days after survey results are released 
-- Reminder 1: If conversation isn't done, send seven days before due date 
-- Reminder 2: If conversation isn't done, send three days before due date 
-- Conversation Summary Notification 
-- Conversation Overdue Reminder 1: Sent three days after conversation due date
-
-#### Rules for when to edit communications 
-
-Emails send if these circumstances are met:
- 
-- Team Conversations is ON 
-- The cycle is closed 
-- A User Role moved to live access at least seven days ago
+- Team Conversations is enabled for a survey and for roles 
+- The survey cycle is closed
+- User Roles moved to live access at least seven days ago
 - The survey close date is within the last 45 days
 
-Emails don't send under these circumstances:
- 
-- Team Conversations is OFF
-- The cycle is open 
-- A User Role moved to live access fewer than seven days ago
-- The survey close date is more than 45 days in the past
+\* Viva Glint defaults to seven days, but Viva Glint Admins can edit the number of days for conversation start and reminder emails.
 
-If you enable Team Conversations for a User Role after the conversation start date, emails immediately send once Team Conversations is switched to **ON**. 
+When Team Conversations are enabled, these emails appear in the Communications section:
 
-   > [!NOTE]
-   > Nudges can coexist with Team Conversations but don't send when the Team Conversation window is open.
+| Email | Default delivery timeframe | Description | 
+|:----------|:----------|:----------|
+| Conversation Start Notification | Seven days after survey results are released | Notification to managers that results are available to present to their team |
+| Reminder 1 | For incomplete conversations, seven days before due date | Reminder to managers to meet with their team to share results and select focus areas |
+| Reminder 2 | For incomplete conversations, three days before due date | Reminder to managers to meet with their team to share results and select focus areas |
+| Conversation Overdue Reminder 1 | For incomplete conversations, three days after due date | Notification that conversation is overdue |
+| Conversation Summary Notification | Manager-driven, unscheduled | When sharing is enabled, a summary email that managers can send before and/or after conversations with their team |
 
-> [!TIP]
-> When Team Conversations are enabled, don't enable Nudges for that User Role.
+> [!NOTE]
+> If you enable Team Conversations for a User Role after the conversation start date, start emails immediately send once Team Conversations is switched to **On**. 
 
-
-| **Are Team Conversations on?** | **Is the cycle Live** |**Have 7 days passed since live access?**|**Can emails be edited?**
-|---|---|---|---|
-| Yes | Yes|N/A|Yes|
-| No | Yes|N/A|Yes|
-| Yes | No|No|Yes |
-| Yes | No|Yes|No, emails already sent|
-| No| No|No|Yes, Team Conversations can be turned on and emails can be edited|
-| No| No|Yes|No, but emails send if Teams Conversations is switched to ON|  
-
-## Edit communications 
+### Edit communications 
 
 Edit and preview by selecting **Edit**. Edits made to notifications are only for the current program. Switching from Edit to **Preview** (and languages) automatically saves changes. 
 
-### Conversation Start Notification 
+> [!TIP]
+> Plan to make all edits to conversation emails and their send dates before:
+> - the first User Role in your organization gets live access
+> - the scheduled conversation start date for the first User Role in your organization
 
-- Can be enabled or disabled 
-- Can be edited for the number of days after survey results are released 
-- Our default and Best Practice are seven days after survey results are released 
-- Can be sent in any languages enabled for this survey 
-- Can be previewed 
+For start and reminder emails, Viva Glint Admins can:
 
-### Conversation Reminders 
+- Add or delete an email
+- Edit the number of days before or after the conversation due date that the email should send
+- Send in any languages enabled for the survey 
+- Preview emails in the platform
+- Add more reminders by selecting **+ Conversation Reminder**
 
-Reminders schedule when the User Role group gets Live access. If admins grant live access to roles at different times, their Team Conversations reminders are on different schedules. The Conversation Start email can be turned on or off until the day it sends but not after the start of the Team Conversations. An existing Reminder email (before the Conversation End date) can be deleted or modified until the day before the last group of users is scheduled to receive it. 
+> [!NOTE]
+> Admins can enable or disable (not delete) the Conversation Summary Email, but scheduling the number of days after the conversation due date isn't available. This email is only visible when sharing is enabled in Program Setup and sent by managers to share conversation summaries with their teams. 
 
-Reminders:
+### Conversation email scheduling 
 
-- Can be sent any number of days before Conversation End date. Our default and Best Practice are to send both seven and three days before Conversation End date.  
-- More reminders can be added by selecting **+ Conversation Reminder**  
-- Can be sent in any language enabled for the survey 
-- Can be previewed in the platform
+Reminders schedule for users in a role when the User Role gets live access to a survey. If admins grant live access to roles at different times, their Team Conversations reminders are on different schedules. The Conversation Start email can be turned on or off until the day it sends but not after the start of the Team Conversations. 
 
-### Conversation Summary Notification
+> [!IMPORTANT]
+> - Viva Glint Admins can't delete a reminder email after the first user/role scheduled to receive a reminder gets that email.
+> - Viva Glint Admins can only edit reminders when there's a role in phased access or the earliest due date for any role is still in the future.
 
-This email is an optional message that managers can send to their team before and/or after a conversation when Team Conversations sharing is enabled in Program Setup.
-
-- Can only be enabled or disabled
-- Can be sent in any language enabled for the survey
-- Can be previewed in the platform
-
-:::image type="content" source="../../media/glint/setup/conversation-summary.png" alt-text="Screenshot of the Conversation Summary email that managers can send before and/or after a conversation with their team.":::
-
-### Conversation Overdue Reminder
-
-The overdue reminder:
-
-- Can be edited for a specified number of days after Conversation End date. The default and Viva Glint Best Practice is three days. 
-- Can be sent in any language enabled for this survey 
-- Can be previewed 
-
-## Customize Team Conversations email content
+### Customize Team Conversations email content
 
 [Learn more about customizing Team Conversations email content](team-conversations-content-cusomization.md).
 
-### Coaching page 
+## Coaching setup
 
-When Team Conversations are enabled, admins can set up the Team Conversations presentation kit for your manager to share with their teams. See [Coaching Setup for Admins](https://www.microsoft.com). 
+When Team Conversations are enabled, admins can set up the Team Conversations presentation kit for your manager to share with their teams. See [Coaching Setup for Admins](team-conversations-resource-guidance.md). 
 
  

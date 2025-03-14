@@ -11,10 +11,10 @@ ms.collection:
  - m365initiative-viva
  - selfserve
 search-appverid: MET150
-ms.topic: article
+ms.topic: how-to
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 02/24/2025
+ms.date: 03/04/2025
 ---
 
 # Manage Support users in Viva Glint
@@ -62,6 +62,9 @@ Support users need to take these steps to access Viva Glint with member types of
 3. Select **Sign in to an organization.**
 4. Enter the **domain name**, for example: `contoso.onmicrosoft.com`, of the organization you'd like to sign in to and select **Next**.
 5. Enter your email and password, select **Sign in**, and follow other sign-on prompts (for example: multifactor authentication).
+
+> [!TIP]
+> To prevent sign-in issues, try accessing Viva Glint in a new InPrivate or Incognito window.
 
 ## Remove a Support user
 

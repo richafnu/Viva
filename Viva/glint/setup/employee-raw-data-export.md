@@ -13,11 +13,11 @@ ms.collection:
  - essentials-compliance
  - essentials-security
 search-appverid: MET150
-ms.topic: article
+ms.topic: how-to
 ms.service: viva-glint
 ms.localizationpriority: high
 ms.custom: CELA-approved
-ms.date: 1/08/2025
+ms.date: 1/27/2025
 ---
 
 # Access Viva Glint raw survey responses
@@ -38,10 +38,11 @@ Admins can configure the Export Raw Survey Responses control at any time during 
 
 ## Disabling export of raw survey responses permanently limits your access to this data
 
-**Important: Disabling export of raw survey responses means that:**
-- Your organization permanently loses the ability to access these raw survey responses unless you determine that certain Extreme Circumstances exist. Learn more about the [Extreme Circumstances exception](raw-data-extreme-circumstances.md). 
-- If your organization leaves Viva Glint, you aren't able to take these raw survey responses with you.
-- You aren't able to (and Microsoft isn't able to facilitate) transfer of these raw survey responses to a third party, such as an alternative survey platform or data analytics consultant.  
+>[!CAUTION]
+> Disabling export of raw survey responses means that:
+>- Your organization permanently loses the ability to access these raw survey responses unless you determine that certain Extreme Circumstances exist. Learn more about the [Extreme Circumstances exception](raw-data-extreme-circumstances.md). 
+>- If your organization leaves Viva Glint, you aren't able to take these raw survey responses with you.
+>- You aren't able to (and Microsoft isn't able to facilitate) transfer of these raw survey responses to a third party, such as an alternative survey platform or data analytics consultant.  
 
 ## Exception for Extreme Circumstances
 

@@ -1,38 +1,48 @@
 ---
-title: Coaching setup in Program Summary
-description: Admins can provide coaching assistance for their managers on their Team Summary dashboard.
+title: Set up Coaching in a Viva Glint survey
+description: Use the Coaching section of a Microsoft Viva Glint survey to customize the content that managers use to view and interpret results on their Team Summary dashboard.
 ms.author: JudithWeiner
 author: JudyWeiner
 manager: MelissaBarry
 audience: admin
 f1.keywords: NOCSH
-keywords: Team Conversations,top strengths, top opportunities, manager coaching content
+keywords: Team Conversations, top strengths, top opportunities, manager coaching content, interpretation guide, Team Summary dashboard
 ms.collection:  
 - m365initiative-viva
 - selfserve 
 search.appverid: MET150 
-ms.topic: article
+ms.topic: install-set-up-deploy
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 12/13/2024
+ms.date: 03/10/2025
 ---
 
-# Set up Coaching page in Program Summary
+# Set up Coaching in a Viva Glint survey
 
-The final setup page in Program Summary is the Coaching page. On this page, admins provide access to coaching assistance for their managers for  the [Team Summary dashboard](https://go.microsoft.com/fwlink/?linkid=2231210) and [Team Conversations](https://go.microsoft.com/fwlink/?linkid=2234345)
- 
-:::image type="content" source="../../media/glint/reports/program-summary-coaching-access.png" alt-text="Screenshot of the Coaching setup access in Program Summary.":::
+Use the Coaching section of Microsoft Viva Glint survey setup to customize the content that managers use to view and interpret results on their [Team Summary dashboard](/viva/glint/reports/team-summary-enable-manage). 
 
-## Team Conversations setup
+## Edit default Coaching content
 
-Follow onscreen guidance to set up the details of the Team Conversations for your manager.
+To edit the default content for **Interpretation**, **Top Strengths**, and **Top Opportunities** guidance:
 
-:::image type="content" source="../../media/glint/reports/progam-summary-coaching-with-team-conversations.png" alt-text="Screenshot of the Coaching setup page with Team Conversations enabled.":::
-
-## More enablement required 
-
- - [Team Conversations presentation kit for managers](/../../viva/glint/reports/coaching-team-conversations)
+1. Select **Edit** next to the item to be updated. 
   
- - [Set up resource guidance for managers using Team Conversations](/../../viva/glint/reports/team-conversations-resource-guidance)
+   :::image type="content" source="../../media/glint/setup/coaching-no-team-convos.png" alt-text="Screenshot of the Viva Glint Coaching section of survey setup that allows admins to customize manager dashboard guidance." lightbox="../../media/glint/setup/coaching-no-team-convos.png":::
+
+2. In the edit pane that appears, make updates to the **Header**, **Coaching Text**, and **Select Resource** fields to customize content for strengths and opportunities. The **Select Resource** option is the only editable content for the **Interpretation guide**.
+  
+   :::image type="content" source="../../media/glint/setup/coaching-edit-strengths.png" alt-text="Screenshot of the edit pane for the Strengths item in Viva Glint Coaching setup for a survey." lightbox="../../media/glint/setup/coaching-edit-strengths.png":::
+
+3. If needed, use the **Language** dropdown menu to make updates in all available dashboard languages.
+4. Select **Save Changes**.
+
+## Manage Team Conversations content
+
+When Viva Glint Admins enable Team Conversations for a Recurring survey, there are two additional sections in **Coaching**:
+
+- Team Conversation Presentation Guidance
+- Team Conversation Resource Guidance
+
+For more information on customizing Team Conversation Coaching content, see: [Set up resource guidance for managers using Team Conversations](/../../viva/glint/reports/team-conversations-resource-guidance).
 
 

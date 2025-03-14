@@ -11,10 +11,10 @@ ms.collection:
  - m365initiative-viva
  - selfserve
 search-appverid: MET150
-ms.topic: article
+ms.topic: how-to
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 2/24/2025
+ms.date: 3/05/2025
 ---
 
 # Make changes to a live Viva Glint survey
@@ -59,7 +59,8 @@ Only these fields can be edited when a survey is Live.
 |**Comment Placeholder Text** | **Leave your comments here** appears by default. This text can be customized |
 |**Benchmark** | |
 
-Select **Save Changes** when editing is complete.
+> [!IMPORTANT]
+> Edits to a question apply only to live and upcoming survey cycles. The edited question is not reflected in past reports.
 
 ## Edit a Live survey
 
@@ -174,7 +175,7 @@ Live Communications edits only apply when made at the cycle level.
 |   Topic   |   Scenario   |   Considerations   |
 | --- | --- | --- |
 | **Manager hierarchies** | Your reporting displays incorrect leadership hierarchies due to errors in your Employee Attribute File. | Change only after the close of the survey window. |
-| **Add bulk survey participants** | An extra group of employees needs to be added to the platform. | Submit a delta file of the employees to be added. Then, manually send them the survey invite from within the **People** configuration page. |
+| **Add bulk survey participants** | An extra group of employees needs to be added to the platform. | Identify the employees to be added. Then, manually send them the survey invite from within the **People** configuration page. |
 | **Add users not in the Distribution List** | Employees outside of the Distribution List need to be included. | From the admin Configuration dashboard, select the **People** feature, then **Employee**, then **Action**, then **Send Survey**. |
 | **Email timing** | You want to adjust the time emails are sent. | Adjust timing at the cycle level only and consider the user time zones. |
 
