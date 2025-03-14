@@ -56,7 +56,7 @@ The [Copilot Scenario Library](https://adoption.microsoft.com/copilot-scenario-l
 
 ## Report setup
 
-For detailed scenario-based guidance on how to set up an analysis tailored to your organization, refer to our [analyst toolkit playbook](https://aka.ms/CopilotAdvancedAnalysis).
+For detailed scenario-based guidance on how to set up an analysis tailored to your organization, refer to our [analyst toolkit playbook](https://aka.ms/CopilotAdvancedAnalytics).
 
 ### Run query
 
@@ -207,6 +207,8 @@ View this report's metric definitions.
 [Learn more about how to share the report and other Power BI tips, troubleshoot any issues, or review the FAQ](..//..//analyst/templates/power-bi-faq-troubleshoot.md).
 
 ### Related topics  
+
+* [Copilot analytics playbook](https://aka.ms/CopilotAdvancedAnalytics)
 
 * [Access query results and modify existing queries](..//..//analyst/query-results.md)  
 

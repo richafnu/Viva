@@ -51,7 +51,7 @@ Before you can run the queries and populate the report in Power BI, you’ll nee
 
 ## Report setup
 
-For detailed scenario-based guidance on how to set up an analysis tailored to your organization, refer to our [analyst toolkit playbook](https://aka.ms/CopilotAdvancedAnalysis).
+For detailed scenario-based guidance on how to set up an analysis tailored to your organization, refer to our [analyst toolkit playbook](https://aka.ms/CopilotAdvancedAnalytics).
 
 ### Run query
 
@@ -197,5 +197,6 @@ View this report's metric definitions.
 
 ### Related topics
 
-- [Access query results and modify existing queries](../query-results.md)
-- [Filters](../filters.md)
+* [Copilot analytics playbook](https://aka.ms/CopilotAdvancedAnalytics)
+* [Access query results and modify existing queries](../query-results.md)
+* [Filters](../filters.md)
