@@ -29,7 +29,7 @@ Watch and share this 3-minute video:
 
 To view the 4-step Manager Concierge - the Team Conversations Presentation Kit guide - as a manager sees it, choose a manager with Team Conversations permissions from the **People feature** on your manager dashboard. Select **View As**.
 
-In this fictious example, our manager's name is Aisha. They see this Viva Glint dashboard:
+In this fictitious example, our manager's name is Aisha. They see this Viva Glint dashboard:
 
 :::image type="content" source="../../media/glint/reports/4-step-manager-dashboard.png" alt-text="Screenshot of the 4-step Team Conversations guide for managers.":::
 
