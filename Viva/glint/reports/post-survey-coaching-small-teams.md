@@ -5,7 +5,7 @@ ms.author: JudithWeiner
 author: JudyWeiner
 manager: Melissa Barry
 audience: admin
-f1.keywords: broader team insights
+f1.keywords: broader team insights, manager feedback, manager resource
 keywords: 
 ms.collection:  
 - m365initiative-viva
@@ -14,7 +14,7 @@ search.appverid: MET150
 ms.topic: concept-article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 04/23/2024
+ms.date: 03/14/2025
 ---
 
 # Post-survey coaching for managers of small teams
