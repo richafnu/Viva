@@ -1,0 +1,46 @@
+---
+title: "Access Admin Center for any Viva Engage deployment"
+description: "With three different Viva engage deployment types (Teams, Web, and M365), steps to access Admin Center differ"
+ms.reviewer: donnabouldin
+ms.author: donnabouldin
+author: v-rgrace
+manager: elizapo
+ms.date: 03/14/2025
+audience: Admin
+f1.keywords:
+- NOCSH
+ms.topic: Access Admin Center in Viva Engage
+ms.service: viva-engage
+ms.localizationpriority: high
+ms.collection:  
+- M365initiative-viva
+- highpri
+search.appverid:
+- MET150
+---
+
+# Access Admin Center for any Viva Engage deployment
+
+Because there are three different Viva Engage deployment types (Teams, Web, and M365), admin users can confront different ways to configure certain features for each deployment type. This article describes how admins can use the critical Admin Center feature for the following Viva Engage Deployments:
+
+- Standalone app from Microsoft 365
+- Viva Engage Web browser experience
+- Viva Engage in Teams experience
+
+## Standalone app and Web browser experiences
+
+The standalone Microsoft 365 Viva engage app and the Viva Engage web browser experience use the same steps to access the Admin Center:
+
+1. In [Viva Engage on the web](https://engage.cloud.microsoft/main/admin), go to the gear icon in the top navigation menu and select **Admin center**.
+
+Or:
+
+1. In the Viva Engage app, go to the gear icon in the top navigation menu and select **Admin center**.
+
+[![Screenshot of the admin entrypoint into the Viva Engage admin center.](/viva/media/engage/admin/aaccess-admin-center-standalone.png)](/viva/media/engage/admin/access-admin-center-standalone#lightbox)
+
+## Viva Engage in Microsoft Teams experience
+
+1. In the Viva Engage Teams app, select the ellipses button (`...`) from the top right navigation bar, and select **Admin** to go to the Viva Engage admin center.
+
+[![Screenshot of the admin entrypoint into the Viva Engage admin center.](/viva/media/engage/admin/admin-entrypoint.png)](/viva/media/engage/admin/admin-entrypoint.png#lightbox)
