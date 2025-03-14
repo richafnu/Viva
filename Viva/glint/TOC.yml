@@ -116,6 +116,8 @@ items:
         href: copilot/admin-enable.md
       - name: Copilot in Viva Glint data, privacy, and security
         href: setup/copilot-privacy.md
+      - name: Incorporate Copilot into the Viva Glint Comments report
+        href: reports/incorporate-copilot.md
       - name: Managers using Copilot in Viva Glint 
         href: setup/copilot-managers.md
       - name: FAQs-Copilot in Viva Glint 
