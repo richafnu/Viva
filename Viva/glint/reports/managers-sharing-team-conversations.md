@@ -6,7 +6,7 @@ author: JudyWeiner
 manager: MelissaBarry
 audience: admin
 f1.keywords: NOCSH
-keywords: Sharing conversations, presentation kit
+keywords: Sharing conversations, presentation kit, manager feedback resource
 ms.collection: 
  - m365initiative-viva
  - selfserve
@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: how-to
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 2/25/2025
+ms.date: 3/11/2025
 ---
 
 # Managers using Viva Glint Team Conversations
