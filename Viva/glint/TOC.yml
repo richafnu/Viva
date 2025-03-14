@@ -480,8 +480,6 @@ items:
             href: setup/glint-teams-previews.md
   - name: Connect and learn
     items:   
-      - name: Viva Glint resources
-        href: start/brochure-summary.md
       - name: Learning paths and modules
         href: start/viva-glint-learning-paths-and-modules.md
       - name: Badge certifications
