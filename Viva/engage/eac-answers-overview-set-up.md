@@ -69,13 +69,11 @@ By default, Answers is turned on. You can hide Answers from view in the Viva Eng
 
    [![Screenshot of the admin entrypoint into the Viva Engage admin center.](/viva/media/engage/admin/admin-entrypoint.png)](/viva/media/engage/admin/admin-entrypoint.png#lightbox)
 
-1. On the **Feature management** tab, select the **Answers** button to open the Answers configuration options.
+1. On the **Feature management** tab, select **Answers** to open Answers configuration.
 
    [![Screenshot of the admin entrypoint into Answers feature management in the Viva Engage admin center.](/viva/media/engage/admin/answers-eac.png)](/viva/media/engage/admin/answers-eac.png#lightbox)
 
 1. Use the **Enable Answers** toggle to enable or disable Answers for your organization.
-
-   [![Screenshot of the Answers enablement toggle in the Viva Engage admin center.](/viva/media/engage/admin/enable-answers.png)](/viva/media/engage/admin/enable-answers.png#lightbox)
 
 >[!NOTE]
 > If Answers is disabled, the backing group complies with the default data [retention policies](/microsoft-365/compliance/retention-policies-viva-engage) set by your organization, *unless Answers uses a unique policy*.
@@ -88,7 +86,7 @@ To use this feature, the network must have two or fewer Engage communities.
 
 1. In the Viva Engage Teams app, select the ellipses (`...`) button from the top right navigation bar, and select **Admin** to navigate to the Viva Engage admin center.
 
-1. On the **Feature management** tab, select the **Answers** button to open the Answers configuration options.
+1. On the **Feature management** tab, select **Answers** to open Answers configuration.
 
 1. Switch **Show Engage Experience** on or off for your organization.
 This option is disabled if Answers is turned off, or if the tenant has more than two active communities.
@@ -104,11 +102,9 @@ Users with the Viva Engage Knowledge Service Plan see AI-suggested topics in Ans
 
 1. In the Viva Engage Teams app, select the ellipses (`...`) button from the top right navigation bar, and select **Admin** to navigate to the Viva Engage admin center.
 
-1. On the **Feature management** tab, select the **Answers** button to open the Answers configuration options.  
+1. On the **Feature management** tab, select **Answers** to open Answers configuration.  
 
-   :::image type="content" source="../media/engage/admin/ea-answers-ai-1.png" lightbox="../media/engage/admin/ea-answers-ai-1.png" alt-text="Screenshot shows AI-suggested topics turned on.":::
-
-1. In Answers feature management, switch **Enable AI-suggested topics** on or off for your organization.
+1. Switch **Enable AI-suggested topics** on or off for your organization.
 
    :::image type="content" source="../media/engage/admin/ea-answers-ai-2.png" lightbox="../media/engage/admin/ea-answers-ai-2.png" alt-text="Screenshot shows  AI-suggested topics turned off.":::
 
@@ -116,7 +112,7 @@ Users with the Viva Engage Knowledge Service Plan see AI-suggested topics in Ans
 
 When users contribute to Answers in Viva, they can earn and collect up to five different badges. Badges are available and visible to anyone in the organization who has a Viva Engage Knowledge Service Plan. This feature requires Answers to collect user data, such as votes from fellow employees, which count toward badges.
 
-1. In the Viva Engage Teams app, select the ellipses (`...`) button from the top-right navigation bar, and select **Admin** to navigate to the Viva Engage admin center.
+1. In Viva Engage Teams app, select the ellipses (`...`) button from the top-right navigation bar, and select **Admin** to open the Viva Engage admin center.
 
 2. On the **Feature management** tab, select **Rewards and recognition**.
 
