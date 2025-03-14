@@ -22,7 +22,7 @@
     },   
     { 
       "source_path": "viva/learning/whats-new.md",
-      "redirect_url": "viva/learning/overview-viva-learning.md",
+      "redirect_url": "/viva/learning/overview-viva-learning.md",
       "redirect_document_id": true
     },
 
