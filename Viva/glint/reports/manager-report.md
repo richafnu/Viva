@@ -11,10 +11,10 @@ ms.collection:
 - m365initiative-viva
 - selfserve 
 search.appverid: MET150 
-ms.topic: article
+ms.topic: how-to
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 01/16/2025
+ms.date: 02/20/2025
 ---
 
 # The Viva Glint Manager report in Viva Glint
@@ -22,6 +22,11 @@ ms.date: 01/16/2025
 The Microsoft Viva Glint Manager Report displays a **Directs** or **Roll-up Hierarchy** view of comparisons for two different survey items. These preset items are assigned during survey setup and are the default settings. The manager or Human Resource Business Partners (HRBP) can change which items are displayed by using the **question label** at the top of the column. Similar to other reports, column headers are static and can be used as a sorting feature. 
 
 :::image type="content" source="../../media/glint/reports/manager-report.png" alt-text="Screenshot of the Manager Report access card in the admin Reports tab.":::
+
+> [!IMPORTANT]
+> To make the Manager Report available in Reports for users, their **User Role** must have your organization's Manager ID attribute selected for **Report Sections** in the role's **Report Attributes**.
+>
+> :::image type="content" source="../../media/glint/reports/manager-id-report-attribute.png" alt-text="Screenshot of Manager ID selected in a role's Report Attributes.":::
 
 ## Manager Report terminology
 
@@ -46,7 +51,7 @@ The Manager Report has a unique filter option, which isn't present in other repo
   
    :::image type="content" source="../../media/glint/reports/manager-report-select-filter.png" alt-text="Screenshot of the Select Filter Type button.":::
 
-4. After selecting **Managers** or **Respondents**, a new dropdown menu displays all attributes sent to Glint in your employee attribute data file. Choose the attribute you want to study. As appropriate, more dropdown menus become available to drill down the desired attribute even further.
+4. After a user selects **Managers** or **Respondents**, a new dropdown menu displays all attributes sent to Viva Glint in your employee attribute data file. Choose the attribute you want to study. As appropriate, more dropdown menus become available to drill down the desired attribute even further.
 
 5. Use the **Close Filter X** to remove the top section from your screen.
 
@@ -62,7 +67,7 @@ The Manager Report has a unique filter option, which isn't present in other repo
    |**My Teams** | Compares a manager's team score to an overall score derived from a filter.| This setting is the superset of access and is best used with custom access or managers with large organizations|
    |**Average Question** |Presents a single, overall score for all questions and respondents within your access.| Helpful for users looking for some level of variance in their score|
 
-3. Use the **Group by** dropdown menu to choose **None, Manager** or **Location Hierarchy**.
+3. Use the **Group by** dropdown menu to choose **None, Manager,** or **Location Hierarchy**.
 4. Use the **Key Metric** dropdown menu to show the report in terms of **Scores** or **Favorability**.
 
 ## Export and Share

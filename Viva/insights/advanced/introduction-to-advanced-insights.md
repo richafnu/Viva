@@ -4,7 +4,7 @@ title: Introduction to advanced insights
 description: Get familiar with the new advanced insights app from Microsoft Viva Insights 
 author: zachminers
 ms.author: v-zachminers
-ms.topic: article
+ms.topic: overview
 ms.localizationpriority: medium
 ms.collection: viva-insights-advanced
 ms.service: viva-insights

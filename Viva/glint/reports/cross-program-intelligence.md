@@ -1,6 +1,6 @@
 ---
 title: Use Viva Glint cross-program intelligence to filter results across survey programs
-description: Microsoft Viva Glint cross-program intelligence surfaces patterns across separate survey programs, giving HR and leaders a holistic understanding of the employee journey.
+description: Microsoft Viva Glint cross-program intelligence surfaces patterns across separate survey programs, giving leaders a holistic understanding of the employee journey.
 ms.author: aweixelman
 author: AliciaWeixelman
 manager: melissabarry
@@ -11,15 +11,15 @@ ms.collection:
  - m365initiative-viva
  - selfserve
 search-appverid: MET150
-ms.topic: article
+ms.topic: how-to
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 02/10/2025
+ms.date: 02/19/2025
 ---
 
 # Use Viva Glint cross-program intelligence to filter results across survey programs
 
-Microsoft Viva Glint cross-program intelligence is an advanced filtering option in Viva Glint that allows users to filter across multiple surveys' results to answer your organization's complex employee sentiment questions. This feature can surface patterns across separate survey programs, giving HR and other leaders a holistic understanding of employee feedback. For a given survey program, users can filter by another survey program's:
+Microsoft Viva Glint cross-program intelligence is an advanced filtering option in Viva Glint that allows users to filter across multiple surveys' results to answer your organization's complex employee sentiment questions. This feature can surface patterns across separate survey programs, giving leaders a holistic understanding of employee feedback. For a given survey program, users can filter by another survey program's:
 
 - attribute values
 - question responses
@@ -30,20 +30,21 @@ Microsoft Viva Glint cross-program intelligence is an advanced filtering option 
 
 ## Confidentiality
 
-Viva Glint’s cross-Program intelligence always honors the stricter confidentiality threshold between two survey programs to always meet data protection expectations set with participants when they took the survey. 
+Viva Glint’s cross-program intelligence always honors the stricter confidentiality threshold between two survey programs to always meet data protection expectations set with participants when they took the survey. 
 
-With cross-program filtering, users can filter by attributes and demographics but also by question responses and comment sentiment and topics. To protect confidentiality in these analyses, there's 'always a baseline threshold of 10 respondents for scores and 20 for comments. 
+With cross-program filtering, users can filter by attributes and demographics but also by question responses and comment sentiment and topics. To protect confidentiality in these analyses, there's always a baseline threshold of 10 respondents for scores and 20 for comments. 
 
 ## Example use cases
 
 Your organization can use cross-program intelligence to explore topics like: 
 
-- How engaged employees are who onboarded in the last 90 days.
-- Which manager qualities might explain employee exit reasons.
-- Whether employees rate engagement higher depending on their Microsoft 365 Copilot usage.
+- How employees rate their engagement after the first 90 days of onboarding.
+- How different manager qualities might explain employee exit reasons.
+- How employees rate their engagement depending on their Microsoft 365 Copilot usage.
 
 > [!TIP]
 > - **Survey results and filtering**: Ensure that you select the appropriate surveys to view results for and surveys to filter by. For example, to view exiting employees' reasons for leaving when their engagement scores are high, go to reports for an Exit survey and use Engagement question responses as filters.
+>   
 > - **Timeframes**: Select timeframes for surveys that are close enough to give good results. For example, if you select Exit survey results for July 2024, make sure that the survey that you use as a filter is for the same timeframe.
 
 ## How to filter with cross-program intelligence

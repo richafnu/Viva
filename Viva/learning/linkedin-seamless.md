@@ -4,9 +4,9 @@ ms.author: bhaswatic
 author: bhaswatic
 manager: pamgreen
 ms.reviewer: chrisarnoldmsft
-ms.date: 02/10/2025
+ms.date: 02/18/2025
 audience: admin
-ms.topic: article
+ms.topic: integration
 ms.service: viva-learning
 search.appverid: MET150
 ms.collection:
@@ -38,7 +38,7 @@ To enable seamless login, admins can set up the following configurations:
    ![Screenshot that shows permission requested window that wants to sign into the LinkedIn Learning Viva Connector](../media/learning/linkedin-learning-seamless-3-permission-requested.png)
 
    > [!IMPORTANT]
-   > The consent is provided only by specific roles in the organization. Review who can [grant tenant-wide admin consent](/entra/identity/enterprise-apps/grant-admin-consent?pivots=portal#prerequisites) in Enterprise applications.
+   > Only a global admin or a knowledge admin can provide admin consent. For more information, read about [grant tenant-wide admin consent](/entra/identity/enterprise-apps/grant-admin-consent?pivots=portal#prerequisites) in Enterprise applications.
 
 4. Integrate LinkedIn Learning with Viva Learning.
 

@@ -4,7 +4,7 @@ title: Microsoft 365 Copilot adoption report
 description: Learn how to use the Microsoft 365 Copilot adoption Power BI template to understand Copilot employee usage across an organization.
 author: zachminers
 ms.author: v-zachminers
-ms.topic: article
+ms.topic: how-to
 ms.localizationpriority: medium 
 ms.collection:
 - viva-insights-advanced
