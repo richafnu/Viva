@@ -37,7 +37,7 @@ The Answers Intelligent Importer is enabled by default.
 1. Review the [file requirements](#file-requirements) to ensure a successful import.
 1. Go to your community landing page, and select the Answers Intelligent Importer access point.
 1. When prompted, select and upload a file from your device.
-    If the import was successful, Answers Intelligent Importer generates a list of question-and-answer pairs from the content.
+    If the import is successful, Answers Intelligent Importer generates a list of question-and-answer pairs from the content.
 
     :::image type="content" source="../media/engage/admin/select-answer-pairs.png" alt-text="Screenshot shows the AI generated list of questions and answers that you can choose to edit and then import.":::
 
@@ -49,7 +49,7 @@ Content posted through this feature follows the same rules of visibility as othe
 
 ## File requirements
 
-Because the importer uses AI to generate the question-and-answer pairs, no advanced structuring is required. In fact, files that _aren't_ structured as FAQs generally yield the best results. 
+Because the importer uses AI to generate the question-and-answer pairs, no advanced structuring is required. In fact, files that _aren't_ structured as FAQs generally produce the best results. 
 
 Imported files must meet these requirements:
 
