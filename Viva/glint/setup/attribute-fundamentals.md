@@ -71,8 +71,8 @@ Optional system attributes are values that indicate how and when communications 
 
 |Optional System Attribute  |Description  |
 |----------|-----------|
-|Survey Language     |The language in which employees receive surveys and emails.      |
-|Dashboard Language|The language in which users view dashboards.  |
+|Survey Language     |The language for employee surveys and emails.      |
+|Dashboard Language|The language for users' dashboards.  |
 |User Timezone|The time zone in which survey communications are sent.  |
 |Personal Email|Users' personal email addresses that can be used to survey exiting employees. Select Company and Personal Email in the Communications section of your survey program.  |
 
@@ -81,7 +81,7 @@ Optional system attributes are values that indicate how and when communications 
 
 ### Time zones
 
-Global companies often include a time zone attribute column in their Employee Attribute Template to trigger emails in employees’ time zones. Use the Time Zone tab of the [Employee Attribute Template](https://www.microsoft.com/en-us/download/details.aspx?id=105533) to find valid time zone values. Before a survey launches, ensure that all employees have a valid value attached to their records.
+Global companies often include a time zone attribute column in their Employee Attribute Template to trigger emails in employees’ time zones. To find valid time zone values, use the Time Zone tab of the [Employee Attribute Template](https://www.microsoft.com/en-us/download/details.aspx?id=105533). Before a survey launches, ensure that all employees have a valid value attached to their records.
 
 ### Languages
 
@@ -90,7 +90,7 @@ Use the Language Codes tab on the [Employee Attribute Template](https://www.micr
 If you also supply language values to indicate users’ dashboard languages (for users who view reports), include a separate column (example: Dashboard Language).
 
 > [!NOTE]
-> Dashboards do not support languages that are read from right to left.
+> Dashboards don't support languages that are read from right to left.
 
 ### Upcoming language changes
 
@@ -99,7 +99,7 @@ In April 2025, some supported languages for Viva Glint will change. Some languag
 | Current language  | Current language code | Potential alternative language | Potential alternative code |
 |:----------|:-----------|:------------|:------------|
 | Austrian (German)   | de_AT                 | German  | de_DE  | 
-| Chinese (Hong Kong) | zh_HK )  | Chinese (Traditional | zh_TW or zh_CN  |
+| Chinese (Hong Kong) | zh_HK  | Chinese (Traditional | zh_TW or zh_CN  |
 | Bengali             | bn_BD                | Bangla  | bn-IN  | 
 | Armenian            | hy_AM   | None  | None  | 
 | Haitian Creole      | fr_HT  | None  | None  | 
