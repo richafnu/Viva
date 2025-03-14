@@ -84,6 +84,9 @@ Empower leaders and managers to seek and act on feedback when it matters by crea
 
 [Get more information on Viva Pulse](/viva/pulse/introduction-to-viva-pulse)
 
+## Microsoft 365 Copilot
+Microsoft 365 Copilot is an AI assistant that uses the power of large language models to help you streamline work, amplify creativity, and boost productivity. Microsoft 365 Copilot in each Viva app has unique AI-powered features and capabilities tailored for that app. For example, Copilot in Viva Insights can help you choose a template and set up queries for analysis based on your questions. [Learn more about Microsoft 365 Copilot in each Viva app](/viva/copilot/viva-copilot-overview)
+
 ## Partner integrations
 Microsoft Viva supports several partner integrations to give you access to industry-leading apps in the natural flow of work. New partners are being added on an ongoing basis, so check back for more.
 
@@ -98,3 +101,5 @@ Microsoft Viva supports several partner integrations to give you access to indus
 [Find out more about partner integrations](https://www.microsoft.com/en-us/microsoft-viva/integrations)
 
 [Find more apps for integration with Viva in AppSource](https://appsource.microsoft.com/en-GB/marketplace/apps?exp=ubp8&product=office%3Bviva&page=1)
+
+
