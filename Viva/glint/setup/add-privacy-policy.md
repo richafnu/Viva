@@ -26,7 +26,7 @@ Every Microsoft Viva Glint survey includes links to a privacy policy that users 
 - Your organization's privacy policy, if you choose to add it to Viva Glint
 - The [Microsoft Privacy Statement](https://privacy.microsoft.com/en-us/privacystatement#:~:text=If%20you%20use%20a%20Microsoft%20product%20with%20an,associated%20with%20your%20Microsoft%20product%20and%20product%20accounts.) if you don't add your organization's privacy policy
 
-The Microsoft Privacy Statement explains the personal data Microsoft processes, how Microsoft processes it, and for what purposes. It includes a section specifically addressing personal data processing in commercial products, like Viva Glint, that users can access through an employer or other organization. Before deciding to rely solely on the Microsoft Privacy Statement, you should review it carefully and determine, in coordination with your legal, privacy, and HR teams, whether it meets your organization's needs.
+The Microsoft Privacy Statement explains the personal data Microsoft processes, how Microsoft processes it, and for what purposes. It includes a section specifically addressing personal data processing in commercial products, like Viva Glint, that users can access through an employer or other organization. Before you decide to rely solely on the Microsoft Privacy Statement, review it carefully in coordination with your legal, privacy, and HR teams, to determine whether it meets your organization's needs.
 
 Viva Glint allows your organization to present its own privacy policy to users. By adding your own privacy policy, you can provide more specific information to employees about how your organization handles their personal data, which may be necessary to meet your organization's compliance needs. Again, you should consult your legal, privacy, and Human Resources (HR) teams to determine which privacy policy to include in Viva Glint.
 
@@ -39,7 +39,7 @@ Follow this procedure:
 1. From the admin dashboard, navigate to **General Settings** and then **Company Information**.
 2. Add the link to your company's privacy policy URL in the bar in the **Company Privacy Policy** section.
 
-    Your company's privacy policy link is now embedded on Viva Glint's top navigation menu bar, survey header, and survey introduction page. If you haven't provided a correct link, an error message directs you to enter a valid link.
+    Your company's privacy policy link is now embedded on Viva Glint's top navigation menu bar, survey header, and survey introduction page. If your link is incorrect, an error message directs you to enter a valid link.
 
 ### User access to your organization's privacy policy
 
