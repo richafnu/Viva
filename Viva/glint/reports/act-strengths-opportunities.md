@@ -39,9 +39,9 @@ Outcomes and comparisons used to calculate S&Os can be customized in either of t
 
 Within the strengths section, you may see **realized** or **unrealized** labels. This label might not be visible, as well. 
 
-- **Realized strength:** Something your team is good at and does on a regular basis.
+- **Realized strength:** Something your team is good at and does regularly.
 - **Unrealized strength:** Something that your team is good at but doesn't practice regularly. It should be considered as an opportunity.
-- **Unlabeled:** The gap between what is realized and unrealized. It is used to call out items that deserve attention.
+- **Unlabeled:** The gap between what is realized and unrealized. It's used to call out items that deserve attention.
 
 ## Improve driver scores which matter most
 
@@ -74,7 +74,7 @@ Glint survey reports use one filtering process across all reports. Data can be f
 
 Advanced filtering allows users to view survey results from a particular group of employees who participated in different survey programs.  
 
-For example, to show how early onboarding experiences impact long-term engagement, review recent engagement survey results filtered by those that had positive or negative onboarding experiences in their employee journey. 
+For example, to show how early onboarding experiences impact long-term engagement, review feedback results filtered by people that had positive or negative onboarding experiences. 
 
 1. Select **Advanced**. 
 1. Select **Yes, enable Advanced Filtering**. 
