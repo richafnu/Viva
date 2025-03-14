@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: how-to
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 02/04/2025
+ms.date: 03/14/2025
 ---
 
 # Use Viva Glint to act on Strengths and Opportunities
@@ -58,6 +58,8 @@ Knowing which drivers have a high impact allows managers to focus on improving t
 - Employees who rate a driver low, also rate engagement low 
 
 Without strong correlation, a driver’s score has low or zero impact.  
+
+[**Read about color coding in the Strengths and Opportunities report**](/../../viva/glint/reports/color-coding).
 
 ## Filter your report 
 
