@@ -228,7 +228,7 @@ items:
            href: setup/distress-survey.md
          - name: Productivity survey
            href: setup/create-productivity-survey.md
-      - name: Set up recurring surveys
+      - name: Set up a Recurring survey
         href: setup/program-summary-overview.md
         items: 
           - name: Understand programs and cycles
