@@ -1,5 +1,5 @@
 ---
-ms.date: 03/13/2025
+ms.date: 03/14/2025
 title: Publish reports
 description: Provides instructions to Viva Insights analysts and admins on how to publish and view insights reports and customize their settings.
 author: zachminers
@@ -146,7 +146,7 @@ Ensure the content looks accurate by reviewing the preview on the right side of 
 
 Let's say you want to publish your Hybrid workplace dashboard. This dashboard is saved to your Power BI workspace and has already been shared with your desired audience. It doesn't have row-level security implemented, so recipients see all the data in the report. You can create your card like the one below and publish it under your team name, HR Analytics, rather than using your own name as publisher. You can see how this card looks when it’s published to  your recipients with the Preview.
 
-:::image type="content" source="../images/publish-reports-create-your-card.png" alt-text="Screenshot that shows the create card page." lightbox="../images/publish-reports-create-your-card.png":::
+:::image type="content" source="../images/publish-reports-create-your-card-02.png" alt-text="Screenshot that shows the create card page.":::
 
 #### Select target audience
 
@@ -173,9 +173,7 @@ Assign a unique name to your report's publish. This name will help you and other
 
 #### Continuing our example
 
-Let’s say you want to publish your Hybrid workplace dashboard to your Engineering function. You can publish to that audience based on your available organizational attributes. You can then select this card to be published for 90 days and provide a publish name you can use to find this publish later on the Publish reports landing page.
-
-:::image type="content" source="../images/publish-reports-select-target-audience.png" alt-text="Screenshot that shows the page to select a target audience." lightbox="../images/publish-reports-select-target-audience.png":::
+Let's say you want to publish your Hybrid workplace dashboard to your Engineering function. You can publish to that audience based on your available organizational attributes. You can then select this card to be published for 90 days and provide a publish name you can use to find this publish later on the Publish reports landing page.
 
 #### Publish 
 
