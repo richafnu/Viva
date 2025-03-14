@@ -22,7 +22,7 @@ ms.date: 03/14/2025
 Survey results in the Microsoft Viva Glint platform are available to managers as soon as one day after the survey closes [Read about Live versus Phased access](/../../viva/glint/setup/live-versus-phased-access). Hopefully your managers are eager to see their results, as are their employees. However, due to confidentiality thresholds set in the Viva Glint platform, some views of feedback results may not display data. 
 
 > [!NOTE]
-> The Viva Glint admin sets the confidentiality threshold in the Reporting section of General Settings. [Read about managing confidentiality thresholds](/viva/glint/setup/manage-confidentiality-thresholds).
+> The Viva Glint admin sets the confidentiality threshold in the **Reporting** section of **General Settings**. [Read about managing confidentiality thresholds](/viva/glint/setup/manage-confidentiality-thresholds).
 
 Managers who can't view some or all of their team's data can still have great feedback sessions with their teams. Here's how: 
 
