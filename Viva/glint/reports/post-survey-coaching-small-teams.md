@@ -39,9 +39,9 @@ Managers of small teams may not have *enough team members overall* or *enough re
 
 Each team’s data rolls up into the next manager hierarchy level, so each team is represented in their direct manager’s report. While your managers should have this summary as part of your ACT Conversation, Viva Glint recommends giving managers access to Broader Team Insights as a starting point for their own ACT Conversation. They download the presentation kit through a prompt in their Viva Glint dashboard when BTI is enabled. 
 
-Review results. Use the [Manager Quick Guide to Interpretation](https://adoption.microsoft.com/files/viva/glint/Microsoft-Viva-Glint-manager-quick-guide.pdf) to prepare for your conversation.
+Review results. To prepare for your conversation, use the [Manager Quick Guide to Interpretation](https://adoption.microsoft.com/files/viva/glint/Microsoft-Viva-Glint-manager-quick-guide.pdf).
 
-Managers of small teams can hold their ACT Conversation to discuss where the larger group's results do and don't reflect their team's experience and what action the team can commit to in order to make improvements. 
+Managers of small teams can hold their ACT Conversation to discuss where the larger group's results do and don't reflect their team's experience. Then they can use that information to decide what action their team can take to make improvements. 
 
 ## Why manager teams may not have enough responses
 
@@ -59,10 +59,6 @@ In these cases, the leader should still have an ACT Conversation with their dire
 ## Conversations are still meaningful
 
 The goal of survey feedback is to understand what most engages and inspires a team to be their best at work. Survey scores are a starting point for a conversation that involves a team in identifying actions that can be taken to improve engagement. Even just a few responses - or limited views of results - can make effective use of available BTI data and foster a rich team conversation. 
-
-## Small teams survey results are still valuable
-
-Managers of small teams may sometimes feel survey results don't provide much value, especially if they easily and regularly connect with their team members to know how everyone is doing. While there is truth in this, when teams don't have enough responses to view their results, Broader Team Insights (BTI) can be very helpful in giving a sense for how the larger org is doing - including other voices and feedback.
  
 > [!NOTE]
-> If a small team does have enough responses to view their data, be mindful that there can be large score swings purely based on one person coming into or leaving the team. These changes may seem intimidating but don't necessarily indicate actual sentiment changes. Having a survey-specific conversation with a small team is essential to ensuring a true understanding of the team’s engagement and the bigger, organizational picture.
+> If a small team has enough responses to view their data, be mindful that there can be large score swings purely based on one person coming into or leaving the team. These changes might intimidate, but remember that they don't necessarily indicate actual sentiment changes. A survey-specific conversation with a small team is essential to ensuring a true understanding of the team’s engagement and the bigger, organizational picture.
