@@ -16,7 +16,7 @@ ms.topic: how-to
 ms.service: viva-glint
 ms.localizationpriority: high
 ms.custom: CELA-approved
-ms.date: 2/28/2025
+ms.date: 3/14/2025
 ---
 
 # Privacy policies in Microsoft Viva Glint
