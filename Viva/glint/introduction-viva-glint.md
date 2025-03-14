@@ -43,16 +43,7 @@ Use the Viva Glint deployment guide to complete one-time setup tasks and launch 
 > [!div class="nextstepaction"]
 > [Download the Viva Glint deployment guide](https://go.microsoft.com/fwlink/?linkid=2301488)
 
-## Connect
-
-After initial tenant and platform setup, complete these regular tasks to gather employee feedback and embed action-taking into your organization as a Viva Glint Administrator.
-
-| :::image type="icon" source="/office/media/icons/trend-graph-blue.png" ::: | Item | Resources|
-|:---|:---|:---|
-|:::image type="icon" source="/office/media/icons/blog-site-blue.png" ::: | **Explore Viva blogs** | <ul><li>[Viva Glint research and updates](https://techcommunity.microsoft.com/category/viva-glint/blog/viva_glint_blog)</li> <li>[Viva Suite of products](https://techcommunity.microsoft.com/category/microsoft-viva/blog/microsoftvivablog)</li></ul>|
-|:::image type="icon" source="/office/media/icons/users-people.png" ::: | **Connect with Viva Glint and others** | <ul><li>[Join the product council](https://techcommunity.microsoft.com/blog/viva_glint_blog/shape-the-future-of-viva-glint-by-joining-our-product-council/4063627)</li> <li> [Join a Learning Circle](https://techcommunity.microsoft.com/blog/viva_glint_blog/viva-glint-learning-circles-are-back/4303411)</li><li>[Join a Customer Cohort](https://techcommunity.microsoft.com/blog/viva_glint_blog/join-our-customer-cohorts/4124682)</li><li>[Engage with peers in the Viva Glint Community](https://techcommunity.microsoft.com/category/Viva-Glint)</li><li>[Attend Viva Glint Ask the Experts sessions](https://adoption.microsoft.com/viva/glint/ask-the-experts-resources/)</li></ul>|
-
-## Training
+## Learn
 
 Use Viva Glint learning paths and modules to gain badges and deepen your understanding of the Viva Glint platform.
 
@@ -60,6 +51,15 @@ Use Viva Glint learning paths and modules to gain badges and deepen your underst
 |:---|:---|:---|
 |:::image type="icon" source="/office/media/icons/notebook-blue.png" ::: | **Learning paths and modules** | <ul><li>[Courses for admins](https://go.microsoft.com/fwlink/?linkid=2275357)</li> <li>[Courses for Managers](https://go.microsoft.com/fwlink/?linkid=2275358)</li></ul>|
 |:::image type="icon" source="/office/media/icons/certificate-blue.png" ::: | **Badge certifications** | <ul><li>[Viva Glint Foundations badge](https://go.microsoft.com/fwlink/?linkid=2275359)</li> <li>[Viva Glint Manager badge](https://go.microsoft.com/fwlink/?linkid=2275437)</li></ul>|
+
+## Connect
+
+Stay connected with Viva Glint and your peers with blogs, the Viva Glint Community, and programs like Learning Circles and Cohorts.
+
+| :::image type="icon" source="/office/media/icons/meeting.png" ::: | Item | Resources|
+|:---|:---|:---|
+|:::image type="icon" source="/office/media/icons/blog-site-blue.png" ::: | **Explore Viva blogs** | <ul><li>[Viva Glint research and updates](https://techcommunity.microsoft.com/category/viva-glint/blog/viva_glint_blog)</li> <li>[Viva Suite of products](https://techcommunity.microsoft.com/category/microsoft-viva/blog/microsoftvivablog)</li></ul>|
+|:::image type="icon" source="/office/media/icons/users-people.png" ::: | **Connect with Viva Glint and others** | <ul><li>[Join the product council](https://techcommunity.microsoft.com/blog/viva_glint_blog/shape-the-future-of-viva-glint-by-joining-our-product-council/4063627)</li> <li> [Join a Learning Circle](https://techcommunity.microsoft.com/blog/viva_glint_blog/viva-glint-learning-circles-are-back/4303411)</li><li>[Join a Customer Cohort](https://techcommunity.microsoft.com/blog/viva_glint_blog/join-our-customer-cohorts/4124682)</li><li>[Engage with peers in the Viva Glint Community](https://techcommunity.microsoft.com/category/Viva-Glint)</li><li>[Attend Viva Glint Ask the Experts sessions](https://adoption.microsoft.com/viva/glint/ask-the-experts-resources/)</li></ul>|
 
 ## Get support
 
