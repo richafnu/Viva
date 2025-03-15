@@ -37,7 +37,7 @@ Or:
 
 1. In the Viva Engage app, go to the gear icon in the top navigation menu and select **Admin center**.
 
-[Screenshot of the admin entrypoint into the Viva Engage admin center.](/viva/media/engage/admin/aaccess-admin-center-standalone.png)
+[Screenshot of the admin entrypoint into the Viva Engage admin center.](/viva/media/engage/admin/access-admin-center-standalone.png)
 
 ## Viva Engage in Microsoft Teams experience
 
