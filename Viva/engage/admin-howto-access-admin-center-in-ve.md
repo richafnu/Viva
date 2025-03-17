@@ -27,7 +27,7 @@ Because there are three different Viva Engage app deployment types (Teams, Web, 
 - Viva Engage Web browser experience
 - Viva Engage in Teams experience
 
-## Standalone app and Web browser experiences
+## Standalone app and web browser experiences
 
 The standalone Microsoft 365 Viva Engage app and the Viva Engage web browser experience use the same steps to access the Admin Center:
 
