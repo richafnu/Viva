@@ -67,11 +67,7 @@ Answers is enabled by default. You can hide Answers from view in the Viva Engage
 
 1. [Go to the Viva Engage admin center](admin-howto-access-admin-center-in-ve.md).
 
-   [![Screenshot of the admin entrypoint into the Viva Engage admin center.](/viva/media/engage/admin/admin-entrypoint.png)](/viva/media/engage/admin/admin-entrypoint.png#lightbox)
-
 1. On the **Feature management** tab, select **Answers** to open Answers configuration.
-
-   [![Screenshot of the admin entrypoint into Answers feature management in the Viva Engage admin center.](/viva/media/engage/admin/answers-eac.png)](/viva/media/engage/admin/answers-eac.png#lightbox)
 
 1. Use the **Enable Answers** toggle to enable or disable Answers for your organization.
 
