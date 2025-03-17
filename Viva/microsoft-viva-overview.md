@@ -1,7 +1,7 @@
 ---
 title: "Microsoft Viva Overview"
 ms.reviewer:
-ms.date: 05/30/2024
+ms.date: 03/17/2025
 ms.author: loreenl
 author: LoreenLa
 manager: elizapo
@@ -54,7 +54,7 @@ Connect employees with tools, news, and resources in Microsoft Teams and on the 
 [Get more information on Viva Connections](/viva/connections/viva-connections-overview)
 
 #### Viva Engage
-Connect employees with leaders, colleagues, and communities across the organization to facilitate knowledge sharing, collaboration, and workplace belonging. The Viva Engage app integrates seamlessly into Microsoft Teams with features like storyline and stories that are consistent across web, desktop, and mobile platforms to ensure a unified experience regardless of access point.
+Connect employees with leaders, colleagues, and communities across the organization to facilitate knowledge sharing, collaboration, and workplace belonging. The Viva Engage app integrates seamlessly into Microsoft Teams with features like storylines and stories that are consistent across web, desktop, and mobile platforms to ensure a unified experience regardless of access point.
 
 [Get more information on Viva Engage](/viva/engage/overview)
 
