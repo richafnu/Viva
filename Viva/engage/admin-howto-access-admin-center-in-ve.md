@@ -18,7 +18,7 @@ ms.collection:
 search.appverid:
 - MET150
 ---
- 
+
 # Access Admin Center for any Viva Engage deployment
 
 Because there are three different Viva Engage app deployment types (Teams, Web, and Microsoft 365), admin users must support different ways to configure certain features for each deployment type. This article describes how admins can use the critical Admin Center feature for the following Viva Engage Deployments:
