@@ -356,9 +356,9 @@ items:
         href: setup/reopen-survey.md
       - name: Make changes to a live survey
         href: setup/change-live-survey.md   
-  - name: View survey results
+  - name: View feedback results
     items:
-      - name: Survey reports guide
+      - name: Feedback reports guide
         href: reports/survey-reports-overview.md
       - name: Report functionality
         items:
@@ -380,7 +380,7 @@ items:
             href: reports/report-customization.md
           - name: Confidentiality and suppression
             href: reports/confidentiality-suppression-reports.md     
-      - name: Standard reports for managers and admins
+      - name: Feedback reports for managers and admins
         items:
          - name: Executive Summary Report
            href: reports/executive-summary-report.md
