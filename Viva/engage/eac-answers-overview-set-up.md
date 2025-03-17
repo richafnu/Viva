@@ -31,7 +31,7 @@ The Viva Engage Knowledge service plan is part of the following licenses:
 
 - Microsoft Viva Suite license
 - Microsoft Viva Employee Communications license
-- Microsoft Viva Employee Communities license 
+- Microsoft Viva Employee Communities license
 
 Users with the Viva Engage Knowledge service plan have access to the Answers experience. They can ask and answer questions in communities and on the **Answers** tab, find similar questions, and receive rewards and recognition.  
 
@@ -41,7 +41,7 @@ For more information about permissions, see [Manage admin roles in Viva Engage](
 
 ## Technical requirements
 
-By default, the Answers experience is enabled for networks where Viva Engage is enabled, and for all users of Viva Engage services. For the best Answers experience, we recommend that all organizations [install the Viva Engage app in Microsoft Teams](/viva/engage/setup#installing-viva-engage). 
+By default, the Answers experience is enabled for networks where Viva Engage is enabled, and for all users of Viva Engage services. For the best Answers experience, we recommend that all organizations [install the Viva Engage app in Microsoft Teams](/viva/engage/setup#installing-viva-engage).
 
 ## Compliance and Answers data
 
@@ -54,7 +54,7 @@ Backing group owners should ensure that Answers remains compliant with network p
 
 You can find Answers data in [eDiscovery](/viva/engage/manage-security-and-compliance/overview-of-ediscovery), so you can identify and deliver electronic information that can be used as evidence in legal cases.
 
-#### General Data Protection Regulation (GDPR)
+### General Data Protection Regulation (GDPR)
 
 For a GDPR user data export, verified Viva Engage admins and Engage admins can follow the [Viva Engage GDPR export guidance](/Viva/engage/eac-as-manage-data). Answers data is bundled with Viva Engage data. To comply with GDPR data subject requests, you can erase all information about a Viva Engage user. Learn [how to manage GDPR data subject requests in Viva Engage](./manage-security-and-compliance/gdpr-requests-in-viva-engage-enterprise.md).
 
@@ -63,9 +63,9 @@ For a GDPR user data export, verified Viva Engage admins and Engage admins can f
 > [!NOTE]
 > You must be a Microsoft 365 Global admin to configure Answers and Answers-related options.
 
-By default, Answers is turned on. You can hide Answers from view in the Viva Engage Teams app, which allows users to access Answers content only through existing links. If you hide Answers, users can't contribute to threads or navigate the Answers experience.
+Answers is enabled by default. You can hide Answers from view in the Viva Engage, which allows users to access Answers content only through existing links. If you hide Answers, users can't contribute to threads or navigate the Answers experience.
 
-1. In the Viva Engage Teams app, select the ellipses button (`...`) from the top right navigation bar, and select **Admin** to go to the Viva Engage admin center.
+1. [Go to the Viva Engage admin center](admin-howto-access-admin-center-in-ve.md).
 
    [![Screenshot of the admin entrypoint into the Viva Engage admin center.](/viva/media/engage/admin/admin-entrypoint.png)](/viva/media/engage/admin/admin-entrypoint.png#lightbox)
 
@@ -84,13 +84,13 @@ Answers resides within Viva Engage. Organizations that aren't ready to start usi
 
 To use this feature, the network must have two or fewer Engage communities.
 
-1. In the Viva Engage Teams app, select the ellipses (`...`) button from the top right navigation bar, and select **Admin** to navigate to the Viva Engage admin center.
+1. [Go to the Viva Engage admin center](admin-howto-access-admin-center-in-ve.md).
 
 1. On the **Feature management** tab, select **Answers** to open Answers configuration.
 
 1. Switch **Show Engage Experience** on or off for your organization.
 This option is disabled if Answers is turned off, or if the tenant has more than two active communities.
-    
+
 :::image type="content" source="../media/engage/admin/answers-eac-show-exp-off.png" lightbox="../media/engage/admin/answers-eac-show-exp-off.png" alt-text="Screenshot shows that Answers must be enabled to turn off the Show Engage Experience setting.":::
 
 > [!NOTE]
@@ -98,21 +98,21 @@ This option is disabled if Answers is turned off, or if the tenant has more than
 
 ## Option: Enable AI-suggested topics
 
-Users with the Viva Engage Knowledge Service Plan see AI-suggested topics in Answers. When a user posts a question on Answers, generative AI returns up to three relevant topics for the user to include with their post.
+Users with the Viva Engage Knowledge Service Plan see AI-suggested topics in Answers. Viva Engage admins control this feature. When a user posts a question on Answers, generative AI returns up to three relevant topics for the user to include with their post.
 
-1. In the Viva Engage Teams app, select the ellipses (`...`) button from the top right navigation bar, and select **Admin** to navigate to the Viva Engage admin center.
+1. [Go to the Viva Engage admin center](admin-howto-access-admin-center-in-ve.md).
 
 1. On the **Feature management** tab, select **Answers** to open Answers configuration.  
 
 1. Switch **Enable AI-suggested topics** on or off for your organization.
 
-   :::image type="content" source="../media/engage/admin/ea-answers-ai-2.png" lightbox="../media/engage/admin/ea-answers-ai-2.png" alt-text="Screenshot shows  AI-suggested topics turned off.":::
+   :::image type="content" source="../media/engage/admin/ea-answers-ai-2.png" lightbox="../media/engage/admin/ea-answers-ai-2.png" alt-text="Screenshot shows AI-suggested topics turned off.":::
 
 ## Option: Enable rewards and recognition
 
 When users contribute to Answers in Viva, they can earn and collect up to five different badges. Badges are available and visible to anyone in the organization who has a Viva Engage Knowledge Service Plan. This feature requires Answers to collect user data, such as votes from fellow employees, which count toward badges.
 
-1. In Viva Engage Teams app, select the ellipses (`...`) button from the top-right navigation bar, and select **Admin** to open the Viva Engage admin center.
+1. [Go to the Viva Engage admin center](admin-howto-access-admin-center-in-ve.md).
 
 2. On the **Feature management** tab, select **Rewards and recognition**.
 
