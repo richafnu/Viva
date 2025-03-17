@@ -18,10 +18,10 @@ ms.collection:
 search.appverid:
 - MET150
 ---
-
+ 
 # Access Admin Center for any Viva Engage deployment
 
-Because there are three different Viva Engage deployment types (Teams, Web, and Microsoft 365), admin users can confront different ways to configure certain features for each deployment type. This article describes how admins can use the critical Admin Center feature for the following Viva Engage Deployments: 
+Because there are three different Viva Engage app deployment types (Teams, Web, and Microsoft 365), admin users must support different ways to configure certain features for each deployment type. This article describes how admins can use the critical Admin Center feature for the following Viva Engage Deployments:
 
 - Viva Engage standalone app from Microsoft 365
 - Viva Engage Web browser experience
@@ -31,16 +31,8 @@ Because there are three different Viva Engage deployment types (Teams, Web, and 
 
 The standalone Microsoft 365 Viva Engage app and the Viva Engage web browser experience use the same steps to access the Admin Center:
 
-1. In [Viva Engage on the web](https://engage.cloud.microsoft/main/admin), go to the gear icon in the top navigation menu and select **Admin center**.
-
-Or:
-
-1. In the Viva Engage app, go to the gear icon in the top navigation menu and select **Admin center**.
-
-[Screenshot of the admin entrypoint into the Viva Engage admin center.](/viva/media/engage/admin/access-admin-center-standalone.png)
+1. Go to the gear icon in the top navigation menu and select **Admin center**.
 
 ## Viva Engage in Microsoft Teams experience
 
 1. In the Viva Engage Teams app, select the ellipses button (`...`) from the top right navigation bar, and select **Admin** to go to the Viva Engage admin center.
-
-[Screenshot of the admin entrypoint in Teams to the Viva Engage admin center.](/viva/media/engage/admin/admin-entrypoint.png)
