@@ -2405,7 +2405,7 @@
   { 
    "source_path": "viva/glint/setup/survey-coach.md",
    "redirect_url": "/viva/glint/setup/program-summary-coaching",
-   "redirect_document_id": false
+   "redirect_document_id": true
   },
   {
     "source_path": "viva/glint/people-science/propel-action-taking.md",
@@ -2440,7 +2440,12 @@
   {
     "source_path": "viva/glint/reports/team-conversations-resource-guidance.md",
     "redirect_url": "/viva/glint/setup/program-summary-coaching",
-    "redirect_document_id": true
-  }  
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "viva/glint/reports/coaching-team-conversations.md",
+    "redirect_url": "/viva/glint/setup/program-summary-coaching",
+    "redirect_document_id": false
+  }
  ]
 }
