@@ -103,9 +103,9 @@ Use the following steps to block users who don't have Viva Engage Core licenses.
 
 2. On the Security Settings page, select **Office 365 Identity Enforcement**, and elect the **Block Office 365 users without Viva Engage licenses** checkbox. Confirm the selection. Microsoft 365 identity enforcement is a prerequisite for blocking users without Viva Engage licenses.
 
-3. Select the **Block Office 365 users without Viva Engage licenses** checkbox, and then choose **Save**.
-
     ![Screenshot of Block Office 365 users without Viva Engage licenses checkbox in Viva Engage Security Settings.](../media/engage-office-365-identity-enforcement.png)
+
+3. Select the **Block Office 365 users without Viva Engage licenses** checkbox, and then choose **Save**.
   
 4. A confirmation message appears that asks if you're ready to start blocking Office 365 users without Viva Engage Core licenses.
 
