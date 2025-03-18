@@ -235,41 +235,6 @@ items:
         items: 
           - name: Understand programs and cycles
             href: setup/program-cycle-edits.md
-          - name: Set up survey sections 
-            items:
-              - name: Program setup 
-                href: setup/program-set-up.md
-              - name: Distribution setup 
-                href: setup/distribution-program-summary.md
-              - name: Schedule setup
-                href: setup/schedule-setup.md
-              - name: Questions setup 
-                href: setup/questions-setup.md
-                items:
-                   - name: Add items and sections
-                     href: setup/add-new-questions.md
-                   - name: Target survey items
-                     href: setup/targeted-survey-items.md
-                   - name: Add item Display Logic
-                     href: setup/viva-glint-display-logic.md
-              - name: Reporting setup
-                href: setup/reporting-setup.md
-                items:
-                   - name: Release results to roles in phased access
-                     href: setup/live-versus-phased-access.md
-              - name: Communications setup 
-                href: setup/program-summary-communications.md
-                items:
-                  - name: Customize survey email content
-                    href: setup/email-content-customization.md
-                  - name: Multi-language emails
-                    href: setup/multi-lang-emails.md                        
-              - name: Coaching setup 
-                href: setup/program-summary-coaching.md
-              - name: Manage translations for survey content
-                href: setup/language-translations.md  
-              - name: Review character limits
-                href: setup/survey-character-limits.md
           - name: Set up Team Conversations
             href: reports/team-conversations-administrator-setup.md
             items:
@@ -291,6 +256,41 @@ items:
         href: setup/always-on-surveys.md
       - name: Set up an Ad Hoc survey
         href: setup/ad-hoc-survey.md
+      - name: Survey sections and resources
+        items:
+           - name: Program setup 
+             href: setup/program-set-up.md
+           - name: Distribution setup 
+             href: setup/distribution-program-summary.md
+           - name: Schedule setup
+             href: setup/schedule-setup.md
+           - name: Questions setup 
+             href: setup/questions-setup.md
+             items:
+               - name: Add items and sections
+                 href: setup/add-new-questions.md
+               - name: Target survey items
+                 href: setup/targeted-survey-items.md
+               - name: Add item Display Logic
+                 href: setup/viva-glint-display-logic.md
+           - name: Reporting setup
+             href: setup/reporting-setup.md
+             items:
+               - name: Release results to roles in phased access
+                 href: setup/live-versus-phased-access.md
+           - name: Communications setup 
+             href: setup/program-summary-communications.md
+             items:
+               - name: Customize survey email content
+                 href: setup/email-content-customization.md
+               - name: Multi-language emails
+                 href: setup/multi-lang-emails.md                        
+           - name: Coaching setup 
+             href: setup/program-summary-coaching.md
+           - name: Manage translations for survey content
+             href: setup/language-translations.md  
+           - name: Review character limits
+             href: setup/survey-character-limits.md
       - name: Review and test surveys before launch
         items:
           - name: Review and set up a test survey
@@ -356,9 +356,9 @@ items:
         href: setup/reopen-survey.md
       - name: Make changes to a live survey
         href: setup/change-live-survey.md   
-  - name: View survey results
+  - name: View feedback results
     items:
-      - name: Survey reports guide
+      - name: Feedback reports guide
         href: reports/survey-reports-overview.md
       - name: Report functionality
         items:
@@ -380,7 +380,7 @@ items:
             href: reports/report-customization.md
           - name: Confidentiality and suppression
             href: reports/confidentiality-suppression-reports.md     
-      - name: Standard reports for managers and admins
+      - name: Feedback reports for managers and admins
         items:
          - name: Executive Summary Report
            href: reports/executive-summary-report.md
