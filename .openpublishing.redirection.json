@@ -2436,6 +2436,11 @@
     "source_path": "viva/glint/start/brochure-summary.md",
     "redirect_url": "/viva/glint/introduction-viva-glint",
     "redirect_document_id": false
-  }   
+  },
+  {
+    "source_path": "viva/glint/reports/team-conversations-resource-guidance.md",
+    "redirect_url": "/viva/glint/setup/program-summary-coaching",
+    "redirect_document_id": true
+  }  
  ]
 }
