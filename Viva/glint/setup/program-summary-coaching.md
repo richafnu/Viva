@@ -44,30 +44,62 @@ When Viva Glint Admins enable Team Conversations for a Recurring survey, there a
 
 Use this section to customize the Team Conversations presentation that managers use to share results and choose Focus Areas with their teams.
 
-Use the **Edit** option to go to an edit pane and make changes to each part of the conversation presentation: 
+> [!NOTE]
+> Make all changes to the presentation kit before releasing survey results to managers. Viva Glint Admins can customize the kit, but can't delete sections.
 
-- Title
-- Introduction
-- Reflection point
-- How we're doing
-- Reflection point
-- Pick a focus area
-- Choose Action Items
-- Summary
+1. Use the **Edit** option to open an edit pane and make changes to each part of the conversation presentation: 
+   - **Title**
+      - Section Name: The label that appears in the conversation menu
+      - Conversation Title: The title that appears on the first slide
+   - **Introduction**
+      - Section Name: The label that appears in the conversation menu
+      - Slide Heading: The title that appears on the first slide
+      - Step 1-3 Header: The bold-faced header for the step
+      - Step 1-3 Body: The plain text description of the step
+   - **Reflection point**
+      - Show Reflection: Enable or disable this item with the toggle
+      - Section Name: The label that appears in the conversation menu
+      - Reflection Text: Instructional and descriptive text for the reflection point
+   - **How we're doing**
+      - Section Name: The label that appears in the conversation menu
+      - Slide Headings: The bold-faced header for the Thank you, High-Level Results Slide, Biggest Changes Slide, Relative Strengths Slide, Relative Opportunities Slide, and Multiple Choice Questions Slide
+      - Thought Starters: The plain text description for the Thank you, High-Level Results Slide, and Biggest Changes Slide
+      - Subtexts: The plain text description for the Relative Strengths Slide and Relative Opportunities Slide
+      - Description & Thought Starter: The plain text description for the Multiple Choice Questions Slide
+   - **Reflection point**
+      - Show Reflection: Enable or disable this item with the toggle
+      - Section Name: The label that appears in the conversation menu
+      - Reflection Text: Instructional and descriptive text for the reflection point
+   - **Pick a focus area**
+      - Section Name: The label that appears in the conversation menu
+      - Slide Heading: The bold-faced title for the slide
+      - Subtext: The plain text description of the slide
+   - **Choose Action Items**
+      - Section Name: The label that appears in the conversation menu
+      - Slide Heading: The bold-faced title for the slide
+      - Subtext: The plain text description of the slide
+      - Button Text: Label for the button on this slide
+   - **Summary**
+      - Section Name: The label that appears in the conversation menu
+      - Slide Headings: The bold-faced title for the slide before and after a conversation
+      - Subtexts: The plain text description of the slide before and after a conversation
+  
+  :::image type="content" source="../../media/glint/setup/team-conversations-coaching-preview.png" alt-text="Screenshot of the Save and Preview function for Team Conversations presentations." lightbox="../../media/glint/setup/team-conversations-coaching-preview.png":::
 
-:::image type="content" source="../../media/glint/setup/team-conversations-coaching-preview.png" alt-text="Screenshot of the Save and Preview function for Team Conversations presentations." lightbox="../../media/glint/setup/team-conversations-coaching-preview.png":::
-
-After editing, select the **Preview** option to preview presentation changes. 
+2. Use the **Language** dropdown menu to make edits in other dashboard languages, if needed. Changes autosave when switching from one language to another.
+3. Select the **Save and Preview** option to preview presentation changes.
 
 ### Team Conversation Resource Guidance
 
 Optionally, include guidance to help managers as they have conversations with their teams. These resources appear in the bottom of the left menu of the conversation preview when Viva Glint Admins enable and select a resource. 
 
-To enable Team Conversation Resource Guidance, switch the **Enable Guidance** toggle to **On**. 
+To enable Team Conversation Resource Guidance: 
 
-:::image type="content" source="../../media/glint/setup/team-conversations-resource-guidance.png" alt-text="Screenshot of the Team Conversation Resource Guidance section for admin configuration.":::
+1. Switch the **Enable Guidance** toggle to **On**.
 
-Use the **Select a Resource** dropdown menu to select a resource.
+   :::image type="content" source="../../media/glint/setup/team-conversations-resource-guidance.png" alt-text="Screenshot of the Team Conversation Resource Guidance section for admin configuration.":::
+
+2. Use the **Select a Resource** dropdown menu to select a resource.
 
 :::image type="content" source="../../media/glint/setup/team-conversations-resource-dropdown.png" alt-text="Screenshot of the Select a Resource dropdown menu.":::
 
