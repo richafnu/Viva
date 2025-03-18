@@ -101,9 +101,9 @@ To enable Team Conversation Resource Guidance:
 
 2. Use the **Select a Resource** dropdown menu to select a resource.
 
-:::image type="content" source="../../media/glint/setup/team-conversations-resource-dropdown.png" alt-text="Screenshot of the Select a Resource dropdown menu.":::
+   :::image type="content" source="../../media/glint/setup/team-conversations-resource-dropdown.png" alt-text="Screenshot of the Select a Resource dropdown menu.":::
 
-> [!TIP] 
-> View suggested Content Resources by navigating from the admin dashboard to **Content Resources** in the **Action Taking** section. You can also add your own resources.
+3. Use the **Save and Preview** option to view edits to selected resources. After completing changes to content, select the right-facing arrow symbol to **Save & Continue**. 
 
-Use the **Save and Preview** option to view edits to selected resources. After completing changes to content, select the right-facing arrow symbol to **Save & Continue**. 
+   > [!TIP] 
+   > View suggested Content Resources by navigating from the admin dashboard to **Content Resources** in the **Action Taking** section. You can also add your own resources.
