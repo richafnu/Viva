@@ -58,7 +58,7 @@ If you have access to the Copilot Dashboard, you can find it in the [Teams or we
 
 2. On the left navigation panel, select **Copilot Dashboard**.
 
-3. To learn more about the data in the dashboard, refer to [Interpreting the dashboard data](#interpreting-the-data).
+3. Refer [here](#readiness) to learn more about the data in the dashboard.
 
 
 ### Delegate access to the dashboard 
