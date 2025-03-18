@@ -14,12 +14,12 @@ search-appverid: MET150
 ms.topic: overview
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 03/17/2025
+ms.date: 03/18/2025
 ---
 
 # Viva Glint Manager Quick Guides 
 
-Manager Quick Guides provide managers and leaders with a high-level understanding of important Microsoft Viva Glint survey and feedback . . features.
+Manager Quick Guides provide managers and leaders with a high-level understanding of important Microsoft Viva Glint survey and feedback features.
 
 ## [**Manager Quick Guide to Confidentiality**](/../../Viva/glint/setup/quick-guide-confidentiality)
 > Use this guide to learn about how Viva Glint confidentiality and suppression rules provide an added layer of protection for respondents' privacy.
