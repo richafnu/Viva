@@ -17,7 +17,7 @@ search-appverid: MET150
 ms.topic: overview
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 03/14/2025
+ms.date: 03/18/2025
 ---
 
 # Introduction to Microsoft Viva Glint
@@ -27,7 +27,7 @@ Microsoft Viva Glint is a people-driven platform that provides visibility into t
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RW17jMY]
 
 > [!TIP]
-> To stay informed about Viva Glint and other Microsoft Employee Experience solutions, [register for the Viva Glint newsletter](https://adoption.microsoft.com/viva/glint/newsletter/).
+> To stay informed about Viva Glint and other Microsoft Employee Experience solutions, [register for the Viva Glint newsletter](https://go.microsoft.com/fwlink/?linkid=2264411).
 
 ## Set up a tenant
 Coordinate with your Microsoft 365 Global Administrator to set up your tenant. 
