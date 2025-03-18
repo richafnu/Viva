@@ -6,7 +6,7 @@ author: JudyWeiner
 manager: MelissaBarry
 audience: admin
 f1.keywords: NOCSH
-keywords: strengths, opportunities, team summary, executive summary
+keywords: strengths, opportunities, team summary, executive report, Driver Impact Report, Heat Map report, favorability scale
 ms.collection:  
 - m365initiative-viva
 - selfserve 
@@ -14,7 +14,7 @@ search.appverid: MET150
 ms.topic: concept-article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 02/04/2025
+ms.date: 03/18/2025
 ---
 
 # Color coding in Viva Glint reports
