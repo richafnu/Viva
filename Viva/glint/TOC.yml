@@ -273,24 +273,24 @@ items:
                  href: setup/targeted-survey-items.md
                - name: Add item Display Logic
                  href: setup/viva-glint-display-logic.md
-          - name: Reporting setup
-            href: setup/reporting-setup.md
-            items:
+           - name: Reporting setup
+             href: setup/reporting-setup.md
+             items:
                - name: Release results to roles in phased access
                  href: setup/live-versus-phased-access.md
-          - name: Communications setup 
-            href: setup/program-summary-communications.md
-            items:
+           - name: Communications setup 
+             href: setup/program-summary-communications.md
+             items:
                - name: Customize survey email content
                  href: setup/email-content-customization.md
                - name: Multi-language emails
                  href: setup/multi-lang-emails.md                        
-          - name: Coaching setup 
-            href: setup/program-summary-coaching.md
-          - name: Manage translations for survey content
-            href: setup/language-translations.md  
-          - name: Review character limits
-            href: setup/survey-character-limits.md
+           - name: Coaching setup 
+             href: setup/program-summary-coaching.md
+           - name: Manage translations for survey content
+             href: setup/language-translations.md  
+           - name: Review character limits
+             href: setup/survey-character-limits.md
       - name: Review and test surveys before launch
         items:
           - name: Review and set up a test survey
