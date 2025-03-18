@@ -38,7 +38,7 @@ To edit the default content for **Interpretation**, **Top Strengths**, and **Top
 
 ## Manage Team Conversations content
 
-When Viva Glint Admins enable Team Conversations for a Recurring survey, there are two additional sections in **Coaching** to select resources for conversations presentations and in-platform guidance.
+When Viva Glint Admins enable Team Conversations for a Recurring survey, there are two other sections in **Coaching** to select resources for conversations presentations and in-platform guidance.
 
 ### Team Conversation Presentation Guidance
 
@@ -57,7 +57,7 @@ Use the **Edit** option to go to an edit pane and make changes to each part of t
 
 :::image type="content" source="../../media/glint/setup/team-conversations-coaching-preview.png" alt-text="Screenshot of the Save and Preview function for Team Conversations presentations." lightbox="../../media/glint/setup/team-conversations-coaching-preview.png":::
 
-Afer editing, select the **Preview** option to preview presentation changes. 
+After editing, select the **Preview** option to preview presentation changes. 
 
 ### Team Conversation Resource Guidance
 
