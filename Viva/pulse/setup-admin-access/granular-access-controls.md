@@ -39,4 +39,4 @@ Viva Pulse authors can respond to open text responses in their Pulse reports and
 
 ## Resources
 
-To configure these capabilities, see [Control access to features in Viva](https://learn.microsoft.com/en-us/viva/feature-access-management). To control who has access to specific Viva features you can create and update policies in the [Microsoft 365 admin center](https://learn.microsoft.com/en-us/Viva/control-access-admin-center) or in [PowerShell](https://learn.microsoft.com/en-us/Viva/manage-access-policies). Policies are used to enable or disable specific features or types of data processing for users or groups in your tenant.
+To configure these capabilities, see [Control access to features in Viva](https://go.microsoft.com/fwlink/p/?linkid=2245618). To control who has access to specific Viva features you can create and update policies in the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/?linkid=2310835) or in [PowerShell](https://go.microsoft.com/fwlink/?linkid=2310836). Policies are used to enable or disable specific features or types of data processing for users or groups in your tenant.
