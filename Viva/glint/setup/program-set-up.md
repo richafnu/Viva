@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: install-set-up-deploy
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 03/07/2025
+ms.date: 03/19/2025
 ---
 
 # Complete Program Setup for a Viva Glint survey
@@ -34,7 +34,7 @@ Use the information in the table to guide you through each field in Program Setu
 |:-------|:------------|:-----------|:-----------|
 |**Program Name**|Used in survey and email communications, reporting, and is visible to survey respondents|Engagement, Manager Effectiveness, 30-day Onboarding| All |
 |**Administrators**| This role can set up, manage, edit, and report on all surveys in the entire program|*Manage Programs* must be enabled for the name to appear in the search box.| All | 
-|**Default Language**|Appears as set up in General Settings| All |
+|**Default Language**| The default language for survey participants | Dropdown menu selections are based on survey languages set up in General Settings| All |
 |**Additional Languages**| Populated with languages set up for your organization in General Settings.| Be sure survey items are available in all languages chosen. To remove languages, select the **X** next to the language name.| All |
 | **Admin Notifications to** |These admins are notified of upcoming surveys and are determined in General Settings.|Each survey should have at least one admin in this role who is notified before the survey goes Live. Use the **Search** add names.| Recurring and Ad Hoc |
 |**Suggested Action Available** |Enables Users to create goals.|Toggle to enable or disable| All |
