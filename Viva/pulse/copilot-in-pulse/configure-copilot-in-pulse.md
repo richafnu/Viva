@@ -19,11 +19,11 @@ description: "Learn how to configure and incorporate Microsoft 365 Copilot in Vi
 
 # Set up Microsoft 365 Copilot in Viva Pulse
 
-Microsoft 365 Copilot in Viva Pulse is your everyday AI partner, empowering you to create relevant Pulse questions, requests and helping you understand your report summaries, in ways that create value for you and your organization. Copilot gives users access to Large Language Model (LLM) technology with [Microsoft Responsible AI protections](https://www.microsoft.com/en-us/ai/responsible-ai). LLM is a type of AI that can process and produce natural language text. 
+Microsoft 365 Copilot in Viva Pulse is your everyday AI partner, empowering you to create relevant Pulse questions, requests, and helping you understand your report summaries, in ways that create value for you and your organization. Copilot gives users access to Large Language Model (LLM) technology with [Microsoft Responsible AI protections](https://www.microsoft.com/en-us/ai/responsible-ai). LLM is a type of AI that can process and produce natural language text. 
 
 ## Licensing requirements
 
-By default, Copilot capabilities in Viva Pulse is enabled for all users who are assigned a premium Viva Pulse license (purchased as part of _Microsoft Viva Suite_ or _Microsoft Viva Workplace Analytics and Employee Feedback_) or assigned a Microsoft 365 Copilot license.
+By default, Copilot capabilities in Viva Pulse are enabled for all users who are assigned a premium Viva Pulse license, purchased as part of _Microsoft Viva Suite_ or _Microsoft Viva Workplace Analytics and Employee Feedback_ or assigned a Microsoft 365 Copilot license.
 
 For details on Microsoft Viva plans and pricing, visit the [Employee Experience Platform Plans and Pricing page](https://www.microsoft.com/microsoft-viva/pricing).
 
@@ -35,14 +35,14 @@ Policy settings apply anytime a user signs in, allowing the user access to all e
 
 | Pulse feature | Copilot in Viva Pulse State | Description |
 |:-------------|:------------------:|:----------------------|
-|**Report Summarization** |**Enabled**| This state enables Pulse authors to view a summary for their Pulse reports in-app as well as included as part of their notifications.|
-| |**Disabled**|If you disable Copilot capabilities in Viva Pulse, report summaries will not be visible as part of Pulse reports nor as part of the notifications sent to the authors.|
+|**Report Summarization** |**Enabled**| This state enables Pulse authors to view a summary for their Pulse reports in-app and included as part of their notifications.|
+| |**Disabled**|If you disable Copilot capabilities in Viva Pulse, report summaries won't be visible as part of Pulse reports nor as part of the notifications sent to the authors.|
 
 
 
 ## Access Copilot in Viva Pulse
 
-Users can access Copilot in Viva Pulse as part of the generated reports. In the future, we will be bringing newer Copilot capabilities to author new Pulse questions and requests, along with question recommendation based on your Pulse series, etc. 
+Users can access Copilot in Viva Pulse as part of the generated reports. In the future, we'll be bringing newer Copilot capabilities to author new Pulse questions and requests, along with question recommendation based on your Pulse series, etc. 
 
 
 
