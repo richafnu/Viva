@@ -45,8 +45,6 @@ items:
   items:
     - name: Set up Copilot in Viva Pulse
       href: copilot-in-pulse/configure-copilot-in-pulse.md
-    - name: Report summarization using Copilot
-      href: copilot-in-pulse/pulse-report-summarization.md
 - name: Viva integrations
   items:
     - name: Measure Microsoft 365 Copilot impact in your organization
