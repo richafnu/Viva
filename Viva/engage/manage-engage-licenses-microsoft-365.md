@@ -126,7 +126,7 @@ Use the following steps to block users who don't have Viva Engage Core licenses.
 
 Users who don't have Viva Engage user licenses can see search results that originate from Viva Engage. This includes results from Workplace search and from Copilot 365. Users without appropriate licensing can't select or otherwise interact with Engage post links, or access Engage in any fashion.
 
-Engage content that's available to Workplace search and to Copilot 365 is currently limited to Question posts from public communities, [Engage's Answers feature](eac-answers-overview-set-up.md), and [Storylines](eac-storyline.md). Users without separate Answers licenses can view Question posts but can't interact with them or post new questions.
+Engage content that's available to Workplace search and to Copilot 365 is currently limited to Question posts from public communities, [Engage's Answers feature](eac-answers-overview-set-up.md), and [Storylines](eac-storyline.md). Users without separate Answers licenses can view Question posts, but can't interact with them, or post new questions.
 
 ## FAQ
 
