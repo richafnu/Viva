@@ -39,7 +39,7 @@ There are two levels of reporting access in Microsoft Viva Glint:
 
    >[!IMPORTANT]
    >
-   > - During a Live Recurring or Ad Hoc survey, uses with Phased access don't have reporting access until the survey ends. Access can't be switched during a Live survey.
+   > - During a Live Recurring or Ad Hoc survey, users with Phased access don't have reporting access until the survey ends. Access can't be switched during a Live survey.
    > - When a new program cycle begins, all reporting from the previous cycle is released. 
 
 
