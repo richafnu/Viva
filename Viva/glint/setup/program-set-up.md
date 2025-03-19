@@ -6,7 +6,7 @@ author: JudyWeiner
 manager: elizapo
 audience: admin
 f1.keywords: NOCSH
-keywords: confidentiality setup, basics setup, automatic survey question scrolling, survey comment expansion
+keywords: confidentiality setup, basics setup, survey comment expansion, create Viva Glint survey
 ms.collection: 
  - m365initiative-viva
  - selfserve
@@ -14,14 +14,14 @@ search-appverid: MET150
 ms.topic: install-set-up-deploy
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 03/07/2025
+ms.date: 03/19/2025
 ---
 
 # Complete Program Setup for a Viva Glint survey
 
 Program Setup page is the first section of a Microsoft Viva Glint survey that lets Viva Glint Administrators define the basic settings for a survey program. Choose items like a survey name and what languages are needed, along with confidentiality directives. 
 
-## Define the basics 
+## Define the basics for your Viva Glint program
 
 Use the information in the table to guide you through each field in Program Setup.
 
@@ -46,7 +46,7 @@ Use the information in the table to guide you through each field in Program Setu
 |**Auto-expand comments input**|With this enabled, a comment box shows after each survey item posed to a survey taker. Disabled, the survey automatically moves to the next item.|Disabled by default. Toggle to enable. This feature prompts more detailed and actionable insights by survey takers, increasing survey engagement.| All |
 |**Enable Team Conversations Sharing**|Allows managers to share a read-only version of their feedback summary presentation before or after meetings with their team.| Enabled by default when Team Conversations is enabled. | Recurring |
 
-## Confidentiality
+## Confidentiality in Viva Glint programs
 
 :::image type="content" source="../../media/glint/setup/program-setup-confidentiality-2.png" alt-text="Screenshot that shows the Confidentiality setup within Program Setup.":::
 
