@@ -31,8 +31,8 @@ As a foundational component of Microsoft Viva Engage, the Core Service Plan prov
 
 **If you *do* enforce Viva Engage licensing**, users access the Viva Engage Core experience, but each user must have the following:
 
-    - a Microsoft 365 license.
-    - a Viva Engage Core Service Plan.
+- a Microsoft 365 license.
+- a Viva Engage Core Service Plan.
 
 ## Premium experience
 
