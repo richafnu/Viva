@@ -53,5 +53,5 @@ To determine when leaders get access to Recurring or Ad Hoc survey results, gran
    :::image type="content" source="../../media/glint/setup/fully-released.png" alt-text="Screenshot of the Fully Released reporting view.":::
 
 > [!IMPORTANT]
-> When a new program cycle begins, all reporting from the previous cycle is automatically released to all users with permissions to see the results. This release occurs even when the admin hasn't updated all roles to **Live** status.
+> When a new program cycle begins, reporting from the previous cycle is automatically released to all users with permissions to see the results. This release occurs even when the admin hasn't updated all roles to **Live** status.
  
