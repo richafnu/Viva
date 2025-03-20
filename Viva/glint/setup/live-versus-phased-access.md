@@ -19,7 +19,7 @@ ms.date: 03/20/2025
 
 # Release feedback results to User Roles
 
-Grant Live or Phased access to User Roles in your organization to determine when leaders have access to Recurring or Ad Hoc survey results. Access status can't be switched while a survey is live.
+To determine when leaders get access to Recurring or Ad Hoc survey results, grant Live or Phased access to User Roles. Access status can't be switched while a survey is live.
 
 - **Live access**: Reporting access is readily available, in real time, as surveys are completed. Admins always have *Live* access and can't be included in *Phased* access rollout.
   
@@ -27,7 +27,7 @@ Grant Live or Phased access to User Roles in your organization to determine when
 - Excludes this role group from real-time, live survey results
 - Is configured at the program level but occurs at the cycle level
 - Allows users access to historical cycles
-- Doesn't support reporting access until the survey ends and cycle access is granted by the admin. 
+- Doesn't have reporting access during that cycle until the survey ends and the admin grants access. 
 
 > [!TIP]
 > Keep survey results classified while the survey is *Live*, among just a small group of leaders. Incomplete results may lead to unintended and inaccurate conclusions. Feedback results aren't final until all results are considered.
@@ -48,10 +48,10 @@ Grant Live or Phased access to User Roles in your organization to determine when
    
    :::image type="content" source="../../media/glint/setup/grant-report-access.png" alt-text="Screenshot of the Grant Report Access dialog box.":::
 
-1. Now the **Reporting view** column for this survey reads *Fully Releassed* and is visible to all roles with permissions. 
+1. Now the **Reporting view** column for this survey reads *Fully Released* and is visible to all roles with permissions. 
 
    :::image type="content" source="../../media/glint/setup/fully-released.png" alt-text="Screenshot of the Fully Released reporting view.":::
 
 > [!IMPORTANT]
-> When a new program cycle begins, all reporting from the previous cycle is automatically released to all users with permissions to see the results. This occurs even when the admin hasn't manually changed access to **Live.**
+> When a new program cycle begins, all reporting from the previous cycle is automatically released to all users with permissions to see the results. This release occurs even when the admin hasn't updated all roles to **Live** status.
  
