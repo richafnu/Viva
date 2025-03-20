@@ -19,7 +19,7 @@ ms.date: 03/20/2025
 
 # Viva Glint Questions setup
 
-As a Microsoft Viva Glint Administrator, use the Questions section of a survey to select and reorder survey items, modify survey introduction and thank you messages, and add optional features like targeting, display logic, and sections. Use your [Holistic Vision and Strategy Discovery Workbook](customize-program.md#use-the-holistic-listening-vision-and-strategy-discovery-workbook) and your [Deployment guide survey tab](/viva/glint/introduction-viva-glint#deploy-viva-glint-and-launch-a-survey) as guides to set up survey items.
+As a Microsoft Viva Glint Administrator, use the Questions section to manage survey items, modify introduction and thank you messages, and add optional features like targeting, display logic, and sections. To set up survey items, use information from your [Holistic Vision and Strategy Discovery Workbook](customize-program.md#use-the-holistic-listening-vision-and-strategy-discovery-workbook) and your [Deployment guide survey tab](/viva/glint/introduction-viva-glint#deploy-viva-glint-and-launch-a-survey) as a guide.
 
 > [!NOTE]
 > The term **item** refers to any *question or statement* posed to a survey taker.
@@ -75,11 +75,10 @@ In programs that use survey templates, like Quarterly Engagement, the Questions 
 
 1. Select the **+** symbol that appears above the Thank you message after the last survey question, or
 2. Select the **+** symbol next to the Thank you message and select the **Browse Questions** menu option.
-   1. To pre-filter questions based on type, choose Add Rating Question, Add Multiple Choice Question, or Add Open-Ended Question from the menu.
+   1. To prefilter questions based on type, choose Add Rating Question, Add Multiple Choice Question, or Add Open-Ended Question from the menu.
 3. Use the **Search for a question** field to enter keywords to search for an item in the Question library edit pane.
 4. Use the Sources, Type, Benchmark, and the More Filters options to filter to items based on your survey needs.
 5. To add an item to the survey, hover over it and select the **+** symbol.
-
 
 > [!TIP]
 > For open-ended questions, consider whether [**Auto-expand comments input**](/../../viva/glint/setup/program-summary-overview) is enabled in **Program Setup**.
@@ -90,11 +89,9 @@ In programs that use survey templates, like Quarterly Engagement, the Questions 
 > - To allow the Questions section to save, select at least one cycle for all questions.
 
 ## Add a new custom question
-
-
    
 > [!CAUTION]
-> Your organization may have policies governing appropriate survey items for employees. Ensure you have consulted any such policies before proceeding. Rather than create a new item, search the Question Library for existing questions that could be reused or repurposed. Viva Glint standard questions are validated and typically come with benchmarks and action plans. 
+> Your organization may have policies governing appropriate survey items for employees. Ensure you consult any such policies before proceeding. Rather than create a new item, search the Question Library for existing questions that could be reused or repurposed. Viva Glint standard questions are validated and typically come with benchmarks and action plans. 
 
 1. In the **Question library** edit pane, select the **+ Create** button. A **Create Question** window opens.
 1. For your new item, enter information in the following fields:
@@ -102,7 +99,7 @@ In programs that use survey templates, like Quarterly Engagement, the Questions 
    | Field  | Description and use | Question type | Editable or view only |
    |:----------|:-----------|:------------|:------------|
    | Question ID               | Unique question ID.     | All             | View only   |
-   | Language                  | Dropdown field that lists all translations for the question. This also appears for English-only surveys. select languages from the dropdown menu to update translations.       | All        | Editable    |
+   | Language                  | Dropdown field that lists all translations for the question. This field also appears for English-only surveys. select languages from the dropdown menu to update translations.       | All        | Editable    |
    | Question Type             | The question type: Rating, Open-Ended, or Multiple Choice/Multi-Select      | All             | View only   |
    | Reporting label           | The shortened label for a question that appears in reports.       | All             | Editable    |
    | Question text             | The full question text that survey takers see. This text also appears in some report areas.       | All             | Editable    |
@@ -110,11 +107,11 @@ In programs that use survey templates, like Quarterly Engagement, the Questions 
    | Instruction text          | Help text for survey takers to answer the question.       | All             | Editable    |
    | Comment placeholder text  | Help text for survey takers to provide comments.       | All             | Editable    |
    | Rating scale              | The number of responses for rated questions.        | Rating          | View only   |
-   | Label for all options     | Enable this toggle to display a label for all responses instead of just high and low values.      | Rating          | Editable    |
+   | Label for all options     | Enable this toggle to display a label for all responses instead of only high and low values.      | Rating          | Editable    |
    | Low value                 | The label for the lowest response for rated questions ("Strongly Disagree").       | Rating          | Editable    |
    | High value                | The label for the highest response for rated questions ("Strongly Agree").        | Rating          | Editable    |
    | Option description        | Enable this toggle to show descriptions for each multiple choice response option.       | Multiple Choice | Editable    | 
-   | Option fields             | Labels for each multiple choise response option.       | Multiple Choice | Editable    | 
+   | Option fields             | Labels for each multiple choice response option.       | Multiple Choice | Editable    | 
    | Select as least           | The minimum number of responses a user needs to select for a multi-select question.       | Multiple Choice | Editable    |
    | Select at most            | The maximum number of responses a user can select for a multi-select question.        | Multiple Choice | Editable    |
    | Allows comments           | Enable or disable to allow or disallow comments that supplement responses.       | Rating and Multiple Choice  | Editable   |
@@ -152,7 +149,7 @@ To edit a survey item in the Questions section:
       | Field  | Description and use | Question type | Editable or view only |
       |:----------|:-----------|:------------|:------------|
       | Question ID               | Unique question ID.     | All             | View only   |
-      | Language                  | Dropdown field that lists all translations for the question. This also appears for English-only surveys. select languages from the dropdown menu to update translations.       | All             | Editable    |
+      | Language                  | Dropdown field that lists all translations for the question. This field also appears for English-only surveys. select languages from the dropdown menu to update translations.       | All             | Editable    |
       | Question Type             | The question type: Rating, Open-Ended, or Multiple Choice/Multi-Select      | All             | View only   |
       | Reporting label           | The shortened label for a question that appears in reports.       | All             | Editable    |
       | Question text             | The full question text that survey takers see. This text also appears in some report areas.       | All             | Editable    |
@@ -164,7 +161,7 @@ To edit a survey item in the Questions section:
       | Low value                 | The label for the lowest response for rated questions ("Strongly Disagree").       | Rating          | Editable    |
       | High value                | The label for the highest response for rated questions ("Strongly Agree").        | Rating          | Editable    |
       | Option description        | Enable this toggle to show descriptions for each multiple choice response option.       | Multiple Choice | Editable    | 
-      | Option fields             | Labels for each multiple choise response option.       | Multiple Choice | Editable    | 
+      | Option fields             | Labels for each multiple choice response option.       | Multiple Choice | Editable    | 
       | Select as least           | The minimum number of responses a user needs to select for a multi-select question.       | Multiple Choice | Editable    |
       | Select at most            | The maximum number of responses a user can select for a multi-select question.        | Multiple Choice | Editable    |
       | Allows comments           | Enable or disable to allow or disallow comments that supplement responses.       | Rating and Multiple Choice  | Editable   |
@@ -175,14 +172,14 @@ To edit a survey item in the Questions section:
 1. Select **Save changes**.
 
 > [!IMPORTANT]
-> - Open-Ended questions are always optional and don't include a "Optional question" setting.
-> - To add a new response option to Multiple Choice/Multi-Select questions, always use the "+ Add new choice" feature and switch the "Show" toggle to "Hide" for an option that should be retired. Overwriting an existing option with a different/new labek causes trend issues in reports and confusion in raw data exports.
+> - Open-Ended questions are always optional and don't include an "Optional question" setting.
+> - To add a new response option to Multiple Choice/Multi-Select questions, always use the "+ Add new choice" feature. Switch the "Show" toggle to "Hide" to retire an option. Overwriting an existing option with a different/new label causes trend issues in reports and confusion in raw data exports.
 
 ## Add a Section Break or Survey Section 
 
 To alert survey takers to a change in topic or keep in mind certain information as they answer part of a survey, Viva Glint Admins can add Section Breaks or Survey Sections.
 
-- **Section Break**: A message that appears onces for a survey taker and disappears as they scroll through a survey. 
+- **Section Break**: A message that appears once for a survey taker and disappears as they scroll through a survey. 
 - **Survey Section**: A header with questions tied to it that remains at the top of the screen as the user responds.
 
 ### Add a Section Break 
@@ -205,7 +202,7 @@ To alert survey takers to a change in topic or keep in mind certain information 
 ### Add a Survey Section
 
 1. Select the **+** button on the Questions page.
-2. Select **Add Section Section** to reveal to reveal an edit pane.
+2. Select **Add Section Section** to reveal an edit pane.
 3. Add text to the **Title** and **Text** fields.
 4. If your survey uses multiple languages, select each language from the **Language** dropdown menu to update translations. Changes autosave when a new language is selected from the dropdown menu.
 5. Select **Save Changes.** Now the Survey Section appears as a row beneath your survey items, with brackets calling it out.
@@ -227,7 +224,7 @@ To alert survey takers to a change in topic or keep in mind certain information 
 
    :::image type="content" source="../../media/glint/setup/section-question-added.png" alt-text="Screenshot which shows a new item added under a Survey Section.":::
 
-3. The new survey item shows under the Survey Section in the Questions section..
+3. The new survey item shows under the Survey Section.
 
 ## Add item targeting
 
