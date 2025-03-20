@@ -45,8 +45,8 @@ To add a link to an employee resource or other information in your survey introd
 3. If your survey uses multiple languages, select each language from the **Language** dropdown menu to add the hyperlink to the **Text** field in all languages. Changes autosave when a new language is selected from the dropdown menu.
 4. Select **Save Changes**.
 5. Preview your survey to confirm that the hyperlink works as expected.
-   1. [Recurring or Ad Hoc survey preview process](preview-manage-enable-engage-programs)
-   1. [Lifecycle and Always-On survey preview process](preview-filter-lifecycle-programs#preview-the-survey)
+   1. [Recurring or Ad Hoc survey preview process](preview-manage-enable-engage-programs.md)
+   1. [Lifecycle and Always-On survey preview process](preview-filter-lifecycle-programs.md#preview-the-survey)
 
 ### Add a logo to the survey introduction
 
@@ -66,8 +66,8 @@ To add a link to an employee resource or other information in your survey introd
 1. If your survey uses multiple languages, select each language from the **Language** dropdown menu to add the logo to the **Text** field in all languages. Changes autosave when a new language is selected from the dropdown menu.
 1. Select **Save Changes**.
 1. Preview your survey to confirm that the logo appears as expected.
-   1. [Recurring or Ad Hoc survey preview process](preview-manage-enable-engage-programs)
-   1. [Lifecycle and Always-On survey preview process](preview-filter-lifecycle-programs#preview-the-survey)
+   1. [Recurring or Ad Hoc survey preview process](preview-manage-enable-engage-programs.md)
+   1. [Lifecycle and Always-On survey preview process](preview-filter-lifecycle-programs.md#preview-the-survey)
 
 ## Add survey items
 
@@ -135,7 +135,7 @@ When creating new custom questions, keep in mind that:
 > [!IMPORTANT]
 > Before editing an item:
 > - Select the item and check whether it exists in other surveys in the Associated Programs tab.
-> - [Review the impact of editing Viva Glint standard items](question-library#the-implication-of-customizing-editing-question-library-items).
+> - [Review the impact of editing Viva Glint standard items](question-library.md#the-implication-of-customizing-editing-question-library-items).
 
 To edit a survey item in the Questions section:
 
