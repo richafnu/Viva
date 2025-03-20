@@ -23,7 +23,7 @@ search.appverid:
 
 **Answers in Microsoft Viva** is a new experience for people in large organizations to ask and answer questions from one another. Use the feature in the Viva Engage Teams app, on the **Answers** tab, and on the **Communities** tab in communities of which the user is a member.
 
-The Answers feature enables users to ask and get questions answered, connect with subject matter experts, and boost their learning process. Natural language processing helps match questions with available answers, and the experience rewards people who contribute to Answers.
+The Answers feature enables users to ask and get questions answered, connect with subject matter experts, and promote their learning process. Natural language processing helps match questions with available answers, and the experience rewards people who contribute to Answers.
 
 ## Licensing
 
@@ -94,7 +94,7 @@ This option is disabled if Answers is turned off, or if the tenant has more than
 
 ## Option: Enable AI-suggested topics
 
-Users with the Viva Engage Knowledge Service Plan see AI-suggested topics in Answers. Viva Engage admins control this feature. When a user posts a question on Answers, generative AI returns up to three relevant topics for the user to include with their post.
+Users with the Viva Engage Knowledge service plan see AI-suggested topics in Answers. Viva Engage admins control this feature. When a user posts a question on Answers, generative AI returns up to three relevant topics for the user to include with their post.
 
 1. [Go to the Viva Engage admin center](admin-howto-access-admin-center-in-ve.md).
 
@@ -106,7 +106,7 @@ Users with the Viva Engage Knowledge Service Plan see AI-suggested topics in Ans
 
 ## Option: Enable rewards and recognition
 
-When users contribute to Answers in Viva, they can earn and collect up to five different badges. Badges are available and visible to anyone in the organization who has a Viva Engage Knowledge Service Plan. This feature requires Answers to collect user data, such as votes from fellow employees, which count toward badges.
+When users contribute to Answers in Viva, they can earn and collect up to five different badges. Badges are available and visible to anyone in the organization who has a Viva Engage Knowledge service plan. This feature requires Answers to collect user data, such as votes from fellow employees, which count toward badges.
 
 1. [Go to the Viva Engage admin center](admin-howto-access-admin-center-in-ve.md).
 
