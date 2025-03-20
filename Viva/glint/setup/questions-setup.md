@@ -86,7 +86,7 @@ In programs that use survey templates, like Quarterly Engagement, the Questions 
 > [!NOTE]
 > For Recurring surveys: 
 > - Choose survey items for each cycle by selecting the cycle number next to the item. Cycle one (1) is the upcoming survey that launches on the date selected in the **Send the next survey on** field in the survey **Schedule**.
-> - To allow the Questions section to save, select at least one cycle for all questions.
+> - To be able to save the Questions section, every cycle needs to have at least one question selected.
 
 ## Add a new custom question
    
