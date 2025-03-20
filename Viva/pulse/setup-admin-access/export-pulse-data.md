@@ -32,3 +32,4 @@ You get an email notification letting you know when your export job is complete.
 To export out report data from a tenant, select **Create an export request** and then select **Report data**. You must input a specific author and you can filter by pulse name and template type. After selecting your desired reports, select **Export to .csv**.
 
 You get an email notification letting you know when your export job is complete.
+ 
