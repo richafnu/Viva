@@ -2,11 +2,11 @@
 title: "Manage Viva Engage with Microsoft Intune"
 f1.keywords:
 - NOCSH
-ms.reviewer:
+ms.reviewer: jobacus
 ms.author: donnabouldin
-author: Starshine89
+author: v-rgrace
 manager: elizapo
-ms.date: 11/01/2023
+ms.date: 03/01/2025
 audience: Admin
 ms.topic: conceptual
 ms.service: viva-engage
@@ -29,7 +29,7 @@ When you subscribe to [Microsoft Intune](https://www.microsoft.com/en-us/securit
 
 Microsoft Intune provides mobile application management (MAM) capabilities for Viva Engage, Outlook, and other Microsoft mobile apps for iOS and Android.
   
-MAM helps you control bring your own devices (BYOD) users, and apps that support work and personal use, for devices that aren't enrolled in MDM. When using Intune with Viva Engage, you can set up policies covering Viva Engage instances on Android and iOS devices to help protect your corporate data. The following table lists Intune policies for mobile clients:
+MAM helps you manage bring-your-own-devices (BYOD) users, and apps for work and personal use, for devices that aren't enrolled in MDM. When you use Intune with Viva Engage, you can set up policies covering Viva Engage instances on Android and iOS devices to help protect your corporate data. The following table describes Intune policies for mobile clients:
   
 | Intune policy you can enforce on the app | Available for Android? | Available for iOS? |
 |:-----|:-----|:-----|
@@ -49,7 +49,6 @@ MAM helps you control bring your own devices (BYOD) users, and apps that support
 |The frequency of how often the access requirements are checked  |Yes  |Yes  |
 |Block screen capture and Android Assistant  |Yes  | -- |
 |When you retire or unenroll a device with the Viva Engage app, the application's corporate data is deleted  |Yes  |Yes  |
-   
+
 > [!IMPORTANT]
-> Intune enforces MAM policies when users authenticate to Viva Engage through Microsoft Entra ID accounts. They're not enforced when users authenticate to Viva Engage with Viva Engage-specific passwords or Viva Engage temporary passwords. 
-    
+> Intune enforces MAM policies when users authenticate to Viva Engage through Microsoft Entra ID accounts. They're not enforced when users authenticate to Viva Engage with Viva Engage-specific passwords or Viva Engage temporary passwords.
