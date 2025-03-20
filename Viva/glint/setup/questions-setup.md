@@ -1,12 +1,12 @@
 ---
-title: Questions setup in Program Summary of Viva Glint
-description: As a Microsoft Viva Glint Administrator, use the Questions section of a survey to select and reorder survey items, modify survey introduction and thank you messages, and add optional features like targeting, display logic, and sections.
+title: Viva Glint Questions setup
+description: As a Microsoft Viva Glint Administrator, use the Questions section to manage survey items, modify introduction and thank you messages, and add optional features like targeting, display logic, and sections.
 ms.author: JudithWeiner
 author: JudyWeiner
 manager: MelissaBarry
 audience: admin
 f1.keywords: NOCSH
-keywords: edit questions, survey items, question targeting, item targeting, add logo, survey instructions, survey thank you message
+keywords: edit questions, survey items, question targeting, item targeting, add logo, survey instructions, survey thank you message, add sections, custom question
 ms.collection: 
  - m365initiative-viva
  - selfserve
