@@ -34,13 +34,24 @@ Grant Live or Phased access to User Roles in your organization to determine when
  
 ## Grant user access for a completed cycle
 
-1. Switch to the **Completed** view and hover over the survey cycle.
-1. Select the hyperlink in the **Reporting Access** column.
-1. The Program Summary page displays, and then Reporting Access.
-1  Select **Grant Access**.
-1. Check the box of the roles you wish to grant access to. Once access is granted, it can't be revoked.
-1. Select **Provide Access**. Visible to All Reporting Roles and Release Completed is displayed.
+1. Switch to the **Completed** view and hover over the survey cycle. 
+1. In the **Reporting view** column for the desired survey, view reporting access. In this example, the **Reporting view** shows that *7 of 8 Roles* currently see reports and by hovering over the hyperlink, the User Roles with their current access display. The hyperlink could indicate *Fully Released**.
+
+   :::image type="content" source="../../media/glint/setup/access-view.png" alt-text="Screenshot of the Reporting view access display.":::
+
+1. Now select the hyperlink in the **Reporting view** column and then select **Grant Access**.
+   
+  :::image type="content" source="../../media/glint/setup/grant-access.png" alt-text="Screenshot of the Grant Access button to release results.":::
+
+1. In the **Grant Report Access**, check the box of any role that requires access. Once access is granted, it can't be revoked.
+1. Select **Provide Access**.
+   
+   :::image type="content" source="../../media/glint/setup/grant-report-access.png" alt-text="Screenshot of the Grant Report Access dialog box.":::
+
+1. Now the **Reporting view** column for this survey reads *Fully Releassed* and is visible to all roles with permissions. 
+
+   :::image type="content" source="../../media/glint/setup/fully-released.png" alt-text="Screenshot of the Fully Released reporting view.":::
 
 > [!IMPORTANT]
-> When a new program cycle begins, all reporting from the previous cycle is released to all users with permissions to see these results. This occurs automatically when a new cycle launches and occurs even when the admin hasn't manually changed access to **Live.**
+> When a new program cycle begins, all reporting from the previous cycle is automatically released to all users with permissions to see the results. This occurs even when the admin hasn't manually changed access to **Live.**
  
