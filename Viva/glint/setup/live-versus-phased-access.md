@@ -24,10 +24,10 @@ To determine when leaders get access to Recurring or Ad Hoc survey results, gran
 - **Live access**: Reporting access is readily available, in real time, as surveys are completed. Admins always have *Live* access and can't be included in *Phased* access rollout.
   
 - **Phased access**:  Recommended for managers and HRBPs (Human Resources Business Partners) for action planning, tracking, and reviewing feedback results for completed surveys.
-- Excludes this role group from real-time, live survey results
-- Is configured at the program level but occurs at the cycle level
-- Allows users access to historical cycles
-- Doesn't have reporting access during that cycle until the survey ends and the admin grants access. 
+  - Excludes this role group from real-time, live survey results
+  - Is configured at the program level but occurs at the cycle level
+  - Allows users access to historical cycles
+  - Doesn't have reporting access during that cycle until the survey ends and the admin grants access. 
 
 > [!TIP]
 > Keep survey results classified while the survey is *Live*, among just a small group of leaders. Incomplete results may lead to unintended and inaccurate conclusions. Feedback results aren't final until all results are considered.
@@ -35,20 +35,20 @@ To determine when leaders get access to Recurring or Ad Hoc survey results, gran
 ## Grant user access for a completed cycle
 
 1. Switch to the **Completed** view and hover over the survey cycle. 
-1. In the **Reporting view** column for the desired survey, view reporting access. In this example, the **Reporting view** shows that *7 of 8 Roles* currently see reports and by hovering over the hyperlink, the User Roles with their current access display. The hyperlink could indicate *Fully Released**.
+2. In the **Reporting view** column for the desired survey, view reporting access. In this example, the **Reporting view** shows that *7 of 8 Roles* currently see reports and by hovering over the hyperlink, the User Roles with their current access display. The hyperlink could indicate *Fully Released**.
 
    :::image type="content" source="../../media/glint/setup/access-view.png" alt-text="Screenshot of the Reporting view access display.":::
 
-1. Now select the hyperlink in the **Reporting view** column and then select **Grant Access**.
+3. Now select the hyperlink in the **Reporting view** column and then select **Grant Access**.
    
-  :::image type="content" source="../../media/glint/setup/grant-access.png" alt-text="Screenshot of the Grant Access button to release results.":::
+   :::image type="content" source="../../media/glint/setup/grant-access.png" alt-text="Screenshot of the Grant Access button to release results.":::
 
-1. In the **Grant Report Access**, check the box of any role that requires access. Once access is granted, it can't be revoked.
-1. Select **Provide Access**.
+4. In the **Grant Report Access**, check the box of any role that requires access. Once access is granted, it can't be revoked.
+5. Select **Provide Access**.
    
    :::image type="content" source="../../media/glint/setup/grant-report-access.png" alt-text="Screenshot of the Grant Report Access dialog box.":::
 
-1. Now the **Reporting view** column for this survey reads *Fully Released* and is visible to all roles with permissions. 
+6. Now the **Reporting view** column for this survey reads *Fully Released* and is visible to all roles with permissions. 
 
    :::image type="content" source="../../media/glint/setup/fully-released.png" alt-text="Screenshot of the Fully Released reporting view.":::
 
