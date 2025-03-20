@@ -23,7 +23,7 @@ search.appverid:
 
 **What license is required to use Answers?**
 
-To use Answers, you need a license to a Viva Engage Knowledge service plan. The service plan is available as part of _Viva Suite_ and _Employee Communications and Communities_.
+To use Answers, you need a license to a Viva Engage Knowledge service plan. The service plan is available as part of *Viva Suite* and *Employee Communications and Communities*.
 
 **Can users who aren't assigned the Viva Engage Knowledge service plan use Answers?**
 
@@ -36,10 +36,6 @@ See [Viva Engage Adoption](https://adoption.microsoft.com/yammer/).
 **Are posted questions visible to everyone in my company?**
 
 Answers are visible to anyone in your organization who has a Viva Suite license. Answers posts can be routed to anyone else in your organization who has a Microsoft 365 license, but those other employees can only access the individual thread, not other parts of Answers.
-
-**Can admins disable the Answers Digest that's sent to their organization?**
-
-Admins can't configure or disable the automated Answers Digest emails from Answers in Viva.
 
 **Does Answers permit guest access?**
 
