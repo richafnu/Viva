@@ -1,7 +1,7 @@
 ---
 title: "Set up Answers in Viva"
 description: "Overview and setup of Answers in Viva, including licensing, technical requirements, and data management."
-ms.reviewer: ethli
+ms.reviewer: davidchang
 ms.author: donnabouldin
 author: v-rgrace
 manager: elizapo
@@ -9,7 +9,7 @@ ms.date: 01/13/2025
 audience: Admin
 f1.keywords:
 - NOCSH
-ms.topic: article
+ms.topic: install-set-up-deploy
 ms.service: viva-engage
 ms.localizationpriority: high
 ms.collection:  

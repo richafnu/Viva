@@ -1,5 +1,5 @@
 ---
-ms.date: 7/12/2023
+ms.date: 1/03/2025
 title: "Automatic Native Mode migration and network consolidation"
 description: "Frequently asked questions about Native Mode for Viva Engage"
 ms.reviewer: auhosford
@@ -9,7 +9,7 @@ manager: elizapo
 audience: Admin
 f1.keywords:
 - NOCSH
-ms.topic: article
+ms.topic: upgrade-and-migration-article
 ms.service: viva-engage
 ms.localizationpriority: high
 ms.collection:  

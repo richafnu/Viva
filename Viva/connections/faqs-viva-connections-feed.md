@@ -8,7 +8,7 @@ manager: elizapo
 audience: Admin
 f1.keywords:
 - NOCSH
-ms.topic: article
+ms.topic: faq
 ms.service: viva-connections
 ms.localizationpriority: high
 ms.collection:
@@ -22,6 +22,10 @@ description: "Frequently asked questions about the Feed for Viva Connections"
 ---
 
 # Get answers to common questions about the Viva Connections Feed
+
+> [!NOTE]
+>
+> An update is planned for Q2 2025 that will replace the Feed experience with an Enterprise News Reader that will present news that's recommended for you from your organization.
 
 ## What can I expect to see in the Feed?
 
@@ -126,7 +130,7 @@ Users can bookmark content that they would like to view later by selecting the *
 
 For [new organization news sites](/sharepoint/organization-news-site), it can take up to 24 hours for boosted news created from those sites to appear in the Top News card in Viva Connections dashboard.
 
-## More resources:
+## More resources
 
 [Overview of Viva Connections](viva-connections-overview.md)
 

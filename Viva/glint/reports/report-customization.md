@@ -1,6 +1,6 @@
 ---
 title: Customize Viva Glint feedback reports
-description: Provide flexibility for users by editing, adding and removing sections of Viva Glint feedback reports. 
+description: Provide flexibility for users by editing, adding, and removing sections of Viva Glint feedback reports. 
 ms.author: JudithWeiner
 author: JudyWeiner
 manager: mbarry
@@ -11,10 +11,10 @@ ms.collection:
 - m365initiative-viva
 - selfserve 
 search.appverid: MET150 
-ms.topic: article
+ms.topic: how-to
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 01/24/2025
+ms.date: 02/21/2025
 ---
 
 # Customize Viva Glint feedback reports
@@ -44,23 +44,21 @@ From the customized report page, select the **dropdown arrow** next to Export. T
 
 Rename the new report so it's readily identifiable. **Renaming is essential so the new report doesn't replace the original report.** Select whether to use the latest data. **Yes** allows automatic updates for future surveys have results. Select **Save**.
 
-### Delete reports
+> [!NOTE]
+> The "Use latest data" option is only visible when a user accesses results for the most recent survey cycle for Recurring and Ad Hoc surveys.
 
-If a section of a report doesn’t provide the insight you're looking for, delete the report using the ellipses dropdown menu.
+### Delete report sections
+
+If a section of a report doesn’t provide the insight you're looking for, delete the report section using the ellipsis dropdown menu.
 
 ## Add a section to a report
 
-Any user with reporting access can add a section to a report by selecting **+ Add Section**. The **Add Section** slider panel opens.
+Any user with reporting access can add a section to their report by selecting **+ Add Section**. The **Add Section** slider panel opens.
 
-Using the menu bar, admins can add available sections to an existing report by selecting the **+ symbol** next to the section to be added. When available, choose a demographic for the new section and select **Add.**
+Admins can add available sections to an existing report by selecting the **+ symbol** next to the section to be added. When available, choose a demographic for the new section and select **Add.**
 
-
-
-
-
-
-
-
+> [!IMPORTANT]
+> When adding a section but there's insufficient score or number of responses to provide data for a section, you do see a "section added" banner. However, the section isn't visible on the report dashboard. The section may become visible as more surveys are completed. Activating the survey section doesn't mean that the section shows at that moment in time. 
 
 Edited sections can be saved under a new name to protect the integrity of the original report but so that the new report is also readily available.
 

@@ -2,14 +2,14 @@
 ms.date: 01/07/2025
 title: "Deep linking into Viva Engage"
 description: "Create deep links into Viva Engage"
-ms.reviewer: ethli
+ms.reviewer: vfurlong
 ms.author: donnabouldin
 author: v-rgrace
 manager: elizapo
 audience: Admin
 f1.keywords:
 - NOCSH
-ms.topic: article
+ms.topic: how-to
 ms.service: viva-engage
 ms.localizationpriority: high
 ms.collection:  
