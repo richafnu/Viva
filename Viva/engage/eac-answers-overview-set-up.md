@@ -33,7 +33,7 @@ The Viva Engage Knowledge service plan is part of the following licenses:
 - Microsoft Viva Employee Communications license
 - Microsoft Viva Employee Communities license
 
-Users with the Viva Engage Knowledge service plan have access to the Answers experience. They can ask and answer questions in communities and on the **Answers** tab, find similar questions, and receive rewards and recognition.  
+Users with the Viva Engage Knowledge service plan have access to the Answers experience. They can ask and answer questions in communities and on the **Answers** tab. Users can also find related questions, and receive rewards and recognition.  
 
 Users without the Viva Engage Knowledge service plan don't have the full Answers experience. Those users can ask questions, and view, vote, and respond to questions from communities in which they’re a member. When their name is mentioned in Answers, they receive notifications to those questions and can visit those threads.
 
