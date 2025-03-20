@@ -1,5 +1,5 @@
 ---
-title: Release results to roles in phased access
+title: Release feedback results to User Roles
 description: Grant live or phased access to determine when managers have access to survey results.
 ms.author: JudithWeiner
 author: JudyWeiner
@@ -14,32 +14,33 @@ search-appverid: MET150
 ms.topic: how-to
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 03/19/2025
+ms.date: 03/20/2025
 ---
 
-# Release results to roles in phased access
+# Release feedback results to User Roles
 
-There are two levels of reporting access in Microsoft Viva Glint:
+Grant Live or Phased access to User Roles in your organization to determine when leaders have access to Recurring or Ad Hoc survey results. Access status can't be switched while a survey is live.
 
 - **Live access**: Reporting access is readily available, in real time, as surveys are completed. Admins always have *Live* access and can't be included in *Phased* access rollout.
   
-- **Phased access**:  Recommended for managers and HRBPs (Human Resources Business Partners) for action planning, tracking, and reviewing feedback results for completed surveys. *Phased* access excludes this role group from real-time, live survey results. *Phased* access is configured at the program level but occurs at the cycle level.
+- **Phased access**:  Recommended for managers and HRBPs (Human Resources Business Partners) for action planning, tracking, and reviewing feedback results for completed surveys.
+- Excludes this role group from real-time, live survey results
+- Is configured at the program level but occurs at the cycle level
+- Allows users access to historical cycles
+- Doesn't support reporting access until the survey ends and cycle access is granted by the admin. 
 
->[!TIP]
->Keep survey results classified while the survey is *Live*, among just a small group of leaders. Incomplete results may lead to unintended and inaccurate conclusions. Feedback results aren't final until all results are considered.
-
-## Grant access
+> [!TIP]
+> Keep survey results classified while the survey is *Live*, among just a small group of leaders. Incomplete results may lead to unintended and inaccurate conclusions. Feedback results aren't final until all results are considered.
+ 
+## Grant user access for a completed cycle
 
 1. Switch to the **Completed** view and hover over the survey cycle.
-2. Select the content in the **Reporting Access** column in that row.
-3. The Program Summary page displays, and then Reporting Access.
-4. Select **Grant Access**.
-5. Check the box of the roles you wish to grant access to. Once access is granted, it can't be revoked.
-6. Select **Provide Access**. *Visible to All Reporting Roles and Release Completed* is displayed.
+1. Select the hyperlink in the **Reporting Access** column.
+1. The Program Summary page displays, and then Reporting Access.
+1  Select **Grant Access**.
+1. Check the box of the roles you wish to grant access to. Once access is granted, it can't be revoked.
+1. Select **Provide Access**. Visible to All Reporting Roles and Release Completed is displayed.
 
-   >[!IMPORTANT]
-   >
-   > - During a Live Recurring or Ad Hoc survey, users with Phased access don't have reporting access until the survey ends. Access can't be switched during a Live survey.
-   > - When a new program cycle begins, all reporting from the previous cycle is released. 
-
-
+> [!IMPORTANT]
+> When a new program cycle begins, all reporting from the previous cycle is released to all users with permissions to see these results. This occurs automatically when a new cycle launches and occurs even when the admin hasn't manually changed access to **Live.**
+ 
