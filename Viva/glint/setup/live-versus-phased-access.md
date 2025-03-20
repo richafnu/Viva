@@ -27,7 +27,7 @@ To determine when leaders get access to Recurring or Ad Hoc survey results, gran
   - Excludes this role group from real-time, live survey results
   - Is configured at the program level but occurs at the cycle level
   - Allows users access to historical cycles
-  - Doesn't have reporting access during that cycle until the survey ends and the admin grants access. 
+  - Prohibits reporting access during that cycle until the survey ends and the admin grants access 
 
 > [!TIP]
 > Keep survey results classified while the survey is *Live*, among just a small group of leaders. Incomplete results may lead to unintended and inaccurate conclusions. Feedback results aren't final until all results are considered.
@@ -46,7 +46,7 @@ To determine when leaders get access to Recurring or Ad Hoc survey results, gran
 4. In the **Grant Report Access**, check the box of any role that requires access. Once access is granted, it can't be revoked.
 5. Select **Provide Access**.
    
-   :::image type="content" source="../../media/glint/setup/grant-report-access.png" alt-text="Screenshot of the Grant Report Access dialog box.":::
+   :::image type="content" source="../../media/glint/setup/grant-report-access-2.png" alt-text="Screenshot of the Grant Report Access dialog box.":::
 
 6. Now the **Reporting view** column for this survey reads *Fully Released* and is visible to all roles with permissions. 
 
