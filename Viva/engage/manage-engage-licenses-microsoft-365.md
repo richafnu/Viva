@@ -122,7 +122,7 @@ Use the following steps to block users who don't have Viva Engage Core licenses.
 >[!NOTE]
 >Always ensure that network users sign in with their full Microsoft 365 identity.
 
-### Viva Engage content in Workplace Search and M365 Copilot
+## Viva Engage content in Workplace Search and M365 Copilot
 
 Users who don't have Viva Engage user licenses can see search results that originate from Viva Engage. This includes results from Workplace Search and from Copilot 365. Users without appropriate licensing can't select or otherwise interact with Viva Engage post links, or access Engage in any fashion.
 
