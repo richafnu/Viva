@@ -263,8 +263,6 @@ items:
            - name: Questions setup 
              href: setup/questions-setup.md
              items:
-               - name: Add items and sections
-                 href: setup/add-new-questions.md
                - name: Target survey items
                  href: setup/targeted-survey-items.md
                - name: Add item Display Logic
