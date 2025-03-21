@@ -206,7 +206,7 @@ To alert survey takers to a change in topic or keep in mind certain information 
 
 3. The new survey item shows under the Survey Section.
 
-## Add item targeting
+## Add question targeting
 
 Microsoft Viva Glint Administrators can use Distribution Lists or User Roles to target survey items or exclude items for specific groups of users. [Learn how to target items to certain users](targeted-survey-items.md).
 
@@ -214,7 +214,7 @@ Microsoft Viva Glint Administrators can use Distribution Lists or User Roles to 
 
 Display logic rules allow Viva Glint Admins to show or hide survey items depending on the survey taker’s responses to previous questions in a survey. [Learn more about tailoring survey experiences with Viva Glint Display Logic](viva-glint-display-logic.md).
 
-## Delete survey items
+## Delete survey questions
 
 To delete an item from a survey program:
 
