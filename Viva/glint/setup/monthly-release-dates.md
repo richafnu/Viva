@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: install-set-up-deploy
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 3/20/2025
+ms.date: 3/21/2025
 ---
 
 # Viva Glint platform deployment dates
@@ -22,7 +22,7 @@ ms.date: 3/20/2025
 Microsoft Viva Glint is consistently improving the customer experience. Our platform maintains an agile production cycle with fixes, enhancements, and new features. Updates are communicated to all customers via monthly email newsletters. [Find the current and past newsletters here.](https://techcommunity.microsoft.com/category/viva-glint/blog/viva_glint_blog)
 
 > [!NOTE]
-> Beginning in April 2025, Viva Glint deployment days move from Saturdays to Mondays or Thursdays.
+> Beginning in April 2025, Viva Glint deployment days move from Saturdays to Mondays.
 
 |Planned deployment dates for 2025|
 |--------------|
