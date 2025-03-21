@@ -55,7 +55,7 @@ Select **Collaboration between an individual and a group in your organization** 
 
 ### Add metrics, filters, and employee attributes
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RW1lda0]
+> [!VIDEO 99ddedd4-ee46-4f08-8fc0-228101a74e9b]
 
 1. Under **Add Metrics**, select the **Add metrics** button, then pick metrics from the **Select metrics** pane.
 1. When you're done picking metrics, select **Add to query**.
