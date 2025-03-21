@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: install-set-up-deploy
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 03/20/2025
+ms.date: 03/21/2025
 ---
 
 # Viva Glint Questions setup
@@ -69,7 +69,7 @@ To add a link to an employee resource or other information in your survey introd
    1. [Recurring or Ad Hoc survey preview process](preview-manage-enable-engage-programs.md)
    1. [Lifecycle and Always-On survey preview process](preview-filter-lifecycle-programs.md#preview-the-survey)
 
-## Add survey items
+## Add survey questions
 
 In programs that use survey templates, like Quarterly Engagement, the Questions section is prepopulated with survey items. There are two ways to access the Question library pane to add questions to a survey:
 
@@ -88,54 +88,31 @@ In programs that use survey templates, like Quarterly Engagement, the Questions 
 > - Choose survey items for each cycle by selecting the cycle number next to the item. Cycle one (1) is the upcoming survey that launches on the date selected in the **Send the next survey on** field in the survey **Schedule**.
 > - To be able to save the Questions section, every cycle needs to have at least one question selected.
 
-## Add a new custom question
-   
-> [!CAUTION]
-> Your organization may have policies governing appropriate survey items for employees. Ensure you consult any such policies before proceeding. Rather than create a new item, search the Question Library for existing questions that could be reused or repurposed. Viva Glint standard questions are validated and typically come with benchmarks and action plans. 
+## Create a custom question
 
-1. In the **Question library** edit pane, select the **+ Create** button. A **Create Question** window opens.
-1. For your new item, enter information in the following fields:
-
-   | Field  | Description and use | Question type | Editable or view only |
-   |:----------|:-----------|:------------|:------------|
-   | Question ID               | Unique question ID.     | All             | View only   |
-   | Language                  | Dropdown field that lists all translations for the question. This field also appears for English-only surveys. select languages from the dropdown menu to update translations.       | All        | Editable    |
-   | Question Type             | The question type: Rating, Open-Ended, or Multiple Choice/Multi-Select      | All             | View only   |
-   | Reporting label           | The shortened label for a question that appears in reports.       | All             | Editable    |
-   | Question text             | The full question text that survey takers see. This text also appears in some report areas.       | All             | Editable    |
-   | Benchmark                 | The Viva Glint standard question that this item is linked to for benchmarking. [Learn more](custom-question-benchmark.md).       | Rating          | Editable    |
-   | Instruction text          | Help text for survey takers to answer the question.       | All             | Editable    |
-   | Comment placeholder text  | Help text for survey takers to provide comments.       | All             | Editable    |
-   | Rating scale              | The number of responses for rated questions.        | Rating          | View only   |
-   | Label for all options     | Enable this toggle to display a label for all responses instead of only high and low values.      | Rating          | Editable    |
-   | Low value                 | The label for the lowest response for rated questions ("Strongly Disagree").       | Rating          | Editable    |
-   | High value                | The label for the highest response for rated questions ("Strongly Agree").        | Rating          | Editable    |
-   | Option description        | Enable this toggle to show descriptions for each multiple choice response option.       | Multiple Choice | Editable    | 
-   | Option fields             | Labels for each multiple choice response option.       | Multiple Choice | Editable    | 
-   | Select as least           | The minimum number of responses a user needs to select for a multi-select question.       | Multiple Choice | Editable    |
-   | Select at most            | The maximum number of responses a user can select for a multi-select question.        | Multiple Choice | Editable    |
-   | Allows comments           | Enable or disable to allow or disallow comments that supplement responses.       | Rating and Multiple Choice  | Editable   |
-   | Optional question         | Enable or disable to allow or disallow users to skip the question.      | Rating and Multiple Choice  | Editable   |
-   | Suggested action template | Confirm the default or select a different template from the dropdown menu for managers to have suggested action items when choosing this item as a Focus Area.        | Rating                      | Editable   |
-                 
-1. If your survey uses multiple languages, select each language from the **Language** dropdown menu to update translations. Changes autosave when a new language is selected from the dropdown menu.
-1. Select **Save and Add**.
-
-### Considerations for custom questions
-
-When creating new custom questions, keep in mind that:
+When creating **new custom questions**, keep in mind that:
 
 - There are no preloaded translations.
 - There are no external benchmarks. [Learn more about mapping custom questions to benchmarks](custom-question-benchmark.md).
 - Custom questions aren't included in the [Attrition Risk Index](/viva/glint/reports/alerts-report-attrition-risk#attrition-risk-index).
 - Custom questions aren't mapped to standard [Action Plan Templates](/viva/glint/setup/customize-action-plans#understand-terminology-associated-with-content-resources-and-action-plans) or recommended [Focus Areas](/viva/glint/people-science/people-science-explains-focus-areas).
+   
+> [!CAUTION]
+> Your organization may have policies governing appropriate survey items for employees. Ensure you consult any such policies before proceeding. Rather than create a new item, search the Question Library for existing questions that could be reused or repurposed. Viva Glint standard questions are validated and typically come with benchmarks and action plans. 
 
-## Edit survey items
+1. Select the **+** symbol at before the Thank you message to open the **Question library** edit pane.
+2. Select the **+ Create** button. A **Create Question** window opens.
+   1. You can also select an existing question to access the **Edit Question** pane and choose **Duplicate question** create a custom copy of a Viva Glint item.
+1. For your new item, enter information in [editable fields](#editable-question-fields).              
+1. If your survey uses multiple languages, select each language from the **Language** dropdown menu to update translations. Changes autosave when a new language is selected from the dropdown menu.
+1. Select **Save and Add**.
 
-> [!IMPORTANT]
-> Before editing an item:
-> - Select the item and check whether it exists in other surveys in the Associated Programs tab.
-> - [Review the impact of editing Viva Glint standard items](question-library.md#the-implication-of-customizing-editing-question-library-items).
+## Edit survey questions
+
+Before **editing** an item:
+
+- Select the item and check whether it exists in other surveys in the Associated Programs tab.
+- [Review the impact of editing Viva Glint standard items](question-library.md#the-implication-of-customizing-editing-question-library-items).
 
 To edit a survey item in the Questions section:
 
@@ -144,36 +121,39 @@ To edit a survey item in the Questions section:
    :::image type="content" source="../../media/glint/setup/questions-dropdown.png" alt-text="Screenshot of the dropdown menu next to survey items.":::
 
 1. Select **Edit Question** from the ellipsis dropdown menu.
-1. In the **Edit Question** pane, edit the fields, if needed. Some fields are view-only.
-
-      | Field  | Description and use | Question type | Editable or view only |
-      |:----------|:-----------|:------------|:------------|
-      | Question ID               | Unique question ID.     | All             | View only   |
-      | Language                  | Dropdown field that lists all translations for the question. This field also appears for English-only surveys. select languages from the dropdown menu to update translations.       | All             | Editable    |
-      | Question Type             | The question type: Rating, Open-Ended, or Multiple Choice/Multi-Select      | All             | View only   |
-      | Reporting label           | The shortened label for a question that appears in reports.       | All             | Editable    |
-      | Question text             | The full question text that survey takers see. This text also appears in some report areas.       | All             | Editable    |
-      | Benchmark                 | The Viva Glint standard question that this item is linked to for benchmarking. [Learn more](custom-question-benchmark.md).       | Rating          | Editable    |
-      | Instruction text          | Help text for survey takers to answer the question.       | All             | Editable    |
-      | Comment placeholder text  | Help text for survey takers to provide comments.       | All             | Editable    |
-      | Rating scale              | The number of responses for rated questions.        | Rating          | View only   |
-      | Label for all options     | Enable this toggle to display a label for all responses instead of just high and low values.      | Rating          | Editable    |
-      | Low value                 | The label for the lowest response for rated questions ("Strongly Disagree").       | Rating          | Editable    |
-      | High value                | The label for the highest response for rated questions ("Strongly Agree").        | Rating          | Editable    |
-      | Option description        | Enable this toggle to show descriptions for each multiple choice response option.       | Multiple Choice | Editable    | 
-      | Option fields             | Labels for each multiple choice response option.       | Multiple Choice | Editable    | 
-      | Select as least           | The minimum number of responses a user needs to select for a multi-select question.       | Multiple Choice | Editable    |
-      | Select at most            | The maximum number of responses a user can select for a multi-select question.        | Multiple Choice | Editable    |
-      | Allows comments           | Enable or disable to allow or disallow comments that supplement responses.       | Rating and Multiple Choice  | Editable   |
-      | Optional question         | Enable or disable to allow or disallow users to skip the question.      | Rating and Multiple Choice  | Editable   |
-      | Suggested action template | Confirm the default or select a different template from the dropdown menu for managers to have suggested action items when choosing this item as a Focus Area.        | Rating                      | Editable   |
-                 
+1. In the **Edit Question** pane, change information in [editable fields](#editable-question-fields).               
 1. If your survey uses multiple languages, select each language from the **Language** dropdown menu to update translations. Changes autosave when a new language is selected from the dropdown menu.
 1. Select **Save changes**.
 
 > [!IMPORTANT]
 > - Open-Ended questions are always optional and don't include an "Optional question" setting.
 > - To add a new response option to Multiple Choice/Multi-Select questions, always use the "+ Add new choice" feature. Switch the "Show" toggle to "Hide" to retire an option. Overwriting an existing option with a different/new label causes trend issues in reports and confusion in raw data exports.
+
+## Editable question fields
+
+Viva Glint survey questions have some fields that are view only and fields can vary by question type. For more information, see the following table.
+
+| Field  | Description and use | Question type | Editable or view only |
+|:----------|:-----------|:------------|:------------|
+| Question ID               | Unique question ID.     | All             | View only   |
+| Language                  | Dropdown field that lists all translations for the question. This field also appears for English-only surveys. select languages from the dropdown menu to update translations.       | All        | Editable    |
+| Question Type             | The question type: Rating, Open-Ended, or Multiple Choice/Multi-Select      | All             | View only   |
+| Reporting label           | The shortened label for a question that appears in reports.       | All             | Editable    |
+| Question text             | The full question text that survey takers see. This text also appears in some report areas.       | All             | Editable    |
+| Benchmark                 | The Viva Glint standard question that this item is linked to for benchmarking. [Learn more](custom-question-benchmark.md).       | Rating          | Editable    |
+| Instruction text          | Help text for survey takers to answer the question.       | All             | Editable    |
+| Comment placeholder text  | Help text for survey takers to provide comments.       | All             | Editable    |
+| Rating scale              | The number of responses for rated questions.        | Rating          | View only   |
+| Label for all options     | Enable this toggle to display a label for all responses instead of only high and low values.      | Rating          | Editable    |
+| Low value                 | The label for the lowest response for rated questions ("Strongly Disagree").       | Rating          | Editable    |
+| High value                | The label for the highest response for rated questions ("Strongly Agree").        | Rating          | Editable    |
+| Option description        | Enable this toggle to show descriptions for each multiple choice response option.       | Multiple Choice | Editable    | 
+| Option fields             | Labels for each multiple choice response option.       | Multiple Choice | Editable    | 
+| Select as least           | The minimum number of responses a user needs to select for a multi-select question.       | Multiple Choice | Editable    |
+| Select at most            | The maximum number of responses a user can select for a multi-select question.        | Multiple Choice | Editable    |
+| Allows comments           | Enable or disable to allow or disallow comments that supplement responses.       | Rating and Multiple Choice  | Editable   |
+| Optional question         | Enable or disable to allow or disallow users to skip the question.      | Rating and Multiple Choice  | Editable   |
+| Suggested action template | Confirm the default or select a different template from the dropdown menu for managers to have suggested action items when choosing this item as a Focus Area.        | Rating                      | Editable   |
 
 ## Add a Section Break or Survey Section 
 
