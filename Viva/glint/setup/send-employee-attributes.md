@@ -11,10 +11,10 @@ ms.collection:
  - m365initiative-viva
  - selfserve
 search-appverid: MET150
-ms.topic: article
+ms.topic: install-set-up-deploy
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 02/14/2025
+ms.date: 03/10/2025
 ---
 
 # Set up attributes in Viva Glint
@@ -120,7 +120,7 @@ Map attributes in your employee data to Viva Glint language, time zone, and pers
 
 > [!IMPORTANT]
 > - Send language and time zone values exactly as they appear in related tabs in the [Employee Attribute Template](https://www.microsoft.com/en-us/download/details.aspx?id=105533). Users with blank or invalid values receive and access surveys/emails/dashboards in your organization's default selection in General Settings.
-> - See the Language Codes tab of the Employee Attribute Template for changes to supported languages and codes effective April 10, 2025.
+> - See [Upcoming language changes](attribute-fundamentals.md#upcoming-language-changes) for changes to supported languages and codes effective April 10, 2025.
 
 ### Hierarchy groups
 

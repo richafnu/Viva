@@ -11,10 +11,10 @@ ms.collection:
  - m365initiative-viva
  - selfserve
 search-appverid: MET150
-ms.topic: article
+ms.topic: concept-article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 01/22/2025
+ms.date: 03/14/2025
 ---
 
 # Viva Glint employee attribute fundamentals
@@ -71,8 +71,8 @@ Optional system attributes are values that indicate how and when communications 
 
 |Optional System Attribute  |Description  |
 |----------|-----------|
-|Survey Language     |The language in which employees receive surveys and emails.      |
-|Dashboard Language|The language in which users view dashboards.  |
+|Survey Language     |The language for employee surveys and emails.      |
+|Dashboard Language|The language for users' dashboards.  |
 |User Timezone|The time zone in which survey communications are sent.  |
 |Personal Email|Users' personal email addresses that can be used to survey exiting employees. Select Company and Personal Email in the Communications section of your survey program.  |
 
@@ -81,19 +81,33 @@ Optional system attributes are values that indicate how and when communications 
 
 ### Time zones
 
-Global companies often include a time zone attribute column in their Employee Attribute Template to trigger emails in employees’ time zones. Use the Time Zone tab of the [Employee Attribute Template](https://www.microsoft.com/en-us/download/details.aspx?id=105533) to find valid time zone values. Before a survey launches, ensure that all employees have a valid value attached to their records.
+Global companies often include a time zone attribute column in their Employee Attribute Template to trigger emails in employees’ time zones. To find valid time zone values, use the Time Zone tab of the [Employee Attribute Template](https://www.microsoft.com/en-us/download/details.aspx?id=105533). Before a survey launches, ensure that all employees have a valid value attached to their records.
 
 ### Languages
 
 Use the Language Codes tab on the [Employee Attribute Template](https://www.microsoft.com/en-us/download/details.aspx?id=105533) to find language values that trigger survey emails in an employee’s preferred language. Ensure that you include a Language column in your Employee Attribute File. Before a survey launches, ensure that all employees have a valid value attached to their records.
 
-> [!IMPORTANT]
-> See the Language Codes tab of the [Employee Attribute Template](https://www.microsoft.com/en-us/download/details.aspx?id=105533) for changes to supported languages and codes effective April 10, 2025. 
-
 If you also supply language values to indicate users’ dashboard languages (for users who view reports), include a separate column (example: Dashboard Language).
 
->[!NOTE]
-> Dashboards do not support languages that are read from right to left.
+> [!NOTE]
+> Dashboards don't support languages that are read from right to left.
+
+### Upcoming language changes
+
+In April 2025, some supported languages for Viva Glint will change. Some languages will be deprecated, and potential replacements are noted in the following table. These languages receive no updates after April 2025 and are only available in the platform through August 2025. To keep any custom translations, [export translated content](language-translations.md) before the end of August 2025. After August 2025, if deprecated languages are used, users are directed to your organization's default language.
+
+| Current language  | Current language code | Potential alternative language | Potential alternative code |
+|:----------|:-----------|:------------|:------------|
+| Austrian (German)   | de_AT                 | German  | de_DE  | 
+| Chinese (Hong Kong) | zh_HK  | Chinese (Traditional) or Chinese (Simplified) | zh_TW or zh_CN  |
+| Bengali             | bn_BD                | Bangla  | bn-IN  | 
+| Armenian            | hy_AM   | None  | None  | 
+| Haitian Creole      | fr_HT  | None  | None  | 
+| Northern Sotho      | ns_ZA   | None | None  | 
+| Sinhala             | si_LK   | None | None  | 
+| Swahili             | sw_KE   | None | None  | 
+| Welsh               | cy_GB  | None  | None  | 
+| Xhosa               | xh_ZA  | None  | None  |
 
 ## Next step
 Learn about Viva Glint organizational hierarchy fundamentals, including a Glint calculated Manager Hierarchy and other hierarchy groups.

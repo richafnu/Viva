@@ -11,10 +11,10 @@ ms.collection:
  - m365initiative-viva
  - selfserve
 search-appverid: MET150
-ms.topic: article
+ms.topic: how-to
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 02/24/2025
+ms.date: 03/04/2025
 ---
 
 # Manage Support users in Viva Glint
@@ -22,7 +22,7 @@ ms.date: 02/24/2025
 The Support User role is designed to grant the right permissions to guests, like Microsoft Partners, and allow Microsoft Viva Glint Administrators to quickly audit how many Support users have access to their Viva Glint application. Support users can help with deployment, advanced insights analysis, and complex support tasks. 
 
 > [!IMPORTANT]
-> - Support users need to exist Microsoft Entra ID as **members with a company email address** for your organization that matches the email for their profile in the Viva Glint platform.
+> - Support users can exist in Microsoft Entra ID with a member type of Guest or Member with a company email address for your organization that matches the email for their profile in the Viva Glint platform. [Learn more about how Support users sign in to Viva Glint](#sign-in-as-a-support-user)
 > - Support users require an Entra license but don't count toward your organization's Viva Glint licenses.
 > - Support users shouldn't be included in your employee data file uploaded to Viva Glint.
 
@@ -50,6 +50,21 @@ To add a user:
    > Configuration options in Viva Glint.](understand-advanced-configuration.md)
 
 7. Select **Add support user.**
+
+## Sign in as a Support user
+
+Support users need to take these steps to access Viva Glint with member types of "Guest" in Entra.
+
+1. Select the appropriate link for the organization's region:
+   - US - [http://app.us1.glint.cloud.microsoft](http://app.us1.glint.cloud.microsoft)
+   - EU - [http://app.eu1.glint.cloud.microsoft](http://app.eu1.glint.cloud.microsoft)
+2. Select **Sign-in options** in the **Sign in** dialog.
+3. Select **Sign in to an organization.**
+4. Enter the **domain name**, for example: `contoso.onmicrosoft.com`, of the organization you'd like to sign in to and select **Next**.
+5. Enter your email and password, select **Sign in**, and follow other sign-on prompts (for example: multifactor authentication).
+
+> [!TIP]
+> To prevent sign-in issues, try accessing Viva Glint in a new InPrivate or Incognito window.
 
 ## Remove a Support user
 
