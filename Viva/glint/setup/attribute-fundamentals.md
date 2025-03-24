@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: concept-article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 03/14/2025
+ms.date: 03/24/2025
 ---
 
 # Viva Glint employee attribute fundamentals
@@ -100,7 +100,7 @@ In April 2025, some supported languages for Viva Glint will change. Some languag
 |:----------|:-----------|:------------|:------------|
 | Austrian (German)   | de_AT                 | German  | de_DE  | 
 | Chinese (Hong Kong) | zh_HK  | Chinese (Traditional) or Chinese (Simplified) | zh_TW or zh_CN  |
-| Bengali             | bn_BD                | Bangla  | bn-IN  | 
+| Bengali             | bn_BD                | Bangla  | bn_IN  | 
 | Armenian            | hy_AM   | None  | None  | 
 | Haitian Creole      | fr_HT  | None  | None  | 
 | Northern Sotho      | ns_ZA   | None | None  | 
