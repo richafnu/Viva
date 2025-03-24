@@ -25,11 +25,11 @@ ms.date: 3/25/2025
 > Managers can use Copilot in Viva Glint to analyze survey feedback. Download this page as a PDF to help them get the most valuable insights from Copilot in Viva Glint.
 
 Copilot in Viva Glint can:
-•	Summarize comments to identify key themes 
-•	Summarize comments by demographics
-•	Summarize comments by survey items
-•	Identify what actions your employees are asking for
-•	Summarize non-English comments
+- Summarize comments to identify key themes 
+- Summarize comments by demographics
+- Summarize comments by survey items
+- Identify what actions your employees are asking for
+- Summarize non-English comments
 
 ## Manager process for reviewing feedback results 
 
