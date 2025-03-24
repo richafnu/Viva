@@ -34,8 +34,8 @@ Copilot in Viva Glint can:
 ## Manager process for reviewing feedback results 
 
 |**Step**| **Task**| **Where to find it**|
-|:-------|:-----------|:-----------|
-|**1**| **Review your scores** on the Glint dashboard before jumping directly into Copilot. Consider: <br> <ul><li>Where are you high and low scores?<br></li><li>What items have high comment counts? <br></li><li>Are there teams or subgroups scoring higher or lower than others?</ul>|**Manager Team Summary dashboard** <br><br>:::image type="content" source="../../media/glint/setup/copilot-team-summary-1.png" alt-text="Screenshot of the Manager Team Summary dashboard.":::|
+|:-------:|:-----------|:-----------|
+|**1**| **Review your scores** on the Glint dashboard before jumping directly into Copilot. Consider: <br> <ul><li>Where are your high and low scores?<br></li><li>What items have high comment counts? <br></li><li>Are there teams or subgroups scoring higher or lower than others?</ul>|**Manager Team Summary dashboard** <br><br>:::image type="content" source="../../media/glint/setup/copilot-team-summary-1.png" alt-text="Screenshot of the Manager Team Summary dashboard.":::|
 |**2**|**Use the Strengths & Opportunities section** to understand strengths to celebrate and opportunity areas to improve upon.<br> <ul><li>What opportunity items do you want to better understand through the comments?<br></li><li>What themes do you want to explore more?<br></li><li>Select 1-2 Focus Areas to explore for taking action.</ul>|**Strengths & Opportunities section of Team Summary** <br><br>:::image type="content" source="../../media/glint/setup/copilot-strengths-opps.png" alt-text="Screenshot of Strengths & Opportunities on the Manager Team Summary dashboard.":::|
 |**3**|**Ask Copilot in Viva Glint to dive deeper** to uncover insights around your areas of interest. <br>Examples of Copilot prompts: <br> </li><li> What are people saying about my [top opportunity]?  <br> </li><li> What are people in [region] saying about [topic]?  <br> </li><li> What are people recommending leaders do to improve [topic]? </ul> |**Copilot button** <br><br>:::image type="content" source="../../media/glint/setup/copilot-button-1.png" alt-text="Screenshot of the Copilot button on the Manager Team Summary dashboard.":::|
 
@@ -54,10 +54,9 @@ Copilot in Viva Glint can:
 
 - The prompt character limit is 250 characters. You see a character countdown as you add your prompt.
 - Copilot can only summarize up to 8000 comments. If you have more than 8000 comments, consider being more specific. Choose one highlight from the summary and ask Copilot to drill down on that theme by supplying more specific comments.
+- Copilot can't summarize its own summary!
 - For the most relevant summary results, include specific question titles, demographic attributes, prescriptive comments, or other available report filters in your prompt.
-- 
-
-
+  
 ## Suggested high-level prompts for general comment summarization
 
 Fill in your own attributes, filters, survey names, or employee names where the examples have square brackets examples.
@@ -77,13 +76,19 @@ Fill in your own attributes, filters, survey names, or employee names where the 
 
 ### Deep-dive example
 
-Summarize the “Microsoft Viva People Success Elements.”  Then suggest a few concrete actions for me, as a Department Manager, to improve my employee engagement score. Please use the comments in the [date/name] survey.|Swap Viva People Success Elements to your organization's core values and ask Copilot to generate concrete actions based upon that statement to improve engagement scores.|Choose one highlight from the summary and ask Copilot to drill down on that theme, taking more from those specific comments.|
+**Prompt**:  Summarize the “Microsoft Viva People Success Elements.” Then suggest a few concrete actions for me, as a Department Manager, to improve my employee engagement score. Please use the comments in the [date/name] survey.
+
+**Consider**:
+   - Swap Viva People Success Elements to your organization's core values and then ask Copilot to generate concrete actions based upon that statement to improve engagement scores.
+   - Choose one highlight from the summary and ask Copilot to drill down on that theme, taking more from those specific comments.|
 
 ## Suggested prompts for specific comment summarization
 
+Fill in your own attributes, filters, survey names, or employee names where the examples have square brackets examples.
+
 |**Topic**|**Prompt**|
 |--------|-----------|
-|**Comment summarization/filter**|What are people in the [Marketing]department saying about the [item]?|
+|**Comment summarization/filter**|What are people in the [Marketing] department saying about the [item]?|
 |**Comment summarization/compare**|Compare the sentiment of comments from [male] and [female] employees regarding [management support].|
 |**Comment summarization/with Viva Insights integration enabled**|Find comments from employees who work [20+ after hours a week.]|
 |**Comment summarization/with Viva Insights intgration enabled**|Show feedback on [manager support] from [employees with less than 10 minutes of 1:1 time per week.|
