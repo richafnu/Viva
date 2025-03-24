@@ -43,10 +43,44 @@ Copilot in Viva Glint can:
 
 ||**Recommendation**| **Benefit**| 
 |----|:-----------|:-----------|
-|:::image type="icon" source="/office/media/icons/search.png":::|**Browse the ready-to-use prompts.**|The prompt guide suggests questions to get you started on data exploration.|
-|:::image type="icon" source="/office/media/icons/lightbulb-idea-capture-blue.png":::|**Experiment writing your own prompts.**|Try using prompts on different topics, survey items, and demographic groups. Rephrase a comment or word that didn’t work right away.|
+|:::image type="icon" source="/office/media/icons/search-blue.png":::|**Browse the ready-to-use prompts.**|The prompt guide suggests questions to get you started on data exploration.|
+|:::image type="icon" source="/office/media/icons/lightbulb-idea-capture-blue.png":::|**Experiment writing your own prompts.**|Try using prompts on different topics, survey items, and demographic groups. Rephrase a comment or word that didn’t work right away.*|
 |:::image type="icon" source="/office/media/icons/paragraph-writing.png":::|**Be specific in prompt writing.**|Copilot understands your intended prompt best when you use detailed prompts.|
-|:::image type="icon" source="/office/media/icons/paragraph-writing.png":::|**Bundle requests into a single prompt for your summary.** Ask multi-step prompts, building up to your anticipated follow-up question. Copilot won't summarize its own summary, so you only get one chance at a summary!|
-|:::image type="icon" source="/office/media/icons/shopping-cart-blue.png":::|**Deep dive into a specific followup topic.**| From the summary, choose one or two items to ask Copilot for more information.|
-|:::image type="icon" source="/office/media/icons/sign-up.png":::|**Keep prompts to Viva Glint data.**|Copilot in Viva Glint doesn't acess data beyond what's on your dashboard so make the most of all the information available!|
+|:::image type="icon" source="/office/media/icons/paragraph-writing-blue.png":::|**Bundle requests into a single prompt for your summary.** Ask multi-step prompts, building up to your anticipated follow-up question.| Copilot can't summarize its own summary!|
+|:::image type="icon" source="/office/media/icons/shopping-cart-blue.png":::|**Deep dive into a specific follow-up topic.**| From the summary, choose one or two items to ask Copilot for more information.|
+|:::image type="icon" source="/office/media/icons/sign-up-blue.png":::|**Keep prompts to Viva Glint data.**|Copilot in Viva Glint doesn't acess data beyond what's on your dashboard so make the most of all the information available!|
 
+* The prompt character limit is 250 characters. You see a character countdown as you add your prompt.
+
+## Suggested high-level prompts
+
+Use your own ideas and filters where the examples have square brackets.
+
+|**Topic**| **Prompt**|**Consider or follow-up**|
+|-------|---------|-----------|
+|**Comment summarization**|Summarize the “Microsoft Viva People Success Elements.”  Then suggest a few concrete actions for me, as a Department Manager, to improve my employee engagement score. Please use the comments in the [date/name] survey.|Swap Viva People Success Elements to your organization's core values and ask Copilot to generate concrete actions based upon that statement to improve engagement scores.|Choose one highlight from the summary and ask Copilot to drill down on that theme, taking more from those specific comments.|
+|**Comment summarization**|Summarize all comments for me.|Copilot can only summarize up to 8000 comments, so if you have more than 8000 comments, consider being more specific.|Choose one highlight from the summary and ask Copilot to drill down on that theme, taking more from those specific comments.|
+|**Comment summarization**|What are employees saying at my organization?||
+|**Comment summarization**|Provide three actions based on the comments from my employees.||
+|**Comment summarization**|Provide a summary from the comment themes.||
+|**Comment summarization**|What are the top five topics from the comments?||
+|**Comment summarization**|What are employees saying that is positive about the organization?||
+|**Comment summarization**|Provide three actions based on comments from my employees for the [item name] item?||
+|**Comment summarization**|Find comments from employees in the [department name] who have been with the company for [less than one year.]||
+|**Comment summarization**|Show feedback from employees [aged 50+] about our [onboarding] program.||
+|**Comment summarization**|Tell me what people are saying about [wellbeing] at work.||
+|**Comment summarization**|Show comments related to [career development].||
+|**Comment summarization**|Tell me what employees in [APAC] are saying about [work-life balance].||
+|**Comment summarization/filter**|What are people in the [Marketing]department saying about the [item]?||
+|**Comment summarization/compare**|Compare the sentiment of comments from [male] and [female] employees regarding [management support].||
+|**Comment summarization/with Viva Insights integration enabled**|Find comments from employees who work [20+ after hours a week.]||
+|**Comment summarization/with Viva Insights intgration enabled**|Show feedback on [manager support] from [employees with less than 10 minutes of 1:1 time per week.||
+|**Diversity and Inclusion**|
+|**Diversity and Inclusion**|
+|**Performance and Productivity**|
+|**Performance and Productivity**|
+|**Retention and Turnover**|
+|**Retention and Turnover**|
+|**Leadership and Management**|
+|**Leadership and Management**|
+|**Work Environment and Culture**|
