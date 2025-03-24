@@ -29,8 +29,8 @@ Microsoft Viva Glint recurring surveys happen at definite points in time and tre
 
 **Monthly versus Last 30 Days in Heap Map reports:** The Survey Date section in Heat Map reports uses the start month used to calculate a score as the label for the column.
 
-- When selecting a [Monthly](#monthly) date range, the most recent month column in the **Survey Date** section shows the current month. The a score date range starts and ends in the current month.
-- When selecting the [last 30 days](#last-30-days) date range, the most recent month column in the **Survey Date** section shows the previous month. The score is using a 30-day lookback from today's date, which makes the start date for the score in the previous month.
+- When users select a [Monthly](#monthly) date range, the most recent month column in the **Survey Date** section shows the current month. The score date range starts and ends in the current month.
+- When users select the [last 30 days](#last-30-days) date range, the most recent month column in the **Survey Date** section shows the previous month. The score is using a 30-day lookback from today's date, which makes the start date for the score in the previous month.
 
 ## Date filters for Lifecycle reports
 
