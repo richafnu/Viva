@@ -31,7 +31,7 @@ Microsoft Viva Glint Nudges are personalized notifications designed to meet mana
 | Term | Definition | 
 |---|---|
 | **Recipient group** | Defines who receives Nudges and at what frequency |
-| **Teammates** | This term has a different meaning dependent upon the employee role: <br><br> <ul><li> Individual contributors: Managers + peers </li><li> Frontline manager: Manager + directs </li><li> Manager of Mangers: Manager + direct </li></ul>|
+| **Teammates** | This term has a different meaning dependent upon the employee role: <br><br> <ul><li> Individual contributors: Managers + peers </li><li> Frontline manager: Manager + directs </li><li> Manager of Managers: Manager + direct </li></ul>|
 
 ## How managers benefit from Nudges
 
