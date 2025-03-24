@@ -246,7 +246,7 @@ items:
              href: setup/program-summary-setup-lifecycle.md
            - name: Set up an Exit survey
              href: setup/exit-survey-setup.md
-           - name: Preview and filter a Lifecycle survey
+           - name: Preview a Lifecycle survey
              href: setup/preview-filter-lifecycle-programs.md 
       - name: Set up an Always-On survey
         href: setup/always-on-surveys.md
