@@ -50,7 +50,7 @@ Copilot in Viva Glint can:
 |:::image type="icon" source="/office/media/icons/shopping-cart-blue.png":::|**Deep dive into a specific follow-up topic.**| From the summary, choose one or two items to ask Copilot for more information.|
 |:::image type="icon" source="/office/media/icons/sign-up-blue.png":::|**Keep queries to Viva Glint data.**|Copilot in Viva Glint doesn't acess data beyond what's on your dashboard so make the most of all the information available!|
 
-## Important need to knows
+## Important need-to-knows
 
 - The prompt character limit is 250 characters. You see a character countdown as you add your prompt.
 - Copilot can only summarize up to 8000 comments. If you have more than 8000 comments, consider being more specific. Choose one highlight from the summary and ask Copilot to drill down on that theme by supplying more specific comments.
