@@ -113,7 +113,7 @@ Quarterly views are based on calendar year, not fiscal year.
 
 ## Understand how response numbers show in ELC reporting
 
-The default report date range for lifecylce surveys is 90 days. Sometimes people in your organization may take the survey frequently - the waiting period is less than 90 days. How is this data counted?
+The default report date range for lifecycle surveys is 90 days. Sometimes people in your organization may take the survey frequently - the waiting period is less than 90 days. How is this data counted?
 
  - The response number shows for unique users only. Repeat survey takers count only once.
  - Multiple responses submitted by a single user are counted in the aggregate and the multiple choice report.
