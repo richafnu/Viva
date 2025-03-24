@@ -80,7 +80,7 @@ Defines when and how frequently users receive Nudges. From the dropdown menu, ch
 - **Send Day:** Choose a business day of the week for Nudges to send.
 - **Window:** Select the number of days Nudge messages send after a survey closes.
 
-> [1TIP]
+> [!TIP]
 > Align Nudges to your survey cadence. For example, 90 days for quarterly surveys or 180 days for biannual survey.
       
 #### Enable, disable, and preview content 
