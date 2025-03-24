@@ -31,11 +31,11 @@ Microsoft Viva Glint Nudges are personalized notifications designed to meet mana
 | Term | Definition | 
 |---|---|
 | **Recipient group** | Defines who receives Nudges and at what frequency |
-| **Teammates** | This term has a different meaning dependent upon the employee role: <br><br> <ul><li> Individual contributors: Managers + peers </li><li> First-line manager: Manager + directs </li><li> Manager of Mangers: Manager + direct </li></ul>|
+| **Teammates** | This term has a different meaning dependent upon the employee role: <br><br> <ul><li> Individual contributors: Managers + peers </li><li> Frontline manager: Manager + directs </li><li> Manager of Mangers: Manager + direct </li></ul>|
 
 ## How managers benefit from Nudges
 
-Nudges differ from other Viva Glint notifications.Nudges are sent only for high priority messages, such as:
+Nudges differ from other Viva Glint notifications. Nudges are sent only for high priority messages, such as:
 
 - Concierge-like Nudges to interpret and share results and commit to a Focus Area.
 - Reminders and suggestions for taking action on Focus Areas.
@@ -85,7 +85,7 @@ Defines when and how frequently users receive Nudges. From the dropdown menu, ch
       
 #### Enable, disable, and preview content 
 
-Select the **Nudge #** to enable, disable, or preview Nudge messages. The corresponding preivew pane opens.
+Select the **Nudge #** to enable, disable, or preview Nudge messages. The corresponding preview pane opens.
 
 - Enable or disable by using the **On** and **Off** toggle. 
 - Preview what your Nudge looks like: It includes your company logo, the survey name, highlight where the user is in the results process, and a link to view results.
@@ -99,9 +99,9 @@ Select the **Nudge #** to enable, disable, or preview Nudge messages. The corres
 
 When Viva Glint Admins enable Nudges for Recurring and Ad Hoc surveys in Program Setup, they appear in the **Enabled programs** list. 
 
-To ebable **Nudges** for a survey program:
+To enable **Nudges** for a survey program:
 
-1. Go to **Configuration** and selct **Survey Programs**.
+1. Go to **Configuration** and select **Survey Programs**.
 2. Choose a survey and go to **Program Setup**.
 3. Enable the **Eligible for Nudges** setting by switching the toggle to **Yes**.
 4. Select **Save Changes**.
@@ -123,7 +123,7 @@ To make changes to a recipient group:
 **Q: How long do Nudges continue to send?** <br>
 A: Nudges send within 90 days of the survey closing, regardless of the date Nudges are enabled. For example, if a program is on a quarterly cadence, Nudges stop when the next cycle starts.
 
-**Q: How can I nclude or exclude programs from receiving Nudges?** <br>
+**Q: How can I include or exclude programs from receiving Nudges?** <br>
 A: Switch the **Eligible for Nudges** feature to **YES** or **NO** on the **Program Setup** page in **Program Summary**. **Suggested Action Plans** must be switched to **ON**, to enable Nudges.
 
 **Q: Where do I view programs enabled for roles in Nudges?** <br>
