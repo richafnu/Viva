@@ -24,7 +24,7 @@ ms.date: 03/18/2025
 
 Microsoft Viva Glint is a people-driven platform that provides visibility into the health of your organization. Create a people-science based measurement strategy to assess employee engagement and translate insights into action. [Learn more here](https://www.microsoft.com/microsoft-viva/glint) and watch this video:
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RW17jMY]
+> [!VIDEO 10444fc8-ee23-4947-b76f-2bb1a9198ff0]
 
 > [!TIP]
 > To stay informed about Viva Glint and other Microsoft Employee Experience solutions, [register for the Viva Glint newsletter](https://go.microsoft.com/fwlink/?linkid=2264411).
