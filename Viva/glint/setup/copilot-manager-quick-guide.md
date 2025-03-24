@@ -45,7 +45,7 @@ Copilot in Viva Glint can:
 |----|:-----------|:-----------|
 |:::image type="icon" source="/office/media/icons/search-blue.png":::|**Browse the ready-to-use prompts.**|The prompt guide suggests questions to get you started on data exploration.|
 |:::image type="icon" source="/office/media/icons/lightbulb-idea-capture-blue.png":::|**Experiment writing your own prompts.**|Try using prompts on different topics, survey items, and demographic groups. Rephrase a comment or word that didn’t work right away.*|
-|:::image type="icon" source="/office/media/icons/paragraph-writing.png":::|**Be specific in prompt writing.**|Copilot understands your intended prompt best when you use detailed prompts.|
+|:::image type="icon" source="/office/media/icons/paragraph-writing-blue.png":::|**Be specific in prompt writing.**|Copilot understands your intended prompt best when you use detailed prompts.|
 |:::image type="icon" source="/office/media/icons/paragraph-writing-blue.png":::|**Bundle requests into a single prompt for your summary.** Ask multi-step prompts, building up to your anticipated follow-up question.| Copilot can't summarize its own summary!|
 |:::image type="icon" source="/office/media/icons/shopping-cart-blue.png":::|**Deep dive into a specific follow-up topic.**| From the summary, choose one or two items to ask Copilot for more information.|
 |:::image type="icon" source="/office/media/icons/sign-up-blue.png":::|**Keep prompts to Viva Glint data.**|Copilot in Viva Glint doesn't acess data beyond what's on your dashboard so make the most of all the information available!|
@@ -54,7 +54,7 @@ Copilot in Viva Glint can:
 
 ## Suggested high-level prompts
 
-Use your own ideas and filters where the examples have square brackets.
+Fill in your own attributes, filters, and naming where the examples have square brackets examples.
 
 |**Topic**| **Prompt**|**Consider or follow-up**|
 |-------|---------|-----------|
@@ -75,12 +75,13 @@ Use your own ideas and filters where the examples have square brackets.
 |**Comment summarization/compare**|Compare the sentiment of comments from [male] and [female] employees regarding [management support].||
 |**Comment summarization/with Viva Insights integration enabled**|Find comments from employees who work [20+ after hours a week.]||
 |**Comment summarization/with Viva Insights intgration enabled**|Show feedback on [manager support] from [employees with less than 10 minutes of 1:1 time per week.||
-|**Diversity and Inclusion**|
-|**Diversity and Inclusion**|
-|**Performance and Productivity**|
-|**Performance and Productivity**|
-|**Retention and Turnover**|
-|**Retention and Turnover**|
-|**Leadership and Management**|
-|**Leadership and Management**|
-|**Work Environment and Culture**|
+|**Diversity and Inclusion**|What are the common concerns raised by women in engineering regarding workplace inclusion?||
+|**Diversity and Inclusion**|How do comments on the belonging item differ between [male] and [female] employees?||
+|**Performance and Productivity**|What feedback do employees give about the current [performance evaluation] process?||
+|**Performance and Productivity**|Are there any recurring themes in comments from [high-performing teams]?||
+|**Retention and Turnover**|What reasons do employees give for considering [leaving the company]?|| 
+|**Retention and Turnover**|How do comments from [long-tenured employees] differ from those with [less than a year of service]?||
+|**Leadership and Management**|What are the common themes in feedback about [senior leadership?]||
+|**Leadership and Management**|How do employees perceive the effectiveness of their managers?|| 
+|**Work Environment and Culture**|What are the main concerns employees have about [the current work environment]?||
+|**Work Environment and Culture**|How do comments about [company culture] vary between [remote] and [on-site] employees?||
