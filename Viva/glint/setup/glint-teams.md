@@ -29,7 +29,7 @@ Bring survey notifications (invites, reminders, results notifications) and Nudge
 > - 360 feedback notifications.
 
 > [!NOTE]
-> Viva Glint [doesn't require individual license assigment](glint-order-teams.md), but users need to have individual Microsoft Teams licenses to receive Viva Glint notifications there.
+> Viva Glint [doesn't require individual license assignment](glint-order-teams.md), but users need to have individual Microsoft Teams licenses to receive Viva Glint notifications there.
 
 ## Install Microsoft Viva Glint for your organization in Teams
 
