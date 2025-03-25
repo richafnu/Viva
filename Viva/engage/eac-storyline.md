@@ -47,9 +47,7 @@ After you enable storyline, all network members with access to Viva Engage see t
 > [!NOTE]
 > After you enable storyline, network users also see the Storyline feature *in Microsoft Teams*. Users don't need to install anything else to see the storyline.
 
-To restrict storyline usage, see [Restrict which users can post to their storyline](/viva/engage/eac-storyline?branch=pr-en-us-8285#restrict-which-users-can-post-to-their-storyline).
-
-:::image type="content" source="../media/engage/admin/storyline-toggle.png" alt-text="Screenshot of the storyline settings toggles in Viva Engage." lightbox="../media/engage/admin/storyline-toggle.png#lightbox":::
+To restrict storyline usage, see [Limit which users can post to their storyline](/viva/engage/eac-storyline?branch=pr-en-us-8285#restrict-which-users-can-post-to-their-storyline).
 
 > [!NOTE]
 > Guests don't have their own storyline and can't see storyline content from internal users.
@@ -74,11 +72,11 @@ System default selections for notifications include:
 
 By default, all internal Viva Engage users can post to their own storyline feed. Admins can override the default and limit this option to specific users. This setting controls who has a storyline feed on their user profile and who can create new storyline posts. It doesn’t restrict who can view, react, or reply to storyline posts made by others.
 
-1. To restrict who can post to storyline, from the Engage admin center, go to **Manage storyline**.
+1. To restrict who can post to storyline, from the Engage admin center, go to **Feature management > Storyline**.
 
-1. Select **Advanced Settings**.
+1. Select **Edit** in **Advanced Settings**.
 
-1. Switch **Eligible users with access to Viva Engage** to **Eligible users from selected group**.
+1. Switch **Specify storyline creators** to **Eligible users from selected group**.
 
 1. Search for and select the group that includes users who should receive their own storyline page.
 
@@ -90,11 +88,11 @@ To delete previous storyline conversations after you disable storyline, use the 
 
 ### What users experience when storyline is disabled
 
-When you disable storyline for a user, the user can't create new storyline posts and the Storyline tab no longer appears on their user profile. 
+When you disable storyline for a user, the user can't create new storyline posts and the Storyline tab no longer appears on their user profile.
 
 *If you disable storyline for all users in your network*, storyline doesn't appear in the left navigation pane of Viva Engage for the web, and it doesn't appear in the top navigation of the Viva Engage app for Teams and Outlook.
 
-Even though the user doesn't have a storyline tab on their profile, their previous storyline conversations remain visible through the All activity feed and through search.
+Even though the user doesn't have a Storyline tab on their profile, their previous conversations remain visible through the All activity feed and through search.
 
 All Storyline content is available through [network data export](eac-as-manage-data.md#export-tenant-data-by-date-range). Networks in Native Mode can also access this content [through eDiscovery](eDiscovery-engage.md).
 
@@ -109,11 +107,11 @@ When Viva Engage is configured for a multitenant organization, the **Multi-tenan
 
 Storyline is built on the same content and conversation platform as community messages in Viva Engage. Therefore, you can use the same tools for storyline that you use for monitoring and governance.  
 
-* Use [eDiscovery](ediscovery-engage.md) in the compliance portal for Native Mode networks.  
-* Access storyline content through [network export](eac-as-manage-data.md).
-* Files shared through storyline are stored on OneDrive. Shared files are subject to any governance you already have in place.
-* Storyline supports the [Report a conversation](report-conversation-overview.md) feature that's available for community conversations.
-* Microsoft Purview Communications Compliance (E5): Use AI to monitor conversations for bullying, harassment, or topics that are against usage policy.
+- Use [eDiscovery](ediscovery-engage.md) in the compliance portal for Microsoft Entra networks.  
+- Access storyline content through [network export](eac-as-manage-data.md).
+- Files shared through storyline are stored on OneDrive. Shared files are subject to any governance you already have in place.
+- Storyline supports the [Report a conversation](report-conversation-overview.md) feature that's available for community conversations.
+- Microsoft Purview Communications Compliance (E5): Use AI to monitor conversations for bullying, harassment, or topics that are against usage policy.
 
 In addition to the capabilities listed here, storyline features a feed that includes all storyline posts, sorted by the date the storyline conversation was started. To access this feed, go to the storyline landing page. In the feed, select the filter icon in the upper-right corner to switch the filter to **All**.
 
@@ -138,8 +136,8 @@ To determine the precise URL for a user's storyline page, follow these steps:
 
    `https://<tenantname>-my.sharepoint.com/personal/<useridentifier>/VivaEngage`
 
-1. Press Enter. The library appears.  
-1. Open the Attachments folder, and then open the storyline folder. The URL to the folder where storyline files are saved resembles this example:
+5. Press Enter. The library appears.  
+6. Open the Attachments folder, and then open the storyline folder. The URL to the folder where storyline files are saved resembles this example:
 
    `https://<tenantname>-my.sharepoint.com/personal/<user identifier>/VivaEngage/Attachments/Storyline`
 
@@ -175,9 +173,9 @@ You can't prevent any internal user from seeing storyline content if they have a
 
 ### How do I delete custom cover images that were uploaded to a person's storyline?
 
-From the UI, Engage admins with premium Viva licenses can upload or delete cover photos for any user who has the premium Viva license and has storyline enabled. From the user's profile page, hover over the profile header and select **Upload cover photo**. Delete or upload a new cover image, as needed.
+From the UI, Engage admins with premium Viva licenses can upload or delete cover photos for any user with the premium Viva license and  storyline. From the user's profile page, hover over the profile header and select **Upload cover photo**. Delete or upload a new cover image, as needed.
 
-If the admin or the user isn't premium licensed, or the user no longer has their own storyline, previously uploaded photos must be deleted with the API.
+If the admin or the user isn't premium licensed, or the user no longer has their own storyline, use the API to delete previously uploaded photos.
 
 From the API, Engage admins or verified admins can delete cover images for any user in their network through an API call. The URL uses this syntax:
 
@@ -186,7 +184,6 @@ From the API, Engage admins or verified admins can delete cover images for any u
 For example, to delete the cover images of a user with ID 1234567890, the URL would be:
 
 `engage.cloud.microsoft/api/public/v1/user-profiles/1234567890/cover-image`
-
 
 ## See also
 
