@@ -1,5 +1,5 @@
 ---
-ms.date: 02/03/2023
+ms.date: 03/25/2025
 title: Metric rules in Viva Insights
 description: Learn about metric rules in Microsoft Viva Insights 
 author: zachminers
