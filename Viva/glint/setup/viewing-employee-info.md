@@ -1,6 +1,6 @@
 ---
 title: Use Viva Glint's People page to view employee information
-description: 
+description: Use the People functionality to view and manage specific access for people in your organization.
 author: JudyWeiner
 manager: MelissaBarry
 audience: admin
@@ -104,9 +104,9 @@ The **View As** functionality allows you to open your Glint program as if you 
 **To view as another person**: 
 1. Locate the person you want to View As using the Search box. To open their page, select their name. 
 1. Select **View As**. 
-1. The dashboard indicates **You are seeing `<other person name>'s Viva Glint experience.** 
+1. The dashboard indicates **You are seeing `<person name>'s Viva Glint experience.** 
 
-To return to your own account, select  **Return to your account**. 
+To return to your own account, select **Return to your account**. 
 
 :::image type="content" source="../../media/glint/setup/people-view-as.png" alt-text="Screenshot of the View As functionality in the People feature.":::
 
