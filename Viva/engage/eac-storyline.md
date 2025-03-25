@@ -32,7 +32,7 @@ When you enable storylines in your organization, the following changes appear in
 
 Engage administrators manage storyline for their organizations in the [Engage admin center](/viva/engage/eac-overview). When an admin enables Storyline in Viva Engage for their tenant, all users also see the storyline in Microsoft Teams.
 
-:::image type="content" source="../media/engage/admin/engage-admin-center-mainscreen.png" alt-text="Screenshot of the entry point into managing storyline settings.":::
+:::image type="content" source="../media/engage/admin/engage-admin-center-mainscreen.png" alt-text="Screenshot of the main Admin Center page.":::
 
 1. To access storyline settings, select the Settings gear, and select **Admin Center**.
 
