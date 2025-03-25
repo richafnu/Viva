@@ -110,7 +110,7 @@ Use the ellipses in the **User Attribute** row to select **Edit attribute**. In 
 
 Select the **Manage derived attributes** button to select which derived attributes are available as filters in your reports. **Save changes.**
 
-:::image type="content" source="../../media/glint/setup/people-derived-attributse.png" alt-text="Screenshot of the live Derived Attributes window.":::
+:::image type="content" source="../../media/glint/setup/people-derived-attributes.png" alt-text="Screenshot of the live Derived Attributes window.":::
 
 ##### Manage Optional System Attributes
 
@@ -126,7 +126,7 @@ A hierarchy filters an employee's attributes into levels from highest to lowest,
 
 ## Other resource
 
-[Find information on a specific person using the People feature](https://go.microsoft.com/fwlink/?linkid=2311747)
+[Find information on a specific person using the People feature](/../../viva/glint/setup/viewing-employee-info).
 
 
 
