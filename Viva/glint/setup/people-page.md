@@ -1,12 +1,12 @@
 ---
 title: Use Viva Glint's People feature 
-description: "The People page on the dashboard allows Viva Glint admins to view employee attributes, manage permissions and roles, and deactivate employees."
+description: The People page on the dashboard allows admins to view employee attributes, manage permissions, roles, and status."
 ms.author: JudithWeiner
 author: JudyWeiner
 manager: MelissaBarry
 audience: admin
 f1.keywords: NOCSH
-keywords: viva strengths and opportunities
+keywords: Employee Attribute File, data file, derived attributes, optional attributes, hierarchy groups, All People functionality, User Roles functionality
 ms.collection:  
 - m365initiative-viva
 - selfserve 
@@ -100,6 +100,8 @@ To add new attributes, upload a new data file by navigating to **Settings** > **
 
 ##### Manage Active Attributes
 
+Derived attributes are fields calculated from specific attributes shared with Glint. They appear as available filters in your reports.
+
 Use the ellipses in the **User Attribute** row to select **Edit attribute**. In the **Edit Attribute** dialog box, update the attribute name and manage who can see reporting for this attribute. Select **Save.**
 
 :::image type="content" source="../../media/glint/setup/people-edit-attribute.png" alt-text="Screenshot of the Edit Attribute dialog box.":::
@@ -109,6 +111,18 @@ Use the ellipses in the **User Attribute** row to select **Edit attribute**. In 
 Select the **Manage derived attributes** button to select which derived attributes are available as filters in your reports. **Save changes.**
 
 :::image type="content" source="../../media/glint/setup/people-derived-attributse.png" alt-text="Screenshot of the live Derived Attributes window.":::
+
+##### Manage Optional System Attributes
+
+Optional system attributes are fields which can be mapped to a time zone, language, or personal email shared with Glint.
+
+Select the **Manage optional system attributes** button to select which optional attributes are available as filters in your reports. **Save changes.**
+
+###### Manage Hierarchy Groups
+
+A hierarchy filters an employee's attributes into levels from highest to lowest, or largest to smallest. The filter provides precise insights into a survey. Define a location hierarchy, such as Region > Country > City, or a department hierarchy, such as Business unit > Department > Team. You can also create a custom hierarchy. 
+
+**Hierarchy groups can only be created during initial schema setup.**
 
 
 
