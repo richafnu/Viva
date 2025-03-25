@@ -40,7 +40,7 @@ Viva Connections gives different roles in your organization a personalized landi
 
 <br>
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4THB8 title="Stay empowered"]
+> [!VIDEO 45430390-4f22-498a-a8d1-227e4a961182]
 
 <br>
 
