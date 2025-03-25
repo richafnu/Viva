@@ -73,7 +73,7 @@ Fill in your own attributes, filters, survey names, or employee names where the 
 - What are the top [five] topics from the comments?
 - What are employees saying that is positive about the organization?
 - Provide [three] actions based on comments from my employees for the [item name] item?
-- Find comments from employees in the [department name] who have worked at the company for [less than one year].
+- Find comments from employees in the [department name] who worked at the company for [less than one year].
 - Show feedback from employees [aged 50+] about our [onboarding] program.
 - Tell me what people are saying about [wellbeing] at work.
 - Show comments related to [career development].
