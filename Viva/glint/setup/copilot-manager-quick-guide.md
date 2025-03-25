@@ -43,7 +43,7 @@ Follow these tasks, in the order that they appear.
 
 ## Copilot prompt quick tips
 
-|**Recommendation**| **Benefit**| 
+|  |**Recommendation**| **Benefit**| 
 |:----:|-----------|------|
 |:::image type="icon" source="/office/media/icons/search-blue.png":::|**Browse ready-to-use prompts.**|The prompt guide suggests questions to get you started on data exploration.|
 |:::image type="icon" source="/office/media/icons/lightbulb-idea-capture-blue.png":::|**Experiment writing your own prompts.**|Try using prompts on different topics, survey items, and demographic groups. Rephrase a comment or word that didn’t work right away.*|
@@ -81,7 +81,7 @@ Fill in your own attributes, filters, survey names, or employee names where the 
 
 ### Deep-dive example
 
-**Prompt:  Summarize the “Microsoft Viva People Success Elements.” Then suggest a few concrete actions for me, as a Department Manager, to improve my employee engagement score. Please use the comments in the [date/name] survey.**
+**Prompt: Summarize the "Microsoft Viva People Success Elements." Then suggest a few concrete actions for me, as a Department Manager, to improve my employee engagement score. Please use the comments in the [date/name] survey.**
 
 **Consider changes and fast follows**:
   - Swap Viva People Success Elements to your organization's core values and then ask Copilot to generate concrete actions based upon that statement to improve engagement scores.
