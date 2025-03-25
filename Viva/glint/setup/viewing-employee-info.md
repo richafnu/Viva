@@ -36,7 +36,7 @@ This example is a small snapshot of a fictious employee's People page:
 
 :::image type="content" source="../../media/glint/setup/people-header-row.png" alt-text="Screenshot of fictious employee People page.":::
 
-## Other employee information available
+## Manage other employee information available
 
 For employees with extended roles, other sections are visible. They may include:
 
@@ -64,20 +64,15 @@ Defines which people's data this use can see in Focus Area reports. This section
 
 :::image type="content" source="../../media/glint/setup/people-custom-focus-area.png" alt-text="Screenshot of the Customize Focus Area Access dialog box in the People feature.":::
 
-
 ### Survey Access
 
+This person's survey access appears by individual survey cycle name. This section is editable by selecting the **pencil symbol**. The **Customize Survey Data Access** dialog box opens. Select **+ New Population** to add new groups and filters for this user.  Changes made override defaults. Select **Save.**
 
-### Survey programs
-
-- **Focus Area Access**: Defines which people's data this user sees in Focus Area reports. Editable by selecting the **pencil** symbol.  
-- **Survey Acces**s: Defines which people's data this user can see in selected survey programs. Editable by selecting the **pencil** symbol.
-
-:::image type="content" source="../../media/glint/setup/people-other.png" alt-text="Screenshot of editable User Roles in the People feature.":::
-
+:::image type="content" source="../../media/glint/setup/people-survey-access.png" alt-text="Screenshot of the Customize Survey Data Access dialog box in the People feature.":::
 
 >[!CAUTION]
 > Viewing and exporting raw data are governed by Microsoft rules protecting employee confidentiality. Review the guidance on [raw data exports](https://go.microsoft.com/fwlink/?linkid=2239587) within our Security and Privacy documents.
+
 ## View attributes
 
 In the Attributes section, attributes show for this user as defined in your latest Employee Attribute File upload.
@@ -106,13 +101,13 @@ The **View As** functionality allows you to open your Glint program as if you 
 
 **To view as another person**: 
 
-1. Locate the person you want to view as and open their page by hovering over and selecting their name. 
-
-1. Select  **View As**. 
-
-1. The dashboard indicates **You are seeing `<other person name>` Viva Glint experience.** 
+1. Locate the person you want to View As using the Search box. Select their name to open their page. 
+1. Select **View As**. 
+1. The dashboard indicates **You are seeing `<other person name>'s Viva Glint experience.** 
 
 To return to your own account, select  **Return to your account**. 
+
+:::image type="content" source="../../media/glint/setup/people-view-as.png" alt-text="Screenshot of the View As functionality in the People feature.":::
 
 ## Use the Actions function 
 
