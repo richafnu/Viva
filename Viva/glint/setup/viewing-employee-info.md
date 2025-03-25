@@ -44,6 +44,8 @@ For employees with extended roles, other sections are visible. They may include:
 
 View and manage what data and people a user has access to. This section is editable by selecting the **pencil symbol**. The **Customize User Role** dialog box opens. To add a User Role to a profile, select from the list that appears in the dialog box. Changes made override any previous role exclusions. Select **Save.**
 
+**KRISTI - I DON'T KNOW THE ANSWER TO WHY OME ROLES ARE NOT SELECTABLE. WHAT ARE YOU TRYING TO GET AT?**
+
 :::image type="content" source="../../media/glint/setup/people-customize-role.png" alt-text="Screenshot of the Customize User Role dialog box in the People feature.":::
 
 ### Company Admin: Advanced Configuration Access
@@ -109,45 +111,37 @@ To return to your own account, select  **Return to your account**.
 
 :::image type="content" source="../../media/glint/setup/people-view-as.png" alt-text="Screenshot of the View As functionality in the People feature.":::
 
-## Use the Actions function 
+## Use the Actions menu
 
-The Actions button dropdown menu allows you to send surveys, send user data, and delete users.
+The Actions button dropdown menu allows you to send surveys, send user data, and delete users. 
 
 ### Send Survey 
 
-You can send a survey to one employee (manually) from the People page. Use the Actions button and then  **Send Survey**. 
+Send a survey to one employee (manually) from the People page. Use the Actions button, select **Send Survey**. Enabled and live surveys are displayed. Select the survey to send from those available in the dropdown menu. Select **Send**. 
 
 >[!IMPORTANT]
->You'll need to send a survey manually when an employee wasn't part of the Distribution List for that survey during the initial send but should now receive the survey.
+>Send a survey manually when an employee wasn't part of the Distribution List for that survey during the initial send.
 >
->A Distribution List is a snapshot in time, so any employee who becomes eligible for a survey after its initial send requires a manual invite. Add them to the Distribution List thereafter, and upload the new Employee Attribute File to Viva Glint.
+>A Distribution List continually updates when you send an Employee Attribute File to Glint. Any employee who becomes eligible for a survey after its initial send requires a manual invite. Add them to the Distribution List after, and upload the new Employee Attribute File to Glint.
 
-- Enabled and live surveys are displayed. Select the survey to send.  
-
-   > [!NOTE]
-   >A survey won't appear if it's not enabled or live. Go back into the program to re-enable or change the date of the survey, noting that it takes a few minutes for a survey to become live.
-
-- Select **Send**.
+> [!NOTE]
+> Surveys won't appear if neither enabled or live. Go back into the program to re-enable or change the date of the survey. It takes a few minutes for a survey to become live.
 
 ### Send User Data
 
-Send a user's survey response and attributes directly to a user, without viewing data. [Learn more](https://go.microsoft.com/fwlink/?linkid=2230875).
+To fulfill a DSR request from an employee, enter their personal email address. Choose the attributes to export and then select **Send.** An encrypted data export is generated and downloaded to your chosen location. If the provided email address is valid, a one-time password is emailed to the requestor, granting access to the encrypted data file. After downloading the data file, securely share it with the requestor through your preferred secure communication channel.
+
+:::image type="content" source="../../media/glint/setup/people-send-user-data.png" alt-text="Screenshot of the Send User Data dialog box in the People feature.":::
 
 ### Delete User
 
-Delete a user from Viva Glint. [Learn more](https://go.microsoft.com/fwlink/?linkid=2236554).
+By deleting an employee, their data is removed from Viva Glint. This excludes essential account information associated with your organization’s Microsoft 365 subscription.
 
-## Import your Employee Data File 
+By deleting this user, you also remove:
+- Their role definitions and ability to manage your client
+- Their ability to sign in to your company’s Viva Glint client
+  
+:::image type="content" source="../../media/glint/setup/people-delete-user.png" alt-text="Screenshot of the Delete Support User dialog box in the People feature.":::
 
-Use the **Import** button on the People page to import a *.csv* (UTF-8 or UTF-8 with BOM encoded) or an *xlsx* (single tab) file to update employee details.
 
-Follow the on-screen guidance for uploading the file and then select  **Import File**. [Learn more](https://go.microsoft.com/fwlink/?linkid=2230742).
 
-   > [!NOTE]
-   >If you upload a user file during a live survey, employee information won't be altered for that survey. 
-
-## Export an Active Employees report 
-
-To make changes to an employee file, it's often easier to start with what's in the system first. Exporting from within the system, making changes, and then reimporting begins in the Export feature. 
-
-Select **Export** and then follow the on-screen guidance.
