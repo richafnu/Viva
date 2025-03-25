@@ -126,7 +126,7 @@ A hierarchy filters an employee's attributes into levels from highest to lowest,
 
 ## Other resource
 
-[Find information on a specific person using the People feature](/../../viva/glint/setup/viewing-employee-info).
+[Find information on a specific person using the People feature](/viva/glint/setup/viewing-employee-info).
 
 
 
