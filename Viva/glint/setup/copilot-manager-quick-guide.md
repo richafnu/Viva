@@ -104,7 +104,7 @@ Fill in your own attributes, filters, survey names, or employee names where the 
 |**Retention and Turnover**|What reasons do employees give for considering [leaving the company]?|
 |**Retention and Turnover**|How do comments from [long-tenured employees] differ from comments from employees with [less than a year] of service?|
 |**Leadership and Management**|What are the common themes in feedback about [senior leadership?]|
-|**Leadership and Management**|How do employees perceive the effectiveness of their managers?| 
+|**Leadership and Management**|How do employees perceive the effectiveness of their managers?|
 |**Work Environment and Culture**|What are the main concerns employees have about [the current work environment]?|
 |**Work Environment and Culture**|How do comments about [company culture] vary between [remote] and [on-site] employees?|
 
