@@ -34,5 +34,5 @@ Your users’ Viva Insights activity is shown in the **Active users’** chart
 
 ## Deploy Viva Insights
 
-You can select **Boost adoption of Viva Insights** to learn how to [Deploy Viva Insights](../setup/deployment-guide.md).
+Select **Boost adoption of Viva Insights** to learn how to [Deploy Viva Insights](../setup/deployment-guide.md).
 
