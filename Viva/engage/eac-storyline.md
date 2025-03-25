@@ -26,24 +26,26 @@ Storyline empowers everyone in your organization to connect and contribute throu
 When you enable storylines in your organization, the following changes appear in the Viva Engage app:
 
 - Internal (nonguest) users who have access to Viva Engage see a new default Storyline tab on their user profile page.
-- Users see a new Storylines page. Users can toggle between a personalized feed of posted content or a focused feed that includes only storyline content from the people that the user follows.
+- Users see a new Storylines page. Users can toggle between a personalized feed of posted content or a focused feed that includes only storyline content from people that the user follows.
 
 ## Set up storyline
 
-Engage administrators manage storyline for their organizations in the [Engage admin center](/viva/engage/eac-overview). When an admin enables Storyline in Viva Engage for their tenant, all uses also see the storyline in Microsoft Teams.
+Engage administrators manage storyline for their organizations in the [Engage admin center](/viva/engage/eac-overview). When an admin enables Storyline in Viva Engage for their tenant, all users also see the storyline in Microsoft Teams.
 
-1. To access storyline settings, select the ellipses on the right side of the top navigation menu, and then select **Admin**.
+:::image type="content" source="../media/engage/admin/engage-admin-center-mainscreen.png" alt-text="Screenshot of the entry point into managing storyline settings.":::
+
+1. To access storyline settings, select the Settings gear, and select **Admin Center**.
 
 1. On the **Feature management** tab, select **Storyline** to customize settings.
 
-    :::image type="content" source="../media/engage/admin/storyline-eac-updated.png" alt-text="Screenshot of the entry point into managing storyline settings." lightbox="../media/engage/admin/storyline-eac-updated.png#lightbox":::
+    :::image type="content" source="../media/engage/admin/storyline-eac-updated.png" alt-text="Screenshot of the entry point into managing storyline settings.":::
 
 The Viva Engage admin center's **Manage storyline** page controls the availability of storyline in the organization.
 
-After you enable storyline, all network members with access to Viva Engage see the **Storyline** tab, and a storyline feed on their profile page. They can also react and respond to others’ storyline posts. 
+After you enable storyline, all network members with access to Viva Engage see the **Storyline** tab, and a storyline feed on their profile page. They can also react and respond to others’ storyline posts.
 
 > [!NOTE]
-> After you enable storyline, network users also see the Storyline feature *in Microsoft Teams*. Users don't need to install anything else to see the storyline. 
+> After you enable storyline, network users also see the Storyline feature *in Microsoft Teams*. Users don't need to install anything else to see the storyline.
 
 To restrict storyline usage, see [Restrict which users can post to their storyline](/viva/engage/eac-storyline?branch=pr-en-us-8285#restrict-which-users-can-post-to-their-storyline).
 
