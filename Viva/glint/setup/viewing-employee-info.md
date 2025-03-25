@@ -1,5 +1,5 @@
 ---
-title: Use Viva Glint's People page to view surveys through an employee lens
+title: Use Viva Glint's People page to view employee information
 description: 
 author: JudyWeiner
 manager: MelissaBarry
