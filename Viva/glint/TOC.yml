@@ -378,9 +378,8 @@ items:
         items:
          - name: Executive Summary Report
            href: reports/executive-summary-report.md
-           items:
-             - name: Employee Lifecycle trend
-               href: reports/trend-graph-lifecycle-survey.md
+         - name: Employee Lifecycle trend
+           href: reports/trend-graph-lifecycle-survey.md
          - name: Driver Impact Report
            href: reports/driver-impact-report.md
            items:
