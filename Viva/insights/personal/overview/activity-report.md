@@ -1,6 +1,6 @@
 ---
 
-ms.date: 02/25/2022
+ms.date: 03/25/2025
 title: Microsoft Viva Insights activity report
 description: Learn what the Microsoft Viva Insights activity report is and how to access it
 author: madehmer
