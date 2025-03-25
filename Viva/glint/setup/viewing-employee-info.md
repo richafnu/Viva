@@ -16,25 +16,67 @@ ms.localizationpriority: high
 ms.date: 03/25/2025
 ---
 
-# Use Viva Glint's People page to view surveys through an employee lens
+# Use Viva Glint's People page to view employee information
 
-## Find information on a specific person 
+To find and view information about a specific person, from the admin dashboard, select the **People** tile. 
 
 Use one of the two following methods: 
 
-- Begin to type the name of the employee in the search bar. When the name appears, select the name.   
+- Begin to type the name of the employee in the search bar. When the name appears as a dropdown, select the name.   
 - Scroll down the alphabetized list of names. With hundreds or thousands of employees, this method isn't as efficient! 
 
 For each employee, the following information is visible: 
 
 - **Employee Name**: Editable by admin by selecting the pencil symbol. 
-- **Email**: Editable by admin by selecting the pencil symbol. 
-- **Employee ID**: Not editable. 
-- **Manager Hierarchy**: The organization’s highest-ranking employee (generally the CEO) is listed first. The hierarchy progresses downward, following the organizational chart flow, ending with the employee’s immediate manager. Not editable. 
-- **User Role**: Determines what data and people for whom this user has visibility. Editable by selecting the **pencil** symbol. 
-- **Attributes and hierarchies** (aside from the primary hierarchy, usually Manager): As defined in your organization’s latest Employee Data File. The Attributes section of an individual’s People page always includes required attributes (like Employee ID) and then customized attributes, as defined in your Employee Data File. 
+- **Email**: Editable by admin by selecting the pencil symbol.
+- **Manager Reports**
+- **Team**
 
-For employees with User Roles in addition to Active Employees, this editable information shows: 
+This example is a small snapshot of a fictious employee's People page:
+
+:::image type="content" source="../../media/glint/setup/people-header-row.png" alt-text="Screenshot of fictious employee People page.":::
+
+## Manage User Roles
+
+View and manage what data and people a user has access to. This section is editable by selecting the **pencil symbol**. The **Customize User Role** dialog box opens. To add a User Role to a profile, select from the list that appears in the dialog box. Changes made override any previous role exclusions. Select **Save.**
+
+:::image type="content" source="../../media/glint/setup/people-customize-role.png" alt-text="Screenshot of the Customize User Role dialog box in the People feature.":::
+
+## View attributes
+
+In the Attributes section, attributes show for this user as defined in your latest Employee Attribute File upload.
+
+### Hierarchy attributes
+
+- **Location hierarchy**
+- **Manager hierarchy:** The organization’s highest-ranking employee (generally the CEO) is listed first. The hierarchy progresses downward, following the organizational chart flow, ending with the employee’s immediate manager. Not editable. 
+- **Old Manager hierarchy**, if it exists
+
+### Standard attributes
+
+Your organization may not use all of these attributes and may also refer to the attributes using other terminology. Whichever attributes you sent to Glint show here. These are common examples of Standards attributes:
+- **Manager email**
+- **Employee ID**: Editable. [Learn how here](/../../viva/glint/setup/people-page).
+- **Sub-Department**
+- **Department**
+- **Start Date**
+- **Hire Date**
+- **Level**
+- **Tenures** 
+
+## Manage and understand other access 
+
+For employees with extended roles, these sections are visible:
+
+### Admin Access
+
+
+### Focus Area Access
+
+### Survey Access
+
+
+### Survey programs
 
 - **Focus Area Access**: Defines which people's data this user sees in Focus Area reports. Editable by selecting the **pencil** symbol.  
 - **Survey Acces**s: Defines which people's data this user can see in selected survey programs. Editable by selecting the **pencil** symbol.
