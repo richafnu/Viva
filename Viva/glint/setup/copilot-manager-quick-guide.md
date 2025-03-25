@@ -81,11 +81,11 @@ Fill in your own attributes, filters, survey names, or employee names where the 
 
 ### Deep-dive example
 
->**Prompt:  Summarize the “Microsoft Viva People Success Elements.” Then suggest a few concrete actions for me, as a Department Manager, to improve my employee engagement score. Please use the comments in the [date/name] survey.**
->
->**Consider changes and fast follows**:
->   - Swap Viva People Success Elements to your organization's core values and then ask Copilot to generate concrete actions based upon that statement to improve engagement scores.
->   - Choose one highlight from the summary and ask Copilot to drill down on that theme, taking more from those specific comments.|
+**Prompt:  Summarize the “Microsoft Viva People Success Elements.” Then suggest a few concrete actions for me, as a Department Manager, to improve my employee engagement score. Please use the comments in the [date/name] survey.**
+
+**Consider changes and fast follows**:
+  - Swap Viva People Success Elements to your organization's core values and then ask Copilot to generate concrete actions based upon that statement to improve engagement scores.
+  - Choose one highlight from the summary and ask Copilot to drill down on that theme, taking more from those specific comments.
 
 ## Suggested prompts for specific comment summarization
 
