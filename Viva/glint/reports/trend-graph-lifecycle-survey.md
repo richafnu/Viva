@@ -41,8 +41,13 @@ Users have access to multiple preset date range filters and can apply custom dat
 
 The Survey Date section in Heat Map reports uses the start month used to calculate a score as the label for the column.
 
-- When users select a [Monthly](#monthly) date range, the most recent month column in the **Survey Date** section shows the current month. The score date range starts and ends in the current month.
-- When users select the [Last 30 days](#last-30-days) date range, the most recent month column in the **Survey Date** section shows the previous month. The score is using a 30-day lookback from today's date, which makes the start date for the score in the previous month.
+- When users select a [Monthly](#monthly) date range, the most recent month column in the **Survey Date** section shows the current month. The score date range starts and ends in the current month. In the following example, when a user filters to Monthly in March 2025, an Onboarding survey's Heat Map report shows the most recent score as "Mar 2025":
+
+  :::image type="content" source="../../media/glint/reports/heat-map-elc-monthly.png" alt-text="Screenshot of a Viva Glint Heat Map report, filtered to a monthly view.":::
+  
+- When users select the [Last 30 days](#last-30-days) date range, the most recent month column in the **Survey Date** section shows the previous month. The score is using a 30-day lookback from today's date, which makes the start date for the score in the previous month. In the following example, when a user filters to the last 30 days in March 2025, an Onboarding survey's Heat Map report shows the most recent score as "Feb 2025":
+
+  :::image type="content" source="../../media/glint/reports/heat-map-elc-last-30-days.png" alt-text="Screenshot of a Viva Glint Heat Map report, filtered to a view based on the last 30 days.":::
 
 ### Default date range
 
