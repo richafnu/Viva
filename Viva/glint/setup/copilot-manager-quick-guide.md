@@ -22,10 +22,10 @@ ms.date: 3/25/2025
 # Manager Quick Guide for comment summarization in Microsoft 365 Copilot in Viva Glint
 
 > [!IMPORTANT]
-> Copilot in Viva Glint is designed to help managers analyze feedback comments from Viva Glint surveys.. Download this page as a PDF to help your managers get valuable insights from Copilot in Viva Glint.
+> Copilot in Viva Glint is designed to help managers analyze feedback comments from Viva Glint surveys. Download this page as a PDF to help your managers get valuable insights from Copilot in Viva Glint.
 
 Copilot in Viva Glint can:
-- Summarize comments to identify key themes 
+- Identify key themes by summararizing comments
 - Summarize comments by demographics
 - Summarize comments by survey items
 - Identify what actions your employees are asking for
@@ -56,11 +56,11 @@ Follow these tasks, in the order that they appear.
 
 - For the most relevant summary results, include specific question titles, demographic attributes, prescriptive comments, or other available report filters in your prompt.
 - The prompt character limit is 250 characters. You see a character countdown as you add your prompt.
-- Copilot only summarizes up to 8000 comments. If you have more than 8000 comments, consider finding a more specific theme to study. Choose one highlight from the summary and ask Copilot to drill down on that theme by supplying more specific comments.
+- Copilot only summarizes up to 8,000 comments. If you have more than 8,000 comments, consider finding a more specific theme to study. Choose one highlight from the summary and ask Copilot to drill down on that theme by supplying more specific comments.
 - Copilot can't summarize its own summary! 
 - Copilot functions as a chatbot. Choosing the Copilot symbol opens a Copilot pane for you to interact with.
 - Copilot is embedded within the existing reporting flow. Within any report, a new window opens so you can look at comments in that report.
-- Copilot is only saved within your current user session. After logging out, it disappears. To save your summary, highlight the content, select **Save** and copy it to a document.
+- Copilot is only saved within your current user session. After logging out, it disappears. To save your summary, highlight the content, select **Save**, and copy it to a document.
   
 ## Suggested high-level prompts for general comment summarization
 
@@ -73,7 +73,7 @@ Fill in your own attributes, filters, survey names, or employee names where the 
 - What are the top [five] topics from the comments?
 - What are employees saying that is positive about the organization?
 - Provide [three] actions based on comments from my employees for the [item name] item?
-- Find comments from employees in the [department name] who have been with the company for [less than one year].
+- Find comments from employees in the [department name] who have worked at the company for [less than one year].
 - Show feedback from employees [aged 50+] about our [onboarding] program.
 - Tell me what people are saying about [wellbeing] at work.
 - Show comments related to [career development].
@@ -81,11 +81,11 @@ Fill in your own attributes, filters, survey names, or employee names where the 
 
 ### Deep-dive example
 
-**Prompt:  Summarize the “Microsoft Viva People Success Elements.” Then suggest a few concrete actions for me, as a Department Manager, to improve my employee engagement score. Please use the comments in the [date/name] survey.**
-
-**Consider**:
-   - Swap Viva People Success Elements to your organization's core values and then ask Copilot to generate concrete actions based upon that statement to improve engagement scores.
-   - Choose one highlight from the summary and ask Copilot to drill down on that theme, taking more from those specific comments.|
+>**Prompt:  Summarize the “Microsoft Viva People Success Elements.” Then suggest a few concrete actions for me, as a Department Manager, to improve my employee engagement score. Please use the comments in the [date/name] survey.**
+>
+>**Consider changes and fast follows**:
+>   - Swap Viva People Success Elements to your organization's core values and then ask Copilot to generate concrete actions based upon that statement to improve engagement scores.
+>   - Choose one highlight from the summary and ask Copilot to drill down on that theme, taking more from those specific comments.|
 
 ## Suggested prompts for specific comment summarization
 
@@ -97,12 +97,12 @@ Fill in your own attributes, filters, survey names, or employee names where the 
 |**Comment summarization/compare**|Compare the sentiment of comments from [male] and [female] employees regarding [management support].|
 |**Comment summarization/with Viva Insights integration enabled**|Find comments from employees who work [20+ after hours a week.]|
 |**Comment summarization/with Viva Insights intgration enabled**|Show feedback on [manager support] from [employees with less than 10 minutes of 1:1 time per week].|
-|**Diversity and Inclusion**|What are the common concerns raised by [women in engineering] regarding workplace [inclusion]?|
+|**Diversity and Inclusion**|What are the common concerns raised by [women] in [engineering] regarding workplace [inclusion]?|
 |**Diversity and Inclusion**|How do comments on the belonging item differ between [male] and [female] employees?|
 |**Performance and Productivity**|What feedback do employees give about the current [performance evaluation] process?|
 |**Performance and Productivity**|Are there any recurring themes in comments from [high-performing teams]?|
 |**Retention and Turnover**|What reasons do employees give for considering [leaving the company]?|
-|**Retention and Turnover**|How do comments from [long-tenured employees] differ from those with [less than a year of service]?|
+|**Retention and Turnover**|How do comments from [long-tenured employees] differ from comments from employees with [less than a year] of service?|
 |**Leadership and Management**|What are the common themes in feedback about [senior leadership?]|
 |**Leadership and Management**|How do employees perceive the effectiveness of their managers?| 
 |**Work Environment and Culture**|What are the main concerns employees have about [the current work environment]?|
@@ -110,7 +110,7 @@ Fill in your own attributes, filters, survey names, or employee names where the 
 
 ## Viva Glint values your feedback
 
-If your manager has enabled the feature, you can submit feedback to Microsoft. Inlude screenshots and attachments.
+If your manager enabled the feedback feature, you can submit feedback to Microsoft. Include screenshots and attachments.
 
 ## Find more detailed information
 
