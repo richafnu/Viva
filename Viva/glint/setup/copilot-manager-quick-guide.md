@@ -25,7 +25,7 @@ ms.date: 3/25/2025
 > Copilot in Viva Glint is designed to help managers analyze feedback comments from Viva Glint surveys. Download this page as a PDF to help your managers get valuable insights from Copilot in Viva Glint.
 
 Copilot in Viva Glint can:
-- Identify key themes by summararizing comments
+- Identify key themes by summarizing comments
 - Summarize comments by demographics
 - Summarize comments by survey items
 - Identify what actions your employees are asking for
@@ -50,7 +50,7 @@ Follow these tasks, in the order that they appear.
 |:::image type="icon" source="/office/media/icons/paragraph-writing-blue.png":::|**Be specific in prompt writing.**|Copilot understands your intended prompt best when you use detailed prompts.|
 |:::image type="icon" source="/office/media/icons/paragraph-writing-blue.png":::|**Bundle requests into a single prompt.** Ask multi-step prompts, building up to your anticipated follow-up question.| Copilot can't summarize its own summary!|
 |:::image type="icon" source="/office/media/icons/shopping-cart-blue.png":::|**Deep dive into a specific follow-up topic.**| From the summary, choose one or two insights to ask Copilot for more information.|
-|:::image type="icon" source="/office/media/icons/sign-up-blue.png":::|**Keep queries to Viva Glint data.**|Copilot in Viva Glint doesn't acess data beyond what's on your dashboard.|
+|:::image type="icon" source="/office/media/icons/sign-up-blue.png":::|**Keep queries to Viva Glint data.**|Copilot in Viva Glint doesn't access data beyond what's on your dashboard.|
 
 ## Important need-to-knows
 
@@ -96,7 +96,7 @@ Fill in your own attributes, filters, survey names, or employee names where the 
 |**Comment summarization/filter**|What are people in the [Marketing] department saying about the [item]?|
 |**Comment summarization/compare**|Compare the sentiment of comments from [male] and [female] employees regarding [management support].|
 |**Comment summarization/with Viva Insights integration enabled**|Find comments from employees who work [20+ after hours a week.]|
-|**Comment summarization/with Viva Insights intgration enabled**|Show feedback on [manager support] from [employees with less than 10 minutes of 1:1 time per week].|
+|**Comment summarization/with Viva Insights integration enabled**|Show feedback on [manager support] from [employees with less than 10 minutes of 1:1 time per week].|
 |**Diversity and Inclusion**|What are the common concerns raised by [women] in [engineering] regarding workplace [inclusion]?|
 |**Diversity and Inclusion**|How do comments on the belonging item differ between [male] and [female] employees?|
 |**Performance and Productivity**|What feedback do employees give about the current [performance evaluation] process?|
