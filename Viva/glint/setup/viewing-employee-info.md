@@ -32,9 +32,9 @@ For each employee, the following information is visible:
 - **Manager Reports**
 - **Team**
 
-This example is a small snapshot of a fictious employee's People page:
+This example is a small snapshot of a fictitious employee's People page:
 
-:::image type="content" source="../../media/glint/setup/people-header-row.png" alt-text="Screenshot of fictious employee People page.":::
+:::image type="content" source="../../media/glint/setup/people-header-row.png" alt-text="Screenshot of fictitious employee People page.":::
 
 ## Manage other employee information available
 
@@ -50,13 +50,13 @@ View and manage what data and people a user has access to. This section is edita
 
 ### Company Admin: Advanced Configuration Access
 
-[Advanced Configuration settings] (/../../viva/glint/setup/understand-advanced-configuration)are used to help manage your account. They are available for company admins and support roles. This setting must be on for Advanced Support users. This section is editable by selecting the **pencil symbol**. The **Advanced Configuration access** dialog box opens. Toggle to enable. Select **Save.**
+[Advanced Configuration settings] (/../../viva/glint/setup/understand-advanced-configuration)are used to help manage your account. They're available for company admins and support roles. This setting must be on for Advanced Support users. This section is editable by selecting the **pencil symbol**. The **Advanced Configuration access** dialog box opens. Toggle to enable. Select **Save.**
 
 :::image type="content" source="../../media/glint/setup/people-advanced-config-access.png" alt-text="Screenshot of the Advanced Configuration Access dialog box in the People feature.":::
 
 ### Admin Access
 
-Defines which people the user can manage. This section is editable by selecting the **pencil symbol**. The **Customize Admin Access** dialog box opens. Select **+ New Population** to add new groups and filters for this user.  Changes made override defaults. Select **Save.**
+Defines which people the user can manage. This section is editable by selecting the **pencil symbol**. The **Customize Admin Access** dialog box opens. Select **+ New Population** to add new groups and filters for this user. Changes made override defaults. Select **Save.**
 
 :::image type="content" source="../../media/glint/setup/people-customize-admin.png" alt-text="Screenshot of the Customize Admin Access dialog box in the People feature.":::
 
@@ -73,7 +73,7 @@ This person's survey access appears by individual survey cycle name. This sectio
 :::image type="content" source="../../media/glint/setup/people-survey-access.png" alt-text="Screenshot of the Customize Survey Data Access dialog box in the People feature.":::
 
 >[!CAUTION]
-> Viewing and exporting raw data are governed by Microsoft rules protecting employee confidentiality. Review the guidance on [raw data exports](https://go.microsoft.com/fwlink/?linkid=2239587) within our Security and Privacy documents.
+> Microsoft rules govern viewing and exporting raw data to protecting employee confidentiality. Review [raw data exports](https://go.microsoft.com/fwlink/?linkid=2239587) within our Security and Privacy documents.
 
 ## View attributes
 
@@ -87,7 +87,7 @@ In the Attributes section, attributes show for this user as defined in your late
 
 ### Standard attributes
 
-Your organization may not use all of these attributes and may also refer to the attributes using other terminology. Whichever attributes you sent to Glint show here. These are common examples of Standards attributes:
+Your organization may not use all of these attributes and may also refer to the attributes using other terminology. Whichever attributes you sent to Glint show here. These attributes are common examples of Standards attributes:
 - **Manager email**
 - **Employee ID**: Editable. [Learn how here](/../../viva/glint/setup/people-page).
 - **Sub-Department**
@@ -102,8 +102,7 @@ Your organization may not use all of these attributes and may also refer to the 
 The **View As** functionality allows you to open your Glint program as if you were another employee. You can view another user’s dashboard based on their User Role and data access.
 
 **To view as another person**: 
-
-1. Locate the person you want to View As using the Search box. Select their name to open their page. 
+1. Locate the person you want to View As using the Search box. To open their page, select their name. 
 1. Select **View As**. 
 1. The dashboard indicates **You are seeing `<other person name>'s Viva Glint experience.** 
 
@@ -117,7 +116,7 @@ The Actions button dropdown menu allows you to send surveys, send user data, and
 
 ### Send Survey 
 
-Send a survey to one employee (manually) from the People page. Use the Actions button, select **Send Survey**. Enabled and live surveys are displayed. Select the survey to send from those available in the dropdown menu. Select **Send**. 
+Send a survey to one employee (manually) from the People page. In the Actions button, select **Send Survey**. Enabled and live surveys are displayed. Select the survey to send from the surveys available in the dropdown menu. Select **Send**. 
 
 >[!IMPORTANT]
 >Send a survey manually when an employee wasn't part of the Distribution List for that survey during the initial send.
@@ -125,17 +124,17 @@ Send a survey to one employee (manually) from the People page. Use the Actions
 >A Distribution List continually updates when you send an Employee Attribute File to Glint. Any employee who becomes eligible for a survey after its initial send requires a manual invite. Add them to the Distribution List after, and upload the new Employee Attribute File to Glint.
 
 > [!NOTE]
-> Surveys won't appear if neither enabled or live. Go back into the program to re-enable or change the date of the survey. It takes a few minutes for a survey to become live.
+> Surveys only show when enabled or live. Go back into the program to re-enable or change the date of the survey. It takes a few minutes for a survey to become live.
 
 ### Send User Data
 
-To fulfill a DSR request from an employee, enter their personal email address. Choose the attributes to export and then select **Send.** An encrypted data export is generated and downloaded to your chosen location. If the provided email address is valid, a one-time password is emailed to the requestor, granting access to the encrypted data file. After downloading the data file, securely share it with the requestor through your preferred secure communication channel.
+In the Actions button, select **Send User Data**. To fulfill a Data Send Request (DSR) request from an employee, enter their personal email address. Choose the attributes to export and then select **Send.** An encrypted data export is generated and downloaded to your chosen location. If the provided email address is valid, a one-time password is emailed to the requestor, granting access to the encrypted data file. After downloading the data file, securely share it with the requestor through your preferred secure communication channel.
 
 :::image type="content" source="../../media/glint/setup/people-send-user-data.png" alt-text="Screenshot of the Send User Data dialog box in the People feature.":::
 
 ### Delete User
 
-By deleting an employee, their data is removed from Viva Glint. This excludes essential account information associated with your organization’s Microsoft 365 subscription.
+When an admin deletes an employee, their data is removed from Viva Glint. This deletion excludes essential account information associated with your organization’s Microsoft 365 subscription.
 
 By deleting this user, you also remove:
 - Their role definitions and ability to manage your client
