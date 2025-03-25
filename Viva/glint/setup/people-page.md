@@ -37,7 +37,7 @@ A count of present and past employees, listed by:
 
 - **Active:** People working within your organization presently. 
 - **Inactive:** People no longer in your organization. They may also be on leave.
-- **Support Users:** External users added by your organization to provide assistance.
+- **Support Users:** Outside users added by your organization to provide assistance.
 - **Advanced Configuration Access:** Company Admin users with access to Advanced Configuration
 
 ## Use the User Roles functionality
@@ -46,13 +46,13 @@ A count of company admins, managers, Human Resource Business Partners (HRBPs), a
 
 :::image type="content" source="../../media/glint/setup/people-functionality.png" alt-text="Screenshot of the All People and User Roles column on the People feature.":::
 
-## Additional functionality
+## Other functionality
 
 :::image type="content" source="../../media/glint/setup/people-additional-functionality.png" alt-text="Screenshot of the import, export, and actions buttons on the People feature.":::
 
 ### Use the Import feature
 
-Choose the data to import into Glint. Follow the in-platform guidance for one of these three options to complete your report:
+To import into Glint, choose the attribute dataset. Follow the in-platform guidance for one of these three options to complete your report:
 - Attribute update
 - Edit employee list and details
 - Employee ID updates
@@ -67,19 +67,19 @@ Choose the **Attribute update** tile to update your existing schema with new att
 
 #### Edit employee list and details
 
-Upload full or incremental employee data files to add new users or to modify employee records in bulk. Use CSV or XLSX format. Employee information isn't altered during a live survey.
+To add new users or to modify employee records in bulk, upload full or incremental employee data files. Use CSV or XLSX format. Employee information isn't altered during a live survey.
 
 :::image type="content" source="../../media/glint/setup/people-import-bulk.png" alt-text="Screenshot of the Import employee list and details dialog box.":::
 
 #### Import employee ID updates
 
-Upload your data file in a CSV or XLSx forma. Follow the guidelines for column headers.
+Upload your data file in a CSV or XLSx format. Follow the guidelines for column headers.
 
 :::image type="content" source="../../media/glint/setup/people-id-updates.png" alt-text="Screenshot of the Import employee ID updates dialog box.":::
 
 ### Use the Export feature
 
-Select the employee list to export from the **All People** or **User Roles** column. In this example, we chose **Company Admin.** A dialog box opens, allowing you to chose how your would like your export formatted. Toggle as desired and then select **Export.**
+Select the employee list to export from the **All People** or **User Roles** column. In this example, we chose **Company Admin.** A dialog box opens, allowing you to chose how you would like your export formatted. Toggle as desired and then select **Export.**
 
 :::image type="content" source="../../media/glint/setup/people-export.png" alt-text="Screenshot of the Export Company Admin dialog box.":::
 
@@ -92,7 +92,7 @@ The dropdown menu makes these two features available:
 
 #### Manage user attributes
 
-Your **Employee data file** opens, showing the current attributes that Glint expects in your Employee Attribute File. Rename as needed. You can also view detrived attributes, optional system attributes, and hierarchy groups.
+Your **Employee data file** opens, showing the current attributes that Glint expects in your Employee Attribute File. Rename as needed. You can also view derived attributes, optional system attributes, and hierarchy groups.
 
 To add new attributes, upload a new data file by navigating to **Settings** > **People** > **Import** > **Attribute updates**
 
