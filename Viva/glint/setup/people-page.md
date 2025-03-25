@@ -124,6 +124,12 @@ A hierarchy filters an employee's attributes into levels from highest to lowest,
 
 **Hierarchy groups can only be created during initial schema setup.**
 
+## Other resource
+
+[Find information on a specific person using the People feature](https://go.microsoft.com/fwlink/?linkid=2311747)
+
+
+
 
 
 
