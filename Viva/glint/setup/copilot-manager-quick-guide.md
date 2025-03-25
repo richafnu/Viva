@@ -112,6 +112,6 @@ Fill in your own attributes, filters, survey names, or employee names where the 
 
 If your manager has enabled the feature, you can submit feedback to Microsoft. Inlude screenshots and attachments.
 
-## Find more detail information
+## Find more detailed information
 
 [How managers use Microoft 365 Copilot in Viva Glint](/../../viva/glint/setup/copilot-managers)
