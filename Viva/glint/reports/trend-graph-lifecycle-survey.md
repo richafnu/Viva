@@ -14,7 +14,7 @@ search.appverid: MET150
 ms.topic: how-to
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 03/24/2025
+ms.date: 03/25/2025
 ---
 
 # Trend scores for Viva Glint Employee Lifecycle programs
@@ -117,7 +117,7 @@ The trend line in the Executive Summary Report shows data points going back in t
 
 ## Understand how response numbers show in ELC reporting
 
-The default report date range for lifecycle surveys is 90 days. It's possible for some users in your organization to submit multipe surveys in that timeframe - the waiting period between surveys is less than 90 days. How is this data counted?
+The default report date range for lifecycle surveys is 90 days. It's possible for some users in your organization to submit multiple surveys in that timeframe - the waiting period between surveys is less than 90 days. How is this data counted?
 
  - The response number shows for **unique users** only. Repeat survey takers count only once.
  - Multiple responses submitted by a single user are counted in the aggregate and the multiple choice report.
@@ -141,7 +141,7 @@ A unique user at Contoso submits surveys and has a different department value fo
   
 **Reporting:**
 
-When viewing results from November 14-25, 2024:
+When users view results from November 14-25, 2024:
 
 - Reporting reflects one (1) response but two departments.
 - Each department shows their respective scores.
