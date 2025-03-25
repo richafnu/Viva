@@ -36,12 +36,48 @@ This example is a small snapshot of a fictious employee's People page:
 
 :::image type="content" source="../../media/glint/setup/people-header-row.png" alt-text="Screenshot of fictious employee People page.":::
 
-## Manage User Roles
+## Other employee information available
+
+For employees with extended roles, other sections are visible. They may include:
+
+### User Roles
 
 View and manage what data and people a user has access to. This section is editable by selecting the **pencil symbol**. The **Customize User Role** dialog box opens. To add a User Role to a profile, select from the list that appears in the dialog box. Changes made override any previous role exclusions. Select **Save.**
 
 :::image type="content" source="../../media/glint/setup/people-customize-role.png" alt-text="Screenshot of the Customize User Role dialog box in the People feature.":::
 
+### Company Admin: Advanced Configuration Access
+
+[Advanced Configuration settings] (/../../viva/glint/setup/understand-advanced-configuration)are used to help manage your account. They are available for company admins and support roles. This setting must be on for Advanced Support users. This section is editable by selecting the **pencil symbol**. The **Advanced Configuration access** dialog box opens. Toggle to enable. Select **Save.**
+
+:::image type="content" source="../../media/glint/setup/people-advanced-config-access.png" alt-text="Screenshot of the Advanced Configuration Access dialog box in the People feature.":::
+
+### Admin Access
+
+Defines which people the user can manage. This section is editable by selecting the **pencil symbol**. The **Customize Admin Access** dialog box opens. Select **+ New Population** to add new groups and filters for this user.  Changes made override defaults. Select **Save.**
+
+:::image type="content" source="../../media/glint/setup/people-customize-admin.png" alt-text="Screenshot of the Customize Admin Access dialog box in the People feature.":::
+
+### Focus Area Access
+
+Defines which people's data this use can see in Focus Area reports. This section is editable by selecting the **pencil symbol**. The **Customize Focus Area Access** dialog box opens. Select **+ New Population** to add new groups and filters for this user.  Changes made override defaults. Select **Save.**
+
+:::image type="content" source="../../media/glint/setup/people-custom-focus-area.png" alt-text="Screenshot of the Customize Focus Area Access dialog box in the People feature.":::
+
+
+### Survey Access
+
+
+### Survey programs
+
+- **Focus Area Access**: Defines which people's data this user sees in Focus Area reports. Editable by selecting the **pencil** symbol.  
+- **Survey Acces**s: Defines which people's data this user can see in selected survey programs. Editable by selecting the **pencil** symbol.
+
+:::image type="content" source="../../media/glint/setup/people-other.png" alt-text="Screenshot of editable User Roles in the People feature.":::
+
+
+>[!CAUTION]
+> Viewing and exporting raw data are governed by Microsoft rules protecting employee confidentiality. Review the guidance on [raw data exports](https://go.microsoft.com/fwlink/?linkid=2239587) within our Security and Privacy documents.
 ## View attributes
 
 In the Attributes section, attributes show for this user as defined in your latest Employee Attribute File upload.
@@ -63,26 +99,6 @@ Your organization may not use all of these attributes and may also refer to the 
 - **Hire Date**
 - **Level**
 - **Tenures** 
-
-## Manage and understand other access 
-
-For employees with extended roles, these sections are visible:
-
-### Admin Access
-
-
-### Focus Area Access
-
-### Survey Access
-
-
-### Survey programs
-
-- **Focus Area Access**: Defines which people's data this user sees in Focus Area reports. Editable by selecting the **pencil** symbol.  
-- **Survey Acces**s: Defines which people's data this user can see in selected survey programs. Editable by selecting the **pencil** symbol.
-
->[!CAUTION]
-> Viewing and exporting raw data are governed by Microsoft rules protecting employee confidentiality. Review the guidance on [raw data exports](https://go.microsoft.com/fwlink/?linkid=2239587) within our Security and Privacy documents.
 
 ## Use the View As function 
 
