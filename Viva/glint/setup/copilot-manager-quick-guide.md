@@ -4,6 +4,7 @@ description: A guide designed especially for managers using Microsoft 365 Copilo
 ms.author: JudithWeiner
 author: JudyWeiner
 manager: MelissaBarry
+ROBOTS: NOINDEX, NOFOLLOW
 audience: admin
 f1.keywords: NOCSH
 keywords: manager quick guide, comments reporting with Copilot, Comments Report, comment prompts for managers, Glint Manager PDF
