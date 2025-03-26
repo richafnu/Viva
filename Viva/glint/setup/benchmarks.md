@@ -1,6 +1,6 @@
 ---
 title: Viva Glint benchmark collateral  
-description: "Global benchmarks provide level-setting comparisons during an initial survey, but internal and trend comparisons provide more useful information in subsequent surveys."
+description: Global benchmarks provide level-setting comparisons during an initial survey, but internal and trend comparisons provide more useful information in subsequent surveys.
 ms.author: JudithWeiner
 author: JudyWeiner
 manager: MelissaBarry
@@ -14,7 +14,7 @@ search.appverid: MET150
 ms.topic: concept-article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 08/06/2024
+ms.date: 03/26/2025
 ---
 
 # Viva Glint benchmark collateral  
@@ -35,7 +35,7 @@ We strongly urge our customers to use our standards—the overall global and hig
 Benchmarks represent a comprehensive and current set of norms, which provide accurate and relevant comparisons for customers. Benchmarks are updated to reflect customer needs and emerging industry interests.  
 
 > [!NOTE]
-> New benchmark creation will pause until all remaining customers of LinkedIn Glint are transitioned to Viva Glint. Once a robust sample of customers has migrated, benchmark refreshes will resume (projected for mid-2025). Until then, all existing benchmark suites will remain available to Viva Glint customers.
+> New benchmark creation is paused until all remaining customers of LinkedIn Glint are transitioned to Viva Glint. Once a robust sample of customers migrates, benchmark refreshes will resume (projected for late 2025). Until then, all existing benchmark suites remain available to Viva Glint customers.
 
 ## Benchmarks at a glance
 
