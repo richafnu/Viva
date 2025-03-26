@@ -87,10 +87,6 @@ To upload your business dataset in a .csv file, follow these steps:
 >[!IMPORTANT]
 > Every required field must have a valid, non-null value in every row. You need to map all required Viva Insights values, even if the column headers in your .csv files don't exactly match the Viva Insights value name.
 
-#### Custom
-
-All business data fields in your .csv files are custom attributes. The app will automatically assign it a name. You can change this name and select a data type from the dropdown menu. Once you select a name and datatype, they can’t be changed. After you’ve completed mapping your attributes, select **Next** at the bottom left. After you map fields, the app validates and processes your data as described below. If validation and processing succeed, you're done with the upload process.
-
 ### 3. Validation
 
 After you’ve mapped attributes, the app starts validating your data. In most cases, file validation should complete quickly. If your business data file is large, validation could take up to one or two minutes. 
