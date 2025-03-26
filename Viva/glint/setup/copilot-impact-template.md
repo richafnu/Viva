@@ -15,7 +15,7 @@ search.appverid: MET150
 ms.topic: concept-article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 1/31/2025
+ms.date: 3/26/2025
 ---
 
 # Microsoft Copilot Impact Survey template in Viva Glint
@@ -54,6 +54,9 @@ Glint recommended items fall into two categories:
 
 1.	**Core items:** These survey items ask employees to reflect on the task- or work-oriented benefits they experience as a result of using Copilot. They help establish the productivity and employee experience return-on-investment (ROI) that Copilot has. 
 1.	**Additional items:** These survey items ask employees to evaluate the utility of Copilot, their organization's process, and enablement practices. They are designed to support organizations in understanding "how well it's going" with a Copilot roll-out and give more context to where employees may need more support to adopt Copilot most effectively.
+
+> [!IMPORTANT]
+> Survey items (questions and statements) on the Copilot Impact Survey aren't editable. To ensure accurate scoring, items must match verbatim.
 
 ### Core survey items
 
