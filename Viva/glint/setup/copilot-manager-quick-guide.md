@@ -48,10 +48,10 @@ Follow these tasks, in the order that they appear.
 |:----:|-----------|------|
 |:::image type="icon" source="/office/media/icons/search-blue.png":::|**Browse ready-to-use prompts.**|The prompt guide suggests questions to get you started on data exploration.|
 |:::image type="icon" source="/office/media/icons/lightbulb-idea-capture-blue.png":::|**Experiment writing your own prompts.**|Try using prompts on different topics, survey items, and demographic groups. Rephrase a comment or word that didn’t work right away.*|
-|:::image type="icon" source="/office/media/icons/paragraph-writing-blue.png":::|**Be specific in prompt writing.**|Copilot understands your intended prompt best when you use detailed prompts.|
-|:::image type="icon" source="/office/media/icons/paragraph-writing-blue.png":::|**Bundle requests into a single prompt.** Ask multi-step prompts, building up to your anticipated follow-up question.| Copilot can't summarize its own summary!|
+|:::image type="icon" source="/office/media/icons/sign-up-blue.png":::|**Be specific in prompt writing.**|Copilot understands your intended prompt best when you use detailed prompts.|
+|:::image type="icon" source="/office/media/icons/hybrid-blue.png":::|**Bundle requests into a single prompt.** Ask multi-step prompts, building up to your anticipated follow-up question.| Copilot can't summarize its own summary!|
 |:::image type="icon" source="/office/media/icons/shopping-cart-blue.png":::|**Deep dive into a specific follow-up topic.**| From the summary, choose one or two insights to ask Copilot for more information.|
-|:::image type="icon" source="/office/media/icons/sign-up-blue.png":::|**Keep queries to Viva Glint data.**|Copilot in Viva Glint doesn't access data beyond what's on your dashboard.|
+|:::image type="icon" source="/office/media/icons/migration-blue.png":::|**Keep queries to Viva Glint data.**|Copilot in Viva Glint doesn't access data beyond what's on your dashboard.|
 
 ## Important need-to-knows
 
@@ -63,9 +63,12 @@ Follow these tasks, in the order that they appear.
 - Copilot is embedded within the existing reporting flow. Within any report, a new window opens so you can look at comments in that report.
 - Copilot is only saved within your current user session. After logging out, it disappears. To save your summary, highlight the content, select **Save**, and copy it to a document.
   
-## Suggested high-level prompts for general comment summarization
+## Prompt starters
 
-Fill in your own attributes, filters, survey names, or employee names where the examples have square brackets examples.
+Use these ideas to generate prompts that work for you.
+
+> [!NOTE]
+> Fill in your own attributes, filters, survey names, or employee names where the examples have **square brackets**.
 
 - Summarize all comments for me.
 - What are employees saying at my organization?
@@ -109,10 +112,8 @@ Fill in your own attributes, filters, survey names, or employee names where the 
 |**Work Environment and Culture**|What are the main concerns employees have about [the current work environment]?|
 |**Work Environment and Culture**|How do comments about [company culture] vary between [remote] and [on-site] employees?|
 
-## Viva Glint values your feedback
-
-If your manager enabled the feedback feature, you can submit feedback to Microsoft. Include screenshots and attachments.
-
 ## Find more detailed information
 
 [How managers use Microoft 365 Copilot in Viva Glint](/../../viva/glint/setup/copilot-managers)
+
+[Managers using the Team Summary dashboard](/viva/glint/reports/managers-use-team-summary-dashboard)
