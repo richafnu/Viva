@@ -11,7 +11,7 @@ ms.collection:
  - m365initiative-viva
  - selfserve
 search-appverid: MET150
-ms.topic: article
+ms.topic: how-to
 ms.service: viva-glint
 ms.localizationpriority: high
 ms.date: 1/13/2025
@@ -23,7 +23,7 @@ Drivers are factors that affect employee engagement; a driver's *impact* is its 
 
 There can be a significant difference in how important a specific driver of engagement is to one team compared to another team, or to the rest of the company. For example, the engineering team's engagement level may be highly impacted by a lack of career growth opportunities, whereas the finance team may have been overworked this quarter and thus work-life balance impacts them the most. Key drivers vary within organizations and populations.
 
-[Watch this video about using the Driver Impact Report.](https://www.microsoft.com/en-us/videoplayer/embed?partnerName=learn&powerCmsVideoId=RW1dOXU)
+[Watch this video about using the Driver Impact Report.](https://learn-video.azurefd.net/vod/player?id=a2adbcf1-8cf0-43e5-9036-80a28ee1c5cd)
 
 ## Settings on the Driver Impact report
 
