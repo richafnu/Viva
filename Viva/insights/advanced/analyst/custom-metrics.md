@@ -1,5 +1,5 @@
 ---
-ms.date: 05/03/2023
+ms.date: 03/25/2025
 title: Custom metrics in Viva Insights
 description: Learn about building and using custom metrics in Microsoft Viva Insights 
 author: zachminers
