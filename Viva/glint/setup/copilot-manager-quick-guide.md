@@ -44,7 +44,7 @@ Follow these tasks, in the order that they appear.
 |**Review the Strengths & Opportunities section on the Viva Glint Team Summary dashboard to understand strengths to celebrate and opportunity areas to improve upon**.**<br><br> <ul><li>What opportunity items do you want to better understand through the comments?<br></li><li>What themes do you want to explore more?<br></li><li>Select 1-2 Focus Areas to explore for taking action.</ul>|**Strengths & Opportunities section of Team Summary** <br><br>:::image type="content" source="../../media/glint/setup/copilot-strengths-opps.png" alt-text="Screenshot of Strengths & Opportunities on the Manager Team Summary dashboard.":::|
 |**Ask Copilot in Viva Glint to dive deeper to uncover insights around your areas of interest**.<br> <br>Examples of Copilot prompts: <br></li><li> What are people saying about my [top opportunity]?  <br> </li><li> What are people in [region] saying about [topic]?  <br> </li><li> What are people recommending leaders do to improve [topic]? </ul> |**Copilot button** <br><br>:::image type="content" source="../../media/glint/setup/copilot-button-1.png" alt-text="Screenshot of the Copilot button on the Manager Team Summary dashboard.":::|
 
-## Copilot prompt quick tips
+## Quick tips for Copilot prompts
 
 |&nbsp;&nbsp;  |Recommendation| Benefit|
 |:----:|-----------|------|
@@ -98,11 +98,11 @@ Follow these tasks, in the order that they appear.
 Fill in your own attributes, filters, survey names, or employee names where the examples have square brackets.
 
 |Topic|Prompt|
-|--------|-----------|
+|--------|---|
 |**Comment summarization / filter**|What are people in the [Marketing] department saying about the [item]?|
 |**Comment summarization / compare**|Compare the sentiment of comments from [male] and [female] employees regarding [management support].|
 |**Comment summarization / with Viva Insights integration enabled**|Find comments from employees who work [20+ after hours a week.] <br><br> Show feedback on [manager support] from [employees with less than 10 minutes of 1:1 time per week].|
-|**Diversity and Inclusion** |What are the common concerns raised by [women] in [engineering] regarding workplace [inclusion]?<br><br> How do comments on the belonging item differ between [male] and [female] employees?|
+|**Diversity and Inclusion** |What are the common concerns raised by [group] in [engineering] regarding workplace [inclusion]?<br><br> How do comments on the belonging item differ between [male] and [female] employees?|
 |**Performance and Productivity**|What feedback do employees give about the current [performance evaluation] process?|<br><br> Are there any recurring themes in comments from [high-performing teams]?|
 |**Retention and Turnover**|What reasons do employees give for considering [leaving the company]? <br><br>How do comments from [long-tenured employees] differ from comments from employees with [less than a year] of service?|
 |**Leadership and Management**|What are the common themes in feedback about [senior leadership?]<br><br>|How do employees perceive the effectiveness of their managers?|
