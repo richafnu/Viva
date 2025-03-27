@@ -24,8 +24,8 @@ ms.date: 3/27/2025
 
 > [!TIP]
 >**Download this page to help your managers analyze feedback comments from Viva Glint surveys.**
-> 
->Click anywhere on the page and then select Print. When your printer window opens, select Save as PDF from the printer dropdown menu. Select Save. Now you can share the downloaded PDF file within your organization.
+>
+>Click anywhere on the page and select **Print.** When your printer window opens, select **Save as PDF** from the printer dropdown menu. Select **Save.** Now you can share the downloaded PDF file within your organization.
 
 Copilot in Viva Glint can:
 - Identify key themes by summarizing comments
