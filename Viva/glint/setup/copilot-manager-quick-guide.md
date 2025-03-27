@@ -98,7 +98,7 @@ Follow these tasks, in the order that they appear.
 Fill in your own attributes, filters, survey names, or employee names where the examples have square brackets.
 
 |Topic|Prompt|
-|--------|---|
+|-----|---|
 |**Comment summarization / filter**|What are people in the [Marketing] department saying about the [item]?|
 |**Comment summarization / compare**|Compare the sentiment of comments from [male] and [female] employees regarding [management support].|
 |**Comment summarization / with Viva Insights integration enabled**|Find comments from employees who work [20+ after hours a week.] <br><br> Show feedback on [manager support] from [employees with less than 10 minutes of 1:1 time per week].|
