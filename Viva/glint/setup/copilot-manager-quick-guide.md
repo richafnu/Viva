@@ -1,5 +1,5 @@
 ---
-title: Manager Quick Guide for comment summarization in Microsoft 365 Copilot in Viva Glint
+title: Manager Quick Guide - Comment summarization in Microsoft 365 Copilot in Viva Glint
 description: A guide designed especially for managers using Microsoft 365 Copilot in Viva Glint to summarize comments in survey feedback. 
 ms.author: JudithWeiner
 author: JudyWeiner
@@ -20,7 +20,7 @@ ms.localizationpriority: high
 ms.date: 3/27/2025
 ---
 
-# Manager Quick Guide for comment summarization in Microsoft 365 Copilot in Viva Glint
+# Manager Quick Guide - Comment summarization in Microsoft 365 Copilot in Viva Glint
 
 > [!TIP]
 >**Download this page to help your managers analyze feedback comments from Viva Glint surveys.**
