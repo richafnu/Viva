@@ -101,12 +101,12 @@ Fill in your own attributes, filters, survey names, or employee names where the 
 |-----|---|
 |**Comment summarization / filter**|What are people in the [Marketing] department saying about the [item]?|
 |**Comment summarization / compare**|Compare the sentiment of comments from [male] and [female] employees regarding [management support].|
-|**Comment summarization / with Viva Insights integration enabled**|Find comments from employees who work [20+ after hours a week.] <br><br> Show feedback on [manager support] from [employees with less than 10 minutes of 1:1 time per week].|
+|**Comment summarization / with Viva Insights integration enabled**|Find comments from employees who work [20+ after hours a week.]<br><br> Show feedback on [manager support] from [employees with less than 10 minutes of 1:1 time per week].|
 |**Diversity and Inclusion** |What are the common concerns raised by [group] in [engineering] regarding workplace [inclusion]?<br><br> How do comments on the belonging item differ between [male] and [female] employees?|
-|**Performance and Productivity**|What feedback do employees give about the current [performance evaluation] process?|<br><br> Are there any recurring themes in comments from [high-performing teams]?|
-|**Retention and Turnover**|What reasons do employees give for considering [leaving the company]? <br><br>How do comments from [long-tenured employees] differ from comments from employees with [less than a year] of service?|
-|**Leadership and Management**|What are the common themes in feedback about [senior leadership?]<br><br>|How do employees perceive the effectiveness of their managers?|
-|**Work Environment and Culture**|What are the main concerns employees have about [the current work environment]?<br><br>|How do comments about [company culture] vary between [remote] and [on-site] employees?|
+|**Performance and Productivity**|What feedback do employees give about the current [performance evaluation] process?<br><br> Are there any recurring themes in comments from [high-performing teams]?|
+|**Retention and Turnover**|What reasons do employees give for considering [leaving the company]?<br><br>How do comments from [long-tenured employees] differ from comments from employees with [less than a year] of service?|
+|**Leadership and Management**|What are the common themes in feedback about [senior leadership?]<br><br>How do employees perceive the effectiveness of their managers?|
+|**Work Environment and Culture**|What are the main concerns employees have about [the current work environment]?<br><br>How do comments about [company culture] vary between [remote] and [on-site] employees?|
 
 ## Find more detailed information
 
