@@ -23,15 +23,15 @@ ms.date: 3/28/2025
 # Manager Quick Guide - Comment summarization in Microsoft 365 Copilot in Viva Glint
 
 > [!TIP]
->**Download this page to help your managers analyze feedback comments from Viva Glint surveys.**
+>**Download this page to help your managers analyze feedback comments from Viva Glint surveys.**<br>
 >Click anywhere on the page and select **Print.** When your printer window opens, select **Save as PDF** from the printer dropdown menu. Select **Save.** Now you can share the downloaded PDF file within your organization.
 
-Copilot in Viva Glint can:
-- Identify key themes by summarizing comments
-- Summarize comments by demographics
-- Summarize comments by survey items
-- Identify what actions your employees are asking for
-- Summarize non-English comments
+**Copilot in Viva Glint can:**
+- Identify key themes by summarizing comments 
+- Summarize comments by demographics 
+- Summarize comments by survey items  
+- Identify what actions your employees are asking for  
+- Summarize non-English comments  
 
 ## Manager process for reviewing feedback results 
 
