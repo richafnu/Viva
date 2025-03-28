@@ -95,6 +95,7 @@ Try using these ideas to generate prompts that work for you. Fill in your own at
 <br>
 <br>
 <br>
+<br>
 
 #### Deep-dive example
 
@@ -117,6 +118,8 @@ Fill in your own attributes, filters, survey names, or employee names where the 
 |**Retention and Turnover**|What reasons do employees give for considering [leaving the company]?<br><br>Provide me [three comments] from [long-tenured employees].|
 |**Leadership and Management**|What are the common themes in feedback about [senior leadership?]<br><br>How do employees perceive the effectiveness of their managers?|
 |**Work Environment and Culture**|What are the main concerns employees have about [the current work environment]?<br><br> Summarize the top 2 comment themes around [company culture] from question/item [number 4] from [managers].|
+
+<br>
 
 ### Find more detailed information
 
