@@ -19,7 +19,7 @@ ms.date: 3/28/2025
 
 # Use the Viva Glint Driver Impact report
 
-Drivers are factors that affect employee engagement. A driver's *impact* is its correlation with employee engagement in the The world of work. Team and organizational **Strengths** and **Opportunities** (S&Os) are derived from Driver Impact data.
+Drivers are factors that affect employee engagement. A driver's *impact* is its correlation with employee engagement in the world of work. Team and organizational **Strengths** and **Opportunities** (S&Os) are derived from Driver Impact data.
 
 There can be a significant difference in how important a specific driver of engagement is to one team compared to another team, or to the rest of the company. For example, the engineering team's engagement level might be highly impacted by a lack of growth opportunities, whereas the overworked finance team rates work-life balance as having the highest impact. Key drivers vary within organizations and populations.
 
