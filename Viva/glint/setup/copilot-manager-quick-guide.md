@@ -4,7 +4,6 @@ description: A guide designed especially for managers using Microsoft 365 Copilo
 ms.author: JudithWeiner
 author: JudyWeiner
 manager: MelissaBarry
-ROBOTS: NOINDEX, NOFOLLOW
 audience: admin
 f1.keywords: NOCSH
 keywords: manager quick guide, comments reporting with Copilot, Comments Report, comment prompts for managers, Glint Manager PDF
@@ -24,6 +23,7 @@ ms.date: 3/28/2025
 
 > [!TIP]
 >**Download this page to help your managers analyze feedback comments from Viva Glint surveys.**<br>
+
 >Click anywhere on the page and select **Print.** When your printer window opens, select **Save as PDF** from the printer dropdown menu. Select **Save.** Now you can share the downloaded PDF file within your organization.
 
 **Copilot in Viva Glint can:**
@@ -35,12 +35,19 @@ ms.date: 3/28/2025
 
 ## Manager process for reviewing feedback results 
 
-Follow these tasks, in the order that they appear.
-
-| Task| Where to find it|
+| Task 1| Where to find it|
 |:-----------|:-----------|
 | **Review your scores on the Viva Glint Team Summary dashboard before jumping directly into Copilot.** <br><br>Consider:<ul><li>Where are your high and low scores?<br></li><li>What items have high comment counts? <br></li><li>Are there teams or subgroups scoring higher or lower than others?</ul>|**Manager Team Summary dashboard** <br><br>:::image type="content" source="../../media/glint/setup/copilot-team-summary-1.png" alt-text="Screenshot of the Manager Team Summary dashboard.":::|
+
+| Task 2| Where to find it|
+|:-----------|:-----------|
 |**Review the Strengths & Opportunities section on the Viva Glint Team Summary dashboard to understand strengths to celebrate and opportunity areas to improve upon**.**<br><br> <ul><li>What opportunity items do you want to better understand through the comments?<br></li><li>What themes do you want to explore more?<br></li><li>Select 1-2 Focus Areas to explore for taking action.</ul>|**Strengths & Opportunities section of Team Summary** <br><br>:::image type="content" source="../../media/glint/setup/copilot-strengths-opps.png" alt-text="Screenshot of Strengths & Opportunities on the Manager Team Summary dashboard.":::|
+
+<br>
+<br>
+
+| Task 3| Where to find it|
+|:-----------|:-----------|
 |**Ask Copilot in Viva Glint to dive deeper to uncover insights around your areas of interest**.<br> <br>Examples of Copilot prompts: <br></li><li> What are people saying about my [top opportunity]?  <br> </li><li> What are people in [region] saying about [topic]?  <br> </li><li> What are people recommending leaders do to improve [topic]? </ul> |**Copilot button** <br><br>:::image type="content" source="../../media/glint/setup/copilot-button-1.png" alt-text="Screenshot of the Copilot button on the Manager Team Summary dashboard.":::|
 
 ## Quick tips for Copilot prompts
@@ -99,7 +106,7 @@ Follow these tasks, in the order that they appear.
 
 ## Suggested prompts for specific comment summarization
 
-Fill in your own attributes, filters, survey names, or employee names where the examples have **square brackets**. Filters must be set for Copilot to use them.
+Fill in your own attributes, filters, survey names, or employee names where the examples have **square brackets**. Filters must be set for Copilot to use them. Attribute filters available are found in the dropdown menu at the top of each report page.
 
 |Topic|Prompt|
 |-----|---|
@@ -107,7 +114,7 @@ Fill in your own attributes, filters, survey names, or employee names where the 
 |**Comment summarization / with Viva Insights integration enabled**|Find comments from employees who work [20+ after hours a week.]<br><br> Show feedback on [manager support] from [employees with less than 10 minutes of 1:1 time per week].|
 |**Diversity and Inclusion** |What are the common concerns raised by [group] in [engineering] regarding workplace [inclusion]?<br><br> State the top three themes of the comments for question/item [number 2].|
 |**Performance and Productivity**|What feedback do employees give about the current [performance evaluation] process?<br><br> Are there any recurring themes in comments from [high-performing teams]?|
-|**Retention and Turnover**|What reasons do employees give for considering [leaving the company]?<br><br>How do comments from [long-tenured employees] differ from comments from employees with [less than a year] of service?|
+|**Retention and Turnover**|What reasons do employees give for considering [leaving the company]?<br><br>Provide me [three comments] from [long-tenured employees].|
 |**Leadership and Management**|What are the common themes in feedback about [senior leadership?]<br><br>How do employees perceive the effectiveness of their managers?|
 |**Work Environment and Culture**|What are the main concerns employees have about [the current work environment]?<br><br> Summarize the top 2 comment themes around [company culture] from question/item [number 4] from [managers].|
 
