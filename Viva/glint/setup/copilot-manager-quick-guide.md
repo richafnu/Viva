@@ -22,8 +22,8 @@ ms.date: 3/28/2025
 # Manager Quick Guide - Comment summarization for Microsoft 365 Copilot in Viva Glint
 
 > [!TIP]
->**Download this page to help your managers analyze feedback comments from Viva Glint surveys.**<br>
->
+>**To help your managers analyze feedback comments, this page is formatted to print as a PDF.**
+> 
 >Click anywhere on the page and select **Print.** When your printer window opens, select **Save as PDF** from the printer dropdown menu. Select **Save.** Now you can share the downloaded PDF file within your organization.
 
 **Copilot in Viva Glint can:**
