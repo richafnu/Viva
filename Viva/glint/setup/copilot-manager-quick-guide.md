@@ -57,13 +57,13 @@ Follow these tasks, in the order that they appear.
 
 ## Important need-to-knows
 
-|Know this|Details|
+|Know this as you work with Copilot|Details|
 |:------|:--------|
 |**Copilot functions as a chatbot.**| Choosing the Copilot symbol opens a Copilot pane for you to interact with.|
 |**Prompt to get the most relevant summary results.**|Include specific question titles, demographic attributes, prescriptive comments, or other available report filters in your prompt. |
 |**The prompt character limit is 250 characters.**| You see a character countdown as you add your prompt.
 |**Copilot only summarizes up to 8,000 comments.**| If you have more than 8,000 comments, consider finding a more specific theme to study. Choose one highlight from the summary and ask Copilot to drill down on that theme by supplying more specific comments.|
-|**Copilot can't summarize its own summary!**|Once you've requested a summary, follow-up asks need to drill down on themes in the summary.|
+|**Copilot can't summarize its own summary!**|Once a summary is generated, follow-up asks need to drill down on themes in the summary.|
 |**Copilot is embedded within the existing reporting flow.** |Within any report, a new window opens so you can look at comments in that report. Copilot uses the applied filters to your report.|
 |**Copilot only saves within a current user session. After logging out, it disappears.** |To save the summary, highlight the content, select **Save**, and copy to a document.|
 |**Copilot can't *compare* comments between employee groups or surveys.**| Yet!|
@@ -102,11 +102,11 @@ Fill in your own attributes, filters, survey names, or employee names where the 
 |-----|---|
 |**Comment summarization / filter**|What are people in the [Marketing] department saying about the [item]?|
 |**Comment summarization / with Viva Insights integration enabled**|Find comments from employees who work [20+ after hours a week.]<br><br> Show feedback on [manager support] from [employees with less than 10 minutes of 1:1 time per week].|
-|**Diversity and Inclusion** |What are the common concerns raised by [group] in [engineering] regarding workplace [inclusion]?<br><br> Please state the top three themes of the comments for question/item [number 2].|
+|**Diversity and Inclusion** |What are the common concerns raised by [group] in [engineering] regarding workplace [inclusion]?<br><br> State the top three themes of the comments for question/item [number 2].|
 |**Performance and Productivity**|What feedback do employees give about the current [performance evaluation] process?<br><br> Are there any recurring themes in comments from [high-performing teams]?|
 |**Retention and Turnover**|What reasons do employees give for considering [leaving the company]?<br><br>How do comments from [long-tenured employees] differ from comments from employees with [less than a year] of service?|
 |**Leadership and Management**|What are the common themes in feedback about [senior leadership?]<br><br>How do employees perceive the effectiveness of their managers?|
-|**Work Environment and Culture**|What are the main concerns employees have about [the current work environment]?<br><br> Please summarize the top 2 comment themes around [company culture] from question/item [number 4] from [managers].|
+|**Work Environment and Culture**|What are the main concerns employees have about [the current work environment]?<br><br> Summarize the top 2 comment themes around [company culture] from question/item [number 4] from [managers].|
 
 ## Find more detailed information
 
