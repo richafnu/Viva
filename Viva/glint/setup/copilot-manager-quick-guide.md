@@ -33,7 +33,7 @@ ms.date: 3/28/2025
 - Identify what actions your employees are asking for  
 - Summarize non-English comments  
 
-## Manager process for reviewing feedback results 
+### Manager process for reviewing feedback results 
 
 | Task 1| Where to find it|
 |:-----------|:-----------|
@@ -51,7 +51,7 @@ ms.date: 3/28/2025
 |:-----------|:-----------|
 |**Ask Copilot in Viva Glint to dive deeper to uncover insights around your areas of interest**.<br> <br>Examples of Copilot prompts: <br></li><li> What are people saying about my [top opportunity]? <br> </li><li> What are people recommending leaders do to improve [topic]? </ul> |**Copilot button** <br><br>:::image type="content" source="../../media/glint/setup/copilot-button-1.png" alt-text="Screenshot of the Copilot button on the Manager Team Summary dashboard.":::|
 
-## Quick tips for Copilot prompts
+### Quick tips for Copilot prompts
 
 |&nbsp;&nbsp;  |Recommendation| Benefit|
 |:----:|-----------|------|
@@ -62,8 +62,7 @@ ms.date: 3/28/2025
 |:::image type="icon" source="/office/media/icons/shopping-cart-blue.png":::|**Deep dive into a specific follow-up topic.**| From the summary, choose one or two insights to ask Copilot for more information.|
 |:::image type="icon" source="/office/media/icons/migration-blue.png":::|**Keep queries to Viva Glint data.**|Copilot in Viva Glint doesn't access data beyond what's on your dashboard.|
 
-
-## Important need-to-knows
+### Important need-to-knows
 
 |Know this as you work with Copilot|Details|
 |:------|:--------|
@@ -76,10 +75,9 @@ ms.date: 3/28/2025
 |**Copilot only saves within a current user session. ** |To save the summary, highlight the content, select **Save**, and copy to a document.|
 |**Copilot can't *compare* comments between employee groups or surveys.**| Yet!|
 
-## Prompt starters
+### Prompt starters
 
-> [!NOTE]
-> Try using these ideas to generate prompts that work for you. Fill in your own attributes, filters, survey names, or employee names where the examples have **square brackets**.
+Try using these ideas to generate prompts that work for you. Fill in your own attributes, filters, survey names, or employee names where the examples have **square brackets**.
 
 - Summarize all comments for me.
 - What are employees saying at my organization?
@@ -95,7 +93,7 @@ ms.date: 3/28/2025
 - Tell me what employees in [APAC] are saying about [work-life balance].
 
 
-### Deep-dive example
+#### Deep-dive example
 
 >**Prompt: Summarize the "Microsoft Viva People Success Elements." Then suggest a few concrete actions for me, as a Department Manager, to improve my employee engagement score. Please use the comments in the [date/name] survey.**
 >
@@ -103,7 +101,7 @@ ms.date: 3/28/2025
 >  - Swap Viva People Success Elements to your organization's core values and then ask Copilot to generate concrete actions based upon that statement to improve engagement scores.
 >  - Choose one highlight from the summary and ask Copilot to drill down on that theme, taking more from those specific comments.
 
-## Suggested prompts for specific comment summarization
+### Suggested prompts for specific comment summarization
 
 Fill in your own attributes, filters, survey names, or employee names where the examples have **square brackets**. Filters must be set for Copilot to use them. Attribute filters available are found in the dropdown menu at the top of each report page.
 
@@ -117,7 +115,7 @@ Fill in your own attributes, filters, survey names, or employee names where the 
 |**Leadership and Management**|What are the common themes in feedback about [senior leadership?]<br><br>How do employees perceive the effectiveness of their managers?|
 |**Work Environment and Culture**|What are the main concerns employees have about [the current work environment]?<br><br> Summarize the top 2 comment themes around [company culture] from question/item [number 4] from [managers].|
 
-## Find more detailed information
+### Find more detailed information
 
 [How managers use Microoft 365 Copilot in Viva Glint](/../../viva/glint/setup/copilot-managers)
 
