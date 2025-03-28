@@ -25,12 +25,12 @@ Assigning roles for Viva Glint leadership is among the first tasks for the Micro
 
 - Provisions Viva Glint tenants
 - Represents your organization, initiates, and controls Viva Glint product subscriptions and licenses
-- Assigns Viva Glint Tenant Adminstrators
+- Assigns Viva Glint Tenant Administrators
 
 ## Viva Glint Tenant Administrator
 
 - Assigned by the Microsoft 365 Global Administrator to manage Viva Glint settings in the Microsoft 365 admin center
-- Assigns Viva Glint Adminstrators
+- Assigns Viva Glint Administrators
 - Views message center information in the Microsoft 365 admin center
 - Files Microsoft 365 and Azure support tickets
 - Views service health information
