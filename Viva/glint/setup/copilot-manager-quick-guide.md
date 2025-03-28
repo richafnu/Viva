@@ -19,7 +19,7 @@ ms.localizationpriority: high
 ms.date: 3/28/2025
 ---
 
-# Manager Quick Guide - Comment summarization in Microsoft 365 Copilot in Viva Glint
+# Manager Quick Guide - Comment summarization for Microsoft 365 Copilot in Viva Glint
 
 > [!TIP]
 >**Download this page to help your managers analyze feedback comments from Viva Glint surveys.**<br>
@@ -38,14 +38,16 @@ ms.date: 3/28/2025
 | Task 1| Where to find it|
 |:-----------|:-----------|
 | **Review your scores on the Viva Glint Team Summary dashboard before jumping directly into Copilot.** <br><br>Consider:<ul><li>Where are your high and low scores?<br></li><li>What items have high comment counts? <br></li><li>Are there teams or subgroups scoring higher or lower than others?</ul>|**Manager Team Summary dashboard** <br><br>:::image type="content" source="../../media/glint/setup/copilot-team-summary-1.png" alt-text="Screenshot of the Manager Team Summary dashboard.":::|
-
+<br>
+<br>
+<br>
 | Task 2| Where to find it|
 |:-----------|:-----------|
 |**Review the Strengths & Opportunities section on the Viva Glint Team Summary dashboard to understand strengths to celebrate and opportunity areas to improve upon**.**<br><br> <ul><li>What opportunity items do you want to better understand through the comments?<br></li><li>What themes do you want to explore more?<br></li><li>Select 1-2 Focus Areas to explore for taking action.</ul>|**Strengths & Opportunities section of Team Summary** <br><br>:::image type="content" source="../../media/glint/setup/copilot-strengths-opps.png" alt-text="Screenshot of Strengths & Opportunities on the Manager Team Summary dashboard.":::|
 
 | Task 3| Where to find it|
 |:-----------|:-----------|
-|**Ask Copilot in Viva Glint to dive deeper to uncover insights around your areas of interest**.<br> <br>Examples of Copilot prompts: <br></li><li> What are people saying about my [top opportunity]?  <br> </li><li> What are people in [region] saying about [topic]?  <br> </li><li> What are people recommending leaders do to improve [topic]? </ul> |**Copilot button** <br><br>:::image type="content" source="../../media/glint/setup/copilot-button-1.png" alt-text="Screenshot of the Copilot button on the Manager Team Summary dashboard.":::|
+|**Ask Copilot in Viva Glint to dive deeper to uncover insights around your areas of interest**.<br> <br>Examples of Copilot prompts: <br></li><li> What are people saying about my [top opportunity]? <br> </li><li> What are people recommending leaders do to improve [topic]? </ul> |**Copilot button** <br><br>:::image type="content" source="../../media/glint/setup/copilot-button-1.png" alt-text="Screenshot of the Copilot button on the Manager Team Summary dashboard.":::|
 
 ## Quick tips for Copilot prompts
 
@@ -66,10 +68,10 @@ ms.date: 3/28/2025
 |**Copilot functions as a chatbot.**| Choosing the Copilot symbol opens a Copilot pane for you to interact with.|
 |**Prompt to get the most relevant summary results.**|Include specific question titles, demographic attributes, prescriptive comments, or other available report filters in your prompt. |
 |**The prompt character limit is 250 characters.**| You see a character countdown as you add your prompt.
-|**Copilot only summarizes up to 8,000 comments.**| If you have more than 8,000 comments, consider finding a more specific theme to study. Choose one highlight from the summary and ask Copilot to drill down on that theme by supplying more specific comments.|
+|**Copilot only summarizes up to 8,000 comments.**| If you have more than 8,000 comments, consider finding a more specific theme to study. Choose one highlight from the summary and ask Copilot to supply more specific comments.|
 |**Copilot can't summarize its own summary!**|Once a summary is generated, follow-up asks need to drill down on themes in the summary.|
 |**Copilot is embedded within the existing reporting flow.** |Within any report, a new window opens so you can look at comments in that report. Copilot uses the applied filters to your report.|
-|**Copilot only saves within a current user session. After logging out, it disappears.** |To save the summary, highlight the content, select **Save**, and copy to a document.|
+|**Copilot only saves within a current user session. ** |To save the summary, highlight the content, select **Save**, and copy to a document.|
 |**Copilot can't *compare* comments between employee groups or surveys.**| Yet!|
   
 ## Prompt starters
