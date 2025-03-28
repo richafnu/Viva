@@ -21,7 +21,7 @@ ms.date: 3/28/2025
 
 Drivers are factors that affect employee engagement. A driver's *impact* is its correlation with employee engagement in the Thworld of work. Team and organizational **Strengths** and **Opportunities** (S&Os) are derived from Driver Impact data.
 
-There can be a significant difference in how important a specific driver of engagement is to one team compared to another team, or to the rest of the company. For example, the engineering team's engagement level may be highly impacted by a lack of career growth opportunities, whereas the finance team may have been overworked this quarter and thus work-life balance impacts them the most. Key drivers vary within organizations and populations.
+There can be a significant difference in how important a specific driver of engagement is to one team compared to another team, or to the rest of the company. For example, the engineering team's engagement level might be highly impacted by a lack of growth opportunities, whereas the overworked finance team rates work-life balance as having the highest impact. Key drivers vary within organizations and populations.
 
 [Watch this video about using the Driver Impact Report.](https://learn-video.azurefd.net/vod/player?id=a2adbcf1-8cf0-43e5-9036-80a28ee1c5cd)
 
@@ -35,9 +35,9 @@ One or more internal benchmark comparisons may be available to view feedback, ba
 
 |Viva Glint benchmark comparison option| Description| 
 |---------|-----------------|
-|**Benchmark** | Provides a comparison point for feedback based on survey data compiled from all Viva Glint customers. The comparison points aren't just within your organization. This comparion is helpful for admins and first-time survey results analysis.|
+|**Benchmark** | Provides a comparison point for feedback based on survey data compiled from all Viva Glint customers. The comparison points aren't just within your organization. This comparison is helpful for admins and first-time survey results analysis.|
 |**Company** |Displays team scores in comparison to company-wide scores for the same survey items. This comparison is helpful for users with more than one area of responsibility.|
-|**My Teams** |Compares a team's score to an overall score derived from a user’s data access. This is helpful for users with more than one area of responsibility.|
+|**My Teams** |Compares a team's score to an overall score derived from a user’s data access. This comparison is helpful for users with more than one area of responsibility.|
 | **Average Question**| Presents a single, overall score for all items and respondents within your access. This comparison is helpful for users looking for some level of overall variance in their score.|
 
 [Learn more about comparison data](/../../viva/glint/setup/survey-comparison-data?branch=pr-en-us-9179).
@@ -91,7 +91,7 @@ In determining S&Os, the platform considers the distance to the comparison point
 - Relative Opportunities are indicated by a **red dot**.
 
 > [!IMPORTANT]
-> - The S&Os section is hidden on a user's dashboard if there are less than two eligible items ranked. This happens when:
+> - The S&Os section is hidden on a user's dashboard if there are less than two eligible items ranked. This instance happens when:
 >   - There are insufficient results
 >   - All items have low or medium impact
 >   - A user is on a report filtered to only one item
