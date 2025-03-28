@@ -23,7 +23,7 @@ ms.date: 3/28/2025
 
 > [!TIP]
 >**Download this page to help your managers analyze feedback comments from Viva Glint surveys.**<br>
-
+>
 >Click anywhere on the page and select **Print.** When your printer window opens, select **Save as PDF** from the printer dropdown menu. Select **Save.** Now you can share the downloaded PDF file within your organization.
 
 **Copilot in Viva Glint can:**
@@ -43,9 +43,6 @@ ms.date: 3/28/2025
 |:-----------|:-----------|
 |**Review the Strengths & Opportunities section on the Viva Glint Team Summary dashboard to understand strengths to celebrate and opportunity areas to improve upon**.**<br><br> <ul><li>What opportunity items do you want to better understand through the comments?<br></li><li>What themes do you want to explore more?<br></li><li>Select 1-2 Focus Areas to explore for taking action.</ul>|**Strengths & Opportunities section of Team Summary** <br><br>:::image type="content" source="../../media/glint/setup/copilot-strengths-opps.png" alt-text="Screenshot of Strengths & Opportunities on the Manager Team Summary dashboard.":::|
 
-<br>
-<br>
-
 | Task 3| Where to find it|
 |:-----------|:-----------|
 |**Ask Copilot in Viva Glint to dive deeper to uncover insights around your areas of interest**.<br> <br>Examples of Copilot prompts: <br></li><li> What are people saying about my [top opportunity]?  <br> </li><li> What are people in [region] saying about [topic]?  <br> </li><li> What are people recommending leaders do to improve [topic]? </ul> |**Copilot button** <br><br>:::image type="content" source="../../media/glint/setup/copilot-button-1.png" alt-text="Screenshot of the Copilot button on the Manager Team Summary dashboard.":::|
@@ -60,7 +57,6 @@ ms.date: 3/28/2025
 |:::image type="icon" source="/office/media/icons/hybrid-blue.png":::|**Bundle requests into a single prompt.** Ask multi-step prompts, building up to your anticipated follow-up question.| Copilot can't summarize its own summary!|
 |:::image type="icon" source="/office/media/icons/shopping-cart-blue.png":::|**Deep dive into a specific follow-up topic.**| From the summary, choose one or two insights to ask Copilot for more information.|
 |:::image type="icon" source="/office/media/icons/migration-blue.png":::|**Keep queries to Viva Glint data.**|Copilot in Viva Glint doesn't access data beyond what's on your dashboard.|
-
 
 
 ## Important need-to-knows
