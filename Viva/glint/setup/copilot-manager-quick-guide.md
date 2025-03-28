@@ -72,7 +72,7 @@ ms.date: 3/28/2025
 |**Copilot only summarizes up to 8,000 comments.**| If you have more than 8,000 comments, consider finding a more specific theme to study. Choose one highlight from the summary and ask Copilot to supply more specific comments.|
 |**Copilot can't summarize its own summary!**|Once a summary is generated, follow-up asks need to drill down on themes in the summary.|
 |**Copilot is embedded within the existing reporting flow.** |Within any report, a new window opens so you can look at comments in that report. Copilot uses the applied filters to your report.|
-|**Copilot only saves within a current user session. ** |To save the summary, highlight the content, select **Save**, and copy to a document.|
+|**Copilot only saves within a current user session.** |To save the summary, highlight the content, select **Save**, and copy to a document.|
 |**Copilot can't *compare* comments between employee groups or surveys.**| Yet!|
 
 ### Prompt starters
