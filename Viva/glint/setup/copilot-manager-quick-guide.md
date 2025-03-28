@@ -61,7 +61,7 @@ ms.date: 3/28/2025
 |:::image type="icon" source="/office/media/icons/shopping-cart-blue.png":::|**Deep dive into a specific follow-up topic.**| From the summary, choose one or two insights to ask Copilot for more information.|
 |:::image type="icon" source="/office/media/icons/migration-blue.png":::|**Keep queries to Viva Glint data.**|Copilot in Viva Glint doesn't access data beyond what's on your dashboard.|
 
-<div style="page-break-after: always;"></div>
+
 
 ## Important need-to-knows
 
@@ -94,7 +94,6 @@ ms.date: 3/28/2025
 - Show comments related to [career development].
 - Tell me what employees in [APAC] are saying about [work-life balance].
 
-<div style="page-break-after: always;"></div>
 
 ### Deep-dive example
 
