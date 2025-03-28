@@ -38,6 +38,7 @@ ms.date: 3/28/2025
 | Task 1| Where to find it|
 |:-----------|:-----------|
 | **Review your scores on the Viva Glint Team Summary dashboard before jumping directly into Copilot.** <br><br>Consider:<ul><li>Where are your high and low scores?<br></li><li>What items have high comment counts? <br></li><li>Are there teams or subgroups scoring higher or lower than others?</ul>|**Manager Team Summary dashboard** <br><br>:::image type="content" source="../../media/glint/setup/copilot-team-summary-1.png" alt-text="Screenshot of the Manager Team Summary dashboard.":::|
+
 <br>
 <br>
 <br>
@@ -74,7 +75,12 @@ ms.date: 3/28/2025
 |**Copilot is embedded within the existing reporting flow.** |Within any report, a new window opens so you can look at comments in that report. Copilot uses the applied filters to your report.|
 |**Copilot only saves within a current user session. ** |To save the summary, highlight the content, select **Save**, and copy to a document.|
 |**Copilot can't *compare* comments between employee groups or surveys.**| Yet!|
-  
+
+<br>
+<br>
+<br>
+
+
 ## Prompt starters
 
 > [!NOTE]
