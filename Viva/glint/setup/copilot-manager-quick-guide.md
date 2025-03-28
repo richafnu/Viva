@@ -24,7 +24,6 @@ ms.date: 3/28/2025
 
 > [!TIP]
 >**Download this page to help your managers analyze feedback comments from Viva Glint surveys.**
->
 >Click anywhere on the page and select **Print.** When your printer window opens, select **Save as PDF** from the printer dropdown menu. Select **Save.** Now you can share the downloaded PDF file within your organization.
 
 Copilot in Viva Glint can:
@@ -54,6 +53,8 @@ Follow these tasks, in the order that they appear.
 |:::image type="icon" source="/office/media/icons/hybrid-blue.png":::|**Bundle requests into a single prompt.** Ask multi-step prompts, building up to your anticipated follow-up question.| Copilot can't summarize its own summary!|
 |:::image type="icon" source="/office/media/icons/shopping-cart-blue.png":::|**Deep dive into a specific follow-up topic.**| From the summary, choose one or two insights to ask Copilot for more information.|
 |:::image type="icon" source="/office/media/icons/migration-blue.png":::|**Keep queries to Viva Glint data.**|Copilot in Viva Glint doesn't access data beyond what's on your dashboard.|
+
+<div style="page-break-after: always;"></div>
 
 ## Important need-to-knows
 
@@ -85,6 +86,8 @@ Follow these tasks, in the order that they appear.
 - Tell me what people are saying about [wellbeing] at work.
 - Show comments related to [career development].
 - Tell me what employees in [APAC] are saying about [work-life balance].
+
+<div style="page-break-after: always;"></div>
 
 ### Deep-dive example
 
