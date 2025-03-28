@@ -55,9 +55,9 @@ ms.date: 3/28/2025
 
 |&nbsp;&nbsp;  |Recommendation| Benefit|
 |:----:|-----------|------|
-|:::image type="icon" source="/office/media/icons/search-blue.png":::|**Browse ready-to-use prompts.**|The prompt guide suggests questions to get you started on data exploration.|
+|:::image type="icon" source="/office/media/icons/search-blue.png":::|**Browse ready-to-use prompts.**|The prompt guide suggests questions to start your exploration.|
 |:::image type="icon" source="/office/media/icons/lightbulb-idea-capture-blue.png":::|**Experiment writing your own prompts.**|Try using prompts on different topics, survey items, and demographic groups. Rephrase a comment or word that didn’t work right away.*|
-|:::image type="icon" source="/office/media/icons/sign-up-blue.png":::|**Be specific in prompt writing.**|Copilot understands your intended prompt best when you use detailed prompts.|
+|:::image type="icon" source="/office/media/icons/sign-up-blue.png":::|**Be specific in prompt writing.**|Copilot reacts best to detailed prompts.|
 |:::image type="icon" source="/office/media/icons/hybrid-blue.png":::|**Bundle requests into a single prompt.** Ask multi-step prompts, building up to your anticipated follow-up question.| Copilot can't summarize its own summary!|
 |:::image type="icon" source="/office/media/icons/shopping-cart-blue.png":::|**Deep dive into a specific follow-up topic.**| From the summary, choose one or two insights to ask Copilot for more information.|
 |:::image type="icon" source="/office/media/icons/migration-blue.png":::|**Keep queries to Viva Glint data.**|Copilot in Viva Glint doesn't access data beyond what's on your dashboard.|
@@ -75,11 +75,6 @@ ms.date: 3/28/2025
 |**Copilot is embedded within the existing reporting flow.** |Within any report, a new window opens so you can look at comments in that report. Copilot uses the applied filters to your report.|
 |**Copilot only saves within a current user session. ** |To save the summary, highlight the content, select **Save**, and copy to a document.|
 |**Copilot can't *compare* comments between employee groups or surveys.**| Yet!|
-
-<br>
-<br>
-<br>
-
 
 ## Prompt starters
 
