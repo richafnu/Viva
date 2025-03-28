@@ -119,7 +119,7 @@ In the following example, the preview is set for mobile devices and highlights t
 
 | View 1 (General User) | View 2 (Users in Sales)|
 | :------------------- | :------------------- |
-| :::image type="content" source="../media/connections/use-audience-targeting-in-viva-connections/mobile-view-1.png" alt-text="Screenshot of a mobile preview showing audience targeting for general users." lightbox="../media/connections/use-audience-targeting-in-viva-connections/mobile-view-1.png"::: | :::image type="content" source="../media/connections/use-audience-targeting-in-viva-connections/mobile-view-2.png" alt-text="Screenshot of a mobile preview showing audience targeting for users in sales." lightbox="../media/connections/use-audience-targeting-in-viva-connections/mobile-view-2.png"::: |
+| :::image type="content" source="../media/connections/use-audience-targeting-in-viva-connections/mobile-view-1.png" alt-text="Screenshot of a mobile preview showing audience targeting for general users."::: | :::image type="content" source="../media/connections/use-audience-targeting-in-viva-connections/mobile-view-2.png" alt-text="Screenshot of a mobile preview showing audience targeting for users in sales."::: |
 
 ## Apply audience targeting to news posts that display in the feed  
 
