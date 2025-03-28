@@ -51,7 +51,7 @@ To assign Viva Glint Service Admins as the Viva Glint Tenant Admin:
 6. Newly assigned users appear in the Viva Glint application in the Company Admin role within minutes.
 
 > [!CAUTION]
-> Don't assign Support users to the Comapny Admin role in the Microsoft 365 admin center. To add Support users, see: [Manage Support users in Viva Glint](add-external-user.md).
+> Don't assign Support users to the Company Admin role in the Microsoft 365 admin center. To add Support users, see: [Manage Support users in Viva Glint](add-external-user.md).
 
 ## Manage Viva Glint service admins in the Viva Glint app
 
