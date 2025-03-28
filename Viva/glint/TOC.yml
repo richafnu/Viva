@@ -246,7 +246,7 @@ items:
              href: setup/program-summary-setup-lifecycle.md
            - name: Set up an Exit survey
              href: setup/exit-survey-setup.md
-           - name: Preview and filter a Lifecycle survey
+           - name: Preview a Lifecycle survey
              href: setup/preview-filter-lifecycle-programs.md 
       - name: Set up an Always-On survey
         href: setup/always-on-surveys.md
@@ -263,8 +263,6 @@ items:
            - name: Questions setup 
              href: setup/questions-setup.md
              items:
-               - name: Add items and sections
-                 href: setup/add-new-questions.md
                - name: Target survey items
                  href: setup/targeted-survey-items.md
                - name: Add item Display Logic
@@ -380,9 +378,8 @@ items:
         items:
          - name: Executive Summary Report
            href: reports/executive-summary-report.md
-           items:
-             - name: Employee Lifecycle trend graph
-               href: reports/trend-graph-lifecycle-survey.md
+         - name: Employee Lifecycle trend
+           href: reports/trend-graph-lifecycle-survey.md
          - name: Driver Impact Report
            href: reports/driver-impact-report.md
            items:

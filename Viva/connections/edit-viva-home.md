@@ -336,7 +336,7 @@ To apply a SharePoint or custom theme:
 
 ## Customize the dashboard
 
-The [Viva Connections dashboard](create-dashboard.md#edit-the-dashboard-from-microsoft-teams) provides fast and easy access to information and job-related tasks. Add and edit cards that help users quickly access the tools and resources they use in their day-to-day role. Cards on the dashboard can be targeted to users based on specific roles, regions, and interests. Edits (including audience targeting settings) made to cards on the dashboard are also automatically applied to the [Dashboard web part](use-dashboard-web-part-on-home-site.md) and [the mobile experience](viva-connections-overview.md#the-viva-connections-mobile-experience).
+The [Viva Connections dashboard](create-dashboard.md#edit-a-viva-connections-dashboard) provides fast and easy access to information and job-related tasks. Add and edit cards that help users quickly access the tools and resources they use in their day-to-day role. Cards on the dashboard can be targeted to users based on specific roles, regions, and interests. Edits (including audience targeting settings) made to cards on the dashboard are also automatically applied to the [Dashboard web part](use-dashboard-web-part-on-home-site.md) and [the mobile experience](viva-connections-overview.md#the-viva-connections-mobile-experience).
 
 > [!NOTE]
 >
