@@ -103,13 +103,13 @@ When adjusted confidentiality thresholds are in place for rated questions, here'
 In this case, all teams with insufficient respondents are 0 + 0 + 1, which meets the suppression threshold of one (1). The rated confidentiality is also set to 3, so the next largest team, Manager D’s team, displays in reporting. Parent team suppression is only factored in when the Suppression threshold isn't met.
 
 ## Update overall or survey thresholds
-Thresholds set the number of survey responses that are needed for data to display. For example, when Viva Glint default settings are in place, a manager who has 10 total employees with 5 respondents sees their aggregated scores. However, if that same manager had only 1 employee respond, the survey responses are insufficient and don’t display in reports. These thresholds prevent a situation where a manager can identify the respondent based on their responses. Given this potential impact, Human Resources, Privacy, and Legal teams may have input about how these thresholds are adjusted.
+Thresholds set the number of survey responses that are needed for data to display. For example, when Viva Glint default settings are in place, a manager who has 10 total employees with five respondents sees their aggregated scores. However, if that same manager had only one employee respond, the survey responses are insufficient and don’t display in reports. These thresholds prevent a situation where a manager can identify the respondent based on their responses. Given this potential impact, Human Resources, Privacy, and Legal teams may have input about how these thresholds are adjusted.
 
 ### Overall thresholds
 If all your Viva Glint survey programs will have the same level of confidentiality, select threshold values at the overall level on the **Advanced Configuration Details** page.
 
 > [!IMPORTANT]
-> Changes to these thresholds impacts closed and active surveys.
+> Changes to these thresholds impact closed and active surveys.
 
 To edit threshold values:
 
@@ -144,7 +144,7 @@ Admins can make Viva Glint Lifecycle and Always-On surveys identifiable during [
 
 >[!IMPORTANT]
 > - The minimum threshold for an ad hoc or recurring program is three (3).
-> - The minimum threshold for an Employee Lifecyce or always-on survey is one (1).
+> - The minimum threshold for an Employee Lifecycle or always-on survey is one (1).
 
 ### Lower thresholds for identifiable surveys
 
@@ -156,4 +156,4 @@ Admins can make Viva Glint Lifecycle and Always-On surveys identifiable during [
 3. This automatically updates the survey and its confidentiality statement to indicate that it's identifiable.
 4. If needed, make more adjustments to thresholds for a survey [with this guidance](#survey-thresholds).
 
-:::image type="content" source="../../media/glint/setup/always-on-threshold.png" alt-text="Screenshot of toggling Confidential Responses to NO."lightbox="../../media/glint/setup/always-on-threshold.png":::
+:::image type="content" source="../../media/glint/setup/always-on-threshold.png" alt-text="Screenshot of toggling Confidential Responses to NO.":::
