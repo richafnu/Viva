@@ -33,8 +33,8 @@ items:
             href: setup/viva-glint-tenant-provision.md
           - name: Set up a multitenant organization
             href: setup/glint-mto.md
-          - name: Multitenant organization FAQ
-            href: setup/mto-faq.md
+               - name: Multitenant organization FAQ
+                 href: setup/mto-faq.md
           - name: Invite Government cloud guest users
             href: setup/glint-gcch-b2b-guest.md
           - name: Assign Glint admins
