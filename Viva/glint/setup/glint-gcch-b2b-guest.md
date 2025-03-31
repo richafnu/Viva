@@ -81,7 +81,7 @@ Viva Glint Admins need to upload all users from the GCC or GCC-High tenant, incl
 Invited Guests from GCC or GCC-High tenants need to take these steps to access Viva Glint on a commercial tenant.
 
 > [!TIP]
-> To prevent sign-in issues, try accessing Viva Glint in a new InPrivate or Incognito window.
+> To prevent sign-in issues, access Viva Glint in a new InPrivate or Incognito window.
 
 1. Select the appropriate link for the organization's region:
    - US - [http://app.us1.glint.cloud.microsoft](http://app.us1.glint.cloud.microsoft)
