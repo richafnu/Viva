@@ -34,7 +34,9 @@ items:
           - name: Set up a multitenant organization
             href: setup/glint-mto.md
           - name: Multitenant organization FAQ
-            href: setup/mto-faq.md           
+            href: setup/mto-faq.md
+          - name: Invite Government cloud guest users
+            href: setup/glint-gcch-b2b-guest.md
           - name: Assign Glint admins
             href: setup/post-provisioning-next-steps.md
           - name: Role definitions
