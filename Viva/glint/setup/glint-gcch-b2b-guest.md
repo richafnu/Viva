@@ -38,7 +38,7 @@ Only users that require dashboard access need to be invited as B2B collaboration
 To invite GCC-High users to your commercial tenant where Viva Glint is installed:
 
 1. [Update cross-cloud access settings](#update-cross-cloud-access-settings)
-2. [Invite B2B guests](#invite-b2b-guest-users-in-bulk)
+2. [Invite B2B guests](#invite-b2b-guests-in-bulk)
 3. Optionally, [limit users that appear in Microsoft Teams searches](#limit-users-that-appear-in-microsoft-teams-searches)
 
 ### Update cross-cloud access settings
@@ -56,7 +56,7 @@ To invite GCC-High users to your commercial tenant where Viva Glint is installed
 
 ### Limit users that appear in Microsoft Teams searches
 
-1. Sign in to the [Microsoft Teams admin center](https://admins.teams.microsoft.com).
+1. Sign in to the [Microsoft Teams admin center](https://admin.teams.microsoft.com/).
 2. Select **Teams** and go to **Teams settings.**
 3. Under **Search by name,** enable **Scope directory search using an Exchange address book policy** by switching the toggle to **On**.
 4. Users that are marked as hidden in Exchange don't show in Teams searches.
@@ -84,10 +84,24 @@ Invited Guests from GCC-High tenants need to take these steps to access Viva Gli
    - US - [http://app.us1.glint.cloud.microsoft](http://app.us1.glint.cloud.microsoft)
    - EU - [http://app.eu1.glint.cloud.microsoft](http://app.eu1.glint.cloud.microsoft)
 2. Select **Sign-in options** in the **Sign in** dialog.
-3. Select **Sign in to an organization.**
-4. Enter the **domain name** of the organization you'd like to sign in to (for example: `contoso.com`) and select **Next**.
-6. Enter the email address connected to your GCC-High account, for example: `user@contoso.us`, and enter your password.
-7. Complete multifactor authentication steps to sign in.
+   
+   :::image type="content" source="../../media/glint/setup/sign-in-options.png" alt-text="Screenshot of the sign-in options selection for guest sign in.":::
+
+5. Select **Sign in to an organization.**
+
+   :::image type="content" source="../../media/glint/setup/sign-in-to-an-org.png" alt-text="Screenshot of the Sign in to an organization selection for sign in options.":::
+   
+7. Enter the **domain name** of the organization you'd like to sign in to (for example: `contoso.com`) and select **Next**.
+   
+   :::image type="content" source="../../media/glint/setup/gcch-enter-domain.png" alt-text="Screenshot of a guest sign in prompt for an organization's domain.":::
+   
+9. Enter the email address connected to your GCC-High account, for example: `user@contoso.us`, and enter your password.
+    
+    :::image type="content" source="../../media/glint/setup/gcch-sign-in.png" alt-text="Screenshot of email and password entry for sign in.":::
+   
+12. Complete multifactor authentication steps to sign in.
+
+    :::image type="content" source="../../media/glint/setup/gcch-mfa.png" alt-text="Screenshot of a sign in approval request for Microsoft Authenticator.":::
 
 > [!TIP]
 > To prevent sign-in issues, try accessing Viva Glint in a new InPrivate or Incognito window.
