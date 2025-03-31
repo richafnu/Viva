@@ -1,5 +1,5 @@
 ---
-ms.date: 02/28/2023
+ms.date: 04/1/2025
 title: Filters in advanced insights queries
 description: Learn more about filters in queries
 author: zachminers
