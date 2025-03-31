@@ -38,15 +38,17 @@ items:
               href: advanced/setup-maint/assign-licenses.md
             - name: 2 - Assign roles
               href: advanced/setup-maint/assign-user-roles.md
-            - name: 3 - Configure manager settings
+            - name: 3 - Enable or disable advanced insights with PowerShell
+              href: advanced/setup-maint/control-advanced-insights-powershell.md
+            - name: 4 - Configure manager settings
               href: advanced/setup-maint/manager-settings.md
-            - name: 4 - Configure personal insights defaults
+            - name: 5 - Configure personal insights defaults
               href: advanced/setup-maint/configure-personal-insights.md
-            - name: 5 - Configure Teams app settings
+            - name: 6 - Configure Teams app settings
               href: advanced/setup-maint/teams-admin-setup.md
-            - name: 6 - Customize Viva Insights privacy settings 
+            - name: 7 - Customize Viva Insights privacy settings 
               href: advanced/setup-maint/privacy-settings.md 
-            - name: 7 - Upload organizational data 
+            - name: 8 - Upload organizational data 
               href: advanced/setup-maint/upload-data.md 
             - name: About roles in Viva Insights
               href: advanced/setup-maint/user-roles.md
@@ -184,9 +186,9 @@ items:
               href: advanced/analyst/templates/manager-effectiveness.md
             - name: Meeting effectiveness
               href: advanced/analyst/templates/meeting-effectiveness.md
-            - name: Microsoft 365 Copilot adoption report
+            - name: Copilot adoption report
               href: advanced/analyst/templates/microsoft-365-copilot-adoption.md   
-            - name: Microsoft 365 Copilot impact report
+            - name: Copilot impact report
               href: advanced/analyst/templates/microsoft-365-copilot-impact.md
             - name: Copilot for Sales adoption report
               href: advanced/analyst/templates/copilot-for-sales-adoption.md   
@@ -250,9 +252,9 @@ items:
           href: advanced/admin/manage-settings-copilot-dashboard.md
         - name: Set up analyst queries using Microsoft 365 Copilot in Viva Insights 
           href: advanced/analyst/copilot-query.md
-        - name: Microsoft 365 Copilot adoption report
+        - name: Copilot adoption report
           href: advanced/analyst/templates/microsoft-365-copilot-adoption.md   
-        - name: Microsoft 365 Copilot impact report
+        - name: Copilot impact report
           href: advanced/analyst/templates/microsoft-365-copilot-impact.md
         - name: Copilot for Sales adoption report
           href: advanced/analyst/templates/copilot-for-sales-adoption.md   

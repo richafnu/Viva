@@ -19,7 +19,13 @@
       "source_path": "viva/learning/workday-integration.md",
       "redirect_url": "/viva/learning/workday-intro",
       "redirect_document_id": true
-    },    
+    },   
+    { 
+      "source_path": "viva/learning/whats-new.md",
+      "redirect_url": "/viva/learning/overview-viva-learning",
+      "redirect_document_id": true
+    },
+
     {
       "source_path": "viva/learning/configure-successfactors-content-source.md",
       "redirect_url": "/viva/learning/sfsf-introduction",
@@ -2399,8 +2405,52 @@
   { 
    "source_path": "viva/glint/setup/survey-coach.md",
    "redirect_url": "/viva/glint/setup/program-summary-coaching",
-   "redirect_document_id": false
+   "redirect_document_id": true
+  },
+  {
+    "source_path": "viva/glint/people-science/propel-action-taking.md",
+    "redirect_url": "/viva/glint/people-science/propelling-action-taking",
+    "redirect_document_id": true
+  },
+  {
+    "source_path": "viva/glint/reports/focus-area-periods.md",
+    "redirect_url": "/viva/glint/setup/focus-area-period-feature",
+    "redirect_document_id": true
+  },
+  {
+    "source_path": "viva/glint/reports/coach-managers-small-teams.md",
+    "redirect_url": "/viva/glint/reports/post-survey-coaching-small-teams",
+    "redirect_document_id": true
+  },
+  {
+    "source_path": "viva/glint/setup/import-members-distribution-lists.md",
+    "redirect_url": "/viva/glint/setup/set-up-distribution-lists",
+    "redirect_document_id": true
+  },
+  {
+    "source_path": "viva/glint/setup/export-distribution-lists.md",
+    "redirect_url": "/viva/glint/setup/set-up-distribution-lists",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "viva/glint/start/brochure-summary.md",
+    "redirect_url": "/viva/glint/introduction-viva-glint",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "viva/glint/reports/team-conversations-resource-guidance.md",
+    "redirect_url": "/viva/glint/setup/program-summary-coaching",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "viva/glint/reports/coaching-team-conversations.md",
+    "redirect_url": "/viva/glint/setup/program-summary-coaching",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "viva/glint/setup/add-new-questions.md",
+    "redirect_url": "/viva/glint/setup/questions-setup",
+    "redirect_document_id": true
   }
-    
-  ]
+ ]
 }

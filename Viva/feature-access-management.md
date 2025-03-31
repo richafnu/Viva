@@ -4,7 +4,7 @@ ms.reviewer: loreenl
 ms.author: loreenl
 author: lizap
 manager: elizapo
-ms.date: 02/18/2025
+ms.date: 03/26/2025
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -45,10 +45,6 @@ Before you can create a policy, you need:
 
 ## Features available to manage
 
-> [!NOTE]
-> - Some features may not support user/group policies. In addition, policies for one app can have an impact on the entire tenant or users in your tenant. For more information, see the feature documentation by using the link in the table.
-> - Only some features have the controls available for admins to provide users with the option to opt out.
-
 You can use feature access management to manage access to the following features:
 
 > [!NOTE]
@@ -61,7 +57,8 @@ You can use feature access management to manage access to the following features
 ||[AI Summarization](/viva/engage/configure-copilot-for-engage)|Yes|Engage admin|VivaEngage|
 |Glint|[Copilot in Viva Glint](/viva/glint/copilot/admin-enable)*|No|Global admin|VivaGlint|
 |Goals|[Copilot in Viva Goals](/viva/goals/copilot-intro)|No|Goals admin|VivaGoals|
-|Insights|[Analyst Report Publish (preview)](/viva/insights/advanced/analyst/publish-reports)|No|Viva Insights admin|VivaInsights|
+|Insights|[Advanced Insights](/viva/insights/advanced/introduction-to-advanced-insights)|No|AI admin|VivaInsights|
+||[Analyst Report Publish (preview)](/viva/insights/advanced/analyst/publish-reports)|No|Viva Insights admin|VivaInsights|
 ||[Copilot Dashboard](/viva/insights/org-team-insights/copilot-dashboard)|No|AI admin|VivaInsights|
 ||[Copilot Dashboard Auto Enablement](/viva/insights/org-team-insights/copilot-dashboard#remove-access-to-the-dashboard-for-the-entire-tenant-with-powershell)|No|AI admin|VivaInsights|
 ||[Copilot Dashboard Delegation](/viva/insights/org-team-insights/delegate-access)|Yes|AI admin|VivaInsights|
@@ -72,6 +69,8 @@ You can use feature access management to manage access to the following features
 ||[Reflection](https://support.microsoft.com/topic/reflect-in-viva-insights-55379cb7-cf2a-408d-b740-2b2082eb3743)|No|Insights admin|VivaInsights|
 |Pulse|[Customization](/viva/pulse/setup-admin-access/set-up-in-app-pulse-experience#customization)|No|Viva Pulse admin|VivaPulse|
 ||[Team conversations in Pulse reports](/viva/pulse/setup-admin-access/granular-access-controls#conversations-in-pulse-reports)|No|Viva Pulse admin|VivaPulse|
+||[Copilot in Viva Pulse](/viva/pulse/setup-admin-access/granular-access-controls)|No|Viva Pulse admin|VivaPulse|
+||[Viva Pulse experience with Microsoft 365 Copilot](/viva/pulse/setup-admin-access/granular-access-controls)|No|Viva Pulse admin|VivaPulse|
 |Skills|[Default Skills visibility](/viva/skills/skills-overview)*|Yes|Knowledge admin|VivaSkills|
 ||[Skill suggestions](/viva/skills/skills-overview)*|Yes|Knowledge admin|VivaSkills|
 
