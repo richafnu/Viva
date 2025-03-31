@@ -1,6 +1,6 @@
 ---
-title: Invite Government Community Cloud High (GCC-High) users to your Viva Glint tenant
-description: For organizations with Viva Glint installed to a commercial tenant, admins can invite users that need dashboard access from GCC-High cloud tenants as B2B collaboration users.
+title: Invite Government Cloud users to your Viva Glint tenant
+description: For organizations with Viva Glint installed to a commercial tenant, admins can invite users that need dashboard access from GCC or GCC-High cloud tenants as B2B collaboration users.
 ms.author: aweixelman
 author: AliciaWeixelman
 manager: melissabarry
