@@ -27,7 +27,8 @@ ms.date: 3/31/2025
 >Click anywhere on the page and select **Print.** When your printer window opens, select **Save as PDF** from the printer dropdown menu. Select **Save.** Now you can share the downloaded PDF file within your organization.
 
 <br>
-**Copilot in Viva Glint can:**
+
+## Copilot in Viva Glint can:
 - Identify key themes by summarizing comments 
 - Summarize comments by demographics 
 - Summarize comments by survey items  
