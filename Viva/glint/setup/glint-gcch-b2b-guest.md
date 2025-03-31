@@ -19,7 +19,7 @@ ms.date: 03/31/2025
 
 # Invite Government Community Cloud High (GCC-High) users to your Viva Glint tenant
 
-Microsoft Viva Glint is available for commercial tenants but isn't available for Government Community Cloud (GCC) or Government Community Cloud High (GCC-High) entities. For organizations with Viva Glint installed to a commercial tenant, admins can invite users that need dashboard access from GCC-High cloud tenants as B2B collaboration users. Consider Viva Glint survey access methods, Microsoft Entra configuration steps, data upload requirements in the Viva Glint app, and the B2B guest sign-in experience when inviting GCC-High users to your commercial tenant.
+Microsoft Viva Glint is available for commercial tenants but isn't available for Government Community Cloud (GCC) or Government Community Cloud High (GCC-High) entities. For organizations with Viva Glint installed to a commercial tenant, admins can invite users that need dashboard access from GCC-High cloud tenants as B2B collaboration users. Consider Viva Glint survey access methods, Microsoft Entra configuration steps, data upload requirements in the Viva Glint app, and the B2B guest sign-in experience described in this article when inviting GCC-High users to your commercial tenant.
 
 > [!NOTE]
 > Cross-tenant synchronization and multitenant organization don't currently support cross-cloud setups.
