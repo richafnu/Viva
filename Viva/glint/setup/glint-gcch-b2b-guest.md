@@ -33,7 +33,7 @@ Limit the number of users you need to invite to a commercial tenant by using a s
 
 Only users that require dashboard access need to be invited as B2B collaboration users.
 
-## Configuration in the Entra admin center
+## Configuration in the Microsoft Entra admin center
 
 To invite GCC-High users to your commercial tenant where Viva Glint is installed:
 
@@ -43,7 +43,7 @@ To invite GCC-High users to your commercial tenant where Viva Glint is installed
 
 ### Update cross-cloud access settings
 
-1. Sign in to the [Entra admin center](https://entra.microsoft.com) with a role that has at least [Security Administrator](/entra/identity/role-based-access-control/permissions-reference#security-administrator) permissions.
+1. Sign in to the [Microsoft Entra admin center](https://entra.microsoft.com) with a role that has at least [Security Administrator](/entra/identity/role-based-access-control/permissions-reference#security-administrator) permissions.
 2. [Enable cross-cloud access settings](/entra/external-id/cross-cloud-settings#enable-the-cloud-in-your-microsoft-cloud-settings).
 3. [Add the the tenant to your organizational settings](/entra/external-id/cross-cloud-settings#add-the-tenant-to-your-organizational-settings).
 
@@ -76,7 +76,7 @@ Viva Glint Admins need to upload all users from the GCC-High tenant, including s
 > [!IMPORTANT]
 > Email addresses uploaded to Viva Glint must match what's on file in the GCC-High cloud tenant.
 
-## Sign-in experience as a guest user
+## Sign-in experience as a guest
 
 Invited Guests from GCC-High tenants need to take these steps to access Viva Glint on a commercial tenant:
 
@@ -103,5 +103,3 @@ Invited Guests from GCC-High tenants need to take these steps to access Viva Gli
 
     :::image type="content" source="../../media/glint/setup/gcch-mfa.png" alt-text="Screenshot of a sign in approval request for Microsoft Authenticator.":::
 
-> [!TIP]
-> To prevent sign-in issues, try accessing Viva Glint in a new InPrivate or Incognito window.
