@@ -76,7 +76,7 @@ Viva Glint Admins need to upload all users from the GCC or GCC-High tenant, incl
 
 ## Sign-in experience as a guest
 
-Invited Guests from GCC or GCC-High tenants need to take these steps to access Viva Glint on a commercial tenant.
+Invited guests from GCC or GCC-High tenants need to take these steps to access Viva Glint on a commercial tenant.
 
 > [!TIP]
 > To prevent sign-in issues, access Viva Glint in a new InPrivate or Incognito window.
