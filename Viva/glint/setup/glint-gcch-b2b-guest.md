@@ -47,12 +47,10 @@ To invite GCC or GCC-High users to your commercial tenant where Viva Glint is in
 2. [Enable cross-cloud access settings](/entra/external-id/cross-cloud-settings#enable-the-cloud-in-your-microsoft-cloud-settings).
 3. [Add the tenant to your organizational settings](/entra/external-id/cross-cloud-settings#add-the-tenant-to-your-organizational-settings).
 
-
 ### Invite B2B guests in bulk
 
 1. Sign in to the [Microsoft Entra admin center](https://entra.microsoft.com) with a role that has at least [User Administrator](/entra/identity/role-based-access-control/permissions-reference#user-administrator) permissions.
-
-2. [Follow steps to invite guests in bulk](/entra/external-id/tutorial-bulk-invite#invite-guest-users-in-bulk)
+2. [Follow steps to invite guests in bulk](/entra/external-id/tutorial-bulk-invite#invite-guest-users-in-bulk).
 
 ### Limit users that appear in Microsoft Teams searches
 
