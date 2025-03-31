@@ -45,7 +45,7 @@ To invite GCC-High users to your commercial tenant where Viva Glint is installed
 
 1. Sign in to the [Microsoft Entra admin center](https://entra.microsoft.com) with a role that has at least [Security Administrator](/entra/identity/role-based-access-control/permissions-reference#security-administrator) permissions.
 2. [Enable cross-cloud access settings](/entra/external-id/cross-cloud-settings#enable-the-cloud-in-your-microsoft-cloud-settings).
-3. [Add the the tenant to your organizational settings](/entra/external-id/cross-cloud-settings#add-the-tenant-to-your-organizational-settings).
+3. [Add the tenant to your organizational settings](/entra/external-id/cross-cloud-settings#add-the-tenant-to-your-organizational-settings).
 
 
 ### Invite B2B guests in bulk
@@ -74,7 +74,7 @@ Viva Glint Admins need to upload all users from the GCC-High tenant, including s
 - [Choose a Viva Glint data upload method](choose-upload-method.md)
 
 > [!IMPORTANT]
-> Email addresses uploaded to Viva Glint must match what's on file in the GCC-High cloud tenant.
+> Email addresses uploaded to Viva Glint must match what's on file in the GCC-High tenant.
 
 ## Sign-in experience as a guest
 
