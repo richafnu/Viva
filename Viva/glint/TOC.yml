@@ -120,7 +120,7 @@ items:
         href: reports/incorporate-copilot.md
       - name: Managers using Copilot in Viva Glint 
         href: setup/copilot-managers.md
-      - name: Manager Quick Guide for Copilot in Viva Glint
+      - name: Manager Guide - Copilot in Viva Glint
         href: setup/copilot-manager-quick-guide.md
       - name: FAQs-Copilot in Viva Glint 
         href: setup/copilot-faqs.md 
