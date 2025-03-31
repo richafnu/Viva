@@ -1,5 +1,5 @@
 ---
-title: Manager Quick Guide - Comment summarization in Microsoft 365 Copilot in Viva Glint
+title: Manager Guide - Microsoft 365 Copilot in Viva Glint
 description: A guide designed especially for managers using Microsoft 365 Copilot in Viva Glint to summarize comments in survey feedback. 
 ms.author: JudithWeiner
 author: JudyWeiner
@@ -16,17 +16,19 @@ search.appverid: MET150
 ms.topic: how-to
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 3/28/2025
+ms.date: 3/31/2025
 ---
 
-# Manager Quick Guide - Comment summarization for Microsoft 365 Copilot in Viva Glint
+# Manager Guide - Microsoft 365 Copilot in Viva Glint
 
 > [!TIP]
 >**To help your managers analyze feedback comments, this page is formatted to print as a PDF.**
 > 
 >Click anywhere on the page and select **Print.** When your printer window opens, select **Save as PDF** from the printer dropdown menu. Select **Save.** Now you can share the downloaded PDF file within your organization.
 
-**Copilot in Viva Glint can:**
+<br>
+
+## Copilot in Viva Glint can:
 - Identify key themes by summarizing comments 
 - Summarize comments by demographics 
 - Summarize comments by survey items  
@@ -39,8 +41,6 @@ ms.date: 3/28/2025
 |:-----------|:-----------|
 | **Review your scores on the Viva Glint Team Summary dashboard before jumping directly into Copilot.** <br><br>Consider:<ul><li>Where are your high and low scores?<br></li><li>What items have high comment counts? <br></li><li>Are there teams or subgroups scoring higher or lower than others?</ul>|**Manager Team Summary dashboard** <br><br>:::image type="content" source="../../media/glint/setup/copilot-team-summary-1.png" alt-text="Screenshot of the Manager Team Summary dashboard.":::|
 
-<br>
-<br>
 <br>
 
 | Task 2| Where to find it|
@@ -93,17 +93,14 @@ Try using these ideas to generate prompts that work for you. Fill in your own at
 - Tell me what employees in [APAC] are saying about [work-life balance].
 
 <br>
-<br>
-<br>
-<br>
 
 #### Deep-dive example
 
->**Prompt: Summarize the "Microsoft Viva People Success Elements." Then suggest a few concrete actions for me, as a Department Manager, to improve my employee engagement score. Please use the comments in the [date/name] survey.**
->
->**Consider changes and fast follows**:
->  - Swap Viva People Success Elements to your organization's core values and then ask Copilot to generate concrete actions based upon that statement to improve engagement scores.
->  - Choose one highlight from the summary and ask Copilot to drill down on that theme, taking more from those specific comments.
+**Prompt: Summarize the "Microsoft Viva People Success Elements." Then suggest a few concrete actions for me, as a Department Manager, to improve my employee engagement score. Please use the comments in the [date/name] survey.**
+
+**Consider changes and fast follows**:
+  - Swap Viva People Success Elements to your organization's core values and then ask Copilot to generate concrete actions based upon that statement to improve engagement scores.
+  - Choose one highlight from the summary and ask Copilot to drill down on that theme, taking more from those specific comments.
 
 ### Suggested prompts for specific comment summarization
 
