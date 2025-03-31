@@ -17,9 +17,9 @@ ms.localizationpriority: high
 ms.date: 03/31/2025
 ---
 
-# Invite Government Community Cloud High (GCC-High) users to your Viva Glint tenant
+# Invite Government Cloud users to your Viva Glint tenant
 
-Microsoft Viva Glint is available for commercial tenants but isn't available for Government Community Cloud (GCC) or Government Community Cloud High (GCC-High) entities. For organizations with Viva Glint installed to a commercial tenant, admins can invite users that need dashboard access from GCC-High cloud tenants as B2B collaboration users. Consider Viva Glint survey access methods, Microsoft Entra configuration steps, data upload requirements in the Viva Glint app, and the B2B guest sign-in experience described in this article when inviting GCC-High users to your commercial tenant.
+Microsoft Viva Glint is available for commercial tenants but isn't available for Government Community Cloud (GCC) or Government Community Cloud High (GCC-High) entities. For organizations with Viva Glint installed to a commercial tenant, admins can invite users that need dashboard access from GCC or GCC-High cloud tenants as B2B collaboration users. Consider Viva Glint survey access methods, Microsoft Entra configuration steps, data upload requirements in the Viva Glint app, and the B2B guest sign-in experience described in this article when inviting GCC or GCC-High users to your commercial tenant.
 
 > [!NOTE]
 > Cross-tenant synchronization and multitenant organization don't currently support cross-cloud setups.
@@ -35,7 +35,7 @@ Only users that require dashboard access need to be invited as B2B collaboration
 
 ## Configuration in the Microsoft Entra admin center
 
-To invite GCC-High users to your commercial tenant where Viva Glint is installed:
+To invite GCC or GCC-High users to your commercial tenant where Viva Glint is installed:
 
 1. [Update cross-cloud access settings](#update-cross-cloud-access-settings)
 2. [Invite B2B guests](#invite-b2b-guests-in-bulk)
@@ -69,16 +69,16 @@ More information:
 
 ## Upload users to the Viva Glint app
 
-Viva Glint Admins need to upload all users from the GCC-High tenant, including survey takers and dashboard users, to the Viva Glint app. To upload employee data to Viva Glint:
+Viva Glint Admins need to upload all users from the GCC or GCC-High tenant, including survey takers and dashboard users, to the Viva Glint app. To upload employee data to Viva Glint:
 
 - [Choose a Viva Glint data upload method](choose-upload-method.md)
 
 > [!IMPORTANT]
-> Email addresses uploaded to Viva Glint must match what's on file in the GCC-High tenant.
+> Email addresses uploaded to Viva Glint must match what's on file in the GCC or GCC-High tenant.
 
 ## Sign-in experience as a guest
 
-Invited Guests from GCC-High tenants need to take these steps to access Viva Glint on a commercial tenant:
+Invited Guests from GCC or GCC-High tenants need to take these steps to access Viva Glint on a commercial tenant:
 
 1. Select the appropriate link for the organization's region:
    - US - [http://app.us1.glint.cloud.microsoft](http://app.us1.glint.cloud.microsoft)
@@ -95,7 +95,7 @@ Invited Guests from GCC-High tenants need to take these steps to access Viva Gli
    
    :::image type="content" source="../../media/glint/setup/gcch-enter-domain.png" alt-text="Screenshot of a guest sign in prompt for an organization's domain.":::
    
-9. Enter the email address connected to your GCC-High account, for example: `user@contoso.us`, and enter your password.
+9. Enter the email address connected to your GCC or GCC-High account, for example: `user@contoso.us`, and enter your password.
     
     :::image type="content" source="../../media/glint/setup/gcch-sign-in.png" alt-text="Screenshot of email and password entry for sign in.":::
    
