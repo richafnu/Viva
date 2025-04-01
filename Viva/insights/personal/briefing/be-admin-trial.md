@@ -1,6 +1,6 @@
 ---
 
-ms.date: 07/14/2020
+ms.date: 04/2/2025
 title: Admin preview
 description: Initial admin trial of the Briefing email
 author: madehmer
