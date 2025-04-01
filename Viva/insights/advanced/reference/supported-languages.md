@@ -31,7 +31,7 @@ The advanced insights app automatically uses your language identifier (language 
 
 * Windows
 * Your web browser
-* Location that's set for your Exchange Online mailbox
+* Exchange Online mailbox location setting
 
 ## Supported languages
 
@@ -85,7 +85,7 @@ Chinese (Traditional)|	zh-tw
 
 ## Use of data other than English
 
-If and when you are able to use the advanced insights app with _data_ that is in other languages, do the following as a guideline:
+If and when you're able to use the advanced insights app with _data_ in other languages, keep the following in mind:
 
 * Column headers for the organizational data when you [prepare the organizational data](../admin/prepare-org-data.md) must be in English.
 * When an analyst selects metrics while building a [query](../analyst/person-query-overview.md), the metric names they choose can be in the language of their choice.
