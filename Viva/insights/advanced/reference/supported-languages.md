@@ -19,8 +19,6 @@ audience: Admin
 
 # Advanced insights language support and guidelines
 
-The advanced insights app in Microsoft Viva Insights is available in the languages listed below.
-
 The advanced insights app automatically uses your language identifier (language and region) setting, using one of the following sources:
 
 * Windows
@@ -83,7 +81,7 @@ Chinese (Traditional)|	zh-tw
 
 ## Guidelines for data in languages other than English
 
-If you're able to use the advanced insights app with _data_ in other languages, keep the following in mind:
+If you're able to use the advanced insights app with _data_ in other languages, keep the following best practices in mind:
 
 * Column headers for the organizational data when you [prepare the organizational data](../admin/prepare-org-data.md) must be in English.
 * When an analyst selects metrics while building a [query](../analyst/person-query-overview.md), the metric names they choose can be in the language of their choice.
