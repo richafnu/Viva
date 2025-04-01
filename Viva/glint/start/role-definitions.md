@@ -14,12 +14,23 @@ search.appverid: MET150
 ms.topic: concept-article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 03/28/2025
+ms.date: 04/01/2025
 ---
 
 # Key roles for Viva Glint
 
 Assigning roles for Viva Glint leadership is among the first tasks for the Microsoft 365 Global Administrator. Using consistent terminology for Viva Glint roles helps support your Viva Glint programs.
+
+
+
+
+|Role  | Assigned by | Grants access to the Microsoft 365 admin enter to submit support requests  | Grants access to the Viva Glint app |
+|:----------|:-----------|:------------|:------------|
+| [Microsoft 365 Global Administrator](/entra/identity/role-based-access-control/permissions-reference#global-administrator)   |  | Yes | No  |
+|[Viva Glint Tenant Administrator](/entra/identity/role-based-access-control/permissions-reference#viva-glint-tenant-administrator)     |  | Yes | No  |
+|Viva Glint Administrator             |  | No  | Yes |
+|Viva Glint manager                   |  | No  | Yes |
+|Viva Glint end user                  |  | No  | No  |
 
 ## Microsoft 365 Global Administrator
 
