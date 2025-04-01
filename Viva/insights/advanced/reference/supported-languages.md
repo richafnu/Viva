@@ -19,10 +19,6 @@ audience: Admin
 
 # Advanced insights language support and guidelines
 
->[!Important]
-> 
->Metric names are displayed in English, regardless of your location, and Power BI templates are only available in English.
-
 The advanced insights app in Microsoft Viva Insights is available in the languages listed below.
 
 The advanced insights app automatically uses your language identifier (language and region) setting, using one of the following sources:
@@ -30,6 +26,10 @@ The advanced insights app automatically uses your language identifier (language 
 * Windows
 * Your web browser
 * Exchange Online mailbox location setting
+
+>[!Important]
+> 
+>Metric names are displayed in English, regardless of your location, and Power BI templates are only available in English.
 
 ## Supported languages
 
@@ -81,7 +81,7 @@ Vietnamese	| vi-vn
 Chinese (Simplified) |	zh-cn
 Chinese (Traditional)|	zh-tw
 
-## Use of data other than English
+## Guidelines for data in languages other than English
 
 If you're able to use the advanced insights app with _data_ in other languages, keep the following in mind:
 
