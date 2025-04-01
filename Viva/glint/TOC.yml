@@ -120,6 +120,8 @@ items:
         href: reports/incorporate-copilot.md
       - name: Managers using Copilot in Viva Glint 
         href: setup/copilot-managers.md
+      - name: Manager Guide - Copilot in Viva Glint
+        href: setup/copilot-manager-quick-guide.md
       - name: FAQs-Copilot in Viva Glint 
         href: setup/copilot-faqs.md 
   - name: Manage settings, features, and data
@@ -246,7 +248,7 @@ items:
              href: setup/program-summary-setup-lifecycle.md
            - name: Set up an Exit survey
              href: setup/exit-survey-setup.md
-           - name: Preview and filter a Lifecycle survey
+           - name: Preview a Lifecycle survey
              href: setup/preview-filter-lifecycle-programs.md 
       - name: Set up an Always-On survey
         href: setup/always-on-surveys.md
@@ -374,13 +376,12 @@ items:
             href: reports/report-customization.md
           - name: Confidentiality and suppression
             href: reports/confidentiality-suppression-reports.md     
-      - name: Feedback reports for managers and admins
+      - name: Feedback reports 
         items:
          - name: Executive Summary Report
            href: reports/executive-summary-report.md
-           items:
-             - name: Employee Lifecycle trend graph
-               href: reports/trend-graph-lifecycle-survey.md
+         - name: Employee Lifecycle trend
+           href: reports/trend-graph-lifecycle-survey.md
          - name: Driver Impact Report
            href: reports/driver-impact-report.md
            items:
@@ -413,6 +414,8 @@ items:
                href: setup/quick-guide-confidentiality.md
              - name: Manager Quick Guide - Results & Conversations 
                href: setup/quick-guide-manager-doc-pitfalls.md
+             - name: Manager Guide - Copilot in Viva Glint
+               href: setup/copilot-manager-quick-guide.md 
       - name: Reports for admins
         items:
          - name: Response Rates & Access report 
