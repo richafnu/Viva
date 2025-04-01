@@ -25,7 +25,7 @@ Assigning roles for Viva Glint leadership is among the first tasks for the Micro
 
 |Role  | Assigned by | Role grants access to the Microsoft 365 admin enter to submit support requests  | Role grants access to the Viva Glint app |
 |:----------|:-----------|:------------|:------------|
-|Microsoft 365 Global Administrator   | Entra orgnaization signup (automatic) | Yes | No  |
+|Microsoft 365 Global Administrator   | Entra organization signup (automatic) | Yes | No  |
 |Viva Glint Tenant Administrator   | Microsoft 365 Global Administrator | Yes | No  |
 |Viva Glint Administrator             | Viva Glint Tenant Administrator | No  | Yes |
 |Viva Glint manager                   | Viva Glint Administrator | No  | Yes |
@@ -59,7 +59,7 @@ Assigning roles for Viva Glint leadership is among the first tasks for the Micro
 
 ## Viva Glint manager
 
-- Organizational team leader who works directly with a Viva Glint Admin to assist with survey administration
+- Works with Viva Glint Admins as an organizational team leader to assist with survey administration
 - Is assigned reporting access and can develop action plans
 
 ## Viva Glint end user
