@@ -1,6 +1,6 @@
 ---
 
-ms.date: 11/07/2019
+ms.date: 4/01/2025
 title: Prepare for meetings with the Briefing email
 description: Learn how to use the Briefing email to prepare for upcoming meetings
 author: madehmer
