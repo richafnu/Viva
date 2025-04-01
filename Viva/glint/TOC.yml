@@ -254,7 +254,7 @@ items:
         href: setup/always-on-surveys.md
       - name: Set up an Ad Hoc survey
         href: setup/ad-hoc-survey.md
-      - name: Survey sections and resources
+      - name: Survey setup sections and resources
         items:
            - name: Program setup 
              href: setup/program-set-up.md
