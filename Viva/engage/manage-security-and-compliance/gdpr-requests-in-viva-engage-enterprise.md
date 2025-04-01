@@ -49,7 +49,7 @@ Use the Viva Engage file ID from the export to go directly to the file in Viva E
 
 1. In the data export, find the URL for the message in the `gdpr_delete_url` column. The URL has this syntax: `https://www.yammer.com/messages/thread_id/hard_delete_confirmation`.
   
-2. Copy the `gdpr_delete_url` for the message you want to delete and paste it into a browser window where you are logged in to the network from which you want to delete the message.
+2. Copy the `gdpr_delete_url` for the message you want to delete and paste it into a browser window where you're logged in to the network from which you want to delete the message.
 
 3. After verifying the message displayed is the one you want to delete, click the link to permanently delete the message from Viva Engage and associated data exports.
 
@@ -125,9 +125,9 @@ A user can edit their own profile. Administrators can't change the user profile 
 
 <a name="RemoveThread"> </a>
 
-## Remove a non-community participant from a conversation in a private community
+## Remove a noncommunity participant from a conversation in a private community
 
-- If a non-community member is added to a conversation, a reply appears in the conversation to note who was added. This reply contains a link to **Remove** the non-community member participant.
+- If a noncommunity member is added to a conversation, a reply appears in the conversation to note who was added. This reply contains a link to **Remove** the noncommunity member participant.
 
 <a name="RemoveUser"> </a>
 
@@ -140,7 +140,7 @@ A user can edit their own profile. Administrators can't change the user profile 
 > Before you erase a user, see [Delete specific messages or Viva Engage files stored in Viva Engage or SharePoint](gdpr-requests-in-viva-engage-enterprise.md#DeleteMessagesFiles). The article describes how to review and delete a user's messages and files in external groups, external threads, and tenants. After you select **Erase this user**, the user isn't associated with those messages and files.
 
 > [!IMPORTANT]
-> Removing a user from their home Viva Engage tenant removes them from all external tenants. You must remove guest users separately from each of their external tenants.
+> Removing a user from their home Viva Engage tenant removes them from all external tenants. You must separately remove guests from each of their external tenants.
   
 When you erase a user, the action deletes the following user data:
   
