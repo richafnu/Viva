@@ -1,5 +1,5 @@
 ---
-ms.date: 06/17/2024
+ms.date: 04/1/2025
 title: Configure manager settings
 description: Set manager settings in the advanced insights app
 author: zachminers
@@ -94,9 +94,23 @@ To assign the Group Manager role using AAD groups, follow these steps:
 
 4. Select **Add group**.  
 
-6. Search for the AAD group you want to use and select it. You can add multiple groups if needed.  
+5. Search for the AAD group you want to use and select it. You can add multiple groups if needed.  
 
-7. Select **Apply**. You will see the number of people leaders who are members of the selected groups and are eligible for the group manager experience.  
+6. Select **Apply**. You will see the number of people leaders who are members of the selected groups and are eligible for the group manager experience.  
+
+## Search for managers and check their access to organization insights 
+
+You can use the Viva Insights app to search for specific managers and see their licensing status, team size, and their direct and indirect reports. You can use this information to cross-reference against your own records or troubleshoot any licensing issues related to managers' access to insights. 
+
+1. Sign in to the Viva Insights Admin portal with your Insights Admin credentials. 
+
+2. On the left, select **Settings**, then **Manager settings**. 
+
+3. Under **Manager settings**, select **Manager hierarchy**. 
+
+4. Under **Search for a specific manager**, enter the email address of the manager you're looking for.  
+
+5. Review the manager's licensing status, team size, and licensed team size. To see a list of all their reports, select **Download csv of team members**. 
 
 ## What’s the difference between minimum team size and minimum group size?
  
