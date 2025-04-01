@@ -16,15 +16,15 @@ search.appverid: MET150
 ms.topic: how-to
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 3/31/2025
+ms.date: 4/01/2025
 ---
 
 # Manager Guide - Microsoft 365 Copilot in Viva Glint
 
 > [!TIP]
->**To help your managers analyze feedback comments, this page is formatted to print as a PDF.**
+>**To help your managers analyze feedback comments, share this page. It's formatted to print vertically as a PDF on 8.5 x 11 paper.**
 > 
->Click anywhere on the page and select **Print.** When your printer window opens, select **Save as PDF** from the printer dropdown menu. Select **Save.** Now you can share the downloaded PDF file within your organization.
+>Click anywhere on the page and select **Print.** From your printer window, in the dropdown menu, select **Save as PDF**. Select **Save.** Now share the resource within your organization.
 
 <br>
 
@@ -92,6 +92,9 @@ Try using these ideas to generate prompts that work for you. Fill in your own at
 - Show comments related to [career development].
 - Tell me what employees in [APAC] are saying about [work-life balance].
 
+<br>
+<br>
+<br>
 <br>
 
 #### Deep-dive example
