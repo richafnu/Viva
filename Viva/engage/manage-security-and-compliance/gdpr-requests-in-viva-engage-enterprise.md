@@ -47,23 +47,25 @@ Use the Viva Engage file ID from the export to go directly to the file in Viva E
   
 **To locate and delete a specific message:**
 
-1. In the data export, find the URL for the message in the **gdpr_delete_url** column. The URL has this syntax: **https&#58;//www&#46;yammer&#46;com**/*network_name*/**#**/**Threads**/**show?threadId=** *thread_id*. For example, http&#58;//www&#46;yammer&#46;com/contosomkt&#46;onmicrosoft&#46;com/#/threads/show?threadID=135893.
+1. In the data export, find the URL for the message in the `gdpr_delete_url` column. The URL has this syntax: `https://www.yammer.com/messages/thread_id/hard_delete_confirmation`.
   
-2. In the message, select the **More** icon :::image type="icon" source="../../media/d9378a9a-fb0a-4313-96e5-bc6c9f1d5827.png" border="false":::, and then select **GDPR Hard Delete**.
+2. Copy the `gdpr_delete_url` for the message you want to delete and paste it into a browser window where you are logged in to the network from which you want to delete the message.
+
+3. After verifying the message displayed is the one you want to delete, click the link to permanently delete the message from Viva Engage and associated data exports.
 
 **To locate and delete a specific Viva Engage file stored in Viva Engage or SharePoint:**
 
   1. Use the **Search** box in Viva Engage. For example, for a file named 12345678.pptx in the export, search for 1235678.pptx. In the search results, select **Go to File**, and then select **Delete this File**.
 
-  1. You can also build the URL for the file. Use **https&#58;//www&#46;yammer&#46;com**/*network_name*/**#**/**files**/*file_number*, for example https&#58;//www&#46;yammer&#46;com/contosomkt&#46;onmicrosoft&#46;com/#/files/12345678. On the Viva Engage page for the file, select **Delete this File**.
+  1. You can also build the URL for the file. Use **https//www.yammer.com**/*network_name*/**#**/**files**/*file_number*, for example `https://www.yammer.com/contosomkt.onmicrosoft.com/#/files/12345678`. On the Viva Engage page for the file, select **Delete this File**.
 
 **To delete the cover images for a user:**
 > [!NOTE]
 > In cases where the admin or the user aren't premium licensed, or the user no longer has their own storyline, previously uploaded photos need to be deleted via API.
 
- 1. Via API: Engage Admins or verified admins can delete cover images for any user in their tenant via an API call. The URL has this syntax: www&#46;yammer&#46;com/api/public/v1/user-profiles/*user_id*/cover-image.
+ 1. Via API: Engage Admins or verified admins can delete cover images for any user in their tenant via an API call. The URL has this syntax: `www.yammer.com/api/public/v1/user-profiles/*user_id*/cover-image`.
 
-      For example, to delete the cover images of a user with ID 1234567890, the URL would look like: ``www&#46;yammer&#46;com/api/public/v1/user-profiles/1234567890/cover-image`.
+      For example, to delete the cover images of a user with ID 1234567890, the URL would look like: `www.yammer.com/api/public/v1/user-profiles/1234567890/cover-image`.
 
  2. Via UI: Engage Admins with premium Viva licenses can upload or delete cover photos for any user who has the premium Viva license and has storyline enabled by:
 
@@ -72,6 +74,7 @@ Use the Viva Engage file ID from the export to go directly to the file in Viva E
      3. Deleting or uploading a new cover image, as needed.
 
 <a name="OtherData"> </a>
+
 ## Find and delete user data not included in the per-user export
 
 Some user data doesn't get included in an export.
@@ -89,6 +92,7 @@ The following table shows how to change or delete this data if needed.
 |User profile | If the user has a Viva Engage identity, there are two options to remove the user: <ul><li>[Erase a user from your Viva Engage home tenant and external tenants](gdpr-requests-in-viva-engage-enterprise.md#RemoveUser), Viva Engage deletes this information after the 14-day suspension period.</li><li>[Allow the user to edit their own profile and settings](gdpr-requests-in-viva-engage-enterprise.md#EditProfile).</li></ul> If the user has a Microsoft 365 identity, the Viva Engage user profile is pulled from Microsoft 365. That information originates from Microsoft Entra ID. Viva Engage users can temporarily change their profiles in Viva Engage. If a change occurs in the Microsoft Entra ID, *their changes are overwritten*. **To permanently change or delete a user's profile, you must change or delete directory data in Microsoft 365 and in Microsoft Entra ID**. See [Manage Viva Engage users across their lifecycle from Microsoft 365](/viva/engage/manage-viva-engage-users/manage-users-across-their-lifecycle) and [Add or change profile information for a user in Microsoft Entra ID](/azure/active-directory/fundamentals/active-directory-users-profile-azure-portal). |
 
 <a name="EditProfile"> </a>
+
 ## Edit the user's profile and settings (done by user)
 
 A user can edit their own profile. Administrators can't change the user profile or settings.
@@ -110,18 +114,20 @@ A user can edit their own profile. Administrators can't change the user profile 
   - To set preferences, select **Preferences**.
 
 <a name="RemoveGroup"> </a>
+
 ## Remove a user from a group including an external group
 
-1. In the group, select **Members**.
+1. In the group, click on the count in the **Members** module. A panel of community members opens.
 
-2. Select the Settings icon :::image type="icon" source="../../media/9704ce70-56ce-43f7-96c6-f253b0413d40.png" border="false"::: next to the user's name.
+2. Select Settings :::image type="icon" source="../../media/9704ce70-56ce-43f7-96c6-f253b0413d40.png" border="false"::: next to the user's name.
 
-3. Select **Remove from group**.
+3. Select **Remove from community**.
 
-## Remove an external participant from a conversation
 <a name="RemoveThread"> </a>
 
-- In the Viva Engage conversation, select **Remove Participants**.
+## Remove a non-community participant from a conversation in a private community
+
+- If a non-community member is added to a conversation, a reply appears in the conversation to note who was added. This reply contains a link to **Remove** the non-community member participant.
 
 <a name="RemoveUser"> </a>
 
@@ -161,13 +167,13 @@ As an admin, you can erase a user from their home tenant and from their external
     - To delete all of a user's messages before you erase the user:
 
       1. Select **Permanently remove this user and remove their messages**, and then select **Submit**.
-      2. After deletion completes, select **Erase this user**, which removes the user's name and activity data.
+      2. After deletion finishes, select **Erase this user**, which removes the user's name and activity data.
 
     - To keep all the user's files and messages, select **Erase this user**.
 
     - To review the user's home tenant messages and files, take the following steps:
 
-      1. Deactivate the user for 14 days to export their user data and evaluate their home tenant files and messages by selecting **Erase this user. Wipe their name and personal information, but leave their messages. (Can't be undone after 14 days):** 
+      1. Deactivate the user for 14 days to export their user data and evaluate their home tenant files and messages by selecting **Erase this user. Wipe their name and personal information, but leave their messages. (Can't be undone after 14 days):**
 
          The user is marked as deactivated and is listed on the **Remove Users** page. Within 14 days, you can reactivate the user.
 
