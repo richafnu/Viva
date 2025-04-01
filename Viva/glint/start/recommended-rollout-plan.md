@@ -11,7 +11,7 @@ ms.collection:
 - m365initiative-viva
 - selfserve 
 search.appverid: MET150 
-ms.topic: article
+ms.topic: how-to
 ms.service: viva-glint
 ms.localizationpriority: high
 ms.date: 01/24/2025
@@ -19,7 +19,13 @@ ms.date: 01/24/2025
 
 # Recommended rollout plan for Viva Glint feedback programs
 
-Use the tables on this page to build a rollout plan for your Viva Glint programs. 
+You want every person (role) in your organization to understand why you've partnered with Microsoft Viva Glint. To share the importance of the programs, customize our templates. They're divided into three timeframes to coincide with the survey journey:
+
+- [Introduce survey taking to your employees](/../../viva/glint/communicate/survey-taking-for-employees)
+- [Communicate prelaunch and Live Viva Glint program information](/../../viva/glint/communicate/prelaunch-live-email-templates)
+- [Communicate results rollout plans](/../../viva/glint/communicate/results-rollout-templates)
+
+Use these tables to build a rollout plan for your Viva Glint programs. 
 
 > [!NOTE] 
 > The following plans assume a six-week launch, which may be longer than the timeline you anticipate.  If your timeline is shorter, compress or thin the communications to align appropriately.

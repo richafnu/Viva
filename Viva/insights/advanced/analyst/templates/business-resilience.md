@@ -1,10 +1,10 @@
 ---
-ms.date: 03/02/2023
+ms.date: 04/1/2025
 title: Business resilience report
 description: Learn how to use the Microsoft Viva Insights Power BI template to compare employee behavior before and after a business transition
 author: zachminers
 ms.author: v-zachminers
-ms.topic: article
+ms.topic: how-to
 ms.localizationpriority: medium 
 ms.collection: viva-insights-advanced 
 ms.service: viva-insights

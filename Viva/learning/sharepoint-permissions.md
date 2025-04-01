@@ -4,9 +4,9 @@ ms.author: bhaswatic
 author: bhaswatic
 manager: elizapo
 ms.reviewer: chrisarnoldmsft
-ms.date: 11/25/2024
+ms.date: 03/14/2025
 audience: admin
-ms.topic: article
+ms.topic: how-to
 ms.service: viva-learning
 search.appverid: MET150
 ms.collection:
@@ -19,13 +19,14 @@ description: Learn how to control access to SharePoint content in Viva Learning 
 
 # Use Microsoft 365 Groups permissions with SharePoint content in Viva Learning
 
-Document library folder URLs can be collected from any SharePoint site in the organization. Viva Learning follows all existing content permissions. Therefore, only content for which a user has permission to access is searchable and visible within Viva Learning. Any content within these folders is searchable, but only content to which the individual employee has permissions can be used.
+You can collect document library folder urls from any available SharePoint site in your organization. You can only choose to connect one SharePoint site with Viva Learning at one time.
+Viva Learning follows all existing content permissions. Therefore, only content for which a user has permission to access is searchable and visible within Viva Learning. Any content within these folders is searchable, but only content to which the individual employee has permissions can be used.
 
 > [!NOTE]
 > The admin tab is only available for admins with a Viva Suite or Viva Learning license.
 
 > [!NOTE]
-> Only the Microsoft 365 and Mail enabled security group (MESG) group type is supported. Viva Learning doesn't support user-based permissions. Viva Learning won't ingest files that don't have associated Microsoft 365 Groups or MESG permissions.
+> Viva Learning doesn't support user-based permissions. Only the Microsoft 365 and Mail enabled security group (MESG) group types are supported. Viva Learning won't ingest files that don't have associated Microsoft 365 Groups or MESG permissions.
 
 1. Create a group by following the steps in [Create a group in the Microsoft 365 admin center](/microsoft-365/admin/create-groups/create-groups) or [Create mail-enabled security groups](/exchange/recipients/mail-enabled-security-groups).
 

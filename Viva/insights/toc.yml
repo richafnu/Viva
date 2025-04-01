@@ -38,15 +38,17 @@ items:
               href: advanced/setup-maint/assign-licenses.md
             - name: 2 - Assign roles
               href: advanced/setup-maint/assign-user-roles.md
-            - name: 3 - Configure manager settings
+            - name: 3 - Enable or disable advanced insights with PowerShell
+              href: advanced/setup-maint/control-advanced-insights-powershell.md
+            - name: 4 - Configure manager settings
               href: advanced/setup-maint/manager-settings.md
-            - name: 4 - Configure personal insights defaults
+            - name: 5 - Configure personal insights defaults
               href: advanced/setup-maint/configure-personal-insights.md
-            - name: 5 - Configure Teams app settings
+            - name: 6 - Configure Teams app settings
               href: advanced/setup-maint/teams-admin-setup.md
-            - name: 6 - Customize Viva Insights privacy settings 
+            - name: 7 - Customize Viva Insights privacy settings 
               href: advanced/setup-maint/privacy-settings.md 
-            - name: 7 - Upload organizational data 
+            - name: 8 - Upload organizational data 
               href: advanced/setup-maint/upload-data.md 
             - name: About roles in Viva Insights
               href: advanced/setup-maint/user-roles.md
@@ -68,6 +70,10 @@ items:
             href: org-team-insights/team-insights.md
           - name: Organization insights
             href: org-team-insights/org-insights.md
+          - name: Discover organization insights quickly with Microsoft 365 Copilot
+            href: org-team-insights/org-insights-copilot.md
+          - name: Copilot deep-dive reports
+            href: org-team-insights/copilot-deep-dive-reports.md
           - name: Leader reports
             href: org-team-insights/leader-reports.md
           - name: Connect to the Copilot Dashboard
@@ -92,10 +98,14 @@ items:
             href: advanced/admin/upload-org-data-first.md
           - name: Upload organizational data (subsequent upload)
             href: advanced/admin/upload-org-data-subsequent.md
+          - name: Tips for uploading organizational data for Copilot 
+            href: advanced/admin/upload-org-data-copilot.md
           - name: Import organizational data using API (first import)
             href: advanced/admin/import-org-data-first.md
           - name: Import organizational data using API (subsequent import)
             href: advanced/admin/import-org-data-subsequent.md
+          - name: Import organizational data with Azure blob import
+            href: advanced/admin/import-org-data-azure.md
           - name: Import business data with Azure 
             href: advanced/admin/import-business-data-azure.md
           - name: Import business data with a .csv file
@@ -150,10 +160,6 @@ items:
                 href: advanced/analyst/cross-collaboration-g2g.md   
               - name: Collaboration between internal and external individuals
                 href: advanced/analyst/external-collaboration.md               
-            - name: Uncover network collaboration insights
-              href: advanced/analyst/network-collaboration-insights.md 
-            - name: Create change management queries
-              href: advanced/analyst/change-management-queries.md 
             - name: Access query results and modify existing queries
               href: advanced/analyst/query-results.md 
             - name: Connect your data to Power BI using the Power BI connector
@@ -162,6 +168,10 @@ items:
             items:
             - name: Introduction to templates
               href: advanced/analyst/templates/introduction-to-templates.md
+            - name: Uncover network collaboration insights
+              href: advanced/analyst/network-collaboration-insights.md 
+            - name: Create change management queries
+              href: advanced/analyst/change-management-queries.md 
             - name: Business resilience
               href: advanced/analyst/templates/business-resilience.md
             - name: Glint and organizational insights report
@@ -176,9 +186,9 @@ items:
               href: advanced/analyst/templates/manager-effectiveness.md
             - name: Meeting effectiveness
               href: advanced/analyst/templates/meeting-effectiveness.md
-            - name: Microsoft 365 Copilot adoption report
+            - name: Copilot adoption report
               href: advanced/analyst/templates/microsoft-365-copilot-adoption.md   
-            - name: Microsoft 365 Copilot impact report
+            - name: Copilot impact report
               href: advanced/analyst/templates/microsoft-365-copilot-impact.md
             - name: Copilot for Sales adoption report
               href: advanced/analyst/templates/copilot-for-sales-adoption.md   
@@ -228,6 +238,12 @@ items:
             href: advanced/reference/supported-languages.md 
       - name: Microsoft 365 Copilot in Viva Insights
         items:
+        - name: Discover organization insights quickly with Microsoft 365 Copilot
+          href: org-team-insights/org-insights-copilot.md
+        - name: Copilot deep-dive reports
+          href: org-team-insights/copilot-deep-dive-reports.md
+        - name: Tips for uploading organizational data for Copilot 
+          href: advanced/admin/upload-org-data-copilot.md
         - name: Connect to the Copilot Dashboard
           href: org-team-insights/copilot-dashboard.md
         - name: Delegate access to the Copilot Dashboard
@@ -236,9 +252,9 @@ items:
           href: advanced/admin/manage-settings-copilot-dashboard.md
         - name: Set up analyst queries using Microsoft 365 Copilot in Viva Insights 
           href: advanced/analyst/copilot-query.md
-        - name: Microsoft 365 Copilot adoption report
+        - name: Copilot adoption report
           href: advanced/analyst/templates/microsoft-365-copilot-adoption.md   
-        - name: Microsoft 365 Copilot impact report
+        - name: Copilot impact report
           href: advanced/analyst/templates/microsoft-365-copilot-impact.md
         - name: Copilot for Sales adoption report
           href: advanced/analyst/templates/copilot-for-sales-adoption.md   

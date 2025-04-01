@@ -8,7 +8,7 @@ manager: elizapo
 audience: Admin
 f1.keywords:
 - NOCSH
-ms.topic: article
+ms.topic: concept-article
 ms.service: viva-connections
 ms.localizationpriority: high
 ms.collection:
@@ -24,6 +24,10 @@ description: "Learn how notifications are presented in Viva Connections across t
 # Viva Connections News notifications
 
 The Viva Connections app delivers News notifications via Microsoft Teams and links users to the Viva Connections app through the notification. This document describes when notifications are sent, and the conditions that need to be met for receiving notifications.
+
+> [!NOTE]
+>
+> A new Enterprise News reader experience is being rolled out to users that will replace the current Feed experience across desktop, web, and mobile devices. This update is planned to roll out to all customers by the end of April 2025.
 
 ## When notifications are sent via Microsoft Teams
 
