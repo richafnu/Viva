@@ -376,7 +376,7 @@ items:
             href: reports/report-customization.md
           - name: Confidentiality and suppression
             href: reports/confidentiality-suppression-reports.md     
-      - name: Feedback reports for managers and admins
+      - name: Feedback reports 
         items:
          - name: Executive Summary Report
            href: reports/executive-summary-report.md
@@ -414,6 +414,8 @@ items:
                href: setup/quick-guide-confidentiality.md
              - name: Manager Quick Guide - Results & Conversations 
                href: setup/quick-guide-manager-doc-pitfalls.md
+             - name: Manager Guide - Copilot in Viva Glint
+               href: setup/copilot-manager-quick-guide.md 
       - name: Reports for admins
         items:
          - name: Response Rates & Access report 
