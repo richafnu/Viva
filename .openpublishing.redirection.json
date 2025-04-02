@@ -2451,6 +2451,12 @@
     "source_path": "viva/glint/setup/add-new-questions.md",
     "redirect_url": "/viva/glint/setup/questions-setup",
     "redirect_document_id": true
-  }
+  },
+  {
+    "source_path": "viva/glint/communicate/survey-taking-for-employees.md",
+    "redirect_url": "/viva/glint/start/recommended-rollout-plan",
+    "redirect_document_id": true
+  },
+    
  ]
 }
