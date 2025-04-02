@@ -116,11 +116,9 @@ The following table shows how to change or delete this data if needed.
 > [!IMPORTANT]
 > When you erase a user, a 14-day window opens to decide which files and messages to save or delete in the home tenant. Be sure to export all necessary user data. After the 14 day period elapses, Viva Engage erases all user-identifying data. Delete user messages and files *within 14 days* after selecting **Erase this user**. After the 14-day window, files and messages remain, but are **marked as belonging to a former user**.<br><br>After the user account transitions from Deactivated to Removed, you can't associate user data with that user, which means you can't export and review their data.
 
-> [!IMPORTANT]
-> Before you erase a user, see [Delete specific messages or Viva Engage files stored in Viva Engage or SharePoint](gdpr-requests-in-viva-engage-enterprise.md#DeleteMessagesFiles). The article describes how to review and delete a user's messages and files in external groups, external threads, and tenants. After you select **Erase this user**, the user isn't associated with those messages and files.
+Before you erase a user, see [Delete specific messages or Viva Engage files stored in Viva Engage or SharePoint](gdpr-requests-in-viva-engage-enterprise.md#DeleteMessagesFiles). The article describes how to review and delete a user's messages and files in external groups, external threads, and tenants. After you select **Erase this user**, the user isn't associated with those messages and files.
 
-> [!IMPORTANT]
-> Removing a user from their home Viva Engage tenant removes them from all external tenants. You must separately remove guests from each of their external tenants.
+Removing a user from their home Viva Engage tenant removes them from all external tenants. You must separately remove guests from each of their external tenants.
   
 When you erase a user, the action deletes the following user data:
   
@@ -181,7 +179,7 @@ When you deactivate a user's account with the **Erase this user** option, you ha
 
 4. Select **Reactivate** for each user you want to reactivate.
 
-   After 14 days, the user can't be reactivated.
+   After 14 days, you can't reactivate a user account.
 
 ## See also
 
