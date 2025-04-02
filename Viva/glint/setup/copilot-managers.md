@@ -25,7 +25,7 @@ Managers with Microsoft 365 Copilot in Viva Glint have access to comment summari
 Copilot in Viva Glint suggests items that are relevant to your data set and helps you explore and dig deeper. In-platform prompts provide multiple options for generating data summaries.
 
 >[!TIP]
->To help your managers analyze feedback comments, we created this [Manager Guide for Copilot in Viva Glint](/viva/glint/setup/copilot-managers). It's formatted to print vertically as a PDF on 8.5 x 11 paper. Click anywhere on the page and select **Print**. From your printer window, in the dropdown menu, select **Save as PDF**. Select **Save**. Now share the resource within your organization.
+>To help your managers analyze feedback comments, we created this [Manager Guide for Copilot in Viva Glint](/viva/glint/setup/copilot-manager-quick-guide). It's formatted to print vertically as a PDF on 8.5 x 11 paper. Click anywhere on the page and select **Print**. From your printer window, in the dropdown menu, select **Save as PDF**. Select **Save**. Now share the resource within your organization.
 
 ## Look at the big picture before using Copilot in Viva Glint
 
