@@ -14,7 +14,7 @@ search.appverid: MET150
 ms.topic: how-to
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 04/05\2/2025
+ms.date: 04/02/2025
 ---
 
 # Preview, enable, and prepare to launch Viva Glint surveys
