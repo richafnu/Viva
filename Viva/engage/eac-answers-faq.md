@@ -3,9 +3,9 @@ title: "Answers in Viva: Frequently asked questions (FAQ)"
 description: "Frequently asked questions about the Answers feature in Viva."
 ms.reviewer: ethli
 ms.author: donnabouldin
-author: Starshine89
+author: v-rgrace
 manager: elizapo
-ms.date: 02/20/2024
+ms.date: 03/20/2025
 audience: Admin
 f1.keywords:
 - NOCSH
