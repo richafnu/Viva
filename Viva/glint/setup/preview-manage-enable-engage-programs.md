@@ -62,7 +62,7 @@ When your survey is approved, you can preview how survey invites and reminder em
 
 ## Edit a cycle schedule 
 
-To make edits to a survey adter seeing a preview:
+To make edits to a survey after seeing a preview:
 
 1. Select the **ellipsis** next to the cycle to be previewed.  
 2. Select **Edit**. Once a survey is live, the edit option isn't available. 
