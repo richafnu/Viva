@@ -103,4 +103,4 @@ Check your email and the email of at least one other survey recipient when your 
 Microsoft 365 Global Administrators and Exchange Administrators can use email activity reports to monitor  activity and address delivery issues after a Viva Glint survey launches. For more information, see:
 
 - [Microsoft 365 admin center](/microsoft-365/admin/activity-reports/email-activity-ww)
-- [Exchange admin center](/exchange/exchange-admin-center) .
+- [Exchange admin center](/exchange/exchange-admin-center)
