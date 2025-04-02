@@ -1,6 +1,6 @@
 ---
 ms.date: 09/25/2024
-title: "Use audience targeting in Viva Connections to personalize the experience"
+title: "Target content in Viva Connections to specific audiences"
 ms.reviewer: 
 ms.author: evanatkin
 author: AtkinE
@@ -8,7 +8,7 @@ manager: elizapo
 audience: Admin
 f1.keywords:
 - NOCSH
-ms.topic: article
+ms.topic: how-to
 ms.service: viva-connections
 ms.localizationpriority: high
 ms.collection:
@@ -18,20 +18,24 @@ ms.collection:
 search.appverid:
 - SPO160
 - MET150
-description: "Learn how to use audience targeting in Viva Connections to personalize the experience"
+description: "Use audience targeting in Viva Connections to help the most relevant content get to the right audiences"
 ---
 
-# Use audience targeting in Viva Connections to personalize the experience
+# Use audience targeting to personalize the Connections experience
 
 Audience targeting can help you target content to specific [Microsoft 365 Groups](/microsoft-365/community/all-about-groups) within your organization so your content is seen by the right people. Audience targeting can be applied to cards on the dashboard, SharePoint news posts in the Feed, and links in the Resource section. For example, if a regional finance department has many specialized dashboard cards needed for their daily tasks, audience targeting ensures that only members of that group see the cards.
+
+> [!NOTE]
+>
+> A new Enterprise News reader experience is being rolled out to users that will replace the current Feed experience across desktop, web, and mobile devices. This update is planned to roll out to all customers by the end of April 2025.
 
 You can also create separate Viva Connections experiences for different audiences. For more information, see the article on the [difference between audience targeting and different experiences](set-up-admin-center.md#when-to-use-a-separate-experience-vs-dashboard-card-level-targeting).
 
 > [!NOTE]
 >
-> - Audience targeting filters content and is not a security measure. It is not meant to manage permissions, access, or secure confidential content.
-> - [Microsoft Entra Groups](/microsoft-365/community/all-about-groups) (including ecurity groups, Microsoft 365 Groups, and Microsoft Entra Dynamic Groups) are supported.
-> - The author will be able to view all content in Edit mode. In read-mode, the content will be filtered based on the audiences selected.
+> - Audience targeting filters content and isn't a security measure. It isn't meant to manage permissions, access, or secure confidential content.
+> - [Microsoft Entra Groups](/microsoft-365/community/all-about-groups) (including security groups, Microsoft 365 Groups, and Microsoft Entra Dynamic Groups) are supported.
+> - The author is able to view all content in Edit mode. In read-mode, the content is filtered based on the audiences selected.
 > - Publish (or republish) to save changes made to existing page content, page metadata, and audience targeting settings for audience targeting features to take effect.
 
 ## Apply audience targeting to cards in the dashboard
@@ -48,14 +52,14 @@ Create a personalized experience by targeting dashboard cards to specific audien
 
 > [!NOTE]
 >
-> - You must be a site owner of the [SharePoint home site](/viva/connections/home-site-plan#what-is-a-sharepoint-home-site) to edit the Viva Connections dashboard.
-> - If you are setting up the Connections dashboard for the first time, [see the article on creating a Viva Connections dashboard and adding cards](/viva/connections/create-dashboard) for more information.
+> - Site owner permissions to the [SharePoint home site](/viva/connections/home-site-plan#what-is-a-sharepoint-home-site) are required to edit the Viva Connections dashboard.
+> - Site owners setting up the Connections dashboard for the first time should [see the article on creating a Viva Connections dashboard and adding cards](/viva/connections/create-dashboard) for more information.
 
 To apply audience targeting to a dashboard card:
 
 > [!NOTE]
 >
-> See the article on [how to edit the dashboard from SharePoint](/viva/connections/create-dashboard#how-to-edit-the-dashboard-from-sharepoint-when-you-have-a-home-site) if you are accessing Viva Connections from your SharePoint home site.
+> See the article on [how to edit the dashboard from SharePoint](/viva/connections/create-dashboard#how-to-edit-the-dashboard-from-sharepoint-when-you-have-a-home-site) if you're accessing Viva Connections from your SharePoint home site.
 
 1. From the dashboard, select **Edit**.
 
@@ -65,29 +69,59 @@ To apply audience targeting to a dashboard card:
 
 3. At the bottom of the edit pane, enter the Groups to the **Audience to target** field. Exit the edit pane when you're done.
 
-4. Preview the viewing experience for different audiences and devices by selecting **Preview** from the command bar.
+4. [Preview the viewing experience](#preview-your-connections-dashboard-to-see-how-it-displays-for-different-audiences) for different audiences and devices by selecting **Preview** from the command bar.
 
-5. Select **audiences to preview as**. Be sure to preview the experience for each audience on desktop and mobile devices.
-
-> [!NOTE]
->
-> If you've selected an audience group that you recently created or changed, it may take some time to see targeting applied for that group.
-
-6. While in preview-mode, make sure:
-
-    - No physical gaps appear between cards while previewing different audiences and devices. If you see gaps, rearrange cards so that every audience and device has a high-quality viewing experience.
-
-    - Icons, graphics, and images are easy to identify and understand.
-
-    - Buttons and links are active and go to their intended destinations.
-
-    - Labels and description text are helpful, easy to read, and make sense for the intended audience.
-
-7. Publish the dashboard when you're done for the audience targeting to take effect. An icon appears on the card indicating audience targeting is applied.
+5. Publish the dashboard when you're done for the audience targeting to take effect. An icon appears on the card indicating audience targeting is applied.
 
     :::image type="content" source="../media/connections/card-targeted-audience.png" alt-text="Screenshot of a dashboard card with the targeted audience icon displayed":::
 
-## Apply audience targeting to news posts that will display in the feed  
+> [!NOTE]
+>
+> If an audience group that you recently created or changed was selected, it might take some time to see targeting applied for that group.
+
+### Preview your Connections dashboard to see how it displays for different audiences
+
+After creating or editing cards on your Connections dashboard, make sure you preview the experience for each audience and on both desktop and mobile devices.
+
+What you see in *preview mode* approximates how the dashboard displays for certain audiences and devices. When you apply audience targeting to cards, you can preview how different people view the dashboard depending on the audience or device.
+
+While in preview-mode, make sure:
+
+- Physical gaps aren't present between cards that might appear while previewing different audiences and devices. If you see gaps, rearrange cards so that every audience and device has a high-quality viewing experience.
+
+- Icons, graphics, and images are easy to identify and understand.
+
+- Buttons and links are active and go to their intended destinations.
+
+- Labels and description text are helpful, easy to read, and make sense for the intended audience.
+
+To preview different audiences:
+
+1. While in edit mode, select **Preview** on the top right.
+
+    :::image type="content" source="../media/connections/use-audience-targeting-in-viva-connections/preview-button.png" alt-text="Screenshot of the preview dashboard button." lightbox="../media/connections/use-audience-targeting-in-viva-connections/preview-button.png":::
+
+2. Open the **Select audiences to preview as** drop-down list. (if no cards are audience targeted, you’ll see a disabled **Audience targeting** label).
+
+    :::image type="content" source="../media/connections/use-audience-targeting-in-viva-connections/audience-selection.png" alt-text="Screenshot of the audience selection button." lightbox="../media/connections/use-audience-targeting-in-viva-connections/audience-selection.png":::
+
+    - Search for and select a group. Once added, the group is selected by default. You can select the group again in the **Select audiences to preview as** drop-down list to deselect it. Cards targeted to a specific group display.
+
+    - When one or more audiences are selected, cards that don’t have audience targeting applied also display.
+
+    - If no audiences are targeted, only cards that aren’t audience targeted display. If there aren’t any cards with audience targeting applied, none display.
+
+    - If you aren’t part of one of the selected audiences, you’ll only see cards that aren’t audience targeted. If none of the cards are audience targeted, you won’t see any cards.
+
+    :::image type="content" source="../media/connections/use-audience-targeting-in-viva-connections/audience-selection-overview.png" alt-text="Screenshot of the audience targeting properties pane." lightbox="../media/connections/use-audience-targeting-in-viva-connections/audience-selection-overview.png":::
+
+In the following example, the preview is set for mobile devices and highlights the different views that can be created from a single dashboard using audience targeting.
+
+| View 1 (General User) | View 2 (Users in Sales)|
+| :------------------- | :------------------- |
+| :::image type="content" source="../media/connections/use-audience-targeting-in-viva-connections/mobile-view-1.png" alt-text="Screenshot of a mobile preview showing audience targeting for general users."::: | :::image type="content" source="../media/connections/use-audience-targeting-in-viva-connections/mobile-view-2.png" alt-text="Screenshot of a mobile preview showing audience targeting for users in sales."::: |
+
+## Apply audience targeting to news posts that display in the feed  
 
 Audience targeting is useful when you want to present information that is relevant only to a particular group of people. For example, you can target news stories about a specific project to only team members and stakeholders of the project.
 
@@ -103,7 +137,7 @@ To apply audience targeting to news posts (site pages) from your SharePoint site
 
 3. Under Audience, enter the Groups you wish to target the news post to. Close the Properties panel when done.
 
-4. **Republish** the news post for the audience targeting to take effect. News posts that are targeted to specific audiences will list the groups in the Audience column.
+4. **Republish** the news post for the audience targeting to take effect. News posts that are targeted to specific audiences list the groups in the Audience column.
 
     :::image type="content" source="..//media/connections/use-audience-targeting/at-apply-to-news-sharepoint.png" alt-text="Screenshot showing which audience the news post is targeting":::
 

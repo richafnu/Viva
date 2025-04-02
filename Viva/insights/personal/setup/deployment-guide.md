@@ -5,7 +5,7 @@ title: Personal insights deployment guide
 description: Guide for admins on deploying personal insights with Microsoft Viva Insights
 author: zachminers
 ms.author: v-zachminers
-ms.topic: article
+ms.topic: install-set-up-deploy
 ms.localizationpriority: medium 
 ms.service: viva-insights
 ms.collection: 

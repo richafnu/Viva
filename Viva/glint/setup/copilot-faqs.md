@@ -13,11 +13,11 @@ ms.collection:
 - viva-copilot
 - magic-ai-copilot
 search.appverid: MET150 
-ms.topic: article
+ms.topic: faq
 ms.service: viva-glint
 ms.localizationpriority: high
 ms.custom: CELA-aapproved
-ms.date: 1/13/2025
+ms.date: 2/19/2025
 ---
 
 # Microsoft 365 Copilot in Viva Glint-FAQs 
@@ -28,9 +28,16 @@ ms.date: 1/13/2025
 
 **A:** At Microsoft, our commitment to responsible AI is paramount. Copilot in Viva Glint aligns with our AI principles and undergoes rigorous internal stress testing. We ensure Copilot’s comment summarization remains free from undesirable content or behavior such as hate speech, incitement to violence, or misinformation. We're vigilant about protecting privacy and preventing the disclosure of sensitive information. Our ongoing evaluation process incorporates feedback from early adopters and customers, helping us continuously enhance Copilot's performance.
 
+<br>**Q: What happens when a manager or a leader doesn't have access to a demographic attribute or group results and a prompt includes that demographic?**
+
+**A:** When a manager or a leader doesn't have access to a specific demographic attribute or group results, Copilot can't find that attribute in the User's report filter, so is unable to use that attribute for filtering comments. Copilot is still able to summarize the comments but without filtering by that attribute.
+Examples:
+1. If a User asks to summarize comments from male employees but doesn't have access to the gender attribute or the male attribute value, Copilot summarizes **all** comments and provides a summary. The summary isn't specific to the attribute requested.
+2. If a User requests a summary of comments using multiple filters (e.g., Accounting department, Generation X) but lacks permission for one or more of the filters, Copilot generates a summary based **only** on the filters the User has permission to access. The summary excludes restricted filters.
+
 <br>**Q: How often is the Large Language Model (LLM) updated for Copilot in Viva Glint?**
 
-**A:** Copilot in Viva Glint uses the latest Open AI LLM model, GPT-4.0, trained with data up to October 2023. While it currently relies solely on customer survey data without external references, prompt engineering is continuously updated to ensure Copilot delivers accurate and relevant responses based on survey inputs.
+**A**: Copilot in Viva Glint uses the latest Open AI LLM model, GPT-4.0, trained with data up to October 2023. We don't use customer data to train the LLM model. While it currently relies solely on customer survey data without external references, engineering is continuously updated to ensure Copilot delivers accurate and relevant responses based on survey input.
 
 <br>**Q: What’s the licensing for Copilot in Viva Glint?** **Is it part of the Copilot or Viva Glint licensing?**
 

@@ -11,7 +11,7 @@ ms.collection:
  - m365initiative-viva
  - selfserve
 search-appverid: MET150
-ms.topic: article
+ms.topic: install-set-up-deploy
 ms.service: viva-glint
 ms.localizationpriority: high
 ms.date: 10/28/2024
@@ -30,7 +30,7 @@ Use Microsoft Viva Glint [Secure File Transfer Protocol (SFTP)](sftp-data-automa
 Your IT team may need to add an IP exception or add hosts and ports to an allowlist to connect to SFTP. [Learn more](allowed-list.md). 
 
 Learn more about how to set up SFTP with this video and the guidance in this article:
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RW1jOMv]
+> [!VIDEO 641b5e1a-e628-4c7d-a0e4-62828c91b123]
 
 ## Manage SFTP in General Settings
 

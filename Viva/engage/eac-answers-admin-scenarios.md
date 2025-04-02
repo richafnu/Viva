@@ -1,7 +1,7 @@
 ---
 title: "Administrator scenarios for Answers in Viva Engage"
 description: "Describes administration of Answers in Viva Engage for the Microsoft 365 Global admin, Engage admin, and Answers admin."
-ms.reviewer: ethli
+ms.reviewer: vfurlong
 ms.author: donnabouldin
 author: v-rgrace
 manager: elizapo
@@ -9,7 +9,7 @@ ms.date: 12/17/2024
 audience: Admin
 f1.keywords:
 - NOCSH
-ms.topic: article
+ms.topic: how-to
 ms.service: viva-engage
 ms.localizationpriority: high
 ms.collection:  

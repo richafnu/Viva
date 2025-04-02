@@ -4,7 +4,7 @@ title: Import business data with Azure blob import
 description: Learn how to import business data into Viva Insights through an Azure blob import.
 author: zachminers
 ms.author: v-zachminers
-ms.topic: article
+ms.topic: how-to
 ms.localizationpriority: medium
 ms.collection: viva-insights-advanced
 ms.service: viva-insights
@@ -42,6 +42,10 @@ With an Azure blob import, your Azure subscription’s **Owner** or **Storage Ac
 3. Processing: Viva Insights processes the data. (If processing isn't successful, you can choose from a few options described in [Processing fails](#processing-fails).) 
 
    After the data successfully validates and processes, the overall data-import task is complete.
+
+## Video tutorial
+
+> [!VIDEO 7f1b8691-ed65-4f68-a4de-576d77bc3b27]
 
 ## Setup
 
