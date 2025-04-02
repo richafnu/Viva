@@ -233,9 +233,6 @@ Use this template to create a log to track and resolve survey tester feedback. T
 | Issue category |Issue | Description | Tester | Date logged | Status | Resolution |
 |:----------|:-----------|:------------|:----------|:-----------|:------------|:------------|
 | Email | Email went to junk | Viva Glint survey invite went to Junk folder instead of inbox | Test User | January 13, 2025 | Resolved | Worked with IT to update allowlist |
-|  |  |  |  |  |  |  |
-|  |  |  |  |  |  |  |
-|  |  |  |  |  |  |  |
 
 ### Delete a test survey
 
