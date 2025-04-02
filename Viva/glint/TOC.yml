@@ -61,11 +61,9 @@ items:
                  href: setup/understand-survey-access-methods.md  
           - name: Prepare internal messages and resources
             items:
-               - name: Communications rollout plan
+               - name: Introduce Glint programs with email templates
                  href: start/recommended-rollout-plan.md
-               - name: Introduce Glint survey taking
-                 href: communicate/survey-taking-for-employees.md
-               - name: Promote Glint surveys before and after launch
+               - name: Promote Glint survey participation after launch
                  href: communicate/prelaunch-live-email-templates.md
                - name: Communicate results, next steps, and progress
                  href: communicate/results-rollout-templates.md
