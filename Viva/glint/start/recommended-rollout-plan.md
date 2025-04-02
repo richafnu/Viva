@@ -24,7 +24,7 @@ You want every person in your organization to understand why you partnered with 
 Consider using [Viva Glint Frequently Asked Questions (FAQs) for survey takers] to prepare your own FAQ document](survey-taker-faq.md) to share FAQs in your introductory email.
 
 > [!NOTE] 
-> The following plan assumes a six-week launch. This timeline may be longer than the timeline you anticipate.  Combine or thin the communications to align to your timeline.
+> The following plan assumes a six-week launch. This timeline may be longer than the timeline you anticipate. Combine or thin the communications to align to your timeline.
 
 ## Email template #1 = Introduce Viva Glint survey taking to your employees
 
