@@ -154,7 +154,7 @@ Follow this procedure to view a specific set of comments and summarize them. Thi
 
 1. Review your summary and select the **Copy** symbol to save it.
 
-:::image type="content" source="../../media/glint/reports/copilot-copy-image.png" alt-text="Screenshot of the Copilot copy symbol.":::
+    :::image type="content" source="../../media/glint/reports/copilot-copy-image.png" alt-text="Screenshot of the Copilot copy symbol.":::
 
 ## Copilot in Viva Glint use in other Glint reports
 
