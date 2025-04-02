@@ -19,12 +19,37 @@ ms.date: 04/02/2025
 
 # Introduce Microsoft Viva Glint programs to your organization - presurvey email templates
 
-You want every person in your organization to understand why you partnered with Microsoft Viva Glint. To share the importance of the programs, customize our email templates. Use our suggested mailing timeframes to coincide with your survey journey:
+You want every person in your organization to understand why you partnered with Microsoft Viva Glint. To share the importance of the programs, customize our email templates. Use our suggested mailing timeframes to coincide with your survey journey. Customize the template to capture your program's brand, goals, and plans. 
+
+Consider using [Viva Glint Frequently Asked Questions (FAQs) for survey takers] to prepare your own FAQ document](survey-taker-faq.md) to share FAQs in your introductory email.
 
 > [!NOTE] 
-> The following plan assumes a six-week launch. This timeline may be longer than the timeline you anticipate.  Combine or thin the communications to align appropriately for a shorter timeline.
+> The following plan assumes a six-week launch. This timeline may be longer than the timeline you anticipate.  Combine or thin the communications to align to your timeline.
 
-## Presurvey rollout plan
+## Email template #1 = Introduce Viva Glint survey taking to your employees
+
+To ensure a successful survey process, email your employees to make them aware of an upcoming survey. Explain why taking a survey is important and share FAQs. Use this email template for your first survey communication.  The template is written with these goals in mind:
+
+Dear [Employee Name],
+
+[Company name] is committed to ensuring your wellbeing, happiness, and engagement at work. We always want you to:
+
+- Be absorbed in and enthusiastic about your work
+- Find meaning in what you do
+- See a connection between your strengths and your role
+- Be well and healthy
+- Perform at your best
+
+For this reason, we're partnering with Microsoft Viva Glint to deliver our [Survey name] survey. This survey goes live on [date]. Surveys may take place repeatedly throughout the year. Short, frequent surveys allow us to best turn your feedback into action and be responsive to your needs.
+
+[Refer to this support document for helpful information about taking Viva Glint surveys with your organization](https://support.microsoft.com/topic/how-to-take-a-viva-glint-survey-6691b3c7-d7f4-48f5-a69f-d1fe5ce528a5).
+
+Thank you for your participation,
+
+[Name, Title]
+
+
+## Email templates #2-#7 - Presurvey rollout plan
 
 |**Timing before survey start**| **Message to your organization**|**Key activities**|**Owner**|**Communication template links**|
 |-----------|-----------|----------------|--------|-------------------------------|
@@ -57,3 +82,7 @@ You want every person in your organization to understand why you partnered with 
 |3-12 weeks after close|<ul><li>HRBP communications</li></ul>|<ul><li>Use tools and resources to take action</li><li>Update action progress in Viva Glint platform </li><li> Support company-wide initiatives</li></ul>|Project team, Managers|[HRBP email template](/../../viva/glint/communicate/results-rollout-templates)| 
 |4-8 weeks after close|<ul><li>HRBP communications</li></ul>|<ul><li>Use tools and resources to take action</li><li>Update action progress in Viva Glint platform </li><li> Support company-wide initiatives</li></ul>|Project team, Managers|[HRBP email template](/../../viva/glint/communicate/results-rollout-templates)| 
 |10 weeks after close|<ul><li>HRBP communications</li></ul>|<ul><li>Use tools and resources to take action</li><li>Update action progress in Viva Glint platform </li><li> Support company-wide initiatives</li></ul>|Project team, Managers|[HRBP email template](/../../viva/glint/communicate/results-rollout-templates)|
+
+Frequently asked questions
+Use Viva Glint Frequently Asked Questions (FAQs) to prepare your own FAQ document to share in your introduction email.
+
