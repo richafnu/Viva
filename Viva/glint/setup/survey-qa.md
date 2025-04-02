@@ -14,14 +14,14 @@ search-appverid: MET150
 ms.topic: how-to
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 03/13/2025
+ms.date: 04/02/2025
 ---
 
 # Review and test Viva Glint surveys before launch
 
-To prepare for a smooth launch for your Microsoft Viva Glint survey programs, use the guidance and checklists available here to confirm that all of your platform and survey settings are correct.
+To prepare for a smooth launch for your Microsoft Viva Glint survey programs, use the guidance and checklists available here to confirm that all platform and survey settings are correct.
 
-## Confirm selections in General Settings
+## Confirm selections in General settings
 
 Selections that admins make in [General Settings](manage-general-settings.md) lay the groundwork for users' survey-taking and reporting experiences. Verify that your choices for important fields here appear as expected.
 
@@ -35,6 +35,7 @@ Selections that admins make in [General Settings](manage-general-settings.md) la
 |      |Company Privacy Policy (optional)        |If configured, the correct link to your company policy is included. [Learn more](add-privacy-policy.md)        |
 |      |Company Message to Survey Participants (optional)      |If configured, the message and translations here are accurate. To customize for each survey, add in Program Setup.        |
 |Communications     |Send Surveys in Users' Time Zones       |This setting is switched to Yes or No to enable or disable [sending communications in user's time zones](time-zones.md).         |
+|     | Microsoft Teams      |This setting is switched to Yes or No to enable or disable [the survey-level option to send survey notifications and Nudges in Microsoft Teams](glint-teams.md).         |
 |Reporting     |Attributes for Alerts       |Attributes are selected to use for populations in the [Alerts Report](/viva/glint/reports/alerts-report-attrition-risk). **When blank, no alerts are generated**.        |
 |      |Primary Hierarchy      |The correct primary hierarchy is selected for default reporting views and sections (usually Manager Hierarchy).        |
 |      |Secondary Hierarchy       |The correct secondary hierarchy is selected for default reporting views and sections.        |
@@ -48,6 +49,19 @@ Selections that admins make in [General Settings](manage-general-settings.md) la
 |      |Default Dashboard Language       |The correct default language is selected for dashboard users.        |
 |      |Supported Dashboard Languages       |Correct languages for dashboard users are selected.         |
 
+## Review confidentiality settings
+
+Viva Glint confidentiality settings determine the level of privacy users expect when responding to surveys and what managers can view in reports when survey results are available. Confirm the survey's confidentiality settings in **Advanced configuration** for:
+
+- [Rated question scores](manage-confidentiality-thresholds.md#rated-question-scores)
+- [Response rates](manage-confidentiality-thresholds.md#response-rates)
+- [Comments](manage-confidentiality-thresholds.md#comments)
+
+Learn more about [managing thresholds at the survey level](manage-confidentiality-thresholds.md#survey-thresholds).
+
+> [!IMPORTANT]
+> **Viva Glint Admins can't change confidentiality settings after a survey launches.**
+
 ## Review survey setup
 
 Review each section of your survey program setup before launching a test survey to an internal team. For information on settings that Viva Glint Admins can edit while a survey is live, see: [Make changes to a live Viva Glint survey](change-live-survey.md).
@@ -55,9 +69,9 @@ Review each section of your survey program setup before launching a test survey 
 > [!IMPORTANT]
 > Not all fields and survey setup sections are available for all survey types. For more information, see the **Survey types** column.
 
-### Program Setup
+### Program setup
 
-|Item   | Confirm that...  | Impact| Survey type |
+|Item   | Confirm that...  | Impact| Survey types |
 |:----------|:-----------|:------------|:------------|
 |Program Name    |The correct value is entered and there are no spelling errors.       |Low        | All |
 |Administrators|The correct User Roles are selected as program admins.   |Low| All |
@@ -111,7 +125,7 @@ Review each section of your survey program setup before launching a test survey 
 |Thank you text and translations|Thank you text and translations are accurate.    |High|All|
 
 > [!NOTE]
-> - Section break: User scrolls and it disappears as you take the survey. 
+> - Section break: A user scrolls and it disappears as you take the survey. 
 > - Survey section: A persistent header with questions tied to it that remains at the top of the screen as the user responds.
 
 ### Reporting
@@ -143,14 +157,16 @@ Review each section of your survey program setup before launching a test survey 
 |Item   |Confirm that...  |Impact|Survey type|
 |:----------|:-----------|:------------|:------------|
 |Notification Timing    |The correct timeframe is selected to deliver emails.       |High        |Recurring, Ad Hoc, and Lifecycle        |
-|Email Settings*|The correct email types are selected to deliver emails.   |Medium|Recurring, Ad Hoc, and Lifecycle |
+|Channels* | Email and Microsoft Teams options for notifications are set to Yes or No to enable or disable communication methods.      |High        |Recurring, Ad Hoc, and Lifecycle     |
+|Email Settings**|The correct email types are selected to deliver emails.   |Medium|Recurring, Ad Hoc, and Lifecycle |
 |Configure Notifications|Survey start, reminder, and results emails follow the correct schedule.   |High|Recurring, Ad Hoc, and Lifecycle |
-|Team Conversations** notification schedule | The conversation start, reminder, and overdue emails follow the correct schedule.  |High|Recurring |
+|Team Conversations*** notification schedule | The conversation start, reminder, and overdue emails follow the correct schedule.  |High|Recurring |
 |Translations|Survey, conversation (if enabled), and results emails have accurate translations.   |High|Recurring, Ad Hoc, and Lifecycle |
 
 > [!NOTE]
-> - *This setting only appears when your organization has a Personal Email Optional System Attribute set up. Personal emails are recommended for contacting exiting employees.
-> - **Team Conversations emails only appear when Team Conversations are enabled in Program Setup.
+> \*This setting only appears when admins enable Microsoft Teams notifications in General Settings. <br>
+> \**This setting only appears when your organization has a Personal Email Optional System Attribute set up. Personal emails are recommended for contacting exiting employees.<br>
+> \***Team Conversations emails only appear when Team Conversations are enabled in Program Setup.
 
 
 ### Coaching 
