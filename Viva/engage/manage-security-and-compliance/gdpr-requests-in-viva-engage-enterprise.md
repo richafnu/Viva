@@ -40,16 +40,16 @@ Choose the approach that makes sense for your situation, and **follow the steps 
 
 ## Delete specific messages or files
 
-Use the Viva Engage file ID from the export to go directly to the file in Viva Engage and delete it.
+Use the Viva Engage file ID from the export's **messages.csv** file to go directly to the file in Viva Engage and delete it.
 
 > [!IMPORTANT]
 > For Viva Engage files stored in SharePoint, delete the files from Viva Engage in order to remove the Viva Engage metadata and the file.
   
 **To locate and delete a specific message:**
 
-1. In the data export, find the URL for the message in the `gdpr_delete_url` column. The URL has this syntax: `https://www.yammer.com/messages/thread_id/hard_delete_confirmation`.
+1. In the data export's **messages.csv** file, find the URL for the message in the `gdpr_delete_url` column. The URL has this syntax: `https://www.yammer.com/messages/thread_id/hard_delete_confirmation`.
   
-2. Copy the `gdpr_delete_url` for the message you want to delete and paste it into a browser window where you're logged in to the network from which you want to delete the message.
+2. Copy the `gdpr_delete_url` for the message you want to delete and paste it into a browser window that's logged in to the network from which you want to delete the message.
 
 3. After verifying the message displayed is the one you want to delete, click the link to permanently delete the message from Viva Engage and associated data exports.
 
@@ -60,6 +60,7 @@ Use the Viva Engage file ID from the export to go directly to the file in Viva E
   1. You can also build the URL for the file. Use **https//www.yammer.com**/*network_name*/**#**/**files**/*file_number*, for example `https://www.yammer.com/contosomkt.onmicrosoft.com/#/files/12345678`. On the Viva Engage page for the file, select **Delete this File**.
 
 **To delete the cover images for a user:**
+
 > [!NOTE]
 > In cases where the admin or the user aren't premium licensed, or the user no longer has their own storyline, previously uploaded photos need to be deleted via API.
 
@@ -87,7 +88,7 @@ The following table shows how to change or delete this data if needed.
 
 | Type of data | How to change or delete data |
 |:-----|:-----|
-|Bookmarked messages, group membership, followed or following users, and followed articles | When you [erase a user from the Viva Engage home tenant and external tenants](gdpr-requests-in-viva-engage-enterprise.md#RemoveUser), this information is deleted after the 14-day suspension period. <br><br> Users can change or delete their own information. For steps, see [Change my Viva Engage profile and settings (Web and Desktop)](https://support.microsoft.com/office/change-my-viva-engage-profile-and-settings-web-and-desktop-ab813bce-5312-4688-94ee-70018545cd3c). |
+|Bookmarked messages, group membership, followed or following users, and followed articles | When you [erase a user from the Viva Engage home tenant and external tenants](gdpr-requests-in-viva-engage-enterprise.md#RemoveUser), this information is deleted after the 14-day suspension period.<br><br>Users can change or delete their own information. For steps, see [Change my Viva Engage profile and settings (Web and Desktop)](https://support.microsoft.com/office/change-my-viva-engage-profile-and-settings-web-and-desktop-ab813bce-5312-4688-94ee-70018545cd3c). |
 |User settings, including notification, application, and language settings | When you [erase a user from your Viva Engage home tenant and external tenants](gdpr-requests-in-viva-engage-enterprise.md#RemoveUser), this information is deleted after the 14-day suspension period. As an admin, you can't change this information for a user.<br><br>Users can change their own settings. For steps, see [Change my Viva Engage profile and settings (Web and Desktop)](https://support.microsoft.com/office/change-my-viva-engage-profile-and-settings-web-and-desktop-ab813bce-5312-4688-94ee-70018545cd3c). |
 |User profile | If the user has a Viva Engage identity, there are two options to remove the user: <ul><li>[Erase a user from your Viva Engage home tenant and external tenants](gdpr-requests-in-viva-engage-enterprise.md#RemoveUser), Viva Engage deletes this information after the 14-day suspension period.</li><li>[Allow the user to edit their own profile and settings](gdpr-requests-in-viva-engage-enterprise.md#EditProfile).</li></ul> If the user has a Microsoft 365 identity, the Viva Engage user profile is pulled from Microsoft 365. That information originates from Microsoft Entra ID. Viva Engage users can temporarily change their profiles in Viva Engage. If a change occurs in the Microsoft Entra ID, *their changes are overwritten*. **To permanently change or delete a user's profile, you must change or delete directory data in Microsoft 365 and in Microsoft Entra ID**. See [Manage Viva Engage users across their lifecycle from Microsoft 365](/viva/engage/manage-viva-engage-users/manage-users-across-their-lifecycle) and [Add or change profile information for a user in Microsoft Entra ID](/azure/active-directory/fundamentals/active-directory-users-profile-azure-portal). |
 
@@ -95,9 +96,9 @@ The following table shows how to change or delete this data if needed.
 
 ## Edit the user's profile and settings (done by user)
 
-A user can edit their own profile. Administrators can't change the user profile or settings.
+A user can edit their own profile. Administrators can't change a user profile or their settings.
   
-- The user can select the Viva Engage settings icon :::image type="icon" source="../../media/9704ce70-56ce-43f7-96c6-f253b0413d40.png" border="false":::, and then select **Edit Settings**.
+- The user opens Viva Engage settings :::image type="icon" source="../../media/9704ce70-56ce-43f7-96c6-f253b0413d40.png" border="false":::, and then select **Edit Settings**.
 
 - Select the tab for the change you want to make:
 
