@@ -27,12 +27,13 @@ Choose the approach that makes sense for your situation, and **follow the steps 
 
 | Approach | Steps |
 | :----- | :----- |
-|Keep all messages and files created by the user.| Select **Erase the user** to remove the user from the home tenant and from any external tenants. The Erase action doesn't delete messages or files. |
+|Keep all messages and files created by the user| Select **Erase the user** to remove the user from the home tenant and from any external tenants. The Erase action doesn't delete messages or files. |
 |Delete all messages created by the user and decide which files to delete| 1. Do one per-user export of the user's data for the home tenant, and one for each of their external tenants.<br>2. To remove the user from each tenant, select **Permanently remove this user, and remove their messages**.<br>3. In the home tenant, use the **Erase the user** option.<br>4. Within 14 days, remove any files stored in Viva Engage in the home tenant. Delete any information that the per user export doesn't include. |
 |Review files and messages created by the user and decide which to keep and which to delete|1. Do one per-user export of the user's data for the home tenant, and one for each external tenant if any. <br>2. In the home tenant, use the **Erase this user** option. <br>3. Within 14 days, remove any files or messages as necessary from the home tenant, and any information missing from the per user export.*|
 
- \* If you prefer to have more than 14 days to review and delete files and messages, you can do so before erasing the user.
-
+> [!NOTE]
+> If you prefer to have more than 14 days to review and delete files and messages, you can do so before erasing the user.
+ 
 > [!IMPORTANT]
 > Closing a Microsoft Entra ID account doesn't delete the user and their information. To delete user information, go to the Viva Engage admin center and complete the following instructions.
 
@@ -61,18 +62,18 @@ Use the Viva Engage file ID from the export's **messages.csv** file to go direct
 
 **To delete the cover images for a user:**
 
-> [!NOTE]
-> In cases where the admin or the user aren't premium licensed, or the user no longer has their own storyline, previously uploaded photos need to be deleted via API.
-
- 1. Via API: Engage Admins or verified admins can delete cover images for any user in their tenant via an API call. The URL has this syntax: `www.yammer.com/api/public/v1/user-profiles/*user_id*/cover-image`.
+ 1. By API: Engage Admins or verified admins can delete cover images for any user in their tenant via an API call. The URL has this syntax: `www.yammer.com/api/public/v1/user-profiles/*user_id*/cover-image`.
 
       For example, to delete the cover images of a user with ID 1234567890, the URL would look like: `www.yammer.com/api/public/v1/user-profiles/1234567890/cover-image`.
 
- 2. Via UI: Engage Admins with premium Viva licenses can upload or delete cover photos for any user who has the premium Viva license and has storyline enabled by:
+ 2. By UI: Engage Admins with premium Viva licenses can upload or delete cover photos for any user who has the premium Viva license and has storyline enabled by:
 
      1. Visiting the profile page of the user.
      2. Hovering your mouse over the profile header and selecting **"Upload cover photo"**.
      3. Deleting or uploading a new cover image, as needed.
+
+> [!NOTE]
+> In cases where the admin or the user aren't premium licensed, or the user no longer has their own storyline, previously uploaded photos need to be deleted via API.
 
 <a name="OtherData"> </a>
 
@@ -98,7 +99,7 @@ The following table shows how to change or delete this data if needed.
 
 A user can edit their own profile. Administrators can't change a user profile or their settings.
   
-- The user opens Viva Engage settings :::image type="icon" source="../../media/9704ce70-56ce-43f7-96c6-f253b0413d40.png" border="false":::, and then select **Edit Settings**.
+- The user opens Viva Engage settings :::image type="icon" source="../../media/9704ce70-56ce-43f7-96c6-f253b0413d40.png" border="false":::, and selects  **Edit Settings**.
 
 - Select the tab for the change you want to make:
 
