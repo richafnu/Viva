@@ -1,6 +1,6 @@
 ---
 title: Review and test Viva Glint surveys before launch
-description: To prepare for a smooth launch for your Microsoft Viva Glint survey programs, use the guidance and checklists available here to confirm that all of your platform and survey settings are correct.
+description: To prepare for a smooth launch for your Microsoft Viva Glint survey programs, use the guidance and checklists available here to confirm that all platform and survey settings are correct.
 ms.author: aweixelman
 author: AliciaWeixelman
 manager: melissabarry
@@ -39,7 +39,7 @@ Selections that admins make in [General Settings](manage-general-settings.md) la
 |Reporting     |Attributes for Alerts       |Attributes are selected to use for populations in the [Alerts Report](/viva/glint/reports/alerts-report-attrition-risk). **When blank, no alerts are generated**.        |
 |      |Primary Hierarchy      |The correct primary hierarchy is selected for default reporting views and sections (usually Manager Hierarchy).        |
 |      |Secondary Hierarchy       |The correct secondary hierarchy is selected for default reporting views and sections.        |
-|Engage Survey Details     |Require Azure AD for links in survey emails       |This setting is switched to:<br><br> Yes to require survey participants to authenticate with Entra ID to access surveys. <br> No to allow survey participants to access surveys with personalized links.<br>[Learn more](understand-survey-access-methods.md).        |
+|Survey Details     |Require Microsoft Entra ID for links in survey emails and Microsoft Teams notifications       |This setting is switched to:<br><br> Yes to require survey participants to authenticate with Entra ID to access surveys. <br> No to allow survey participants to access surveys with personalized links.<br>[Learn more](understand-survey-access-methods.md).        |
 |      |Attribute-based Survey Access       |If needed, attributes are selected for an alternate survey access method for deskless workers. [Learn more](attribute-based-survey-access.md)        |
 |Features     |Employee Post-Survey Action Taking       |This setting is set to Yes or No to determine if survey participants see recommended LinkedIn Learning videos on their survey Thank you page. This setting applies to all surveys.        |
 |Technical Configuration     |SFTP Setup       |Secure File Transfer Protocol (SFTP) setup is complete if your organization imports employee data with this method. [Learn more](set-up-sftp.md).        |
@@ -166,7 +166,7 @@ Review each section of your survey program setup before launching a test survey 
 > [!NOTE]
 > \*This setting only appears when admins enable Microsoft Teams notifications in General Settings. <br>
 > \**This setting only appears when your organization has a Personal Email Optional System Attribute set up. Personal emails are recommended for contacting exiting employees.<br>
-> \***Team Conversations emails only appear when Team Conversations are enabled in Program Setup.
+> \***Team Conversation emails only appear when Team Conversations are enabled in Program Setup.
 
 
 ### Coaching 
@@ -221,7 +221,7 @@ Launch a test survey to your project team to confirm that emails arrive and the 
    1. Select a Distribution List that includes test users in the **Distribution For This Program** field.
 1. Select **Save & Continue** to go to **Schedule**.
    1. Select a date to launch your test survey in the **Send the next survey on** field.
-   1. Select a number of days for the test survey to be open in the **Response Window** field.
+   1. Select the number of days the test survey is open in the **Response Window** field.
 1. Go to the **Communications** section to confirm timing and invites/reminders are selected for your test survey's **Response Window**.
 1. [Approve and Enable](preview-manage-enable-engage-programs.md) your test survey.
 2. Collect feedback from survey testers and update your survey setup based on feedback.
