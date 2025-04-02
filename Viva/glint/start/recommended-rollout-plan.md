@@ -1,6 +1,6 @@
 ---
-title: Recommended rollout plan for a Viva Glint feedback program
-description: Use our best practices to build a rollout plan for your organization's Viva Glint programs.
+title: Introduce Microsoft Viva Glint programs to your organization - presurvey email templates
+description: Use our templates and best practices to build a rollout plan for your organization's Viva Glint programs.
 ms.author: JudithWeiner
 author: JudyWeiner
 manager: mbarry
@@ -14,21 +14,15 @@ search.appverid: MET150
 ms.topic: how-to
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 01/24/2025
+ms.date: 04/02/2025
 ---
 
-# Recommended rollout plan for Viva Glint feedback programs
+# Introduce Microsoft Viva Glint programs to your organization - presurvey email templates
 
-You want every person (role) in your organization to understand why you've partnered with Microsoft Viva Glint. To share the importance of the programs, customize our templates. They're divided into three timeframes to coincide with the survey journey:
-
-- [Introduce survey taking to your employees](/../../viva/glint/communicate/survey-taking-for-employees)
-- [Communicate prelaunch and Live Viva Glint program information](/../../viva/glint/communicate/prelaunch-live-email-templates)
-- [Communicate results rollout plans](/../../viva/glint/communicate/results-rollout-templates)
-
-Use these tables to build a rollout plan for your Viva Glint programs. 
+You want every person in your organization to understand why you partnered with Microsoft Viva Glint. To share the importance of the programs, customize our email templates. Use our suggested mailing timeframes to coincide with your survey journey:
 
 > [!NOTE] 
-> The following plans assume a six-week launch, which may be longer than the timeline you anticipate.  If your timeline is shorter, compress or thin the communications to align appropriately.
+> The following plan assumes a six-week launch. This timeline may be longer than the timeline you anticipate.  Combine or thin the communications to align appropriately for a shorter timeline.
 
 ## Presurvey rollout plan
 
