@@ -83,6 +83,7 @@ Thank you for your participation,
 |4-8 weeks after close|<ul><li>HRBP communications</li></ul>|<ul><li>Use tools and resources to take action</li><li>Update action progress in Viva Glint platform </li><li> Support company-wide initiatives</li></ul>|Project team, Managers|[HRBP email template](/../../viva/glint/communicate/results-rollout-templates)| 
 |10 weeks after close|<ul><li>HRBP communications</li></ul>|<ul><li>Use tools and resources to take action</li><li>Update action progress in Viva Glint platform </li><li> Support company-wide initiatives</li></ul>|Project team, Managers|[HRBP email template](/../../viva/glint/communicate/results-rollout-templates)|
 
-Frequently asked questions
+## Frequently asked questions
+
 Use Viva Glint Frequently Asked Questions (FAQs) to prepare your own FAQ document to share in your introduction email.
 
