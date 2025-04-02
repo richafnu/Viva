@@ -3,10 +3,10 @@ title: "Manage GDPR data subject requests in Viva Engage Enterprise"
 f1.keywords:
 - NOCSH
 ms.author: dmillerdyson
-ms.reviewer:
+ms.reviewer: jobacus
 author: v-rgrace
 manager: elizapo
-ms.date: 01/27/2025
+ms.date: 04/02/2025
 audience: Admin
 ms.topic: how-to
 ms.service: viva-engage
@@ -23,7 +23,7 @@ description: "Erase all information about a Viva Engage user to comply with GDPR
 
 As a verified admin, you can erase a user from Viva Engage to comply with a [General Data Protection Regulation (GDPR) data subject request](/compliance/regulatory/gdpr-dsr-Office365). When you erase a user, the action removes their personally identifying information, but their messages and files remain. You can review a user's messages and files to decide which ones to delete. An ID ties to remaining content, but not with the user's name.
 
-Choose the approach that makes sense for your situation, and **follow the steps in the order listed**. The order matters: after you erase a user, you can't find their data to delete it.
+Choose the approach that applies for your case, and **follow the steps in the order listed**. The order matters: after you erase a user, you can't find their data to delete it.
 
 | Approach | Steps |
 | :----- | :----- |
@@ -50,9 +50,9 @@ Use the Viva Engage file ID from the export's **messages.csv** file to go direct
 
 1. In the data export's **messages.csv** file, find the URL for the message in the `gdpr_delete_url` column. The URL has this syntax: `https://www.yammer.com/messages/thread_id/hard_delete_confirmation`.
   
-2. Copy the `gdpr_delete_url` for the message you want to delete and paste it into a browser window that's logged in to the network from which you want to delete the message.
+2. Copy the `gdpr_delete_url` for the message you want to delete. Paste it into a browser window that's logged in to the network from which you want to delete the message.
 
-3. After verifying the message displayed is the one you want to delete, click the link to permanently delete the message from Viva Engage and associated data exports.
+3. After verifying that the displayed message is the one to delete, click the link to permanently delete the message from Viva Engage and associated data exports.
 
 **To locate and delete a specific Viva Engage file stored in Viva Engage or SharePoint:**
 
@@ -77,21 +77,19 @@ Use the Viva Engage file ID from the export's **messages.csv** file to go direct
 
 <a name="OtherData"> </a>
 
-## Find and delete user data not included in the per-user export
+## Find and delete user data not included in per-user export
 
 Some user data doesn't get included in an export.
 
 To find this data for a user, go to Viva Engage settings :::image type="icon" source="../../media/9704ce70-56ce-43f7-96c6-f253b0413d40.png" border="false"::: \> **People**, and select the name of the user.
   
-The following table shows how to change or delete this data if needed.
-  
-****
+The following table shows how to change or delete this data when needed.
 
 | Type of data | How to change or delete data |
 |:-----|:-----|
 |Bookmarked messages, group membership, followed or following users, and followed articles | When you [erase a user from the Viva Engage home tenant and external tenants](gdpr-requests-in-viva-engage-enterprise.md#RemoveUser), this information is deleted after the 14-day suspension period.<br><br>Users can change or delete their own information. For steps, see [Change my Viva Engage profile and settings (Web and Desktop)](https://support.microsoft.com/office/change-my-viva-engage-profile-and-settings-web-and-desktop-ab813bce-5312-4688-94ee-70018545cd3c). |
 |User settings, including notification, application, and language settings | When you [erase a user from your Viva Engage home tenant and external tenants](gdpr-requests-in-viva-engage-enterprise.md#RemoveUser), this information is deleted after the 14-day suspension period. As an admin, you can't change this information for a user.<br><br>Users can change their own settings. For steps, see [Change my Viva Engage profile and settings (Web and Desktop)](https://support.microsoft.com/office/change-my-viva-engage-profile-and-settings-web-and-desktop-ab813bce-5312-4688-94ee-70018545cd3c). |
-|User profile | If the user has a Viva Engage identity, there are two options to remove the user: <ul><li>[Erase a user from your Viva Engage home tenant and external tenants](gdpr-requests-in-viva-engage-enterprise.md#RemoveUser), Viva Engage deletes this information after the 14-day suspension period.</li><li>[Allow the user to edit their own profile and settings](gdpr-requests-in-viva-engage-enterprise.md#EditProfile).</li></ul> If the user has a Microsoft 365 identity, the Viva Engage user profile is pulled from Microsoft 365. That information originates from Microsoft Entra ID. Viva Engage users can temporarily change their profiles in Viva Engage. If a change occurs in the Microsoft Entra ID, *their changes are overwritten*. **To permanently change or delete a user's profile, you must change or delete directory data in Microsoft 365 and in Microsoft Entra ID**. See [Manage Viva Engage users across their lifecycle from Microsoft 365](/viva/engage/manage-viva-engage-users/manage-users-across-their-lifecycle) and [Add or change profile information for a user in Microsoft Entra ID](/azure/active-directory/fundamentals/active-directory-users-profile-azure-portal). |
+|User profile | If the user has a Viva Engage identity, there are two options to remove the user: <ul><li>[Erase a user from your Viva Engage home tenant and external tenants](gdpr-requests-in-viva-engage-enterprise.md#RemoveUser), Viva Engage deletes this information after the 14-day suspension period.</li><li>[Allow the user to edit their own profile and settings](gdpr-requests-in-viva-engage-enterprise.md#EditProfile).</li></ul> If the user has a Microsoft 365 identity, Viva Engage pulls the user profile from Microsoft 365. That information originates from Microsoft Entra ID. Viva Engage users can temporarily change their profiles in Viva Engage. If a change occurs in the Microsoft Entra ID, *their changes are overwritten*. **To permanently change or delete a user's profile, you must change or delete directory data in Microsoft 365 and in Microsoft Entra ID**. See [Manage Viva Engage users across their lifecycle from Microsoft 365](/viva/engage/manage-viva-engage-users/manage-users-across-their-lifecycle) and [Add or change profile information for a user in Microsoft Entra ID](/azure/active-directory/fundamentals/active-directory-users-profile-azure-portal). |
 
 <a name="RemoveGroup"> </a>
 
@@ -107,7 +105,7 @@ The following table shows how to change or delete this data if needed.
 
 ## Remove a noncommunity participant from a conversation in a private community
 
-- If a noncommunity member is added to a conversation, a reply appears in the conversation to note who was added. This reply contains a link to **Remove** the noncommunity member participant.
+- If a noncommunity member is added to a conversation, a reply appears in the conversation to note who was added. The reply contains a link to **Remove** the noncommunity member participant.
 
 <a name="RemoveUser"> </a>
 
@@ -122,7 +120,7 @@ Removing a user from their home Viva Engage tenant removes them from all externa
   
 When you erase a user, the action deletes the following user data:
   
-- Who the person is following, connections to conversations and articles they're following, and connections to their followers
+- Who the person follows, connections to followed conversations and articles, and connections to their followers
 
 - Bookmarks, language preferences, notification settings, and account activity
 
@@ -134,53 +132,6 @@ When you erase a user, the action deletes the following user data:
 
 As an admin, you can erase a user from their home tenant and from their external tenants.
   
-**Remove a user**
-  
-1. In the Viva Engage admin center, go to **Users** \> **Remove Users**.
-
-2. Enter the user's name. After you select the user, the options for removal appear.
-
-    :::image type="content" source="../../media/a48da79c-7f5f-479b-8b75-a3e67285c141.png" alt-text="Screenshot that shows how selecting a name presents options to remove the user.":::
-
-    - To delete all of a user's messages before you erase the user:
-
-      1. Select **Permanently remove this user and remove their messages**, and then select **Submit**.
-      2. After deletion finishes, select **Erase this user**, which removes the user's name and activity data.
-
-    - To keep all the user's files and messages, select **Erase this user**.
-
-    - To review the user's home tenant messages and files, take the following steps:
-
-      1. Deactivate the user for 14 days to export their user data and evaluate their home tenant files and messages by selecting **Erase this user. Wipe their name and personal information, but leave their messages. (Can't be undone after 14 days):**
-
-         The user is marked as deactivated and is listed on the **Remove Users** page. Within 14 days, you can reactivate the user.
-
-         :::image type="content" source="../../media/162b43ed-acd1-4085-8073-b43845c30999.png" alt-text="Screenshot of deactivated user list.":::
-
-         After 14 days, Viva Engage sends a message to all the tenant admins and verified admins to inform them of the user deletion.
-
-      2. Select **Submit**.
-
-      3. In the confirmation dialog, select **Yes, Permanently Delete Account**.
-
-      4. Within the 14 day interval, follow the directions in [Delete specific messages or files](gdpr-requests-in-viva-engage-enterprise.md#DeleteMessagesFiles).
-
-<a name="Reactivate"> </a>
-
-## Reactivate a deactivated account after using Erase this user
-
-When you deactivate a user's account with the **Erase this user** option, you have 14 days to reactivate the user.
-  
-1. Go to the Viva Engage Admin center.
-
-2. Select **Remove Users**.
-
-3. Go to the **Deactivated Users** section. This section is visible when there's at least one deactivated user account.
-
-4. Select **Reactivate** for each user you want to reactivate.
-
-   After 14 days, you can't reactivate a user account.
-
 ## See also
 
 [Manage Viva Engage data compliance](manage-data-compliance.md)
