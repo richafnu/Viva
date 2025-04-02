@@ -29,7 +29,7 @@ Copilot in Viva Glint suggests items that are relevant to your data set and help
 
 ## Look at the big picture before using Copilot in Viva Glint
 
-Use your Glint [Team Summary dashboard](/viva/glint/reports/managers-use-team-summary-dashboard) to review the data collected from your most recent survey. Look at the [Top Strengths and Top Opportunities](/viva/glint/reports/managers-use-team-summary-dashboard) for your team, as well as the other summaries on your dashboard. 
+Use your Glint [Team Summary dashboard](/viva/glint/reports/managers-use-team-summary-dashboard) to review the data collected from your most recent survey. Look at the [Top Strengths and Top Opportunities](/viva/glint/reports/managers-use-team-summary-dashboard) for your team and the other summaries on your dashboard. 
 
 There are two different experiences:
 
@@ -154,7 +154,7 @@ Follow this procedure to view a specific set of comments and summarize them. Thi
 
 1. Review your summary and select the **Copy** symbol to save it.
 
-	 :::image type="content" source="../../media/glint/reports/copilot-copy-image.png" alt-text="Screenshot of the Copilot copy symbol.":::
+:::image type="content" source="../../media/glint/reports/copilot-copy-image.png" alt-text="Screenshot of the Copilot copy symbol.":::
 
 ## Copilot in Viva Glint use in other Glint reports
 
@@ -169,7 +169,7 @@ Here are a few ideas of how to use Copilot in Viva Glint in reports:
 - In Team Summary:
   - Summarize by Top Strengths or Top Opportunities
   - Summarize by Key Outcome
-  -Summarize by team or demographic
+  - Summarize by team or demographic
 
 - In the Heat Map Report:
   - Summarize your data by managerial or organizational hierarchy.
@@ -188,15 +188,13 @@ Our evaluation process incorporates feedback from early adopters and customers. 
 
 Allow your leaders to give feedback by enabling feedback. **The feedback feature must be set for your organization by the Microsoft 365 Global Administrator.** Enablement occurs within Policy Management in the Microsoft 365 Apps Admin Center. Without this feature enabled, leaders don't have access to provide feedback.
 
-We suggest enabling:
+We suggest enabling **Allow users to submit feedback to Microsoft**:
+- Allow users to include screenshots and attachments when they submit feedback to Microsoft.
+- Allow users to include log file and relevant content samples when feedback is submitted to Microsoft.
 
-- **Allow users to submit feedback to Microsoft**:
-  - Allow users to include screenshots and attachments when they submit feedback to Microsoft.
-  - Allow users to include log file and relevant content samples when feedback is submitted to Microsoft.
+Users see this image:
 
-   Users see this:
-
-   :::image type="content" source="../../media/glint/reports/copilot-give-feedback.png" alt-text="Screenshot of how to share Copilot feedback with Microsoft.":::
+:::image type="content" source="../../media/glint/reports/copilot-give-feedback.png" alt-text="Screenshot of how to share Copilot feedback with Microsoft.":::
 
 ## More feedback resources
 
