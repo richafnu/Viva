@@ -1,5 +1,5 @@
 ---
-ms.date: 06/30/2023
+ms.date: 04/1/2025
 title: Cross-collaboration
 description: Learn about cross-collaboration queries
 author: zachminers
