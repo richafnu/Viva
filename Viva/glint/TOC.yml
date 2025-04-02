@@ -448,6 +448,8 @@ items:
                 href: reports/managers-use-team-summary-dashboard.md
   - name: Take action as a manager
     items:
+      - name: Manager Guide - Copilot in Viva Glint
+        href: setup/copilot-manager-quick-guide.md
       - name: Managers using Team Conversations
         href: reports/managers-sharing-team-conversations.md
         items:
