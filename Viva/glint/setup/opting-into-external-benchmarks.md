@@ -22,7 +22,7 @@ ms.date: 04/03/2025
 Viva Glint admins can opt into - *give consent to use* - external benchmarks. After doing so, they can select one or more benchmarks for managers to use when viewing reports.
 
 >[!NOTE]
->New benchmark creation is paused until all remaining customers of LinkedIn Glint are transitioned to Viva Glint. Benchmark refreshes will resume once a robust sample of customers migrate. The projection to resume benchmark updates is late 2025. Until then, all existing benchmark suites remain available to Viva Glint customers.
+>New benchmark creation is paused until all remaining customers of LinkedIn Glint are transitioned to Viva Glint. Expect benchmark refreshes to resume once a robust sample of customers migrate. The projection to resume benchmark updates is late 2025. Until then, all existing benchmark suites remain available to Viva Glint customers.
 
 ## Why use the external benchmark?
 
@@ -33,7 +33,7 @@ Viva Glint admins can opt into - *give consent to use* - external benchmarks. Af
 
 ## Give consent to external benchmarks so managers can use them to view reports
 
-If consent is **Off**, external benchmark selection is not possible.
+If consent is **Off**, external benchmark selection isn't possible.
 If consent is **On**, there needs to be at least one ext benchmark selected to be able to save the setting. 
 
 >[!TIP]
