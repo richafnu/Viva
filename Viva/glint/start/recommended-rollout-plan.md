@@ -44,7 +44,7 @@ Consider using [Viva Glint Frequently Asked Questions (FAQs) for survey takers] 
 
 |Suggested email send timing| Email subject/link to template|Description|
 |-----------|-----------|----------------|
-|6 weeks prior|[Template 1 - Introduce Microsoft Viva Glint to all senior leadership](#template-1---introduce-microsoft-viva-glint-to-all-senior-leadership)|Introduce Microsoft Viva Glint, define roles and responsibilities|
+|6 weeks prior|[Template 1 - Introduce Microsoft Viva Glint to all senior leadership](#email-template-1-introduce-viva-glint-to-all-leadership)|Introduce Microsoft Viva Glint, define roles and responsibilities|
 |6 weeks prior|[Template 2 - Invitation for Vision and Strategy planning for all stakeholders](#email-template-2-vision-and-strategy-for-all-stakeholders)|Announcement of upcoming survey and request for input|
 |5 weeks prior|[Template 3 - Introduce upcoming survey to all senior leadership](#email-template-3-introduce-upcoming-survey-to-senior-leadership)|Introduce survey, inform about resources, develop communications plan and customize messages|
 |4 weeks prior|[Template 4 - Introduce upcoming survey to HRBPs](#email-template-4-upcoming-survey-for-hrbps)| Introduce survey, provide role expectations, timing, resources, and training signups|
