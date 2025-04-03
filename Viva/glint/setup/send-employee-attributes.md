@@ -35,17 +35,17 @@ Learn more about how to set up attributes in Viva Glint with this video and the 
 
 > [!VIDEO bb2646bc-ce4a-407d-8400-ec43bc5514de]
 
-1. From the admin dashboard, select the **Configuration** symbol.
+## 1. Upload dataset
+
+1. From the admin dashboard, select **Configuration**.
 2. In **Employees,** select **People**.
-3. Choose **Get Started** and select **New User Schema or Attribute Updates** to begin the four-step process.
+3. Choose **Get Started** and select **New User Schema or Attribute Updates** to begin the four-step setup process.
 
    :::image type="content" source="../../media/glint/setup/import-choice.png" alt-text="Screenshot of the import option selection screen, including the New User Schema or Attribute Updates option.":::
 
-## 1. Upload dataset
-
-Upload finalized attributes in your selected format. This file format determines the format for all future uploads. Select **Continue.**
-
-:::image type="content" source="../../media/glint/setup/setup-step1.png" alt-text="Screenshot of step 1 to upload your attributes in a finalized file layout.":::
+4. Upload finalized attributes in your selected format. This file format determines the format for all future uploads. Select **Continue.**
+  
+   :::image type="content" source="../../media/glint/setup/setup-step1.png" alt-text="Screenshot of step 1 to upload your attributes in a finalized file layout.":::
 
 ## 2. Preview employee data fields
 
@@ -174,4 +174,3 @@ After setting up your attributes in Viva Glint, choose a data upload method and 
 
 > [!div class="nextstepaction"]
 > [Choose a data upload method](choose-upload-method.md)
-
