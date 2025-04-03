@@ -45,13 +45,13 @@ Consider using [Viva Glint Frequently Asked Questions (FAQs) for survey takers] 
 |Suggested email send timing| Email subject/link to template|Description|
 |-----------|-----------|----------------|
 |6 weeks prior|[Template 1 - Introduce Microsoft Viva Glint to all senior leadership](/Viva/glint/start/recommended-rollout-plan.md#email-template-1-introduce-viva-glint-to-all-leadership)|Introduce Microsoft Viva Glint, define roles and responsibilities|
-|6 weeks prior|[Template 2 - Vision and Strategy for all stakeholders](/Viva/glint/start/recommended-rollout-plan.md#email-template-2-vision-and-strategy-for-all-stakeholders)|Announcement of upcoming survey and request for input|
-|5 weeks prior|[Template 3 - Introduce upcoming survey to all senior leadership](/Viva/glint/start/recommended-rollout-plan.md#email-template-2-introduce-survey-to-senior-leadership)|Introduce survey, inform about resources, develop communications plan and customize messages|
-|4 weeks prior|[Template 4 - Introduce upcoming survey to HRBPs](/Viva/glint/start/recommended-rollout-plan.md#template-3---upcoming-survey-for-hrbps)| Introduce survey, provide role expectations, timing, resources, and training signups|
+|6 weeks prior|[Template 2 - Invitation for Vision and Strategy planning for all stakeholders](/Viva/glint/start/recommended-rollout-plan.md#email-template-2-vision-and-strategy-for-all-stakeholders)|Announcement of upcoming survey and request for input|
+|5 weeks prior|[Template 3 - Introduce upcoming survey to all senior leadership](/Viva/glint/start/recommended-rollout-plan.md#email-template-3-introduce-upcoming-survey-to-senior-leadership)|Introduce survey, inform about resources, develop communications plan and customize messages|
+|4 weeks prior|[Template 4 - Introduce upcoming survey to HRBPs](/Viva/glint/start/recommended-rollout-plan.md#email-template-4---upcoming-survey-for-hrbps)| Introduce survey, provide role expectations, timing, resources, and training signups|
 |3 weeks prior|[Template 5 - Training for HRBPs](/Viva/glint/start/recommended-rollout-plan.md#email-template-5---training-for-hrbps)|Support HRBPs for rollout planning |
-|2 weeks prior|[Template 6 - New survey introduction for all senior leaders and managers(|Introduce upcoming survey name, purpose, and dates|
-|1-2 days prior|[Template 7 - Survey launch announcement for entire organization](|Announce the imminent survey release and build excitement!|
-|During live survey window|[Template 8 - Reminder to submit survey]()|
+|2 weeks prior|[Template 6 - New survey introduction for all senior leaders and managers](/Viva/glint/start/recommended-rollout-plan.md#email-template-6---new-survey-introduction-to-all-senior-leaders-and-managers)|Introduce upcoming survey name, purpose, and dates|
+|1-2 days prior|[Template 7 - Survey launch announcement for entire organization](/Viva/glint/start/recommended-rollout-plan.md#template-7---survey-launch-announcement-for-entire-organization)|Announce the imminent survey release and build excitement!|
+|During live survey window|[Template 8 - Reminder to submit survey](/Viva/glint/start/recommended-rollout-plan.md#email-template-8-survey-reminder)|Send to full distribution list 72 hours before the survey is set to close|
 
 ***
 
@@ -78,7 +78,7 @@ Consider using [Viva Glint Frequently Asked Questions (FAQs) for survey takers] 
 
 ***
 
-### Email template 2: Vision and strategy for all stakeholders
+### Email template 2: Invitation for Vision and Strategy planning for all stakeholders
 
 >**To**: Customer stakeholders participating in Vision, Strategy & Design Planning <br>
 >**From**: [First and Last Name], Survey Project Lead <br>
@@ -216,7 +216,7 @@ Consider using [Viva Glint Frequently Asked Questions (FAQs) for survey takers] 
 >- Discuss findings with your team and commit to one Focus Area. Don't overcommit! Overcommitting can lead to disappointing results.  
 >- Review and share the [Manager Quick Guide to Results & Conversation](https://adoption.microsoft.com/files/viva/glint/Microsoft-Viva-Glint-manager-quick-guide.pdf) with your managers.
 >
-Inform your team that the [Survey Name] survey launches [date] and emphasize the importance of their voice. The more meaningful feedback you collect, the greater impact you have on your team’s success. All Microsoft privacy and confidentiality standards are upheld.
+>Inform your team that the [Survey Name] survey launches [date] and emphasize the importance of their voice. The more meaningful feedback you collect, the greater impact you have on your team’s success. All Microsoft privacy and confidentiality standards are upheld.
 >
 >Please reach out for support or more information. 
 >
@@ -250,9 +250,31 @@ Inform your team that the [Survey Name] survey launches [date] and emphasize the
 
 ***
 
+### Email template 8: Reminder to submit survey  
+
+>**To**: Team <br>
+>**From**: [First and Last Name], Senior leader or manager <br>
+>**Subject**: Reminder to complete your [Survey Name] survey! <br>
+>**Date**: [During survey window] 
+>
+>Dear [First Name or Team], 
+>
+>The [Name] Survey is important to me. I’m looking forward to reviewing the findings for our team and learning more about what you think and feel about working at [Company Name]. Given the realities of day-to-day life, I don’t have enough opportunity to have meaningful conversations with most of you and it’s challenging to dig deep into the kinds of topics the [Name] survey covers. 
+>
+>Participating in this survey gives you the chance to communicate, challenge [Company Name], and tell the truth about your experience at work. Your voice, insights, and opinions matter. 
+>
+>If you haven’t yet taken the [Survey Name] survey, please do so today. It’s confidential and yields data to improve our team’s engagement and the company overall. Your survey invitation is emailed to you. [Refer to this support document for helpful information about taking the survey](https://support.microsoft.com/topic/how-to-take-a-viva-glint-survey-6691b3c7-d7f4-48f5-a69f-d1fe5ce528a5).
+>
+>Please let your voice be heard. 
+>
+>**[Salutation]**, 
+>
+>**[Name, Title]** 
+
+***
 
 
-### Post-survey close rollout plan
+## Post-survey close rollout plan
 
 |**Timing after survey closes**| **Message to your organization**|**Key activities**|**Owner**|**Communication template links**|
 |-----------|-----------|----------------|--------|-------------------------------|
@@ -264,7 +286,5 @@ Inform your team that the [Survey Name] survey launches [date] and emphasize the
 |4-8 weeks after close|<ul><li>HRBP communications</li></ul>|<ul><li>Use tools and resources to take action</li><li>Update action progress in Viva Glint platform </li><li> Support company-wide initiatives</li></ul>|Project team, Managers|[HRBP email template](/../../viva/glint/communicate/results-rollout-templates)| 
 |10 weeks after close|<ul><li>HRBP communications</li></ul>|<ul><li>Use tools and resources to take action</li><li>Update action progress in Viva Glint platform </li><li> Support company-wide initiatives</li></ul>|Project team, Managers|[HRBP email template](/../../viva/glint/communicate/results-rollout-templates)|
 
-## Frequently asked questions
 
-Use Viva Glint Frequently Asked Questions (FAQs) to prepare your own FAQ document to share in your introduction email.
 
