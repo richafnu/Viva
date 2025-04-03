@@ -45,10 +45,10 @@ Consider using [Viva Glint Frequently Asked Questions (FAQs) for survey takers] 
 |Suggested email send timing| Email subject/link to template|Description|
 |-----------|-----------|----------------|
 |6 weeks prior|[Template 1 - Introduce Microsoft Viva Glint to all senior leadership](/Viva/glint/start/recommended-rollout-plan.md#email-template-1-introduce-viva-glint-to-all-leadership)|Introduce Microsoft Viva Glint, define roles and responsibilities|
-|6 weeks prior|[Template 2 - Vision and Strategy for all stakeholders]
-|5 weeks prior|[Template 3 - Upcoming survey to all senior leadership](/Viva/glint/start/recommended-rollout-plan.md#email-template-2-introduce-survey-to-senior-leadership)|Introduce survey, inform about resources, develop communications plan and customize messages|
-|4 weeks prior|[Template 4 - Upcoming survey for HRBPs](/Viva/glint/start/recommended-rollout-plan.md#template-3---upcoming-survey-for-hrbps)| Introduce survey, provide role expectations, timing, resources, and training signups|
-|3 weeks prior|[Template 4 - Training for HRBPs](|Support HRBPs for rollout planning |
+|6 weeks prior|[Template 2 - Vision and Strategy for all stakeholders](/Viva/glint/start/recommended-rollout-plan.md#email-template-2-vision-and-strategy-for-all-stakeholders)|Announcement of upcoming survey and request for input|
+|5 weeks prior|[Template 3 - Introduce upcoming survey to all senior leadership](/Viva/glint/start/recommended-rollout-plan.md#email-template-2-introduce-survey-to-senior-leadership)|Introduce survey, inform about resources, develop communications plan and customize messages|
+|4 weeks prior|[Template 4 - Introduce upcoming survey to HRBPs](/Viva/glint/start/recommended-rollout-plan.md#template-3---upcoming-survey-for-hrbps)| Introduce survey, provide role expectations, timing, resources, and training signups|
+|3 weeks prior|[Template 5 - Training for HRBPs](/Viva/glint/start/recommended-rollout-plan.md#email-template-5---training-for-hrbps)|Support HRBPs for rollout planning |
 |2 weeks prior|[Template 6 - New survey introduction for all senior leaders and managers(|Introduce upcoming survey name, purpose, and dates|
 |1-2 days prior|[Template 7 - Survey launch announcement for entire organization](|Announce the imminent survey release and build excitement!|
 |During live survey window|[Template 8 - Reminder to submit survey]()|
