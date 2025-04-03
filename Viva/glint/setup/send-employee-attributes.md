@@ -29,7 +29,7 @@ Set up attributes in Microsoft Viva Glint to create a mapping of fields to expec
 To set up your attributes Viva Glint, your uploaded file must contain a finalized attribute header row and at least one row of employee data. Use the in-platform, four-step attribute setup process to prepare the system to import employee data.
 
 > [!IMPORTANT]
-> Before beginning, confirm that the attribute selections in your Employee Attribute Template are **final**. Reporting hierarchies, file format, and date attribute formats can't be edited by Viva Glint Admins after initial setup is complete. 
+> Before beginning, confirm that the attribute selections in your Employee Attribute Template are **final**. Viva Glint Admins can't edit reporting hierarchies, file format, or date attribute formats after initial setup is complete. 
 
 1. From the admin dashboard, select the **Configuration** symbol.
 2. In **Employees,** select **People**.
@@ -65,7 +65,7 @@ Check that the attribute names and values appear as expected.
      > [!CAUTION]
      > - All attributes that include dates must follow the same format.
      > - Viva Glint transforms incoming dates to Viva Glint's preferred format, yyyy/mm/dd, upon upload.
-     > - Complete date selection in this step and Dervied attribute setup in the next step to import dates in a format that's usable for Distribution lists and survey triggers. 
+     > - Complete date selection in this step and Derived attribute setup in the next step to import dates in a format that's usable for Distribution lists and survey triggers. 
 
 3. After finished previewing, select **Continue**.
 
@@ -113,8 +113,8 @@ Map attributes in your employee data to Viva Glint language, time zone, and pers
 
 |Viva Glint Field   |Description  |
 |----------|-----------|
-|Survey Language     |The language in which employees receive surveys and emails.    |
-|Dashboard Language|The language in which users view dashboards.  |
+|Survey Language     |The language for employee surveys and emails.    |
+|Dashboard Language|The language for user dashboards.  |
 |User Timezone|The time zone in which survey communications are sent.  |
 |Personal Email|Users' personal email addresses that can be used to survey exiting employees. Select Company and Personal Email in the Communications section of your survey program.  |
 
