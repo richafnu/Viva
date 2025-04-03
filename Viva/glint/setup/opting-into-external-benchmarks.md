@@ -22,7 +22,7 @@ ms.date: 04/03/2025
 Viva Glint admins can opt into - *give consent to use* - external benchmarks. After doing so, they can select one or more benchmarks for managers to use when viewing reports.
 
 >[!NOTE]
->New benchmark creation is paused until all remaining customers of LinkedIn Glint are transitioned to Viva Glint. Expect benchmark refreshes to resume once a robust sample of customers migrate. The projection to resume benchmark updates is late 2025. Until then, all existing benchmark suites remain available to Viva Glint customers.
+>New benchmark creation is paused until all remaining customers of LinkedIn Glint are transitioned to Viva Glint. Expect benchmark refreshes to resume once a robust sample of customers migrates. The projection to resume benchmark updates is late 2025. Until then, all existing benchmark suites remain available to Viva Glint customers.
 
 ## Why use the external benchmark?
 
