@@ -21,28 +21,25 @@ ms.date: 04/03/2025
 
 Set up attributes in Microsoft Viva Glint to create a mapping of fields to expect in your employee data files transmitted to Viva Glint. To set up required, custom, hierarchy, and derived attributes, use the decisions made in the [Employee Attribute Template](create-employee-attribute-template.md) as a guide.
 
-> [!TIP]
-> Ensure that attribute labels stay consistent over time in your Employee Data File. For example, an attribute set up as "Employee ID," isn't recognized as the same column if renamed "Employee Number."
+> [!NOTE]
+> Before starting, confirm that the attribute selections in your Employee Attribute Template are **final**. Viva Glint Admins can't edit reporting hierarchies, file format, or date attribute formats after initial setup is complete. 
 
 ## Attribute setup in Viva Glint
 
-To set up your attributes Viva Glint, your uploaded file must contain a finalized attribute header row and at least one row of employee data. Use the in-platform, four-step attribute setup process to prepare the system to import employee data.
+To set up attributes Viva Glint, your uploaded file must contain a finalized attribute header row and at least one row of employee data. Use the in-platform, four-step attribute setup process to create a mapping to import employee data.
 
-> [!IMPORTANT]
-> Before beginning, confirm that the attribute selections in your Employee Attribute Template are **final**. Viva Glint Admins can't edit reporting hierarchies, file format, or date attribute formats after initial setup is complete. 
+> [!CAUTION]
+> The Viva Glint Admin who sets up or changes attributes needs to save changes in the **default language for your organization**. Confirm that the default language (often English) is selected in the **Language** dropdown menu in Viva Glint. Setting up or editing attributes in a different language resets the expected language for Viva Glint data ingestion and causes upload errors.
+
+Learn more about how to set up attributes in Viva Glint with this video and the following instructions:  
+
+> [!VIDEO bb2646bc-ce4a-407d-8400-ec43bc5514de]
 
 1. From the admin dashboard, select the **Configuration** symbol.
 2. In **Employees,** select **People**.
 3. Choose **Get Started** and select **New User Schema or Attribute Updates** to begin the four-step process.
 
    :::image type="content" source="../../media/glint/setup/import-choice.png" alt-text="Screenshot of the import option selection screen, including the New User Schema or Attribute Updates option.":::
-
-> [!CAUTION]
-> The Viva Glint Admin who sets up or changes attributes needs to save changes in the **default language for your organization**. Confirm that the default language (often English) is selected in the **Language** dropdown menu in Viva Glint. Setting up or editing attributes in a different language resets the expected language for Viva Glint data ingestion and causes upload errors.
-
-Learn more about how to set up attributes in Viva Glint:  
-
-> [!VIDEO bb2646bc-ce4a-407d-8400-ec43bc5514de]
 
 ## 1. Upload dataset
 
