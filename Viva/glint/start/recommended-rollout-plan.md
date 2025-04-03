@@ -49,7 +49,7 @@ Consider using [Viva Glint Frequently Asked Questions (FAQs) for survey takers] 
 |5 weeks prior|[Template 3 - Introduce upcoming survey to all senior leadership](/Viva/glint/start/recommended-rollout-plan.md#email-template-3-introduce-upcoming-survey-to-senior-leadership)|Introduce survey, inform about resources, develop communications plan and customize messages|
 |4 weeks prior|[Template 4 - Introduce upcoming survey to HRBPs](/Viva/glint/start/recommended-rollout-plan.md#email-template-4---upcoming-survey-for-hrbps)| Introduce survey, provide role expectations, timing, resources, and training signups|
 |3 weeks prior|[Template 5 - Training for HRBPs](/Viva/glint/start/recommended-rollout-plan.md#email-template-5---training-for-hrbps)|Support HRBPs for rollout planning |
-|2 weeks prior|[Template 6 - New survey introduction for all senior leaders and managers](/Viva/glint/start/recommended-rollout-plan.md#email-template-6---new-survey-introduction-to-all-senior-leaders-and-managers)|Introduce upcoming survey name, purpose, and dates|
+|2 weeks prior|[Template 6 - Introduce new survey to all leaders and managers](/Viva/glint/start/recommended-rollout-plan.md#email-template-6---new-survey-introduction-to-all-senior-leaders-and-managers)|Introduce upcoming survey name, purpose, and dates|
 |1-2 days prior|[Template 7 - Survey launch announcement for entire organization](/Viva/glint/start/recommended-rollout-plan.md#template-7---survey-launch-announcement-for-entire-organization)|Announce the imminent survey release and build excitement!|
 |During live survey window|[Template 8 - Reminder to submit survey](/Viva/glint/start/recommended-rollout-plan.md#email-template-8-survey-reminder)|Send to full distribution list 72 hours before the survey is set to close|
 
@@ -194,7 +194,7 @@ Consider using [Viva Glint Frequently Asked Questions (FAQs) for survey takers] 
 
 ***
 
-### Email template 6 - New survey introduction to all senior leaders and managers
+### Email template 6 - Introduce new survey introduction to all leaders and managers
 
 >**To**: All managers
 >**From**: [First and Last Name], [Title]
