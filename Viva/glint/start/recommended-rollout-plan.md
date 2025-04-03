@@ -226,7 +226,7 @@ Consider using [Viva Glint Frequently Asked Questions (FAQs) for survey takers] 
 
 ***
 
-### Template 7 - Announce survey launch to entire organization
+### Email template 7 - Announce survey launch to entire organization
 
 > Dear [Employee Name],
 >
