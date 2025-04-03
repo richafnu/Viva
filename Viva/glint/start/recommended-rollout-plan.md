@@ -1,5 +1,5 @@
 ---
-title: Introduce Microsoft Viva Glint programs to your organization - presurvey email templates
+title: Introduce Microsoft Viva Glint programs to your organization: presurvey email templates
 description: Use our templates and best practices to build a rollout plan for your organization's Viva Glint programs.
 ms.author: JudithWeiner
 author: JudyWeiner
@@ -14,54 +14,92 @@ search.appverid: MET150
 ms.topic: how-to
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 04/02/2025
+ms.date: 04/03/2025
 ---
 
-# Introduce Microsoft Viva Glint programs to your organization - presurvey email templates
+# Introduce Microsoft Viva Glint programs to your organization: presurvey email templates
 
-You want every person in your organization to understand why you partnered with Microsoft Viva Glint. To share the importance of the programs, customize our email templates. Use our suggested mailing timeframes to coincide with your survey journey. Customize the template to capture your program's brand, goals, and plans. 
+You want every person in your organization to understand why you partnered with Microsoft Viva Glint. To share the importance of the programs, customize our email templates. Use our suggested mailing timeframes to coincide with your survey journey. Customize the template to capture your program's brand and goals. 
 
 Consider using [Viva Glint Frequently Asked Questions (FAQs) for survey takers] to prepare your own FAQ document](survey-taker-faq.md) to share FAQs in your introductory email.
 
+## Tips for using Viva Glint templates 
+
+- Customize the content to your voice.
+- Look for placeholders, like [Company name], and insert your information. 
+- Adapt messages based on your organization’s familiarity with surveying. Organizations new to engagement surveys may want to include more context in messages than organizations who survey regularly. 
+- Condense the communication cascade as much as possible. Be cautious of information overload.  
+- Consider the timing of other company-wide initiatives. Look for opportunities to align communication and streamline employee touch points. 
+
+>[!IMPORTANT]
+>**This text should appear at the bottom of each email sent to your organization:**
+>Security, Privacy, and Compliance are core principles at Microsoft. Microsoft values, protects, and defends data privacy. Microsoft empowers and defends the data privacy choices of every person who uses its products and services. Viva Glint service is governed by the [Microsoft Product Terms](https://www.microsoft.com/licensing/terms) and the [Microsoft Privacy Statement](https://privacy.microsoft.com/privacystatement). 
+
+## Presurvey email templates  
+
 > [!NOTE] 
-> The following plan assumes a six-week launch. This timeline may be longer than the timeline you anticipate. Combine or thin the communications to align to your timeline.
+> The following plan assumes a six-week launch. This timeline may be longer than the timeline you anticipate. Combine or thin the communications to align to your program.
 
-## Email template #1 = Introduce Viva Glint survey taking to your employees
+|Timing before survey start| Email subject/link to template|Description|
+|-----------|-----------|----------------|
+|6 weeks prior|Upcoming Viva Glint to all senior leadership/Template 1|Introduce Viva Glint, define roles and responsibilities|
+|5 weeks prior|Upcoming survey for leadership/Template 2|Introduce, survey, inform about resources, develop communications plan and customize messages|
+|4 weeks prior|Upcoming survey for HRBPs/Template 3| Introduce survey, provide role expectations, timing, resources, and training signups|
+|3 weeks prior|Training for HRBPs/Template 4|Support HRBPs for rollout planning |
+|2 weeks prior|Survey introduction to entire organization/Template 5|
+|1 week prior|Upcoming survey reminder for all leaders|Full-scale reminder of upcoming Viva Glint program|
+|1-2 days prior|Upcoming survey for entire organization/Template 6|Introduce the survey and build excitement!|
 
-To ensure a successful survey process, email your employees to make them aware of an upcoming survey. Explain why taking a survey is important and share FAQs. Use this email template for your first survey communication.  The template is written with these goals in mind:
+### Email template #1: Introduce Viva Glint to all leadership  
 
-Dear [Employee Name],
+*This template is intended for the first introduction of Viva Glint to your organization. Consider sending it on a regular cadence or whenever you experience a large turnover or influx in senior management.*
 
-[Company name] is committed to ensuring your wellbeing, happiness, and engagement at work. We always want you to:
+**To**: All senior leadership 
 
-- Be absorbed in and enthusiastic about your work
-- Find meaning in what you do
-- See a connection between your strengths and your role
-- Be well and healthy
-- Perform at your best
+**From**: [First and Last Name], Chief Executive Officer 
 
-For this reason, we're partnering with Microsoft Viva Glint to deliver our [Survey name] survey. This survey goes live on [date]. Surveys may take place repeatedly throughout the year. Short, frequent surveys allow us to best turn your feedback into action and be responsive to your needs.
+**Subject**: [Survey type, such as Engagement, Culture, or Manager Effectiveness] at [Company Name]  
 
-[Refer to this support document for helpful information about taking Viva Glint surveys with your organization](https://support.microsoft.com/topic/how-to-take-a-viva-glint-survey-6691b3c7-d7f4-48f5-a69f-d1fe5ce528a5).
+**Date**: [6 weeks pre-survey] 
 
-Thank you for your participation,
+Dear [First Name], 
 
-[Name, Title]
+At [Company Name], we strive to stand out in the marketplace and distinguish ourselves as an exemplary employer. To achieve these objectives, we need to focus on innovation and operational efficiency [adjust based on company focus areas] and create an environment where our people find success and exhibit elevated levels of engagement. Research shows that engaged employees are absorbed in and enthusiastic about their work. Engaged employees find a sense of meaning in what they do and work harder because of it.
+
+To support this culture, on [Date] our organization is launching a global employee survey, the [Name] Survey. This is a valuable opportunity for everyone to provide open, honest, and confidential feedback about what it’s like to work at [Company Name]. [Company Name] has chosen Microsoft Viva Glint, a third party, to ensure confidentiality and an exceptional experience for our employees to provide and receive feedback. Viva Glint believes that high quality, frequent, and insightful conversations about peoples' happiness at work is essential to the success of any organization. More detailed information to be in the days ahead.
+
+I’m eager to hear what you and your teams have to say and encourage our organization to be committed to acting on feedback. 
+
+[Salutation], 
+
+[Name]
+
+### Email template #6 - Introduce Viva Glint survey taking to your employees
+
+> Dear [Employee Name],
+>
+>[Company name] is committed to ensuring your wellbeing, happiness, and engagement at work. We always want you to:
+>
+>- Be absorbed in and enthusiastic about your work
+>- Find meaning in what you do
+>- See a connection between your strengths and your role and how they inform the way we do business
+>- Be well and healthy
+>- Perform at your best
+>
+>For this reason, we're partnering with Microsoft Viva Glint to deliver our [Survey name] survey. This survey goes live on [date]. Surveys may take place repeatedly throughout the year. Short, frequent surveys allow us to best turn your feedback into action and be responsive to your needs.
+>
+>[Refer to this support document for helpful information about taking Viva Glint surveys with your organization](https://support.microsoft.com/topic/how-to-take-a-viva-glint-survey-6691b3c7-d7f4-48f5-a69f-d1fe5ce528a5).
+>
+>Thank you for your participation.
+>
+> [Salutation], 
+>
+> [Name, Title]
 
 
-## Email templates #2-#7 - Presurvey rollout plan
+    
 
-|**Timing before survey start**| **Message to your organization**|**Key activities**|**Owner**|**Communication template links**|
-|-----------|-----------|----------------|--------|-------------------------------|
-|6 weeks prior|<ul><li>Establish program overview</li><li>Define roles and responsibilities</li></ul>|<ul><li>Review best practices and develop rollout plan with HR and communications team </li><li> Schedule company-level results reviews </li><li> Schedule business until results review</li></ul>|Project team, HR|[Prelaunch email templates](/../../viva/glint/communicate/prelaunch-live-email-templates)|
-|5 weeks prior|<ul><li>Vision and strategy planning </li><li>Inform about resources </li><li> Discuss importance of customizing program|<ul><li>Develop communications plan and messaging </li><li> Customize platform messages </li><li> Finalize rollout plan </li><li> Prepare Vision and Strategy materials</li></ul>|Project team|[Prelaunch email templates](/../../viva/glint/communicate/prelaunch-live-email-templates)|
-|4 weeks prior|<ul><li>Provide engagement program overview and relationship to business success using Viva Glint </li><li> Provide role expectations and timing, HR and manager resources, and training signups|<ul><li>Customize results rollout plan </li><li> Sign up for platform training</li></ul>|HR Exec, HRBPs|[HRBP prep email templates](/../../viva/glint/communicate/prelaunch-live-email-templates)|
-|3 weeks prior|<ul><li>Continue leadership communications and training signups|<ul><li>Refine plan to share company-wide results with execs </li><li> Support HRBPs for rollout planning </li><li> Finalize rollout planning </li><li> Prepare execs to champion Viva Glint program|HR Exec, Project team, HRBPs|[Leadership prep email templates](/../../viva/glint/communicate/prelaunch-live-email-templates)|
-|2 weeks prior|<ul><li>Send communications for HRBPs training</li><li>Reinforce role expectations and timing</li><li>Send communications for manager resources and training signup</li></ul>|<ul><li>Ensure platform trainings and resources are being used</li><li>If customer communications are being used, prepare to send and host them on the intranet</li><li>Distribute printer flyers, if using</li></ul>|Project team, HRBPs|[HRBP prep email templates](/../../viva/glint/communicate/prelaunch-live-email-templates)|
-|1 week prior|<ul><li>Emphasize manager communications</li></ul>|<ul><li>Encourage manager training signup</li><li>Prepare to report on response rates</li></ul>|Project team, HRBPs|[Prelaunch email templates](/../../viva/glint/communicate/prelaunch-live-email-templates)|
-|1 day prior|<ul><li>Final all-organization communication|<ul><li>Build excitement!|CEO/Senior Exec| [Prelaunch email templates](/../../viva/glint/communicate/prelaunch-live-email-templates)|      
 
-<hr>
   
 ## Live survey window rollout plan
 
