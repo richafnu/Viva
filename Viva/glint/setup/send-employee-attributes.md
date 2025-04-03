@@ -1,12 +1,12 @@
 ---
 title: Set up attributes in Viva Glint
 description: Set up attributes in Microsoft Viva Glint to create a mapping of fields to expect in your employee data files transmitted to Viva Glint.
-ms.author: JudithWeiner
-author: JudyWeiner
+ms.author: aweixelman
+author: AliciaWeixelman
 manager: MelissaBarry
 audience: admin
 f1.keywords: NOCSH
-keywords: Attribute setup, edit attribute, data import
+keywords: Attribute setup, edit attribute, data import, derived attribute, data import
 ms.collection: 
  - m365initiative-viva
  - selfserve
@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: install-set-up-deploy
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 03/10/2025
+ms.date: 04/03/2025
 ---
 
 # Set up attributes in Viva Glint
@@ -26,7 +26,7 @@ Set up attributes in Microsoft Viva Glint to create a mapping of fields to expec
 
 ## Attribute setup in Viva Glint
 
-To set up your attributes Glint, your uploaded file must contain a finalized attribute header row and at least one row of employee data. Use the in-platform, four-step attribute setup process to prepare the system to import employee data.
+To set up your attributes Viva Glint, your uploaded file must contain a finalized attribute header row and at least one row of employee data. Use the in-platform, four-step attribute setup process to prepare the system to import employee data.
 
 > [!IMPORTANT]
 > Before beginning, confirm that the attribute selections in your Employee Attribute Template are **final**. Reporting hierarchies, file format, and date attribute formats can't be edited by Viva Glint Admins after initial setup is complete. 
@@ -38,7 +38,7 @@ To set up your attributes Glint, your uploaded file must contain a finalized att
    :::image type="content" source="../../media/glint/setup/import-choice.png" alt-text="Screenshot of the import option selection screen, including the New User Schema or Attribute Updates option.":::
 
 > [!CAUTION]
-> The Glint Admin who sets up or changes attributes needs to save changes in the **default language for your organization**. Confirm that the default language (often English) is selected in the **Language** dropdown menu in Glint. Setting up or editing attributes in a different language resets the expected language for Glint data ingestion and causes upload errors.
+> The Viva Glint Admin who sets up or changes attributes needs to save changes in the **default language for your organization**. Confirm that the default language (often English) is selected in the **Language** dropdown menu in Viva Glint. Setting up or editing attributes in a different language resets the expected language for Viva Glint data ingestion and causes upload errors.
 
 Learn more about how to set up attributes in Viva Glint:  
 
@@ -58,14 +58,16 @@ Check that the attribute names and values appear as expected.
 
 1. Verify that:
      - All attributes are present in the preview.
-     - Attribute values shown for preview employee records display in the correct column.
+     - Attribute values shown for preview data display in the correct column.
      - The total count of "data fields found" displayed above the preview matches the number of attributes in the file.
 2. If dates are included in your file, select the **There are date fields** checkbox and then the appropriate **date format** from the dropdown menu.
 
-     > [!NOTE]
-     > All attributes that include dates must follow the same format. Viva Glint transforms incoming dates to Viva Glint's preferred format, yyyy/mm/dd, upon upload.
+     > [!CAUTION]
+     > - All attributes that include dates must follow the same format.
+     > - Viva Glint transforms incoming dates to Viva Glint's preferred format, yyyy/mm/dd, upon upload.
+     > - Complete date selection in this step and Dervied attribute setup in the next step to import dates in a format that's usable for Distribution lists and survey triggers. 
 
-3. After previewing, select **Continue**.
+3. After finished previewing, select **Continue**.
 
 ## 3. Set up attributes
 
