@@ -25,7 +25,6 @@ Consider using [Viva Glint Frequently Asked Questions (FAQs) for survey takers] 
 
 ## Tips for using Viva Glint templates 
 
-
 - Copy and paste the template to your email or business letterhead.
 - Customize the content to your voice.
 - Look for placeholders, like [Company name], and insert your information. 
@@ -46,11 +45,13 @@ Consider using [Viva Glint Frequently Asked Questions (FAQs) for survey takers] 
 |-----------|-----------|----------------|
 |6 weeks prior|[Template 1 - Introduce Microsoft Viva Glint to all senior leadership](/Viva/glint/start/recommended-rollout-plan.md#email-template-1-introduce-viva-glint-to-all-leadership)|Introduce Microsoft Viva Glint, define roles and responsibilities|
 |5 weeks prior|[Template 2 - Upcoming survey to all senior leadership](/Viva/glint/start/recommended-rollout-plan.md#email-template-2-introduce-survey-to-senior-leadership)|Introduce survey, inform about resources, develop communications plan and customize messages|
-|4 weeks prior|[Template 3 - Upcoming survey for HRBPs](| Introduce survey, provide role expectations, timing, resources, and training signups|
+|4 weeks prior|[Template 3 - Upcoming survey for HRBPs](/Viva/glint/start/recommended-rollout-plan.md#template-3---upcoming-survey-for-hrbps)| Introduce survey, provide role expectations, timing, resources, and training signups|
 |3 weeks prior|[Template 4 - Training for HRBPs](|Support HRBPs for rollout planning |
-|2 weeks prior|[Template 5 - Survey introduction to entire organization](|
+|2 weeks prior|[Template 5 - Survey introduction to entire](|
 |1 week prior|[Template 6 - Upcoming survey reminder for all leaders](|Full-scale reminder of upcoming Viva Glint program|
 |1-2 days prior|[Template 7 - Survey launch announcement for entire organization](|Introduce the survey and build excitement!|
+
+***
 
 ### Email template #1: Introduce Microsoft Viva Glint to all senior leadership  
 
@@ -72,6 +73,8 @@ Consider using [Viva Glint Frequently Asked Questions (FAQs) for survey takers] 
 >[Salutation], 
 >
 >[Name]
+
+***
 
 ### Email template #2: Introduce upcoming survey to senior leadership
 
@@ -103,6 +106,8 @@ Consider using [Viva Glint Frequently Asked Questions (FAQs) for survey takers] 
 >
 >[Name]
 
+***
+
 ### Template 3 - Upcoming survey for HRBPs
 
 >**To**: Human Resources Business Partners<br>
@@ -127,13 +132,10 @@ Consider using [Viva Glint Frequently Asked Questions (FAQs) for survey takers] 
 
 ### Template 4 - Training for HRBPs
 
-**To**: Human Resource Business Partners 
-
-**From**: **[First and Last Name]**, Chief Human Resource Officer  
-
-**Subject**: Engagement Training for Upcoming **[Name]** Survey 
-
-**Date**: **[Two weeks pre-survey]** 
+>**To**: Human Resource Business Partners <br>
+>**From**: **[First and Last Name]**, Chief Human Resource Officer <br>
+>**Subject**: Engagement Training for Upcoming **[Name]** Survey <br>
+>**Date**: **[Two weeks pre-survey]** 
 
 Dear **[First Name]**, 
 
