@@ -44,21 +44,21 @@ Consider using [Viva Glint Frequently Asked Questions (FAQs) for survey takers] 
 
 |Timing before survey start| Email subject/link to template|Description|
 |-----------|-----------|----------------|
-|6 weeks prior|[Upcoming Viva Glint to all senior leadership/Template 1](/Viva/glint/start/recommended-rollout-plan.md#email-template-1-introduce-viva-glint-to-all-leadership)|Introduce Viva Glint, define roles and responsibilities|
-|5 weeks prior|Upcoming survey to all senior leadership/Template 2|Introduce, survey, inform about resources, develop communications plan and customize messages|
-|4 weeks prior|Upcoming survey for HRBPs/Template 3| Introduce survey, provide role expectations, timing, resources, and training signups|
-|3 weeks prior|Training for HRBPs/Template 4|Support HRBPs for rollout planning |
-|2 weeks prior|Survey introduction to entire organization/Template 5|
-|1 week prior|Upcoming survey reminder for all leaders|Full-scale reminder of upcoming Viva Glint program|
-|1-2 days prior|Upcoming survey for entire organization/Template 6|Introduce the survey and build excitement!|
+|6 weeks prior|[Template 1 - Introduce Microsoft Viva Glint to all senior leadership](/Viva/glint/start/recommended-rollout-plan.md#email-template-1-introduce-viva-glint-to-all-leadership)|Introduce Microsoft Viva Glint, define roles and responsibilities|
+|5 weeks prior|[Template 2 - Upcoming survey to all senior leadership](/Viva/glint/start/recommended-rollout-plan.md#email-template-2-introduce-survey-to-senior-leadership)|Introduce survey, inform about resources, develop communications plan and customize messages|
+|4 weeks prior|[Template 3 - Upcoming survey for HRBPs](| Introduce survey, provide role expectations, timing, resources, and training signups|
+|3 weeks prior|[Template 4 - Training for HRBPs](|Support HRBPs for rollout planning |
+|2 weeks prior|[Template 5 - Survey introduction to entire organization](|
+|1 week prior|[Template 6 - Upcoming survey reminder for all leaders](|Full-scale reminder of upcoming Viva Glint program|
+|1-2 days prior|[Template 7 - Survey launch announcement for entire organization](|Introduce the survey and build excitement!|
 
-### Email template #1: Introduce Viva Glint to all leadership  
+### Email template #1: Introduce Microsoft Viva Glint to all senior leadership  
 
 *This template is intended for the first introduction of Viva Glint to your organization. Consider updating and sending it on a regular cadence or whenever you experience a large turnover or influx in senior management.*
 
->**To**: All senior leadership
->**From**: [First and Last Name], Chief Executive Officer
->**Subject**: [Survey type, such as Engagement, Culture, or Manager Effectiveness] at [Company Name]
+>**To**: All senior leadership<br>
+>**From**: [First and Last Name], Chief Executive Officer<br>
+>**Subject**: [Survey type, *such as Engagement, Culture, or Manager Effectiveness*] at [Company Name]<br>
 >**Date**: [Six weeks pre-survey] 
 >
 >Dear [First Name], 
@@ -73,96 +73,120 @@ Consider using [Viva Glint Frequently Asked Questions (FAQs) for survey takers] 
 >
 >[Name]
 
-### Email template #2: Introduce survey to senior leadership
+### Email template #2: Introduce upcoming survey to senior leadership
 
-**To**: Senior Leadership Team; CC: HR Leadership Team **
+>**To**: Senior Leadership Team; CC: HR Leadership Team <br>
+>**From**: [First and Last Name], [Title]<br>
+>**Subject**: Upcoming [Name of] Survey at [Company Name]<br>
+>**Date**: [Five weeks pre-survey] 
+>
+>Dear [First Name], 
+>
+>Employee engagement is a key focus of our executive team. [Update your company approach with examples of how engagement has been a key focus area or why it is now important]. Engaged employees are absorbed in and enthusiastic about their work. They find a greater sense of meaning in what they do, seeing a connection between their strengths and their role. For this reason, they naturally work harder. These positive behaviors make a difference to our business in terms of reputation, productivity, and profitability. 
+>
+>Our [Name] Survey is live from [date-date] and helps us understand and drive action to improve employee engagement. Employee feedback uncovers opportunities to improve and strengths to leverage apply, and then together we'll take consistent action to create positive change. 
+>
+>[Company Name] has chosen Microsoft Viva Glint, a third party, to ensure confidentiality and an exceptional experience for employees providing and receiving feedback. Viva Glint believes that high quality, more frequent, and insightful conversations about engagement lead to happiness and success for people at work. Short, simple feedback surveys will provide the right people with the right data to improve our business.  
+>
+>You play a significant role in the survey process, from emphasizing the importance of the survey to empowering post-survey action. You're essential to creating an environment where people feel heard and empowered to help drive success. 
+>
+>Take these actions to help support your organization, managers, and employees before, during and after the [Name] Survey: 
+>
+>- Communicate the importance of the [Name] Survey, including participation, honest feedback, and action based on feedback. 
+>- Be transparent about company and organizational results. 
+>- Take ownership of your results and use them as a catalyst for ongoing conversations with your team about what needs to be solved, who can help, and actions that drive forward progress. Hold your managers accountable for doing the same. 
+>- Model best practices. 
+>
+>Human Resources is here to support you throughout this process. Reach out with questions. 
+>
+>[Salutation], 
+>
+>[Name]
 
-**From**: [First and Last Name], [Title] 
+### Template 3 - Upcoming survey for HRBPs
 
-**Subject**: Upcoming [Name of] Survey at [Company Name]
+>**To**: Human Resources Business Partners<br>
+>**From**: [First and Last Name], Chief Human Resource Officer<br>
+>**Subject**: Engagement at **[Company Name]** and Upcoming **[Name]** Survey<br>
+>Date: **[Four weeks pre-survey]** 
+>
+>Dear [First Name],
+>Engaged employees are absorbed in and enthusiastic about their work and find a greater sense of meaning in what they do. When people see a connection between their strengths and their role, their performance is naturally enhanced. These positive behaviors make a difference to our business in terms of reputation, productivity, and profitability. 
+>
+>Our [Name]** Survey is live from [date-date] and helps us understand and drive action to improve employee engagement. Employee feedback uncovers opportunities to improve and strengths to build upon, promoting consistent action to create positive change. 
+>
+>[Company Name]** has chosen Microsoft Viva Glint, a third party, to ensure confidentiality and an exceptional experience for employees providing and receiving feedback. Viva Glint believes that high quality, more frequent, and insightful conversations about engagement lead to happiness and success for people at work. Short, simple feedback surveys provide the right people with the right data to improve our business.  
+>
+>You play a significant role in the survey process, from emphasizing the importance of the survey to empowering post-survey action. You are essential to creating an environment where people feel heard and empowered to help drive success. 
+>
+>We are here to support you throughout this process. Please reach out with questions. 
+>
+>**[Salutation]**, 
+>
+>**[Name]**
 
-**Date**: [Five weeks pre-survey] 
+### Template 4 - Training for HRBPs
 
-Dear [First Name], 
+**To**: Human Resource Business Partners 
 
-Employee engagement is a key focus of our executive team. [Update your company approach with examples of how engagement has been a key focus area or why it is now important]. Engaged employees are absorbed in and enthusiastic about their work. They find a greater sense of meaning in what they do, seeing a connection between their strengths and their role. For this reason, they naturally work harder. These positive behaviors make a difference to our business in terms of reputation, productivity, and profitability. 
+**From**: **[First and Last Name]**, Chief Human Resource Officer  
 
-Our [Name] Survey is live from [date-date] and helps us understand and drive action to improve employee engagement. Employee feedback uncovers opportunities to improve and strengths to leverage apply, and then together we'll take consistent action to create positive change. 
+**Subject**: Engagement Training for Upcoming **[Name]** Survey 
 
-[Company Name] has chosen Microsoft Viva Glint, a third party, to ensure confidentiality and an exceptional experience for employees providing and receiving feedback. Viva Glint believes that high quality, more frequent, and insightful conversations about engagement lead to happiness and success for people at work. Short, simple feedback surveys will provide the right people with the right data to improve our business.  
-
-You play a significant role in the survey process, from emphasizing the importance of the survey to empowering post-survey action. You're essential to creating an environment where people feel heard and empowered to help drive success. 
-
-Take these actions to help support your organization, managers, and employees before, during and after the [Name] Survey: 
-
-- Communicate the importance of the [Name] Survey, including participation, honest feedback, and action based on feedback. 
-- Be transparent about company and organizational results. 
-- Take ownership of your results and use them as a catalyst for ongoing conversations with your team about what needs to be solved, who can help, and actions that drive forward progress. Hold your managers accountable for doing the same. 
-- Model best practices. 
-
-Human Resources is here to support you throughout this process. Reach out with questions. 
-
-[Salutation], 
-
-[Name]  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-NEW
-
-**To**: Leadership/VP  
-
-**From**: **[First and Last Name]**, Chief Human Resource Officer or Senior Human Resources Business Partner 
-
-**Subject**: Engagement at **[Company Name]** and Upcoming **[Name]** Survey 
-
-**Date**: **[Three weeks pre-survey]** 
+**Date**: **[Two weeks pre-survey]** 
 
 Dear **[First Name]**, 
 
-Employee engagement continues to be a key focus at **[Company Name]**. **[Update per company approach with examples of how engagement has been a key focus area or why it is now important]**. Engaged employees are absorbed in and enthusiastic about their work; they find a greater sense of meaning in what they do, see a stronger connection between their strengths and their role, and expend discretionary effort in their performance. These positive behaviors make a difference to our business in terms of reputation, productivity, and profitability. 
+As a reminder, **[Company Name]**’s [Name] Survey is scheduled for **[Date]**. This initiative is a key focus area for our **[Year]** annual plan. 
 
-Our **[Name]** Survey, is live from **[date-date]** and helps us understand and drive action to improve employee engagement at **[Company Name]**. Employee feedback uncovers opportunities to improve and strengths to build on, helping us take consistent action to create positive change. 
+You play a significant role in the process, from emphasizing the survey's importance to empowering your managers to act. You are a thought partner for your managers when it comes to business and people's success. Look for opportunities to build manager capability and facilitate team connections to drive improvements. 
 
-**[Company Name]** has chosen Microsoft Viva Glint, a third party, to ensure confidentiality and an exceptional experience for employees providing and receiving feedback. Viva Glint believes that high quality, frequent, and insightful conversations about engagement lead to happiness and success for people at work. Short, simple feedback surveys provide the right people with the right data to improve our business.  
-
-Take these actions to support your organizations, managers, and employees before, during and after the **[Name]** Survey: 
-
-- Communicate the importance of [Name] Survey, including participation, honest feedback, and action.  
-- Take ownership of your results and use them as the basis for ongoing conversations with your team about what needs to be solved, who can help, and actions that drive forward progress. Hold your managers accountable for doing the same. 
-- Integrate the **[Name]** Survey into your business processes (e.g., quarterly meetings) and leadership practices (e.g., training and development). 
-- Champion employee engagement as a critical element of company strategy and a key enabler of business performance; ask about people metrics whenever you ask about business metrics 
-- Review and share the Manager Quick Guide to Interpretation and Conversation and the Manager Coach to an ACT Conversation to help shape an organization-specific support and rollout plan. 
-
-Your HRBP will schedule time in the next two weeks to walk through a rollout and communications plan for your organization. Managers receive the **[Name]** Survey prep communications by **[date]**.  
-
-Please speak with your managers about preparing for the survey launch and post-survey activities. 
+We're here to support you throughout this process. Reach out with questions. 
 
 **[Salutation]**, 
 
 **[Name]**
 
+### Template 5 - Survey introduction to entire organization
+
+**To**: Managers/VP 
+
+**From**: **[First and Last Name]**, Chief Human Resource Officer or Senior Human Resources Business Partner 
+
+**Subject**: Engagement at **[Company Name]** for Upcoming **[Name]** Survey 
+
+**Date**: **[One week pre-survey]** 
+
+Dear **[First Name]**, 
+
+Employee engagement is a key focus at **[Company Name]**. **[Update per company approach with examples of how engagement has been a key focus area or why it is now important]**. Engaged employees are absorbed in and enthusiastic about their work and find a greater sense of meaning in what they do. Positive feelings promote a strong connection between people's strengths and their roles, naturally increasing performance. These positive behaviors make a difference to our business in terms of reputation, productivity, and profitability. 
+
+Our **[Name]** Survey, which is live from **[date-date]** helps us understand and drive action to improve employee engagement at **[Company Name]**. Employee feedback uncovers opportunities to improve and strengths to build on, promoting consistent action to create positive change. 
+
+**[Company Name]** has chosen Microsoft Viva Glint, a third party, to ensure confidentiality and an exceptional experience for employees providing and receiving feedback. Viva Glint believes that high quality, frequent, and insightful conversations about engagement lead to happiness and success for people at work. Short, simple feedback surveys provides the right people with the right data to improve our business.  
+
+Take these actions to support your employees before, during and after the survey: 
+
+- Communicate the importance of **[Name]** Survey, including participation, honest feedback and action based on results 
+- Take ownership of your results and use them as a basis for better ongoing conversations with your team about what needs to be solved, who can help and actions that drive progress. 
+- Discuss findings with your team and commit to one focus area. Overcommitting can lead to disappointing results.  
+- Review and share the Manager Quick Guide to Interpretation and Conversation and the Manager Coach to an ACT Conversation to help shape an organization-specific support and rollout plan. 
+
+Inform your team that the **[Name]** Survey launches **[date]** and emphasizes the importance of their voice. The more meaningful feedback you collect, the greater impact you have on your team’s success. Note that for the confidentiality and integrity of surveys, only managers whose team responses meet the minimum confidentiality threshold will receive results in the Viva Glint platform. 
+
+Please reach out to your HRBP for support or more information. We are here to set up you and your team up for success with the **[Name]** Survey. 
+
+**[Salutation]**, 
 
 
-### Email template #6: Introduce Viva Glint survey taking to your employees
+### Template 6 - Upcoming survey reminder for all leaders
+
+
+
+
+
+
+### Template 7 - Survey launch announcement for entire organization
 
 > Dear [Employee Name],
 >
@@ -174,9 +198,9 @@ Please speak with your managers about preparing for the survey launch and post-s
 >- Be well and healthy
 >- Perform at your best
 >
->For this reason, we're partnering with Microsoft Viva Glint to deliver our [Survey name] survey. This survey goes live on [date]. Surveys may take place repeatedly throughout the year. Short, frequent surveys allow us to best turn your feedback into action and be responsive to your needs.
+>For this reason, we partnered with Microsoft Viva Glint to deliver our [Survey name] survey. This survey goes live on [date]. Surveys may take place repeatedly throughout the year. Frequent surveys allow us to turn your feedback into action and be responsive to your needs.
 >
->[Refer to this support document for helpful information about taking Viva Glint surveys with your organization](https://support.microsoft.com/topic/how-to-take-a-viva-glint-survey-6691b3c7-d7f4-48f5-a69f-d1fe5ce528a5).
+>[Refer to this support document for helpful information about taking the survey](https://support.microsoft.com/topic/how-to-take-a-viva-glint-survey-6691b3c7-d7f4-48f5-a69f-d1fe5ce528a5).
 >
 >Thank you for your participation.
 >
