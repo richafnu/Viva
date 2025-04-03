@@ -2460,7 +2460,7 @@
   {
     "source_path": "viva/glint/communicate/prelaunch-live-email-templates.md",
     "redirect_url": "/viva/glint/start/recommended-rollout-plan",
-    "redirect_document_id": true  
+    "redirect_document_id": false  
   },
  ]
 }
