@@ -63,8 +63,6 @@ items:
             items:
                - name: Introduce Glint programs with email templates
                  href: start/recommended-rollout-plan.md
-               - name: Promote Glint survey participation after launch
-                 href: communicate/prelaunch-live-email-templates.md
                - name: Communicate results, next steps, and progress
                  href: communicate/results-rollout-templates.md
                - name: Create FAQs for dashboard users
