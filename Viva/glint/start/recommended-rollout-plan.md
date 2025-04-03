@@ -50,7 +50,7 @@ Consider using [Viva Glint Frequently Asked Questions (FAQs) for survey takers] 
 |4 weeks prior|[Template 4 - Introduce upcoming survey to HRBPs](/Viva/glint/start/recommended-rollout-plan.md#email-template-4---upcoming-survey-for-hrbps)| Introduce survey, provide role expectations, timing, resources, and training signups|
 |3 weeks prior|[Template 5 - Training for HRBPs](/Viva/glint/start/recommended-rollout-plan.md#email-template-5---training-for-hrbps)|Support HRBPs for rollout planning |
 |2 weeks prior|[Template 6 - Introduce new survey to all leaders and managers](/Viva/glint/start/recommended-rollout-plan.md#email-template-6---new-survey-introduction-to-all-senior-leaders-and-managers)|Introduce upcoming survey name, purpose, and dates|
-|1-2 days prior|[Template 7 - Survey launch announcement for entire organization](/Viva/glint/start/recommended-rollout-plan.md#template-7---survey-launch-announcement-for-entire-organization)|Announce the imminent survey release and build excitement!|
+|1-2 days prior|[Template 7 - Announce survey launch to entire organization](/Viva/glint/start/recommended-rollout-plan.md#template-7---survey-launch-announcement-for-entire-organization)|Announce the imminent survey release and build excitement!|
 |During live survey window|[Template 8 - Reminder to submit survey](/Viva/glint/start/recommended-rollout-plan.md#email-template-8-survey-reminder)|Send to full distribution list 72 hours before the survey is set to close|
 
 ***
@@ -226,7 +226,7 @@ Consider using [Viva Glint Frequently Asked Questions (FAQs) for survey takers] 
 
 ***
 
-### Template 7 - Survey launch announcement for entire organization
+### Template 7 - Announce survey launch to entire organization
 
 > Dear [Employee Name],
 >
@@ -259,13 +259,11 @@ Consider using [Viva Glint Frequently Asked Questions (FAQs) for survey takers] 
 >
 >Dear [First Name or Team], 
 >
->The [Name] Survey is important to me. I’m looking forward to reviewing the findings for our team and learning more about what you think and feel about working at [Company Name]. Given the realities of day-to-day life, I don’t have enough opportunity to have meaningful conversations with most of you and it’s challenging to dig deep into the kinds of topics the [Name] survey covers. 
->
->Participating in this survey gives you the chance to communicate, challenge [Company Name], and tell the truth about your experience at work. Your voice, insights, and opinions matter. 
+>The [Name] Survey is important to me. I’m looking forward to reviewing our feedback and learning more about what you think and feel about working at [Company Name]. Participating in this survey gives you the chance to communicate, challenge [Company Name], and tell the truth about your experience at work. Your voice, insights, and opinions matter. 
 >
 >If you haven’t yet taken the [Survey Name] survey, please do so today. It’s confidential and yields data to improve our team’s engagement and the company overall. Your survey invitation is emailed to you. [Refer to this support document for helpful information about taking the survey](https://support.microsoft.com/topic/how-to-take-a-viva-glint-survey-6691b3c7-d7f4-48f5-a69f-d1fe5ce528a5).
 >
->Please let your voice be heard. 
+>You voice matters! 
 >
 >**[Salutation]**, 
 >
