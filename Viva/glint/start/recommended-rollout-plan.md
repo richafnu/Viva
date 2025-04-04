@@ -22,7 +22,7 @@ ms.date: 04/04/2025
 
 Communicating survey expectations and results is an essential part of a strong engagement program strategy. You want every person in your organization to understand why you partnered with Microsoft Viva Glint. To share the importance of the feedback programs, customize our email templates. Use our suggested mailing timeframes to coincide with your survey journey. 
 
-Consider using [Viva Glint Frequently Asked Questions (FAQs) for survey takers] to prepare your own [FAQ document](survey-taker-faq.md) to share FAQs in your introductory email.
+Consider using [Viva Glint Frequently Asked Questions (FAQs) for survey takers] to prepare your own [FAQ document](../communicate/survey-taker-faq.md) to share FAQs in your introductory email.
 
 ## Tips for using Viva Glint templates 
 
@@ -44,7 +44,7 @@ Consider using [Viva Glint Frequently Asked Questions (FAQs) for survey takers] 
 
 |Suggested email send timing| Email subject/link to template|Description|
 |-----------|-----------|----------------|
-|6 weeks prior|[Template 1 - Introduce Microsoft Viva Glint to all senior leadership](#email-template-1-introduce-microsoft-viva-glint-to-all-senior-leadership))|Introduce Microsoft Viva Glint, define roles and responsibilities|
+|6 weeks prior|[Template 1 - Introduce Microsoft Viva Glint to all senior leadership](#email-template-1-introduce-microsoft-viva-glint-to-all-senior-leadership)|Introduce Microsoft Viva Glint, define roles and responsibilities|
 |6 weeks prior|[Template 2 - Invitation for Vision and Strategy planning for all stakeholders](#email-template-2-invitation-for-vision-and-strategy-planning-for-all-stakeholders)|Involve your stakeholders in your Viva Glint program design|
 |5 weeks prior|[Template 3 - Introduce upcoming survey to all senior leadership](#email-template-3-introduce-upcoming-survey-to-senior-leadership)|Introduce survey, inform about resources, develop communications plan and customize messages|
 |4 weeks prior|[Template 4 - Introduce upcoming survey to HRBPs](/#email-template-4---upcoming-survey-for-hrbps)| Introduce survey, provide role expectations, timing, resources, and training signups|
@@ -70,7 +70,7 @@ Consider using [Viva Glint Frequently Asked Questions (FAQs) for survey takers] 
 >
 >To support this culture, on [Date] our organization is launching a global employee survey, the [Name] Survey. This is a valuable opportunity for everyone to provide open, honest, and confidential feedback about what it’s like to work at [Company Name]. [Company Name] has chosen Microsoft Viva Glint, a third party, to ensure confidentiality and an exceptional experience for our employees to provide and receive feedback. Viva Glint believes that high quality, frequent, and insightful conversations about peoples' happiness at work is essential to the success of any organization. More detailed information to be in the days ahead.
 >
->I’m eager to hear what you and your teams have to say and encourage our organization to be committed to acting on feedback. 
+>I'm eager to hear what you and your teams have to say and encourage our organization to be committed to acting on feedback. 
 >
 >[Salutation], 
 >
@@ -259,9 +259,9 @@ Consider using [Viva Glint Frequently Asked Questions (FAQs) for survey takers] 
 >
 >Dear [First Name or Team], 
 >
->The [Name] Survey is important to me. I’m looking forward to reviewing our feedback and learning more about what you think and feel about working at [Company Name]. Participating in this survey gives you the chance to communicate, challenge [Company Name], and tell the truth about your experience at work. Your voice, insights, and opinions matter. 
+>The [Name] Survey is important to me. I'm looking forward to reviewing our feedback and learning more about what you think and feel about working at [Company Name]. Participating in this survey gives you the chance to communicate, challenge [Company Name], and tell the truth about your experience at work. Your voice, insights, and opinions matter. 
 >
->If you haven’t yet taken the [Survey Name] survey, please do so today. It’s confidential and yields data to improve our team’s engagement and the company overall. Your survey invitation is emailed to you. [Refer to this support document for helpful information about taking the survey](https://support.microsoft.com/topic/how-to-take-a-viva-glint-survey-6691b3c7-d7f4-48f5-a69f-d1fe5ce528a5).
+>If you haven’t yet taken the [Survey Name] survey, please do so today. It's confidential and yields data to improve our team's engagement and the company overall. Your survey invitation is emailed to you. [Refer to this support document for helpful information about taking the survey](https://support.microsoft.com/topic/how-to-take-a-viva-glint-survey-6691b3c7-d7f4-48f5-a69f-d1fe5ce528a5).
 >
 >You voice matters! 
 >
