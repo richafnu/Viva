@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: install-set-up-deploy
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 10/28/2024
+ms.date: 04/04/2025
 ---
 
 # Set up Secure File Transfer Protocol (SFTP) in Viva Glint
@@ -27,7 +27,7 @@ Use Microsoft Viva Glint [Secure File Transfer Protocol (SFTP)](sftp-data-automa
 - Set up PGP encryption (optional)
 - View credentials and select a port number to access your SFTP account
 
-Your IT team may need to add an IP exception or add hosts and ports to an allowlist to connect to SFTP. [Learn more](allowed-list.md). 
+Your IT team may need to add an IP exception or add hosts and ports to an allowlist to connect to SFTP. [Learn more](allowed-list.md#sftp-ip-exceptions). 
 
 Learn more about how to set up SFTP with this video and the guidance in this article:
 > [!VIDEO 641b5e1a-e628-4c7d-a0e4-62828c91b123]
@@ -49,7 +49,7 @@ Manage SFTP settings to connect to your Viva Glint SFTP account:
    |**SFTP Credentials**     |Required       |After selecting a port number (22 or 1122), copy credentials shown in the platform to connect to SFTP. Your host name changes based on your region (US or EU) and selected port. Allow at least one hour after entering public SSH keys and optional IP addresses before testing your connection.<br><br><ul><li>**File Protocol**: _SFTP_</li><li>**Port**: Select 22 or 1122</li> <li>**Host Name**: _Varies based on region (US or EU) and selected port. Copy from the platform for the correct host name._</li> <li>**Username:** _Company ID_</li> <li>**Password:** _Not applicable, use your private SSH key file_</li></ul>        |
 
 > [!NOTE]
-> Once a tenant is deprovisioned or considered in a "LockedOut" state, the public SSH key is deleted and SFTP no longer works.
+> When a tenant is deprovisioned or considered in a "LockedOut" state, public SSH keys are deleted and SFTP no longer works.
 
 > [!IMPORTANT]
 > Private IP ranges aren't internet routable and don't allow SFTP connection. Don't include private IP addresses, which fall in these ranges:
@@ -59,9 +59,9 @@ Manage SFTP settings to connect to your Viva Glint SFTP account:
 
 ## PGP key expiration
 
-The public PGP key provided by Glint that your organization can optionally use to encrypt data files expires every 12 months. Users selected in the **Notify People** field in SFTP setup receive a notification email 30 days before the key's expiration date letting them know that they need to generate a new key. 
+The public PGP key provided by Viva Glint that your organization can optionally use to encrypt data files expires every 12 months. Users selected in the **Notify People** field in SFTP setup receive a notification email 30 days before the key's expiration date letting them know that they need to generate a new key. 
 
-:::image type="content" source="../../media/glint/setup/pgp-expire-email.png" alt-text="Screenshot of the PGP key expiration email which Glint sends 30 days before the expiration date.":::
+:::image type="content" source="../../media/glint/setup/pgp-expire-email.png" alt-text="Screenshot of the PGP key expiration email which Viva Glint sends 30 days before the expiration date.":::
 
 To create a new public PGP key:
 
