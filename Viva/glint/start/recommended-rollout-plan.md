@@ -22,20 +22,20 @@ ms.date: 04/04/2025
 
 Communicating survey expectations and results is an essential part of a strong engagement program strategy. You want every person in your organization to understand why you partnered with Microsoft Viva Glint. To share the importance of the feedback programs, customize our email templates. Use our suggested mailing timeframes to coincide with your survey journey. 
 
-Consider using [Viva Glint Frequently Asked Questions (FAQs) for survey takers] to prepare your own FAQ document](survey-taker-faq.md) to share FAQs in your introductory email.
+Consider using [Viva Glint Frequently Asked Questions (FAQs) for survey takers] to prepare your own [FAQ document](survey-taker-faq.md) to share FAQs in your introductory email.
 
 ## Tips for using Viva Glint templates 
 
 - Copy and paste the template to your email or business letterhead.
 - Customize the content to your voice, brand, and goals.
 - Look for placeholders, like [Company name], and insert your information. 
-- Adapt messages based on your organization’s familiarity with surveying. Organizations new to engagement surveys may want to include more context in messages than organizations who survey regularly. 
+- Adapt messages based on your organization's familiarity with surveying. Organizations new to engagement surveys may want to include more context in messages than organizations who survey regularly. 
 - Condense the communication cascade as much as possible. Be cautious of information overload.  
 - Consider the timing of other company-wide initiatives. Look for opportunities to align communication and streamline employee touch points. 
 
 >[!IMPORTANT]
 >**This text should appear at the bottom of each email sent to your organization:**
->Security, Privacy, and Compliance are core principles at Microsoft. Microsoft values, protects, and defends data privacy. Microsoft empowers and defends the data privacy choices of every person who uses its products and services. Viva Glint service adheres to all [Microsoft Product Terms](https://www.microsoft.com/licensing/terms) and the [Microsoft Privacy Statement](https://privacy.microsoft.com/privacystatement) standards. 
+>Security, Privacy, and Compliance are core principles at Microsoft. Microsoft values, protects, and defends data privacy. Microsoft empowers and defends the data privacy choices of every person who uses its products and services. Viva Glint service adheres to all [Microsoft Product Terms](https://www.microsoft.com/licensing/terms) and the [Microsoft Privacy Statement](https://privacy.microsoft.com/privacystatement) standards. 
 
 ## Email templates  
 
