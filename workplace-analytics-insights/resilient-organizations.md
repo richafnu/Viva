@@ -3,7 +3,7 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.date: 06/28/2024
 title: Enhance organizational resiliency with Microsoft Viva Insights
 description: Learn how to use insights data to analyze and enhance organizational resiliency
-author: madehmer
+author: zachminers
 ms.author: helayne
 ms.topic: article
 ms.localizationpriority: Low 

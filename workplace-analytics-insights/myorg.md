@@ -3,7 +3,7 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.date: 06/28/2024
 title: The My organization page in Viva Insights
 description: About Microsoft Viva Insights to learn how your organization gets work done
-author: madehmer
+author: zachminers
 ms.author: helayne
 ms.topic: article
 ms.localizationpriority: Low 

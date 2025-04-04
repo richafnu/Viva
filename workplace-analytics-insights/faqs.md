@@ -4,7 +4,7 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.date: 06/28/2024
 title: Insights FAQ
 description: Answers to the most frequently asked questions about Insights
-author: madehmer
+author: zachminers
 ms.author: helayne
 ms.topic: faq
 ms.localizationpriority: Low

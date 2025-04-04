@@ -3,7 +3,7 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.date: 06/28/2024
 title: Insights data access and analysis
 description: More details about what data is accessed and analyzed in Microsoft Viva Insights
-author: madehmer
+author: zachminers
 ms.author: helayne
 ms.topic: concept-article
 ms.localizationpriority: Low

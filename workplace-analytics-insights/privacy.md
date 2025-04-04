@@ -3,7 +3,7 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.date: 06/28/2024
 title: Data privacy with Insights
 description: About how personal data is kept private in Insights
-author: madehmer
+author: zachminers
 ms.author: helayne
 ms.topic: concept-article
 ms.localizationpriority: Low 

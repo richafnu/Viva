@@ -3,7 +3,7 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.date: 06/28/2024
 title: Increase customer focus with Microsoft Viva Insights
 description: Learn how to use insights data to analyze and increase customer focus
-author: madehmer
+author: zachminers
 ms.author: helayne
 ms.topic: article
 ms.localizationpriority: Low 

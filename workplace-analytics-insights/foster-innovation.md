@@ -3,7 +3,7 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.date: 06/28/2024
 title: Foster innovation in Microsoft Viva Insights
 description: Learn how to use insights data to analyze and foster innovation in your organization
-author: madehmer
+author: zachminers
 ms.author: helayne
 ms.topic: article
 ms.localizationpriority: Low 

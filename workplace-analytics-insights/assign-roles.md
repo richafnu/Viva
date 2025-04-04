@@ -3,7 +3,7 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.date: 06/28/2024
 title: Assign user roles for Microsoft Viva Insights
 description: Learn how to assign roles to people who want to view Microsoft Viva Insights (synonymous with Workplace Analytics insights in Microsoft 365)
-author: madehmer
+author: zachminers
 ms.author: helayne
 ms.topic: how-to
 ms.localizationpriority: Low 

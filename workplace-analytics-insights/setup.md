@@ -3,7 +3,7 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.date: 06/28/2024
 title: Set up Advanced insights
 description: Steps to set up Advanced insights with Microsoft Viva Insights
-author: madehmer
+author: zachminers
 ms.author: helayne
 ms.topic: install-set-up-deploy
 ms.localizationpriority: Low
