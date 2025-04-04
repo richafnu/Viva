@@ -42,20 +42,18 @@ Manage SFTP settings to connect to your Viva Glint SFTP account:
 
    |Setup item   |Required or optional   |More information   |
    |:----------|:-----------|:-----------|
-   |**SSH Public Key**     |Required       |<ul><li>Enter the full text of your public SSH key: `ssh-rsa ...` .</li><li>**DO NOT** share your private key with Viva Glint.</li><li>To generate a key pair, see:  [Generate an SSH key pair](sftp-ssh-key-gen.md).</li><li>To convert a key to the required format, see: [Convert a key to OpenSSH format](convert-ssh-key.md).</li><li>Add up to three public SSH keys.</li></ul>|
-   |**SFTP IP Addresses**     |Optional       |<ul><li>**Leave this field blank to allow any account to connect.**</li><li>Specify public IP addresses to limit accounts that can connect.</li><li>Contact your IT team, HR information system (HRIS) vendor, or use [online tools](https://ifconfig.io/) to determine your public IP addresses.</li><li>This field supports subnets, or ranges of IP addresses. Enter ranges (for example: 1.1.1.0/24) rather than individual IP addresses in each field, if needed.</li></ul>     |
+   |**SSH Public Key***     |Required       |<ul><li>Enter the full text of your public SSH key: `ssh-rsa ...` .</li><li>**DO NOT** share your private key with Viva Glint.</li><li>To generate a key pair, see:  [Generate an SSH key pair](sftp-ssh-key-gen.md).</li><li>To convert a key to the required format, see: [Convert a key to OpenSSH format](convert-ssh-key.md).</li><li>Add up to three public SSH keys.</li></ul>|
+   |**SFTP IP Addresses****     |Optional       |<ul><li>**Leave this field blank to allow any account to connect.**</li><li>Specify public IP addresses to limit accounts that can connect.</li><li>Contact your IT team, HR information system (HRIS) vendor, or use [online tools](https://ifconfig.io/) to determine your public IP addresses.</li><li>This field supports subnets, or ranges of IP addresses. Enter ranges (for example: 1.1.1.0/24) rather than individual IP addresses in each field, if needed.</li></ul>     |
    |**Notify People**     |Required       |<ul><li>Search for and add users that should receive file upload notification emails.</li><li>Users must be active and exist in Viva Glint.</li></ul>       |
    |**PGP Encryption**     |Optional       |<ul><li>Switch toggle to **On** to enable file encryption and reveal Glint's public PGP key to encrypt employee data files.</li><li>When this setting is enabled, SFTP accepts files with and without encryption.</li><li>This key expires every 12 months. Viva Glint sends a [notification 30 days before expiration](#pgp-key-expiration).</li></ul>      |
    |**SFTP Credentials**     |Required       |After selecting a port number (22 or 1122), copy credentials shown in the platform to connect to SFTP. Your host name changes based on your region (US or EU) and selected port. Allow at least one hour after entering public SSH keys and optional IP addresses before testing your connection.<br><br><ul><li>**File Protocol**: _SFTP_</li><li>**Port**: Select 22 or 1122</li> <li>**Host Name**: _Varies based on region (US or EU) and selected port. Copy from the platform for the correct host name._</li> <li>**Username:** _Company ID_</li> <li>**Password:** _Not applicable, use your private SSH key file_</li></ul>        |
 
-> [!NOTE]
-> When a tenant is deprovisioned or considered in a "LockedOut" state, public SSH keys are deleted and SFTP no longer works.
-
-> [!IMPORTANT]
-> Private IP ranges aren't internet routable and don't allow SFTP connection. Don't include private IP addresses, which fall in these ranges:
-> - **10.0.0.0/8 IP addresses:** 10.0.0.0 – 10.255.255.255
-> - **172.16.0.0/12 IP addresses:** 172.16.0.0 – 172.31.255.255
-> - **192.168.0.0/16 IP addresses:** 192.168.0.0 – 192.168.255.255
+   \* When a tenant is deprovisioned or considered in a "LockedOut" state, public SSH keys are deleted and SFTP no longer works.<br><br>
+   
+   \** Private IP ranges aren't internet routable and don't allow SFTP connection. Don't include private IP addresses, which fall in these ranges:
+   - **10.0.0.0/8 IP addresses:** 10.0.0.0 – 10.255.255.255
+   - **172.16.0.0/12 IP addresses:** 172.16.0.0 – 172.31.255.255
+   - **192.168.0.0/16 IP addresses:** 192.168.0.0 – 192.168.255.255
 
 ## PGP key expiration
 
