@@ -31,10 +31,14 @@ items:
         items:
           - name: Set up a tenant
             href: setup/viva-glint-tenant-provision.md
-          - name: Set up a multitenant organization
-            href: setup/glint-mto.md
-          - name: Multitenant organization FAQ
-            href: setup/mto-faq.md           
+          - name: Multitenant organizations
+            items: 
+               - name: Set up a multitenant organization
+                 href: setup/glint-mto.md          
+               - name: Multitenant organization FAQ
+                 href: setup/mto-faq.md
+          - name: Invite Government cloud guest users
+            href: setup/glint-gcch-b2b-guest.md
           - name: Assign Glint admins
             href: setup/post-provisioning-next-steps.md
           - name: Role definitions
@@ -63,8 +67,6 @@ items:
             items:
                - name: Introduce Glint programs with email templates
                  href: start/recommended-rollout-plan.md
-               - name: Promote Glint survey participation after launch
-                 href: communicate/prelaunch-live-email-templates.md
                - name: Communicate results, next steps, and progress
                  href: communicate/results-rollout-templates.md
                - name: Create FAQs for dashboard users
