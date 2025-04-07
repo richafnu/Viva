@@ -15,7 +15,7 @@ ms.topic: how-to
 ms.service: viva-glint
 ms.localizationpriority: high
 ms.custom:  CELA-approved
-ms.date: 04/04/2025
+ms.date: 04/07/2025
 ---
 
 # Introduce Microsoft Viva Glint programs to your organization: presurvey email templates
