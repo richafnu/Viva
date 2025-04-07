@@ -37,8 +37,6 @@ Choose the approach that applies for your case, and **follow the steps in the or
 > [!IMPORTANT]
 > Closing a Microsoft Entra ID account doesn't delete the user and their information. To delete user information, go to the Viva Engage admin center and complete the following instructions.
 
-<a name="DeleteMessagesFiles"> </a>
-
 ## Delete specific messages or files
 
 Use the Viva Engage file ID from the export's **messages.csv** file to go directly to the file in Viva Engage and delete it.
@@ -75,8 +73,6 @@ Use the Viva Engage file ID from the export's **messages.csv** file to go direct
 > [!NOTE]
 > In cases where the admin or the user aren't premium licensed, or the user no longer has their own storyline, previously uploaded photos need to be deleted via API.
 
-<a name="OtherData"> </a>
-
 ## Find and delete user data not included in per-user export
 
 Some user data doesn't get included in an export.
@@ -91,8 +87,6 @@ The following table shows how to change or delete this data when needed.
 |User settings, including notification, application, and language settings | When you [erase a user from your Viva Engage home tenant and external tenants](gdpr-requests-in-viva-engage-enterprise.md#RemoveUser), this information is deleted after the 14-day suspension period. As an admin, you can't change this information for a user.<br><br>Users can change their own settings. For steps, see [Change my Viva Engage profile and settings (Web and Desktop)](https://support.microsoft.com/office/change-my-viva-engage-profile-and-settings-web-and-desktop-ab813bce-5312-4688-94ee-70018545cd3c). |
 |User profile | If the user has a Viva Engage identity, there are two options to remove the user: <ul><li>[Erase a user from your Viva Engage home tenant and external tenants](gdpr-requests-in-viva-engage-enterprise.md#RemoveUser), Viva Engage deletes this information after the 14-day suspension period.</li><li>[Allow the user to edit their own profile and settings](gdpr-requests-in-viva-engage-enterprise.md#EditProfile).</li></ul> If the user has a Microsoft 365 identity, Viva Engage pulls the user profile from Microsoft 365. That information originates from Microsoft Entra ID. Viva Engage users can temporarily change their profiles in Viva Engage. If a change occurs in the Microsoft Entra ID, *their changes are overwritten*. **To permanently change or delete a user's profile, you must change or delete directory data in Microsoft 365 and in Microsoft Entra ID**. See [Manage Viva Engage users across their lifecycle from Microsoft 365](/viva/engage/manage-viva-engage-users/manage-users-across-their-lifecycle) and [Add or change profile information for a user in Microsoft Entra ID](/azure/active-directory/fundamentals/active-directory-users-profile-azure-portal). |
 
-<a name="RemoveGroup"> </a>
-
 ## Remove a user from a group including an external group
 
 1. In the group, click on the count in the **Members** module. A panel of community members opens.
@@ -101,13 +95,9 @@ The following table shows how to change or delete this data when needed.
 
 3. Select **Remove from community**.
 
-<a name="RemoveThread"> </a>
-
 ## Remove a noncommunity participant from a conversation in a private community
 
 - If a noncommunity member is added to a conversation, a reply appears in the conversation to note who was added. The reply contains a link to **Remove** the noncommunity member participant.
-
-<a name="RemoveUser"> </a>
 
 ## Erase a user from your Viva Engage home tenant and external tenants
 
