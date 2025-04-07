@@ -19,7 +19,7 @@ ms.date: 04/07/2025
 
 # Communicate Microsoft Viva Glint feedback results: email templates  
 
-Communicating survey results is an essential part of a strong engagement program strategy. Use our results rollout templates to customize and send to your organizatio to act on feedback from your Microsoft Viva Glint programs. The templates are for guidance only. 
+Communicating survey results is an essential part of a strong engagement program strategy. Use our results rollout templates to customize and send to your organization to act on feedback from your Microsoft Viva Glint programs. The templates are for guidance only. 
 
 ## Tips for using Viva Glint templates 
 
@@ -157,7 +157,7 @@ Let's continue to drive this momentum into our next survey, launching on [date].
 
 [Salutation],
  
-[Name, Titla]
+[Name, Title]
 
 ***
 
@@ -185,7 +185,7 @@ Survey scores are a starting point for a conversation that involves your team in
 ### Email template 6 - How to have effective conversation, for managers and HRBPs
 
 **To**: [First and last name], HRBPs and Managers​ <br>
-**From**: [First and ast name], [CHRO/Senior Human Resources Business Partner/Other] <br>
+**From**: [First and last name], [CHRO/Senior Human Resources Business Partner/Other] <br>
 **Subject**: [Survey name]** How to have effective feedback conversations​ <br>
 **Date**: [5-7 days after survey close]​
 
