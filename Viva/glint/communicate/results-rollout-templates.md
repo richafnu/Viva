@@ -42,7 +42,7 @@ Communicating survey results is an essential part of a strong engagement program
 |1 day after survey close |[Template 1 - Survey close and what's next](#)  |The survey is closed |
 |3 - 4 days after survey close  | [Template 2 - Survey results and next steps](#)   | What to expect from your feedback |
 |Week 4 and week 8, after survey closes |[Template 3 - Company-wide progress update](#)    | Overall results and how feedback becomes actionable |
-|10 weeks after survey closes or 2 weeks before the next survey  |[Template 4 -P rogress update and next survey communication](#)   | Progress report and next survey info  |
+|10 weeks after survey closes or 2 weeks before the next survey  |[Template 4 - Progress update and next survey communication](#)   | Progress report and next survey info  |
 
 ## Email templates for managers 
 
@@ -50,14 +50,7 @@ Communicating survey results is an essential part of a strong engagement program
 |-----------|-----------|---------|
 |1 day after survey close|[Template 5 - Survey results and confidentiality standards](#) |How feedback is shared and confidentiality standards  |
 |5 - 7 days after survey closes |[Template 6 - How to have effective conversations](#)    | Conversation starters and resources |
-|Week 4 and Week 8, after survey close  |[Template 7 - Feedback action remindere](#)   | [Survey name] action reminder​ |
-
-## Email templates for Human Resources Business Partners (HRBPs) 
-
-|Suggested email send timing|Email subject/link to template| Description|
-|-----------|-----------|--------|
-|5 - 7 days after survey close|[Template 8 - Survey results and conversations](#)   |   |
-|3 - 12 weeks after survey close |[Template 9 - Survey support and next steps](#)   |   |
+|Week 4 and Week 8, after survey close  |[Template 7 - Feedback action reminder](#)   | [Survey name] action reminder​ |
 
 ***
 
@@ -216,63 +209,22 @@ Following the meeting, choose one Focus Area (or two small ones) for action taki
 
 ***
 
-### Template 7 - Feedback action reminder update 
+### Template 7 - Feedback action reminder  
 
 **To**: Managers​ <br>
 **From**: [First and Last name], [Chief Human Resource Officer/Senior Human Resources Business Partner​/Other] <br>
 **Subject**: [Survey name] feedback progress update​ <br>
-**Date**: [Week 4 and Week 8 after survey close]​ 
+**Date**: [Week 4 **and** Week 8 after survey close]​ 
 
 Dear [First name],​ 
 
 Our [Survey name] survey is just the starting point to open a rich dialogue with your team. Use your results as the basis for ongoing conversations that lead to continuous improvement over time.​ 
 
-At this point you should be familiar with the [Viva Glint ACT conversation tool] (/viva/glint/setup/quick-guide-manager-doc-pitfalls).
+At this point you should be familiar with the [Viva Glint ACT conversation tool] (/viva/glint/setup/quick-guide-manager-doc-pitfalls) and have chosen 1-2 Focus Areas to work on with your team. How are you progressing? Please be sure to keep your team actions updated on your Focus Areas planning tab on your Viva Glint dashboard.
 
-- Giving directions to keep the team on track and avoid going too broad or deep 
-- Providing guidelines for prioritization and decision-making. 
-- Seeking out differing opinions and ensuring all voices are heard.
-- Overcoming organizational constraints, like policies, work structures, or budget constraints 
-- Connecting teams to broader priorities and groups working on similar challenges​  
+[Salutation],​
+
+[Name, Title]
 
 
 
-**[Salutation]**,​
-
-**[Name]**
-
-
-## Template 8 - HR survey support and next steps 
-
-**To**: **[First and Last name]**, HRBPs <br>
-
-**From**: **[First and Last name]**, Chief Human Resources Officer <br>
-
-**Subject**: HR Support of **[Company name]** Survey results and next steps​  <br>
-
-**Date**: [3-12 weeks post-survey close]​ 
-
-Dear **[First name]**,​ 
-
-As our teams focus on employee engagement at **[Company name]**, you play a significant role in identifying and sharing best practices, connecting teams with similar needs, and sharing stories of our people success. You're a thought partner for your managers, an advocate for employees, and a enabler of behavioral change.​ 
-
-Take a moment to share two notable actions that best represent our ability to act on employee feedback and drive the culture we need to achieve our business objectives. We'll also discuss successes and opportunities at **[describe HR meetings, etc. to exchange ideas and build common solutions]**.​ 
-
-**Summary of company-level actions**​ 
-
-- [High-level finding about company #1]​ 
-- [High-level finding about company #2]​ 
-
-**Summary of business unit level actions​** 
-
-- [High-level finding about business unit #1]​ 
-- [High-level finding about business unit #2]​ 
-
-**Resources and training**​ 
-Become familiar with the Glint application and jse the resources on the [Viva Glint adoption page or Viva Glint community page](https://adoption.microsoft.com/viva/glint/).​ 
-
-**[Salutation]**,</br>
-
-**[Name]
-
-***
