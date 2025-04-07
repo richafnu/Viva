@@ -44,13 +44,13 @@ Consider using [Viva Glint Frequently Asked Questions (FAQs) for survey takers] 
 
 |Suggested email send timing| Email subject/link to template|Description|
 |-----------|-----------|----------------|
-|6 weeks prior to survey launch|[Template 1 - Introduce Microsoft Viva Glint to all senior leadership](#email-template-1-introduce-microsoft-viva-glint-to-all-senior-leadership)|Introduce Microsoft Viva Glint, define roles and responsibilities|
-|6 weeks prior to survey launch|[Template 2 - Invitation for Vision and Strategy planning for all stakeholders](#email-template-2-invitation-for-vision-and-strategy-planning-for-all-stakeholders)|Involve your stakeholders in your Viva Glint program design|
-|5 weeks prior to survey launch|[Template 3 - Introduce upcoming survey to all senior leadership](#email-template-3-introduce-upcoming-survey-to-senior-leadership)|Introduce survey, inform about resources, develop communications plan and customize messages|
-|4 weeks prior to survey launch|[Template 4 - Introduce upcoming survey to HRBPs](/#email-template-4---upcoming-survey-for-hrbps)| Introduce survey, provide role expectations, timing, resources, and training signups|
-|3 weeks prior to survey launch|[Template 5 - Training for HRBPs](#email-template-5---training-for-hrbps)|Support HRBPs for rollout planning |
-|2 weeks prior to survey launch|[Template 6 - Introduce new survey to all leaders and managers](#email-template-6---introduce-new-survey-introduction-to-all-leaders-and-managers)|Introduce upcoming survey name, purpose, and dates|
-|1-2 days prior to survey launch|[Template 7 - Announce survey launch to entire organization](#email-template-7---announce-survey-launch-to-entire-organization)|Announce the imminent survey release and build excitement!|
+|6 weeks before survey launch|[Template 1 - Introduce Microsoft Viva Glint to all senior leadership](#email-template-1-introduce-microsoft-viva-glint-to-all-senior-leadership)|Introduce Microsoft Viva Glint, define roles and responsibilities|
+|6 weeks before survey launch|[Template 2 - Invitation for Vision and Strategy planning for all stakeholders](#email-template-2-invitation-for-vision-and-strategy-planning-for-all-stakeholders)|Involve your stakeholders in your Viva Glint program design|
+|5 weeks before survey launch|[Template 3 - Introduce upcoming survey to all senior leadership](#email-template-3-introduce-upcoming-survey-to-senior-leadership)|Introduce survey, inform about resources, develop communications plan and customize messages|
+|4 weeks before survey launch|[Template 4 - Introduce upcoming survey to HRBPs](/#email-template-4---upcoming-survey-for-hrbps)| Introduce survey, provide role expectations, timing, resources, and training signups|
+|3 weeks before survey launch|[Template 5 - Training for HRBPs](#email-template-5---training-for-hrbps)|Support HRBPs for rollout planning |
+|2 weeks before survey launch|[Template 6 - Introduce new survey to all leaders and managers](#email-template-6---introduce-new-survey-introduction-to-all-leaders-and-managers)|Introduce upcoming survey name, purpose, and dates|
+|1-2 days before survey launch|[Template 7 - Announce survey launch to entire organization](#email-template-7---announce-survey-launch-to-entire-organization)|Announce the imminent survey release and build excitement!|
 |During live survey window|[Template 8 - Reminder to submit survey](#email-template-8-reminder-to-submit-survey)|Send to full distribution list 72 hours before the survey is set to close|
 
 ***
