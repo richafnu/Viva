@@ -41,14 +41,14 @@ Communicating survey results is an essential part of a strong engagement program
 |-----------|-----------|------------|
 |1 day after survey close |[Template 1 - Survey close and what's next](#email-template-1-survey-close-and-whats-next-for-all-employees)  |The survey is closed |
 |3 - 4 days after survey close  | [Template 2 - Survey results and next steps](#email-template-2---survey-results-and-next-steps-for-all-employees)   | What to expect from your feedback |
-|Week 4 and week 8, after survey closes |[Template 3 - Company-wide progress update](#email-template-3---company-wide-progress-update))    | Overall results and how feedback becomes actionable |
+|Week 4 and week 8, after survey closes |[Template 3 - Company-wide progress update](#email-template-3---company-wide-progress-update)    | Overall results and how feedback becomes actionable |
 |10 weeks after survey closes or 2 weeks before the next survey  |[Template 4 - Progress update and next survey communication](#template-4---progress-update-and-next-survey-communication)   | Progress report and next survey info  |
 
 ## Email templates for managers 
 
 |Suggested email send timing|Email subject/link to template| Description|
 |-----------|-----------|---------|
-|1 day after survey close|[Template 5 - Survey results and confidentiality standards](#template-5---survey-results-and-confidentiality-standards)) |How feedback is shared and confidentiality standards  |
+|1 day after survey close|[Template 5 - Survey results and confidentiality standards](#template-5---survey-results-and-confidentiality-standards) |How feedback is shared and confidentiality standards  |
 |5 - 7 days after survey closes |[Template 6 - How to have effective conversations](#template-6---how-to-have-effective-conversations)    | Conversation starters and resources |
 |Week 4 and Week 8, after survey close  |[Template 7 - Feedback action reminder](#template-7---feedback-action-reminder)   | [Survey name] action reminder​ |
 
@@ -109,7 +109,7 @@ Over the next week, your managers will share results with you and involve you 
 
 ***
 
-### Email Template 3 - Company-wide progress update 
+### Email Template 3 - Company-wide progress update for all employees
 
 **To**: All Employees <br>
 **From**: [First and Last name], [Title] <br> 
@@ -132,7 +132,7 @@ Expect continuous progress updates from us. Our goal is to achieve tangible chan
 
 ***
 
-### Template 4 - Progress update and next survey communication
+### Template 4 - Progress update and next survey communication for all employees
 
 **To**: All Employees <br>
 **From**: [First and Last name], [Title]​ <br>
@@ -161,7 +161,7 @@ Let's continue to drive this momentum into our next survey, launching on [date].
 
 ***
 
-### Template 5 - Survey results and confidentiality standards 
+### Template 5 - Survey results and confidentiality standards for managers
 
 **To**: [Manager first and last name] <br>
 **From**: [First and last name], [Human Resources/Direct Manager/Other] </br>
@@ -182,7 +182,7 @@ Survey scores are a starting point for a conversation that involves your team in
 
 ***
 
-### Template 6 - How to have effective conversations
+### Template 6 - How to have effective conversation, for managers and HRBPs
 
 **To**: [First and last name], HRBPs and Managers​ <br>
 **From**: [First and ast name], [CHRO/Senior Human Resources Business Partner/Other] <br>
@@ -209,7 +209,7 @@ Following the meeting, choose one Focus Area (or two small ones) for action taki
 
 ***
 
-### Template 7 - Feedback action reminder  
+### Template 7 - Feedback action reminder for managers 
 
 **To**: Managers​ <br>
 **From**: [First and Last name], [Chief Human Resource Officer/Senior Human Resources Business Partner​/Other] <br>
