@@ -76,6 +76,7 @@ Use the Viva Engage file ID from the export's **messages.csv** file to go direct
 > In cases where the admin or the user aren't premium licensed, or the user no longer has their own storyline, previously uploaded photos need to be deleted via API.
 
 <a name="OtherData"> </a>
+<a name="EditProfile"></a>
 
 ## Find and delete user data not included in per-user export
 
