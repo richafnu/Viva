@@ -1,12 +1,12 @@
 ---
 title: Communicate Microsoft Viva Glint feedback results - email templates  
-description: "Use Viva Glint email templates to communicate feedback results and train your company stakeholders to take action."
+description: "Use Viva Glint email templates to communicate feedback results and train your people to take action."
 ms.author: JudithWeiner
 author: JudyWeiner
 manager: MelissaBarry
 audience: admin
 f1.keywords: NOCSH
-keywords: viva strengths and opportunities
+keywords: 
 ms.collection:  
 - m365initiative-viva
 - selfserve 
@@ -50,8 +50,7 @@ Communicating survey results is an essential part of a strong engagement program
 |-----------|-----------|---------|
 |1 day after survey close|[Template 5 - Survey results and confidentiality standards](#) |How feedback is shared and confidentiality standards  |
 |5 - 7 days after survey closes |[Template 6 - How to have effective conversations](#)    | Conversation starters and resources |
-|Week 4 and Week 8, after survey close  |[Template 7 - Feedback progress update](#)   | |
-
+|Week 4 and Week 8, after survey close  |[Template 7 - Feedback action remindere](#)   | [Survey name] action reminder​ |
 
 ## Email templates for Human Resources Business Partners (HRBPs) 
 
@@ -217,21 +216,18 @@ Following the meeting, choose one Focus Area (or two small ones) for action taki
 
 ***
 
-### Template 7 - Feedback progress update 
+### Template 7 - Feedback action reminder update 
 
 **To**: Managers​ <br>
-
-**From**: [First and Last name], Chief Human Resource Officer or Senior Human Resources Business Partner​ <br>
-
-**Subject**: [Company name] Survey results and next steps​ <br>
-
-**Date**: [Week 4 and Week 8 post-survey close]​ 
+**From**: [First and Last name], [Chief Human Resource Officer/Senior Human Resources Business Partner​/Other] <br>
+**Subject**: [Survey name] feedback progress update​ <br>
+**Date**: [Week 4 and Week 8 after survey close]​ 
 
 Dear [First name],​ 
 
-Our [Name] survey is just the starting point to open a rich dialogue with your team. Use your results as the basis for ongoing conversations that lead to continuous improvement over time.​ 
+Our [Survey name] survey is just the starting point to open a rich dialogue with your team. Use your results as the basis for ongoing conversations that lead to continuous improvement over time.​ 
 
-The ACT conversation tools within Glint help you work together on areas that make a difference in your team’s performance and employee engagement by:​ 
+At this point you should be familiar with the [Viva Glint ACT conversation tool] (/viva/glint/setup/quick-guide-manager-doc-pitfalls).
 
 - Giving directions to keep the team on track and avoid going too broad or deep 
 - Providing guidelines for prioritization and decision-making. 
@@ -239,25 +235,7 @@ The ACT conversation tools within Glint help you work together on areas that�
 - Overcoming organizational constraints, like policies, work structures, or budget constraints 
 - Connecting teams to broader priorities and groups working on similar challenges​  
 
-**Planned Actions Summaries**
 
-|Summary of​ Company-Level Actions|Summary of Business Unit Actions|
-|----|----|
-|High-level finding company #1​|High-level finding about BU #1|
-|High-level finding company #2|High-level finding about BU #2|
-
-  
-**Take Action** ​ 
-
-Acting is the largest scale missed opportunity most organizations face. Employees who don't believe action will be taken are more likely to report being disengaged compared to those who believe action will be taken. Acting in a focused way can ensure long-term success.  
-
-We don’t have to fix everything that comes out of feedback right away. Instead, let's use this opportunity to have meaningful conversations, commit to one simple change, share lessons learned, and then repeat the process.​ 
-
-**Resources and Training**​ 
-
-Leverage the resources on the [Viva Glint adoption page](https://adoption.microsoft.com/viva/glint/) or [Viva Glint community page](https://techcommunity.microsoft.com/t5/viva-glint/ct-p/Viva-Glint).​ 
-​ 
-Feel free to reach out with any questions or for additional support.​ 
 
 **[Salutation]**,​
 
