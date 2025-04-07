@@ -48,9 +48,10 @@ Communicating survey results is an essential part of a strong engagement program
 
 |Suggested email send timing|Email subject/link to template| Description|
 |-----------|-----------|---------|
-|1 day post survey close|[Template 5 - Survey results and next steps](#) |  |
-|Week four and Week eight, after survey close  |[Template 6 - Results rollout progress update](#)   | |
-|5 - 7 days after survey closes |[Template 7 - Survey results and conversations](#)    |   |
+|1 day after survey close|[Template 5 - Survey results and confidentiality standards](#) |How feedback is shared and confidentiality standards  |
+|5 - 7 days after survey closes |[Template 6 - How to have effective conversations](#)    | Conversation starters and resources |
+|Week 4 and Week 8, after survey close  |[Template 7 - Feedback progress update](#)   | |
+
 
 ## Email templates for Human Resources Business Partners (HRBPs) 
 
@@ -82,7 +83,7 @@ Thank you for your commitment to making [Company name] a place where people ca
 
 ***
 
-## Email Template 2 - Survey results and next steps for all employees  
+### Email Template 2 - Survey results and next steps for all employees  
 
 **To**: All Employees​ <br>
 **From**: [First and Last name], [Title] <br>
@@ -116,7 +117,7 @@ Over the next week, your managers will share results with you and involve you 
 
 ***
 
-## Email Template 3 - Company-wide progress update 
+### Email Template 3 - Company-wide progress update 
 
 **To**: All Employees <br>
 **From**: [First and Last name], [Title] <br> 
@@ -139,9 +140,9 @@ Expect continuous progress updates from us. Our goal is to achieve tangible chan
 
 ***
 
-## Template 4 - Progress update and next survey communication
+### Template 4 - Progress update and next survey communication
 
-**To**: All Employees<br>
+**To**: All Employees <br>
 **From**: [First and Last name], [Title]​ <br>
 **Subject**: [Company name] survey results update and our next survey </br> 
 **Date**: [10 weeks post-survey close or 2 weeks prior to the next survey]
@@ -168,32 +169,55 @@ Let's continue to drive this momentum into our next survey, launching on [date].
 
 ***
 
-## Survey results and next steps for managers
+### Template 5 - Survey results and confidentiality standards 
 
-**To**: [Manager] <br>
+**To**: [Manager first and last name] <br>
+**From**: [First and last name], [Human Resources/Direct Manager/Other] </br>
+**Subject**: [Survey name] survey results and next steps​ <br>
+**Date**: [1 day after survey closes]
 
-**From**: [First and Last name], Human Resources/Direct Manager/Other </br>
+Dear [Manager first name],​
 
-​
-**Subject**: [Name] Survey results and next steps​ <br>
+You're probably eager to see the feedback data from your recent Viva Glint survey and to share these results with your team. Because [Company name] knows response data is impacted by how safe employees feel in providing feedback, minimum response thresholds were assigned to uphold the confidentiality of your team. If this minimum confidentiality threshold isn't met, some of your results may not include data.​ [Read about protecting your peoples' confidentiality](/viva/glint/setup/quick-guide-confidentiality).
 
-**Date**: [Day 1 post-survey]
+Additionally, if you had fewer than five employees survey responses, your team won't have a results report. To protect confidentiality, your team’s data rolls up into the next level, so your team is represented in your direct manager’s report. Your manager can share their team's broader survey results with you and you can use these [Broader Team Insights (BTI)](/viva/glint/reports/broader-team-insights) as a starting point for your team’s conversation. Begin your conversation using the rollup results and then steer the conversation toward results pertinent to your group. ​ 
 
-Dear [Manager First name],​
+Survey scores are a starting point for a conversation that involves your team in identifying Focus Areas to improve engagement. Even if you have just a few responses, or limited views of your results, you should still foster a rich conversation with your team. ​ 
 
-You are probably eager to see the feedback data from your recent Glint survey and to share these results with your team. Because **[Company name]** knows response data is impacted by how safe employees feel in providing feedback, minimum response thresholds were assigned to uphold the confidentiality of your team. If this minimum confidentiality threshold was not met - *the number of responses required so that it is not possible to determine who said what* - some of your results may not include data.​ 
-
-Additionally, if you had fewer than five employees participate in the survey, your team won't have a results report. To protect confidentiality, your team’s data rolls up into the next level, so your team is represented in your direct manager’s report. Let your manager know that you didn't receive your own survey results and would like to use the Broader Team Insights (BTI) results as a starting point for your team’s conversation. Your manager can share BTI results with you in a PowerPoint or a PDF download. Proceed with your conversation using the rollup results from the broader team and steer the conversation toward results pertinent to your group. ​ 
-
-Survey scores are a starting point for a conversation that involves your team in identifying focus areas to improve engagement. Even if you have just a few responses, or limited views of your results, you can still foster a rich conversation with your team. ​ 
-
-Please reach out as needed.​ 
-
-**[Salutation]**,
+[Salutation],
  
-**[Name]**
+[Name, Title]
 
-## Results rollout progress update 
+***
+
+### Template 6 - How to have effective conversations
+
+**To**: [First and last name], HRBPs and Managers​ <br>
+**From**: [First and ast name], [CHRO/Senior Human Resources Business Partner/Other] <br>
+**Subject**: [Survey name]** How to have effective feedback conversations​ <br>
+**Date**: [5-7 days after survey close]​
+
+Dear [Manager first name],​ 
+
+By now, you should have accessed your [Survey name] survey results and scheduled your initial conversation with your team. Conversations about feedback can be challenging. -Planning helps you feel prepared and get the most value from your team conversations.​ 
+
+How do you effectively share survey results and involve your team to prioritize Focus Areas and identify solutions? Use [Viva Glint’s ACT Conversation Guide](/viva/glint/setup/quick-guide-manager-doc-pitfalls) to help you prepare and facilitate your discussion:​ 
+
+- **Acknowledge** where we are​ 
+- **Collaborate** on where we want to go​ 
+- **Take** one step forward​ 
+
+Following the meeting, choose one Focus Area (or two small ones) for action taking. Use the Viva Glint platform for suggested action plans and involve your team in developing solutions.​ 
+
+**Acting on feedback** is the largest scale missed opportunity most organizations face. Employees who don't believe action is taken are likely to report being disengaged. Acting in a focused way can ensure its long-term success. ​Know that you don’t have to address everything that comes out of the feedback right away. Instead, use this opportunity to have meaningful conversations, commit to one to two simple changes and share lessons learned.​ 
+
+[Salutation],
+
+[Name]
+
+***
+
+### Template 7 - Feedback progress update 
 
 **To**: Managers​ <br>
 
@@ -239,52 +263,8 @@ Feel free to reach out with any questions or for additional support.​
 
 **[Name]**
 
-## Survey results and conversations for managers and HRBPs
 
-**To**: **[First and Last name]**, HRBPs and Managers​ <br>
-
-**From**: **[First and Last name]**, CHRO or Senior Human Resources Business Partner <br>
-
-**Subject**: **[Name]** Survey Results and Conversations​ <br>
-
-**Date**: [5-7 days post-survey close]​
-
-Dear **[First name]**,​ 
-By now, you should have accessed your **[Name]** Survey results and scheduled your initial conversation with your team. Conversations about feedback can be challenging - planning is the best solution to help you feel prepared and get the most value from the exercise.​ 
-
-**ACT framework**​ 
-How do you effectively share **[Name]** Survey results and involve your team to prioritize Focus Areas and identify solutions? Use Viva Glint’s ACT Conversation Guide to help you prepare and facilitate your discussion:​ 
-
-- **Acknowledge** where we are​ 
-- **Collaborate** on where we want to go​ 
-- **Take** one step forward​ 
-
-Following the meeting, you should have chosen one to two focus areas for action taking (we recommend just one). Use the Glint platform for suggested action plans and involve your team in developing solutions.​ 
-
-**Company and business unit actions**​ 
-
-Keep in mind the company and business unit commitments and align as appropriate.​ ​
-
-|Summary of​ Company-Level Actions|Summary of Business Unit Actions|
-|----|----|
-|High-level finding company #1​|High-level finding about BU #1|
-|High-level finding company #2|High-level finding about BU #2|
-
-**Action Taking** ​ 
-Acting is the largest scale missed opportunity most organizations face. Employees who don't believe action is taken are more likely to report being disengaged compared to those who believe action will be taken. Acting in a focused way can ensure its long-term success. ​ 
-
-We don’t have to address everything that comes out of the feedback right away. Instead, let’s use this opportunity to have meaningful conversations, commit to one simple change, share lessons learned, and then repeat the process.​ 
-
-**Resources and Training**​ 
-Leverage the resources on the Viva Glint adoption page or [Viva Glint adoption page or Viva Glint community page](https://adoption.microsoft.com/viva/glint/) to learn more action taking within Viva Glint.​ 
-
-If you have questions or need support, please reach out.​ 
-
-**[Salutation]**,
-
-**[Name]**
-
-## HR survey support and next steps 
+## Template 8 - HR survey support and next steps 
 
 **To**: **[First and Last name]**, HRBPs <br>
 
@@ -315,4 +295,6 @@ Become familiar with the Glint application and jse the resources on the [Viv
 
 **[Salutation]**,</br>
 
-**[Name]**
+**[Name]
+
+***
