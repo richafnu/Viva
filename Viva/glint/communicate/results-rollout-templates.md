@@ -1,5 +1,5 @@
 ---
-title: Communicate Microsoft Viva Glint feedback results: email templates  
+title: Communicate Microsoft Viva Glint feedback results - email templates  
 description: "Use Viva Glint email templates to communicate feedback results and train your company stakeholders to take action."
 ms.author: JudithWeiner
 author: JudyWeiner
