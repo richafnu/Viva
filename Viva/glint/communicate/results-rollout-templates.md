@@ -65,7 +65,7 @@ Dear [First name],
 
 Thank you for making the [Survey name] survey a success. This survey is now closed. At [Company name], we believe that acting on feedback from our people is essential to work toward continuously improving ourselves and achieving our mission of [insert mission]. 
 
-Approximately [##%] of all [Company name] employees provided valuable input through the survey. Soon, we'll share results and plans for acting in response to your feedbac and your team will collaboratively choose a Focus Area to prioritize. Be prepared to share your ideas about solutions that can fuel progress over time. 
+Approximately [##%] of all [Company name] employees provided valuable input through the survey. Results are coming soon! Then work with your team to plans and acting in response to your team's feedback. Be prepared to share your ideas about solutions that can fuel progress over time. 
 
 Thank you for your commitment to making [Company name] a place where people can thrive and do their best work. 
 
@@ -122,9 +122,9 @@ We want to share an update with you on our efforts to improve [Focus Area] bas
 
 [Outline Focus Area along with the progress made, by whom, and what is the next phase or activity to be expected] 
 
-We view the [Survey name] survey as a foundation for ongoing focused conversations. Please continue to share feedback with your leaders and managers on how we are doing to address our company-level Focus Areas, as well as your team’s Focus Areas. 
+We view the [Survey name] survey as a foundation for ongoing focused conversations. Continue to share feedback with your leaders and managers on how we are doing to address our company-level Focus Areas, as well as your team’s Focus Areas. 
 
-Expect continuous progress updates from us. Our goal is to achieve tangible changes across our company. With your input, we'll celebrate where we excel and focus on improving the opportunities that matter most to you.  
+Expect continuous progress updates from us. Our goal is to achieve tangible changes across our company. With your input, we celebrate where we excel and focus on improving the opportunities that matter most to you.  
 
 [Salutation],
  
@@ -137,18 +137,18 @@ Expect continuous progress updates from us. Our goal is to achieve tangible chan
 **To**: All Employees <br>
 **From**: [First and Last name], [Title]​ <br>
 **Subject**: [Company name] survey results update and our next survey </br> 
-**Date**: [10 weeks post-survey close or 2 weeks prior to the next survey]
+**Date**: [10 weeks post-survey close or 2 weeks before the next survey]
 
 Dear [First name],​
 
-[Company name] is extremely proud of all the conversations, ideas, and actions we've seen because of the [Survey name] survey. It's important to us that we continue to enhance your work experience and engage you in a meaningful way.​ 
+[Company name] is proud of all the conversations, ideas, and actions taken because of the [Survey name] survey. It's important to us that we continue to enhance your work experience and engage you in a meaningful way.​ 
 
 Our company Focus Area was determined to be [Focus Area].​ Here are some of the accomplishments we achieved:​ 
 
 - Item 1​ 
 - Item 2​ 
 
- And this is what’s left to be done:​ 
+ And here are some items left to be work on:​ 
 
 - Item 1​ 
 - Item 2​ 
@@ -172,7 +172,7 @@ Dear [Manager first name],​
 
 You're probably eager to see the feedback data from your recent Viva Glint survey and to share these results with your team. Because [Company name] knows response data is impacted by how safe employees feel in providing feedback, minimum response thresholds were assigned to uphold the confidentiality of your team. If this minimum confidentiality threshold isn't met, some of your results may not include data.​ [Read about protecting your peoples' confidentiality](/viva/glint/setup/quick-guide-confidentiality).
 
-Additionally, if you had fewer than five employees survey responses, your team won't have a results report. To protect confidentiality, your team’s data rolls up into the next level, so your team is represented in your direct manager’s report. Your manager can share their team's broader survey results with you and you can use these [Broader Team Insights (BTI)](/viva/glint/reports/broader-team-insights) as a starting point for your team’s conversation. Begin your conversation using the rollup results and then steer the conversation toward results pertinent to your group. ​ 
+Additionally, if you had fewer than five employees survey responses, your team won't see a results report. To protect confidentiality, your team’s data rolls up into the next level, so your team is represented in your direct manager’s report. Your manager can share their team's broader survey results with you and you can use these [Broader Team Insights (BTI)](/viva/glint/reports/broader-team-insights) as a starting point for your team’s conversation. Begin your conversation using the rollup results and then steer the conversation toward results pertinent to your group. ​ 
 
 Survey scores are a starting point for a conversation that involves your team in identifying Focus Areas to improve engagement. Even if you have just a few responses, or limited views of your results, you should still foster a rich conversation with your team. ​ 
 
@@ -220,7 +220,7 @@ Dear [First name],​
 
 Our [Survey name] survey is just the starting point to open a rich dialogue with your team. Use your results as the basis for ongoing conversations that lead to continuous improvement over time.​ 
 
-At this point you should be familiar with the [Viva Glint ACT conversation tool] (/viva/glint/setup/quick-guide-manager-doc-pitfalls) and have chosen 1-2 Focus Areas to work on with your team. How are you progressing? Please be sure to keep your team actions updated on your Focus Areas planning tab on your Viva Glint dashboard.
+At this point, you should be familiar with the [Viva Glint ACT conversation tool] (/viva/glint/setup/quick-guide-manager-doc-pitfalls) and have chosen 1-2 Focus Areas to work on with your team. How are you progressing? Be sure to keep your team actions updated on your Focus Areas planning tab on your Viva Glint dashboard.
 
 [Salutation],​
 
