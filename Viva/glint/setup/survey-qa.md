@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: how-to
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 04/02/2025
+ms.date: 04/07/2025
 ---
 
 # Review and test Viva Glint surveys before launch
@@ -51,7 +51,7 @@ Selections that admins make in [General settings](manage-general-settings.md) la
 
 ## Review confidentiality settings
 
-Viva Glint confidentiality settings determine the level of privacy users expect when responding to surveys and what managers can view in reports when survey results are available. Confirm the survey's confidentiality settings in **Advanced configuration** for:
+Viva Glint confidentiality settings determine the level of privacy users expect when responding to surveys and what managers can view in reports when survey results are available. Confirm the survey's confidentiality settings in **[Advanced configuration](understand-advanced-configuration.md)** for:
 
 - [Rated question scores](manage-confidentiality-thresholds.md#rated-question-scores)
 - [Response rates](manage-confidentiality-thresholds.md#response-rates)
@@ -59,8 +59,8 @@ Viva Glint confidentiality settings determine the level of privacy users expect 
 
 Learn more about [managing thresholds at the survey level](manage-confidentiality-thresholds.md#survey-thresholds).
 
-> [!IMPORTANT]
-> **Viva Glint Admins can't change confidentiality settings after a survey launches.**
+> [!CAUTION]
+> **Viva Glint Admins can't change confidentiality settings after a survey launches. Select and confirm thresholds before enabling a survey.**
 
 ## Review survey setup
 
@@ -109,7 +109,6 @@ Review each section of your survey program setup before launching a test survey 
 |Schedule Preview|Upcoming survey dates are accurate based on frequency and survey start date.   |Low| Recurring|
 |Response Window|The number of days the survey is open for responses is correct.   |High| Recurring and Ad Hoc|
 |Team Conversation Window| The number of days the conversation is open is correct.  |High| Recurring |
-
 
 ### Questions
 
@@ -168,7 +167,6 @@ Review each section of your survey program setup before launching a test survey 
 > \**This setting only appears when your organization has a Personal Email Optional System Attribute set up. Personal emails are recommended for contacting exiting employees.<br>
 > \***Team Conversation emails only appear when Team Conversations are enabled in Program Setup.
 
-
 ### Coaching 
 
 |Item   |Confirm that...  |Impact|Survey type|
@@ -191,7 +189,7 @@ After reviewing your survey setup and confirming that employee data is imported 
 
 ## Launch a test survey
 
-To verify that your Viva Glint survey setup, launch a test survey to a group of users, collect feedback, make updates, and delete the test survey after testing is complete. 
+To verify your Viva Glint survey setup, launch a test survey, collect feedback, make updates, and delete the test survey after testing is complete. 
 
 ### Select a group of survey testers
 
@@ -223,8 +221,10 @@ Launch a test survey to your project team to confirm that emails arrive and the 
    1. Select a date to launch your test survey in the **Send the next survey on** field.
    1. Select the number of days the test survey is open in the **Response Window** field.
 1. Go to the **Communications** section to confirm timing and invites/reminders are selected for your test survey's **Response Window**.
-1. [Approve and Enable](preview-manage-enable-engage-programs.md) your test survey.
-2. Collect feedback from survey testers and update your survey setup based on feedback.
+1. Approve and enable your test survey:
+   - [Approve and enable Recurring and Ad Hoc surveys](preview-manage-enable-engage-programs.md)
+   - [Approve and enable Lifecycle and Always-On surveys](preview-filter-lifecycle-programs.md)
+4. Collect feedback from survey testers and update your survey setup based on feedback.
 
 ### Capture survey tester feedback
 
