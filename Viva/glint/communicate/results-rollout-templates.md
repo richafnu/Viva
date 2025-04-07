@@ -1,5 +1,5 @@
 ---
-title: Communicate results rollout plans for Viva Glint programs using email templates  
+title: Communicate Microsoft Viva Glint feedback results: email templates  
 description: "Use Viva Glint email templates to communicate feedback results and train your company stakeholders to take action."
 ms.author: JudithWeiner
 author: JudyWeiner
@@ -14,25 +14,25 @@ search.appverid: MET150
 ms.topic: concept-article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 08/29/2024
+ms.date: 04/07/2025
 ---
 
-# Communicate results rollout plans for Viva Glint programs using email templates  
+# Communicate Microsoft Viva Glint feedback results: email templates  
 
-Communicating survey expectations and results is an essential part of a strong engagement program strategy. 
-
-To act on feedback from your Microsoft Viva Glint programs, use the results rollout templates to customize and send to your people. The templates are for guidance only and assume a six-week launch, which may be longer than your timeline. Align your communications as appropriate.  
-
-Sample communications aren't generated in the Glint platform. 
+Communicating survey results is an essential part of a strong engagement program strategy. To act on feedback from your Microsoft Viva Glint programs, use the results rollout templates to customize and send to your organization. The templates are for guidance only. 
 
 ## Tips for using Viva Glint templates 
 
-- Customize the content in your voice. Look for placeholders, like [company name], and insert applicable information. 
-- Adapt messages based on your organization’s familiarity with the feedback and reporting process.  
+- Copy and paste the template to your email or business letterhead.
+- Customize the content to your voice, brand, and goals.
+- Look for placeholders, like [Company name], and insert your information. 
+- Adapt messages based on your organization's familiarity with surveying. Organizations new to engagement surveys may want to include more context in messages than organizations who survey regularly. 
 - Condense the communication cascade as much as possible. Be cautious of information overload.  
-- Consider the timing of other company-wide initiatives and communication plans. Look for opportunities to align communication and streamline employee touch points.  
+- Consider the timing of other company-wide initiatives. Look for opportunities to align communication and streamline employee touch points. 
 
-Security, Privacy, and Compliance are core principles at Microsoft. We value, protect, and defend data privacy. We empower and defend the data privacy choices of every person who uses our products and service. The Viva Glint service is governed by the [Microsoft Product Terms](https://www.microsoft.com/licensing/terms), and the [Microsoft Privacy Statement](https://privacy.microsoft.com/privacystatement). 
+>[!IMPORTANT]
+>**This text should appear at the bottom of each email sent to your organization about your Viva Glint programs:**
+>Security, Privacy, and Compliance are core principles at Microsoft. Microsoft values, protects, and defends data privacy. Microsoft empowers and defends the data privacy choices of every person who uses its products and services. Viva Glint service adheres to all [Microsoft Product Terms](https://www.microsoft.com/licensing/terms) and the [Microsoft Privacy Statement](https://privacy.microsoft.com/privacystatement) standards. 
 
 ## Email templates for your entire organization
 
