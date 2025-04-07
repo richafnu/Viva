@@ -222,8 +222,8 @@ Launch a test survey to your project team to confirm that emails arrive and the 
    1. Select the number of days the test survey is open in the **Response Window** field.
 1. Go to the **Communications** section to confirm timing and invites/reminders are selected for your test survey's **Response Window**.
 1. Approve and enable your test survey:
-   - [Recurring and Ad Hoc surveys](preview-manage-enable-engage-programs.md).
-   - [Lifecycle and Always-On surveys](preview-filter-lifecycle-programs.md).
+   - [Approve and enable Recurring and Ad Hoc surveys](preview-manage-enable-engage-programs.md)
+   - [Approve and enable Lifecycle and Always-On surveys](preview-filter-lifecycle-programs.md)
 4. Collect feedback from survey testers and update your survey setup based on feedback.
 
 ### Capture survey tester feedback
