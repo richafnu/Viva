@@ -15,7 +15,7 @@ ms.topic: how-to
 ms.service: viva-glint
 ms.localizationpriority: high
 ms.custom:  CELA-approved
-ms.date: 04/07/2025
+ms.date: 04/08/2025
 ---
 
 # Introduce Microsoft Viva Glint programs to your organization: email templates
@@ -35,6 +35,7 @@ Consider using [Viva Glint Frequently Asked Questions (FAQs) for survey takers] 
 
 >[!IMPORTANT]
 >**This text should appear at the bottom of each email sent to your organization about Microsoft Viva Glint programs:**
+>
 >Security, Privacy, and Compliance are core principles at Microsoft. Microsoft values, protects, and defends data privacy. Microsoft empowers and defends the data privacy choices of every person who uses its products and services. Viva Glint service adheres to all [Microsoft Product Terms](https://www.microsoft.com/licensing/terms) and the [Microsoft Privacy Statement](https://privacy.microsoft.com/privacystatement) standards. 
 
 ## Email templates  
@@ -61,8 +62,8 @@ Consider using [Viva Glint Frequently Asked Questions (FAQs) for survey takers] 
 
 >**To**: All senior leadership<br>
 >**From**: [First and Last Name], Chief Executive Officer<br>
->**Subject**: [Survey type, *such as Engagement, Culture, or Manager Effectiveness*] at [Company Name]<br>
->**Date**: [Six weeks pre-survey] 
+>**Subject**: [Survey type, *such as Engagement, Culture, or Manager Effectiveness*] at [Company name]<br>
+>**Date**: [Six weeks before the survey launches] 
 >
 >Dear [First Name], 
 >
@@ -83,15 +84,15 @@ Consider using [Viva Glint Frequently Asked Questions (FAQs) for survey takers] 
 >**To**: Customer stakeholders participating in Vision, Strategy & Design Planning <br>
 >**From**: [First and Last Name], Survey Project Lead <br>
 >**Subject**: Viva Glint Vision, Strategy and Design Preparation <br>
->**Date**: [Six weeks pre-survey] 
+>**Date**: [Six weeks before the survey launches] 
 >
 >Dear [First Name], 
 >
 >Together with Microsoft Viva Glint, [Company Name] is in the planning stages for our [Survey Name] survey, which is scheduled to be live from [date]. The goal of this survey is to understand the unique elements that motivate employees to do their best at [Company Name] and establish a regular cadence for conversations about what matters most. To ensure the [Survey Name] survey aligns to our company priorities, values, and culture, we'd like share your input. 
 >
->**Vision and Strategy Planning**: To identify strategies for [Company Name] for increasing employee engagement, we're collecting information on our culture, priorities, stakeholders, etc. through a comprehensive discovery process. You may be asked to share insights into existing practices or barriers that might keeping employees from bringing their best selves to work each day. We encourage any thoughts prompting improvement.
+>**Vision and Strategy Planning**: To identify strategies for [Company Name] to increase employee engagement, we're collecting information on our culture, priorities, stakeholders, etc. through a comprehensive discovery process. You may be asked to share insights into existing practices or barriers that might keeping employees from bringing their best selves to work each day. We encourage any thoughts prompting improvement.
 >
->**Design Planning**: A detailed design process is being put in place to ensure our [Survey Name] survey is set up for success - including identifying survey questions, confidentiality expectations, benchmarks, and action plans. Please use this opportunity to provide input to ensure our final program is tailored to [Company Name]’s unique environment and delivers valuable and actionable insights. 
+>**Design Planning**: A detailed design process is being put in place to ensure our [Survey Name] survey is set up for success - including identifying survey questions, confidentiality expectations, benchmarks, and action plans. Use this opportunity to provide input to ensure our final program is tailored to [Company Name]’s unique environment and delivers valuable and actionable insights. 
 >
 >**Resources**: Additional resources and details on expectations for participation and input are forthcoming. 
 >
@@ -106,7 +107,7 @@ Consider using [Viva Glint Frequently Asked Questions (FAQs) for survey takers] 
 >- What skill set and capabilities do members of the group have today? 
 >- What skill set and capabilities are needed to enhance employee engagement and enable continuous conversations at [Company Name]? 
 >
->Following the workshop, the Microsoft Viva Glint team takes the feedback from the day and translates it into a three-year transformation plan, including a summary of recommended themes to measure in our survey programs. 
+>Following the workshop, the Viva Glint team takes the feedback from the day and translates it into a three-year transformation plan, including a summary of recommended themes to measure in our survey programs. 
 >
 >Your participation is valued and essential!
 >
@@ -165,9 +166,9 @@ Consider using [Viva Glint Frequently Asked Questions (FAQs) for survey takers] 
 >
 >We are here to support you throughout this process. Please reach out with questions. 
 >
->**[Salutation]**, 
+>[Salutation], 
 >
->**[Name, Title]**
+>[Name, Title]
 
 ***
 
@@ -175,12 +176,12 @@ Consider using [Viva Glint Frequently Asked Questions (FAQs) for survey takers] 
 
 >**To**: Human Resource Business Partners <br>
 >**From**: [First and Last Name], Chief Human Resources Officer <br>
->**Subject**: Training for upcoming [Name] survey <br>
->**Date**: [Two weeks pre-survey] 
+>**Subject**: Training for upcoming [Survey Name] survey <br>
+>**Date**: [Two weeks before survey launch] 
 >
 >Dear [First Name], 
 >
->As a reminder, [Company Name]’s [Name] survey is scheduled for [Date]. This initiative is a key focus area for our [Year] annual plan. Training is planned around this initiative for:
+>As a reminder, [Company Name]’s [Survey Name] survey is scheduled for [Day of week, Date]. This initiative is a key focus area for our [Year] annual plan. Training is planned around this initiative for:
 >
 >[Insert dates, times, locations, links, resources for training here]
 >
@@ -190,7 +191,7 @@ Consider using [Viva Glint Frequently Asked Questions (FAQs) for survey takers] 
 >
 >[Salutation], 
 >
->[Name], Chief Human Resources Officer
+>[Name, Title}
 
 ***
 
@@ -199,17 +200,17 @@ Consider using [Viva Glint Frequently Asked Questions (FAQs) for survey takers] 
 >**To**: All managers
 >**From**: [First and Last Name], [Title]
 >**Subject**: Upcoming [Name] survey
->**Date**: [One-two weeks pre-survey] 
+>**Date**: [One-two weeks before survey launches] 
 >
 >Dear [First Name], 
 >
 >[Survey goal, *such as employee engagement, inclusive culture, manager effectiveness*] is a key focus at [Company Name]. Positive feelings promote a strong connection between people's strengths and their roles, naturally increasing performance. These positive behaviors make a difference to our business in terms of reputation, productivity, and profitability. 
 >
->Our [Survey Name] survey, which is live from [date-date] was written to help us understand how people feel and how we can drive action. Employee feedback uncovers opportunities to improve and strengths to build on. 
+>Our [Survey Name] survey, which is live from [Date-Date] was written to help us understand how people feel and how we can drive action. Employee feedback uncovers opportunities to improve and strengths to build on. 
 >
 >Together, [Company Name] and Microsoft Viva Glint, a third party, ensure confidentiality and an exceptional experience for providing and receiving feedback. Viva Glint believes that high quality, frequent, and insightful feedback conversations lead to happiness and success for people at work. Short, simple feedback surveys can provide the right people with the right data to improve our business.  
 >
->Please take these actions to support your employees before, during and after the survey: 
+>Take these actions to support your employees before, during and after the survey: 
 >
 >- Communicate the importance of the [Survey Name]** survey. Encourage participation, honest feedback, and action based on results. 
 >- Take ownership of your results and use them as a basis for better ongoing conversations with your team about what needs to be solved, who can help and actions that drive progress. 
@@ -259,15 +260,15 @@ Consider using [Viva Glint Frequently Asked Questions (FAQs) for survey takers] 
 >
 >Dear [First Name or Team], 
 >
->The [Name] Survey is important to me. I'm looking forward to reviewing our feedback and learning more about what you think and feel about working at [Company Name]. Participating in this survey gives you the chance to communicate, challenge [Company Name], and tell the truth about your experience at work. Your voice, insights, and opinions matter. 
+>The [Survey Name] survey is important to me. I look forward to reviewing your feedback and learning more about what you think and feel about working at [Company Name]. Participating in this survey gives you the chance to communicate, challenge [Company Name], and tell the truth about your experience at work. Your voice, insights, and opinions matter. 
 >
->If you haven’t yet taken the [Survey Name] survey, please do so today. It's confidential and yields data to improve our team's engagement and the company overall. Your survey invitation is emailed to you. [Refer to this support document for helpful information about taking the survey](https://support.microsoft.com/topic/how-to-take-a-viva-glint-survey-6691b3c7-d7f4-48f5-a69f-d1fe5ce528a5).
+>If you haven’t taken the [Survey Name] survey, please do so today. It's confidential and yields data to improve our team's engagement and the company overall. Your survey invitation is emailed to you. [Refer to this support document for helpful information about taking the survey](https://support.microsoft.com/topic/how-to-take-a-viva-glint-survey-6691b3c7-d7f4-48f5-a69f-d1fe5ce528a5).
 >
 >You voice matters! 
 >
->**[Salutation]**, 
+>[Salutation], 
 >
->**[Name, Title]** 
+>[Name, Title] 
 
 ***
 
