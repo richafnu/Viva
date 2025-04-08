@@ -130,7 +130,7 @@ Select your attributes from the dropdown menu for each hierarchy group.
 - To rename the hierarchy label, select the **pencil** symbol.
 - To delete a group or level, select the **trash can** symbol.
 
-  :::image type="content" source="../../media/glint/setup/hierarchy-setup.png" alt-text="Screenshot of step 3 to map hierarchy group attributes.":::
+  :::image type="content" source="../../media/glint/setup/hierarchy-setup.png" alt-text="Screenshot of step 3 to map hierarchy group attributes." lightbox="../../media/glint/setup/hierarchy-setup.png":::
 
 ## 4. Review
 
