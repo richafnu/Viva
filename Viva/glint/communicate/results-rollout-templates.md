@@ -122,7 +122,7 @@ We want to share an update with you on our efforts to improve [Focus Area] bas
 
 [Outline Focus Area along with the progress made, by whom, and what is the next phase or activity to be expected] 
 
-We view the [Survey name] survey as a foundation for ongoing focused conversations. Continue to share feedback with your leaders and managers on how we are doing to address our company-level Focus Areas, as well as your team’s Focus Areas. 
+We view the [Survey name] survey as a foundation for ongoing focused conversations. Continue to share feedback with your leaders and managers on how we are doing to address our company-level Focus Areas and your team’s Focus Areas. 
 
 Expect continuous progress updates from us. Our goal is to achieve tangible changes across our company. With your input, we celebrate where we excel and focus on improving the opportunities that matter most to you.  
 
@@ -170,9 +170,9 @@ Let's continue to drive this momentum into our next survey, launching on [date].
 
 Dear [Manager first name],​
 
-You're probably eager to see the feedback data from your recent Viva Glint survey and to share these results with your team. Because [Company name] knows response data is impacted by how safe employees feel in providing feedback, minimum response thresholds were assigned to uphold the confidentiality of your team. If this minimum confidentiality threshold isn't met, some of your results may not include data.​ [Read about protecting your peoples' confidentiality](/viva/glint/setup/quick-guide-confidentiality).
+You're probably eager to see the feedback data from your recent Viva Glint survey and to share these results with your team. Because [Company name] knows response data impacts how safe employees feel in providing feedback, minimum response thresholds were assigned to uphold the confidentiality of your team. If this minimum confidentiality threshold isn't met, some of your results may not include data.​ [Read about protecting your peoples' confidentiality](/viva/glint/setup/quick-guide-confidentiality).
 
-Additionally, if you had fewer than five employees survey responses, your team won't see a results report. To protect confidentiality, your team’s data rolls up into the next level, so your team is represented in your direct manager’s report. Your manager can share their team's broader survey results with you and you can use these [Broader Team Insights (BTI)](/viva/glint/reports/broader-team-insights) as a starting point for your team’s conversation. Begin your conversation using the rollup results and then steer the conversation toward results pertinent to your group. ​ 
+Additionally, if you had fewer than five employee survey responses, your own team results report won't show on your dashboard. To protect confidentiality, your team’s data rolls up into the next level, so your team is represented in your direct manager’s report. Your manager can share their team's broader survey results with you and you can use these [Broader Team Insights (BTI)](/viva/glint/reports/broader-team-insights) as a starting point for your team’s conversation. Begin your conversation using the rollup results and then steer the conversation toward results pertinent to your group. ​ 
 
 Survey scores are a starting point for a conversation that involves your team in identifying Focus Areas to improve engagement. Even if you have just a few responses, or limited views of your results, you should still foster a rich conversation with your team. ​ 
 
@@ -191,9 +191,9 @@ Survey scores are a starting point for a conversation that involves your team in
 
 Dear [Manager first name],​ 
 
-By now, you should have accessed your [Survey name] survey results and scheduled your initial conversation with your team. Conversations about feedback can be challenging. -Planning helps you feel prepared and get the most value from your team conversations.​ 
+By now, you've seen your [Survey name] survey results and scheduled your initial conversation with your team. Conversations about feedback can be challenging. -Planning helps you feel prepared and get the most value from your team conversations.​ 
 
-How do you effectively share survey results and involve your team to prioritize Focus Areas and identify solutions? Use [Viva Glint’s ACT Conversation Guide](/viva/glint/setup/quick-guide-manager-doc-pitfalls) to help you prepare and facilitate your discussion:​ 
+How do you effectively share survey results and involve your team to prioritize Focus Areas and identify solutions? To help you prepare and facilitate your discussion, use [Viva Glint’s ACT Conversation Guide](/viva/glint/setup/quick-guide-manager-doc-pitfalls):
 
 - **Acknowledge** where we are​ 
 - **Collaborate** on where we want to go​ 
