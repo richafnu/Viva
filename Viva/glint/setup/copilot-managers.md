@@ -101,7 +101,7 @@ This example follows Copilot in Viva Glint comment summarization on the **Commen
 
 2. Use the **View Prompt Guide** menu to display more prompts, or key in your own question in the box provided.
 
-   :::image type="content" source="../../media/glint/setup/copilot-prompt-1" alt-text="Screenshot of the question box in Copilot." lightbox="../../media/glint/setup/copilot-prompt-1.png":::
+   :::image type="content" source="../../media/glint/setup/copilot-prompt-1.jpg" alt-text="Screenshot of the question box in Copilot." lightbox="../../media/glint/setup/copilot-prompt-1.jpg":::
 
    > [!NOTE]
    > Use the **Send us feedback** link to request more Copilot capabilities.
