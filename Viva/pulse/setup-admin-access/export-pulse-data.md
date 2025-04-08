@@ -17,7 +17,7 @@ search.appverid: MET150
 
 # Export data
 
-As a pulse admin, you can choose to either export out all pulse data or specific report data. To access the Viva Pulse admin export feature, you must have one of the following admin roles assigned to you: Microsoft 365 Global admin, Pulse admin.
+As a pulse admin, you can choose to either export out all pulse data or specific report data. To access the Viva Pulse admin export feature, you must have one of the following admin roles assigned to you: Microsoft 365 Global admin, Pulse admin. Reports will get data only for reports created after enabling e-Discovery for Forms Responses. Otherwise, it will be empty.
 
 To open the **Export** tab, go to Viva Pulse on the app or on the web, and select **Manage** and then **Data export**. Note that your tenant can only have one export job active at a time.
 
