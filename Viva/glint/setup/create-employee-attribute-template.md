@@ -24,7 +24,8 @@ The Employee Attribute Template is a planning tool Viva Glint Administrators use
 Ensure that attribute labels that you set up initially stay consistent over time in the data files transferred to Viva Glint. For example, if your organization sets up **Employee ID**, it can't later be recognized as the same column renamed as **Employee Number**.
 
 > [!div class="nextstepaction"]
-> [Employee Attribute Template](https://www.microsoft.com/en-us/download/details.aspx?id=105533)
+> [Download the Employee Attribute Template](https://www.microsoft.com/en-us/download/details.aspx?id=105533) <br>
+
 
 > [!IMPORTANT]
 > See [Recent language changes](attribute-fundamentals.md#recent-language-changes) for changes to supported languages and codes effective April 10, 2025.
