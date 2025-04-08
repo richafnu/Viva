@@ -67,7 +67,7 @@ items:
             items:
                - name: Introduce Glint programs with email templates
                  href: start/introductory-emails.md
-               - name: Communicate results, next steps, and progress
+               - name: Communicate results and actions with email templates
                  href: communicate/results-rollout-templates.md
                - name: Create FAQs for dashboard users
                  href: start/faqs-dashboard-users.md
