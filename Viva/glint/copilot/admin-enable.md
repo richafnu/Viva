@@ -72,7 +72,7 @@ From your admin dashboard, follow this process:
 
 6. Toggle **Copilot in Viva Glint** to **On** and then **Save Changes**.
 
-    :::image type="content" source="../../media/glint/setup/admin-enable.png" alt-text="Screenshot of the Role Permissions sections within the Reporting section." lightbox="../../media/glint/setup/admin-enable.png":::
+    :::image type="content" source="../../media/glint/setup/admin-enable.jpg" alt-text="Screenshot of the Role Permissions sections within the Reporting section." lightbox="../../media/glint/setup/admin-enable.jpg":::
 
 ## Ensure Copilot in Viva Glint is enabled
 
