@@ -24,11 +24,7 @@ The Employee Attribute Template is a planning tool Viva Glint Administrators use
 Ensure that attribute labels that you set up initially stay consistent over time in the data files transferred to Viva Glint. For example, if your organization sets up **Employee ID**, it can't later be recognized as the same column renamed as **Employee Number**.
 
 > [!div class="nextstepaction"]
-> [Download the Employee Attribute Template](https://www.microsoft.com/en-us/download/details.aspx?id=105533) <br>
-
-
-> [!IMPORTANT]
-> See [Recent language changes](attribute-fundamentals.md#recent-language-changes) for changes to supported languages and codes effective April 10, 2025.
+> [Download the Employee Attribute Template](https://www.microsoft.com/en-us/download/details.aspx?id=105533) 
 
 ## Why is creating an employee data template important? 
 
@@ -64,10 +60,13 @@ The first page of the template contains instructions for building your own templ
 | **Required Attribute** | Information about each employee in your organization that Viva Glint requires:<li>Status: ACTIVE or INACTIVE <li>First name <li>Last name <li>Email address <li>Employee ID |
 | **Custom Attribute** | Any employee information collected in addition to required attributes. <br>Your organization can send up to 100 custom attributes. Examples: gender, work location, department. |
 | **Flat Attribute** | A category that can't be broken down further, such as age group or gender. |
-| **Optional System Attribute** | A value that indicates how and when Viva Glint sends communications to an employee, such as language and time zone. |
+| **Optional System Attribute** | A value that indicates how and when Viva Glint sends communications to an employee, such as language* and time zone. |
 | **Hierarchy** | Filtering down of an employee attribute into levels from highest to lowest, largest to smallest, to provide more precise insights.  <br>Example: Region > Country > State > City |
 | **Derivation** | Fields calculated based on employee attributes. <p>Examples: Age groups based on birth year or tenure based on hire date. |
 | **Schema** | The framework in our platform that stores a mapping of your organization’s attributes. |
+
+> [!IMPORTANT]
+> \* See [Recent language changes](attribute-fundamentals.md#recent-language-changes) for changes to supported languages and codes effective April 10, 2025.
 
 ## Next step
 After finalizing your attribute selections, reporting hierarchies, and file and date attribute formats, review your employee data with a Viva Glint checklist.
