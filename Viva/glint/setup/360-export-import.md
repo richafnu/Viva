@@ -23,7 +23,7 @@ After setting up a Microsoft Viva Glint 360 cycle and making all customizations 
 
 > [!NOTE]
 > - Standard 360 content includes translations for selected languages.
-> - See [Recent language changes](attribute-fundamentals.md#upcoming-language-changes) for changes to supported languages and codes effective April 10, 2025.
+> - See [Recent language changes](attribute-fundamentals.md#recent-language-changes) for changes to supported languages and codes effective April 10, 2025.
 
 ## Export and edit content from the 360 cycle page
 
