@@ -54,7 +54,7 @@ To add translations for your organization's survey languages, use the dropdown m
 
 > [!IMPORTANT]
 > - The language selection dropdown menu on the Attribute-based Survey Access survey landing page includes all languages in that your organization selects in General Settings as Supported Survey Languages. The languages available aren't limited by what's selected in the survey program.
-> - See [Recent language changes](attribute-fundamentals.md#upcoming-language-changes) for changes to supported languages and codes effective April 10, 2025.
+> - See [Recent language changes](attribute-fundamentals.md#recent-language-changes) for changes to supported languages and codes effective April 10, 2025.
 
 ### Use the language dropdown menu
 
