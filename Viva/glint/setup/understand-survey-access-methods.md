@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: how-to
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 12/05/2024
+ms.date: 04/08/2025
 ---
 
 # Viva Glint survey access methods
@@ -34,11 +34,8 @@ Microsoft Viva Glint offers multiple survey access methods that can be used inde
 
 Use this guidance to enable survey invite links that require authentication with Microsoft Entra ID. Grant all users access to the Viva Glint **My Surveys** tab so that participants can access their surveys. After selecting the **Provide Feedback** button in survey emails, users with one active survey go directly to the survey landing page after authentication. Users with multiple active surveys land on the My Surveys tab to select a survey.
 
-> [!NOTE]
-> Users must exist in Entra with a Member Type of "Member" (not "Guest") to successfully access Viva Glint. Learn more about how Microsoft 365 Global Administrators or Entra admins can [set up access to Glint with Microsoft Entra ID](access-with-azure-ad.md).
-
 > [!CAUTION] 
-> If your organization uses **URL Defense**, a security feature that can rewrite URLs in inbound emails, disable this feature for Glint emails. If left enabled when using survey access that requires authentication with Microsoft Entra, the **Provide Feedback** link in emails directs users to the Glint dashboard instead of their survey or My Surveys tab.
+> If your organization uses **URL Defense**, a security feature that can rewrite URLs in inbound emails, disable this feature for Viva Glint emails. If left enabled when using survey access that requires authentication with Microsoft Entra, the **Provide Feedback** link in emails directs users to the Viva Glint dashboard instead of their survey or My Surveys tab.
 
 ### To enable this survey access method:
 
@@ -55,7 +52,7 @@ Use this guidance to enable survey invite links that require authentication with
 ## Personalized survey link
 
 > [!CAUTION] 
-> A personalized link requires no authentication and is unique to each survey and user. When a survey taker forwards an email that includes a personalized link, any user can access and complete their survey. Standard Glint email invite text cautions survey takers to **not forward email invites** to prevent other users completing a survey on their behalf.
+> A personalized link requires no authentication and is unique to each survey and user. When a survey taker forwards an email that includes a personalized link, any user can access and complete their survey. Standard Viva Glint email invite text cautions survey takers to **not forward email invites** to prevent other users completing a survey on their behalf.
 
 Survey emails contain a personalized survey link that is tied to each participant and **shouldn't be forwarded**. When users select this personalized link, they access an active survey with no authentication. To enable this access method:
 
