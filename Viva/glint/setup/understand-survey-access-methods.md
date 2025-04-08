@@ -42,7 +42,7 @@ Use this guidance to enable survey invite links that require authentication with
 1. Work with your Viva Glint Global administrator to [establish access to Viva Glint via Microsoft Entra ID.](access-with-azure-ad.md)
 1. From the admin dashboard, select the **Configuration** symbol, then in **Service Configuration**, choose **General Settings**.
 3. In the **All Settings** menu, select **Engage Survey Details**.
-4. Switch the **Require Azure AD for links in survey emails** setting to **Yes**.
+4. Switch the **Microsoft Entra AD for links in survey emails and Microsoft Teams notifications** setting to **Yes**.
 5. Select **Save Changes** in the top right of the **General Settings** page.
 6. Select the **Configuration** symbol, then in **Employees**, choose **User Roles**.
 7. Select **Active Employees** and on the **Role Settings** page, choose **Permissions**.
@@ -58,7 +58,7 @@ Survey emails contain a personalized survey link that is tied to each participan
 
 1. From the admin dashboard, select the **Configuration** symbol, then in **Service Configuration**, choose **General Settings**.
 3. In the **All Settings** menu, select **Engage Survey Details**.
-4. Switch the **Require Azure AD for links in survey emails** setting to **No**.
+4. Switch the **Microsoft Entra AD for links in survey emails and Microsoft Teams notifications** setting to **No**.
 5. Select **Save Changes** in the top right of the **General Settings** page.
 
 ## Attribute-based survey access
@@ -73,7 +73,7 @@ Viva Glint survey access methods present different user experiences depending on
 > Survey access with authentication via Entra and personalized survey links send email invites and reminders with the correct links for survey access. Admins shouldn't copy links from the Viva Glint platform to share with users for these access methods.
 
 > [!NOTE] 
-> If admins or managers access the Viva Glint application with a dashboard link during a live survey (not with a link in an invite or reminder email), they'll go to their dashboards. Users can access live surveys by going to the **My Surveys** tab.
+> If admins or managers access the Viva Glint application with a dashboard link during a live survey (not with a link in an invite or reminder email), they go to their dashboards. Users can access live surveys by going to the **My Surveys** tab.
 
 |Survey access method   |Survey entry point   |Landing page|
 |:----------|:-----------|:------------|
