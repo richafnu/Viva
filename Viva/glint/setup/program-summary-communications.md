@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: install-set-up-deploy
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 03/06/2025
+ms.date: 04/08/2025
 ---
 
 # Viva Glint survey Communications setup
@@ -26,9 +26,10 @@ Notifying employees about a survey's start and sending reminders throughout the 
 > [!NOTE]
 > Always-On programs don't include a Communications section. Skip this step.
 
-There are three sections to set up:
+There are four sections to set up, depending on your Viva Glint configuration:
 
 - Notification Timing
+- Channels
 - Email Settings
 - Configure Notifications
 
@@ -44,6 +45,10 @@ Send survey invites and reminders between the times that you select. Your organi
 > For example, if your organization plans to send invites to 100,000 employees, extend your delivery window to ten hours to allow all emails to deliver on the survey start day.
 >
 > For very large organizations and distribution lists (more than 250,000 employees), some emails may be pushed to the following day.
+
+## Channels
+
+When Microsoft Teams is enabled for Viva Glint notifications, choose to send survey invites and reminders in emails or also in Teams. [Learn more](glint-teams.md).
 
 ## Email Settings
 
