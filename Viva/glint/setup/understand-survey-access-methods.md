@@ -40,14 +40,14 @@ Use this guidance to enable survey invite links that require authentication with
 ### To enable this survey access method:
 
 1. Work with your Viva Glint Global administrator to [establish access to Viva Glint via Microsoft Entra ID.](access-with-azure-ad.md)
-1. From the admin dashboard, select the **Configuration** symbol, then in **Service Configuration**, choose **General Settings**.
-3. In the **All Settings** menu, select **Engage Survey Details**.
-4. Switch the **Microsoft Entra AD for links in survey emails and Microsoft Teams notifications** setting to **Yes**.
-5. Select **Save Changes** in the top right of the **General Settings** page.
-6. Select the **Configuration** symbol, then in **Employees**, choose **User Roles**.
-7. Select **Active Employees** and on the **Role Settings** page, choose **Permissions**.
-8. To grant access to the **My Surveys** tab for all active users, select the **View My Surveys** permission.
-9. Select **Save Changes** at the top of the page.
+1. In Viva Glint, select **Configuration**, then in **Service configuration**, choose **General settings**.
+3. In the **All Settings** menu, select **Survey details**.
+4. Switch the **Microsoft Entra ID for links in survey emails and Microsoft Teams notifications** setting to **Yes**.
+5. Select **Save Changes** in the top right of the **General settings** page.
+6. Select the **Configuration** symbol, then in **Employees**, choose **User roles**.
+7. Select **Active Employees** and on the **Role settings** page, choose **Permissions**.
+8. To grant access to the **My Surveys** tab for all active users, select the **View my surveys** permission under **Survey programs**.
+9. Select **Save changes** at the top of the page and choose **Save permissions** in the dialog that appears.
 
 ## Personalized survey link
 
@@ -56,10 +56,10 @@ Use this guidance to enable survey invite links that require authentication with
 
 Survey emails contain a personalized survey link that is tied to each participant and **shouldn't be forwarded**. When users select this personalized link, they access an active survey with no authentication. To enable this access method:
 
-1. From the admin dashboard, select the **Configuration** symbol, then in **Service Configuration**, choose **General Settings**.
-3. In the **All Settings** menu, select **Engage Survey Details**.
-4. Switch the **Microsoft Entra AD for links in survey emails and Microsoft Teams notifications** setting to **No**.
-5. Select **Save Changes** in the top right of the **General Settings** page.
+1. In Viva Glint, select **Configuration**, then in **Service configuration**, choose **General settings**.
+3. In the **All Settings** menu, select **Survey details**.
+4. Switch the **Microsoft Entra ID for links in survey emails and Microsoft Teams notifications** setting to **No**.
+5. Select **Save Changes** in the top right of the **General settings** page.
 
 ## Attribute-based survey access
 
