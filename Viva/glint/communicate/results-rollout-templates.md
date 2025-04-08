@@ -50,7 +50,7 @@ Communicating survey results is an essential part of a strong engagement program
 |Suggested email send timing|Email subject/link to template| Description|
 |-----------|-----------|---------|
 |1 day after survey close|[Template 5 - Survey results and confidentiality standards](#email-template-6---how-to-have-effective-conversations-managers-and-hrbps) |How feedback is shared and confidentiality standards  |
-|5 - 7 days after survey closes |[Template 6 - How to have effective conversations](#email-template-6---how-to-have-effective-conversation-for-managers-and-hrbps)    | Conversation starters and resources |
+|5 - 7 days after survey closes |[Template 6 - How to have effective conversations](#email-template-6---how-to-have-effective-conversations-managers-and-hrbps)| Conversation starters and resources |
 |Week 4 and Week 8, after survey close  |[Template 7 - Feedback action reminder](#email-template-7---feedback-action-reminder-for-managers)| [Survey name] action reminder​ |
 
 ***
