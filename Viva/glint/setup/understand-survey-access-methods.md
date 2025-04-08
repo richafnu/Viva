@@ -32,10 +32,10 @@ Microsoft Viva Glint offers multiple survey access methods that can be used inde
 
 ## Authentication with Microsoft Entra ID
 
-Use this guidance to enable survey invite links that require authentication with Microsoft Entra ID. Grant all users access to the Viva Glint **My Surveys** tab so that participants can access their surveys. After selecting the **Provide Feedback** button in survey emails, users with one active survey go directly to the survey landing page after authentication. Users with multiple active surveys land on the My Surveys tab to select a survey.
+Use this guidance to enable survey invite links that require authentication with Microsoft Entra ID. Grant all users access to the Viva Glint **My surveys** tab so that participants can access their surveys. After selecting the **Provide Feedback** button in survey notifications, users with one active survey go directly to the survey landing page after authentication. Users with multiple active surveys land on the **My surveys** tab to select a survey.
 
 > [!CAUTION] 
-> If your organization uses **URL Defense**, a security feature that can rewrite URLs in inbound emails, disable this feature for Viva Glint emails. If left enabled when using survey access that requires authentication with Microsoft Entra, the **Provide Feedback** link in emails directs users to the Viva Glint dashboard instead of their survey or My Surveys tab.
+> If your organization uses **URL Defense**, a security feature that can rewrite links in inbound emails, disable this feature for Viva Glint emails. If left enabled when using survey access that requires authentication with Microsoft Entra, the **Provide Feedback** link in emails directs users to the Viva Glint dashboard instead of their survey or **My surveys** tab.
 
 ### To enable this survey access method:
 
@@ -63,23 +63,23 @@ Survey emails contain a personalized survey link that is tied to each participan
 
 ## Attribute-based survey access
 
-Viva Glint's attribute-based survey access allows users without a work email account to complete surveys in another way. Users enter two unique pieces of employee information rather than authenticating in Viva Glint through an email invite. Admins can convert the survey link into a QR code or shortened link to share with frontline workers. To set up attribute-based survey access, follow the steps in this article: [Set up attribute-based survey access in Viva Glint](attribute-based-survey-access.md).
+Viva Glint's attribute-based survey access allows users without a work email account to complete surveys in another way. Users enter at least two unique pieces of employee information rather than authenticating in Viva Glint through an invite link. Admins can convert the survey link into a QR code or shortened link to share with frontline workers. [Set up attribute-based survey access in Viva Glint](attribute-based-survey-access.md).
 
 ## Survey participant experiences
 
 Viva Glint survey access methods present different user experiences depending on the method admins select and how many active surveys a user is included in. 
 
 > [!IMPORTANT] 
-> Survey access with authentication via Entra and personalized survey links send email invites and reminders with the correct links for survey access. Admins shouldn't copy links from the Viva Glint platform to share with users for these access methods.
+> Survey access with authentication via Entra and personalized survey links send invites and reminders with the correct links for survey access. Admins shouldn't copy links from the Viva Glint platform to share with users for these access methods.
 
 > [!NOTE] 
-> If admins or managers access the Viva Glint application with a dashboard link during a live survey (not with a link in an invite or reminder email), they go to their dashboards. Users can access live surveys by going to the **My Surveys** tab.
+> If admins or managers access the Viva Glint application with a dashboard link during a live survey (not with a link in an invite or reminder), they go to their dashboards. Users can access live surveys by going to the **My surveys** tab.
 
 |Survey access method   |Survey entry point   |Landing page|
 |:----------|:-----------|:------------|
-|Authentication with Microsoft Entra ID     |Users select the **Provide Feedback** or applicable 360 feedback button (like **Give feedback**) in survey emails.      |If the user is included in **multiple active surveys**, they're taken to the **My Surveys** tab in Viva Glint.<br><br>If the user has **one (1) active survey**, they're taken directly to the survey welcome page.       |
-|Personalized link |Users select the **Provide Feedback** or applicable 360 feedback button (like **Give feedback**) in survey emails.   |Users go directly to the survey or 360 feedback welcome page, regardless of the number of active surveys. The personalized link is specific to each user and each survey. |
-|Attribute-based access* |Users access the attribute-based access survey link shared by their organization.  |Users go to an access page that prompts them to enter two (2) pieces of information. After users enter correct information, they go to the survey welcome page.|
+|Authentication with Microsoft Entra ID     |Users select the **Provide Feedback** or applicable 360 feedback button (like **Give feedback**) in survey notifications.      |If the user is included in **multiple active surveys**, they're taken to the **My surveys** tab in Viva Glint.<br><br>If the user has **one (1) active survey**, they're taken directly to the survey welcome page.       |
+|Personalized link |Users select the **Provide Feedback** or applicable 360 feedback button (like **Give feedback**) in survey notifications.   |Users go directly to the survey or 360 feedback welcome page, regardless of the number of active surveys. The personalized link is specific to each user and each survey. |
+|Attribute-based access* |Users access the attribute-based access survey link shared by their organization.  |Users go to an access page that prompts them to enter at least two (2) pieces of information. After users enter correct information, they go to the survey welcome page.|
 
 *Viva Glint 360 feedback programs aren't accessible with attribute-based access.
 
