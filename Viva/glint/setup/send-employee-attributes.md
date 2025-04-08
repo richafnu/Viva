@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: install-set-up-deploy
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 04/03/2025
+ms.date: 04/08/2025
 ---
 
 # Set up attributes in Viva Glint
@@ -57,7 +57,7 @@ Check that the attribute names and values appear as expected.
      - All attributes are present in the preview.
      - Attribute values shown for preview data display in the correct column.
      - The total count of "data fields found" displayed above the preview matches the number of attributes in the file.
-2. If dates are included in your file, select the **There are date fields** checkbox and then the appropriate **date format** from the dropdown menu.
+2. If dates are included in your file, select the **There are date fields** checkbox and then choose your **date format** from the dropdown menu.
 
      > [!CAUTION]
      > - All attributes that include dates must follow the same format.
@@ -130,7 +130,7 @@ Select your attributes from the dropdown menu for each hierarchy group.
 - To rename the hierarchy label, select the **pencil** symbol.
 - To delete a group or level, select the **trash can** symbol.
 
-:::image type="content" source="../../media/glint/setup/setup-step3-hierarchies.png" alt-text="Screenshot of step 3 to map hierarchy group attributes.":::
+  :::image type="content" source="../../media/glint/setup/hierarchy-setup.png" alt-text="Screenshot of step 3 to map hierarchy group attributes.":::
 
 ## 4. Review
 
