@@ -19,11 +19,11 @@ ms.date: 04/08/2025
 
 # Set up attribute-based survey access in Viva Glint
 
-Microsoft Viva Glint's attribute-based survey sccess allows users without a corporate email account to complete confidential surveys using attribute-based survey access, which is designed for mobile or public devices including desktops, laptops, tablets, or mobile phones. Users access surveys using key identifiers. These identifiers ensure a user's responses are tied to their survey and allow for full reporting on demographics in survey results.
+Microsoft Viva Glint's attribute-based survey access allows users without a corporate email account to complete surveys using mobile or public devices like laptops, tablets, or mobile phones. Users access surveys using key identifiers. These identifiers ensure a user's responses are tied to their survey and allow for full reporting on demographics in survey results.
 
 ## Understand key identifiers
 
-Viva Glint uses key identifiers to uniquely identify each user. Because these users may not have email addresses, attribute-based survey access requires the use of two attributes - the combination known only to the specific user. The system is flexible enough to support any two attributes that are a part of your employee data file:
+Viva Glint uses key identifiers to uniquely identify each user. Because these users may not have email addresses, attribute-based survey access requires the use of at least two attributes - the combination known only to the specific user. The system is flexible enough to support any two attributes that are a part of your employee data file:
 
 - One of these attributes is always a unique identifier
 - The other attribute should be something not commonly known, like the employee ID number or birth year.
@@ -37,14 +37,14 @@ Viva Glint uses key identifiers to uniquely identify each user. Because these us
 5. If desired, edit the **Welcome text** or **Instruction text** fields by entering new text.
 6. Select **+ Add an attribute** and select attributes from the dropdown menu.
    > [!NOTE]
-   > Complete attribute setup and employee data upload prior to selection for attributes to be available.
+   > Complete attribute setup and employee data upload to make your attributes available in this list.
 7. Edit the **Placeholder text** that displays under each selected attribute.
 
    :::image type="content" source="../../media/glint/setup/attribute-based-access-setup.png" alt-text="Screenshot of the attribute-based survey access setup pane in General Settings.":::
    
 9. Confirm your edits in the **Preview** at the bottom of the pane.
 10. At the top of the pane, select **Save**.
-11. Select the **Configuration** symbol, then in **Service Configuration**, choose **Advanced Configuration**.
+11. Select the **Configuration** symbol and in **Service Configuration** choose **Advanced Configuration**.
 12. In the **Details** section, confirm that the **Enable Kiosk Page** checkbox is selected. If not, select this checkbox.
 13. Select **Save Changes** at the bottom of the **Details** page.
 
@@ -53,7 +53,7 @@ Viva Glint uses key identifiers to uniquely identify each user. Because these us
 To add translations for your organization's survey languages, use the dropdown menu in the **Attribute-based Survey Access** setup section or import translations using the **Variables & Product Text** feature.
 
 > [!IMPORTANT]
-> - The language selection dropdown menu on the Attribute-based Survey Access survey landing page includes all languages in that your organization selects in General Settings as Supported Survey Languages. The languages available aren't limited by what's selected in the survey program.
+> - The language selection dropdown menu on the attribute-based survey access landing page includes all languages that your organization selects in General Settings as Supported Survey Languages. Language options aren't limited to selections in the survey program.
 > - See [Recent language changes](attribute-fundamentals.md#recent-language-changes) for changes to supported languages and codes effective April 10, 2025.
 
 ### Use the language dropdown menu
