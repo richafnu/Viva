@@ -16,7 +16,7 @@ search.appverid: MET150
 ms.topic: overview
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 1/29/2025
+ms.date: 04/09/2025
 
 ---
 
@@ -113,6 +113,7 @@ Use our best practices to maximize the benefits from Copilot in Viva Glint. Use 
 
 - [**Learn how managers can use Copilot in Viva Glint**](/viva/glint/setup/copilot-managers)
 - [**Find answers to technical FAQs**](/viva/glint/setup/copilot-faqs)
+- [**Driving Microsoft 365 Copilot adoption with an assist from Microsoft Viva](https://www.microsoft.com/insidetrack/blog/driving-copilot-for-microsoft-365-adoption-with-an-assist-from-microsoft-viva)
 - [**Copilot for Microsoft 365**](https://adoption.microsoft.com/copilot/)
 
 
