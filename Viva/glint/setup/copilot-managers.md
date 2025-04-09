@@ -16,7 +16,7 @@ search.appverid: MET150
 ms.topic: how-to
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 4/02/2025
+ms.date: 4/09/2025
 ---
 
 # How managers use Microsoft 365 Copilot in Viva Glint 
@@ -99,9 +99,9 @@ This example follows Copilot in Viva Glint comment summarization on the **Commen
 
    :::image type="content" source="../../media/glint/reports/copilot-up-to-8000.png" alt-text="Screenshot of a Copilot in Viva Glint summary.":::
 
-2. Use the **View Prompt Guide** menu to display more prompts, or key in your own question in the box provided.
+2. Use the **View Prompt Guide** menu to display more prompts, or key in your own question in the box provided. Choose from *Summarize comments,* *Prompt writing tip,* and *Explore more with Copilot.*
 
-   :::image type="content" source="../../media/glint/reports/copilot-prompt-guide.png" alt-text="Screenshot of the question box in Copilot." lightbox="../../media/glint/reports/copilot-prompt-guide.png":::
+   :::image type="content" source="../../media/glint/setup/copilot-enable-1.jpg" alt-text="Screenshot of the question box in Copilot.":::
 
    > [!NOTE]
    > Use the **Send us feedback** link to request more Copilot capabilities.
