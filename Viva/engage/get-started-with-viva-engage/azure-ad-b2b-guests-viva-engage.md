@@ -23,6 +23,8 @@ The Viva Engage guest feature allows organizations to call in experts such as ve
 
 Any Microsoft 365 user who isn't part of your organization can be added as a guest to a Viva Engage community by a Community admin. Microsoft Entra B2B guests in Viva Engage communities are covered by the same compliance and auditing protection as the rest of Microsoft 365 and can be managed within Microsoft Entra ID. Guest access is subject to Microsoft Entra ID and Microsoft 365 service limits.
 
+Viva Engage has now added support for allowing Guests in Viva Engage Communities using their personal email, non-Microsoft 365 business email. Users with email domains like Gmail or Yahoo or Outlook are now supported in this release.
+
 ## Prerequisites for adding an external user as a Microsoft Entra B2B guest to a Viva Engage community
 
 Align your Viva Engage network to native mode before inviting an external user as a Microsoft Entra B2B guest to a Viva Engage community. Inviting a guest requires that you configure settings in Viva Engage and other Microsoft 365 services, including settings in Microsoft Entra ID, Microsoft 365 Groups, and SharePoint.
@@ -101,8 +103,7 @@ Guest access is included with all Microsoft 365 Business Standard, Microsoft 365
 ## What features aren't supported for Guests?
 
 We're working hard to bring all Viva Engage functionality to the new B2B guests in Viva Engage. Here's a list of features that are in progress:
-
-- **Personal email, non-Microsoft 365 business email, and phone number-based legacy accounts** – Users with Microsoft 365 Business email accounts can be added as guests. Email domains like Gmail and Yahoo mail aren't supported in this release.
+- **Phone number-based legacy accounts** – Users cannot be invited as B2B guests in Viva Engage using their phone numbers.
 - **Private messages** – Private messages are disabled for B2B guests in Viva Engage.
 - **Live events** – Guests can't attend live events.
 - **Adding guests during community creation** – Community owners can invite guest users by using edit membership flow for any community. In the current release, community owners aren't able to add guest emails at the time of community creation.
