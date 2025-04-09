@@ -140,7 +140,7 @@ Before you start the pilot, have these in place:
 We recommend that you follow these steps to conduct the pilot:
 
 1. **Send a welcome email** – Send an email introducing Viva Insights to all the pilot users and invite them to training.
-2. [Train the pilot participants](#train-pilot-participants) in how to use Viva Insights.
+2. [**Train the pilot participants**](#train-pilot-participants) in how to use Viva Insights.
 3. **Assign the service plan** – Before rolling out Viva Insights to the pilot users, ensure that all users have been assigned to a [Viva Insights service plan](../overview/plans-environments.md) in the Microsoft 365 admin center.
 4. **Kick off the pilot** – Begin the pilot. Announce to the pilot participants that the pilot is starting and remind them of its duration and their tasks, as described in the [test plan](#design-a-test-plan). See [Conduct the pilot](#conduct-the-pilot) for more details.
 5. **Consult with stakeholders** – Throughout the pilot, meet with your [project stakeholders](#include-stakeholders) to review user feedback as it arrives and address any technical issues that arise to ensure that the pilot is running smoothly.
