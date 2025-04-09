@@ -1,12 +1,12 @@
 ---
-title: Prepare and upload your employee data to Viva Glint
-description: Your organizational data can appear in Viva Glint through Microsoft Entra ID or by uploading a .csv file.
+title: Meet and plan with Viva Glint data stakeholders
+description: Meet with your data stakeholders, like HR, IT, and Security, to determine attributes to include in Viva Glint and your data preparation timeline.
 ms.author: aweixelman
 author: AliciaWeixelman
 manager: melissabarry
 audience: admin
 f1.keywords: NOCSH
-keywords: employee data
+keywords: employee data, stakeholders, HRIS, IT, meeting, employee attributes
 ms.collection: 
  - m365initiative-viva
  - selfserve
@@ -14,12 +14,12 @@ search-appverid: MET150
 ms.topic: how-to
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 01/23/2025
+ms.date: 04/09/2025
 ---
 
-# Prepare and upload your employee data to Viva Glint
+# Meet and plan with Viva Glint data stakeholders
 
-Microsoft Viva Glint refers to employee data as "attributes." Attributes are data about the people in your organization, which are then used to convert feedback into insightful and action-oriented intelligence to improve employee engagement and achieve business goals.
+Microsoft Viva Glint refers to employee data as "attributes." Attributes are data about the people in your organization, which are then used to convert feedback into insightful and action-oriented intelligence to improve employee engagement and achieve business goals. Meet with your data stakeholders, like HR, IT, and Security, to determine attributes to include in Viva Glint and your data preparation timeline.
 
 ## Meet with internal stakeholders
 
