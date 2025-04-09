@@ -198,6 +198,6 @@ Service availability is consistent across environments where Viva Insights plans
 
 ## Related topics
 
-* Under [Powerful tools to support your enterprise](https://www.microsoft.com/microsoft-365/business/compare-more-office-365-for-business-plans), see **Looking for more** for more details about the available plans
+* Under [Powerful tools to support your enterprise](https://www.microsoft.com/microsoft-365/business/compare-more-office-365-for-business-plans), see **Looking for more** details about the available plans
 * To provide feedback, go to [Microsoft Office 365 UserVoice forum](https://feedbackportal.microsoft.com/feedback/)
 
