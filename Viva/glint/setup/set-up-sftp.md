@@ -6,7 +6,7 @@ author: AliciaWeixelman
 manager: melissabarry
 audience: admin
 f1.keywords: NOCSH
-keywords: sftp, public ip address, pgp encryption, data transfer, ssh key
+keywords: sftp, public ip address, pgp encryption, data transfer, ssh key, deprovisioning
 ms.collection: 
  - m365initiative-viva
  - selfserve
@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: install-set-up-deploy
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 04/04/2025
+ms.date: 04/10/2025
 ---
 
 # Set up Secure File Transfer Protocol (SFTP) in Viva Glint
@@ -54,6 +54,9 @@ Manage SFTP settings to connect to your Viva Glint SFTP account:
    - **10.0.0.0/8 IP addresses:** 10.0.0.0 – 10.255.255.255
    - **172.16.0.0/12 IP addresses:** 172.16.0.0 – 172.31.255.255
    - **192.168.0.0/16 IP addresses:** 192.168.0.0 – 192.168.255.255
+
+>[!NOTE]
+>For more information about deprovisioning, read about [Deleting a Microsoft Entra tenant](/entra/identity/users/directory-delete-howto) and [Data deletion in Microsoft 365](/compliance/assurance/assurance-data-retention-deletion-and-destruction-overview).
 
 ## PGP key expiration
 
