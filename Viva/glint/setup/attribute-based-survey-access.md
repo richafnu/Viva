@@ -44,7 +44,7 @@ Viva Glint uses key identifiers to uniquely identify each user. Because these us
    
 9. Confirm your edits in the **Preview** at the bottom of the pane.
 10. At the top of the pane, select **Save**.
-11. Select the **Configuration** symbol and in **Service Configuration** choose **Advanced Configuration**.
+11. Select the **Configuration** symbol and in **Service Configuration**, choose **Advanced Configuration**.
 12. In the **Details** section, confirm that the **Enable Kiosk Page** checkbox is selected. If not, select this checkbox.
 13. Select **Save Changes** at the bottom of the **Details** page.
 
@@ -97,12 +97,12 @@ To add translations for your organization's survey languages, use the dropdown m
 
 ## Get the attribute-based survey access link
 
-1. From the admin dashboard, select the **Configuration** symbol, then in **Surveys**, choose **Survey Programs.**
+1. From the admin dashboard, select the **Configuration** symbol.  Then in **Surveys**, choose **Survey Programs.**
 2. Select the survey program that should have attribute-based survey access.
 3. At the top of the page, select **Copy survey link,** and then **Copy** in the dialog.
 4. Optionally, use online tools to convert this link into a QR code or shortened link for easy participation on mobile devices.
 
-:::image type="content" source="../../media/glint/setup/attribute-link.png" alt-text="Screenshot of the attribute-based access survey link dialog in a survey program.":::
+   :::image type="content" source="../../media/glint/setup/attribute-link.png" alt-text="Screenshot of the attribute-based access survey link dialog in a survey program.":::
 
 > [!NOTE]
 > If users become INACTIVE during a survey, they're still able to access surveys with attribute-based access.
