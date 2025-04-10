@@ -27,7 +27,7 @@ Use Microsoft Viva Glint [Secure File Transfer Protocol (SFTP)](sftp-data-automa
 - Set up PGP encryption (optional)
 - View credentials and select a port number to access your SFTP account
 
-Your IT team may need to add an IP exception or add hosts and ports to an allowlist to connect to SFTP. [Learn more](allowed-list.md#sftp-ip-exceptions). 
+Your IT team may need to add an IP exception or add hosts and ports to an allowlist to connect to SFTP. [Learn more](allowed-list.md#secure-file-transfer-protocol-ip-exceptions). 
 
 Learn more about how to set up SFTP with this video and the guidance in this article:
 > [!VIDEO 641b5e1a-e628-4c7d-a0e4-62828c91b123]
