@@ -33,8 +33,8 @@ To export 360 content files from the cycle page and edit content to prepare for 
 1. In the dialog that appears, choose the **Content Details to Include** and select **Languages** to export.
 1. Select XLSX or CSV in the **Select Content Type** dropdown menu.
 
-> [!NOTE]
-> New 360 content can't be added to your cycle with the export/import process. This feature only updates translations for content that already exists in your 360 cycle.
+   > [!NOTE]
+   > New 360 content can't be added to your cycle with the export/import process. This feature only updates translations for content that already exists in your 360 cycle.
 
    :::image type="content" source="../../media/glint/setup/360-export-cycle-content.png" alt-text="Screenshot of the Export Cycle Content dialog with content, language, and file format selections.":::
 
