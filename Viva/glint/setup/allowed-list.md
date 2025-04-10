@@ -6,7 +6,7 @@ author: AliciaWeixelman
 manager: melissabarry
 audience: admin
 f1.keywords: NOCSH
-keywords: approved sender, allowed list, firewall, spam, allowlist, whitelist
+keywords: approved sender, allowed list, firewall, spam, allowlist
 ms.collection: 
  - m365initiative-viva
  - selfserve
@@ -82,7 +82,7 @@ Your organization may need to take steps to allow users to post and reply to que
 
 Some Viva Glint applications require the use of **third-party cookies**, like hosted learning content. If you receive an error saying that your browser is missing an authentication cookie, take appropriate steps to allow this third-party cookie.
 
-## Secure file transfer protocol (SFTP) IP exceptions
+## Secure file transfer protocol IP exceptions
 
 If your organization requires an **IP exception** for Viva Glint's SFTP server, use the IP address based on your Viva Glint region (US or EU) and selected SFTP port (22 or 1122):
 
