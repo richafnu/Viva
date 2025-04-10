@@ -49,14 +49,14 @@ Manage SFTP settings to connect to your Viva Glint SFTP account:
    |**SFTP Credentials**     |Required       |After selecting a port number (22 or 1122), copy credentials shown in the platform to connect to SFTP. Your host name changes based on your region (US or EU) and selected port. Allow at least one hour after entering public SSH keys and optional IP addresses before testing your connection.<br><br><ul><li>**File Protocol**: _SFTP_</li><li>**Port**: Select 22 or 1122</li> <li>**Host Name**: _Varies based on region (US or EU) and selected port. Copy from the platform for the correct host name._</li> <li>**Username:** _Company ID_</li> <li>**Password:** _Not applicable, use your private SSH key file_</li></ul>        |
 
    \* When a tenant is deprovisioned or considered in a "LockedOut" state, public SSH keys are deleted and SFTP no longer works.<br><br>
-
->[!NOTE]
->For more information about deprovisioning, read about [Deleting a Microsoft Entra tenant](/entra/identity/users/directory-delete-howto) and [Data deletion in Microsoft 365](/compliance/assurance/assurance-data-retention-deletion-and-destruction-overview).
    
    \** Private IP ranges aren't internet routable and don't allow SFTP connection. Don't include private IP addresses, which fall in these ranges:
    - **10.0.0.0/8 IP addresses:** 10.0.0.0 – 10.255.255.255
    - **172.16.0.0/12 IP addresses:** 172.16.0.0 – 172.31.255.255
    - **192.168.0.0/16 IP addresses:** 192.168.0.0 – 192.168.255.255
+
+>[!NOTE]
+>For more information about deprovisioning, read about [Deleting a Microsoft Entra tenant](/entra/identity/users/directory-delete-howto) and [Data deletion in Microsoft 365](/compliance/assurance/assurance-data-retention-deletion-and-destruction-overview).
 
 ## PGP key expiration
 
