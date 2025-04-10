@@ -6,7 +6,7 @@ author: AliciaWeixelman
 manager: melissabarry
 audience: admin
 f1.keywords: NOCSH
-keywords: sftp, public ip address, pgp encryption, data transfer, ssh key
+keywords: sftp, public ip address, pgp encryption, data transfer, ssh key, deprovisioning
 ms.collection: 
  - m365initiative-viva
  - selfserve
@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: install-set-up-deploy
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 04/04/2025
+ms.date: 04/10/2025
 ---
 
 # Set up Secure File Transfer Protocol (SFTP) in Viva Glint
@@ -49,6 +49,9 @@ Manage SFTP settings to connect to your Viva Glint SFTP account:
    |**SFTP Credentials**     |Required       |After selecting a port number (22 or 1122), copy credentials shown in the platform to connect to SFTP. Your host name changes based on your region (US or EU) and selected port. Allow at least one hour after entering public SSH keys and optional IP addresses before testing your connection.<br><br><ul><li>**File Protocol**: _SFTP_</li><li>**Port**: Select 22 or 1122</li> <li>**Host Name**: _Varies based on region (US or EU) and selected port. Copy from the platform for the correct host name._</li> <li>**Username:** _Company ID_</li> <li>**Password:** _Not applicable, use your private SSH key file_</li></ul>        |
 
    \* When a tenant is deprovisioned or considered in a "LockedOut" state, public SSH keys are deleted and SFTP no longer works.<br><br>
+
+>[!NOTE]
+>For more information about deprovisioning, read about [Deleting a Microsoft Entra tenant](/entra/identity/users/directory-delete-howto) and [Data deletion in Microsoft 365](/compliance/assurance/assurance-data-retention-deletion-and-destruction-overview).
    
    \** Private IP ranges aren't internet routable and don't allow SFTP connection. Don't include private IP addresses, which fall in these ranges:
    - **10.0.0.0/8 IP addresses:** 10.0.0.0 – 10.255.255.255
