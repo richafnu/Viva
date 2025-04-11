@@ -74,12 +74,12 @@ If you need to provide a survey taker with their raw survey responses to fulfill
 
 By default, export of raw survey responses is enabled for each new Viva Glint survey program. However, the Viva Glint admin can disable export using a control in the Confidentiality section of Program Setup.
 
-1.	Select Survey Programs in the Survey section.
-2.	Select the survey and then Program Setup on the Program Summary page.
+1.	Select **Survey Programs** in the **Survey** section.
+2.	Select the survey and then **Program Setup** on the *Program Summary* page.
 3.	Find the Confidentiality section of the Program Setup page.
-4.	Here you find a control entitled “Enable Raw Survey Response Export.” 
-5.	By default, the control is set to YES, meaning export is enabled.
-6.	To disable export of raw survey responses, set the control to NO.
+4.	Here you find a control entitled **Enable Raw Survey Response Export**. 
+5.	By default, the control is set to **YES**, meaning export is enabled.
+6.	To disable export of raw survey responses, set the control to **NO**.
 
 > [!NOTE]
 > You can't enable export of raw survey responses when a program is in Approved status. To enable raw survey response export, ensure Approved is set to NO. 
