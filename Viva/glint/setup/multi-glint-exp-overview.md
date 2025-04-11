@@ -32,6 +32,9 @@ Each Viva Glint experience allows Viva Glint Admins to independently manage:
 - Surveys
 - Reports
 
+> [!IMPORTANT]
+> Single tenants with multiple Viva Glint experiences are currently supported for customers migrating from LinkedIn Glint only.
+
 ## Manage Viva Glint experiences in the Microsoft 365 admin center
 
 In the Microsoft 365 admin center, manage licenses, assigned service admins, and other settings for each Viva Glint experience that’s part of your tenant. [Learn more](manage-exp-in-mac.md).
