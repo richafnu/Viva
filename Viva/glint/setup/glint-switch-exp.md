@@ -39,7 +39,7 @@ To access and switch between Viva Glint experiences:
 
    :::image type="content" source="../../media/glint/setup/vg-sami-first-login.png" alt-text="Screenshot of the Viva Glint experience selection page.":::
 
-1. Afer logging in, switch between Viva Glint experiences with the dropdown menu in the app.
+1. After logging in, switch between Viva Glint experiences with the dropdown menu in the app.
    > [!NOTE]
    > After initial login, users see a **Select your Glint experience** prompt. For future logins, the last Viva Glint experience that a user selected displays on their dashboard. 
 
