@@ -25,6 +25,9 @@ Viva Glint Administrators and dashboard users can access multiple Microsoft Viva
   - Example: If kat@contoso.com should access three separate Viva Glint experiences (Contoso, Fabrikam, and Relecloud), they need to be uploaded to all three Viva Glint experiences with the same email address: kat@contoso.com.
 - A license for each Viva Glint experience that they need to access. 
 
+> [!IMPORTANT]
+> Single tenants with multiple Viva Glint experiences are currently supported for customers migrating from LinkedIn Glint only.
+
 To access and switch between Viva Glint experiences: 
 
 1. Select a link based on the region that your organization's Viva Glint tenant sits in.
