@@ -34,18 +34,18 @@ Each Viva Glint experience allows Viva Glint Admins to independently manage:
 
 ## Manage Viva Glint experiences in the Microsoft 365 admin center
 
-In the Microsoft 365 admin center, manage licenses, assigned service admins, and other settings for each Viva Glint experience that’s part of your tenant. [Learn more](xxxxx).
+In the Microsoft 365 admin center, manage licenses, assigned service admins, and other settings for each Viva Glint experience that’s part of your tenant. [Learn more](manage-exp-in-mac.md).
 
 :::image type="content" source="../../media/glint/setup/mac-glint-experiences.png" alt-text="Screenshot of multiple Viva Glint experiences in the Microsoft 365 admin center.":::
 
 ## Sign in and switch between Viva Glint experiences in the app
 
-Viva Glint Admins and dashboard users can access multiple Viva Glint experiences that they’re assigned to in one tenant when their user profiles and licenses are set up correctly. [Learn more](xxxxx).
+Viva Glint Admins and dashboard users can access multiple Viva Glint experiences that they’re assigned to in one tenant when their user profiles and licenses are set up correctly. [Learn more](glint-switch-exp.md).
 
 :::image type="content" source="../../media/glint/setup/vg-experience-switcher-dash.png" alt-text="Screenshot of the Viva Glint experience dropdown menu in a dashboard.":::
 
 ## Add custom branding for your organization in the Viva Glint app
 
-Use custom branding to apply a unique dashboard and survey experience for your organization. Custom branding that Viva Glint Admins add in the Viva Glint app overrides any [custom themes](/microsoft-365/admin/setup/customize-your-organization-theme) your organization sets up in the Microsoft 365 admin center. If there’s no custom theme set up in the Microsoft 365 admin center or in the Viva Glint app, the app uses standard Viva Glint branding. [Learn more](xxx).
+Use custom branding to apply a unique dashboard and survey experience for your organization. Custom branding that Viva Glint Admins add in the Viva Glint app overrides any [custom themes](/microsoft-365/admin/setup/customize-your-organization-theme) your organization sets up in the Microsoft 365 admin center. If there’s no custom theme set up in the Microsoft 365 admin center or in the Viva Glint app, the app uses standard Viva Glint branding. [Learn more](custom-branding.md).
 
 :::image type="content" source="../../media/glint/setup/branding-pane.png" alt-text="Screenshot of the Viva Glint custom branding edit pane.":::
