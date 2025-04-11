@@ -19,9 +19,18 @@ ms.date: 04/11/2025
 
 # Set up multiple Viva Glint experiences in your tenant
 
-For large organizations with business units that operate independently, Microsoft Viva Glint supports the ability to install multiple instances of Viva Glint to one Microsoft Entra tenant. Viva Glint Administrators can manage Viva Glint experiences in the Microsoft 365 admin center, learn how to switch between Viva Glint experiences in the app, and add custom branding for each Viva Glint experience.
+For large organizations with business units that operate independently, Microsoft Viva Glint supports the ability to install multiple instances of Viva Glint to one Microsoft Entra tenant. [Viva Glint Tenant Administrators](/viva/glint/start/role-definitions#viva-glint-tenant-administrator) can manage Viva Glint experiences in the Microsoft 365 admin center and [Viva Glint Administrators](/viva/glint/start/role-definitions#viva-glint-administrator) can switch between Viva Glint experiences in the app and add custom branding for each Viva Glint experience.
 
-Each Viva Glint experience allows Viva Glint Admins to independently manage in-app platform settings, attribute setups, data uploads, users, roles, distribution lists, surveys, and reports. 
+Each Viva Glint experience allows Viva Glint Admins to independently manage: 
+
+- In-app settings
+- Attribute setups
+- Data uploads
+- Users
+- Roles
+- Distribution lists
+- Surveys
+- Reports
 
 ## Manage Viva Glint experiences in the Microsoft 365 admin center
 
