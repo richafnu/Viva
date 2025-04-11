@@ -27,7 +27,7 @@ Viva Glint Administrators, designated by your Microsoft 365 Global Admin, can us
 For information on how to support a request to delete data, visit [Delete user data from Viva Glint](delete-user-data.md). For information on how to export user data, visit the section [Use the People feature to export responses](#use-the-people-feature-to-export-responses).
 
 >[!IMPORTANT]
-> You may have multiple Viva Glint experiences in your tenant. As each experience operates independently, users' personal data may be distributed across multiple experiences. For this reason, users must request data deletion (DSRs) for each instance they are part of.
+> You may have multiple Viva Glint experiences in your tenant. As each experience operates independently, users' personal data may be distributed across multiple experiences. For this reason, users must request data deletion (DSRs) for each instance they're part of.
 
 
 ## Delete user data
