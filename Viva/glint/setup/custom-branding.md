@@ -59,7 +59,7 @@ Review Contoso's custom branding examples for their survey header, dashboard nav
 
 ### Navigation bar
 
-:::image type="content" source="../../media/glint/setup/custom-nav-menu.png" alt-text="Screenshot of a Viva Glint custom branded navigation bar with a company logo.":::
+:::image type="content" source="../../media/custom-nav-menu.png" alt-text="Screenshot of a Viva Glint custom branded navigation bar with a company logo.":::
 
 ### Survey email
 
