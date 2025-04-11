@@ -50,6 +50,8 @@ To assign Viva Glint Service Admins as the Viva Glint Tenant Admin:
 5. Select **Add** to assign users.
 6. Newly assigned users appear in the Viva Glint application in the Company Admin role within minutes.
 7. Newly assigned users receive an email notification:
+
+   :::image type="content" source="../../media/glint/setup/service-admin-email.png" alt-text="Screenshot of the email notification that Viva Glint service admins receive when they're added to the admin role.":::
    
 
 > [!CAUTION]
