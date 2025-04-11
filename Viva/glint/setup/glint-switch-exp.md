@@ -19,7 +19,7 @@ ms.date: 04/11/2025
 
 # Sign in to and switch between Viva Glint experiences in the app
 
-Viva Glint Administrators and dashboard users can access multiple Microsoft Viva Glint experiences in one tenant. Viva Glint Administrators and dashboard users can access multiple Microsoft Viva Glint experiences in one tenant. To successfully sign in, users need: 
+Viva Glint Administrators and dashboard users can access multiple Microsoft Viva Glint experiences in one tenant. To successfully sign in, users need: 
 
 - A profile uploaded in each Viva Glint experience with the same email address that matches the email address in Microsoft Entra.
   - Example: If kat@contoso.com should access three separate Viva Glint experiences (Contoso, Fabrikam, and Relecloud), they need to be uploaded to all three Viva Glint experiences with the same email address: kat@contoso.com.
