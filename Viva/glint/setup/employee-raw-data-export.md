@@ -29,20 +29,20 @@ In Microsoft Viva Glint, "raw survey responses" refers to unaggregated survey re
 
 By default, Viva Glint’s in-product reporting doesn't include raw survey responses and is reported in the aggregate. However, your organization may choose to make some surveys “identifiable,” meaning survey responses are directly linked to the survey taker. If a survey is identifiable, survey takers are informed before taking the survey. Learn more about [Viva Glint confidentiality and reporting](viva-glint-survey-privacy.md).
 
-While raw survey responses aren't included in Viva Glint default reporting, Viva Glint Administrators can export them unless export is disabled. Even when export of raw survey responses is disabled, your organization may still access raw survey responses if it determines that certain Extreme Circumstances exist. Learn more about the [Extreme Circumstances exception](#exception-for-extreme-circumstances). 
+While raw survey responses aren't included in Viva Glint default reporting, Viva Glint admins can export them unless export is disabled. Even when export of raw survey responses is disabled, your organization may still access raw survey responses if it determines that certain Extreme Circumstances exist. Learn more about [Extreme Circumstances](#exception-for-extreme-circumstances). 
 
 ## Configuring raw survey response export
 
 By default, raw survey responses are exportable for each new survey program, but Viva Glint admins can opt out of raw survey response exports. When setting up each Viva Glint program, the Viva Glint admin decides whether raw survey response exports are available. 
 
-Admins can configure the Export Raw Survey Responses control at any time during a survey program, but the change only applies to future survey cycles. Closed cycles permanently conform to the setting established when the cycle launched. That is, if export was disabled when a survey cycle launched, enabling it later doesn't retroactively allow export of raw survey responses.
+Admins can configure the Export Raw Survey Responses control at any time during a survey program, but the change only applies to future survey cycles. Closed cycles permanently conform to the setting established when the cycle launches. So, if export was disabled when a survey cycle launched, enabling it later doesn't retroactively allow export of raw survey responses.
 
 ## Disabling export of raw survey responses permanently limits your access to this data
 
 > [!CAUTION]
 > Disabling export of raw survey responses means that:
 > - Your organization permanently loses the ability to access these raw survey responses unless you determine that certain Extreme Circumstances exist. Learn more about the [Extreme Circumstances exception](raw-data-extreme-circumstances.md). 
-> - If your organization leaves Viva Glint, you aren't able to take these raw survey responses with you.
+> - If your organization leaves Viva Glint, you can't take raw survey responses with you.
 > - You aren't able to (and Microsoft isn't able to facilitate) transfer of these raw survey responses to a third party, such as an alternative survey platform or data analytics consultant.  
 
 ## Exception for Extreme Circumstances
@@ -53,7 +53,7 @@ Even when export of raw survey responses is disabled, you can still identify a s
 
 Extreme Circumstances exist if your organization feels that disclosure of a survey taker’s identity is necessary. Valid reasons are to investigate, prevent, or act regarding illegal activities, suspected fraud, or situations with potential threats to the safety of a person, or otherwise to comply with the law.
 
-If your organization determines that Extreme Circumstances exist, you can make an Extreme Circumstances disclosure request, and Microsoft can identify the survey taker.
+If your organization determines that Extreme Circumstances exist, make an Extreme Circumstances disclosure request, and Microsoft can identify the survey taker.
 
 ### Who determines whether Extreme Circumstances exist?
 
@@ -122,7 +122,7 @@ If export is enabled for a survey program, you can export raw survey responses f
 
 ## Raw survey response file layout and content
 
-The fields included in your Viva Glint raw survey response exports varies. Variation is based on the attributes that your organization sends, export selections, and the items included in your survey. The following columns are always included, with a field for every survey item:
+The fields included in Viva Glint raw survey response exports vary. Variation is based on the attributes that your organization sends, export selections, and the items included in your survey. These columns are always included, including a field for every survey item:
 
 |Field Label  |Description   |Value Format|
 |----------|-----------|------------|
@@ -135,14 +135,13 @@ The fields included in your Viva Glint raw survey response exports varies. Varia
 
 ### Partial, blank, and termed employee response handling
 
-
-- Partially completed surveys that participants don't submit aren't included in raw response exports.
-- Blank surveys with no question responses or comments aren't included in raw response exports.
-- Surveys submitted by terminated employees are included in raw response exports. Consider your organization's [data deletion settings](manage-general-settings.md#user-data) and how they affect terminated employee response data.
+- Partially completed surveys that participants don't submit **aren't** included in raw response exports.
+- Blank surveys with no question responses or comments **aren't** included in raw response exports.
+- Surveys submitted by terminated employees **are** included in raw response exports. Consider your organization's [data deletion settings](manage-general-settings.md#user-data) and how they affect terminated employee response data.
 
 > [!NOTE]
 > - The export option is only available to admins.
-> -	The export option is only enabled for a survey cycle if the raw survey response export was enabled for the selected survey program before the survey went live.
+> -	The export option is only enabled for a survey cycle if the raw survey response export is enabled before the survey went live.
 
 > [!CAUTION]
 > Once a survey is live, the choice to enable or disable raw survey response export can't be changed for that survey.
