@@ -11,7 +11,7 @@ ms.collection:
  - m365initiative-viva
  - selfserve
 search-appverid: MET150
-ms.topic: article
+ms.topic: checklist
 ms.service: viva-glint
 ms.localizationpriority: high
 ms.date: 03/10/2025
@@ -65,7 +65,7 @@ Confirm that your employee data file, attributes, and attribute values align wit
 |Consistency | Values have a consistent spelling and naming convention. For example, department value of 'Sales,' 'SALES,' and 'sales' all appear as different values in reporting.      |
 
 > [!IMPORTANT]
-> *See [Upcoming language changes](attribute-fundamentals.md#upcoming-language-changes) for changes to supported languages and codes effective April 10, 2025.
+> *See [Recent language changes](attribute-fundamentals.md#recent-language-changes) for changes to supported languages and codes effective April 10, 2025.
 
 ## Next step
 After confirming that your data follows Viva Glint requirements and best practices with checklists, set up attributes in Viva Glint to create a mapping of your employee attributes.

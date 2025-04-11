@@ -6,15 +6,15 @@ author: JudyWeiner
 manager: MelissaBarry
 audience: admin
 f1.keywords: NOCSH
-keywords: Sharing conversations, presentation kit
+keywords: Sharing conversations, presentation kit, manager feedback resource
 ms.collection: 
  - m365initiative-viva
  - selfserve
 search-appverid: MET150
-ms.topic: article
+ms.topic: how-to
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 2/25/2025
+ms.date: 3/11/2025
 ---
 
 # Managers using Viva Glint Team Conversations
@@ -23,13 +23,13 @@ Managers use a Microsoft Viva Glint Team Conversations Presentation Kit to launc
 
 Watch and share this 3-minute video:
 
-[Propelling Action Through Team Conversations](https://www.microsoft.com/en-us/videoplayer/embed/RE5fHQ2?postJsllMsg=true)
+[Propelling Action Through Team Conversations](https://learn-video.azurefd.net/vod/player?id=6e55bbb2-5135-47ac-ad71-f5ec785a8620)
 
 ## View the Team Conversations guide as a manager sees it
 
 To view the 4-step Manager Concierge - the Team Conversations Presentation Kit guide - as a manager sees it, choose a manager with Team Conversations permissions from the **People feature** on your manager dashboard. Select **View As**.
 
-In this fictious example, our manager's name is Aisha. They see this Viva Glint dashboard:
+In this fictitious example, our manager's name is Aisha. They see this Viva Glint dashboard:
 
 :::image type="content" source="../../media/glint/reports/4-step-manager-dashboard.png" alt-text="Screenshot of the 4-step Team Conversations guide for managers.":::
 
