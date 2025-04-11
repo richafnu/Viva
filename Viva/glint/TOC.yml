@@ -37,6 +37,14 @@ items:
                  href: setup/glint-mto.md          
                - name: Multitenant organization FAQ
                  href: setup/mto-faq.md
+          - name: Use multiple Viva Glint experiences
+            items: 
+               - name: Multiple Glint experiences overview
+                 href: setup/multi-glint-exp-overview.md         
+               - name: Manage experiences in the Microsoft 365 admin center
+                 href: setup/manage-exp-in-mac.md
+               - name: Switch between experiences
+                 href: setup/glint-switch-exp.md              
           - name: Invite Government cloud guest users
             href: setup/glint-gcch-b2b-guest.md
           - name: Assign Glint admins
@@ -183,6 +191,8 @@ items:
               href: setup/opting-into-external-benchmarks.md
             - name: Customize a PowerPoint template for reports
               href: setup/custom-ppt-upload.md
+            - name: Add custom branding
+              href: setup/custom-branding.md
       - name: Monitor events in Activity Audit Log
         href: setup/activity-audit-log.md   
       - name: Manage Advanced Configuration settings
