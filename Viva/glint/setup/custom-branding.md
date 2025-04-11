@@ -1,6 +1,6 @@
 ---
 title: Add custom branding for your organization in the Viva Glint app
-description: 
+description: Use custom branding to apply a unique dashboard and survey experience for your organization.
 ms.author: aweixelman
 author: AliciaWeixelman
 manager: melissabarry
@@ -33,7 +33,7 @@ To add custom branding:
    2. In the **Logo options** section, update the following fields.
       1. **Custom logo**: Add your logo, which must be .jpg, .jpeg, or transparent .png file and less than or equal to 10 kilobytes.
       1. **Use custom logo in live survey header**:
-         5. Select tge chekbox to display your company's logo in the survey header for survey takers.
+         5. Select the checkbox to display your company's logo in the survey header for survey takers.
          6. Clear the checkbox to display the Viva Glint logo in the survey header for survey takers.
       1. **Target URL:** Optionally, add a link that directs users to a specified site or page when they select your custom logo.
          5. If blank, the target URL in your organization’s [custom theme](/microsoft-365/admin/setup/customize-your-organization-theme) in the Microsoft 365 admin center is used.
@@ -47,11 +47,11 @@ To add custom branding:
          :::image type="content" source="../../media/glint/setup/custom-brand-pane-setup.png" alt-text="Screenshot of the Viva Glint custom branding edit pane with all settings complete.":::
 
 > [!NOTE]
-> Keep [usability standards](/windows/apps/design/signature-experiences/color#usability) related to contrast, lighting, and colorblindness in mind when adding custom branding. Warnings display when the minimum color contrast ratio (`4:5:1`) isn’t met.
+> Keep [usability standards](/windows/apps/design/signature-experiences/color#usability) related to contrast, lighting, and color blindness in mind when adding custom branding. Warnings display when the minimum color contrast ratio (`4:5:1`) isn’t met.
 
 ## Custom branding examples
 
-Review Contoso's custom branding examples for their survey header, dashbaord navigation bar, and survey email.
+Review Contoso's custom branding examples for their survey header, dashboard navigation bar, and survey email.
 
 ### Survey header
 
@@ -59,6 +59,7 @@ Review Contoso's custom branding examples for their survey header, dashbaord nav
 
 ### Navigation bar
 
+:::image type="content" source="../../media/glint/setup/custom-nav-menu.png" alt-text="Screenshot of a Viva Glint custom branded navigation bar with a company logo.":::
 
 ### Survey email
 
