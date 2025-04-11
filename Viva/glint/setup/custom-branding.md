@@ -33,17 +33,18 @@ To add custom branding:
    2. In the **Logo options** section, update the following fields.
       1. **Custom logo**: Add your logo, which must be .jpg, .jpeg, or transparent .png file and less than or equal to 10 kilobytes.
       1. **Use custom logo in live survey header**:
-         5. Select the checkbox to display your company's logo in the survey header for survey takers.
-         6. Clear the checkbox to display the Viva Glint logo in the survey header for survey takers.
+         - Select the checkbox to display your company's logo in the survey header for survey takers.
+         - Clear the checkbox to display the Viva Glint logo in the survey header for survey takers.
       1. **Target URL:** Optionally, add a link that directs users to a specified site or page when they select your custom logo.
-         5. If blank, the target URL in your organization’s [custom theme](/microsoft-365/admin/setup/customize-your-organization-theme) in the Microsoft 365 admin center is used.
-         6. If your organization doesn’t have a target URL specified in a custom theme, the logo directs users to the Office 365 homepage.
+         - If blank, the target URL in your organization’s [custom theme](/microsoft-365/admin/setup/customize-your-organization-theme) in the Microsoft 365 admin center is used.
+         - If your organization doesn’t have a target URL specified in a custom theme, the logo directs users to the Office 365 homepage.
    3. In the Color options section, update and view the following fields.
       1. **Navigation bar color:** Add a hex color code for the background color of the navigation bar that appears at the top of the platform for dashboard users and Viva Glint Admins.
       2. **Text and icon color:** Add a hex color code for the text and icons that appear on the navigation bar that appears at the top of the platform for dashboard users and Viva Glint Admins.
       3. **Accent color:** Add a hex color code for accent buttons, links, and other elements in the platform.
       4. **Preview:** Use the preview displayed to see how your selected colors appear in Viva Glint.
       5. **Reset colors to default:** Select this option to revert to your organization’s [custom theme](/microsoft-365/admin/setup/customize-your-organization-theme) in the Microsoft 365 admin center.
+         
          :::image type="content" source="../../media/glint/setup/custom-brand-pane-setup.png" alt-text="Screenshot of the Viva Glint custom branding edit pane with all settings complete.":::
 
 > [!NOTE]
