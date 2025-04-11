@@ -21,6 +21,9 @@ ms.date: 04/11/2025
 
 As an organization with multiple Microsoft Viva Glint experiences in one tenant, manage licenses, service admins, and other settings for each experience in the Microsoft 365 admin center. 
 
+> [!IMPORTANT]
+> Single tenants with multiple Viva Glint experiences are currently supported for customers migrating from LinkedIn Glint only.
+
 > [!NOTE]
 > To manage Viva Glint experiences in the Microsoft 365 admin center, users need to be members of the [Viva Glint Tenant Administrator role](/entra/identity/role-based-access-control/permissions-reference#viva-glint-tenant-administrator), the [Microsoft 365 global admin role](/entra/identity/role-based-access-control/permissions-reference#global-administrator), or the [License Administrator role](/entra/identity/role-based-access-control/permissions-reference#license-administrator). 
 
