@@ -153,7 +153,7 @@ items:
       - name: Manage User Roles
         href: setup/set-up-user-roles.md
         items:
-            - name: Custom User Roles
+            - name: User Roles with custom access
               href: setup/custom-user-role.md
             - name: Custom data access export
               href: setup/custom-access.md       
@@ -376,8 +376,6 @@ items:
             href: reports/cross-program-intelligence.md
           - name: Color coding
             href: reports/color-coding.md
-          - name: Mean and favorability scoring
-            href: reports/mean-score.md
           - name: Export reports as PDF
             href: reports/export-report-pdf.md
           - name: Manager reporting trend
