@@ -53,7 +53,7 @@ When a score increases or decreases, it’s useful to know where the increase or
 - Percent favorability only shows respondents who agree with the statement. Neutral or unfavorable scores aren’t provided.
 - Percent favorability doesn't reflect changes in scores over time.
 
-###Favorability rating scale point interpretation guide
+### Favorability rating scale point interpretation guide
 
 |Rating scale points|Favorable|Neutral|Unfavorable|
 |---------|-----------|--------|----------|
