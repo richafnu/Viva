@@ -1,6 +1,6 @@
 ---
 title: User Roles with custom data access in Viva Glint
-description: Admins can customize roles to view and modify members, attributes, and permissions.
+description: Microsoft Viva Glint custom access can override default access and meet access needs that specific enough to be tied to a user rather the User Role.
 ms.author: JudithWeiner
 author: JudyWeiner
 manager: MelissaBarry
@@ -19,11 +19,7 @@ ms.date: 04/14/2025
 
 # User Roles with custom data access in Viva Glint
 
-Microsoft Viva Glint custom access is intended for users who need to have their default access overridden or are in a role that is so specific, it needs to be per user rather than at the User Role level. For example, use custom access for HR Business Partners who serve unique combinations of employee groups in your organization.
-
-> [!IMPORTANT]
-> Users with customized Admin access can only see employee data for populations of users that they have access to. <br><br>
-> For example, if a user has custom Admin access to Department = 'Sales' and 'Marketing,' they don't see Distribution Lists or users in People that have other Department values.
+Microsoft Viva Glint custom access can override default access and meet access needs that specific enough to be tied to a user rather the User Role. For example, use custom access for HR Business Partners who serve unique combinations of employee groups in your organization.
 
 ## Grant custom survey access for a user
 
@@ -38,7 +34,7 @@ Microsoft Viva Glint custom access is intended for users who need to have their 
    :::image type="content" source="../../media/glint/setup/custom-access-dialog.png" alt-text="Screenshot of dialog that appears to let an admin edit a user's custom access.":::
     
 5. Select **+ Population** and then **+ Add Filters**.
-6. Select attributes and values that define the segment of employee data that this user be able to access and select **Done**.
+6. Select attributes and values that define the segment of employee data that this user should access and select **Done**.
 
    :::image type="content" source="../../media/glint/setup/custom-access-selection.png" alt-text="Screenshot of dialog with custom access attribute values selected.":::
    
@@ -46,9 +42,13 @@ Microsoft Viva Glint custom access is intended for users who need to have their 
 
 ### Custom access to direct reports
 
-For direct reports to have custom access, they need to be identified by their "manager ID" and not "manager hierarchy." Using "manager hierarchy" can inadvertently lead to granting reporting access to unintended users and blocking reporting access from intended users.
+For direct reports to have custom access, they need to identify them by "manager ID" and not "manager hierarchy." Using "manager hierarchy" can grant access to unintended users and block reporting access from intended users.
 
 ### Custom Admin and Focus Area access
+
+> [!IMPORTANT]
+> Users with customized Admin access can only see employee data for populations of users that they have access to. <br><br>
+> For example, if a user has custom Admin access to Department = 'Sales' and 'Marketing,' they don't see Distribution Lists or users in People that have other Department values.
 
 Users can have Focus Areas and admin access customized.
 
@@ -72,19 +72,19 @@ For survey, Focus Area, and Admin access, you can grant access to one or multipl
 #### Example: 
 For this manager to have access to the overlapping data between Cost Centres: 10010, 10414, 11140 and Departments: Support, Sales, and Marketing, select all values in one population:
 
-:::image type="content" source="../../media/glint/setup/select-one-population.png" alt-text="Screenshot of dialog with cost centre and department values selected in one populations.":::
+:::image type="content" source="../../media/glint/setup/select-one-population.png" alt-text="Screenshot of dialog with cost center and department values selected in one population.":::
 
-This appears on their user profile as one population. with values from both attributes:
+This appears on their user profile as one population with values from both attributes:
 
-:::image type="content" source="../../media/glint/setup/user-access-one-population.png" alt-text="Screenshot of user access with cost centre and department values selected in one populations.":::
+:::image type="content" source="../../media/glint/setup/user-access-one-population.png" alt-text="Screenshot of user access with cost center and department values selected in one population.":::
 
 But, to grant this user access to these employee groups *separately* -so they don't have access to only the overlap of these populations - add the attribute values selections in separate populations:
 
-:::image type="content" source="../../media/glint/setup/select-two-populations.png" alt-text="Screenshot of dialog with cost centre and department values selected in separate populations.":::
+:::image type="content" source="../../media/glint/setup/select-two-populations.png" alt-text="Screenshot of dialog with cost center and department values selected in separate populations.":::
 
-Now this appears on their user profile as two populations, with values from each attribute:
+This access appears on their user profile as two populations, with values from each attribute:
 
-:::image type="content" source="../../media/glint/setup/user-access-two-populations.png" alt-text="Screenshot of user access with cost centre and department values selected in separate populations.":::
+:::image type="content" source="../../media/glint/setup/user-access-two-populations.png" alt-text="Screenshot of user access with cost center and department values selected in separate populations.":::
 
 
 
