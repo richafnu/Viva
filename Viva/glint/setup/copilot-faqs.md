@@ -138,7 +138,7 @@ For the best feedback, encourage your employees to leave comments in their nativ
 
 <br>**Q: How is feedback data calculated?**
 
-**A** Learn about [Microsoft Viva Glint's Narrative Intelligence](https://techcommunity.microsoft.com/discussions/results_and_action_taking_on_viva_glint/what-is-viva-glints-narrative-intelligence/3884799) and download the PDF to share with your leaders.
+**A:** Learn about [Microsoft Viva Glint's Narrative Intelligence](https://techcommunity.microsoft.com/discussions/results_and_action_taking_on_viva_glint/what-is-viva-glints-narrative-intelligence/3884799) and download the PDF to share with your leaders.
 
 ## Copilot roadmap
 
