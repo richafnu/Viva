@@ -2590,6 +2590,6 @@
   {
     "source_path": "Viva/glint/reports/mean-score.md",
     "redirect_url": "/viva/glint/reports/report-analytics-filtering-favorability-trending",
-    "redirect_document_id": true  
+    "redirect_document_id": false  
  ]
 }
