@@ -70,11 +70,11 @@ For survey, Focus Area, and Admin access, you can grant access to one or multipl
  - To give a user access to multiple populations separately, add them as separate populations.
 
 #### Example: 
-For this manager to have access to the overlapping data between Cost Centres: 10010, 10414, 11140 and Departments: Support, Sales, and Marketing, select all values in one population:
+For this manager to have access to the overlapping data between Cost Centers: 10010, 10414, 11140 and Departments: Support, Sales, and Marketing, select all values in one population:
 
 :::image type="content" source="../../media/glint/setup/select-one-population.png" alt-text="Screenshot of dialog with cost center and department values selected in one population.":::
 
-This appears on their user profile as one population with values from both attributes:
+This access appears on their user profile as one population with values from both attributes:
 
 :::image type="content" source="../../media/glint/setup/user-access-one-population.png" alt-text="Screenshot of user access with cost center and department values selected in one population.":::
 
