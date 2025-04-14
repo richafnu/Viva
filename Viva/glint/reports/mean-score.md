@@ -25,7 +25,7 @@ Viva Glint reports the Average score (transformed to a 100-point scale) and Favo
 
 When leaders review results for smaller populations, or look at trends between surveys, the Mean score metric doesn't have measurement challenges posed by the Percent Favorable metric. For smaller groups, the Percent Favorable metric can vary significantly without any real difference in sentiment and can be misleading. Percent Favorable scores don't capture differences in scores from neutral to unfavorable, an important detection.
 
-## Use the mean score over the favorability score
+## Use the Mean score over the Favorability score
 
 **Mean** - or **Average** - scores are:
 - Robust and meaningful to track over time, even for small teams.
