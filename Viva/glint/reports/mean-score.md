@@ -1,6 +1,6 @@
 ---
 title: The mean score and favorability score in Viva Glint survey results
-description: Viva People Science recommends using the average- or mean score -for interpreting feedback results.
+description: Microsoft People Science recommends using the Average (Mean) score for interpreting feedback results.
 ms.author: JudithWeiner
 author: JudyWeiner
 manager: MelissaBarry
@@ -23,7 +23,7 @@ As the primary metric, the mean score is transformed to a 100-point scale. This 
 
 Viva Glint reports the Average score (transformed to a 100-point scale) and Favorability scores (favorable, neutral, and unfavorable) for four metrics for each rating-type item. Leaders and managers can drill down to see all metrics for each group or subpopulation that meets the permissions and confidentiality thresholds set by your company.
 
-When reviewing results for smaller populations, or looking at trends during regular surveying, the Mean score metric doesn't have measurement challenges posed by the Percent Favorable metric. For smaller groups, the Percent Favorable metric can vary significantly without any real difference in sentiment and can be misleading. Percent Favorable scores don't capture differences in scores from neutral to unfavorable, an important detection.
+When leaders review results for smaller populations, or look at trends between surveys, the Mean score metric doesn't have measurement challenges posed by the Percent Favorable metric. For smaller groups, the Percent Favorable metric can vary significantly without any real difference in sentiment and can be misleading. Percent Favorable scores don't capture differences in scores from neutral to unfavorable, an important detection.
 
 ## Use the mean score over the favorability score
 
