@@ -98,19 +98,17 @@ Do the following to access external networks setup:
 
 In this section, you redeem your generated token to associate the new external network with the parent network.
 
-1. Log out of the new External network. (If you are using In-Private, or Saved Profiles you do not need to log-out.)
+1. Network switch to the parent Engage network. (Ensure that you're using the same Global Administrator account that's responsible for the new Entra tenant.) You now access external networks setup.
 
-2. Log in to the parent Engage network by going to engage.cloud.microsoft. (Ensure that you're using the same Global Administrator account that's responsible for the new Entra tenant.) You now access external networks setup.
+2. In Engage, select the settings icon and go to the admin center.
 
-3. In Engage, select the settings icon and go to the admin center.
+3. In the **Setup and configuration** tab, select **External networks**.
 
-4. In the **Setup and configuration** tab, select **External networks**.
-
-5. Select **Setup external network** to redeem the association code. Select the **Redeem code** tab, and add the association token and Entra tenant ID saved from the previous steps.
+4. Select **Setup external network** to redeem the association code. Select the **Redeem code** tab, and add the association token and Entra tenant ID saved from the previous steps.
 
     :::image type="content" source="../media/engage/admin/config-and-connect-5.png" alt-text="Select Redeem Code to establish the association.":::
 
-6. After the association, an *External network has been successfully setup* message appears.
+5. After the association, an *External network has been successfully setup* message appears.
 
     :::image type="content" source="../media/engage/admin/config-and-connect-6.png" alt-text="A message appears to confirm the setup.":::
 
