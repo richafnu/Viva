@@ -53,7 +53,7 @@ Permissions and License requirements include the following:
 
 The Global Administrator needs to follow the steps in the following **Create a New Tenant** link from Microsoft Entra.
 
-[QuickStart - Access and create new tenant - Microsoft Entra | Microsoft Learn](./entra/fundamentals/create-new-tenant#create-a-new-tenant-for-your-organization)
+[QuickStart - Access and create new tenant - Microsoft Entra | Microsoft Learn](../entra/fundamentals/create-new-tenant#create-a-new-tenant-for-your-organization).
 
 After you finish configuring the new tenant, keep its Entra tenant ID handy, because you'll need it for later steps.
 
@@ -119,7 +119,7 @@ You'll need to export or configure your user accounts for use in the new deploym
 3. As the Global Admin for the new Entra tenant, log-in to the Entra Portal. To bulk-add the users from the legacy external network, provide the exported users CSV file to bulk-invite them as guests in the new network.
 
 >[!NOTE]
-> For more information, see [Bulk invite B2B users - Microsoft Entra External ID | Microsoft Learn](./entra/external-id/tutorial-bulk-invite)
+> For more information, see [Bulk invite B2B users - Microsoft Entra External ID | Microsoft Learn](../entra/fundamentals/create-new-tenant#create-a-new-tenant-for-your-organization).
 
 ### Move the network data
 
