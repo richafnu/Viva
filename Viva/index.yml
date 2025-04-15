@@ -155,8 +155,6 @@ additionalContent:
               url: /viva/copilot/viva-copilot-overview
             - text: Control access to Copilot in Microsoft Viva
               url: /viva/copilot/copilot-access-management
-            - text: Get organizational insights with Copilot in Viva Insights
-              url: /viva/insights/org-team-insights/org-insights-copilot
             - text: Connect to the Microsoft 365 Copilot Dashboard in Viva Insights
               url: /viva/insights/org-team-insights/copilot-dashboard
             - text: Set up Copilot Academy
