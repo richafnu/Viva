@@ -21,11 +21,13 @@ search.appverid:
 
 # Work with external networks in Viva Engage
 
+See [Viva Engage Native Mode: Step-by-step guide](native-mode-guide.md) for more details about how it works and the advantages it offers. All Viva Engage networks must observe this standard.
+
 Viva Engage networks support a format called M365 Native Mode which uses Microsoft Entra identities and policies. Native mode operation is **required** for all Viva Engage networks in the enterprise. It enables users, groups, and content to map to their counterparts in Microsoft Entra and Microsoft 365. Native Mode also supports eDiscovery through the Microsoft Purview portal, so your organizations safely and securely collaborate in your Engage network.
 
 Viva Engage legacy external networks require alignment to Microsoft Entra to operate in M365 Native Mode. Customers benefit from the full suite of Microsoft Security and Compliance features.
 
-As of April 2025, nearly all customer organizations with significant Viva Engage networks observe the Native mode standard. Any remaining customers have until June 1st 2025 to complete the alignment of their external network to Microsoft Entra. Use the following procedures to develop your new external network and to migrate data from their existing external network.
+As of April 2025, nearly all customer organizations with significant Viva Engage networks observe the Native mode standard. Any remaining customers have until June 1st 2025 to complete the alignment of their external networks to Microsoft Entra. Use the following procedures to develop your new external network and to migrate data from their existing external network.
 
 ## Three-Phase external networks configuration
 
@@ -59,7 +61,7 @@ Permissions and License requirements include the following:
 
 The Global Administrator needs to follow the steps in the following **Create a New Tenant** link from Microsoft Entra.
 
-[QuickStart - Access and create new tenant - Microsoft Entra | Microsoft Learn](../entra/fundamentals/create-new-tenant#create-a-new-tenant-for-your-organization).
+[QuickStart - Access and create new tenant - Microsoft Entra | Microsoft Learn](./entra/fundamentals/create-new-tenant#create-a-new-tenant-for-your-organization).
 
 After you finish configuring the new tenant, keep its Entra tenant ID handy, because you'll need it for later steps.
 
@@ -104,13 +106,17 @@ In this section, you redeem your generated token to associate the new external n
 
 4. In the **Setup and configuration** tab, select **External networks**.
 
-5. Select **Setup external network** to redeem the association code. Select the **Redeem code** tab and add the association token and Entra tenant ID saved from the previous steps.
+5. Select **Setup external network** to redeem the association code. Select the **Redeem code** tab, and add the association token and Entra tenant ID saved from the previous steps.
 
     :::image type="content" source="../media/engage/admin/config-and-connect-5.png" alt-text="Select Redeem Code to establish the association.":::
 
 6. After the association, you will see an *External network has been successfully setup* message.
 
+    :::image type="content" source="../media/engage/admin/config-and-connect-6.png" alt-text="A message appears to confirm the setup.":::
+
 ### Connect the legacy Engage network to the new Engage network
+
+You need to run this procedure to move data from the current external network to your new one.
 
 1. From the parent Engage network, switch to the legacy external network.
 
@@ -118,13 +124,19 @@ In this section, you redeem your generated token to associate the new external n
 
 3. To associate the legacy external network to the new network, select **External network upgrade** from the menu.
 
+    :::image type="content" source="../media/engage/admin/config-and-connect-7.png" alt-text="Select the External Network Upgrade option from the Admin menu.":::
+
 4. Using the same Tenant ID and tenant association token from the previous steps, enter the information in the appropriate fields and select **Redeem Token**.
 
-After the token redemption, the legacy Engage external network is now associated with the new external network. The user is logged out at this point to allow logging in with Microsoft Entra as your identity provider. You're ready to begin data migration to the new network.
+    :::image type="content" source="../media/engage/admin/config-and-connect-8.png" alt-text="Select the Redeem Token option.":::
+
+After the token redemption, the legacy Engage external network is now associated with the new external network. The software logs out the user at this point to allow logging in with Microsoft Entra as your identity provider. You're ready to begin data migration to the new network.
 
 ## Data Migration from a legacy network to the new external network
 
-You'll need to export or configure your user accounts for use in the new deployment.
+The next process starts the data migration of the legacy network's content to the new external network. You'll need to export or configure your user accounts for use in the new deployment.
+
+    :::image type="content" source="../media/engage/admin/config-and-connect-9.png" alt-text="Migrating the existing network's content to the new network.":::
 
 1. Log in to the legacy external network using admin privileges.
 
@@ -133,7 +145,7 @@ You'll need to export or configure your user accounts for use in the new deploym
 3. As the Global Admin for the new Entra tenant, log-in to the Entra Portal. To bulk-add the users from the legacy external network, provide the exported users CSV file to bulk-invite them as guests in the new network.
 
 >[!NOTE]
-> For more information, see [Bulk invite B2B users - Microsoft Entra External ID | Microsoft Learn](../entra/fundamentals/create-new-tenant#create-a-new-tenant-for-your-organization).
+> For more information, see [Bulk invite B2B users - Microsoft Entra External ID | Microsoft Learn](./entra/fundamentals/create-new-tenant#create-a-new-tenant-for-your-organization).
 
 ### Move the network data
 
@@ -156,6 +168,10 @@ After completing the data move to the new external network, administrators must 
 > When you re-add guest accounts to the new network, it offers a feature to notify users of the new URL/domain.
 
 ## FAQ
+
+**Where can I find more information about M365 Native mode?**
+
+See [Viva Engage Native Mode: Step-by-step guide](native-mode-guide.md) for more details about how it works and its advantages. All Viva Engage networks must observe this standard.
 
 **What happens to my users from the legacy external network?**
 
