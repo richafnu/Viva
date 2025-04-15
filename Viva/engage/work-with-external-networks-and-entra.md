@@ -136,13 +136,15 @@ After the token redemption, the legacy Engage external network is now associated
 
 The next process starts the data migration of the legacy network's content to the new external network. You'll need to export or configure your user accounts for use in the new deployment.
 
-    :::image type="content" source="../media/engage/admin/config-and-connect-9.png" alt-text="Migrating the existing network's content to the new network.":::
+:::image type="content" source="../media/engage/admin/config-and-connect-9.png" alt-text="Migrating the existing network's content to the new network.":::
 
 1. Log in to the legacy external network using admin privileges.
 
-2. In the Admin experience, select **Export users** to export the set of user accounts in the legacy external network. Entra produces a .CSV file containing your user information.
+2. In the Admin experience, select **Export users** to export the set of user accounts in the legacy external network. Entra produces a .CSV file that contains your user account information.
 
-3. As the Global Admin for the new Entra tenant, log-in to the Entra Portal. To bulk-add the users from the legacy external network, provide the exported users CSV file to bulk-invite them as guests in the new network.
+3. As the Global Admin for the new Entra tenant, log-in to the Entra Portal. To bulk-add the users from the legacy external network, provide the exported users' CSV file to bulk-invite them as guests in the new network.
+
+:::image type="content" source="../media/engage/admin/config-and-connect-10.png" alt-text="The Entra console provides the bulk-invite feature.":::
 
 >[!NOTE]
 > For more information, see [Bulk invite B2B users - Microsoft Entra External ID | Microsoft Learn](./entra/fundamentals/create-new-tenant#create-a-new-tenant-for-your-organization).
@@ -151,9 +153,15 @@ The next process starts the data migration of the legacy network's content to th
 
 With the legacy external network now associated with the new external network, you can start the data move/data alignment.
 
+:::image type="content" source="../media/engage/admin/config-and-connect-11.png" alt-text="Select the M365 Native Mode tab.":::
+
 After logging in to the external network, after you execute the external network upgrade step, you see the **M365 Native Mode** option in admin settings. Select this tab and follow its instructions to complete the M365 Native Mode alignment.
 
+:::image type="content" source="../media/engage/admin/config-and-connect-12.png" alt-text="Instructions for M365 Native Mode configuration.":::
+
 ## Launch the new external network
+
+:::image type="content" source="../media/engage/admin/config-and-connect-13.png" alt-text="The last stage of external network migration.":::
 
 >[!IMPORTANT]
 > Update the policies of the Entra tenant that hosts your new external network based on your security requirements, including the policies to identify, respond to, and recover from security threats.
