@@ -27,11 +27,11 @@ Viva Engage networks support a format called M365 Native Mode which uses Microso
 
 Viva Engage legacy external networks require alignment to Microsoft Entra to operate in M365 Native Mode. Customers benefit from the full suite of Microsoft Security and Compliance features.
 
-As of April 2025, nearly all customer organizations with significant Viva Engage networks observe the Native mode standard. Any remaining customers have until June 1st 2025 to complete the alignment of their external networks to Microsoft Entra. Use the following procedures to develop your new external network and to migrate data from their existing external network.
+As of April 2025, nearly all customer organizations with significant Viva Engage networks observe the Native mode standard. Any remaining customers have until June 1, 2025 to complete the alignment of their external networks to Microsoft Entra. Use the following procedures to develop your new external network and to migrate data from their existing external network.
 
 ## Three-Phase external networks configuration
 
-The updated external network process has three phases as illustrated below:
+The updated external network process has three phases:
 
 :::image type="content" source="../media/engage/admin/config-and-connect-1.png" alt-text="High-level steps for external network conversion.":::
 
@@ -48,7 +48,7 @@ The following terms are used in this document:
 
 New Viva Engage networks always map to a new Microsoft Entra tenant. Every new external network requires its own Microsoft Entra tenant.
 
-Permissions and License requirements include the following:
+You'll need specific permissions and licenses:
 
 - Viva Engage external network v2 configuration requires Global Administrator privileges.
 
@@ -110,7 +110,7 @@ In this section, you redeem your generated token to associate the new external n
 
     :::image type="content" source="../media/engage/admin/config-and-connect-5.png" alt-text="Select Redeem Code to establish the association.":::
 
-6. After the association, you will see an *External network has been successfully setup* message.
+6. After the association, an *External network has been successfully setup* message appears.
 
     :::image type="content" source="../media/engage/admin/config-and-connect-6.png" alt-text="A message appears to confirm the setup.":::
 
@@ -134,7 +134,7 @@ After the token redemption, the legacy Engage external network is now associated
 
 ## Data Migration from a legacy network to the new external network
 
-The next process starts the data migration of the legacy network's content to the new external network. You'll need to export or configure your user accounts for use in the new deployment.
+The next process starts the data migration of the legacy network's content to the new external network. You must export or configure your user accounts for use in the new deployment.
 
 :::image type="content" source="../media/engage/admin/config-and-connect-9.png" alt-text="Migrating the existing network's content to the new network.":::
 
@@ -155,7 +155,7 @@ With the legacy external network now associated with the new external network, y
 
 :::image type="content" source="../media/engage/admin/config-and-connect-11.png" alt-text="Select the M365 Native Mode tab.":::
 
-After logging in to the external network, after you execute the external network upgrade step, you see the **M365 Native Mode** option in admin settings. Select this tab and follow its instructions to complete the M365 Native Mode alignment.
+After logging in to the external network, after you execute the external network upgrade step, you see the **M365 Native Mode** option in admin settings. To complete the M365 Native Mode alignment, select this tab and follow its instructions.
 
 :::image type="content" source="../media/engage/admin/config-and-connect-12.png" alt-text="Instructions for M365 Native Mode configuration.":::
 
@@ -164,7 +164,7 @@ After logging in to the external network, after you execute the external network
 :::image type="content" source="../media/engage/admin/config-and-connect-13.png" alt-text="The last stage of external network migration.":::
 
 >[!IMPORTANT]
-> Update the policies of the Entra tenant that hosts your new external network based on your security requirements, including the policies to identify, respond to, and recover from security threats.
+> Update the policies of the Entra tenant that hosts your new external network. Base them on your security requirements, including the policies to identify, respond to, and recover from security threats.
 
 After completing the data move to the new external network, administrators must take the following actions:
 
@@ -173,7 +173,7 @@ After completing the data move to the new external network, administrators must 
 - Notify users of the new network through a communication channel applicable to your organization.
 
 >[!NOTE]
-> When you re-add guest accounts to the new network, it offers a feature to notify users of the new URL/domain.
+> When you replace your guest accounts in the new network, it offers a feature to notify users of the new URL/domain.
 
 ## FAQ
 
