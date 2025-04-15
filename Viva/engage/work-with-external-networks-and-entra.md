@@ -53,7 +53,7 @@ Permissions and License requirements include the following:
 
 The Global Administrator needs to follow the steps in the following **Create a New Tenant** link from Microsoft Entra.
 
-[QuickStart - Access and create new tenant - Microsoft Entra | Microsoft Learn](https://learn.microsoft.com/en-us/entra/fundamentals/create-new-tenant#create-a-new-tenant-for-your-organization)
+[QuickStart - Access and create new tenant - Microsoft Entra | Microsoft Learn](./entra/fundamentals/create-new-tenant#create-a-new-tenant-for-your-organization)
 
 After you finish configuring the new tenant, keep its Entra tenant ID handy, because you'll need it for later steps.
 
@@ -70,7 +70,7 @@ You apply two important procedures in this step:
 
 #### Generate the tenant association token
 
-In Engage, as a Global Administrator, log into the New Engage Network in the new Entra Tenant by going to [engage.cloud.microsoft](engage.cloud.microsoft).
+In Engage, as a Global Administrator, log into the New Engage Network in the new Entra Tenant by going to engage.cloud.microsoft.
 
 Do the following to access external networks setup:
 
@@ -82,11 +82,11 @@ Do the following to access external networks setup:
 
 4. Select the “Generate Code” tab to generate a one-time code to associate the new external network with the parent Engage network. After you generate the association code, take note as it's used in later steps.
 
-#### Associate the new network with the parent Engage network 
+#### Associate the new network with the parent Engage network
 
 1. Log out of the new External network. (If you are using In-Private, or Saved Profiles you do not need to log-out.)
 
-2. Log in to the parent Engage network by going to [engage.cloud.microsoft](engage.cloud.microsoft). (Ensure that you're using the same Global Administrator account responsible for the new Entra tenant.) You now access external networks setup.
+2. Log in to the parent Engage network by going to engage.cloud.microsoft. (Ensure that you're using the same Global Administrator account that's responsible for the new Entra tenant.) You now access external networks setup.
 
 3. In Engage, select the settings icon and go to the admin center.
 
@@ -102,7 +102,7 @@ Do the following to access external networks setup:
 
 2. To open the external network settings, select its Settings icon and select **Network admin** from the menu.
 
-3. To begin the association of the legacy external network to the new network, select **External network upgrade** from the menu.
+3. To associate the legacy external network to the new network, select **External network upgrade** from the menu.
 
 4. Using the same Tenant ID and tenant association token from the previous steps, enter the information in the appropriate fields and select **Redeem Token**.
 
@@ -119,7 +119,7 @@ You'll need to export or configure your user accounts for use in the new deploym
 3. As the Global Admin for the new Entra tenant, log-in to the Entra Portal. To bulk-add the users from the legacy external network, provide the exported users CSV file to bulk-invite them as guests in the new network.
 
 >[!NOTE]
-> For more information, see [Bulk invite B2B users - Microsoft Entra External ID | Microsoft Learn](https://learn.microsoft.com/en-us/entra/external-id/tutorial-bulk-invite)
+> For more information, see [Bulk invite B2B users - Microsoft Entra External ID | Microsoft Learn](./entra/external-id/tutorial-bulk-invite)
 
 ### Move the network data
 
