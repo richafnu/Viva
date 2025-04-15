@@ -85,8 +85,8 @@ For more detailed views of user sign-in activity in Viva Glint, Entra admins hav
 
 Use [Microsoft Purview](/purview/purview) to view and audit additional Viva Glint platform activity. Check with your Microsoft 365 Global Admin to confirm which admin users in your organization [have access to view logs](/purview/purview-permissions). For information specific to Viva Glint schema and audit log activities, see:
 
--[Viva Glint schema](/office/office-365-management-api/office-365-management-activity-api-schema#viva-glint-schema)
--[Viva Glint Audit log activities](/purview/audit-log-activities)
+- [Viva Glint schema](/office/office-365-management-api/office-365-management-activity-api-schema#viva-glint-schema)
+- [Viva Glint Audit log activities](/purview/audit-log-activities)
 
 ## Related resources
 
