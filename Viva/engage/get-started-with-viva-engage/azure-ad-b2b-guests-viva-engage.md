@@ -143,13 +143,13 @@ A: Yes. Microsoft Entra B2B guests from another Geo can be invited to a Viva Eng
 
 ## For more information on how to configure Consumer Guests in Microsoft Entra, refer to the resources below
 
-[Cross-tenant access settings] (/entra/external-id/cross-tenant-access-settings-b2b-collaboration).
+[Cross-tenant access settings](/entra/external-id/cross-tenant-access-settings-b2b-collaboration).
 
-[Use Microsoft Accounts] (/entra/external-id/microsoft-account).
+[Use Microsoft Accounts](/entra/external-id/microsoft-account).
 
-[Google identity provider] (/entra/external-id/google-federation).
+[Google identity provider](/entra/external-id/google-federation).
 
-[Add Facebook as an identity provider] (/entra/external-id/facebook-federation).
+[Add Facebook as an identity provider](/entra/external-id/facebook-federation).
 
 ## Related articles
 
