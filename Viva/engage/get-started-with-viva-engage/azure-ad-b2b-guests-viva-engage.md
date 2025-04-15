@@ -141,8 +141,20 @@ You can prevent guests from being added to Viva Engage communities while allowin
 
 A: Yes. Microsoft Entra B2B guests from another Geo can be invited to a Viva Engage network in Native mode. However, if a tenant migrates to another geo, the existing guest access doesn't automatically change to cross-geo guest access. All guest access must be renewed (that is, the host must issue new invites and guests must accept them) after a cross-geo tenant migration.
 
+## For more information on how to configure Consumer Guests in Microsoft Entra, refer to the resources below
+
+[Cross-tenant access settings] (/entra/external-id/cross-tenant-access-settings-b2b-collaboration).
+
+[Use Microsoft Accounts] (/entra/external-id/microsoft-account).
+
+[Google identity provider] (/entra/external-id/google-federation).
+
+[Add Facebook as an identity provider] (/entra/external-id/facebook-federation).
+
 ## Related articles
 
 [Viva Engage admin Help](./admin-key-concepts.md)
 
 [Native Mode for Microsoft 365 for Viva Engage](../overview-native-mode.md)
+
+
