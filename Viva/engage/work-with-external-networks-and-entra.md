@@ -31,7 +31,7 @@ As of April 2025, nearly all customer organizations with significant Viva Engage
 
 The updated external network process has three phases as illustrated below:
 
-:::image type="content" source="../media/engage/admin/config-and-connect-1.png" alt-text="Screenshot of the main Admin Center page.":::
+:::image type="content" source="../media/engage/admin/config-and-connect-1.png" alt-text="High-level steps for external network conversion.":::
 
 The following terms are used in this document:
 
@@ -42,7 +42,7 @@ The following terms are used in this document:
 
 ### Set Up a new Microsoft Entra tenant
 
-:::image type="content" source="../media/engage/admin/config-and-connect-2.png" alt-text="Screenshot of the main Admin Center page.":::
+:::image type="content" source="../media/engage/admin/config-and-connect-2.png" alt-text="First high-level step for network preparation":::
 
 New Viva Engage networks always map to a new Microsoft Entra tenant. Every new external network requires its own Microsoft Entra tenant.
 
@@ -82,15 +82,15 @@ Do the following to access external networks setup:
 
 1. In Engage, select the settings icon, and go to Admin center.
 
-2. In the Admin center, on the Setup and Configuration tab, select external networks.
+2. In the Admin center, on the Setup and Configuration tab, select the external network.
 
 3. Select **Setup external network**.
 
-    :::image type="content" source="../media/engage/admin/config-and-connect-3.png" alt-text="Screenshot of the main Admin Center page.":::
+    :::image type="content" source="../media/engage/admin/config-and-connect-3.png" alt-text="Setting up the external network.":::
 
 4. Select the “Generate Code” tab to generate a one-time code to associate the new external network with the parent Engage network. After you generate the association code, take note as it's used in later steps.
 
-:::image type="content" source="../media/engage/admin/config-and-connect-4.png" alt-text="Screenshot of the main Admin Center page.":::
+:::image type="content" source="../media/engage/admin/config-and-connect-4.png" alt-text="Generate the Code step.":::
 
 #### Associate the new network with the parent Engage network
 
@@ -106,7 +106,7 @@ In this section, you redeem your generated token to associate the new external n
 
 5. Select **Setup external network** to redeem the association code. Select the **Redeem code** tab and add the association token and Entra tenant ID saved from the previous steps.
 
-    :::image type="content" source="../media/engage/admin/config-and-connect-5.png" alt-text="Screenshot of the main Admin Center page.":::
+    :::image type="content" source="../media/engage/admin/config-and-connect-5.png" alt-text="Select Redeem Code to establish the association.":::
 
 6. After the association, you will see an *External network has been successfully setup* message.
 
