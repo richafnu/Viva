@@ -23,11 +23,11 @@ search.appverid:
 
 See [Viva Engage Native Mode: Step-by-step guide](native-mode-guide.md) for more details about how it works and the advantages it offers. All Viva Engage networks must observe this standard.
 
-Viva Engage networks support a format called M365 Native Mode which uses Microsoft Entra identities and policies. Native mode operation is **required** for all Viva Engage networks in the enterprise. It enables users, groups, and content to map to their counterparts in Microsoft Entra and Microsoft 365. Native Mode also supports eDiscovery through the Microsoft Purview portal, so your organizations safely and securely collaborate in your Engage network.
+Viva Engage networks support a format called M365 Native Mode which uses Microsoft Entra identities and policies. Native mode operation is **required** for all Viva Engage networks in the enterprise. It enables users, groups, and content to map to their counterparts in Microsoft Entra and Microsoft 365. Native Mode also supports eDiscovery through the Microsoft Purview portal, so your organizations safely and securely collaborates in your Engage network.
 
 Viva Engage legacy external networks require alignment to Microsoft Entra to operate in M365 Native Mode. Customers benefit from the full suite of Microsoft Security and Compliance features.
 
-As of April 2025, nearly all customer organizations with significant Viva Engage networks observe the Native mode standard. Any remaining customers have until June 1, 2025 to complete the alignment of their external networks to Microsoft Entra. Use the following procedures to develop your new external network and to migrate data from their existing external network.
+As of April 2025, nearly all customer organizations with significant Viva Engage networks observe the Native mode standard. Any remaining customers have until June 1, 2025 to complete the alignment of their external networks to Microsoft Entra. Use the following procedures to develop your new external network and to migrate data from the existing external network.
 
 ## Three-Phase external networks configuration
 
@@ -38,7 +38,7 @@ The updated external network process has three phases:
 The following terms are used in this document:
 
 - **Parent network**: Your current Viva Engage network
-- **New Entra tenant**: The new Entra tenant that hosts the new external Viva Engage network
+- **New Entra tenant**: The new Microsoft Entra tenant that hosts the new external Viva Engage network
 - **Legacy external network**: Your current external network
 - **New external network**: The new native-on-M365 external network
 
@@ -48,7 +48,7 @@ The following terms are used in this document:
 
 New Viva Engage networks always map to a new Microsoft Entra tenant. Every new external network requires its own Microsoft Entra tenant.
 
-You'll need specific permissions and licenses:
+You need specific permissions and licenses:
 
 - Viva Engage external network v2 configuration requires Global Administrator privileges.
 
@@ -193,4 +193,4 @@ Yes. Engage continues to support consumer identities in both External and Canoni
 
 The updated external network supports adding members by using the invitation flow.
 
-Admins can also use Cross-Tenant Sync to move users directly into Entra, and those users have access to the new external network.
+Admins can also use Cross-Tenant Sync to move users directly into Entra. Those users have access to the new external network.
