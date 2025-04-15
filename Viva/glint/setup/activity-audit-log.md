@@ -39,8 +39,8 @@ To use the Activity Audit Log as a Viva Glint admin:
 2. Select an event type from the **All Events** dropdown menu (example: "Data import").
 3. If needed, filter results further by selecting an option from the **All Types** dropdown menu (example: "SFTP" to focus on data sent via secure file transfer protocol).
 4. If needed, use the **All Statuses** dropdown menu to filter to successful or failed events.
-   
-   :::image type="content" source="../../media/glint/setup/glint-activity-audit-log.png" alt-text="Screenshot of the Activity Audit Log filtered to Data import activity for SFTP imports.":::
+  
+   :::image type="content" source="../../media/glint/setup/glint-activity-audit-log.png" alt-text="Screenshot of the Viva Glint Activity Audit Log filtered to Data import activity for SFTP imports." lightbox="../../media/glint/setup/glint-activity-audit-log.png":::
 
 ## Event descriptions
 
