@@ -127,21 +127,19 @@ With the legacy external network now associated with the new external network, y
 
 After logging in to the external network, after you execute the external network upgrade step, you see the **M365 Native Mode** option in admin settings. Select this tab and follow its instructions to complete the M365 Native Mode alignment.
 
-**Qs ON THIS STEP: DO YOU LOG IN TO THE LEGACY NETWORK TO DO THIS? ALSO, WHEN DO YOU "EXECUTE THE EXTERNAL NETWORK UPGRADE STEP"? ALSO, WHAT DOES THE DATA MOVE CONSIST OF? SOME NETWORKS CAN TAKE MONTHS TO COMPLETE A CONVERSION AND DATA MIGRATION.**
-
 ## Launch the new external network
 
 >[!IMPORTANT]
 > Update the policies of the Entra tenant that hosts your new external network based on your security requirements, including the policies to identify, respond to, and recover from security threats.
 
-Upon completion of the data move to the new external network administrators should take the following actions:
+After completing the data move to the new external network, administrators must take the following actions:
 
-- Confirm that Communities are configured as they were in the legacy network;
+- Confirm that all Communities are configured and operating as they did in the legacy network;
 
-- Notify users of the new network via a communication channel applicable to your organization.
+- Notify users of the new network through a communication channel applicable to your organization.
 
 >[!NOTE]
-> When you re-add guests to the new network, it offers a feature to notify users of the new URL/domain.
+> When you re-add guest accounts to the new network, it offers a feature to notify users of the new URL/domain.
 
 ## FAQ
 
