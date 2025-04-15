@@ -61,7 +61,7 @@ You need specific permissions and licenses:
 
 The Global Administrator needs to follow the steps in the following **Create a New Tenant** link from Microsoft Entra.
 
-[QuickStart - Access and create new tenant - Microsoft Entra | Microsoft Learn](/entra/fundamentals/create-new-tenant.md#create-a-new-tenant-for-your-organization).
+[QuickStart - Access and create new tenant - Microsoft Entra | Microsoft Learn](/entra/fundamentals/create-new-tenant#create-a-new-tenant-for-your-organization).
 
 After you finish configuring the new tenant, keep its Entra tenant ID handy, because you'll need it for later steps.
 
@@ -147,7 +147,7 @@ The next process starts the data migration of the legacy network's content to th
 :::image type="content" source="../media/engage/admin/config-and-connect-10.png" alt-text="The Entra console provides the bulk-invite feature.":::
 
 >[!NOTE]
-> For more information, see [Bulk invite B2B users - Microsoft Entra External ID | Microsoft Learn](/entra/fundamentals/create-new-tenant.md#create-a-new-tenant-for-your-organization).
+> For more information, see [Bulk invite B2B users - Microsoft Entra External ID | Microsoft Learn](/entra/fundamentals/create-new-tenant#create-a-new-tenant-for-your-organization).
 
 ### Move the network data
 
