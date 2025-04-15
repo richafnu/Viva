@@ -1,14 +1,14 @@
 ---
-ms.date: 03/19/2024
+ms.date: 01/13/2025
 title: "Key performance indicator (KPI) summary"
-ms.reviewer: 
-ms.author: rasanders
-author: RaSanders-MSFT
-manager: Liz.Pierce
+ms.reviewer: aroraaarushi
+ms.author: daisyfeller
+author: daisyfell
+manager: elizapo
 audience: Admin
 f1.keywords:
 - NOCSH
-ms.topic: article
+ms.topic: how-to
 ms.service: viva-goals
 ms.localizationpriority: medium
 ms.collection:  

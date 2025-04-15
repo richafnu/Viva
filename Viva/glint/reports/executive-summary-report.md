@@ -11,19 +11,22 @@ ms.collection:
  - m365initiative-viva
  - selfserve
 search-appverid: MET150
-ms.topic: article
+ms.topic: how-to
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 04/10/2023
+ms.date: 1/13/2025
 ---
 
 # Use Viva Glint’s Executive Summary report
 
 The Executive Summary is a group of reports useful to admins for presenting high level results to your team, leaders, or the company.  
 
-## Choose reports to share on your Executive Summary report
+## Choose reports to share on your Executive Summary 
 
-There are many reports that you can choose to be part of this dashboard view. The following descriptor table provides you with instructions on how to add reports or sections. Some items appear separately, and others may group as part of a related section.
+There are many reports that you can include in this dashboard view. The descriptor table provides you with instructions on how to add reports or sections. Some items appear separately. Others may group as part of a related section.
+
+> [!NOTE]
+> **For the Executive Summary Report in Employee Lifecycle Programs:**  If program settings allow, and a unique user submits more than one survey response, an entry row is included in the raw data export representing each of the unique user's submissions. **However, the UI counts them only once.**
 
 | Report or section  | Description |
 | -------------- | ----------------- |
@@ -57,19 +60,34 @@ There are many reports that you can choose to be part of this dashboard view. Th
 | **Keywords**  | A visual of top keywords from comments|
 | **All Comments** | Read representative, prescriptive, or all comments |
 
-To learn about other reports available, see [Report types](https://go.microsoft.com/fwlink/?linkid=2231010).
+To learn about other feedback reports available, see [Report types](/../../viva/glint/reports/survey-reports-overview).
 
-## Edit a report
+## Choose your benchmark comparison
 
-The settings button opens a window where you can choose the right comparison data to interpret survey results within the context of how others are doing. Viva Glint provides four options for comparison reporting:
+The **Settings button** opens a panel to choose comparison data for interpreting survey results within the context of how others are doing. One or more internal comparisons may appear here, based on how benchmarks have been configured in the Reporting section of your [General Settings](/../../viva/glint/reports/survey-reports-overview) feature. The four Glint benchmark comparison options are:
 
-- **Benchmark**: Provides a comparison point for feedback based on survey data compiled from all Glint customers. Helpful for admins and first-time survey results analysis.
+- **Benchmark**: Provides a comparison point for feedback based on survey data compiled from all Glint customers, not just within your organization. Helpful for admins and first-time survey results analysis.
 - **Company**: Displays team scores in comparison to company-wide scores for the same questions. Helpful for users with more than one area of responsibility.
 - **My Teams**: Compares a team's score to an overall score derived from a user’s data access. Helpful for users with more than one area of responsibility.
 - **Average Question**: Presents a single, overall score for all questions and respondents within your access. Helpful for users looking for some level of variance in their score.
 
+[Learn more about comparison data](/../../viva/glint/setup/survey-comparison-data?branch=pr-en-us-9179).
+
 > [!NOTE]
 > Your company may have substituted custom terms for the Viva Glint terminology used in our guidance.
+
+## Strengths & Opportunities on the Executive Summary report
+
+The view on the Executive Summary report provides a ranked list of both strengths (areas to celebrate) and opportunities (areas to focus on) for improvement.
+
+>[!TIP]
+> For administrators, the first look at S&O should be versus *Benchmark* to understand which areas can help improve your organization's competitive advantage to attract and retain talent. Only items with a benchmark are part of this view.
+>
+>If there are multiple items without a benchmark, change to view S&Os versus *Average Question*. This view shows the comparison to the average score of all selected survey items. This comparison indicates a team's strengths and opportunities compared to the *company mean*.
+>
+>Example:
+>
+>*If there are 10 rating questions in a survey and the average of all the question scores is 75, then the difference between a question with score 70 versus the question average is calculated as 70 - 75 = -5.*
 
 ## Filter a report
 
@@ -79,9 +97,9 @@ Most reports are filterable by attribute and hierarchy. Use the **filter** symbo
 
 To add a report, select the **More** dropdown button at the bottom of the page and then **+ Add Section**. 
 
-If you already have some reports displayed but want to add more, the More button won't be available, but you will find the **+Add Section** at the bottom of the page. 
+If you already have reports displayed but want to add others, the More button isn't available - select **+Add Section** at the bottom of the page. 
 
-If you choose not to share one of the reports that already appears, choose **Delete** on the vertical ellipses at the right of the report.
+If you choose not to share one of the reports that already appears, choose **Delete** on the vertical ellipses next to the report.
 
 ## Export a report
 

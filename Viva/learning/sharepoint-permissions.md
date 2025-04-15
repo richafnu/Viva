@@ -4,29 +4,29 @@ ms.author: bhaswatic
 author: bhaswatic
 manager: elizapo
 ms.reviewer: chrisarnoldmsft
-ms.date: 12/07/2023
+ms.date: 03/14/2025
 audience: admin
-ms.topic: article
+ms.topic: how-to
 ms.service: viva-learning
 search.appverid: MET150
 ms.collection:
   - enabler-strategic
   - m365initiative-viva-learning
   - highpri
-  - Tier1
 ms.localizationpriority: medium
 description: Learn how to control access to SharePoint content in Viva Learning by using Microsoft 365 Groups.
 ---
 
 # Use Microsoft 365 Groups permissions with SharePoint content in Viva Learning
 
-Document library folder URLs can be collected from any SharePoint site in the organization. Viva Learning follows all existing content permissions. Therefore, only content for which a user has permission to access is searchable and visible within Viva Learning. Any content within these folders will be searchable, but only content to which the individual employee has permissions can be used.
+You can collect document library folder urls from any available SharePoint site in your organization. You can only choose to connect one SharePoint site with Viva Learning at one time.
+Viva Learning follows all existing content permissions. Therefore, only content for which a user has permission to access is searchable and visible within Viva Learning. Any content within these folders is searchable, but only content to which the individual employee has permissions can be used.
 
 > [!NOTE]
 > The admin tab is only available for admins with a Viva Suite or Viva Learning license.
 
 > [!NOTE]
-> Only the Microsoft 365 and Mail enabled security group (MESG) group type is supported. Viva Learning doesn't support user-based permissions. Viva Learning won't ingest files that don't have associated Microsoft 365 Groups or MESG permissions.
+> Viva Learning doesn't support user-based permissions. Only the Microsoft 365 and Mail enabled security group (MESG) group types are supported. Viva Learning won't ingest files that don't have associated Microsoft 365 Groups or MESG permissions.
 
 1. Create a group by following the steps in [Create a group in the Microsoft 365 admin center](/microsoft-365/admin/create-groups/create-groups) or [Create mail-enabled security groups](/exchange/recipients/mail-enabled-security-groups).
 
@@ -48,7 +48,7 @@ Document library folder URLs can be collected from any SharePoint site in the or
 
     ![Screenshot of a group being selected in the Direct access pane.](../media/learning/sharepoint-group.png)
 
-7. By default, users in the group are given Edit permissions. Select the pencil icon to choose between Edit and View permissions. The pencil icon will have a slash through it if the group has only view permissions. Users need a minimum of Can View permission.
+7. By default, users in the group are given Edit permissions. Select the pencil icon to choose between Edit and View permissions. The pencil icon has a slash through it if the group has only view permissions. Users need a minimum of Can View permission.
 
     ![Screenshot of the pencil icon showing options for Can edit and Can view.](../media/learning/sharepoint-edit-view.png)
 
@@ -63,16 +63,16 @@ Document library folder URLs can be collected from any SharePoint site in the or
    > [!NOTE]
    > It will take approximately 24 hours for these changes to show up in the Viva Learning app.
 
-9. If the group is not present:
+9. If the group isn't present:
 
-   - A M365 group or MESG group can't be added directly to the file or folder in case the group is found on the folder or file nested in SharePoint groups.
-   - To see if group is already present, click on the folder, go to **Manage access,** select **More options,** then **Advanced settings**> and finally **Check permissions**
+   - A Microsoft 365 group or MESG group can't be added directly to the file or folder in case the group is found on the folder or file nested in SharePoint groups.
+   - To see if group is already present, select on the folder, go to **Manage access,** select **More options,** then **Advanced settings**> and finally **Check permissions**
    - Start typing the group name
-   - If it is already present, remove it and add directly or add a different group
+   - If it's already present, remove it and add directly or add a different group
 
    :::image type="content" alt-text="Screenshot of the course catalog check permissions window with the option to check the name of the group" source="../media/learning/sharepoint-permissions-course-catalog-check-1.png" lightbox="../media/learning/sharepoint-permissions-course-catalog-check-1.png":::
 
-   :::image type="content" alt-text="Screenshot of the course catalog check permission window with the user and group displayed below." source="../media/learning/sharepoint-permissions-course-catalog-check-2.png" lightbox="../media/learning/sharepoint-permissions-course-catalog-check-2.png":::
+   :::image type="content" alt-text="Screenshot of the course catalog check permission window with the user and group displayed." source="../media/learning/sharepoint-permissions-course-catalog-check-2.png" lightbox="../media/learning/sharepoint-permissions-course-catalog-check-2.png":::
 
 ## Remove unintentionally surfaced content
 

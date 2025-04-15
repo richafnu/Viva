@@ -1,25 +1,27 @@
 ---
-title: Set up Skills in Viva 
+title: Set up Skills
 ms.author: bhaswatic
 author: bhaswatic
 manager: elizapo
 ms.reviewer: chrisarnoldmsft
-ms.date: 05/30/2024
+ms.date: 03/10/2025
 audience: admin
-ms.topic: article
+ms.topic: install-set-up-deploy
 ms.service: viva-learning
 search.appverid: MET150
 ms.collection:
   - enabler-strategic
   - m365initiative-viva-learning
-  - Tier1
 ms.localizationpriority: medium
-description: An introduction to setting up Skills in Viva, 
+description: An introduction to setting up Skills to help users in your organization enhance their development.
 ---
 
-# Set up skills in Viva 
+# Set up skills
 
-Start setting up Skills in Viva by building your skills library with skills from the default skills library in Viva or importing your own custom skills. 
+Start setting up Skills by building your skills library with skills from the default skills library in Viva or importing your own custom skills. 
+
+> [!NOTE]
+> Skills is currently available only for private preview customers. The features described here are subject to change.
 
 ## Create your skills library
 

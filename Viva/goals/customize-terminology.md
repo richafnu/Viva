@@ -2,13 +2,13 @@
 ms.date: 12/14/2023
 title: Customize terminology in Viva Goals
 ms.reviewer: 
-ms.author: v-nstockwell
-author: DefinitelyNotNitza
-manager: Liz.Pierce
+ms.author: daisyfeller
+author: daisyfell
+manager: elizapo
 audience: Admin
 f1.keywords:
 - NOCSH
-ms.topic: article
+ms.topic: how-to
 ms.service: viva-goals
 ms.localizationpriority: medium
 ms.collection:  

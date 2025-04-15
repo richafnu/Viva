@@ -1,10 +1,10 @@
 ---
-ms.date: 04/23/2024
+ms.date: 03/03/2025
 title: Configure personal insights defaults
 description: Configuration options that Microsoft 365 administrators can make for personal insights in Microsoft Viva Insights
 author: zachminers
 ms.author: v-zachminers
-ms.topic: article
+ms.topic: how-to
 ms.localizationpriority: medium 
 ms.service: viva-insights 
 ms.collection: 
@@ -16,7 +16,7 @@ audience: Admin
 
 # Configure personal insights defaults
 
-![global admin](../images/applies-to-m365-admin.png)*Applies to: Exchange Online admin*
+*Applies to: Exchange Online admin*
 
 To configure settings for personal insights, you have a few options:
 
@@ -44,14 +44,14 @@ You need to be an Exchange Online (EXO) admin role to configure users for Viva I
 
 ### Defaults 
 
-When you set defaults at the tenant or user level, you’re setting users’ initial access to Viva Insights. However, users have the flexibility to keep the status you set or change it. Users can learn how to opt in or out of Viva Insights here: [Opt out of Viva Insights](https://support.microsoft.com/en-us/topic/opt-out-of-viva-insights-ecfd76f9-52ef-4882-9235-be1f59c25967). The exception is if a user's license with a Viva Insights service plan expires. In that case, the user can't opt in.
+When you set defaults at the tenant or user level, you’re setting users’ initial access to Viva Insights. However, users have the flexibility to keep the status you set or change it. Users can learn how to opt in or out of Viva Insights here: [Opt out of Viva Insights](https://support.microsoft.com/topic/opt-out-of-viva-insights-ecfd76f9-52ef-4882-9235-be1f59c25967). The exception is if a user's license with a Viva Insights service plan expires. In that case, the user can't opt in.
 
 Defaults you can set are:
 
 * All of Viva Insights (user-level only)
 * The Viva Insights web experience
 * Viva digest emails
-* Meeting effectiveness surveys
+* Meeting effectiveness surveys (classic Teams client only)
 * The Viva Insights Outlook add-in
 * Schedule send suggestions in Outlook
     >[!Important]
@@ -65,7 +65,7 @@ Refer to the [Privacy guide](../../personal/Overview/privacy-guide-users.md) to 
 Through the Microsoft admin center, you can configure access to Viva Insights elements for all users in your organization.
 
 >[!Important]
->You need to have an Exchange Online admin role to configure tenant-level settings in the admin center. Make sure you're signed in to the Microsoft admin center as a Global or Exchange Online admin before configuring settings.
+>You need to have an Exchange Online admin role to configure tenant-level settings in the admin center. Make sure you're signed in to the Microsoft admin center as an Exchange Online admin before configuring settings.
 
 ### To manage availability for the Viva Insights app in Teams
 
@@ -86,16 +86,24 @@ Go to our [Teams admin tasks](teams-admin-setup.md) doc for more information abo
     :::image type="content" source="../../images/mya/setup/manage-settings-insights.png" alt-text="Screenshot that shows Manage settings for Viva Insights in the Viva Insights admin page.":::
 
 1. In the resulting pane:
-    1. Select **Viva Insights web experience** to keep all Viva Insights users in your organization opted _in_ for access to the Viva Insights app on the web. Clear the selection for **Viva Insights web experience** to opt _out_ users.  
+    1. Select **Personal and organization insights web experience** to keep all Viva Insights users in your organization opted *in* for access to the Viva Insights app on the web. Clear the selection to opt *out* users.  
+
+        :::image type="content" source="../images/vi-admin-opt-in-opt-out.png" alt-text="Screenshot that shows the Microsoft Viva Insights settings pane.":::
+
+        >[!Note]
+        >If you turn off **Personal and organization insights web experience**, users who have access to the Microsoft Copilot Dashboard will continue to have access to the dashboard.
+
     1. Select **Digest email** to keep all Viva Insights users in your organization opted _in_ for access to the [digest mails](../../personal/use/email-digests-3.md). Clear the selection for **Digest email** to opt _out_ users.  
-    1. Select **Insights Outlook add-in and inline suggestions** to keep all users in your organization opted _in_ for access to the add-in. Deselect it to opt _out_ users. If you opt out of the Viva Insights Outlook add-in, the Productivity inline suggestions are also turned _off_ for all users. Individuals can also turn [inline suggestions](https://support.microsoft.com/en-us/topic/inline-suggestions-in-outlook-064a323e-6dc7-40e9-ab1b-199de8d39db5) *on* or *off* through their own **Settings** within the Viva Insights add-in.
+    1. Select **Insights Outlook add-in and inline suggestions** to keep all users in your organization opted _in_ for access to the add-in. Deselect it to opt _out_ users. If you opt out of the Viva Insights Outlook add-in, the Productivity inline suggestions are also turned _off_ for all users. Individuals can also turn [inline suggestions](https://support.microsoft.com/topic/inline-suggestions-in-outlook-064a323e-6dc7-40e9-ab1b-199de8d39db5) *on* or *off* through their own **Settings** within the Viva Insights add-in.  
     1. Select **Meeting effectiveness surveys** to keep all users in your organization opted _in_ for access to the surveys. Deselect it to opt _out_ users. If you opt out users, they won't see an option for meeting effectiveness surveys in their settings.
-    1. Select **Schedule send suggestions** to keep all Viva Insights users in your organization opted in for access to schedule send suggestions, and then select **Save changes**. Deselect **Schedule send suggestions** to opt out users. These will be default settings for all users. Users can change them at any time from their Viva Insights Outlook add-in and Viva Insights app settings page. It may take up to 24 hours for all changes to take effect.
+    
+       >[!Note]
+       >Meeting effectiveness surveys are only available in the classic Teams client, not the new Teams.
 
-    >[!Note]
-    >After a new tenant is established, it can take up to 48 hours for this functionality to become available.
+    5. Select **Schedule send suggestions** to keep all Viva Insights users in your organization opted in for access to schedule send suggestions, and then select **Save changes**. Deselect **Schedule send suggestions** to opt out users. These will be default settings for all users. Users can change them at any time from their Viva Insights Outlook add-in and Viva Insights app settings page. It may take up to 24 hours for all changes to take effect.
 
-    :::image type="content" source="../../Images/MyA/setup/insights-settings-pane1.png" alt-text="Screenshot that shows the Microsoft Viva Insights (formerly MyAnalytics) settings pane with all selections enabled.":::
+       >[!Note]
+       >After a new tenant is established, it can take up to 48 hours for this functionality to become available.
 
 1. Select **Save**.
 
@@ -234,7 +242,7 @@ Get-DefaultTenantMyAnalyticsFeatureConfig
 
 ### Configure access at the user level
 
-You can use PowerShell to configure Viva Insights access for individual users in your organization. For example, you could opt out the user completely, which would turn off all Viva Insights functionality for that user. However, the user can choose to [opt back in](https://support.microsoft.com/en-us/topic/opt-out-of-viva-insights-ecfd76f9-52ef-4882-9235-be1f59c25967). 
+You can use PowerShell to configure Viva Insights access for individual users in your organization. For example, you could opt out the user completely, which would turn off all Viva Insights functionality for that user. However, the user can choose to [opt back in](https://support.microsoft.com/topic/opt-out-of-viva-insights-ecfd76f9-52ef-4882-9235-be1f59c25967). 
 
 >[!Important]
 >The PowerShell cmdlets [Get-UserAnalyticsConfig](/powershell/module/exchange/get-useranalyticsconfig) and [Set-UserAnalyticsConfig](/powershell/module/exchange/set-useranalyticsconfig), which you might have used to configure access to Viva Insights, are no longer available. Instead, use the following new cmdlets: [Get-MyAnalyticsFeatureConfig](/powershell/module/exchange/get-myanalyticsfeatureconfig) and [Set-MyAnalyticsFeatureConfig](/powershell/module/exchange/set-myanalyticsfeatureconfig), which offer the same functionality along with some additional granular control.
@@ -307,7 +315,7 @@ Use the following steps in the [Exchange Online PowerShell V2 module](/powershel
 
 1. Create a comma-separated value (.csv) text file that contains the UserPrincipalName field of the users you want to configure. For example:
 
-```
+   ```
    UserPrincipalName
    ClaudeL@contoso.onmicrosoft.com
    LynneB@contoso.onmicrosoft.com

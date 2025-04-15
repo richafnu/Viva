@@ -1,10 +1,10 @@
 ---
-ms.date: 06/16/2023
+ms.date: 03/18/2025
 title: Assign licenses
 description: Assign Viva Insights licenses to users in your organization
 author: zachminers
 ms.author: v-zachminers
-ms.topic: article
+ms.topic: how-to
 ms.localizationpriority: medium 
 ms.collection: viva-insights-advanced 
 ms.service: viva-insights
@@ -15,8 +15,6 @@ audience: Admin
 ---
 
 # Assign licenses for Viva Insights
-
-![global admin](../images/applies-to-m365-admin.png) *Applies to: Microsoft 365 global admin*
 
 >[!Note]
 >Viva Insights is licensed as an add-on to existing Microsoft 365 subscriptions. For more details, refer to [Environment requirements](environment-requirements.md).
@@ -33,7 +31,7 @@ The license-assignment process for Viva Insights has two main steps:
 
 ## Determine the analyzed population
 
-Before you can assign licenses, the Microsoft 365 global admin, the Viva Insights sponsor, and the Insights Administrator work together to identify the analyzed population. This population consists of the people in your company—called *measured employees*—whose Microsoft 365 collaboration activity you want to analyze. Some organizations choose to analyze the entire population, while others use population subsets for specific analysis scenarios. If you want to get insights that reflect all people in the company, you'll need to assign everyone a license.
+Before you can assign licenses, the Microsoft 365 Global Administrator, the Viva Insights sponsor, and the Insights Administrator work together to identify the analyzed population. This population consists of the people in your company—called *measured employees*—whose Microsoft 365 collaboration activity you want to analyze. Some organizations choose to analyze the entire population, while others use population subsets for specific analysis scenarios. If you want to get insights that reflect all people in the company, you'll need to assign everyone a license.
 
 >[!Note]
 >Employees in your organization who aren't licensed for analysis—but might collaborate with your measured employees through meetings, email, unscheduled calls, or Teams chats—are called *other internal collaborators*. You might encounter this term while using Viva Insights.
@@ -44,15 +42,12 @@ For more information on licensing and user configuration, refer to [Configure pe
 
 ## Assign licenses
 
-After you've identified the population in scope, you as the Microsoft 365 global admin assign Viva Insights licenses to users in that population.
+After you've identified the population in scope, the license admin or user admin assign Viva Insights licenses to users in that population.
 
 >[!Note]
->A minimum of 10 licenses is required to be assigned in order for data processing to kick off. Data processing takes an estimated 3-5 days from license assignment.
+>A minimum of 50 licenses is required to be assigned in order for data processing to kick off. Data processing takes an estimated 3-5 days from license assignment.
 
 Viva Insights licenses are assigned just like other Microsoft 365 product licenses. Assign licenses by using one of these options:
-
->[!Note]
->To start data processing, you'll need to assign at least 10 licenses. Once you do that, the process will take about three to five days. 
 
 * The [Microsoft 365 admin center​](/microsoft-365/admin/add-users/add-users)
 * [PowerShell](/microsoft-365/enterprise/assign-licenses-to-user-accounts-with-microsoft-365-powershell)
@@ -90,5 +85,3 @@ Let's say an employee was licensed from January 1 through March 31. Here are thr
 
 > [!div class="nextstepaction"]
 > [Assign user roles](./assign-user-roles.md)
-
-*Applies to: Microsoft 365 Privileged Role Administrator*

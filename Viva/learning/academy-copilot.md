@@ -4,9 +4,9 @@ ms.author: bhaswatic
 author: bhaswatic
 manager: elizapo
 ms.reviewer: chrisarnoldmsft
-ms.date: 06/14/2024
+ms.date: 03/28/2025
 audience: admin
-ms.topic: article
+ms.topic: install-set-up-deploy
 ms.service: viva-learning
 search.appverid: MET150
 ms.collection: 
@@ -14,36 +14,40 @@ ms.collection:
     - m365initiative-viva-learning
     - magic-ai-copilot
 ms.localizationpriority: medium
-description: A guide to creating and managing Microsoft Copilot Academy 
+description: Learn how to create and maintain Microsoft Copilot Academy to help users in your organization learn more about Copilot.
 ---
 
-# Microsoft Copilot Academy 
+# Microsoft Copilot Academy
 
-Microsoft Copilot Academy is built in to develop user skills associated with Copilot usage. This experience provides structured educational content within Viva Learning to help users learn about, discover, and use Copilot effectively.  
+Microsoft Copilot Academy helps learners develop skills associated with Microsoft 365 Copilot. This experience provides structured educational content within Viva Learning to help users learn about, discover, and use Copilot effectively.  
 
 ![Screenshot of the Microsoft Copilot Academy home page.](../media/learning/academy-copilot-home-page.png)
 
-## Prerequisites for Microsoft Copilot Academy
+## Prerequisites
 
-Users need to meet the following criteria to access Microsoft Copilot Academy:
+To access the Copilot Academy in Viva Learning, users must have a **Microsoft 365 Copilot** license.
 
-1. A user profile provisioned within a tenant that has Copilot for Microsoft 365 licenses.  
+To duplicate Copilot Academy, users must have Microsoft 365 Copilot License and either a Viva Suite or Viva Learning license. 
 
-2. Assigned a paid license of  Microsoft Viva Suite or Viva Learning.  
+## Configure Copilot Academy
 
-## Configure Microsoft Copilot Academy
+Copilot Academy is enabled by default and discoverable on the **Academies** menu for users with a Microsoft 365 Copilot license.
 
-Microsoft Copilot Academy is enabled by default and discoverable for users who meet the criteria within their Viva Learning app under the **Academies** dropdown navigation menu.
+Knowledge Administrators of tenants with at least one Microsoft 365 Copilot license can manage Copilot Academy from the **Admin** tab in Viva Learning, under the **Manage academies** section.
 
-Users with Microsoft Copilot and Viva Suite premium licenses receive an in-app notification on Copilot Academy from Microsoft Teams.
-
-Admins can disable Microsoft Copilot Academy from the **Admin** tab in Viva Learning under the **Manage academies** section. 
 
 ![Screenshot of the Manage academies page in the admin tab.](../media/learning/academy-copilot-admin.png)
 
+## Notifications
+
+Users with a Microsoft 365 Copilot license receive a monthly personalized notification about Copilot Academy in Microsoft Teams.
+
+
+![Screenshot of Copilot Academy notification in Microsoft Teams.](media/academy-copilot/copilotacademynotifications2.png)
+
 ## Language support 
 
-Microsoft Copilot Academy is currently available in eight Languages: 
+Copilot Academy is currently available in eight languages: 
 
 - English (United States)
 
@@ -61,12 +65,36 @@ Microsoft Copilot Academy is currently available in eight Languages:
 
 - 中文(中国)
 
-The language of Microsoft Copilot Academy is automatically determined based on the Viva Learning language. If an unsupported language is encountered, Microsoft Copilot Academy falls back to a related language following Microsoft Corporate, External, and Legal Affairs guidelines.
+The language you see in Copilot Academy is based on the Viva Learning language. If the language you're using in Viva Learning isn't available for Copilot Academy, Copilot Academy falls back to a related language following the Microsoft corporate, external, and legal affairs guidelines.
 
-## Create your own custom academy
+## Create your own custom academy using Copilot Academy 
 
-You can create a new Academy tailored to your needs by utilizing learning objects from the Copilot Academy. This approach allows you to maintain the essence of the Copilot Academy while also incorporating your organization's unique requirements. Here’s how: 
+You can duplicate and customize Copilot Academy to fit your organization’s unique industry, culture, and strategic needs. To use this feature, users must have a license for Microsoft Viva Suite or for Viva Learning. Users also need a Microsoft 365 Copilot license to duplicate a Copilot academy. 
 
-- **Create learning paths**: Start by creating learning paths that mirror learning paths available in the Copilot Academy. This step forms the foundation of your custom academy. 
+Copilot Academy remains enabled by default unless explicitly disabled.  
 
-- **Add to your new academy**: Once your learning paths are set, you can seamlessly integrate them into your new academy for a personalized learning experience. 
+
+Duplicate academies include Microsoft-curated learning paths and featured sets unless an admin replaces them with tenant-created learning paths and featured sets.  
+
+As an admin, you can edit a duplicated academy by:
+
+- Adding or removing a featured set  
+- Adding or removing a learning path  
+- Updating the duplicated academy's title and description  
+- Publishing the duplicated academy to the users (or a group of users) in the organization  
+
+You can duplicate Copilot Academy and featured sets in eight languages and use them in a duplicated Copilot Academy or in existing academies.
+
+Learning paths in Copilot Academy are powered by the new AI and Copilot Resources provider.
+
+For more information on managing content permissions, see [AI and Copilot Resources Manage Permissions](provider-permissions.md#ai-and-copilot-resources).
+
+> [!NOTE]
+> When publishing a duplicated academy, ensure that the assigned group has permissions to access AI and Copilot Resources content, which are accessible only to users with Copilot licenses.
+
+## Upcoming releases
+
+- Access to Microsoft Copilot Academy for users without a Microsoft 365 Copilot license.
+- Content updates to Microsoft Copilot Academy.
+- Increased Language Support in Microsoft Copilot Academy.
+- Personalized notifications for Microsoft Copilot Academy users to enhance their learning experience.

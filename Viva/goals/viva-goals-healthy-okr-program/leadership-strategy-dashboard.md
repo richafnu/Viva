@@ -1,20 +1,19 @@
 ---
-ms.date: 08/16/2023
+ms.date: 01/13/2025
 title: "Leadership Strategy Dashboard and ROB"
-ms.reviewer: 
-ms.author: rasanders
-author: RaSanders-MSFT
-manager: Liz.Pierce
+ms.reviewer: aroraaarushi
+ms.author: daisyfeller
+author: daisyfell
+manager: elizapo
 audience: Admin
 f1.keywords:
 - NOCSH
-ms.topic: article
+ms.topic: concept-article
 ms.service: viva-goals
 ms.localizationpriority: medium
 ms.collection:
   - M365initiative-viva
   - highpri
-  - Tier1
   - vg-bestpractice
 search.appverid:
 - MET150

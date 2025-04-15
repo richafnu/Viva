@@ -2,12 +2,12 @@
 title: "Manage Viva Engage users across their lifecycle from Microsoft 365"
 f1.keywords:
 - NOCSH
-ms.author: v-bvrana
+ms.author: donnabouldin
 author: Starshine89
 manager: elizapo
-ms.date: 11/01/2023
+ms.date: 09/24/2024
 audience: Admin
-ms.topic: article
+ms.topic: how-to
 ms.service: viva-engage
 ms.localizationpriority: medium
 ms.custom: Adm_Yammer
@@ -27,7 +27,7 @@ There are many types of users in Viva Engage and managing each of them is differ
 - Users without a Microsoft Entra ID
 - Guests
 
-As a Microsoft 365 Global administrator, you control the lifecycle for Viva Engage users through the Microsoft 365 admin center, in addition to managing them through Viva Engage.
+As a Microsoft 365 Global Administrator, you control the lifecycle for Viva Engage users through the Microsoft 365 admin center, in addition to managing them through Viva Engage.
 
 All communities and groups from Viva Engage networks in Native Mode are managed through these admin centers. Some of the management capabilities regarding community or group members or users that can be done through the Microsoft 365 admin center includes:
 
@@ -78,7 +78,7 @@ Beginning in March 2019, we changed how Viva Engage users are created. The proce
     
     2. The user signs in to Microsoft 365 using the identity provider configured for the tenant.
     
-    3. The user selects the Viva Engage tile in the Microsoft 365 app launcher to go to Viva Engage.
+    3. The user selects the Viva Engage tile in Microsoft 365 Copilot to go to Viva Engage.
     
     4. A new Viva Engage user is created for the Microsoft 365 user. The user's profile properties and language setting from Microsoft Entra ID are automatically populated in the user's Viva Engage profile.
 

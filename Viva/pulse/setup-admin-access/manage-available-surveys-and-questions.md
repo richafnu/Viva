@@ -2,13 +2,13 @@
 title: Manage available surveys and questions
 description: "Manage available surveys and questions"
 ms.reviewer: 
-ms.author: michellehu
-author: michellehu-msft
+ms.author: hasrivas
+author: hasrivas
 manager: alisaliddle
 audience: Admin
 f1.keywords: NOCSH
-ms.date: 05/23/2024
-ms.topic: article
+ms.date: 12/19/2024
+ms.topic: how-to
 ms.service: viva-pulse
 ms.localizationpriority: medium
 ms.collection: m365initiative-viva-pulse  
@@ -16,6 +16,9 @@ search.appverid: MET150
 ---
 
 # Manage available surveys and questions
+
+> [!IMPORTANT]
+> Content customization and administration is available only to those tenant administrators who are trying to access Viva Pulse with a premium license. If you are trying to access Viva Pulse with your Microsoft 365 Copilot subscription, you will not access to the Content customization and administration experience. 
 
 ## Admin management of survey template and question libraries
 
@@ -81,7 +84,7 @@ Deactivating a survey can be undone at any time by marking it as **Active** agai
 
 Surveys that were originally provided with the Pulse app and have a source of either **Pulse** or **Pulse (customized)** can only be deactivated.
 
-When a survey has a state of **Deactivated**, it's not available for authors to use when sending a new Pulse, nor can authors resend a pulse that was previously sent using the template. Pulses already in progress aren't be impacted, nor are historical reports.
+When a survey has a state of **Deactivated**, it's not available for authors to use when sending a new Pulse, nor can authors resend a pulse that was previously sent using the template. Pulses already in progress aren't impacted, nor are historical reports.
 
 **Deleting a survey template**
 
@@ -128,7 +131,7 @@ Deactivating a standalone question can be undone at any time by marking it as **
 
 Questions that were originally provided with the Pulse app and have a source of either **Pulse** or **Pulse (customized)** can only be deactivated.
 
-When a question has a state of **Deactivated**, it's not available for authors to use when sending a new Pulse, nor can authors resend a pulse that was previously sent using the template. Pulses already in progress aren't be impacted, nor are historical reports.
+When a question has a state of **Deactivated**, it's not available for authors to use when sending a new Pulse, nor can authors resend a pulse that was previously sent using the template. Pulses already in progress aren't impacted, nor are historical reports.
 
 **Deleting a standalone question**
 

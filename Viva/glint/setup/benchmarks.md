@@ -1,6 +1,6 @@
 ---
 title: Viva Glint benchmark collateral  
-description: "Global benchmarks provide level-setting comparisons during an initial survey, but internal and trend comparisons provide more useful information in subsequent surveys."
+description: Global benchmarks provide level-setting comparisons during an initial survey, but internal and trend comparisons provide more useful information in subsequent surveys.
 ms.author: JudithWeiner
 author: JudyWeiner
 manager: MelissaBarry
@@ -11,10 +11,10 @@ ms.collection:
 - m365initiative-viva
 - selfserve 
 search.appverid: MET150 
-ms.topic: article
+ms.topic: concept-article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 06/03/2024
+ms.date: 03/26/2025
 ---
 
 # Viva Glint benchmark collateral  
@@ -34,42 +34,50 @@ We strongly urge our customers to use our standards—the overall global and hig
 
 Benchmarks represent a comprehensive and current set of norms, which provide accurate and relevant comparisons for customers. Benchmarks are updated to reflect customer needs and emerging industry interests.  
 
-*Global* benchmarks are updated twice a year. 
-
 > [!NOTE]
-> It is unnecessary to update benchmarks more frequently as scores rarely change more than a point or two between updates.
+> New benchmark creation is paused until all remaining customers of LinkedIn Glint are transitioned to Viva Glint. Once a robust sample of customers migrates, benchmark refreshes will resume (projected for late 2025). Until then, all existing benchmark suites remain available to Viva Glint customers.
 
-## Global benchmarks
+## Benchmarks at a glance
 
-Viva Glint offers these benchmarks:
-- Global (mean)
-- Top percentiles - threshold score to achieve for the respective high performing benchmarks
-  - Top 25%
-  - Top 10%
-- Employee Lifecycle
-  - Onboarding - new hires
-  - Exit## 2023 Global benchmark suite
-
-### 2023 Global benchmarks
-
-At a glance:
- - More than 1,100 companies; over one third have at least 5,000 employees
- - 10.6 million respondents from over 150 countries
- - 354 million data points
- - 206 benchmarked items
-
-### 2024 Global benchmarks
-
-Viva Glint will update benchmarks on June 28, 2024.
+The latest Viva Glint benchmarks are based on:
+- More than 1,000 companies
+- 10.2 million respondents
+- 325 million data points
+- 198 benchmarked items
  
-### Benchmark options
+## Benchmark options
 
-|Benchmark|Availability|
-|--------|--------|
-|**Industry***|Finance, Healthcare, Manufacturing, Professional Service, Retail, Technology, Utilities|
-|**Country***|Australia, Brazil, Canada, China, France, Germany, Hong Kong, India, Italy, Japan, Mexico, Netherlands, Russian Federation, Singapore, Spain, Sweden, Switzerland, UAE, UK, US|
-|**Nursing Excellence (Magnet)**|Registered Nurses, Combined Ambulatory, Combined Labor and Delivery, Combined Pediatrics, Combined Surgical, Critical Care, Emergency, Home Care, Long-term Care, Med-Surg, Medical, Oncology, Operating Room, Psychiatric, Specialty Practice, Step Down|
-|* This list is based on client usage and other industry/country benchmarks are available. Inquire about other industries/countries if your benchmark of interest is not listed here.|
+|Benchmark|Suites Available|
+|:--------|:--------|
+|**Global**| <ul><li>Global Overall</li> <li>Top 25%</li> <li>Top 10%</li> <li>Employee Lifecycle (Onboarding and Exit)</li></ul>|
+|**Industry***|<ul><li>Finance</li> <li>Healthcare</li> <li>Manufacturing</li> <li>Professional Service</li> <li>Retail</li> <li>Technology</li> <li>Utilities</li></ul>|
+|**Country***|<ul><li>Australia</li> <li>Brazil</li> <li>Canada</li> <li>China</li> <li>France</li> <li>Germany</li> <li>Hong Kong</li> <li>India</li> <li>Italy</li> <li>Japan</li> <li>Mexico</li> <li>Netherlands</li> <li>Russian Federation</li> <li>Singapore</li> <li>Spain</li> <li>Sweden</li> <li>Switzerland</li> <li>UAE</li> <li>UK</li> <li>US</li></ul>|
+|**Nursing Excellence (Magnet)**|<ul><li>Registered Nurses</li> <li>Combined Ambulatory</li> <li>Combined Labor and Delivery</li> <li>Combined Pediatrics</li> <li>Combined Surgical</li> <li>Critical Care</li> <li>Emergency</li> <li>Home Care</li> <li>Long-term Care</li> <li>Med-Surg</li> <li>Medical</li> <li>Oncology</li> <li>Operating Room</li> <li>Psychiatric</li> <li>Specialty Practice</li> <li>Step Down</li></ul>|
+
+\* This list is based on client usage and other industry/country benchmarks available.
+
+> [!IMPORTANT]
+> The top 10%/25% benchmark suites are based on the threshold (floor score) required for the respective top-performing category. They don't reflect the average of the top performing group.
+
+### Benchmark date coverage
+
+|Benchmark|Release Date|Data Date Range|
+|--------|--------|--------|
+|2021 Global (May)|5/31/2021|March 1, 2020 - February 28, 2021|
+|2021 Industries|9/30/2021|July 1, 2020 - June 30, 2021|
+|2021 Countries & Global (Dec)|12/31/2021|October 1, 2020 - September 30, 2021|
+|2021 Industries (Calendar Year)|3/31/2022|January 1, 2021 - December 31, 2021|
+|2022 Global (May)|6/30/2022|April 1, 2021 - March 31, 2022|
+|2022 Magnet|9/30/2022|July 1, 2021 - June 30, 2022|
+|2022 Countries & Global (Dec)|12/31/2022|October 1, 2021 - September 30, 2022|
+|2022 Industries|3/31/2023|January 1, 2022 - December 31, 2022|
+|2022 GPS|4/30/2023|January 1, 2021 - March 15, 2023|
+|2022 Research / Teaching Hospitals|4/30/2022|January 1, 2021 - December 31, 2022|
+|2023 Global (June)|6/30/2023|April 1, 2022 - March 31, 2023|
+|2023 Countries & Global (Dec)|12/31/2023|October 1, 2022 - September 30, 2023|
+|2023 Industries|3/31/2024|January 1, 2023 - December 31, 2023|
+|2023 Research/Teaching Hospitals|4/1/2023|January 1, 2022 - December 31, 2023|
+|2024 Global (June)|6/30/2024|April 1, 2023 - March 31, 2024|
 
 ## Considerations for choosing a benchmark 
 
@@ -88,7 +96,7 @@ Consider the following items when choosing benchmarks for your managers:
 Updated benchmarks provide comparisons by standard segments, such as country or industry, and by added items that may be part of a customer’s survey feedback. Comparison trends provide valuable insights unavailable in Viva Glint benchmarks. For example, newly benchmarked diversity and inclusion items can help customers interpret the effectiveness of internal programs.
 
 > [!NOTE]
-> Deploying new benchmarks will retroactively impact customer reports, action plans, etc. for past surveys. It's beneficial to adopt the latest benchmark suite available; always announce a change in benchmark with a thorough internal communications.
+> Deploying new benchmarks retroactively impacts customer reports, action plans, etc. for past surveys. It's beneficial to adopt the latest benchmark suite available; always announce a change in benchmark with a thorough internal communications.
 
 ## Survey item edits that affect benchmark comparison
 
@@ -103,13 +111,13 @@ Viva Glint extensive research is used to identify the most reliable and valid it
 
    - **Standard:** I would recommend my manager to others.
    - **Modified:** I would recommend my supervisor to others. 
-   - **Recommendation:** Modifying a term in the item to make it more specific to your organizational language is acceptable. Edit the standard item without creating a copy to retain the benchmark.
+   - **Recommendation:** Modifying a term in the item to make it more specific to your organizational language is acceptable. To retain the benchmark, edit the standard item without creating a copy.
 
 1. Example 2: Using synonyms 
 
    - **Standard:** The recruitment process was excellent. 
    - **Modified:** The recruitment process was great.  
-   - **Recommendation:** If the replacement word is likely to be interpreted similarly, the item change is acceptable. Edit the standard item without creating a copy to retain the benchmark.  
+   - **Recommendation:** If the replacement word is likely to be interpreted similarly, the item change is acceptable. To retain the benchmark, edit the standard item without creating a copy. 
 
 1. Example 3: Altering the subject 
    - **Standard:** I feel empowered to make decisions regarding my work. 
@@ -119,7 +127,7 @@ Viva Glint extensive research is used to identify the most reliable and valid it
 1. Example 4: Altering the meaning 
    - **Standard:** My manager provides me with feedback that helps me improve my performance. 
    - **Modified:** My manager and I have regular conversations.   
-   - **Recommendation:** When the meaning of an item is fundamentally altered, the change is not recommended. Create a copy of the standard item and customize the copy so that there isn't an invalid benchmark tied to the edited item.
+   - **Recommendation:** When the meaning of an item is fundamentally altered, the change isn't recommended. Create a copy of the standard item and customize the copy so that there isn't an invalid benchmark tied to the edited item.
   
 > [!IMPORTANT]
 > Update translations with edits to English when modifying a standard or a copy of a standard Viva Glint survey item.

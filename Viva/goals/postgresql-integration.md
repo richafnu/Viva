@@ -2,13 +2,13 @@
 ms.date: 04/13/2022
 title: PostgreSQL integration
 ms.reviewer: 
-ms.author: RaSanders
-manager: Liz.Pierce
-author: RaSanders-MSFT
+ms.author: daisyfeller
+author: daisyfell
+manager: elizapo
 audience: Admin
 f1.keywords:
 - NOCSH
-ms.topic: article
+ms.topic: integration
 ms.service: viva-goals
 ms.localizationpriority: medium
 ms.collection:  

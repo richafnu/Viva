@@ -2,14 +2,14 @@
 title: "Manage user privileges with view-only mode in Viva Engage"
 description: "View-only mode lets Viva Engage admins remove content creation privileges from users when the need arises."
 ms.reviewer: ethli
-ms.author: v-bvrana
+ms.author: donnabouldin
 author: Starshine89
 manager: elizapo
 ms.date: 07/08/2024
 audience: Admin
 f1.keywords:
 - NOCSH
-ms.topic: article
+ms.topic: how-to
 ms.service: viva-engage
 ms.localizationpriority: medium
 ms.collection:  

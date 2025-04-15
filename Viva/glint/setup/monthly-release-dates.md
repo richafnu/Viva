@@ -1,6 +1,6 @@
 ---
-title: Plan for scheduled monthly platform releases and shutdowns
-description: Viva Glint monthly “release notes” are sent to customers and provide details about what's upcoming for the Viva Glint platform. Releases include scheduled downtime for regular platform maintenance. 
+title: Viva Glint platform deployment dates
+description: Viva Glint deployment dates are available to customers and provide details about what's upcoming for the Viva Glint platform. 
 ms.author: JudithWeiner
 author: JudyWeiner
 manager: MelissaBarry
@@ -11,37 +11,31 @@ ms.collection:
  - m365initiative-viva
  - selfserve
 search-appverid: MET150
-ms.topic: article
+ms.topic: install-set-up-deploy
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 07/09/2024
+ms.date: 3/21/2025
 ---
 
-# Plan for Viva Glint scheduled monthly platform releases and shutdowns
+# Viva Glint platform deployment dates
 
-Microsoft Viva Glint is consistently improving the customer experience. Our platform maintains an agile production cycle with fixes, enhancements, and new features. Recurring updates to all customers and provide details about what's upcoming to the Viva Glint platform. This update includes scheduled downtime for the platform. The release schedule is subject to change and is updated as appropriate. 
+Microsoft Viva Glint is consistently improving the customer experience. Our platform maintains an agile production cycle with fixes, enhancements, and new features. Updates are communicated to all customers via monthly email newsletters. [Find the current and past newsletters here.](https://techcommunity.microsoft.com/category/viva-glint/blog/viva_glint_blog)
 
->[!TIP]
->Inform survey takers if this short instance of downtime occurs during a survey-taking window. In most cases, platform downtime will be less than twelve hours.
+> [!NOTE]
+> Beginning in April 2025, Viva Glint deployment days move from Saturdays to Mondays.
 
-|Release number|Planned date for new feature releases and enhancements|Read the blog|
-|--------------|-------------------------------------------------------|------------|
-|Release 69|March 9, 2024|[Volume 1, Edition 3](https://techcommunity.microsoft.com/t5/viva-glint-blog/march-2024-viva-glint-newsletter/ba-p/4072981)|
-|Release 70|April 6, 2024|[Volume 1, Edition 4](https://techcommunity.microsoft.com/t5/viva-glint-blog/april-2024-viva-glint-newsletter/ba-p/4100871)|
-|Release 71|May 4, 2024|[Volume 1, Edition 5](https://techcommunity.microsoft.com/t5/viva-glint-blog/may-4-2024-viva-glint-release-update/ba-p/4127426)|
-|Release 72|June 1 2024|[Volume 1, Edition 6](https://techcommunity.microsoft.com/t5/viva-glint-blog/june-2024-viva-glint-release-update/ba-p/4157334)|
-|Release 73|June 29, 2024|[Volume 1, Edition 7](https://techcommunity.microsoft.com/t5/viva-glint-blog/july-2024-viva-glint-release-updates/ba-p/4180459)|
-|Release 74|July 27, 2024|
-|Release 75|August 24, 2024|
-|Release 76|September 21, 2024|
-|Release 77|October 19, 2024|
-|Release 78|November 16, 2024|
-|Release 79|December 7, 2024|
+|Planned deployment dates for 2025|
+|--------------|
+|Saturday, January 18, 2025|
+|Saturday February 15, 2025|
+|Saturday, March 15, 2025|
+|Monday, April 14, 2025|
+|Monday, May 19, 2025|
+|Monday, June 23, 2025|
 
->[!IMPORTANT]
->Be mindful of scheduled dates when your Viva Glint platform will be down for maintenance and feature enhancements. Any time a person logs into a Viva Glint program and a scheduled maintenance instance is impending within two-three days, a message alerting the user to the scheduled shutdown appears.
->
->*Viva Glint is committed to consistently improving the customer experience. The cloud-based platform maintains an agile production cycle with fixes, enhancements, and new features. Planned program release dates are provided with the best intentions of releasing on these dates, but dates may change due to unforeseen circumstances. Scheduled updates are provided as appropriate*
+
+Viva Glint is committed to consistently improving the customer experience. The cloud-based platform maintains an agile production cycle with fixes, enhancements, and new features. Planned program release dates are provided with the best intentions of releasing on these dates, but dates may change due to unforeseen circumstances. Updates are provided as appropriate.
+
 
 
 

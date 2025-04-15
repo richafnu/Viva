@@ -3,13 +3,13 @@
 ms.date: 06/28/2024
 title: Viva Goals regional support
 ms.reviewer: 
-ms.author: rasanders
-author: RaSanders-MSFT
-manager: liz.pierce
+ms.author: daisyfeller
+author: daisyfell
+manager: elizapo
 audience: Admin
 f1.keywords:
 - NOCSH
-ms.topic: article
+ms.topic: concept-article
 ms.service: viva-goals
 ms.localizationpriority: High
 ms.collection:  

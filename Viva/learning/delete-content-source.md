@@ -6,13 +6,12 @@ manager: elizapo
 ms.reviewer: chrisarnoldmsft
 ms.date: 06/27/2024
 audience: admin
-ms.topic: article
+ms.topic: concept-article
 ms.service: viva-learning
 search.appverid: MET150
 ms.collection:
   - enabler-strategic
   - m365initiative-viva-learning
-  - Tier1
   - essentials-manage
 ms.localizationpriority: medium
 description: Learn how to delete a content provider in Microsoft Viva Learning.

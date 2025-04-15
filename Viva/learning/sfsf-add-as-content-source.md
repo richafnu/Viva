@@ -6,13 +6,12 @@ manager: elizapo
 ms.reviewer: chrisarnoldmsft
 ms.date: 07/24/2024
 audience: admin
-ms.topic: article
+ms.topic: how-to
 ms.service: viva-learning
 search.appverid: MET150
 ms.collection:
   - enabler-strategic
   - m365initiative-viva-learning
-  - Tier1
 ms.localizationpriority: medium
 description: An earlier version of the document for Configuring SAP SuccessFactors as a learning content source for Microsoft Viva Learning for customers who have already onboarded.
 ROBOTS: NOINDEX, NOFOLLOW

@@ -4,13 +4,13 @@ description: "Benchmarks reveal how your Viva Engage metrics perform compared to
 ROBOTS: NOINDEX, NOFOLLOW
 ms.date: 5/17/2024
 ms.reviewer: ethli
-ms.author: v-bvrana
+ms.author: donnabouldin
 author: Starshine89
 manager: elizapo
 audience: Admin
 f1.keywords:
 - NOCSH
-ms.topic: article
+ms.topic: how-to
 ms.service: viva-engage
 ms.localizationpriority: high
 ms.collection:  
@@ -70,7 +70,7 @@ Network administrators and corporate communicators can increase engagement, stre
 
 - Encourage leaders to post and interact with content.
 
-### Optimize engagement in your audience
+### Optimize engagement in your audiences
 
 Leaders, delegate managers, and delegates can increase engagement, strengthen connections, and improve benchmark metrics for audience analytics by applying best practices for content creation.
 

@@ -6,13 +6,12 @@ manager: elizapo
 ms.reviewer: chrisarnoldmsft
 ms.date: 06/28/2024
 audience: admin
-ms.topic: article
+ms.topic: concept-article
 ms.service: viva-learning
 search.appverid: MET150
 ms.collection:
   - enabler-strategic
   - m365initiative-viva-learning
-  - Tier1
 ms.localizationpriority: medium
 description: Manage your language settings in Viva Learning for users across Teams, webapp and mobile. 
 ---

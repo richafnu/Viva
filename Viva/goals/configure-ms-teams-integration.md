@@ -1,14 +1,14 @@
 ---
-ms.date: 12/14/2023
+ms.date: 1/13/2025
 title: Add Viva Goals to Microsoft Teams
-ms.reviewer: 
-ms.author: rasanders
-author: RaSanders-MSFT
-manager: Liz.Pierce
+ms.reviewer: aroraaarushi
+ms.author: daisyfeller
+author: daisyfell
+manager: elizapo
 audience: Admin
 f1.keywords:
 - NOCSH
-ms.topic: article
+ms.topic: how-to
 ms.service: viva-goals
 ms.localizationpriority: high
 ms.collection:  
@@ -26,7 +26,7 @@ This article describes how to install the Viva Goals app in Microsoft Teams for 
 
 ## Install the Viva Goals app for yourself in Microsoft Teams
 
-There are multiple ways to install the Viva Goals app in Teams. The easiest way is to select the ellipsis (three dots) on the left-hand navigation bar, search for Viva Goals, and then select **Add** next to the Viva Goals app in the list of search results. <!--Editor's Note: Should "Add" be removed in favor of sipmly the Viva Goals app? I added "Add," but it isn't reflected in the current image.-->
+There are multiple ways to install the Viva Goals app in Teams. The easiest way is to select the ellipsis (three dots) on the left-hand navigation bar, search for Viva Goals, and then select **Add** next to the Viva Goals app in the list of search results.
 
 :::image type="content" source="../media/goals/5/navigation-bar-ellipse-button-to-add-viva-goals-app.png" alt-text="Screenshot that shows how to search for and add the Viva Goals app from the Teams navigation bar." lightbox="../media/goals/5/navigation-bar-ellipse-button-to-add-viva-goals-app.png":::
 
@@ -127,8 +127,8 @@ We'll show you how to preinstall the app for a specific group of users. If you w
 
 ## Install the Teams app for Viva Goals in Outlook and Microsoft 365
 
-The Viva Goals app for Microsoft Teams is a Teams app that also works on Outlook and the Microsoft 365 app. Both link previews and the message extension will work in Outlook as well once the app is installed.
+The Viva Goals app for Microsoft Teams is a Teams app that also works on Outlook and Microsoft 365 Copilot. Both link previews and the message extension will work in Outlook as well once the app is installed.
 
-If the app is installed by a user in Microsoft Teams, it will automatically show up in Outlook and Microsoft 365. As an admin, you can also deploy these apps on Outlook and Microsoft 365 for your organization, using the Integrated Apps portal on the Microsoft 365 Admin Center. Note that deployment and management for the app is separately managed from Microsoft Teams. Microsoft Teams deployments are controlled from the Teams Admin Center, while Outlook and Microsoft 365 deployments are controlled from the Microsoft 365 Admin Center, Integrated apps section.
+If the app is installed by a user in Microsoft Teams, it will automatically show up in Outlook and Microsoft 365 Copilot. As an admin, you can also deploy these apps on Outlook and Microsoft 365 for your organization, using the Integrated Apps portal on the Microsoft 365 Admin Center. Note that deployment and management for the app is separately managed from Microsoft Teams. Microsoft Teams deployments are controlled from the Teams Admin Center, while Outlook and Microsoft 365 Copilot deployments are controlled from the Microsoft 365 Admin Center, Integrated apps section.
 
 For information on managing the app in Outlook and Microsoft 365, see [Teams apps that work on Outlook and Microsoft 365](/microsoft-365/admin/manage/teams-apps-work-on-outlook-and-m365).

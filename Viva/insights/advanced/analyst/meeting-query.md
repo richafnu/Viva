@@ -1,10 +1,10 @@
 ---
-ms.date: 02/28/2023
+ms.date: 10/04/2024
 title: Meeting query
 description: Learn how to run a custom meeting query in the Microsoft Viva Insights advanced insights app
 author: zachminers
 ms.author: v-zachminers
-ms.topic: article
+ms.topic: how-to
 ms.localizationpriority: medium 
 ms.collection: viva-insights-advanced 
 ms.service: viva-insights
@@ -21,7 +21,7 @@ audience: Admin
 
 ## Overview
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RW1lfDg]
+> [!VIDEO e820af24-1cfe-4a7d-9cc4-c8895146d7cf]
 
 Each of these steps takes place within one section of the [advanced insights app's](https://go.microsoft.com/fwlink/?linkid=2201482) **Custom queries > Meeting query** page.
 
@@ -64,7 +64,7 @@ In this article, we talk about how to complete each of these steps, and also giv
 
 *Section: **Select metrics for what you want to know about your meetings***
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RW1lda0]
+> [!VIDEO 99ddedd4-ee46-4f08-8fc0-228101a74e9b]
 
 :::image type="content" source="../images/meeting-query-section-1.png" alt-text="Screenshot that shows the Select metrics field, with an Add metrics button." lightbox="../images/meeting-query-section-1.png":::
 
@@ -85,7 +85,7 @@ You can pick from seven meeting-related metrics, which we've broken into two cat
 |---|----|---- |
 |**Meeting impact metrics**| Attendee meeting hours| Sum of hours each attendee spent in a meeting |
 ||Number of attendees| Number of people who attended a meeting |
-|**Meeting quality metrics**| Number of attendees multitasking|Number of attendees who sent or read emails or Teams chats during a meeting |
+|**Meeting quality metrics**| Number of attendees multitasking| Number of attendees who sent or read emails or Teams chats during a meeting. (Messages sent in the chat of the meeting/Teams call are excluded) |
 ||Number of redundant attendees| Number of attendees who are redundant in a meeting, meaning that their manager and their manager's manager also attended |
 ||Number of attendees who ended the meeting on time|Number of attendees who left a Teams meeting early or within one minute after the scheduled end time
 ||Number of attendees who didn’t end the meeting on time|Number of attendees who left a Teams meeting after one minute past the scheduled end time|

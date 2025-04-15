@@ -2,12 +2,12 @@
 title: "Use eDiscovery for Viva Engage content"
 f1.keywords:
 - NOCSH
-ms.author: v-bvrana
+ms.author: donnabouldin
 author: Starshine89
 manager: elizapo
-ms.date: 08/14/2023
+ms.date: 09/26/2024
 audience: Admin
-ms.topic: article
+ms.topic: how-to
 ms.service: viva-engage
 ms.localizationpriority: medium
 ms.custom: Adm_Yammer

@@ -5,7 +5,7 @@ title: Microsoft Viva Accelerators introduction
 description: Introduces Microsoft Viva Accelerators and what solutions are available to use
 author: zachminers
 ms.author: v-zachminers
-ms.topic: article
+ms.topic: concept-article
 ms.localizationpriority: medium 
 search.appverid:
 - MET150
@@ -14,7 +14,6 @@ ms.collection:
   - M365-analytics
   - viva-insights
   - highpri
-  - Tier1
 manager: scott.ruble
 audience: Admin
 ---

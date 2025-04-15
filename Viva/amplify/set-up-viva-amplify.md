@@ -1,7 +1,7 @@
 ---
 title: Set up Microsoft Viva Amplify
 ms.reviewer: smathurin
-ms.date: 01/24/2024
+ms.date: 02/12/2025
 ms.author: daisyfeller
 author: daisyfell
 manager: elizapo
@@ -14,7 +14,6 @@ search.appverid: MET150
 ms.collection:
   - enabler-strategic
   - m365initiative-viva-amplify
-  - Tier1
   - essentials-get-started
 ms.localizationpriority: medium
 description: Learn how to set up Viva Amplify for your organization.
@@ -39,15 +38,16 @@ The **Viva Amplify** and **Viva Amplify - Organizational data** service plans ar
 
 Campaigns are stored in the associated users' OneDrive for Business. Therefore, users need to have OneDrive for Business in place to be able to create campaigns in Viva Amplify. [Learn how to set up OneDrive for your organization](/microsoft-365/admin/setup/set-up-file-storage-and-sharing).
 
+Campaigns require an Exchange mailbox. Users therefore need to have Exchange set up in order to create campaigns.
+
 ## Product limitations
 
 - **Vanity URLs**: At launch, Viva Amplify may have limitations when used with vanity URLs. If your company has a vanity URL, reach out to your support contact to discuss the best approach for rolling out our product within your organization.
-- **Localization** At launch, Viva Amplify is available exclusively in English. More languages are planned for future releases.
 
 ### Assign admin roles
 
 >[!IMPORTANT]
->Users need both SharePoint admin and Groups admin roles to be able to manage settings in Viva Amplify.
+>Users need both SharePoint admin and Groups admin roles to be able to manage settings in the admin center for Viva Amplify. These permissions are only required for managing settings in the admin center, and are not required for users to create campaigns and publications.
 
 First, familiarize yourself with [roles in Viva Amplify.](viva-amplify-roles.md)
 
@@ -55,7 +55,7 @@ First, familiarize yourself with [roles in Viva Amplify.](viva-amplify-roles.md)
 
 1. Under **Featured collections** choose **Microsoft Viva**.
 
-    ![Screenshot of the Microsoft Viva collection.](../media/amplify/set-up-mac-collections.png).
+    ![Screenshot of the Microsoft Viva collection](../media/amplify/set-up-mac-collections.png)
 
 1. Select **Viva Amplify**.
 
@@ -83,9 +83,6 @@ You can also assign roles from your Microsoft 365 admin center by navigating to 
 
 ## Manage organizational data
 
->[!NOTE]
->This capability is currently only available for private preview customers. General availability is coming soon.
-
 Amplify provides reporting data for metrics such as read rates on emails, view rates on SharePoint pages, interactions with Teams posts, and more. Importing your organizational data can enhance your Amplify reports by giving you further insight into use and impact.
 
 Organizational Data is descriptive information about employees related to their employment in their organization. Organizational Data in Microsoft 365 combines organizational data uploaded with Microsoft 365 data to power certain capabilities in applications. This feature offers the capability to enrich the Microsoft 365 User Profile by ingesting organizational data that resides in external systems (such as CRM systems or HR systems) and fills in the gaps of nonexistent or stale user profile data and enable richer experiences in Viva and Microsoft 365 services.
@@ -99,7 +96,10 @@ Organizational Data is descriptive information about employees related to their 
 
 ### Manage campaign creation
 
-Viva Amplify is designed so that users with a wide range of roles, such as project managers who do regular status reports for stakeholders, can benefit from using campaigns. You can use the admin controls in Amplify to restrict who can create campaigns:
+Viva Amplify is designed so that users with a wide range of roles, such as project managers who do regular status reports for stakeholders, can benefit from using campaigns. You can use the admin controls in Amplify to restrict who can create campaigns.
+
+>[!NOTE]
+>Admins should ensure that users who are provided access to create campaigns also have disabled any "Limited-access user permission lockdown mode" for the root site. In some instances, admins may have to grant the users an additional permission which includes the UseRemoteAPIs permission. If you encounter issues, [view the permissions documentation](https://eng.ms/docs/experiences-devices/onedrivesharepoint/sharepoint-online-and-onedrive-for-business/sharepoint-collab-sharing/compteamwikitsgs/sharing/specificguides/permissionsissueswithlag).
 
 - The default setting enables everyone in the organization to create campaigns with Amplify.
 - You can choose to only allow specific people or security groups to create campaigns.
@@ -116,11 +116,11 @@ Viva Amplify is designed so that users with a wide range of roles, such as proje
 
 1. If you only want specific people or groups to be able to create campaigns, choose **Only selected people or security groups.** Type a name or email address to add a person or group.
 
->[!NOTE]
->If you choose this option, Amplify will create a security group in Microsoft Entra that contains the selected users.
+   >[!NOTE]
+   >If you choose this option, Amplify will create a security group in Microsoft Entra that contains the selected users.
 
->[!IMPORTANT]
->Users who you want to be able to create campaigns need to have **Group creation** permissions in SharePoint. [Learn how to assign these permissions in the SharePoint admin center.](/sharepoint/manage-site-creation)
+   >[!IMPORTANT]
+   >Users who you want to be able to create campaigns need to have **Group creation** permissions in Microsoft 365. [Learn how to manage group creation.](/microsoft-365/solutions/manage-creation-of-groups)
 
 ## Manage campaigns in the SharePoint admin center
 

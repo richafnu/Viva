@@ -1,5 +1,5 @@
 ---
-ms.date: 06/16/2023
+ms.date: 03/25/2025
 title: Install the Viva Insights app in Teams
 description: Install the Microsoft Viva Insights app available for Microsoft Teams
 author: zachminers
@@ -17,7 +17,7 @@ audience: Admin
 
 # Configure Teams app settings
 
-![Teams service admin icon](../images/applies-to-teams-admin.png)*Applies to: Teams Service Administrator, Microsoft 365 global admin, and Exchange Online admin*
+*Applies to: Teams Service Administrator, Exchange Online admin*
 
 The Viva Insights app is automatically installed in Teams once the admin enables the app on managed apps. As a [Teams Service Administrator](/microsoftteams/using-admin-roles#teams-roles-and-capabilities), you can pin and manage access for the Microsoft Viva Insights app in Microsoft Teams for all the users or for specific groups in your organization [through custom policies](/microsoftteams/teams-app-setup-policies).
 
@@ -55,6 +55,9 @@ Users can follow these steps to [Discover and pin the Viva Insights app](https:/
 
 ## Configure meeting effectiveness surveys
 
+>[!Note]
+>Meeting effectiveness surveys are only available in the classic Teams client, not the new Teams.
+
 As the admin, you can configure the meeting effectiveness surveys for your organization at the [user](#user-level-configuration) or [tenant level](#tenant-level-configuration). You can enable or disable the survey for a specific user or multiple users with PowerShell, or you can set the default state for all users in your tenant as opted in or opted out in the Microsoft 365 admin center.
 
 #### Prerequisites
@@ -69,7 +72,7 @@ Confirm the following before configuring access:
 As the admin, use the following steps to change the setting for meeting effectiveness surveys at the tenant level. This setting is enabled by default, so that all users will receive the surveys. Users can opt out individually from within their Viva Insights app settings.
 
 >[!IMPORTANT] 
-> If you opt out of the meeting effectiveness surveys at the tenant level, people in your organization will be opted-out by default from getting feedback on meetings they organize. However, individuals can override this tenant-level setting. To prevent a person from opting-in and and to disable the feature completely, you need to disable the surveys for that user with PowerShell, like we describe [below](#set-access-for-multiple-users).
+> If you opt out of the meeting effectiveness surveys at the tenant level, people in your organization will be opted-out by default from getting feedback on meetings they organize. However, individuals can override this tenant-level setting. To prevent a person from opting-in and to disable the feature completely, you need to disable the surveys for that user with PowerShell, like we describe [below](#set-access-for-multiple-users).
 
 ##### To configure the default state for a tenant
 

@@ -1,10 +1,10 @@
 ---
-ms.date: 07/12/2024
+ms.date: 03/14/2025
 title: Microsoft 365 Copilot impact report
 description: Learn how to use the Microsoft 365 Copilot impact Power BI template to understand the effects of Copilot usage among employees across your organization.
 author: zachminers
 ms.author: v-zachminers
-ms.topic: article
+ms.topic: how-to
 ms.localizationpriority: medium 
 ms.collection: 
 - viva-insights-advanced
@@ -17,10 +17,7 @@ manager: anirudhbajaj
 audience: Admin
 ---
 
-# Microsoft 365 Copilot impact report (preview)
-
-> [!Important]
-> This feature is for public preview customers only. Features in preview might not be complete and could undergo changes before becoming available in the broader release.
+# Microsoft 365 Copilot impact report
 
 The **Microsoft 365 Copilot impact** report helps leaders understand the impact of Copilot usage among employees across their organization. The insights can help you evaluate the relationship between Copilot adoption and collaboration patterns. It also spotlights the total number of hours employees were “assisted” by Copilot in their daily work.
 
@@ -30,7 +27,7 @@ The report summary page provides an overview of the total number of active Copil
 * Teams chat
 * Email
 * Documents
-* Copilot chat (work)
+* Microsoft 365 Copilot Chat (work)
 
 Each of these sections allows the user to evaluate how collaboration patterns have changed after employees started using Copilot. It also provides comparisons between Copilot and non-Copilot users across groups. 
 
@@ -53,6 +50,8 @@ Before you can run the queries and populate the report in Power BI, you’ll nee
 * Have Microsoft 365 Copilot licenses and Microsoft Viva Insights licenses assigned to the employees you would like to include as part of your measured population.
 
 ## Report setup
+
+For detailed scenario-based guidance on how to set up an analysis tailored to your organization, refer to our [analyst toolkit playbook](https://aka.ms/CopilotAdvancedAnalytics).
 
 ### Run query
 
@@ -198,5 +197,6 @@ View this report's metric definitions.
 
 ### Related topics
 
-- [Access query results and modify existing queries](../query-results.md)
-- [Filters](../filters.md)
+* [Copilot analytics playbook](https://aka.ms/CopilotAdvancedAnalytics)
+* [Access query results and modify existing queries](../query-results.md)
+* [Filters](../filters.md)

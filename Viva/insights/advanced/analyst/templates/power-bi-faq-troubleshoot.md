@@ -1,10 +1,10 @@
 ---
-ms.date: 02/12/2024
+ms.date: 03/12/2025
 title: Power BI tips, FAQ, and troubleshooting
 description: Get answers to frequently asked questions about using Power BI for Viva Insights data
 author: zachminers
 ms.author: v-zachminers
-ms.topic: article
+ms.topic: faq
 ms.localizationpriority: medium 
 ms.collection: viva-insights-advanced 
 ms.service: viva-insights
@@ -55,15 +55,21 @@ Power BI templates are a great way to begin your journey with Viva Insights. Aft
 
 ## FAQ
 
-### Q1 Who can create the report in Power BI?
+### Q1. Who can create the report in Power BI?
 
 You need to be assigned the role of **Insights Analyst** in the advanced insights app to create the report. You also need to have the June 2022 version or newer of Power BI Desktop version installed. [Get Power BI](https://powerbi.microsoft.com/en-us/desktop/).
 
-### Q2 Can I share the underlying report dataset with others in my organization?
+### Q2. Can I share the underlying report dataset with others in my organization?
 
 To maintain data privacy, only employees assigned the role of **Insights Analyst** in the advanced insights app should have access to the underlying dataset in the Power BI report.
 
-### Q3 How frequently is data refreshed in the report?
+### Q3. When I change the start and end date filters within a Power BI report, the data range doesn't match the dates I selected. Why? 
+
+The start and end date filters in a Power BI report return all records with a date that falls on or after the start date, and on or before the end date. These filters allow you to select any date for the start and end date. Most Viva Insights data, however, is aggregated weekly, and the weekly data use a record date that reflects the Sunday as the first day of the week, and represent the full week of activity from Sunday to Saturday. 
+
+For example, if you set the start date to Friday, 1/3/2025, and the end date to Monday, 1/27/2025, the data records returned would be dated between Sunday, 1/5/2025, and Sunday, 1/26/2025. These records would represent activity occurring between Sunday, 1/5/2025, and Saturday, 2/1/2025.
+
+### Q4. How frequently is data refreshed in the report?
 
 If you selected the auto-refresh option for your Viva Insights query, your query automatically runs and computes a new result every time Viva Insights gets updated collaboration data for licensed people. 
 
@@ -72,7 +78,7 @@ However, the new results aren't automatically refreshed in Power BI. If you're w
 >[!Important]
 >You need to manually adjust the **Selected time frame** setting in the report's **Settings** page to view the most recently processed data.
 
-### Q4 What languages are the reports available in?
+### Q5. What languages are the reports available in?
 
 Power BI report templates are available in these languages: 
 
@@ -96,13 +102,16 @@ However, there are a few template elements that aren't localized:
 * Column names, including metric names. When you set up the query for your Power BI report, the advanced insights app displays metric names based on your location settings. However, when query results load into the Power BI template, metric names are translated back into English.
 * Currency symbols. Currency only uses the “$” symbol.
 
-### Q5 How do I use Power BI?
+### Q6. How do I use Power BI?
 
 See [Power BI documentation](/power-bi) for details on how to use Power BI.
 
 ## Troubleshooting
 
 Here are a few errors you might encounter, and what might be causing them.
+
+>[!Important]
+>Certain reports use multiple data sources. If you see multiple entries for different data sources in the Data source settings, you might need to repeat the resolution steps for each data source.
 
 ### The import VivaInsight.Data matches no exports. Did you miss a module reference?
 
@@ -117,7 +126,7 @@ You might get this error if you used the wrong credentials while setting up the 
 :::image type="content" source="../../images/analyst-pbi-json-error.png" alt-text="Screenshot that shows the 'We found extra characters at the end of the JSON input' error.":::
 
 
-Here's what you can do to resolve it:
+#### How to resolve it in Power BI Desktop
 
 1. Close the Refresh window.
 2. In the **Home** ribbon, open the **Transform data** menu and select **Data source settings**.
@@ -131,6 +140,14 @@ Here's what you can do to resolve it:
 >You need to select **Organizational account** from the menu on the left and **Sign in** with the same account you use to access Viva Insights on the web.
 
 :::image type="content" source="../../images/power-bi-sign-in.png" alt-text="Screenshot that shows Organizational account sign in window.":::
+
+#### How to resolve it in Power BI service
+
+1. Navigate to the report workspace and open the semantic model settings.
+2. Expand the **Data source credentials** section. If this is disabled, select **Take over** to take control of the semantic model settings.
+3. Select **Edit credentials**. Choose **OAuth2** as the authentication method and select the appropriate privacy level settings. Select **Sign in**.
+4. If the model uses more than one set of data source credentials, you might need to repeat Step 3 for each.
+5. Refresh your semantic model.
 
 ## Support
 

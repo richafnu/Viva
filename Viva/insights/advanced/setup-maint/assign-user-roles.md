@@ -1,10 +1,10 @@
 ---
-ms.date: 06/14/2023
+ms.date: 01/06/2025
 title: Assign roles
 description: Learn how to assign Insights Administrator, Insights Analyst, and Insights Business Leader roles to users in your organization
 author: zachminers
 ms.author: v-zachminers
-ms.topic: article
+ms.topic: how-to
 ms.localizationpriority: medium 
 ms.collection: viva-insights-advanced 
 ms.service: viva-insights
@@ -15,27 +15,26 @@ audience: Admin
 ---
 # Assign roles
 
-![global admin](../images/applies-to-m365-admin.png)*Applies to: Privileged Role Administrator*
-
 >[!Note]
->This article covers how to assign the Insights Administrator, Insights Analyst, and Insights Business Leader roles to users.
-For specific information about what each role can do with Viva Insights, refer to [Roles in Viva Insights](../../use/user-roles.md).
+>This article covers how to assign the Insights Administrator and Insights Analyst roles to users. For specific information about what each role can do with Viva Insights, refer to [Roles in Viva Insights](../../use/user-roles.md).
 >
 >Enabling manager and leader access to insights is a different process. Insights Administrators enable this access through [Manager settings](./manager-settings.md).
 
 ## Assign Viva Insights roles
 
-People can work with Microsoft Viva Insights only after the Privileged Role Administrator assigns them one of these roles: **Insights Administrator**, **Insights Analyst**, or **Insights Business Leader**.
+People can work with Microsoft Viva Insights only after the Privileged Role Administrator assigns them the **Insights Administrator**, **Insights Analyst**, or **Group Manager** role. People who have been given "delegate access" can also work with Viva Insights.
 
 The Microsoft 365 admin assigns roles through the Microsoft admin center, unless your organization uses Privileged Identity Management (PIM). In that case, your organization might choose to have the Privileged Role Administrator assign roles with Microsoft Entra PIM.
 
+>[!Important]
+>The **Business Leader** role is no longer available. People who previously had this role no longer have access to organizational insights. To provide employees access to organizational insights, assign them delegate access. [Learn more about how delegate access works](..//..//org-team-insights/delegate-access.md). 
+
 ### Assign roles in the Microsoft admin center  
 
-*Applies to: Microsoft 365 global admin*
+These steps must be performed by the Microsoft 365 Global Administrator.
 
 1. Go to the [setup tab](https://admin.microsoft.com/adminportal/home#/featureexplorer) and select **Microsoft Viva**, then **Viva Insights**. You'll need to enter your credentials if you're not already signed in.
-1. Under **Add-on Plan**, select the role you want to assign: **Insights Admin**, **Insights Business Leader**, or **Insights Analyst**.
-:::image type="content" source="../images/assign-admin-leader-analyst.png" alt-text="Screenshot that shows the Viva Insights admin page with options in the Add-on Plan section highlighted." lightbox="../images/assign-admin-leader-analyst.png":::
+1. Under **Add-on Plan**, select the role you want to assign: **Insights Admin** or **Insights Analyst**.
 1. Select **Add users** or **Add groups**. We discuss group role assignment in [Assign roles to groups](#assign-roles-to-groups).
 1. Select users(s) or groups(s), then select **Add**.
 :::image type="content" source="../images/assign-users1.png" alt-text="Screenshot that shows the Add users option with three names.":::
@@ -60,7 +59,6 @@ Here are the role names to search for:
 
 * Insights Administrator
 * Insights Analyst
-* Insights Business Leader
 
 #### About assignment and user types
 
@@ -68,15 +66,13 @@ Assignment type (eligible or active) and assignment duration (permanent or time-
 
 To learn more about PIM, how to approve or deny role requests, and extend and renew assignments, go to [What is Microsoft Entra Privileged Identity Management?](/azure/active-directory/privileged-identity-management/pim-configure).
 
-Within a few days of being assigned a Viva Insights role, Insights Administrators and Insights Business Leaders users get an email about available product features based on their role and service plan.
+Within a few days of being assigned a Viva Insights role, Insights Administrators get an email about available product features based on their role and service plan.
 
 ## Assign roles to groups
 
 ### Assign roles in the Microsoft admin center
 
-*Applies to: Microsoft 365 global admin*
-
-You can also assign roles to groups, which means you're assigning access permissions associated with that role to the group. Any people assigned to that group automatically receive the same permissions.
+You as the Microsoft 365 global admin can also assign roles to groups, which means you're assigning access permissions associated with that role to the group. Any people assigned to that group automatically receive the same permissions.
 
 To assign Viva Insights roles to a group, the steps are similar to those for assigning roles to individuals, as described in [Assign Viva Insights roles](#assign-viva-insights-roles). In that process, when prompted to select a name, select a group name instead. Then, assign a role to the selected group. For more details, refer to [Manage a group in the Microsoft 365 admin center](/microsoft-365/admin/create-groups/manage-groups).
 
@@ -121,6 +117,4 @@ Manager isn't technically a role that can be assigned. The Insights admin can en
 ## Next steps
 
 > [!div class="nextstepaction"]
-> [Configure manager settings](./manager-settings.md)
-
-*Applies to: Insights Administrator*
+> [Enable or disable advanced insights with PowerShell](./control-advanced-insights-powershell.md)

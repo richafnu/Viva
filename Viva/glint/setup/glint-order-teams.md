@@ -11,22 +11,26 @@ ms.collection:
  - m365initiative-viva
  - selfserve
 search-appverid: MET150
-ms.topic: article
+ms.topic: concept-article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 07/31/2024
+ms.date: 02/24/2025
 ---
 
 # Viva Glint Licensing
 
 Subscription plans of Viva suite or Viva Glint are required for using Microsoft Viva Glint. The total number of active licenses in your subscriptions should be greater than or equal to the number of active users in the app. 
 
+> [!NOTE]
+> - Individual user license assignment isn't required for Viva Glint.
+> - [Support users](add-external-user.md) don't count toward your organization's Viva Glint licenses.
+
 ## Notifications for exceeding licenses
 
 If the number of active users in Viva Glint exceeds the subscription purchase, you receive an email, and have a 45 day grace period to take one of the following actions:
 
 - Purchase extra Microsoft Viva suite or Viva Glint licenses according to the product terms. 
-- Remove excess active users from the Viva Glint instance by marking their status as "INACTIVE" in an employee data file to deactivate them during a [user upload](upload-employee-attributes.md).
+- Remove excess active users from the Viva Glint instance. To deactivate users during a [user upload](upload-employee-attributes.md), mark their status as "INACTIVE" in an employee data file. 
 
 ## What happens if our grace period expires?
 
@@ -38,11 +42,8 @@ If the 45 day grace period expires before licenses and active users are aligned,
 - 360 survey cycle creation
 - 360 survey cycle scheduling
 
-> [!NOTE]
-> Viva Glint 360s are currently available to preview customers only. Features described here related to 360 feedback programs are subject to change.
-
->[!CAUTION]
->If a customer purchases additional licenses to remedy the license shortage, it could take up to 24 hours to re-enable survey creation features in the app.
+> [!CAUTION]
+> If a customer purchases more licenses to remedy the license shortage, it could take up to 24 hours to re-enable survey creation features in the app.
 
 ## Global Admin purchasing more Viva Glint licenses
 

@@ -2,10 +2,10 @@
 title: "Monitor private content in Viva Engage"
 f1.keywords:
 - NOCSH
-ms.author: v-bvrana
+ms.author: donnabouldin
 author: Starshine89
 manager: elizapo
-ms.date: 11/01/2023
+ms.date: 09/26/2024
 audience: Admin
 ms.topic: how-to
 ms.service: viva-engage

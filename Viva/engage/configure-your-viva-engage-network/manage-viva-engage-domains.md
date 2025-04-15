@@ -3,12 +3,12 @@ title: "Manage Viva Engage domains in Microsoft 365"
 description: "When you add or remove verified domains in Microsoft 365, they are automatically added or removed from your Viva Engage network."
 f1.keywords:
 - NOCSH
-ms.author: v-bvrana
+ms.author: donnabouldin
 author: Starshine89
 manager: elizapo
 ms.date: 06/06/2024
 audience: Admin
-ms.topic: article
+ms.topic: how-to
 ms.service: viva-engage
 ms.localizationpriority: medium
 ms.custom: Adm_Yammer

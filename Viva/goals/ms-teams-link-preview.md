@@ -1,14 +1,14 @@
 ---
-ms.date: 12/18/2023
-title: Link previews in Teams 
-ms.reviewer: 
-ms.author: rasanders
-author: RaSanders-MSFT
-manager: Liz.Pierce
+ms.date: 1/13/2025
+title: Link previews in Microsoft Teams and Outlook 
+ms.reviewer: aroraaarushi
+ms.author: daisyfeller
+author: daisyfell
+manager: elizapo
 audience: Admin
 f1.keywords:
 - NOCSH
-ms.topic: article
+ms.topic: how-to
 ms.service: viva-goals
 ms.localizationpriority: medium
 ms.collection:  

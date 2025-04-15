@@ -3,13 +3,13 @@ ms.date: 06/12/2024
 title: "Overview of Native Mode for Microsoft 365"
 description: "Learn about Native Mode for Microsoft 365."
 ms.reviewer: auhosford
-ms.author: v-bvrana
+ms.author: donnabouldin
 author: Starshine89
 manager: elizapo
 audience: Admin
 f1.keywords:
 - NOCSH
-ms.topic: article
+ms.topic: concept-article
 ms.service: viva-engage
 ms.localizationpriority: high
 ms.collection:  

@@ -2,14 +2,14 @@
 title: "Viva Engage admin center: Frequently asked questions (FAQ)"
 description: "Provides answers to frequently asked questions about the Viva Engage admin center."
 ms.reviewer: ethli
-ms.author: v-bvrana
+ms.author: donnabouldin
 author: Starshine89
 manager: elizapo
 ms.date: 06/28/2024
 audience: Admin
 f1.keywords:
 - NOCSH
-ms.topic: article
+ms.topic: faq
 ms.service: viva-engage
 ms.localizationpriority: High
 ms.collection:  

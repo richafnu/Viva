@@ -16,6 +16,8 @@ items:
           href: advanced/setup-maint/environment-requirements.md  
         - name: Service description for personal insights
           href: personal/overview/mya-service-description.md
+        - name: Data residency for advanced insights, managers, and leaders
+          href: advanced/setup-maint/data-residency.md
       - name: Setup
         items:
         - name: Setup home
@@ -36,20 +38,20 @@ items:
               href: advanced/setup-maint/assign-licenses.md
             - name: 2 - Assign roles
               href: advanced/setup-maint/assign-user-roles.md
-            - name: 3 - Configure manager settings
+            - name: 3 - Enable or disable advanced insights with PowerShell
+              href: advanced/setup-maint/control-advanced-insights-powershell.md
+            - name: 4 - Configure manager settings
               href: advanced/setup-maint/manager-settings.md
-            - name: 4 - Configure personal insights defaults
+            - name: 5 - Configure personal insights defaults
               href: advanced/setup-maint/configure-personal-insights.md
-            - name: 5 - Configure Teams app settings
+            - name: 6 - Configure Teams app settings
               href: advanced/setup-maint/teams-admin-setup.md
-            - name: 6 - Customize Viva Insights privacy settings 
+            - name: 7 - Customize Viva Insights privacy settings 
               href: advanced/setup-maint/privacy-settings.md 
-            - name: 7 - Upload organizational data 
+            - name: 8 - Upload organizational data 
               href: advanced/setup-maint/upload-data.md 
             - name: About roles in Viva Insights
               href: advanced/setup-maint/user-roles.md
-            - name: Transferring from Workplace Analytics
-              href: advanced/setup-maint/transferring-from-wpa.md 
             - name: Activity report
               href: personal/overview/activity-report.md             
       - name: Support
@@ -68,50 +70,72 @@ items:
             href: org-team-insights/team-insights.md
           - name: Organization insights
             href: org-team-insights/org-insights.md
+          - name: Discover organization insights quickly with Microsoft 365 Copilot
+            href: org-team-insights/org-insights-copilot.md
+          - name: Copilot deep-dive reports
+            href: org-team-insights/copilot-deep-dive-reports.md
           - name: Leader reports
             href: org-team-insights/leader-reports.md
+          - name: Connect to the Copilot Dashboard
+            href: org-team-insights/copilot-dashboard.md
           - name: Delegate access to organizational insights and Copilot Dashboard
-            href: org-team-insights/delegate-access.md
-          - name: Microsoft Copilot Dashboard for Microsoft 365 customers
-            href: org-team-insights/copilot-dashboard.md      
+            href: org-team-insights/delegate-access.md   
       - name: Advanced insights
         items:
         - name: Introduction to advanced insights
           href: advanced/introduction-to-advanced-insights.md
+        - name: Video learning courses 
+          href: advanced/video-learning-courses.md
         - name: Admin
           items:
           - name: Organizational data overview
             href: advanced/admin/org-data-overview.md
           - name: Prepare organizational data
             href: advanced/admin/prepare-org-data.md
+          - name: Upload and maintain organizational data through the admin center 
+            href: advanced/admin/upload-org-data-admin-center.md
           - name: Upload organizational data (first upload)
             href: advanced/admin/upload-org-data-first.md
           - name: Upload organizational data (subsequent upload)
             href: advanced/admin/upload-org-data-subsequent.md
+          - name: Tips for uploading organizational data for Copilot 
+            href: advanced/admin/upload-org-data-copilot.md
+          - name: Import organizational data using API (first import)
+            href: advanced/admin/import-org-data-first.md
+          - name: Import organizational data using API (subsequent import)
+            href: advanced/admin/import-org-data-subsequent.md
+          - name: Import organizational data with Azure blob import
+            href: advanced/admin/import-org-data-azure.md
+          - name: Import business data with Azure 
+            href: advanced/admin/import-business-data-azure.md
+          - name: Import business data with a .csv file
+            href: advanced/admin/import-business-data-csv.md
+          - name: File rules and validation errors  
+            href: advanced/admin/rules-validation-errors.md
           - name: Export Viva Insights data using MGDC
             href: advanced/admin/dynamic-metric-load.md
-          - name: Import survey data from Viva Glint
+          - name: Integrate Viva Glint and Viva Insights data
             items:
             - name: Integrate Viva Glint and Viva Insights
               href: ../solutions/glint-insights-integration-overview.md
-            - name: Import survey results
+            - name: Import Viva Glint survey results
               href: advanced/admin/import-survey-glint.md
+            - name: Export Viva Insights data to Viva Glint
+              href: advanced/admin/export-insights-data-glint.md
           - name: Create partitions
             href: advanced/admin/partitions.md
-          - name: File rules and validation errors  
-            href: advanced/admin/rules-validation-errors.md
           - name: Domain suppression
             href: advanced/admin/domain-suppression.md  
           - name: Keyword suppression
             href: advanced/admin/keyword-suppression.md
           - name: Use the Admin Center and dashboard
             href: advanced/admin/admin-center.md
-          - name: Manage settings for the Copilot Dashboard
-            href: advanced/admin/manage-settings-copilot-dashboard.md
           - name: View and customize your general settings
             href: advanced/admin/general-settings.md
           - name: Use and configure the Admin Digest email 
             href: advanced/admin/admin-digest-email.md
+          - name: Manage settings for the Copilot Dashboard
+            href: advanced/admin/manage-settings-copilot-dashboard.md
         - name: Analyst
           items:
           - name: Queries
@@ -133,11 +157,9 @@ items:
               - name: Collaboration between an individual and a group (person-to-group)
                 href: advanced/analyst/cross-collaboration-p2g.md
               - name: Collaboration between groups (group-to-group)
-                href: advanced/analyst/cross-collaboration-g2g.md               
-            - name: Uncover network collaboration insights
-              href: advanced/analyst/network-collaboration-insights.md 
-            - name: Create change management queries
-              href: advanced/analyst/change-management-queries.md 
+                href: advanced/analyst/cross-collaboration-g2g.md   
+              - name: Collaboration between internal and external individuals
+                href: advanced/analyst/external-collaboration.md               
             - name: Access query results and modify existing queries
               href: advanced/analyst/query-results.md 
             - name: Connect your data to Power BI using the Power BI connector
@@ -146,9 +168,13 @@ items:
             items:
             - name: Introduction to templates
               href: advanced/analyst/templates/introduction-to-templates.md
+            - name: Uncover network collaboration insights
+              href: advanced/analyst/network-collaboration-insights.md 
+            - name: Create change management queries
+              href: advanced/analyst/change-management-queries.md 
             - name: Business resilience
               href: advanced/analyst/templates/business-resilience.md
-            - name: Glint and organizational insights
+            - name: Glint and organizational insights report
               href: advanced/analyst/templates/glint.md
             - name: Growth, inclusion and engagement
               href: advanced/analyst/templates/growth-inclusion-engagement.md
@@ -160,10 +186,14 @@ items:
               href: advanced/analyst/templates/manager-effectiveness.md
             - name: Meeting effectiveness
               href: advanced/analyst/templates/meeting-effectiveness.md
-            - name: Microsoft 365 Copilot adoption report
+            - name: Copilot adoption report
               href: advanced/analyst/templates/microsoft-365-copilot-adoption.md   
-            - name: Microsoft 365 Copilot impact report
-              href: advanced/analyst/templates/microsoft-365-copilot-impact.md   
+            - name: Copilot impact report
+              href: advanced/analyst/templates/microsoft-365-copilot-impact.md
+            - name: Copilot for Sales adoption report
+              href: advanced/analyst/templates/copilot-for-sales-adoption.md   
+            - name: Copilot Business Outcome (Copilot Business Impact) report
+              href: advanced/analyst/templates/copilot-business-impact.md   
             - name: Onboarding and development
               href: advanced/analyst/templates/onboarding.md    
             - name: Recurring meeting audit
@@ -174,6 +204,10 @@ items:
               href: advanced/analyst/templates/wellbeing.md
             - name: Power BI tips, FAQ, and troubleshooting
               href: advanced/analyst/templates/power-bi-faq-troubleshoot.md  
+          - name: Set up your queries using Microsoft 365 Copilot in Viva Insights 
+            href: advanced/analyst/copilot-query.md
+          - name: Publish reports
+            href: advanced/analyst/publish-reports.md
           - name: Data quality
             href: advanced/analyst/data-quality-analyst-experience.md
           - name: Filters
@@ -202,6 +236,38 @@ items:
             href: advanced/reference/metrics.md
           - name: Supported languages
             href: advanced/reference/supported-languages.md 
+          - name: Allowlist URLs
+            href: advanced/reference/allowlist-urls.md 
+      - name: Microsoft 365 Copilot in Viva Insights
+        items:
+        - name: Discover organization insights quickly with Microsoft 365 Copilot
+          href: org-team-insights/org-insights-copilot.md
+        - name: Copilot deep-dive reports
+          href: org-team-insights/copilot-deep-dive-reports.md
+        - name: Tips for uploading organizational data for Copilot 
+          href: advanced/admin/upload-org-data-copilot.md
+        - name: Connect to the Copilot Dashboard
+          href: org-team-insights/copilot-dashboard.md
+        - name: Delegate access to the Copilot Dashboard
+          href: org-team-insights/delegate-access.md   
+        - name: Manage settings for the Copilot Dashboard
+          href: advanced/admin/manage-settings-copilot-dashboard.md
+        - name: Set up analyst queries using Microsoft 365 Copilot in Viva Insights 
+          href: advanced/analyst/copilot-query.md
+        - name: Copilot adoption report
+          href: advanced/analyst/templates/microsoft-365-copilot-adoption.md   
+        - name: Copilot impact report
+          href: advanced/analyst/templates/microsoft-365-copilot-impact.md
+        - name: Copilot for Sales adoption report
+          href: advanced/analyst/templates/copilot-for-sales-adoption.md   
+        - name: Import business data with a .csv file
+          href: advanced/admin/import-business-data-csv.md
+        - name: Import business data with Azure
+          href: advanced/admin/import-business-data-azure.md   
+        - name: Copilot Business Outcome (Copilot Business Impact) report
+          href: advanced/analyst/templates/copilot-business-impact.md   
+        - name: Data, privacy, and security for Copilot
+          href: copilot-data-privacy-security.md   
       - name: Troubleshoot
         items:
         - name: Resolve Viva Insights errors 

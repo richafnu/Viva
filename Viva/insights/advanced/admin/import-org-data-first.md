@@ -1,10 +1,10 @@
 ---
-ROBOTS: NOINDEX, NOFOLLOW
-title: Import organizational data (first import)
+ms.date: 02/04/2025
+title: Import organizational data using API-based import (first import)
 description: Learn how to set up a connection and import your data to the Viva Insights advanced insights app
 author: zachminers
 ms.author: v-zachminers
-ms.topic: article
+ms.topic: how-to
 ms.localizationpriority: medium
 ms.collection: viva-insights-advanced
 ms.service: viva-insights
@@ -12,11 +12,12 @@ manager: anirudhbajaj
 audience: Admin
 ---
 
-# Import organizational data (first import)
+# Import organizational data using API-based import (first import) (preview)
 
-*Applies to: private preview customers*
+>[!IMPORTANT]
+> This feature is for public preview customers only. Features in preview might not be complete and could undergo changes before becoming available in the broader release.
 
-Your organizational data can appear in the Microsoft Viva Insights’ advanced insights app in one of three ways: through Microsoft Entra ID, which is the default source; through individual .csv files that you as an Insights Administrator upload directly to Viva Insights; or through an automated data import that you, your source system admin, and your Microsoft 365 IT admin set up.
+Your organizational data can appear in the Microsoft Viva Insights’ advanced insights app in one of three ways: through Microsoft Entra ID, which is the default source; through individual .csv files that you as an Insights Administrator upload directly to Viva Insights; or through an API-based data import that you, your source system admin, and your Microsoft 365 IT admin setup.
 
 This article talks about the third option, importing data. 
 
@@ -27,10 +28,10 @@ With an import, you bring data from your source system to the Viva Insights HR d
 * Create a custom app to export data from the source system to a zip file. Then, run a PowerShell script we created to import data to Viva Insights. 
 
 
-However, before you can run your app and start transferring data to Viva Insights, you'll need to coordinate a few tasks between your Microsoft 365 admin and Insights Administrator (Insights admin). Refer to [Workflow](#workflow) for an overview of required steps.
+However, before you can run your app and start transferring data to Viva Insights, you need to coordinate a few tasks between your Microsoft 365 admin and Insights Administrator (Insights admin). See [Workflow](#workflow) for an overview of required steps.
 
 >[!Important]
->Only use the following steps if this is the first time you’re importing organizational data. If this isn’t your first import, refer to [Import organizational data (subsequent imports)](import-org-data-subsequent.md) to refresh previously imported data.
+>Only use the following steps if this is the first time you’re importing organizational data. If this isn’t your first import, see [Import organizational data (subsequent imports)](import-org-data-subsequent.md) to refresh previously imported data.
 
 
 ## Workflow
@@ -41,8 +42,8 @@ However, before you can run your app and start transferring data to Viva Insight
     1. Using the security certificate, the Microsoft 365 admin [registers a new app in Azure](#register-a-new-app-in-azure).
     1. Using IDs from the app registration, the Insights admin [sets up the import](#set-up-the-import-in-viva-insights).
     1. The data source admin prepares their data and either:
-        1.	Exports it from their source system using a custom app based on our API, then, using the same app, imports the data to Viva Insights.
-        2.	Exports it from their source system using a custom app based on our API, then, using our C# solution or PowerShell script, imports the data to Viva Insights.
+        1.	Exports it from their source system using a custom app based on our API, then using the same app, imports the data to Viva Insights.
+        2.	Exports it from their source system using a custom app based on our API, then using our C# solution or PowerShell script, imports the data to Viva Insights.
 
     :::image type="content" source="../images/admin-data-import-flow.png" alt-text=" Diagram of the workflow above."lightbox="../images/admin-data-import-flow-expanded.png":::
 
@@ -57,7 +58,7 @@ After the data successfully validates and processes, the overall data-import tas
 
 *Applies to: data source admin*
 
-To start getting data from your source file into Viva Insights, the Microsoft 365 admin needs to create and register an app in Azure. As the data source admin, you’ll need to help the Microsoft 365 admin register their app by giving them a security certificate.
+To start getting data from your source file into Viva Insights, the Microsoft 365 admin needs to create and register an app in Azure. As the data source admin, you need to help the Microsoft 365 admin register their app by giving them a security certificate.
 
 Here’s what to do:
 
@@ -71,7 +72,7 @@ That’s it for now. If you want to get a head start on your next steps, follow 
 *Applies to: Microsoft 365 admin*
 
 >[!Note]
->For more information about registering an app in Azure, refer to [Quickstart: Register an application with the Microsoft identity platform](/azure/active-directory/develop/quickstart-register-app#register-an-application).
+>For more information about registering an app in Azure, see [Quickstart: Register an application with the Microsoft identity platform](/azure/active-directory/develop/quickstart-register-app#register-an-application).
 
 
 1. From the Microsoft admin center's left rail, select **All admin centers**. This option appears as the last one on the list.
@@ -97,8 +98,8 @@ That’s it for now. If you want to get a head start on your next steps, follow 
          :::image type="content" source="../images/admin-di-app-id.png" alt-text="Screenshot that shows the ID and certificate/secret pane in Azure.":::
 
 
-    >[!Important]
-    >Keep these IDs handy. You'll need to provide them later.
+        >[!Important]
+        >Keep these IDs handy. You'll need to provide them later.
 1. Add a certificate:
     1.  Select **Add a certificate or secret**.
 
@@ -115,7 +116,7 @@ That’s it for now. If you want to get a head start on your next steps, follow 
 
 5. Remove API permissions:
     1. Select **API permissions** from the left rail.
-    2. For each listed **API / Permissions** name, select the ellipses (**...**) to the right of the API—for example, **Microsoft Graph**.
+    2. For each listed **API / Permissions** name, select the ellipsis (**...**) to the right of the API—for example, **Microsoft Graph**.
     3. Select **Remove permission**.
 
         :::image type="content" source="../images/admin-di-upload-remove-perms-1.png" alt-text="Screenshot that shows selecting Remove permissions in Azure. "lightbox="../images/admin-di-upload-remove-perms-1.png":::
@@ -135,15 +136,15 @@ That’s it for now. If you want to get a head start on your next steps, follow 
 
     1. From **Data hub**:
     
-        1. In the **Data source** section, find the **Automated import** option. Select the **Start** button.
+        1. In the **Data source** section, find the **API-based import** option. Select the **Start** button.
 
     1. From **Data connections**:
     
         1. Next to **Current source**, select the **data sources** button.
 
-        1. A **Switch to: Automated import** window appears. Select **Start**.
+        1. A **Switch to: API-based import** window appears. Select **Start**.
 
-1. On the **Automated organizational data import** page:
+1. On the **API-based organizational data import** page:
     1. Give your connection a name.
     
     1. Enter the app ID that your Microsoft 365 admin gave you.
@@ -158,7 +159,7 @@ That’s it for now. If you want to get a head start on your next steps, follow 
 
 * For new data, include full historical data for all employees. 
 * Import organizational data for all employees in the company, including licensed and non-licensed employees. 
-* Refer to the [sample .csv template](https://go.microsoft.com/fwlink/?linkid=2224590) for data structure and guidelines to avoid common issues like too many or too few unique values, redundant fields, invalid data formats, and more.
+* See the [sample .csv template](https://go.microsoft.com/fwlink/?linkid=2224590) for data structure and guidelines to avoid common issues like too many or too few unique values, redundant fields, invalid data formats, and more.
 
 #### Export your data on a set frequency
 
@@ -196,7 +197,7 @@ The following example represents one field you’ll find in the metadata.json fi
 * `“name” : “PersonId”,`  corresponds to the Viva Insights field name.
 * `"type": "EmailType"`  corresponds to the field’s data type.
 
-Let’s say that instead of `PersonId`, your source system uses `Employee` for this field header. To make sure your fields are mapped correctly, you’ll want to edit the first line below, so it looks like this:
+Let’s say that instead of `PersonId`, your source system uses `Employee` for this field header. To make sure your fields are mapped correctly, edit the first line below, so it looks like this:
 
 ```json
       "Employee": {
@@ -204,7 +205,7 @@ Let’s say that instead of `PersonId`, your source system uses `Employee` for t
         "type": "EmailType"
 ```
 
-When you upload your data, your `Employee` field will become `PersonId` in Viva Insights.
+When you upload your data, your `Employee` field becomes `PersonId` in Viva Insights.
 
 #### Import your data
 
@@ -220,7 +221,7 @@ To import your data to Viva Insights, you can pick from three options:
 Before working with any of the options below, make sure you have this information:
 
 * App (client) ID. Find this ID in the registered app information on the Azure portal under Application (client) ID. 
-* Client secret: This is a secret string that the application uses to prove its identity when requesting a token. It’s also referred to as application password. This secret is only shown for the first time when the client secret is created. To create a new client secret, refer to [Create a Microsoft Entra app and service principal in the portal](/azure/active-directory/develop/howto-create-service-principal-portal#option-3-create-a-new-application-secret).
+* Client secret: This is a secret string that the application uses to prove its identity when requesting a token. It’s also referred to as application password. This secret is only shown for the first time when the client secret is created. To create a new client secret, see [Create a Microsoft Entra app and service principal in the portal](/azure/active-directory/develop/howto-create-service-principal-portal#option-3-create-a-new-application-secret).
 * Certificate name. This name is configured in your registered application. After you upload the certificate, the certificate name shows up under **Description** in the Azure Portal. You can use the certificate name as an alternative to the client secret.
 * The zip file and the path to the zip file.  Don’t change the file names data.csv and metadata.json. 
 * Microsoft Entra tenant ID. Also find this ID on the app's overview page under **Directory (tenant) ID**.
@@ -235,7 +236,7 @@ View the following commands:
 These two request headers are required for all the APIs mentioned below  
  
 
-`x-nova-scale unit: <ScaleUnit obtained from your VI contact>`
+`x-nova-scaleunit: <ScaleUnit obtained from Insights setup connection page>`
 
 `Authentication: Bearer <Oauth token from AAD>` 
  
@@ -247,11 +248,11 @@ These two request headers are required for all the APIs mentioned below
 >
 >`Audience: https://api.orginsights.viva.office.com`
 >
->For more information about generating tokens, refer to: [Acquire and cache tokens with Microsoft Authentication Library (MSAL)](/azure/active-directory/develop/msal-acquire-cache-tokens)
+>For more information about generating tokens, see: [Acquire and cache tokens with Microsoft Authentication Library (MSAL)](/azure/active-directory/develop/msal-acquire-cache-tokens)
 
 ##### Get connector/ping to check if connector is set for a tenant
  
-`[GET] https://api.orginsights.viva.office.com/v1.0/scopes/<tenantId>/ingress/connectors/ status?connectorType=Hr`
+`[GET] https://api.orginsights.viva.office.com/v1.0/scopes/<tenantId>/ingress/connectors/HR`
 
 [ResponseBody]  
 
@@ -398,7 +399,7 @@ API to poll status for the ingestion, as the ingestion of data is long-running o
 }, 
 ```
 
-##### Download error stream in case of validation failed (issue in data) 
+##### Download error stream if validation fails (issue in data) 
 
 `[GET] 
 https://api.orginsights.viva.office.com/v1.0/scopes/<tenantId>//Hr/ingestions/{ingestionId}/errors`
@@ -417,7 +418,7 @@ Your app can take any form—for example, a PowerShell script—but it needs to 
 
 ##### Option 2: Import data through our C# solution after exporting data through your custom app 
 
-After you’ve exported your source data as a zip folder at the frequency you pick, and stored that folder in your files, you can run the DescriptiveDataUploadApp C# solution on the console. The DescriptiveDataUploadApp C# solution then brings your locally stored data into Viva Insights. 
+After you’ve exported your source data as a zip folder at the frequency you pick, and stored that folder in your files, you can run the DescriptiveDataUploadApp C# solution on the console. The DescriptiveDataUploadApp C# solution then brings your locally stored data into Viva Insights. [Learn more on GitHub](https://github.com/microsoft/vivainsights_ingressupload).
 
 To run the solution: 
 
@@ -425,7 +426,7 @@ To run the solution:
  
     `git clone https://github.com/microsoft/vivainsights_ingressupload.git.`  
 
-1. Include the following console values. Refer to [Prepare, export, and import organizational data for descriptions](#prepare-export-and-import-organizational-data). 
+1. Include the following console values. See [Prepare, export, and import organizational data for descriptions](#prepare-export-and-import-organizational-data). 
     * AppID/ClientID 
     * Absolute path to the zipped file. Format the path like this: `C:\\Users\\JaneDoe\\OneDrive - Microsoft\\Desktop\\info.zip` 
     * Microsoft Entra tenant ID 
@@ -433,7 +434,7 @@ To run the solution:
 
 ##### Option 3: Run the DescriptiveDataUpload PowerShell solution after exporting data through your custom app 
 
-Similar to option 2, after you’ve exported your source data as a zip folder at the frequency you pick, and stored that folder in your files, you can run the DescriptiveDataUpload PowerShell solution on the console. The DescriptiveDataUpload PowerShell solution then brings your locally stored data into Viva Insights. 
+Similar to option 2, after you’ve exported your source data as a zip folder at the frequency you pick, and stored that folder in your files, you can run the DescriptiveDataUpload PowerShell solution on the console. The DescriptiveDataUpload PowerShell solution then brings your locally stored data into Viva Insights. [Learn more on GitHub](https://github.com/microsoft/vivainsights_ingressupload).
 
 1. Clone the source code to your machine by running this command on the command line: 
 
@@ -447,7 +448,7 @@ Similar to option 2, after you’ve exported your source data as a zip folder at
 
     Or, go to this [PowerShell gallery link](https://www.powershellgallery.com/packages/MSAL.PS) for instructions on installation. 
 
-1. Set parameters. Refer to [Prepare, export, and import organizational data](#prepare-export-and-import-organizational-data) for descriptions. 
+1. Set parameters. See [Prepare, export, and import organizational data](#prepare-export-and-import-organizational-data) for descriptions. 
 
     * `ClientID` 
     * `pathToZippedFile` 
@@ -471,7 +472,7 @@ For information about what happens next, go to the appropriate section:
 
 ### Validation succeeds
 
-After successful validation, Viva Insights starts processing your new data. Processing can take between a few hours and a day or so. During processing, you’ll see a “Processing” status on the **Import history** table.
+After successful validation, Viva Insights starts processing your new data. Processing can take between a few hours and a day or so. During processing, a “Processing” status appears on the **Import history** table.
 
 After processing completes, it's either succeeded or failed. Depending on the outcome, you’ll either find a “Success” or “Failed” status in the **Import history** table.
 
@@ -489,14 +490,14 @@ After you receive the “Success” status, you can:
 
 #### Processing fails
 
-If processing fails, you’ll find a “Processing failed” status in the **Import history** table. For processing to succeed, the data source admin needs to correct errors and push the data to Viva Insights again. 
+If processing fails, a “Processing failed” status appears in the **Import history** table. For processing to succeed, the data source admin needs to correct errors and push the data to Viva Insights again. 
 
 >[!Note]
 >Processing failures are generally due to backend errors. If you’re seeing persistent processing failures and you’ve corrected the data in your imported file, [log a support ticket with us](/microsoft-365/admin/get-help-support).
 
 ### Validation fails
 
-If data validation fails, you'll see a "Validation failed" status in the **Import history** table. For validation to succeed, the data source admin needs to correct errors and push the data to Viva Insights again. Under **Actions**, select the download icon to download an error log. Send this log to the data source admin so they know what to correct before sending the data again. 
+If data validation fails, a "Validation failed" status appears in the **Import history** table. For validation to succeed, the data source admin needs to correct errors and push the data to Viva Insights again. Under **Actions**, select the download icon to download an error log. Send this log to the data source admin so they know what to correct before sending the data again. 
 
 The data source admin might find the following section helpful to fix data errors in their export file.
 
@@ -504,20 +505,11 @@ The data source admin might find the following section helpful to fix data error
 
 *Applies to: data source admin*
 
-When any data row or column has an invalid value for any attribute, the entire import will fail until the data source admin fixes the source data.
+When any data row or column has an invalid value for any attribute, the entire import fails until the data source admin fixes the source data.
 
-Refer to [Prepare organizational data](prepare-org-data.md) for specific formatting rules that might help resolve errors you encounter.
+See [Prepare organizational data](prepare-org-data.md) for specific formatting rules that might help resolve errors you encounter.
 
-Here are a few import-specific errors you might encounter if your files aren't formatted correctly:
-
-* There is a problem with the files in the .zip file. Make sure the .zip file contains only one .json file and one .csv file and upload it again.
-* The .csv file in your .zip file is empty. Add a non-empty .csv file and upload the .zip file again.
-* The .json file in your .zip file is empty. Add a non-empty .json file and upload the .zip file again.
-* The content in the .json file isn't mapped to a supported data type. Map the content to a supported data type and upload the .zip file again.
-* The .json file is invalid. Please use a valid .json file and upload the .zip file again.
-* The header names in the .csv file don’t match the fields you mapped in the .json file. Make sure the .json file contains the same fields as the .csv file, and upload the .zip file again.
-* The number of headers in the .csv file doesn't match the fields you mapped in the .json file. Make sure the .json file contains the same fields as the .csv file, and upload the .zip file again.
-* Your .csv file is mapped to a null or empty field in your .json file. Map it to a non-empty field and upload the .zip file again.
+[Learn more about validation errors and warnings](..//admin/rules-validation-errors.md#validation-errors-and-warnings).
 
 
 ## Related topics

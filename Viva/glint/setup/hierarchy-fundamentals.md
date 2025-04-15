@@ -11,88 +11,94 @@ ms.collection:
  - m365initiative-viva
  - selfserve
 search-appverid: MET150
-ms.topic: article
+ms.topic: how-to
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 04/05/2024
+ms.date: 01/10/2025
 ---
 
 # Viva Glint organizational hierarchy fundamentals
 
-## Understand and set up hierarchies
+A reporting hierarchy in Microsoft Viva Glint filters data into levels from highest to lowest, or largest to smallest, to provide precise insights into employee feedback. 
 
-A hierarchy filters down an employee's attributes into levels from highest to lowest, or largest to smallest, to provide precise insights into a survey. There are three main hierarchies within the Employee Attribute Template:
+Glint allows for up to 10 reporting hierarchies, including a manager hierarchy. Each reporting hierarchy can have up to 10 levels, except for the manager hierarchy. The manager hierarchy can be calculated up to 25 levels.
 
-- Managerial
-- Locational
-- Departmental
+## CEO and Manager hierarchy
 
-> [!NOTE]
-> Viva Glint allows for up to 10 reporting hierarchies, including your manager hierarchy. Each reporting hierarchy can have up to 10 levels, except for the manager hierarchy, which calculates up to 25 levels.
-
-## Establish your managerial hierarchy
-
-Managerial hierarchy is typically used as the primary hierarchy ranking. Managerial hierarchy is the only hierarchical level that Microsoft Viva Glint processes automatically. Every employee in your organization should have a manager. The only person on your Employee Data File who won't have a manager associated with them is your organization's CEO or top-level person. 
+Manager hierarchy is typically used as the primary reporting hierarchy. Glint generates this hierarchy automatically with file uploads. Every employee in your organization should have a Manager ID except your organization's CEO or top-level leader. No other hierarchy's are automatically generated.
 
 > [!IMPORTANT]
-> The Viva Glint label for your managerial hierarchy is "Manager." Ensure that no attributes in your employee data are also labeled "Manager." This will result in file upload issues.
+> The Glint column label for your managerial hierarchy is **Manager.** Ensure that no other attribute columns in your employee data file are labeled *Manager.* 
 
-### Example of setting up managerial hierarchy
+### Example
 
-- In this scenario:
-  - Harper reports to Tate
-  - Tate reports to Gabriel
-  - Gabriel reports to Dana
-- In the Employee Attribute File:
-  - Harper's row would list Tate's Manager ID or email in the Manager ID column 
-  - Tate's row would list Gabriel's Manager ID
-  - Gabriel's row would list Dana's Manager ID
-- The hierarchy ends with Dana, as Dana is the CEO, who doesn't report to anyone
+Glint generates the employee's Manager ID column from your data file. 
 
-The Viva Glint system automatically configures Harper's hierarchy level within their company as:
+|Employee|Manager|Glint generated Manager ID|Glint generated hierarchy level|
+|-----|------|-------|------|
+|Leonie| Marcio|Marcio's ID|Level 4|
+|Marcio |Archie|Archie's ID|Level 3|
+|Archie| Angel|Angel's ID|Level 2|
+|Angel|None, Angel is the CEO. Leave the cell blank.|The hierarchy ends with Angel, who doesn't report to anyone.|Level 1|
 
-- Level 1 – Dana
-- Level 2 – Gabriel
-- Level 3 – Tate
-- Level 4 - Harper
+:::image type="content" source="../../media/glint/setup/mgr-hierarchy-filter.png" alt-text="Screenshot of manager hierarchy filters in Glint reporting, drilling down from level 1 to level 3.":::
 
->[!IMPORTANT]
->We strongly urge you not to include matrix hierarchies in your attribute file as they make reporting insights difficult to interpret. If you choose to use them, you must include them on your attribute file during the *initial* build and upload of your attribute file as no additional attributes can be added after the initial upload.
+> [!CAUTION]
+> Matrix manager hierarchies aren't recommended to be included in employee data. Glint only calculates levels for one manager hierarchy. 
 
-## Establish your locational hierarchy
+## Update your CEO
 
-The size and proximity of your organization will determine if you choose to use locational hierarchies within your custom attributes. 
+When the CEO changes in your organization, the data file hierarchy must be updated. If not updated, your hierarchy is broken and may not show results or reflect your survey population the way it exists.
 
-### Example of setting up locational hierarchy
+Process to update your data file for a new CEO:
+1. Upload a file with the new CEO. Leave the Manager cell blank.
+2. Update the CEO -referred to as **Top-Level Manager**- in the [General Settings](/../../viva/glint/setup/manage-general-settings) feature. 
+3. To update this change for a current or past survey, implement a [**retroactive update**](/../../viva/glint/setup/glint-data-apps#retroactive_pulse_update). 
 
-*North America > United States > California > Sunnyvale*
+### Multiple CEOs
 
-In this example, four columns are needed on the Employee Attribute Template
+**Glint's best practice is to select a single user in your employee data as the top level/CEO whose Manager ID value is blank.** If your organization has multiple leaders that should sit at the top of your manager hierarchy, your organization can add a placeholder "CEO." All top-level users can then report to this placeholder CEO and appear as level 2 managers in Glint reporting and filters:
 
-- Locational Level 1 – Continent
-- Locational Level 2 – Country
-- Locational Level 3 – State
-- Locational Level 4 - City
+:::image type="content" source="../../media/glint/setup/placeholder-ceo-filter.png" alt-text="Screenshot of manager hierarchy filters in Glint reporting, with a placeholder CEO as the top-level user and multiple CEOs as level 2 managers.":::
 
-You can customize the locational hierarchies for your organization. This example was four levels, but your organization may only have two of the maximum 10 levels.
+#### Considerations
 
-## Establish your departmental hierarchies
+Before adding a placeholder CEO to your employee data:
 
-Like locational hierarchy, the size of your organization will determine if you choose to use departmental levels within your custom attributes. 
+- Determine whether your organization can manually insert a placeholder CEO in employee data files each time they're uploaded to Glint.
+- Ensure that the Top-Level Manager selection in [General Settings](manage-general-settings.md) aligns with your placeholder CEO user or is left blank.
 
-### Example of setting up departmental hierarchies
+## Hierarchy groups
 
-*Company name > Department > Function > Subfunction*
+Depending on the size of your organization and reporting needs, Glint admins can set up other nonmanager reporting hierarchies. Include attributes in employee data for each level of these hierarchies, which commonly include location or department information.
 
-Four columns are needed to enter this departmental hierarchy on the Employee Attribute File:
+### Example: location hierarchy
 
-- Departmental Level 1 – Company (ex: Thrive)
-- Departmental Level 2 – Department (ex: IT)
-- Departmental Level 3 – Function (ex: Operations)
-- Departmental Level 4 – Subfunction (ex: User Support)
+**NAMER > USA > Chicago**
+
+:::image type="content" source="../../media/glint/setup/location-hierarchy-filter.png" alt-text="Screenshot of location hierarchy filters in Glint reporting, drilling down from level 1 to level 3.":::
+
+In this example, three columns are needed in employee data to create a location hierarchy in Glint:
+
+- Level 1 – Region
+- Level 2 – Country
+- Level 3 – City
+
+This example includes three levels, but Glint admins can customize the location hierarchies for your organization to include up to 10 levels.
+
+### Example: department hierarchy
+
+**Department > Division**
+
+:::image type="content" source="../../media/glint/setup/dept-hierarchy-filter.png" alt-text="Screenshot of department hierarchy filters in Glint reporting, drilling down from level 1 to level 2.":::
+
+Two columns are needed in employee data to create a department hierarchy in Viva Glint:
+
+- Level 1 – Department
+- Level 2 – Division
 
 ## Next step
-Use Viva Glint attribute and hierarchy information to populate your Viva Glint Employee Attribute Template, which serves as a planning tool for your employee data file attributes, layout, and format.
+Use Glint attribute and hierarchy information to populate your Glint Employee Attribute Template. This template serves as a planning tool for your employee data file attributes, layout, and format.
 
 > [!div class="nextstepaction"]
 > [Viva Glint Employee Attribute Template](create-employee-attribute-template.md)

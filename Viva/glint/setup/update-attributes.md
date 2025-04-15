@@ -6,28 +6,36 @@ author: AliciaWeixelman
 manager: melissabarry
 audience: admin
 f1.keywords: NOCSH
-keywords: edit attribute, edit derived attribute, edit optional system attribute, rename attribute
+keywords: edit attribute, edit derived attribute, edit optional system attribute, rename attribute, update attributes
 ms.collection: 
  - m365initiative-viva
  - selfserve
 search-appverid: MET150
-ms.topic: article
+ms.topic: how-to
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 05/21/2024
+ms.date: 04/08/2025
 ---
 
 # Update attributes in Viva Glint
 
-After initial attribute setup in Microsoft Viva Glint, use this guidance to add new attributes, rename attributes, manage derived and optional system attributes, and to update attribute visibility in the platform. New attributes and their values will apply to future survey results only.
+After initial attribute setup in Microsoft Viva Glint, use this guidance to add new attributes, rename attributes, manage derived and optional system attributes, and to update attribute visibility in the platform. New attributes and their values apply to future survey results only.
+
+> [!CAUTION]
+> The Viva Glint Admin that sets up or changes attributes needs to save changes in the **default language for your organization**. Confirm that the default language (often English) is selected in the Language dropdown menu in Viva Glint. Setting up or editing attributes in a different language resets the expected language for Viva Glint data ingestion and causes upload errors.
+
+> [!IMPORTANT]
+> Coordinate the timing of new or updated attributes with your HR information system team. Edits to your attribute setup need to be in place before files with changes can successfully import to Viva Glint.
 
 ## Add new attributes to Viva Glint
 
 To add new attributes to your Viva Glint setup from the admin dashboard:
 
 1. Select the **Configuration** symbol and then under the **Employees** section, choose **People**.
-2. Select **Actions** and then **Manage User Attributes**.
-3. Select **Update dataset** at the top of the page.
+2. Select **Import** and then **New User Schema or Attribute Updates**.
+
+   :::image type="content" source="../../media/glint/setup/import-choice.png" alt-text="Screenshot of the import option selection screen, including the New User Schema or Attribute Updates option.":::
+   
 4. Upload your dataset with all existing attributes and the new attribute.
 
      > [!NOTE]
@@ -69,11 +77,12 @@ From the admin dashboard:
 4. Select **Rename Attribute**.
 5. Enter the new name in the **Attribute Name** field and select **Rename**.
 
-:::image type="content" source="../../media/glint/setup/rename-attribute.png" alt-text="Screenshot of the Rename Attribute window.":::
+   :::image type="content" source="../../media/glint/setup/rename-attribute.png" alt-text="Screenshot of the Rename Attribute window.":::
 
-> [!CAUTION]
-> - Use this method if the underlying data remains the same, but the field name changed in your system. Don't repurpose attribute name labels, as this can create issues in reporting. Instead, create a new attribute. 
-> - For example, if Department changes to Team and the values in that column change too, add a new Team attribute and don't rename Department to Team.
+   > [!CAUTION]
+   > Use this method if the underlying data remains the same, but the field name changed in your system. Repurposing attribute name labels can create issues in reporting. Instead, create a new attribute.
+   > 
+   > For example, if Department changes to Team and the values in that column change too, add a new Team attribute and don't rename Department to Team.
 
 ## Manage Derived Attributes
 
@@ -88,15 +97,18 @@ To edit derived fields after your initial setup:
    1. To disable a Derived Attribute: Deselect the checkbox next to the desired field.
    1. To enable a Derived Attribute: Select the checkbox next to the desired field and choose a field from your data in the Calculate From dropdown menu.
    1. To update the field used to create a Derived Attribute: Select the checkbox next to the desired field and choose a new field in the Calculate From dropdown menu. 
+   :::image type="content" source="../../media/glint/setup/new-derived-attribute.png" alt-text="Screenshot of the Derived Attributes section after selecting the Manage Derived Attributes button.":::
 
-:::image type="content" source="../../media/glint/setup/new-derived-attribute.png" alt-text="Screenshot of the Derived Attributes section after selecting the Manage Derived Attributes button.":::
-
-> [!NOTE]
-> Manager Hierarchy isn't editable after initial setup.
+      > [!NOTE]
+      > Manager Hierarchy isn't editable after initial setup.
 
 ## Manage Optional System Attributes
 
 Choose how and when Viva Glint communicates with employees by mapping language, time zone, and personal emails to Viva Glint fields.
+
+> [!IMPORTANT]
+> - Send language and time zone values exactly as they appear in related tabs in the [Employee Attribute Template](https://www.microsoft.com/en-us/download/details.aspx?id=105533). Users with blank or invalid values receive and access surveys/emails/dashboards in your organization's default selection in General Settings.
+> - See [Recent language changes](attribute-fundamentals.md#recent-language-changes) for changes to supported languages and codes effective April 10, 2025.
 
 To edit optional system attributes after your initial setup:
 
@@ -110,9 +122,6 @@ To edit optional system attributes after your initial setup:
    :::image type="content" source="../../media/glint/setup/new-optional-attribute.png" alt-text="Screenshot of the Optional System Attributes section after selecting the Manage Optional System Attributes button.":::
 
 ## Update custom attribute visibility
-
-> [!NOTE]
-> This feature is planned to be available after June 1, 2024.
 
 Use the **Visibility** setting to edit whether a custom attribute appears:
 
@@ -135,5 +144,5 @@ To edit a custom attribute's visibility:
 
    :::image type="content" source="../../media/glint/setup/attribute-visibility.png" alt-text="Screenshot of the Edit Attribute dialog with the Visibility toggle switched to On.":::
 
-To give a User Role access to newly visible custom attributes, select the **Configuration** symbol and then in the **Employees** section, choose **User Roles**. Select a role and in **Report Attributes**, make selections for the newly visible attribute. [Learn more about User Role setup](set-up-user-roles.md).
+To give a User Role access to newly visible custom attributes, select the **Configuration** symbol and then in the **Employees** section, choose **User Roles**. Select a role's **Report Attributes** and make selections for the newly visible attribute. [Learn more about User Role setup](set-up-user-roles.md).
 
