@@ -26,17 +26,18 @@ highlightedContent:
       itemType: get-started
       url: microsoft-viva-overview.md
     # Card
+    - title: Copilot in Microsoft Viva
+      itemType: whats-new
+      url: /viva/copilot/viva-copilot-overview
+    # Card
     - title: Microsoft Viva community
       itemType: whats-new
       url: https://techcommunity.microsoft.com/t5/welcome-to-the-microsoft-viva/ct-p/Microsoft-Viva
     # Card
-    - title: Introducing Microsoft Viva
+    - title: Microsoft Viva overview
       itemType: overview
-      url: https://www.microsoft.com/microsoft-viva/overview
-    # Card
-    - title: Copilot in Microsoft Viva
-      itemType: whats-new
-      url: /viva/copilot/viva-copilot-overview
+      url: https://www.microsoft.com/en-us/microsoft-viva
+
 
 # tools section (optional)
 tools:
@@ -139,24 +140,27 @@ additionalContent:
               url: /training/paths/viva-connections-get-started/
             - text: Introduction to Viva Insights
               url: /training/paths/m365-workplace-analytics-start/
-            - text: Introduction to Viva Glint
-              url: /viva/glint/introduction-viva-glint
-            - text: Get started with Viva Goals
-              url: /training/paths/viva-goals-get-started
-            - text: Become an OKR Champion with Viva Goals
-              url: /training/paths/okr-leadership/
+            - text: Viva Glint training for admins and managers
+              url: /viva/glint/start/viva-glint-learning-paths-and-modules#courses-for-admins
             - text: Introduction to Viva Learning
               url: /training/modules/viva-learning-introduction/
+            - text: Introduction to Viva Pulse
+              url: /training/modules/viva-pulse-introduction/
 
         # Card
         - title: Copilot in Viva
           links:
-            - text: Set up Copilot in Viva Engage
-              url: /viva/engage/configure-copilot-for-engage
-            - text: Enable Copilot in Viva Goals
-              url: /viva/goals/copilot-intro
+
+            - text: Overview of Copilot in Microsoft Viva
+              url: /viva/copilot/viva-copilot-overview
+            - text: Control access to Copilot in Microsoft Viva
+              url: /viva/copilot/copilot-access-management
+            - text: Get organizational insights with Copilot in Viva Insights
+              url: /viva/insights/org-team-insights/org-insights-copilot
             - text: Connect to the Microsoft 365 Copilot Dashboard in Viva Insights
-              url: /viva/insights/org-team-insights/copilot-dashboard       
+              url: /viva/insights/org-team-insights/copilot-dashboard
+            - text: Set up Copilot Academy
+              url: /viva/learning/academy-copilot       
 
         # Card
         - title: Adoption
