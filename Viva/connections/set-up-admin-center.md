@@ -397,7 +397,7 @@ The multiple experiences feature is designed for subsidiaries and conglomerates 
 
 Yes, content authors can update intranet-portal-based Viva Connections experiences directly through the web as long as they have the required permissions.
 
-Additionally, if a content author has Owner or Member permissions to the Connections experience in Teams, they're able to switch among the different experiences that they have the permission to edit. Select **[Switch Experience](edit-viva-home.md#how-to-switch-between-multiple-viva-connections-experiences)** in the settings menu.
+Additionally, if a content author has Owner or Member permissions to the Connections experience in Teams, they're able to switch among the different experiences that they have the permission to edit. Select **[Switch Experience](edit-viva-home.md#how-to-switch-between-multiple-connections-experiences)** in the settings menu.
 
 **I just changed the status or the rank order of an experience. How soon will the changes take effect for the users?**
 

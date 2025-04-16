@@ -151,7 +151,7 @@ For some cards, you'll use links to URLs. Depending on the location of the conte
 
 [Step-by-step guide to setting up Connections](set-up-admin-center.md)
 
-[Learn more about how to plan a dashboard](plan-viva-connections.md#step-1-plan-for-viva-connections)
+[Learn more about how to plan a dashboard](plan-viva-connections.md#step-1-plan-for-connections)
 
 [Design your own dashboard card with the card designer](use-card-designer.md)
 

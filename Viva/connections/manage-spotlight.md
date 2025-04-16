@@ -1,5 +1,5 @@
 ---
-ms.date: 04/03/2025
+ms.date: 04/16/2025
 title: "Manage the Viva Connections spotlight"
 ms.reviewer: evanatkin
 ms.author: evanatkin
@@ -12,14 +12,13 @@ ms.topic: how-to
 ms.service: viva-connections
 ms.localizationpriority: high
 ms.collection:
-  - Strat_SP_modern
-  - M365-collaboration
-  - m365initiative-viva-connections
-  - highpri
+    - Strat SP modern
+    - M365-collaboration
+    - m365initiative-viva-connections
 search.appverid:
 - SPO160
 - MET150
-description: "Learn how to manage the spotlight found above the Viva Connections dashboard by pinning links to content items and selecting SharePoint sites to pull news from.
+description: "Learn how to manage the spotlight found above the Viva Connections dashboard by pinning links to content items and selecting SharePoint sites to pull news from."
 ---
 
 # Manage the Viva Connections spotlight

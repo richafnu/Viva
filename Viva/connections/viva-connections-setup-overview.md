@@ -59,7 +59,7 @@ There are three options that provide in-depth information about how to get Conne
 
 ## Overview of setting up Viva Connections
 
-A [Connections experience can be created as a standalone experience](set-up-admin-center.md#create-a-new-viva-connections-experience), and use an intranet home site to create the experience. A SharePoint home site isn't required to get started. Creating an experience requires minimal setup and includes default cards on the dashboard to help get you started.
+A [Connections experience can be created as a standalone experience](set-up-admin-center.md#create-a-new-connections-experience), and use an intranet home site to create the experience. A SharePoint home site isn't required to get started. Creating an experience requires minimal setup and includes default cards on the dashboard to help get you started.
 
 Some tasks are optional, or might only apply to customers who plan to use a SharePoint home site to complement the Connections experience.
 

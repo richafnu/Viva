@@ -1,5 +1,5 @@
 ---
-ms.date: 04/03/2025
+ms.date: 04/16/2025
 title: "Edit Viva Connections Resources"
 ms.reviewer: evanatkin
 ms.author: evanatkin

@@ -278,7 +278,7 @@ Depending on the size of your organization and the information to communicate, y
 
 ### You can choose the default landing experience
 
-Unless specified, Connections is the default experience for the desktop app in Teams. When Connections is the default, a link to the home site displays in the top-right corner to ensure easy navigation between the two experiences. We recognize that some organizations with a home site want the home site to be the default experience. When the home site is the default experience, a link to Connections will display in the top-right corner. [Learn more about choosing the default experience](edit-viva-home.md#choose-the-default-landing-experience-for-viva-connections-desktop).
+Unless specified, Connections is the default experience for the desktop app in Teams. When Connections is the default, a link to the home site displays in the top-right corner to ensure easy navigation between the two experiences. We recognize that some organizations with a home site want the home site to be the default experience. When the home site is the default experience, a link to Connections will display in the top-right corner. [Learn more about choosing the default experience](edit-viva-home.md#choose-the-default-landing-experience-for-connections-desktop).
 
 ## Step-by-step guidance to prepare for Connections
 

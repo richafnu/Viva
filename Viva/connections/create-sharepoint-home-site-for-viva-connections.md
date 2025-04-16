@@ -31,7 +31,7 @@ Don’t have time to create a SharePoint home site from scratch? Consider using 
 
 > [!NOTE]
 >
-> SharePoint home sites are created and managed in your Microsoft 365 admin center. You'll need to be a SharePoint admin to create a home site. A home site is not required to create a Connections experience. [Learn more about the Connections experience](viva-connections-overview.md#components-to-connections), [how to customize it](edit-viva-home.md), how to choose the [default landing experience](edit-viva-home.md#choose-the-default-landing-experience-for-viva-connections-desktop), and [how to launch Connections for your organization](launch-viva-connections.md).
+> SharePoint home sites are created and managed in your Microsoft 365 admin center. You'll need to be a SharePoint admin to create a home site. A home site is not required to create a Connections experience. [Learn more about the Connections experience](viva-connections-overview.md#components-to-connections), [how to customize it](edit-viva-home.md), how to choose the [default landing experience](edit-viva-home.md#choose-the-default-landing-experience-for-connections-desktop), and [how to launch Connections for your organization](launch-viva-connections.md).
 
 ## How to use this guide
 
