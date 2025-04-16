@@ -180,7 +180,7 @@ Change the banner image in the header and set the focal point for the image. The
 > [!NOTE]
 >
 > - The greeting is automatically generated and can't be customized.
-> - Depending on your organization’s license type, you might see more dynamic information displayed in the banner.
+> - Depending on your organization's license type, you might see more dynamic information displayed in the banner.
 > - The banner image and focal point resize when viewed via the tablet and mobile app.
 
 To change the banner image:
@@ -301,7 +301,7 @@ If your organization already has a SharePoint home site and you want to keep it 
 1. [Download the latest SharePoint Online Management Shell](https://go.microsoft.com/fwlink/p/?LinkId=255251).
 
    > [!NOTE]
-   > - If you installed a previous version of SharePoint Online Management Shell, go to Add, or Remove programs and uninstall "SharePoint Online Management Shell".
+   > - If you installed a previous version of SharePoint Online Management Shell, go to Add or Remove programs and uninstall "SharePoint Online Management Shell".
    > - Run the command as a SharePoint Administrator.
    > - This command allows you to choose the default experience for the desktop app and doesn't affect the mobile experience.
 
