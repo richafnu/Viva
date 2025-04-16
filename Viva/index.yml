@@ -23,7 +23,7 @@ highlightedContent:
   items:
     # Card
     - title: Learn how to use the Microsoft Viva suite
-      itemType: get-started
+      itemType: overview
       url: microsoft-viva-overview.md
     # Card
     - title: Copilot in Microsoft Viva
@@ -35,7 +35,7 @@ highlightedContent:
       url: https://techcommunity.microsoft.com/t5/welcome-to-the-microsoft-viva/ct-p/Microsoft-Viva
     # Card
     - title: Adopt Microsoft Viva
-      itemType: get-started
+      itemType: overview
       url: https://adoption.microsoft.com/en-us/viva/
 
 
