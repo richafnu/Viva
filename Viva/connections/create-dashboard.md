@@ -78,13 +78,13 @@ The dashboard details contain settings for your dashboard, page versioning, and 
 
     - Changes users make to their dashboard are only seen by that user. Any updates or changes to the dashboard by an owner or member of the experience will override the user’s personal changes.
 
-> [!NOTE]
->
-> Disabling user customization resets all user dashboard views to what the organization created. This includes removing any dashboard cards the user added to their dashboard.
->
-> For more information how end users can customize their dashboard, see the relevant sections in the [dashboard](https://support.microsoft.com/office/3da30f39-684a-4bde-bb81-2e1407d59b52#bkmk_desktop_customize_dashboard) and [mobile](https://support.microsoft.com/office/753e0607-0bfd-4712-ad7e-18490dd565a2#bkmk_mobile_customize_dashboard) articles.
+    > [!NOTE]
+    >
+    > Disabling user customization resets all user dashboard views to what the organization created. This includes removing any dashboard cards the user added to their dashboard.
+    >
+    > For more information how end users can customize their dashboard, see the relevant sections in the [dashboard](https://support.microsoft.com/office/3da30f39-684a-4bde-bb81-2e1407d59b52#bkmk_desktop_customize_dashboard) and [mobile](https://support.microsoft.com/office/753e0607-0bfd-4712-ad7e-18490dd565a2#bkmk_mobile_customize_dashboard) articles.
 
-   :::image type="content" source="../media/connections/create-dashboard/dashboard-details-pane.png" alt-text="Screenshot of the dashboard details pane with numbered callout corresponding to steps three through five." lightbox="../media/connections/create-dashboard/dashboard-details-pane.png":::
+    :::image type="content" source="../media/connections/create-dashboard/dashboard-details-pane.png" alt-text="Screenshot of the dashboard details pane with numbered callout corresponding to steps three through five." lightbox="../media/connections/create-dashboard/dashboard-details-pane.png":::
 
 6. When finished making your changes, select the **X** to close the Dashboard details pane.
 
