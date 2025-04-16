@@ -35,9 +35,9 @@ To audit events, you must have be assigned the Audit Logs role in Microsoft Exch
 
 - **Network settings**—includes changes to the data export interval and data retention policy.
 
-For a complete list of Viva Engage activities, refer to the [Viva Engage activities](https://learn.microsoft.com/purview/audit-log-activities#viva-engage-activities).
+For a complete list of Viva Engage activities, refer to the [Viva Engage activities](/purview/audit-log-activities#viva-engage-activities).
 
-The audit logs are created using both the Common and Viva Engage schemas. Comprehensive property details are available within the [Common schema](https://learn.microsoft.com/office/office-365-management-api/office-365-management-activity-api-schema#common-schema), while additional information specific to Viva Engage can be found in the [Yammer schema](https://learn.microsoft.com/en-us/office/office-365-management-api/office-365-management-activity-api-schema#yammer-schema).
+The audit logs are created using both the Common and Viva Engage schemas. Comprehensive property details are available within the [Common schema](/office/office-365-management-api/office-365-management-activity-api-schema#common-schema), while additional information specific to Viva Engage can be found in the [Yammer schema](/office/office-365-management-api/office-365-management-activity-api-schema#yammer-schema).
 
 ## View the audit sign-in the Microsoft 365 Security &amp; compliance portal
 
