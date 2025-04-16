@@ -1,5 +1,5 @@
 ---
-ms.date: 08/21/2024
+ms.date: 11/07/2024
 title: Person query
 description: Learn how to run a custom person query in the Microsoft Viva Insights advanced insights app
 author: zachminers
@@ -41,7 +41,7 @@ To run a person query, you'll follow five basic steps:
 
 In this article, we talk about how to complete each of these steps, and also give some important background information about how metrics, conditions, and attributes work.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RW1lhYM]
+> [!VIDEO c85598e6-46f2-4833-b713-76f2e07a0c8c]
 
 ## Set up your query
 
@@ -74,7 +74,7 @@ Under **Query setup**:
 
 *Section: **Select metrics for what you want to know about your employees***
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RW1lda0]
+> [!VIDEO 99ddedd4-ee46-4f08-8fc0-228101a74e9b]
 
 1. Under **Select metrics for what you want to know about your employees**, select the **Add metrics** button.
 
@@ -84,9 +84,9 @@ Under **Query setup**:
    
    :::image type="content" alt-text="Select metrics section, with selected metrics appearing as tags" source="../images/person-query-selected-metrics-tags.png" lightbox="../images/person-query-selected-metrics-tags.png":::
 
-3. You can also add Microsoft 365 Copilot metrics to your custom person query. These metrics provide insights around how employees are using Microsoft 365 Copilot with Microsoft 365 apps, and they’re part of your .csv output file.
+3. You can also add Microsoft 365 Copilot metrics to your custom person query. These metrics provide insights about how employees are using Microsoft 365 Copilot or Copilot for Sales in Microsoft 365 apps, and they’re part of your .csv output file.
 
-    [Learn more about the Microsoft 365 Copilot metrics that you can use for your query](../../advanced/reference/metrics.md#microsoft-365-copilot-metrics).
+    Learn more about the [Microsoft 365 Copilot metrics](../../advanced/reference/metrics.md#microsoft-365-copilot-metrics) and the [Copilot for Sales metrics](../../advanced/reference/metrics.md#copilot-for-sales-metrics)  that you can use for your query.
 
 #### About metrics
 

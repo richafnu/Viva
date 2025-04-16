@@ -4,7 +4,7 @@ description: Learn how to set up a connection between Glint and Viva Insights to
 author: zachminers
 ms.author: v-zachminers
 ms.date: 08/28/2024
-ms.topic: article
+ms.topic: how-to
 ms.localizationpriority: medium
 ms.collection: viva-insights-advanced
 ms.service: viva-insights
@@ -12,10 +12,7 @@ manager: anirudhbajaj
 audience: Admin
 ---
 
-# Export Viva Insights data to Viva Glint (preview)
-
->[!IMPORTANT]
-> This feature is for public preview customers only. Features in preview might not be complete and could undergo changes before becoming available in the broader release.
+# Export Viva Insights data to Viva Glint
 
 You can share specific Viva Insights metrics about your employees with Viva Glint, to add more context to the survey responses employees provide through Glint. Through this integration, you can add more data about how employees work (Viva Insights) to the employee feedback data you have (Viva Glint). This can give you a clearer picture about what might be driving employee sentiment and survey responses.
 

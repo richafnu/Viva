@@ -4,7 +4,7 @@ ms.reviewer: elizapo
 ms.author: elizapo
 author: lizap
 manager: elizapo
-ms.date: 11/05/2024
+ms.date: 2/24/2025
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -33,8 +33,8 @@ To import your data, you populate a .csv template with the attributes (or inform
 
 ## Step 1 - Download a .csv template
 
-1. Sign into to the Microsoft 365 admin center as a user with Global Admin permissions.
-1. On the **Organizational Data in Microsoft 365** page (under **Setup > Migration and imports**), select **Get started** (if this is the first time you're importing data) or **New import**.
+1. Sign in to the Microsoft 365 admin center as a user with Global Admin permissions.
+1. On **Organizational Data in Microsoft 365** page (under **Setup > Migration and imports**), select **Get started** (if this is the first time you're importing data) or **New import**.
 2. Select **Download CSV template**.
 
 > [!NOTE]
@@ -66,14 +66,13 @@ Emp6@contoso.com,Mgr3@contoso.com,Support,Sales,9,New York
 For more information about attributes, see the [Attribute reference](orgdata-attributes.md).
 
 ## Step 3 - Import your organizational data for the first time 
-After you create a .csv file with your data, the next step is to import the data, either from your local computer (for Viva Insights-licensed customers) or from a SharePoint site.
+After you create a .csv file with your data, the next step is to import the data, either from your local files on your computer or from a SharePoint site.
 
-### Upload the .csv file from your computer (for Viva Insights-licensed customers)
-After you create the .csv file with your data, you can upload it directly from your local files. 
+### Upload the .csv file from your local files on your computer
+After you create the .csv file with your data, you can upload it directly from your local files on your computer. 
 
 >[!NOTE]
-> - Local upload is only available for Viva Insights-licensed customers.
-> - There's a 25 MB limit on files uploaded directly from your local files. If your .csv file is larger, [upload it first to SharePoint](#upload-the-file-to-sharepoint) and then import it from there.
+> There's a 25 MB limit on files uploaded directly from your local files. If your .csv file is larger, [upload it first to SharePoint](#upload-the-file-to-sharepoint) and then import it from there.
 
 :::image type="content" source="media/orgdata-import-local.png" alt-text="A screenshot shows local import option. ":::
 
@@ -124,7 +123,7 @@ Only the global admin can update or delete organizational data stored in the Mic
 
 To update or delete an end user's organizational data, create and upload a new .csv file containing only the users whose data you want to update or delete. 
 
-- To update a value, include all of the attributes that you want to update. Provide a different value for any attribute that you want to change. If you include an attribute but don't provide a value (but do **not** set it to an empty string), the current value in the Microsoft 365 User Profile is used (it isn't updated).
+- To update a value, include all of the attributes that you want to update. Provide a different value for any attribute that you want to change. If you include an attribute but don't provide a value (and *don't set it to an empty string*), the current value in the Microsoft 365 User Profile is used, and the value isn't updated. New uploads merge with previous data and don't overwrite that data.
 - To delete a value, set the value for the attribute to an empty string by using two single quotes (''). (Set the **Microsoft_Layer** attribute "-1".) To delete all of the data for a user, enter the empty string or integer value for all of their attributes.
 
 

@@ -1,5 +1,5 @@
 ---
-ms.date: 05/07/2024
+ms.date: 01/06/2025
 title: Advanced insights privacy
 description: Learn more about privacy in advanced insights
 author: zachminers
@@ -67,13 +67,13 @@ As a data processor, Microsoft will:
 
 * Process personal data in accordance with your organization’s instructions as directed through your settings configuration within Viva Insights.
 * Through your use of Viva Insights, process all data provided to Microsoft (including personal data) according to the same general privacy and security terms in the [Product Terms](https://www.microsoft.com/licensing/terms/product/PrivacyandSecurityTerms/all) as Microsoft 365.
-* As part of Microsoft’s commitments under Product Terms and Microsoft Products and Services [Data Protection Addendum](https://www.microsoft.com/licensing/docs/view/Microsoft-Products-and-Services-Data-Protection-Addendum-DPA), abide by the Standard Contractual Clauses and remain certified under the EU-U.S. and Swiss-U.S. Privacy Shield Frameworks and the commitments that these frameworks entail to legitimize transfers of personal data from the EU and Switzerland to the U.S, though Microsoft does not rely on the EU-U.S. Privacy Shield Framework as a legal basis for transfers of personal data in light of the judgment of the Court of Justice of the EU in Case C-311/18.
+* As part of Microsoft’s commitments under Product Terms and Microsoft Products and Services [Data Protection Addendum](https://www.microsoft.com/licensing/docs/view/Microsoft-Products-and-Services-Data-Protection-Addendum-DPA), abide by the Standard Contractual Clauses and remain certified under the EU-U.S. and Swiss-U.S. Privacy Shield Frameworks 'and the commitments that these frameworks entail to legitimize transfers of personal data from the EU and Switzerland to the U.S, though Microsoft doesn't rely on the EU-U.S. Privacy Shield Framework as a legal basis for transfers of personal data in light of the judgment of the Court of Justice of the EU in Case C-311/18.
 
 * Contractually commit to abide by applicable provisions of the European Union General Data Protection Regulation (GDPR), effective starting May 25, 2018.
 * Provide Viva Insights features that help organizations meet their data-controller obligations and honor data-subject rights under the GDPR, including the right of exclusion from processing, access, and erasure, and including the right of transparency regarding methods of processing.
 * Implement technical and organizational security measures to protect the confidentiality of your organization’s (and employees’) data in Viva Insights.
 
-In addition, Microsoft does not use customer data or personal data for advertising nor does it volunteer to provide such data to law enforcement.
+In addition, Microsoft doesn't use customer data or personal data for advertising nor does it volunteer to provide such data to law enforcement.
 
 #### Data subject
 
@@ -88,8 +88,8 @@ Depending on how much detail is available, data can become more or less sensitiv
 
 |Sensitivity| Classification|Definition|How it's applied in Viva Insights|
 |----------|------------|-------------|-----|
-Highest | Personal data| Personal data is information that directly or indirectly identifies a person | By default, Viva Insights does not include personal data. When it processes data, it obscures the email addresses from Microsoft 365 that would identify an individual. However, your organization can choose to also provide descriptive employee information for analysis. If that includes personal data (for example, employee names and identification numbers), that personal data can appear to analysts in advanced insights. 
-|Higher| De-identified data |De-identified data replaces personal identifiers with a value that does not directly identify a person (such as an encrypted key). These identifiers cannot be mapped back to a specific person without additional information. | Viva Insights automatically replaces email addresses with cryptographically obscured strings of numbers and letters when it processes Microsoft 365 data. These de-identified rows reduce the likelihood that an analyst can identify a specific person. However, the Insights Administrator can upload custom organizational data fields. These custom fields may contain new identifying information, or provide enough descriptive context that an analyst may be able to infer identity. The Insights Administrator should weigh the risk and benefit of custom organizational data fields.  
+Highest | Personal data| Personal data is information that directly or indirectly identifies a person | By default, Viva Insights doesn't include personal data. When it processes data, it obscures the email addresses from Microsoft 365 that would identify an individual. However, your organization can choose to also provide descriptive employee information for analysis. If that includes personal data (for example, employee names and identification numbers), that personal data can appear to analysts in advanced insights. 
+|Higher| De-identified data |De-identified data replaces personal identifiers with a value that doesn't directly identify a person (such as an encrypted key). These identifiers cannot be mapped back to a specific person without additional information. | Viva Insights automatically replaces email addresses with cryptographically obscured strings of numbers and letters when it processes Microsoft 365 data. These de-identified rows reduce the likelihood that an analyst can identify a specific person. However, the Insights Administrator can upload custom organizational data fields. These custom fields may contain new identifying information, or provide enough descriptive context that an analyst may be able to infer identity. The Insights Administrator should weigh the risk and benefit of custom organizational data fields.  
 |Lower | Aggregated data | Aggregated data represents multiple individuals or sources without attributing to any one individual or source in the group. | Viva Insights often provides averages for groups within your organization. When these groups include many people, it's difficult to derive information about any specific person’s activity from these averages. However, if a user can see results for very small groups or compare averages for overlapping groups, they may still be able to identify a specific person from aggregated data.  <br><br>Aggregated data can be further protected to reduce the possibility of an individual being identified. Organization insights provide leaders and managers with protected results by enforcing three strategies: minimum group sizes, differential privacy, and masked distributions. You can learn more about these techniques in [Protecting sensitive data](#protecting-sensitive-data). 
 
 ## Protecting sensitive data 
@@ -106,11 +106,11 @@ The following example shows one line from an advanced insights query:
 |---------------------------|--------------|-------------|---------------|-----------------|-----|
 |T5Y07H4VfKWcCC3| 7| 16| HR| Director| HR – Corp |
 
-In this example, Viva Insights calculates **After hours** and **Email hours** for an individual. It prints the results on a row that includes that individual’s attributes from the organizational data provided by the Insights Administrator. The **Person identifier** is a cryptographically generated identifier derived from the person’s Microsoft 365 email address. The other attributes are effectively personal data. While it might not be possible to identify the user with any single one of the other columns (function, title, organization, and region), together these attributes might enable an analyst to identify a person. So, this group of attributes should be treated as potential personal data.
+In this example, Viva Insights calculates **After hours** and **Email hours** for an individual. It prints the results on a row that includes that individual's attributes from the organizational data provided by the Insights Administrator. The **Person identifier** is a cryptographically generated identifier derived from the person's Microsoft 365 email address. The other attributes are effectively personal data. While it might not be possible to identify the user with any single one of the other columns (function, title, organization, and region), together these attributes might enable an analyst to identify a person. So, this group of attributes should be treated as potential personal data.
 
 ### Minimum group size 
 
-Because it’s easier to guess information about an individual based on results about a smaller group, aggregated insights won’t show results for groups with fewer than five people. The Insights Administrator can choose to [increase this threshold](../setup-maint/manager-settings.md). The minimum group size applies to data visualizations in the advanced insights Power BI templates and organization insights for leaders and managers in Outlook and Teams. 
+Because it’s easier to guess information about an individual based on results about a smaller group, aggregated insights won't show results for groups with fewer than five people. The Insights Administrator can choose to [increase this threshold](../setup-maint/manager-settings.md). The minimum group size applies to data visualizations in the advanced insights Power BI templates and organization insights for leaders and managers in Outlook and Teams. 
 
 ### Distribution masking 
 
@@ -118,9 +118,9 @@ Some insights measure how many people have a certain profile, like what percenta
 
 ### Differential privacy 
 
-Microsoft Viva Insights is serious about protecting individual privacy. Privacy can always be guaranteed if no information is revealed, which is not useful. Similarly, making all information available can lead to high-fidelity metrics that compromise individual privacy. 
+Microsoft Viva Insights is serious about protecting individual privacy. Privacy can always be guaranteed if no information is revealed, which isn't useful. Similarly, making all information available can lead to high-fidelity metrics that compromise individual privacy. 
 
-Differential privacy offers a balance between providing useful information and protecting individual privacy. Using methods from world-class researchers, Viva Insights randomly adjusts individual observations such that the aggregated adjustments offset each other, and the aggregated result that the user sees is still accurate. With differential privacy, users can’t discern true individual results, because the individual results used in the calculation have been changed. For more details, refer to [Differential Privacy for Everyone](https://download.microsoft.com/download/D/1/F/D1F0DFF5-8BA9-4BDF-8924-7816932F6825/Differential_Privacy_for_Everyone.pdf). 
+Differential privacy offers a balance between providing useful information and protecting individual privacy. Using methods from world-class researchers, Viva Insights randomly adjusts individual observations such that the aggregated adjustments offset each other, and the aggregated result that the user sees is still accurate. With differential privacy, users can't discern true individual results, because the individual results used in the calculation have been changed. For more details, refer to [Differential Privacy for Everyone](https://download.microsoft.com/download/D/1/F/D1F0DFF5-8BA9-4BDF-8924-7816932F6825/Differential_Privacy_for_Everyone.pdf). 
 
 The first application of differential privacy in Viva Insights is organization insights. These insights enable managers to understand how the people in their team are doing and to learn how to drive change by using aggregated collaboration data.  
 
@@ -136,11 +136,17 @@ Viva Insights provides the Microsoft 365 administrator and Insights Administrato
 
 You retain full control over what data is used and how it's used within Viva Insights. Viva Insights uses Microsoft 365 email and calendar metadata and external data defined by your organization (usually exported from an HR system) to compute how much time groups within your organization spend in meetings, emails, calls, and chats, and with whom. 
 
-Viva Insights processes data sourced with organizational data from your own HR system and collaboration data from Microsoft 365 to provide analysts with a unified pool of data on which to perform analyses. 
+Viva Insights processes data sourced with organizational data from your own HR system and collaboration data from Microsoft 365 to provide analysts with a unified pool of data on which to perform analyses.
+
+### Data from Microsoft 365 Copilot
+
+Viva Insights processes usage signals from licensed Microsoft 365 Copilot users. [Learn more about the Copilot metrics available in Viva Insights](..//..//advanced/reference/metrics.md#microsoft-365-copilot-metrics).
 
 ### Data processed from Microsoft 365 
 
-Viva Insights uses collaboration data from Microsoft 365. By assigning or not assigning a Viva Insights license to a person, the Microsoft 365 administrator controls whether that person's collaboration data is processed by Viva Insights. 
+Viva Insights uses collaboration data from Microsoft 365. By assigning or not assigning a Viva Insights license to a person, the Microsoft 365 administrator controls whether that person's collaboration data is processed by Viva Insights.
+
+Additionally, users assigned the Viva Insights analyst role can choose which collaboration metrics to include in each query and can choose not to include any collaboration data.  
 
 Viva Insights uses header information from Microsoft 365 email and calendar items. This header information includes sender and recipient, date, and subject lines for email, and organizer, attendee, and duration of meetings. Viva Insights never includes attachments and content in email and calendar items.  
 
@@ -185,7 +191,7 @@ The following levels of permission provide access to the Viva Insights data:
 * The **Insights Analyst** role has full access to all advanced insights product features except the administrator features. 
 * The **Insights Administrator** role has access to administrator features only (like **Organizational data** and **Privacy settings** in Viva Insights). 
 
-Advanced insights, like other products that work with sensitive data (for example, HR systems) isn't meant for the general workforce. Rather, its users are expected to have training on how to handle sensitive information. Training should be specific to your organization. Suggested topics might include your organization’s HR policies, employee privacy policy, how to handle and store sensitive data, and insider trading. 
+Advanced insights, like other products that work with sensitive data (for example, HR systems) isn't meant for the general workforce. Rather, its users are expected to have training on how to handle sensitive information. Training should be specific to your organization. Suggested topics might include your organization's HR policies, employee privacy policy, how to handle and store sensitive data, and insider trading. 
 
 An Insights Analyst can access information within advanced insights. People assigned this role can run query data with meeting and email information—which falls under the category of non-identifying data—for analysis. However, if you choose to provide personal data, the analyst can discern whose metrics are being computed. So, it's important that these analysts are provided the requisite training before they're given access to Viva Insights. Additionally, Viva Insights logs all queries that analysts author, which allows you to audit them for consistency with your organizational policies and any data protection impact assessments (DPIA) that you completed. 
 
@@ -193,9 +199,9 @@ The tenant administrator provisions the Insights Analyst role.
 
 ### Organization insights 
 
-The **Insights Business Leader** role and group manager list govern access to organization insights in Outlook and Teams. 
+"Delegate access" and the group manager list govern access to organization insights in Outlook and Teams. 
 
-People with the **Insights Business Leader** role assigned to them can see organization insights that include every person in their tenant. 
+People with delegate access can see organization insights that include every person in their tenant. 
 
 People enabled as group managers can see organization insights that only include people who report to them directly or indirectly. The Insights Administrator can assign users as group managers. The reporting hierarchy that determines who reports to whom is based on the required fields **PersonId** and **ManagerId**, which are included in the organizational data maintained by the Insights Administrator.
 
@@ -233,10 +239,7 @@ This means that Viva Insights won't have any collaboration data that's older tha
 
 If the Viva Insights license is removed from a user, Viva Insights retains that user's collaboration data that was collected during the period the license was assigned. However, for a user to appear in query results, that user needs to have a license at the time the query is run. [Learn more about when users show up in query results.](../setup-maint/assign-licenses.md#when-users-show-up-in-query-results)
 
-
 The person's collaboration data will be deleted according to the overall retention policy described in [Data retention for active tenants](#data-retention-for-active-tenants). 
-
-To permanently remove data from users after licenses are removed, you can contact Microsoft customer support to request a collaboration data reset. 
 
 For information about data deletion requests as handled under the GDPR, refer to [Managing data subject requests](#managing-data-subject-requests). 
 

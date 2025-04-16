@@ -16,6 +16,17 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "viva/learning/workday-integration.md",
+      "redirect_url": "/viva/learning/workday-intro",
+      "redirect_document_id": true
+    },   
+    { 
+      "source_path": "viva/learning/whats-new.md",
+      "redirect_url": "/viva/learning/overview-viva-learning",
+      "redirect_document_id": true
+    },
+
+    {
       "source_path": "viva/learning/configure-successfactors-content-source.md",
       "redirect_url": "/viva/learning/sfsf-introduction",
       "redirect_document_id": true
@@ -1726,6 +1737,126 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "workplace-analytics-insights/accelerate-change.md",
+      "redirect_url": "/viva/insights/introduction",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "workplace-analytics-insights/assign-licenses-pshell.md",
+      "redirect_url": "/viva/insights/introduction",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "workplace-analytics-insights/assign-licenses.md",
+      "redirect_url": "/viva/insights/introduction",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "workplace-analytics-insights/assign-roles.md",
+      "redirect_url": "/viva/insights/introduction",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "workplace-analytics-insights/boost-engagement.md",
+      "redirect_url": "/viva/insights/introduction",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "workplace-analytics-insights/customer-focus.md",
+      "redirect_url": "/viva/insights/introduction",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "workplace-analytics-insights/data-analysis.md",
+      "redirect_url": "/viva/insights/introduction",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "workplace-analytics-insights/deploy.md",
+      "redirect_url": "/viva/insights/introduction",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "workplace-analytics-insights/develop-managers.md",
+      "redirect_url": "/viva/insights/introduction",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "workplace-analytics-insights/effective-operations.md",
+      "redirect_url": "/viva/insights/introduction",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "workplace-analytics-insights/faqs.md",
+      "redirect_url": "/viva/insights/introduction",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "workplace-analytics-insights/foster-innovation.md",
+      "redirect_url": "/viva/insights/introduction",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "workplace-analytics-insights/glossary.md",
+      "redirect_url": "/viva/insights/introduction",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "workplace-analytics-insights/improve-agility.md",
+      "redirect_url": "/viva/insights/introduction",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "workplace-analytics-insights/install.md",
+      "redirect_url": "/viva/insights/introduction",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "workplace-analytics-insights/intro.md",
+      "redirect_url": "/viva/insights/introduction",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "workplace-analytics-insights/metrics.md",
+      "redirect_url": "/viva/insights/introduction",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "workplace-analytics-insights/myorg.md",
+      "redirect_url": "/viva/insights/introduction",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "workplace-analytics-insights/myteam.md",
+      "redirect_url": "/viva/insights/introduction",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "workplace-analytics-insights/privacy.md",
+      "redirect_url": "/viva/insights/introduction",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "workplace-analytics-insights/resilient-organizations.md",
+      "redirect_url": "/viva/insights/introduction",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "workplace-analytics-insights/setup.md",
+      "redirect_url": "/viva/insights/introduction",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "workplace-analytics-insights/transform-meetings.md",
+      "redirect_url": "/viva/insights/introduction",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "workplace-analytics-insights/index.yml",
+      "redirect_url": "/viva/insights/introduction",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "Viva/glint/setup/set-up-attributes.md",
       "redirect_url": "/viva/glint/setup/send-employee-attributes",
       "redirect_document_id": false
@@ -2221,10 +2352,246 @@
     "redirect_url": "/viva/connections/use-web-parts-in-sharepoint",
     "redirect_document_id": false
   },
+    {
+    "source_path": "viva/goals/viva-goals-healthy-okr-program/align-okrs-recommendations.md",
+    "redirect_url": "/viva/goals/viva-goals-healthy-okr-program/align-okrs-overview",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "viva/goals/viva-goals-healthy-okr-program/rob-recommendations.md",
+    "redirect_url": "/viva/goals/viva-goals-healthy-okr-program/rhythm-of-business-overview",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "viva/goals/viva-goals-trials.md",
+    "redirect_url": "/viva/goals/goals-retirement",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "viva/goals/it-admin-trials.md",
+    "redirect_url": "/viva/goals/goals-retirement",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "viva/goals/self-service-trials.md",
+    "redirect_url": "/viva/goals/goals-retirement",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "viva/goals/trials-checklist.md",
+    "redirect_url": "/viva/goals/goals-retirement",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "viva/goals/nudge-users-to-check-in.md",
+    "redirect_url": "/viva/goals/viva-goals-healthy-okr-program/check-in-okrs-overview",
+    "redirect_document_id": false
+  },
   {
     "source_path": "viva/copilot/deployment-permissions.md",
     "redirect_url": "/viva/glint/introduction-viva-glint",
     "redirect_document_id": false
-  }  
-  ]
+  },
+  {
+    "source_path": "viva/goals/viva-goals-healthy-okr-program/check-in-recommendations.md",
+    "redirect_url": "/viva/goals/viva-goals-healthy-okr-program/check-in-okrs-overview",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "viva/goals/viva-goals-healthy-okr-program/close-recommendations.md",
+    "redirect_url": "/viva/goals/viva-goals-healthy-okr-program/close-okrs-overview",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "viva/goals/okr-superpowers.md",
+    "redirect_url": "/viva/goals/get-to-know-okrs",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "viva/goals/ensuring-okr-success.md",
+    "redirect_url": "/viva/goals/get-to-know-okrs",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "viva/goals/viva-goals-healthy-okr-program/write-okrs-recommendations.md",
+    "redirect_url": "/viva/goals/viva-goals-healthy-okr-program/write-okrs-overview",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "viva/glint/setup/question-edit.md",
+    "redirect_url": "/viva/glint/setup/change-live-survey",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "viva/goals/viva-goals-healthy-okr-program/healthy-okr-program-overview.md",
+    "redirect_url": "/viva/goals/viva-goals-healthy-okr-program/write-okrs-overview",
+    "redirect_document_id":false
+  },
+  {
+    "source_path": "viva/glint/setup/360-download-csv.md",
+    "redirect_url": "/Viva/glint/setup/360-manage-subjects",
+    "redirect_document_id":false 
+  },
+  {
+    "source_path": "viva/glint/setup/platform-features-settings.md",
+    "redirect_url": "/viva/glint/introduction-viva-glint",
+    "redirect_document_id":false
+  },
+  {
+    "source_path": "viva/glint/start/comms-checklist.md",
+    "redirect_url": "/viva/glint/introduction-viva-glint",
+    "redirect_document_id":false
+  },
+  { 
+    "source_path": "viva/engage/configure-your-viva-engage-network/deprecation-of-basic-freemium-networks.md",
+    "redirect_url": "/viva/engage/overview",
+    "redirect_document_id": false
+  },
+  { 
+    "source_path": "viva/engage/work-with-external-users/create-and-manage-an-external-network.md",
+    "redirect_url": "/viva/engage/overview",
+    "redirect_document_id": false
+  },
+  { 
+    "source_path": "viva/engage/work-with-external-users/find-external-participants.md",
+    "redirect_url": "/viva/engage/overview",
+    "redirect_document_id": false
+  },
+  { 
+    "source_path": "viva/engage/work-with-external-users/disable-external-messaging.md",
+    "redirect_url": "/viva/engage/overview",
+    "redirect_document_id": false
+  },
+  { 
+    "source_path": "viva/engage/manage-viva-engage-users/aad-account-required.md",
+    "redirect_url": "/viva/engage/overview",
+    "redirect_document_id": false
+  },
+  { 
+    "source_path": "viva/engage/work-with-external-users/external-messaging-faq.md",
+    "redirect_url": "/viva/engage/overview",
+    "redirect_document_id": false
+  },
+  { 
+    "source_path": "viva/engage/configure-your-viva-engage-network/customize-the-look-of-viva-engage.md",
+    "redirect_url": "/viva/engage/overview",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "viva/engage/integrate-viva-engage-with-other-apps/viva-engage-and-newsfeed.md",
+    "redirect_url": "/viva/engage/overview",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "viva/glint/communicate/email-templates-survey-expectations.md",
+    "redirect_url": "/viva/glint/start/recommended-rollout-plan",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "viva/glint/people-science/patient-safety.md",
+    "redirect_url": "/viva/glint/setup/patient-safety-survey",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "viva/glint/setup/360-roles-permissions.md",
+    "redirect_url": "/viva/glint/setup/360-general-settings",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "viva//360-cycle-settings.md",
+    "redirect_url": "/viva/glint/setup/create-new-360-cycle",
+    "redirect_document_id": false
+  },
+  {
+      "source_path": "viva/glint/people-science/import-external-people-science-pov.md",
+      "redirect_url": "/viva/glint/setup/import-historical-response-data",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "viva/glint/setup/create-new-360-cycle.md",
+      "redirect_url": "/viva/glint/setup/360-create-new-360-cycle",
+      "redirect_document_id": true
+  },
+  {
+     "source_path": "viva/glint/setup/manual-ppt-customization.md",
+     "redirect_url": "/viva/glint/setup/custom-ppt-upload",
+     "redirect_document_id": true
+  },
+  {
+    "source_path": "viva/glint/setup/360-report-access-timing.md",
+    "redirect_url": "/viva/glint/setup/360-competencies",
+    "redirect_document_id": false
+  },
+  { 
+   "source_path": "viva/glint/setup/survey-coach.md",
+   "redirect_url": "/viva/glint/setup/program-summary-coaching",
+   "redirect_document_id": true
+  },
+  {
+    "source_path": "viva/glint/people-science/propel-action-taking.md",
+    "redirect_url": "/viva/glint/people-science/propelling-action-taking",
+    "redirect_document_id": true
+  },
+  {
+    "source_path": "viva/glint/reports/focus-area-periods.md",
+    "redirect_url": "/viva/glint/setup/focus-area-period-feature",
+    "redirect_document_id": true
+  },
+  {
+    "source_path": "viva/glint/reports/coach-managers-small-teams.md",
+    "redirect_url": "/viva/glint/reports/post-survey-coaching-small-teams",
+    "redirect_document_id": true
+  },
+  {
+    "source_path": "viva/glint/setup/import-members-distribution-lists.md",
+    "redirect_url": "/viva/glint/setup/set-up-distribution-lists",
+    "redirect_document_id": true
+  },
+  {
+    "source_path": "viva/glint/setup/export-distribution-lists.md",
+    "redirect_url": "/viva/glint/setup/set-up-distribution-lists",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "viva/glint/start/brochure-summary.md",
+    "redirect_url": "/viva/glint/introduction-viva-glint",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "viva/glint/reports/team-conversations-resource-guidance.md",
+    "redirect_url": "/viva/glint/setup/program-summary-coaching",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "viva/glint/reports/coaching-team-conversations.md",
+    "redirect_url": "/viva/glint/setup/program-summary-coaching",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "viva/glint/setup/add-new-questions.md",
+    "redirect_url": "/viva/glint/setup/questions-setup",
+    "redirect_document_id": true
+  },
+  {
+    "source_path": "viva/glint/communicate/survey-taking-for-employees.md",
+    "redirect_url": "/viva/glint/start/recommended-rollout-plan",
+    "redirect_document_id": true
+  },
+  {
+    "source_path": "viva/glint/communicate/prelaunch-live-email-templates.md",
+    "redirect_url": "/viva/glint/start/recommended-rollout-plan",
+    "redirect_document_id": false  
+  },
+  {
+    "source_path": "Viva/glint/start/recommended-rollout-plan.md",
+    "redirect_url": "/viva/glint/start/introductory-emails",
+    "redirect_document_id": true  
+  },
+  {
+    "source_path": "Viva/glint/reports/mean-score.md",
+    "redirect_url": "/viva/glint/reports/report-analytics-filtering-favorability-trending",
+    "redirect_document_id": true
+  },
+    
+ ]
 }

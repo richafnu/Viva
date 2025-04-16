@@ -4,8 +4,8 @@ title: Introducing Org Explorer
 ms.reviewer: 
 ms.author: ponincev
 author: PollyNincevic
-ms.topic: article
-ms.service: viva
+ms.topic: overview
+ms.service: viva-suite
 manager: margrets
 audience: Admin
 description: "Introducing Org Explorer"

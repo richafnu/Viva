@@ -1,14 +1,14 @@
 ---
-ms.date: 08/21/2023
+ms.date: 01/22/2025
 title: "Explorer"
-ms.reviewer: 
-ms.author: rasanders
-author: RaSanders-MSFT
-manager: Liz.Pierce
+ms.reviewer: aroraaarushi
+ms.author: daisyfeller
+author: daisyfell
+manager: elizapo
 audience: Admin
 f1.keywords:
 - NOCSH
-ms.topic: article
+ms.topic: how-to
 ms.service: viva-goals
 ms.localizationpriority: medium
 ms.collection:  
@@ -37,15 +37,14 @@ The Explorer default views provide a strategic glimpse into your organization's 
 | Recently completed OKRs | OKRs that have been closed within the last seven days |
 | Unaligned OKRs | OKRs that aren't aligned to a parent objective |
 
-## Create custom views in Explorer 
+## Create custom views in Explorer
 
 Viva Goals lets you create custom views and save the filters you use often.
 
 1. To get started, select **Explorer** from the side navigation bar and then select **Create a new view**.
+![Screenshot of the screen to create a new view.](../media/goals/explorer-new-view.png)
 
 2. Select **add filter** to customize the view.
-
-   :::image type="content" source="../media/goals/4/46/a.jpg" alt-text="Screenshot shows Explorer filters." lightbox="../media/goals/4/46/a.jpg":::
 
 The following filters are available:
 
@@ -76,18 +75,20 @@ By default, views list objectives, key results, and initiatives. To view only to
 
 ## Save and export
 
-Save and export views for future reference or to share insight with your team. To save a view, select the **Save View** button in the upper-right corner. You'll be prompted to name the view and select a sharing option.
+Save and export views for future reference or to share insight with your team. To save a view, select the **Save** button in the upper-right corner. You'll be prompted to name the view and select a sharing option.
 
-:::image type="content" source="../media/goals/4/46/b.jpg" alt-text="Screenshot shows the save view option on the all objectives list." lightbox="../media/goals/4/46/b.jpg":::
-
-> [!Note] 
+> [!Note]
 > If you don't want to share the new view with your team, change the security setting to **Only Me** and then save the view.
 
 You should now be able to find the saved view in Explorer. If you made it available to everyone, they'll be able to find it there also.
 
-If you want to export the view, go to **Export Options** in the upper-right corner. The export file will be emailed to your account.
+If you want to export the view, go to **Export Options** in the upper-right corner. You can choose to export to Excel or PowerPoint.
 
-Here are for settings for the **Export** feature:
+![Screenshot of the Export Options dropdown.](../media/goals/explorer-export.png)
+
+### Export to Excel
+
+If you choose Excel, the exported file will be emailed to your account.
 
 - Select the format of the export file, CSV or XLSX.
 
@@ -99,27 +100,31 @@ Here are for settings for the **Export** feature:
 
 Any changes that you make will be preserved for every user for subsequent exports.
 
-:::image type="content" source="../media/goals/4/46/c.jpg" alt-text="Screenshot shows the filter options for exports." lightbox="../media/goals/4/46/c.jpg":::
+### Export to PowerPoint
+
+If you choose PowerPoint, the exported file will be automatically downloaded to your system.
+
+- Select template from **View Options**.
+
+- Select the **Date as on** option as required.
+
+When you select **Export**, the file will automatically download.
 
 ## Rename a view
 
-You can rename a view after it's been saved: Select **Save options** -> **Rename this View**.
+You can rename a view after it's been saved: Select **Save options** then **Rename this View**.
 
-:::image type="content" source="../media/goals/4/46/d.jpg" alt-text="Screenshot shows the dialog where you rename a view." lightbox="../media/goals/4/46/d.jpg":::
+![Screenshot of the Save Options dropdown with Rename this view selected.](../media/goals/explorer-rename-view.png)
 
 ## Use an existing view to create a similar view
 
 Viva Goals enables you to edit a saved view and save it as a new view. To do this, open a saved view, make any appropriate changes to filters, and then select **Save** from the dropdown on the right side. You'll be prompted to update the current view or save it as a new view.
 
-:::image type="content" source="../media/goals/4/46/e.jpg" alt-text="Screenshot shows where you save a new view." lightbox="../media/goals/4/46/e.jpg":::
-
-Example: I want to create specific views for each of my employees or teams. I've created a view for John with the appropriate filters set and saved it. I would then edit the filter for **Owner** from John to Jordan and save it as a new view.
-    
 ## Sort your OKRs in Explorer
-    
+
 You can sort your objectives and key results in Explorer.
 
-:::image type="content" source="../media/goals/4/46/f.jpg" alt-text="Screenshot shows how you sort OKRs." lightbox="../media/goals/4/46/f.jpg":::
+Select the **View Options** dropdown and select **Sort by**.
 
 This information refers to the order in which the OKRs are arranged in the Entity (organization/team/individual) OKR view. For example: If you have OKRs arranged in a certain manner on your page and want to see the same priority order in Explorer, you can use this option.  
 
@@ -143,15 +148,14 @@ This information refers to the order in which the OKRs are arranged in the Entit
 
 1. **How do I delete a view?**
     1. To delete a saved view go to **Save Options -> Delete this view**.
-        :::image type="content" source="../media/goals/4/46/k.jpg" alt-text="Screenshot shows how to delete a view." lightbox="../media/goals/4/46/k.jpg":::
 
 1. **Who can access my view?**
     1. That depends on the availability configuration you choose when you save the view. There are two options:
         - Private: Only you can access the view.
         - Public: Everyone in the organization can access the view.
-    
+
     To change this setting, select **Save view**, change the setting, and save it again.
-        :::image type="content" source="../media/goals/4/46/l.jpg" alt-text="Screenshot shows where you make a view public or private." lightbox="../media/goals/4/46/l.jpg":::
+    ![Screenshot of the Save View as pane.](../media/goals/explorer-visibility.png)
 
 1. **What does exporting tags as a separate field mean?**
     1. If an objective, key result, or initiative has more than one tag, the field can be exported as separate columns instead of comma-separated values in the .csv/Excel file.
@@ -164,10 +168,9 @@ This information refers to the order in which the OKRs are arranged in the Entit
 
 1. **Flat-list view:**
     1. After you modify your view as desired, go to **Export options** to export it. You'll soon receive an email with your download. To learn more, see our [Explorer article](https://help.ally.io/en/articles/5845706-explorer).
-        :::image type="content" source="../media/goals/4/46/m.jpg" alt-text="Screenshot shows how you choose flat-list view." lightbox="../media/goals/4/46/m.jpg":::
+
 
 1. **How do I filter OKRs by team in Explorer?**
     1. Use the **Type** filter to refine the OKRs list by teams or individuals.
-        :::image type="content" source="../media/goals/4/46/n.jpg" alt-text="Screenshot shows where you filter OKRs by team or individual." lightbox="../media/goals/4/46/n.jpg":::
     Apply the changes and save the view for future reference.
 

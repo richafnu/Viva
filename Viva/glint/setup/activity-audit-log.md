@@ -11,10 +11,10 @@ ms.collection:
 - m365initiative-viva
 - selfserve 
 search.appverid: MET150 
-ms.topic: article
+ms.topic: how-to
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 09/27/2024
+ms.date: 04/16/2025
 ---
 
 # Viva Glint Activity Audit Log
@@ -39,8 +39,8 @@ To use the Activity Audit Log as a Viva Glint admin:
 2. Select an event type from the **All Events** dropdown menu (example: "Data import").
 3. If needed, filter results further by selecting an option from the **All Types** dropdown menu (example: "SFTP" to focus on data sent via secure file transfer protocol).
 4. If needed, use the **All Statuses** dropdown menu to filter to successful or failed events.
-   
-   :::image type="content" source="../../media/glint/setup/glint-activity-audit-log.png" alt-text="Screenshot of the Activity Audit Log filtered to Data import activity for SFTP imports.":::
+  
+   :::image type="content" source="../../media/glint/setup/glint-activity-audit-log.png" alt-text="Screenshot of the Viva Glint Activity Audit Log filtered to Data import activity for SFTP imports." lightbox="../../media/glint/setup/glint-activity-audit-log.png":::
 
 ## Event descriptions
 
@@ -56,8 +56,8 @@ Choose an event type based on platform activity that you need to review and the 
 | Company Admin removed | A user was removed from the Company Admin role. |
 | Data app execution logs | Advanced Configuration Data app and Upload activity. |
 | Data DSR Control set | User Data controls for survey data deletion in General Settings update activity. |
-| Data Import | Employee data import activity. |
 | Data export | Employee data export activity. |
+| Data import | Employee data import activity. |
 | Details changes saved | Change activity in General Settings or Advanced Configuration: Details. |
 | Discarding Employee IDs | User Data controls for Employee ID reuse in General Settings update activity. |
 | Export Raw Survey Data | Raw response data export activity. |
@@ -69,30 +69,40 @@ Choose an event type based on platform activity that you need to review and the 
 | User role created | User Role creation activity. |
 | View as user | Admins' "View As" another user activity. |
 
+## Sign-in logs in the Microsoft Entra admin center
+
+For more detailed views of user sign-in activity in Viva Glint, Entra admins have access to sign-in logs in the Microsoft Entra admin center. To access logs for Viva Glint:
+
+1. Review [prerequisites](/entra/identity/monitoring-health/howto-access-activity-logs?tabs=microsoft-entra-activity-logs%2Carchive-activity-logs-to-a-storage-account.md#prerequisites) for Microsoft Entra licensing and user role permissions to access sign-in logs.
+2. Go to the [Microsoft Entra admin center](https://entra.microsoft.com/#home).
+3. In the menu, select **Identity** and search for **Viva Glint** in the **Search your tenant** field.
+4. Select Viva Glint from the search results that appear.
+5. Under **Activity**, choose **Sign-in logs**.
+6. Logs have Viva Glint's app ID applied and, by default, show the last seven days of activity.
+7. Learn more about using [Entra's sign-in logs](/entra/identity/monitoring-health/concept-sign-ins) and [customizing/filtering logs](/entra/identity/monitoring-health/howto-customize-filter-logs?tabs=audit-logs) to view different columns and date ranges.
+
+## More Viva Glint logs in Microsoft Purview
+
+Use [Microsoft Purview](/purview/purview) to view and audit additional Viva Glint platform activity. Check with your Microsoft 365 Global Admin to confirm which admin users in your organization [have access to view logs](/purview/purview-permissions). For information specific to Viva Glint schema and audit log activities, see:
+
+- [Viva Glint schema](/office/office-365-management-api/office-365-management-activity-api-schema#viva-glint-schema)
+- [Viva Glint Audit log activities](/purview/audit-log-activities#viva-glint-activities)
+
 ## Related resources
 
 ### Data import errors and troubleshooting:
 
+- [Handle data file upload warnings and errors in Viva Glint](/viva/troubleshoot/glint/data-file-upload/data-file-upload-warnings-errors?toc=%2Fviva%2Fglint%2Ftoc.json&bc=%2Fviva%2Fbreadcrumb%2Ftoc.json)
 - [Resolve file upload errors related to attributes](/viva/troubleshoot/glint/data-file-upload/fix-upload-attributes-errors?toc=%2Fviva%2Fglint%2Ftoc.json&bc=%2Fviva%2Fbreadcrumb%2Ftoc.json)
 - [Resolve upload errors related to derived attributes](/viva/troubleshoot/glint/data-file-upload/fix-upload-derivation-errors?toc=%2Fviva%2Fglint%2Ftoc.json&bc=%2Fviva%2Fbreadcrumb%2Ftoc.json)
 - [Resolve upload warnings related to duplicate data](/viva/troubleshoot/glint/data-file-upload/fix-upload-duplicate-data-warnings?toc=%2Fviva%2Fglint%2Ftoc.json&bc=%2Fviva%2Fbreadcrumb%2Ftoc.json)
 - [Resolve upload warnings related to invalid or unexpected values](/viva/troubleshoot/glint/data-file-upload/fix-upload-invalid-unexpected-values-warnings?toc=%2Fviva%2Fglint%2Ftoc.json&bc=%2Fviva%2Fbreadcrumb%2Ftoc.json)
 - [Resolve upload warnings related to manager hierarchy](/viva/troubleshoot/glint/data-file-upload/fix-upload-manager-hierarchy-warnings?toc=%2Fviva%2Fglint%2Ftoc.json&bc=%2Fviva%2Fbreadcrumb%2Ftoc.json)
 
-### User role setup:
-
-- [Set up User Roles](/viva/glint/setup/set-up-user-roles)
-
 ### User data management:
 
-- [Delete user data](/viva/glint/setup/delete-user-data)
-- [Raw response data](/viva/glint/setup/employee-raw-data-export)
-- [Viva Glint People page](/viva/glint/setup/people-page)
-- [People page import](/viva/glint/setup/upload-employee-attributes)
-
-### Advanced Configuration and General Settings
-
-- [Advanced Configuration overview](/viva/glint/setup/understand-advanced-configuration)
-- [Data apps](/viva/glint/setup/glint-data-apps)
-- [Uploads](/viva/glint/setup/advanced-config-uploads)
-- [General Settings](/viva/glint/setup/manage-general-settings)
+- [User data controls](manage-general-settings.md#user-data)
+- [Delete user data](delete-user-data.md)
+- [Raw response data](employee-raw-data-export.md)
+- [Viva Glint People page](people-page.md)
+- [People page import](upload-employee-attributes.md)

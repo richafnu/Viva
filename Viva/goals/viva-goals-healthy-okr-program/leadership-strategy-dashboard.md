@@ -1,14 +1,14 @@
 ---
-ms.date: 08/16/2023
+ms.date: 01/13/2025
 title: "Leadership Strategy Dashboard and ROB"
-ms.reviewer: 
+ms.reviewer: aroraaarushi
 ms.author: daisyfeller
 author: daisyfell
 manager: elizapo
 audience: Admin
 f1.keywords:
 - NOCSH
-ms.topic: article
+ms.topic: concept-article
 ms.service: viva-goals
 ms.localizationpriority: medium
 ms.collection:

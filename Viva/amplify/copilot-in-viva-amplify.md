@@ -1,10 +1,10 @@
 ---
-title: Copilot in Viva Amplify
+title: Microsoft 365 Copilot in Viva Amplify
 ms.author: daisyfeller
 author: daisyfell
 manager: elizapo
 ms.reviewer: smathurin
-ms.date: 09/17/2024
+ms.date: 02/10/2025
 audience: admin
 ms.topic: overview
 ms.service: viva-amplify
@@ -19,10 +19,7 @@ ms.localizationpriority: medium
 description: Learn about Copilot in Microsoft Viva Amplify.
 ---
 
-# Copilot in Viva Amplify
-
->[!NOTE]
->Microsoft 365 Copilot in Viva Amplify is currently rolling out.
+# Microsoft 365 Copilot in Viva Amplify
 
 Microsoft 365 Copilot in Viva Amplify helps you find the best wording to make sure your publications communicate your message effectively. Copilot rich text editor is available in the Text web part and all rich text editors in Viva Amplify, including the campaign brief. Copilot in Viva Amplify is based on the Copilot in SharePoint rich text editor experience.
 

@@ -1,6 +1,6 @@
 ---
 ms.date: 09/09/2024
-title: Copilot in Viva Goals
+title: Microsoft 365 Copilot in Viva Goals
 ms.reviewer: 
 ms.author: daisyfeller
 author: daisyfell
@@ -8,7 +8,7 @@ manager: elizapo
 audience: Admin
 f1.keywords:
 - NOCSH
-ms.topic: article
+ms.topic: overview
 ms.service: viva-goals
 ms.localizationpriority: medium
 ms.collection:  
@@ -23,7 +23,7 @@ search.appverid:
 description: "Learn how to use Copilot in Viva Goals to create, share, manage, and summarize organizational goals."
 ---
 
-# Enable Microsoft Copilot in Viva Goals
+# Microsoft 365 Copilot in Viva Goals
 
 Microsoft 365 Copilot in Viva Goals lets you use generative AI to help set business goals and align teams to your organization’s strategic priorities. It also offers in-app guidance to users for creating, refining, and summarizing goals, as well as for sharing goals updates.
 

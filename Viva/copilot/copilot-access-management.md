@@ -1,14 +1,14 @@
 ---
-title: Manage access to Copilot in Viva
+title: Manage access to Microsoft 365 Copilot in Viva
 ms.reviewer: elizapo
 ms.author: daisyfeller
 author: daisyfell
 manager: elizapo
-ms.date: 07/24/2024
+ms.date: 02/12/2025
 audience: Admin
 f1.keywords:
 - NOCSH
-ms.topic: article
+ms.topic: how-to
 ms.service: viva-suite
 ms.localizationpriority: medium
 ms.custom:
@@ -22,7 +22,7 @@ search.appverid:
 description: Control who can access Copilot in Microsoft Viva
 ---
 
-# Control access to Copilot in Viva
+# Control access to Microsoft 365 Copilot in Viva
 
 > [!NOTE]
 > This feature is currently rolling out to customers.

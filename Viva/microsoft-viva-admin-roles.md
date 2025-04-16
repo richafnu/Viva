@@ -4,7 +4,7 @@ ms.reviewer:
 ms.author: elizapo
 author: lizap
 manager: elizapo
-ms.date: 08/07/2024
+ms.date: 01/06/2025
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -21,7 +21,7 @@ search.appverid:
 description: "Learn about the admin roles for Microsoft Viva"
 ---
 # Admin roles and tasks in Microsoft Viva
-Microsoft Viva uses role-based authentication to manage access to the Viva apps. Each app has an admin role in Microsoft Entra ID, [assigned in the Microsoft 365 admin portal](/microsoft-365/admin/add-users/assign-admin-roles), which can assign addition additional roles for the management, tasks, and maintenance of each Viva app.
+Microsoft Viva uses role-based authentication to manage access to the Viva apps. Each app has an admin role in Microsoft Entra ID, [assigned in the Microsoft 365 admin portal](/microsoft-365/admin/add-users/assign-admin-roles), which can assign additional roles for the management, tasks, and maintenance of each Viva app.
 
 Admin options and permissions for each app rely heavily on the environments the apps are available in. For example, most Viva apps are accessed through Microsoft Teams and rely on the Microsoft Teams permissions structure.
 
@@ -79,7 +79,7 @@ Users with both SharePoint Admin role and Microsoft 365 Groups Admin role can co
 | Role | What this role does in Viva |
 |-----------|------------|
 |SharePoint admin |Users with this role have global permissions within Microsoft SharePoint Online, when the service is present, and the ability to create and manage all Microsoft 365 groups, manage support tickets, and monitor service health. |
-|Microsoft 365 Groups admin |Users in this role can create/manage groups and its settings like naming and expiration policies. It's important to understand that assigning a user to this role gives them the ability to manage all groups in the organization across various workloads like Viva Amplify campaigns, Teams, SharePoint, Yammer in addition to Outlook. Also, the user is able to manage the various groups settings across various admin portals like Microsoft admin center, Azure portal, and workload specific ones like Teams and SharePoint admin centers.
+|Microsoft 365 Groups admin |Users in this role can create/manage groups and its settings like naming and expiration policies. It's important to understand that assigning a user to this role gives them the ability to manage all groups in the organization across various workloads like Viva Amplify campaigns, Teams, SharePoint, Viva Engage in addition to Outlook. Also, the user is able to manage the various groups settings across various admin portals like Microsoft admin center, Azure portal, and workload specific ones like Teams and SharePoint admin centers.
 
 ### Viva Connections
 
@@ -97,7 +97,7 @@ To learn about setup and administration for Connections, see [Guide to setting u
 ### Viva Engage
 | Role         | What this role does in Viva |
 |--------------|-----------|
-|**Engage admin** |Sets up Viva Engage for the organization, manages compliance, privacy and features within the application. This role is designated by adding Viva Engage administrators in Microsoft Entra ID as Viva Engage is powered by Viva Engage technology. |
+|**Engage admin** |Sets up Viva Engage for the organization, manages compliance, privacy and features within the application. This role is designated by adding Viva Engage administrators in Microsoft Entra ID.|
 |**Answers admin** | Sets up Answers within the Viva Engage application. This role is designated by adding a Knowledge manager role in Microsoft Entra ID. All Knowledge managers have Answers admin privileges. Find more information about assigning an [Microsoft Entra role to a group](/azure/active-directory/roles/groups-pim-eligible) or how to [create a role-assignable group](/azure/active-directory/roles/groups-create-eligible).|
 |**Corporate communicator**<br>Assigned by the Engage admin or a fellow corporate communicator.  |Can create or manage campaigns and define leaders and audiences in an organization.|
 |**Teams admin** |Uses the Teams admin center to create setup policies to install the app and assign users. |
@@ -135,7 +135,6 @@ In Viva Insights, you can assign multiple roles to one person. For example, one 
 | Role         | What this role does in Viva |
 |--------------|-----------|
 |**Insights Administrator** |Has access to the administrator experience in the advanced insights app, which consists of these pages: Organizational data management, Privacy settings, and Manager settings.<br><br>Responsible for configuring the privacy settings and system defaults and for preparing, uploading, and verifying the organizational data for Viva Insights.<br><br>While the Insights admin has access to organizational data, they do not have access to Microsoft 365 data. |
-|**Insights Business Leader** |Insights Business Leaders can see organizational insights on the Organization trends page within the Viva Insights app. |
 |**Insights Analyst**|Has access to the analyst experience in the advanced insights app, which includes the ability to run custom and Power BI queries, view query results, and view the quality of organizational data.
 |**People manager**<br> Access enabled by Insights administrator through the Manager settings page in the advanced insights app|Can view organization trends in the Viva Insights app in Teams and on the web. |
 
@@ -147,7 +146,7 @@ Viva Learning is by default available in Microsoft Teams with some content alrea
 
 | Role         | What this role does in Viva |
 |--------------|-----------|
-|**Knowledge admin** <br>Can create and manage content, like topics, acronyms and learning resources. Can also create content centers, monitor service health, and create service requests|Manages the organization's learning content sources through the Microsoft 365 admin center.<br><br>Users in this role have full access to all knowledge, learning and intelligent features settings in the Microsoft 365 admin center.|
+|**Knowledge admin** <br>Can create and manage content, like topics, acronyms, and learning resources. Can also create content centers, monitor service health, and create service requests|Manages the organization's learning content sources through the Microsoft 365 admin center.<br><br>Users in this role have full access to all knowledge, learning and intelligent features settings in the Microsoft 365 admin center.|
 |**SharePoint admin** <br> Manages all aspects of SharePoint| Manages and stores custom learning content for your organization.|
 |**Teams admin** <br> Manage all aspects of Microsoft Teams|Can turn on or off the Viva Learning app at the organization level. Learn how to manage your apps in the Microsoft Teams admin center.<br><br> Can create custom app permission policies to allow or block specific users from using Viva Learning.|
 
@@ -163,4 +162,4 @@ Viva Pulse admins must have a license to one of the following: Viva Pulse Standa
 | Role | What this role does in Viva |
 | ----------- | ----------- |
 | Viva Pulse Admin | The Viva Pulse Admin can manage the in-app Viva Pulse settings. |
-| Teams admin | The Microsoft Teams Admin can pin and install the Viva Pulse Admin in Teams for a customer tenant, as well as manage teams Teams app policies. |
+| Teams admin | The Microsoft Teams Admin can pin and install the Viva Pulse Admin in Teams for a customer tenant, as well as manage Teams app policies. |

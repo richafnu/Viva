@@ -7,7 +7,7 @@ author: Starshine89
 manager: elizapo
 ms.date: 09/30/2024
 audience: Admin
-ms.topic: article
+ms.topic: how-to
 ms.service: office-online-server
 ms.localizationpriority: medium
 ms.custom: Adm_Yammer
@@ -74,8 +74,6 @@ Invite external contacts with email addresses outside of your domain (for exampl
    :::image type="content" source="../../media/c8573062-7613-4964-bbd3-4393931146af.png" alt-text=" Screenshot of the Pending guests list.":::
   
 As with other users, guest names and profiles remain blank until they accept their invitations and complete registration. Guest accounts can be deleted anytime, but their contributions to the network remain.
-  
-For more information about guests, see [External Messaging FAQ](../work-with-external-users/external-messaging-faq.md).
   
 <a name="RemoveUsers"> </a>
 ## Remove users

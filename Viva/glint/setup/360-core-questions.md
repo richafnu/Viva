@@ -11,19 +11,22 @@ ms.collection:
 - m365initiative-viva
 - selfserve 
 search.appverid: MET150 
-ms.topic: article
+ms.topic: how-to
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 8/27/2024
+ms.date: 12/19/2024
 ---
 
 # 360 core survey questions
+
+> [!IMPORTANT]
+> Glint uses the term "item" to refer to any question or statement put forth to a survey participant.
 
 In **Cycle Settings**, choose **Survey Questions**.
 
 :::image type="content" source="../../media/glint/setup/360-cycle-setting-survey-questions.png" lightbox="../../media/glint/setup/360-cycle-setting-survey-questions.png" alt-text="Screenshot of the second section to set up in Cycle Settings.":::
 
-In the **Glint Manager 360 Program template**, questions are pre-populated. 
+In the **Glint Manager 360 Program template**, items are pre-populated. 
 
 ## 360 core survey items
 
@@ -47,6 +50,9 @@ In the **Glint Manager 360 Program template**, questions are pre-populated.
 |**Self-Awareness**|	Acknowledges own strengths and weaknesses.|
 |**Translates Strategy**|	Translates the business unit's strategy into specific goals.|
 |**Works Collaboratively**|	Works collaboratively with others across the business.|
+
+> [!IMPORTANT]
+> Glint doesn't offer benchmarks for 360 Feedback program items.
 
 
 

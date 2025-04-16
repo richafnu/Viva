@@ -1,14 +1,14 @@
 ---
-ms.date: 02/25/2024
+ms.date: 01/13/2025
 title: Manage OKR time periods in Viva Goals
-ms.reviewer: 
-ms.author: rasanders
-author: RaSanders-MSFT
-manager: Liz.Pierce
+ms.reviewer: aroraaarushi
+ms.author: daisyfeller
+author: daisyfell
+manager: elizapo
 audience: Admin
 f1.keywords:
 - NOCSH
-ms.topic: article
+ms.topic: how-to
 ms.service: viva-goals
 ms.localizationpriority: medium
 ms.collection:  

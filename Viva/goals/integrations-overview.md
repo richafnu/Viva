@@ -1,14 +1,14 @@
 ---
-ms.date: 03/21/2024
+ms.date: 01/13/2025
 title: Viva Goals integrations overview
-ms.reviewer: 
-ms.author: rasanders
-author: RaSanders-MSFT
-manager: Liz.Pierce
+ms.reviewer: aroraaarushi
+ms.author: daisyfeller
+author: daisyfell
+manager: elizapo
 audience: Admin
 f1.keywords:
 - NOCSH
-ms.topic: article
+ms.topic: integration
 ms.service: viva-goals
 ms.localizationpriority: medium
 ms.collection:  

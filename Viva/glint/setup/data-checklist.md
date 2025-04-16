@@ -11,10 +11,10 @@ ms.collection:
  - m365initiative-viva
  - selfserve
 search-appverid: MET150
-ms.topic: article
+ms.topic: checklist
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 10/28/2024
+ms.date: 03/10/2025
 ---
 
 # Review employee data with Viva Glint checklists
@@ -27,11 +27,9 @@ Confirm that your employee data file, attributes, and attribute values align wit
 |:----------|:-----------|
 |File name    |There aren't special characters (like @ or %) in the name.       |
 |File format    |The file is .xlsx (one sheet with no password or formulas) or .csv (comma delimited and UTF-8 encoded).  |
+|File encoding    |The .csv file is UTF-8 or UTF-8 with BOM encoded. |
 |File encryption    |If you opt for PGP encryption, the file extension reflects the encryption (for example: filename.csv.pgp).       |
 |File sensitivity label - .xlsx files   | The Microsoft Excel sensitivity label isn't "Confidential" or "Highly Confidential," which cause an immediate upload error. Change the label to "General" to upload data. [Learn more about applying new sensitivity labels](https://support.microsoft.com/office/apply-sensitivity-labels-to-your-files-and-email-2f96e7cd-d5a4-403b-8bd7-4cc636bae0f9). |
-
-> [!CAUTION] 
-> Ensure that .csv files are UTF-8 encoded and _**NOT** UTF-8 with BOM encoded_. UTF-8 with BOM encoding results in upload errors.
  
 ## Review attribute level items
 
@@ -63,8 +61,11 @@ Confirm that your employee data file, attributes, and attribute values align wit
 |Manager ID  | All users **except the CEO** have a Manager ID value populated.      |
 |Manager ID  | Users don't report to their own employee ID or create reporting loops with other users.     |
 |Time zone  | Time zone values are populated correctly for all users. See the [Employee Attribute Template](https://www.microsoft.com/download/details.aspx?id=105533) for correct time zone values.     |
-|Language codes | Survey and/or dashboard language values are populated correctly for all users. See the [Employee Attribute Template](https://www.microsoft.com/download/details.aspx?id=105533) for correct language values.      |
+|Language codes* | Survey and/or dashboard language values are populated correctly for all users. See the [Employee Attribute Template](https://www.microsoft.com/download/details.aspx?id=105533) for correct language values.      |
 |Consistency | Values have a consistent spelling and naming convention. For example, department value of 'Sales,' 'SALES,' and 'sales' all appear as different values in reporting.      |
+
+> [!IMPORTANT]
+> *See [Recent language changes](attribute-fundamentals.md#recent-language-changes) for changes to supported languages and codes effective April 10, 2025.
 
 ## Next step
 After confirming that your data follows Viva Glint requirements and best practices with checklists, set up attributes in Viva Glint to create a mapping of your employee attributes.

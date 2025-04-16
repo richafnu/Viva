@@ -10,10 +10,10 @@ keywords: advanced configuration, uploads, retroactive update, bulk custom acces
  - m365initiative-viva
  - selfserve
 search-appverid: MET150
-ms.topic: article
+ms.topic: how-to
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 10/29/2024
+ms.date: 03/05/2025
 ---
 
 # Use Advanced Configuration Uploads
@@ -30,7 +30,7 @@ For highly trained users, Microsoft Viva Glint the Advanced Configuration Upload
 > To upload employee data, follow the guidance in this article: [Upload your employee attributes to Viva Glint](upload-employee-attributes.md).
 
 > [!CAUTION]
-> Uploads performed in Advanced Configuration do not calculate derived fields or transform date formats to yyyy/mm/dd. If data should be derived, like Tenure from Hire Date, load data through the Viva Glint People page or SFTP.
+> Uploads performed in Advanced Configuration don't calculate derived fields or transform date formats to yyyy/mm/dd. If data should be derived, like Tenure from Hire Date, load data through the Viva Glint People page or SFTP.
 
 ## Perform a MANAGERS_UPLOAD
 
@@ -39,7 +39,7 @@ When several users need customized data access to their Viva Glint Dashboards, u
 ### To upload custom access for multiple users:
 
 1. Prepare a file using the [custom data access export in User Roles](custom-access.md).
-1. Save your file in .csv format with a comma separator and UTF-8 encoding.
+1. Save your file in .csv format with a comma separator and UTF-8 or UTF-8 with BOM encoding.
 1. In the **Advanced Configuration** menu, select **Uploads**.
    1. **Upload Type:** Select **MANAGERS_UPLOAD** from the dropdown list.
    1. **Apply To:** For the survey and cycle dropdown menus, make no selection. These selections apply to retroactive uploads only and not to custom access uploads.
@@ -70,19 +70,29 @@ When several users need customized data access to their Viva Glint Dashboards, u
 
 When a survey closes, employee attributes that display in reporting don't update with regular employee data uploads. To update data in reporting in a closed survey, use the Retroactive User Updates option to apply new values. This option applies new data to past versions of user data and doesn't touch current employee information.
 
+### Employee Lifecycle and Always-On surveys
+
+Ongoing survey types like Lifecycle and Always-On can have the same user respond multiple times in a survey cycle that may need a retroactive update. Viva Glint retroactive updates don't currently support attribute value updates to multiple records for the same user during a retroactive update. An admin can remove users who have multiple records when preparing a file of corrected user data.
+
+If duplicated users aren't removed, admins see a "FAILED" State for the Retroactive User Updates upload, with the following File error in the Upload Job Details:
+
+- System error: Failed to find user_staging_record with externalUserId=[user@contoso.com], which is not supposed to happen at all because User object with the same ID was previously loaded."
+
 > [!NOTE]
 > To retroactively update a Manager Hierarchy, always use the RETROACTIVE_PULSE_UPDATE Data App and not the Retroactive User Updates option. [Learn more](glint-data-apps.md).
 
 > [!IMPORTANT]
-> If your organization can't save files in .csv format, Retroactive User Updates isn't an opton. Instead:
+> If your organization can't save files in .csv format, Retroactive User Updates isn't an option. Instead:
 > 1. Import an .xlsx file to the [People page](upload-employee-attributes.md).
 > 2. [Create a User Role](set-up-user-roles.md) and add these users to the role.
 > 3. Use the [RETROACTIVE_PULSE_UPDATE Data App](glint-data-apps.md) and select your User Role in **roleOrDistributionList**. 
 
-### To perform a Retroactive User Updates upload:
+### To perform a Retroactive User Updates upload
+
+Got to **Configuration** and in **Service Configuration**, select **Advanced Configuration**. For this task, admins access Data Apps and Uploads from the Advanced Configuration menu.
 
 > [!CAUTION]
-> - Do not perform a retroactive update while a Viva Glint survey is live.
+> - Don't perform a retroactive update while a Viva Glint survey is live.
 > - Deleted user data can't be retroactively updated.
 
 1. Export survey cycle data with the EXPORT_USERS_FROM_SURVEY_CYCLE Data App for the surveys that need to be updated. [Learn more](glint-data-apps.md).
@@ -96,13 +106,17 @@ When a survey closes, employee attributes that display in reporting don't update
    1. Delete all user rows for employees whose data remains the same.
    1. Correct values for users and attributes that need to be updated.
       1. For example: To correct Department = ‘Sales’, ‘SALES’, ‘sales’, which create three values where there should be one in reporting, update all users to Department = ‘Sales’.
-   1. Save your edited file with corrected values in.csv format.
+   1. Save your edited file with corrected values in .csv format with UTF-8 or UTF-8 with BOM encoding.
 1. In the **Advanced Configuration** menu, select **Uploads**.
 1. In the **Choose job type** dropdown list, select **Retroactive User Updates**.
 1. In the **Survey** dropdown list, select your survey.
 1. In the **Survey Cycle** dropdown list, select your survey cycle.
 1. Switch on the **Incremental** toggle.
 1. Drag and drop your .csv file or browse to choose it in the **Drag and drop to upload** section.
+
+   > [!CAUTION]
+   > To prevent errors, don't upload your file until all previous steps are complete.
+   
 1. Confirm the **File to be Uploaded** and select **Upload**.
 1. In the **Upload Job Details** page that appears, confirm that the **Attribute(s)** and **Updated users** count match the attributes and count of users in your uploaded file.
 1. Select **Apply Upload to Database** to upload new values and kick off a process to refresh reporting data.

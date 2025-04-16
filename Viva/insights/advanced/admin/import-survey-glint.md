@@ -4,7 +4,7 @@ description: Learn how to set up a connection between Glint and Viva Insights an
 author: zachminers
 ms.author: v-zachminers
 ms.date: 08/28/2024
-ms.topic: article
+ms.topic: how-to
 ms.localizationpriority: medium
 ms.collection: viva-insights-advanced
 ms.service: viva-insights
@@ -12,10 +12,7 @@ manager: anirudhbajaj
 audience: Admin
 ---
 
-# Import survey results from Viva Glint into Viva Insights (preview)
-
->[!IMPORTANT]
-> This feature is for public preview customers only. Features in preview might not be complete and could undergo changes before becoming available in the broader release.
+# Import survey results from Viva Glint into Viva Insights
 
 *Applies to: Viva Insights admin, Viva Glint admin*
 

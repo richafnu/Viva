@@ -1,10 +1,10 @@
 ---
-ms.date: 09/09/2024
+ms.date: 02/07/2025
 title: Prepare organizational data in Viva Insights
 description: Learn how to prepare and structure your data for upload into the Viva Insights advanced insights app. 
 author: zachminers
 ms.author: v-zachminers
-ms.topic: article
+ms.topic: how-to
 ms.localizationpriority: medium
 ms.collection: viva-insights-advanced
 ms.service: viva-insights
@@ -94,20 +94,6 @@ The reason for including all licensed employees in the organization is that, if 
 
 >[!Important]
 >Make sure the Microsoft 365 admin has assigned licenses to all employees you want to include in reports. Even if you include an employee in your organizational data file, they'll need a license to show up in reports. For more information about licensing and reports, see [When users show up in query results](../setup-maint/assign-licenses.md#when-users-show-up-in-query-results).
-
-
-##### Notification of missing data
-
-If the app detects that data is missing for one or more licensed employees, it alerts admins through a pop-up notification in the top-right corner of the **Data connections** tab.
-
-###### Upload missing organizational data
-
-To upload this missing data, the admin can follow these steps:
-
-1. On the pop-up notification, select **Download** to download a .csv file that contains the names of licensed employees whose organizational data is missing. 
-1. Open the .csv file.
-1. Append the missing data for these employees. This means adding attributes (columns) that describe the employees in a way consistent with previous uploads.
-1. Upload the file. Refer to [Upload organizational data (subsequent upload)](./upload-org-data-subsequent.md) for more information.
 
 In addition to including all licensed employees in the upload of organizational data, we recommend that you also include unlicensed employees, as we explained [earlier](#including-all-licensed-employees).
 
@@ -280,6 +266,10 @@ EffectiveDate is the date that a given attribute value applies for an employee. 
     * This ensures that the email address on 04/20/2024 (for example, BoSmith@constoso.com) is used to fetch EntraID "A" for all past dates.
 
 
+## Enable partial data ingestion 
+
+To enable partial data ingestion, select **Upload valid rows and exclude rows with invalid data**. This setting will only upload rows that include valid values, and will show warnings for the rows that were not ingested due to errors. This setting is off by default.
+
 ## Attribute reference
 
 This section contains information about the attributes that you use in the organizational data files uploaded to the advanced insights app.
@@ -295,10 +285,10 @@ This section contains information about the attributes that you use in the organ
 |**PersonId**| Unique identifier for an employee record. It can be the employee's primary SMTP address or email alias.  | Email | `joe@contoso.com`| Required<sup>1</sup>
 |**ManagerId** | Unique identifier for an employee’s manager. It can be the manager’s primary SMTP address or email alias. For CEOs, this can be left blank. | Email| `sally@contoso.com`| Required |
 |**Organization**| The internal organization that an employee belongs to. For more actionable insights, avoid using too few or too many unique Organizations.| String| `Financial Planning and Analysis` |Required|
-|**EffectiveDate**| <li>Date that a given attribute value applies for an employee. The attribute applies until another record for the same attribute with a different EffectiveDate is specified. If no EffectiveDate is uploaded, the date of upload is used as default.<li>Admin can select DataType as either DateTime_MM/DD/YYYY or DateTime_DD/MM/YYYY.<li>If selected Datatype is DateTime_MM/DD/YYYY, it supports MM/DD/YYYY, MM/DD/YYYY followed by more text such as "time," MM-DD-YYYY, MM-DD-YY, or YYYY-MM-DD.<li>If selected Datatype is DateTime_DD/MM/YYYY, it supports DD/MM/YYYY, DD/MM/YYYY followed by more text such as "time," D/MM/YYYY, D/MM/YY, DD-MM-YYYY, DD-MM-YY, or YYYY-DD-MM.<li>If selected Datatype is DateTime_MM/DD/YYYY or DateTime_DD/MM/YYYY, it supports Wednesday, March 14, 2012; March 14, 2012; 14-Mar-2012; or 14-Mar-12. | DateTime| `12/31/2021`|Required<sup>2</sup>|
+|**EffectiveDate**| <li>Date that a given attribute value applies for an employee. The attribute applies until another record for the same attribute with a different EffectiveDate is specified. If no EffectiveDate is uploaded, the date of upload is used as default.<li>Admin can select DataType as either DateTime_MMDDYYYY or DateTime_DDMMYYYY.<li>If selected Datatype is DateTime_MMDDYYYY, it supports MMDDYYYY, MMDDYYYY followed by more text such as "time," MMDDYYYY, MMDDYY, or YYYYMMDD.<li>If selected Datatype is DateTime_DDMMYYYY, it supports DDMMYYYY, DDMMYYYY followed by more text such as "time," DMMYYYY, DMMYY, DDMMYYYY, DDMMYY, or YYYYDDMM.<li>If selected Datatype is DateTime_MMDDYYYY or DateTime_DDMMYYYY, it supports Wednesday, March 14, 2012; March 14, 2012; 14-Mar-2012; or 14-Mar-12. | DateTime| `12/31/2021`|Required<sup>2</sup>|
 |**LevelDesignation** | Level that represents an employee’s experience, management level, or seniority within the organization. For more actionable insights, avoid using too few or too many unique LevelDesignation values.| String | `Director` |Reserved<sup>3</sup>
 |**FunctionType**| The job function that an employee performs. For more actionable insights, avoid using too few or too many unique FunctionTypes| String | `Finance Management` | Reserved|
-|**HireDate**| <li>The date an employee began employment. If an employee has multiple hire dates, it’s best to use the most recent hire date.<li>Admin can select DataType as either DateTime_MM/DD/YYYY or DateTime_DD/MM/YYYY.<li>If selected Datatype is DateTime_MM/DD/YYYY, it supports MM/DD/YYYY, MM/DD/YYYY followed by more text such as "time," MM-DD-YYYY, MM-DD-YY, or YYYY-MM-DD.<li>If selected Datatype is DateTime_DD/MM/YYYY, it supports DD/MM/YYYY, DD/MM/YYYY followed by more text such as "time," D/MM/YYYY, D/MM/YY, DD-MM-YYYY, DD-MM-YY, or YYYY-DD-MM.<li>If selected Datatype is DateTime_MM/DD/YYYY or DateTime_DD/MM/YYYY, it supports Wednesday, March 14, 2012; March 14, 2012; 14-Mar-2012; or 14-Mar-12.| DateTime| `12/31/2021`| Reserved|
+|**HireDate**| <li>The date an employee began employment. If an employee has multiple hire dates, it’s best to use the most recent hire date.<li>Admin can select DataType as either DateTime_MMDDYYYY or DateTime_DDMMYYYY.<li>If selected Datatype is DateTime_MMDDYYYY, it supports MMDDYYYY, MMDDYYYY followed by more text such as "time," MMDDYYYY, MMDDYY, or YYYYMMDD.<li>If selected Datatype is DateTime_DDMMYYYY, it supports DDMMYYYY, DDMMYYYY followed by more text such as "time," DMMYYYY, DMMYY, DDMMYYYY, DDMMYY, or YYYYDDMM.<li>If selected Datatype is DateTime_MMDDYYYY or DateTime_DDMMYYYY, it supports Wednesday, March 14, 2012; March 14, 2012; 14-Mar-2012; or 14-Mar-12.| DateTime| `12/31/2021`| Reserved|
 |**HourlyRate**| An employee’s salary represented as an hourly rate in US dollars. | Double | `25.25` | Reserved|
 |**Layer**| An employee’s position within the organizational hierarchy, expressed as their distance from the top leader of the organization. For example, the CEO is at Layer 0. For more actionable insights, avoid using too few or too many unique Layers. | Integer | `2` |Reserved
 |**SupervisorIndicator**| The manager status of an employee as **IC** (individual contributor), **Mngr** (manager), or **Mngr+** (manager of managers).| String |`IC`| Reserved|

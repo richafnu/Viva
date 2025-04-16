@@ -1,12 +1,15 @@
 ---
-ms.date: 09/18/2024
+ms.date: 02/04/2025
 title: Use Leader reports to uncover key business outcomes
 description: Learn how to use Leader reports in Viva Insights to view metrics and suggested actions focused on specific business outcomes.
 author: zachminers
 ms.author: v-zachminers
-ms.topic: article
+ms.topic: how-to
 ms.localizationpriority: medium 
-ms.collection: viva-insights-advanced 
+ms.collection: 
+- viva-insights-advanced 
+- viva-copilot
+- magic-ai-copilot
 ms.service: viva-insights
 search.appverid: 
 - MET150 
@@ -16,7 +19,7 @@ audience: Admin
 
 # Use Leader reports to uncover key business outcomes
 
-Leader deep-dive reports in Viva Insights focus on customers, business operations, and agility. You can find these reports under **Team insights** in the Viva Insights app in Teams and on the web.
+Leader deep-dive reports in Viva Insights focus on customers, business operations, and agility. To access these reports, select **Organizational behavior reports** under **More insights** on the Viva Insights Home page.
 
 With these reports, leaders can view a variety of  metrics and suggested actions focused on specific business outcomes. Leaders can further drill down into the insights with custom filters such as time periods and breakdowns by group. [Learn more about filters in organization insights](./org-insights.md).
 
@@ -26,7 +29,7 @@ Each report includes three sections:
 
 * Key metrics, which provide a deep dive into each topic, along with a “Why it matters” interpretation and recommended actions
 
-* Metric comparison, which addresses the different business outcomes. In the trend graph, you can view the key metric averages (the key metric in the first data table column), and learn how they change over time. You can view a four-month distribution of averages for:
+* Metric comparison, which addresses the different business outcomes. In the trend graph, you can view the key metric averages (the key metric in the first data table column), and learn how they change over time. You can view a six-month distribution of averages for:
 
     * Your entire company
 
@@ -44,11 +47,11 @@ You can sort by any of the headers in the **Groups within your organization**�
 
 To view these reports:
 
-* Your Insights admin needs to assign you the **Insights Business Leader** role. With this role, you can access organization insights that include every measured employee in your tenant.
+* Your **Group Manager** has given you delegate access to organization insights that include every measured employee in your tenant.
 
 * Or, you’ve been assigned the **Group Manager** role, and you have a number of direct and indirect reports that meets or exceeds the minimum group size your Insights admin set. With this role, you can access organization insights that include people who report to you directly or indirectly.
 
-* If you’ve been assigned both the **Insights Business Leader** role and the **Group Manager** role, you can view the relevant organization insights for either role. [Learn more about insights by role](./org-insights.md).
+* If you have delegate access *and* you're a **Group Manager**, you can view the relevant organization insights for either role. [Learn more about insights by role](./org-insights.md).
 
 ### Overview of the Leader reports
 

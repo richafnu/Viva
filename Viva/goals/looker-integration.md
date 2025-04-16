@@ -1,14 +1,14 @@
 ---
-ms.date: 04/18/2022
+ms.date: 01/23/2025
 title: "Looker Integration"
-ms.reviewer: 
-ms.author: rasanders
-author: RaSanders-MSFT
-manager: Liz.Pierce
+ms.reviewer: aroraaarushi
+ms.author: daisyfeller
+author: daisyfell
+manager: elizapo
 audience: Admin
 f1.keywords:
 - NOCSH
-ms.topic: article
+ms.topic: integration
 ms.service: viva-goals
 ms.localizationpriority: medium
 ms.collection:  
@@ -22,7 +22,7 @@ description: "Learn how to integrate your Looker KPIs with OKRs in Viva Goals."
 
 # Looker integration
 
-Viva Goals Looker integration enables automated real-time tracking of objectives and key result (OKR) progress. 
+Viva Goals Looker integration enables automated real-time tracking of objectives and key result (OKR) progress.
   
 Consider this example: You maintain sales reports in Looker dashboards. You have an objective to achieve 50 sales demos within a specific time period. You use Looker integration to set up a connection to an OKR in Viva Goals with a *demos booked* metric. Viva Goals automatically syncs the values for you and charts your progress toward the goal. This strategy saves you time while keeping your OKRs current.
 
@@ -55,8 +55,6 @@ Once  setup is complete, users in your organization can link their OKRs to Looke
 1. When you create (or edit) an OKR, select **Connect data source to auto-update progress**.
   
 2. From the list of integrations, select **Looker**.
-  
-      :::image type="content" source="../media/goals/6/looker-datasource.png" alt-text="Screenshot shows where you select Looker as your data sources." lightbox="../media/goals/6/looker-datasource.png":::
 
 3. If you already created a Looker connection, or an administrator in your organization shared a Looker connection with you, that connections will automatically be selected. If there are no connections already created or shared, Viva Goals will prompt you to add a new connection. If you have more than one Looker connection, you can choose the connection you’d like to use.
 
@@ -78,4 +76,3 @@ The following colors of the progress bar indicate the status of the objective:
 - If the progress is 0 to 25 percent less than expected progress at any time, the status is *behind* (orange).
 
 - If the progress is more than 25 percent less than expected at any time, the status is *at-risk* (red).
-

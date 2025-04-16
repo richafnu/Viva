@@ -22,6 +22,8 @@
        href: /viva/engage/manage-security-and-compliance/data-privacy-security-copilot-engage
    - name: Setup and administration
      items:
+     - name: Access admin center for any Viva Engage deployment
+       href: admin-howto-access-admin-center-in-ve.md
      - name: Viva Engage admin center overview 
        href: eac-overview.md
      - name: Key concepts for Engage admins
@@ -52,8 +54,6 @@
           href: /viva/engage/configure-your-viva-engage-network/nonnative-hybrid 
         - name: Configure email for the network
           href: /viva/engage/configure-your-viva-engage-network/configure-email-and-viva-engage
-        - name: Customize the look of your network
-          href: /viva/engage/configure-your-viva-engage-network/customize-the-look-of-viva-engage
         - name: Files in Native Mode
           href: /viva/engage/configure-your-viva-engage-network/files-in-native-mode
         - name: File storage for Viva Engage
@@ -64,8 +64,6 @@
           href: engage-microsoft-365-groups.md
         - name: Create a dynamic group
           href: /viva/engage/manage-viva-engage-groups/create-a-dynamic-group
-        - name: Customize your community
-          href: /viva/engage/configure-your-viva-engage-network/customize-the-look-of-viva-engage
         - name: Work with Microsoft Entra B2B guests
           href: /viva/engage/get-started-with-viva-engage/azure-ad-b2b-guests-viva-engage
         - name: All Company communities
@@ -88,12 +86,8 @@
        items:
         - name: Work with external groups not aligned to Native Mode
           href: /viva/engage/work-with-external-users/create-and-manage-external-groups
-        - name: Create and manage an external network
-          href: /viva/engage/work-with-external-users/create-and-manage-an-external-network     
         - name: Collaborate with guests in a community
           href: /viva/engage/work-with-external-users/collaborate-guests-external-viva-engage-community
-        - name: Find external participants
-          href: /viva/engage/work-with-external-users/find-external-participants
         - name: Add external participants
           href: /viva/engage/work-with-external-users/add-external-participants
         - name: Disable external messaging
@@ -171,8 +165,6 @@
       - name: Viva Engage and Microsoft Defender
         href: /viva/engage/viva-engage-and-defender
       - name: Social experience options in SharePoint 
-        href: /viva/engage/integrate-viva-engage-with-other-apps/viva-engage-and-newsfeed
-      - name: Add a feed to a SharePoint page
         href: /viva/engage/integrate-viva-engage-with-other-apps/embed-a-feed-into-a-sharepoint-site
       - name: Migrate your classic feeds in SharePoint 
         href: /viva/engage/integrate-viva-engage-with-other-apps/migrate-classic-to-conversations-webparts

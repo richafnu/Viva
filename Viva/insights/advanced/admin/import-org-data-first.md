@@ -1,11 +1,10 @@
 ---
-ROBOTS: NOINDEX, NOFOLLOW
-ms.date: 08/6/2024
-title: Import organizational data (first import)
+ms.date: 02/04/2025
+title: Import organizational data using API-based import (first import)
 description: Learn how to set up a connection and import your data to the Viva Insights advanced insights app
 author: zachminers
 ms.author: v-zachminers
-ms.topic: article
+ms.topic: how-to
 ms.localizationpriority: medium
 ms.collection: viva-insights-advanced
 ms.service: viva-insights
@@ -13,11 +12,12 @@ manager: anirudhbajaj
 audience: Admin
 ---
 
-# Import organizational data (first import)
+# Import organizational data using API-based import (first import) (preview)
 
-*Applies to: private preview customers*
+>[!IMPORTANT]
+> This feature is for public preview customers only. Features in preview might not be complete and could undergo changes before becoming available in the broader release.
 
-Your organizational data can appear in the Microsoft Viva Insights’ advanced insights app in one of three ways: through Microsoft Entra ID, which is the default source; through individual .csv files that you as an Insights Administrator upload directly to Viva Insights; or through an automated data import that you, your source system admin, and your Microsoft 365 IT admin set up.
+Your organizational data can appear in the Microsoft Viva Insights’ advanced insights app in one of three ways: through Microsoft Entra ID, which is the default source; through individual .csv files that you as an Insights Administrator upload directly to Viva Insights; or through an API-based data import that you, your source system admin, and your Microsoft 365 IT admin setup.
 
 This article talks about the third option, importing data. 
 
@@ -42,8 +42,8 @@ However, before you can run your app and start transferring data to Viva Insight
     1. Using the security certificate, the Microsoft 365 admin [registers a new app in Azure](#register-a-new-app-in-azure).
     1. Using IDs from the app registration, the Insights admin [sets up the import](#set-up-the-import-in-viva-insights).
     1. The data source admin prepares their data and either:
-        1.	Exports it from their source system using a custom app based on our API, then, using the same app, imports the data to Viva Insights.
-        2.	Exports it from their source system using a custom app based on our API, then, using our C# solution or PowerShell script, imports the data to Viva Insights.
+        1.	Exports it from their source system using a custom app based on our API, then using the same app, imports the data to Viva Insights.
+        2.	Exports it from their source system using a custom app based on our API, then using our C# solution or PowerShell script, imports the data to Viva Insights.
 
     :::image type="content" source="../images/admin-data-import-flow.png" alt-text=" Diagram of the workflow above."lightbox="../images/admin-data-import-flow-expanded.png":::
 
@@ -98,8 +98,8 @@ That’s it for now. If you want to get a head start on your next steps, follow 
          :::image type="content" source="../images/admin-di-app-id.png" alt-text="Screenshot that shows the ID and certificate/secret pane in Azure.":::
 
 
-    >[!Important]
-    >Keep these IDs handy. You'll need to provide them later.
+        >[!Important]
+        >Keep these IDs handy. You'll need to provide them later.
 1. Add a certificate:
     1.  Select **Add a certificate or secret**.
 
@@ -116,7 +116,7 @@ That’s it for now. If you want to get a head start on your next steps, follow 
 
 5. Remove API permissions:
     1. Select **API permissions** from the left rail.
-    2. For each listed **API / Permissions** name, select the ellipses (**...**) to the right of the API—for example, **Microsoft Graph**.
+    2. For each listed **API / Permissions** name, select the ellipsis (**...**) to the right of the API—for example, **Microsoft Graph**.
     3. Select **Remove permission**.
 
         :::image type="content" source="../images/admin-di-upload-remove-perms-1.png" alt-text="Screenshot that shows selecting Remove permissions in Azure. "lightbox="../images/admin-di-upload-remove-perms-1.png":::
@@ -136,15 +136,15 @@ That’s it for now. If you want to get a head start on your next steps, follow 
 
     1. From **Data hub**:
     
-        1. In the **Data source** section, find the **Automated import** option. Select the **Start** button.
+        1. In the **Data source** section, find the **API-based import** option. Select the **Start** button.
 
     1. From **Data connections**:
     
         1. Next to **Current source**, select the **data sources** button.
 
-        1. A **Switch to: Automated import** window appears. Select **Start**.
+        1. A **Switch to: API-based import** window appears. Select **Start**.
 
-1. On the **Automated organizational data import** page:
+1. On the **API-based organizational data import** page:
     1. Give your connection a name.
     
     1. Enter the app ID that your Microsoft 365 admin gave you.
@@ -236,7 +236,7 @@ View the following commands:
 These two request headers are required for all the APIs mentioned below  
  
 
-`x-nova-scale unit: <ScaleUnit obtained from your VI contact>`
+`x-nova-scaleunit: <ScaleUnit obtained from Insights setup connection page>`
 
 `Authentication: Bearer <Oauth token from AAD>` 
  
@@ -252,7 +252,7 @@ These two request headers are required for all the APIs mentioned below
 
 ##### Get connector/ping to check if connector is set for a tenant
  
-`[GET] https://api.orginsights.viva.office.com/v1.0/scopes/<tenantId>/ingress/connectors/ status?connectorType=Hr`
+`[GET] https://api.orginsights.viva.office.com/v1.0/scopes/<tenantId>/ingress/connectors/HR`
 
 [ResponseBody]  
 
@@ -418,7 +418,7 @@ Your app can take any form—for example, a PowerShell script—but it needs to 
 
 ##### Option 2: Import data through our C# solution after exporting data through your custom app 
 
-After you’ve exported your source data as a zip folder at the frequency you pick, and stored that folder in your files, you can run the DescriptiveDataUploadApp C# solution on the console. The DescriptiveDataUploadApp C# solution then brings your locally stored data into Viva Insights. 
+After you’ve exported your source data as a zip folder at the frequency you pick, and stored that folder in your files, you can run the DescriptiveDataUploadApp C# solution on the console. The DescriptiveDataUploadApp C# solution then brings your locally stored data into Viva Insights. [Learn more on GitHub](https://github.com/microsoft/vivainsights_ingressupload).
 
 To run the solution: 
 
@@ -434,7 +434,7 @@ To run the solution:
 
 ##### Option 3: Run the DescriptiveDataUpload PowerShell solution after exporting data through your custom app 
 
-Similar to option 2, after you’ve exported your source data as a zip folder at the frequency you pick, and stored that folder in your files, you can run the DescriptiveDataUpload PowerShell solution on the console. The DescriptiveDataUpload PowerShell solution then brings your locally stored data into Viva Insights. 
+Similar to option 2, after you’ve exported your source data as a zip folder at the frequency you pick, and stored that folder in your files, you can run the DescriptiveDataUpload PowerShell solution on the console. The DescriptiveDataUpload PowerShell solution then brings your locally stored data into Viva Insights. [Learn more on GitHub](https://github.com/microsoft/vivainsights_ingressupload).
 
 1. Clone the source code to your machine by running this command on the command line: 
 
@@ -509,17 +509,7 @@ When any data row or column has an invalid value for any attribute, the entire i
 
 See [Prepare organizational data](prepare-org-data.md) for specific formatting rules that might help resolve errors you encounter.
 
-Here are a few import-specific errors you might encounter if your files aren't formatted correctly:
-
-* There is a problem with the files in the .zip file. Make sure the .zip file contains only one .json file and one .csv file and upload it again.
-* The .csv file in your .zip file is empty. Add a non-empty .csv file and upload the .zip file again.
-* The .json file in your .zip file is empty. Add a non-empty .json file and upload the .zip file again.
-* The source column isn't mapped to a supported data type. Map to a supported data type and upload the file again.
-* The .json file is invalid. Use a valid .json file and upload the .zip file again.
-* The header names in the .csv file don’t match the fields you mapped in the .json file. Make sure the .json file contains the same fields as the .csv file, and upload the .zip file again.
-* The number of headers in the .csv file doesn't match the fields you mapped in the .json file. Make sure the .json file contains the same fields as the .csv file, and upload the .zip file again.
-* Your .csv file is mapped to a null or empty field in your .json file. Map it to a non-empty field and upload the .zip file again.
-* The .json file specifies a "DatasetType" that's not expected. Specify the correct value and upload the .zip file again.
+[Learn more about validation errors and warnings](..//admin/rules-validation-errors.md#validation-errors-and-warnings).
 
 
 ## Related topics

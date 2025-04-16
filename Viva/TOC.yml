@@ -33,15 +33,21 @@ items:
         href: viva-security.md
       - name: Compliance in Microsoft Viva
         href: viva-compliance.md
-      - name: Control access to Viva features
+    - name: Control access to Viva features
+      items:
+      - name: Overview
         href: feature-access-management.md
-    - name: Copilot in Viva
+      - name: Use the Microsoft 365 admin center to control Viva features
+        href: control-access-admin-center.md
+      - name: Use PowerShell to control access to Viva features
+        href: manage-access-policies.md
+    - name: Microsoft 365 Copilot in Viva
       items:
       - name: Introduction to Copilot in Viva
         href: copilot/viva-copilot-overview.md
       - name: Control access to Copilot in Viva
         href: copilot/copilot-access-management.md
-    - name: Integrate Viva Glint and Viva Insights to maximize data insight (preview)
+    - name: Integrate Viva Glint and Viva Insights to maximize data insight
       href: solutions/glint-insights-integration-overview.md
     - name: Deployment guides for Microsoft Viva
       href: deployment-guides-for-microsoft-viva.md

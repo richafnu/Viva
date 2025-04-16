@@ -11,10 +11,10 @@ ms.collection:
 - m365initiative-viva
 - selfserve 
 search.appverid: MET150 
-ms.topic: article
+ms.topic: how-to
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 8/23/2024
+ms.date: 1/21/2025
 ---
 
 # Viva Glint 360 feedback program email templates
@@ -89,7 +89,7 @@ From: [Name/Title or Team/Company]<br>
 Subject: 360 Feedback Program<br>
 Date: [Date]<br>
 
-Thank you for participating as a subject in the 360 feedback program that starts on [date]. This is a great opportunity to get a comprehensive and honest assessment of your strengths and areas for improvement from different perspectives, such as your manager, peers, direct reports, customers, and even yourself.
+Thank you for participating as a subject in the 360 feedback program that starts on [date]. This is a great opportunity to get a comprehensive and honest assessment of your strengths and areas for improvement from different perspectives, such as your manager, peers, and direct reports. You'll also complete a self-assessment.
 
 The survey is conducted by Microsoft Viva Glint, a trusted third party to ensure confidentiality and accuracy. The survey is easy to take and helps you understand how others perceive you in the workplace and learn what you can do to grow and succeed.
 
@@ -110,7 +110,7 @@ Date: [Date]<br>
  
 As part of [Company Name]'s 360 feedback program, I've chosen you as a feedback provider to help evaluate my work behaviors at our organization. The survey starts on [date] and your feedback is needed no later than [date].
 
-This program helps me identify my strengths and areas for improvement based on your input and from others who work with me. Your feedback is confidential and anonymous. I use it to create action plans for my professional growth.
+This program helps me identify my strengths and areas for improvement based on your input and from others who work with me. Your feedback is confidential. I use it to create action plans for my professional growth.
 
 Your opinions are valuable for me and for [Company Name] to create a better work environment. I appreciate your participation and honesty. Please let me know if you have any questions.
 

@@ -1,5 +1,5 @@
 ---
-ms.date: 02/21/2024
+ms.date: 11/13/2024
 title: Jira Server and Data Center integration for Viva Goals
 ms.reviewer: 
 ms.author: daisyfeller
@@ -8,7 +8,7 @@ manager: elizapo
 audience: Admin
 f1.keywords:
 - NOCSH
-ms.topic: article
+ms.topic: integration
 ms.service: viva-goals
 ms.localizationpriority: medium
 ms.collection:  
