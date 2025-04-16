@@ -34,9 +34,9 @@ highlightedContent:
       itemType: whats-new
       url: https://techcommunity.microsoft.com/t5/welcome-to-the-microsoft-viva/ct-p/Microsoft-Viva
     # Card
-    - title: Microsoft Viva overview
+    - title: Adopt Microsoft Viva
       itemType: overview
-      url: https://www.microsoft.com/en-us/microsoft-viva
+      url: https://adoption.microsoft.com/en-us/viva/
 
 
 # tools section (optional)
@@ -132,20 +132,6 @@ additionalContent:
             url: https://support.microsoft.com/office/viva-learning-preview-app-01bfed12-c327-41e0-a68f-7fa527dcc98a
           - text: Viva Pulse
             url: https://support.microsoft.com/topic/introducing-viva-pulse-34c94efe-185d-480e-94a2-27e013a5204b
-
-        # Card
-        - title: Learning paths
-          links:
-            - text: Get started with Microsoft Viva Connections
-              url: /training/paths/viva-connections-get-started/
-            - text: Introduction to Viva Insights
-              url: /training/paths/m365-workplace-analytics-start/
-            - text: Viva Glint training for admins and managers
-              url: /viva/glint/start/viva-glint-learning-paths-and-modules#courses-for-admins
-            - text: Introduction to Viva Learning
-              url: /training/modules/viva-learning-introduction/
-            - text: Introduction to Viva Pulse
-              url: /training/modules/viva-pulse-introduction/
 
         # Card
         - title: Copilot in Viva
