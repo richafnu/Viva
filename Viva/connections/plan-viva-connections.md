@@ -38,15 +38,15 @@ The following steps marked with an asterisk (*) are optional or might only apply
 
 Connections is designed to help users complete high-priority tasks and easily access important information. This experience can be built over time as your organization adapts and scales. Organizations can use an [existing SharePoint intranet home site](set-up-admin-center.md#build-from-an-existing-intranet-portal) (if available), or create a [standalone Connections experience](set-up-admin-center.md#create-a-connections-experience).
 
-Connections is composed of three main components – the [dashboard, the feed, and resources](viva-connections-overview.md#components-to-viva-connections):
+Connections is composed of three main components – the [dashboard, the news reader, and resources](viva-connections-overview.md#components-to-viva-connections):
 
 > [!NOTE]
 >
-> A new Enterprise News reader experience is being rolled out to users that will replace the current Feed experience across desktop, web, and mobile devices. This update is planned to roll out to all customers by the end of April 2025.
-
-- **Feed**: Found on its own tab, the feed gives users a constant stream of organizational and industry news, information from colleagues they frequently collaborate with, insights from their meetings and other information.
+> The news reader experience is being rolled out to users that will replace the current Feed experience across desktop, web, and mobile devices. This update is planned to roll out to all customers across all devices by the end of April 2025.
 
 - **Dashboard**: The dashboard is your user’s digital toolset. It brings together the tools your users need, enabling quick and easy access whether they are in the office or in the field.
+
+- **News Reader**: Found on the News tab, the News reader pulls SharePoint news from organizational sites, boosted news, user’s followed sites, frequent sites, and people users work with in an immersive reader experience.
 
 - **Resources**: Resources provide links to the most popular destinations at your organization. Create your own links or import them from a SharePoint home site (if available), or create links targeted to [specific audiences](edit-viva-home.md#customize-resources).
 
@@ -155,7 +155,7 @@ For example, the following mobile dashboards are designed around different worke
 
 | **Information workers**   | **Frontline workers**  |
 |-----------------------|--------------------|
-| ![Image of the Viva Connections dashboard designed for frontline workers.](../media/connections/dashboard-information-worker.png) |  ![Image of the Viva Connections dashboard designed for information workers.](../media/connections/dashboard-frontline.png) |
+| ![Image of the Viva Connections dashboard designed for frontline workers.](../media/connections/plan-viva-connections/dashboard-information-worker.png) |  ![Image of the Viva Connections dashboard designed for information workers.](../media/connections/plan-viva-connections/dashboard-frontline.png) |
 
 ### Content for planning Dashboards
 
@@ -167,23 +167,25 @@ For example, the following mobile dashboards are designed around different worke
 
 - Use existing [Microsoft 365 Groups](https://support.microsoft.com/office/learn-about-microsoft-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2) or create news groups if needed so that you can quickly create cards and [target them to specific audiences](/viva/connections/create-dashboard#apply-audience-targeting-to-cards).
 
-## Step 4: Get ready for the feed
+## Step 4: Get ready for the news reader
 
 > [!NOTE]
 >
-> An update is planned for Q2 2025 that will replace the Feed experience with an Enterprise News Reader that will present news that's recommended for you from your organization.
+> The news reader experience is being rolled out to users that will replace the current Feed experience across desktop, web, and mobile devices. This update is planned to roll out to all customers across all devices by the end of April 2025.
 
-The feed brings communications from across the organization into one place where it can be easily viewed. This feed helps keep frontline workers, information workers, and hybrid workers alike engaged and informed on important news and announcements. This solution also gives content publishers a reliable method of distributing important news and information.
+The news reader presents SharePoint news from organizational sites, boosted news, user’s followed sites, frequent sites, and people users work with in an immersive reader experience. This gives content publishers a reliable method of distributing important news and information, while keeping frontline workers, information workers, and hybrid workers alike engaged and informed on important news and announcements.
 
-For more information, see the [frequently asked questions about the feed in Connections](faqs-viva-connections-feed.md).
+Audience targeting can be used to show news content to specific groups of people if you want to present information that is relevant only to a particular group of people. For example, you can target news stories about a specific project to only team members and stakeholders of the project. For more information, see the article on [audience targeting](use-audience-targeting-in-viva-connections.md#apply-audience-targeting-to-news-posts-that-display-in-the-news-reader).
+
+Users can access their news from the news tab on the Connections experience. For more information, see the article on [the News reader in Connections](news-reader.md).
 
 ## Step 5: Plan the resources
 
 Resources are the navigational links to portals and other popular destinations. Resources should be the most important and popular portals for your target audience and can be targeted to specific audiences.
 
-Organizations with a [SharePoint home site](home-site-plan.md) that created a [global navigation bar](sharepoint-app-bar.md) can also provide users with links to resources. The global navigation bar can only be accessed outside SharePoint by users through the Viva Connections app on Microsoft Teams by selecting the organizations logo on the Teams app rail. Links from the Global Navigation bar can also be [imported into the Resources section](edit-viva-home.md#import-sharepoint-links) of Connections.
+Organizations with a [SharePoint home site](home-site-plan.md) that created a [global navigation bar](sharepoint-app-bar.md) can also provide users with links to resources. The global navigation bar can only be accessed outside SharePoint by users through the Viva Connections app on Microsoft Teams by selecting the organizations logo on the Teams app rail. Links from the Global Navigation bar can also be [imported into the Resources section](edit-resources.md#import-sharepoint-links) of the Connections expreience.
 
-For more information, see the section in this article on [customizing resources](edit-viva-home.md#customize-resources). For more information on SharePoint navigation, see the introduction to [SharePoint information architecture](/sharepoint/information-architecture-modern-experience).
+For more information, see the article on [editing resources](edit-resources.md). For more information on SharePoint navigation, see the introduction to [SharePoint information architecture](/sharepoint/information-architecture-modern-experience).
 
 ## Step 6: Create an adoption plan
 

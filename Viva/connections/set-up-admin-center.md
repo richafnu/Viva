@@ -405,11 +405,13 @@ It might take up to 24 hours for changes to fully propagate. Consider this timin
 
 **My current SharePoint home site is set up on the SharePoint root site. Now I want to set up additional SharePoint home sites. How do I ensure that the users targeted to the new SharePoint home site don’t see the news posts from the existing SharePoint home site (root site)?**
 
-If your SharePoint home site is set up on the root site, all your users should have access to the root site for SharePoint access. This means that if some of your users are targeted to a new SharePoint home site, they might still see content in their feed from the existing SharePoint home site (root site). To avoid this, it's recommended to not use root site as a SharePoint home site if you plan to set up multiple SharePoint home sites. Alternatively, you can decide to publish content on the existing SharePoint home site (root site) that is broadly applicable to everyone.
+If your SharePoint home site is set up on the root site, all your users should have access to the root site for SharePoint access. This means that if some of your users are targeted to a new SharePoint home site, they might still see content in the news reader from the existing SharePoint home site (root site).
+
+To avoid this, it's recommended to not use a root site as a SharePoint home site if you plan to set up multiple SharePoint home sites. Alternatively, you can decide to publish content on the existing SharePoint home site (root site) that is broadly applicable to everyone.
 
 > [!NOTE]
 >
-> A new Enterprise News reader experience is being rolled out to users that will replace the current Feed experience across desktop, web, and mobile devices. This update is planned to roll out to all customers by the end of April 2025.
+> The news reader experience is being rolled out to users that will replace the current Feed experience across desktop, web, and mobile devices. This update is planned to roll out to all customers across all devices by the end of April 2025.
 
 **I would like to restore my original setup. How do I get back to my original setup?**
 
