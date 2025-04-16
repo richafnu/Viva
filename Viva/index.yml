@@ -95,21 +95,19 @@ additionalContent:
         - title: Copilot in Viva
           summary: Empower people to be smarter, more productive, more creative, and connected to the people and things around them.
           url: /viva/copilot/viva-copilot-overview
-
+        # Card
         - title: Employee communications and communities
           summary: Modernize how you communicate and engage with employees with Viva Connections, Viva Engage, and Viva Amplify. 
           url: /viva/experience-connection
+        # Card
         - title: Microsoft Viva workplace analytics and employee feedback
           summary: Transform employee feedback and insights into impact with Viva Insights, Viva Glint, and Viva Pulse.
           url: /viva/experience-insight
         # Card
-        - title: Goal setting and management
-          summary: Align people’s work to team and organizational goals with Viva Goals.
-          url: /viva/experience-purpose
-        # Card
         - title: Learning and knowledge management
           summary: Help your workforce learn, grow, and succeed with Viva Learning.
-          url: /viva/experience-growth
+          url: /viva/learning/overview-viva-learning
+          
     - title: Key resources  # < 60 chars (optional)
       items:
 
@@ -153,15 +151,17 @@ additionalContent:
               url: https://adoption.microsoft.com/viva/
             - text: End user resources
               url: https://support.microsoft.com/viva
-            - text: Tech community
-              url: https://techcommunity.microsoft.com/t5/microsoft-viva/ct-p/MicrosoftViva
- 
+             
         # Card
         - title: Extensibility
           links:
-            - text: Viva Connections
+            - text: Build apps for Microsoft Viva
+              url: https://developer.microsoft.com/en-us/viva
+            - text: Extend Viva Connections
               url: /sharepoint/dev/spfx/viva/overview-viva-connections
-        
+            - text: Integrate with Viva Learning
+              url: /graph/api/resources/viva-learning-api-overview?view=graph-rest-1.0
+                     
         # Card
         - title: Troubleshooting
           links:
