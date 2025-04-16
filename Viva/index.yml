@@ -34,7 +34,7 @@ highlightedContent:
       itemType: whats-new
       url: https://techcommunity.microsoft.com/t5/welcome-to-the-microsoft-viva/ct-p/Microsoft-Viva
     # Card
-    - title: Adopt Microsoft Viva
+    - title: Microsoft Viva adoption
       itemType: overview
       url: https://adoption.microsoft.com/en-us/viva/
 
