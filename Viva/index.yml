@@ -12,7 +12,7 @@ metadata:
   ms.topic: hub-page # Required
   author: loreenl #Required; your GitHub user alias, with correct capitalization.
   ms.author: loreenl #Required; microsoft alias of author; optional team alias.
-  ms.date: 08/08/2024 #Required; mm/dd/yyyy format.
+  ms.date: 04/16/2025 #Required; mm/dd/yyyy format.
   ms.custom: intro-hub-or-landing
   ms.collection:
     - essentials-navigation
@@ -27,7 +27,7 @@ highlightedContent:
       url: microsoft-viva-overview.md
     # Card
     - title: Copilot in Microsoft Viva
-      itemType: whats-new
+      itemType: overview
       url: /viva/copilot/viva-copilot-overview
     # Card
     - title: Microsoft Viva community
@@ -35,7 +35,7 @@ highlightedContent:
       url: https://techcommunity.microsoft.com/t5/welcome-to-the-microsoft-viva/ct-p/Microsoft-Viva
     # Card
     - title: Adopt Microsoft Viva
-      itemType: overview
+      itemType: get-started
       url: https://adoption.microsoft.com/en-us/viva/
 
 
