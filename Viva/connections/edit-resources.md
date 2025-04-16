@@ -24,7 +24,7 @@ description: "Learn how to edit and manage the resource section in your Viva Con
 
 # Edit Viva Connections Resources
 
-Resources provide links to the most popular portals and destinations at your organization and can be found below the dashboard of the Connections experience. Operators and members can import navigational links from a SharePoint home site or global navigation bar, or create their own links, which can all be [targeted to specific audiences](use-audience-targeting-in-viva-connections.md#apply-audience-targeting-to-links-in-resources). Any edits made to the resource section will also show in [the mobile experience](viva-connections-overview.md#the-viva-connections-mobile-experience).
+Resources provide links to the most popular portals and destinations at your organization and can be found below the dashboard of the Connections experience. Operators and members can import navigational links from a SharePoint home site or global navigation bar, or create their own links, which can all be [targeted to specific audiences](use-audience-targeting-in-viva-connections.md#apply-audience-targeting-to-links-in-resources). Any edits made to the resource section will also show in [the mobile experience](viva-connections-overview.md#the-connections-mobile-experience).
 
 > [!NOTE]
 >

@@ -45,7 +45,7 @@ Create eye-catching posts like announcements, organizational news, people news, 
 >
 > Boosted news displays for up to four days in the News web part.
 
-:::image type="content" source="../media/connections/use-web-parts-in-sharepoint/news-web-part.png" alt-text="Screenshot of the News web part." lightbox="../media/connections/viva-connections-overview/vc3-desktop-mobile-compare.png":::
+:::image type="content" source="../media/connections/use-web-parts-in-sharepoint/news-web-part.png" alt-text="Screenshot of the News web part." lightbox="../media/connections/use-web-parts-in-sharepoint/news-web-part.png":::
 
 For more information, see the articles on [using the news web part on a SharePoint page](https://support.microsoft.com/office/c2dcee50-f5d7-434b-8cb9-a7feefd9f165) and [boosting SharePoint news from organizational news sites](https://support.microsoft.com/office/46ad8dc5-8f3b-4d81-853d-8bbbdd0f9c83).
 

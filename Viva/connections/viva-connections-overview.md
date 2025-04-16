@@ -151,7 +151,7 @@ Discover [more card options from partner services](https://cloudpartners.transfo
 
 Resources are navigational links that can be set up and customized both from the Teams app and web experience for Connections. Once set up, these resources are displayed on the desktop, web, and mobile experiences of Connections. They include customized links from any URL, whether it's external to your organization or internal to organization. Links can be further customized by applying audience targeting to each link.
 
-Organizations with a [SharePoint home site](home-site-plan.md) that created a [global navigation bar](sharepoint-app-bar.md) can also provide users with links to resources. The global navigation bar can only be accessed outside SharePoint by users through the Connections app on Microsoft Teams by selecting the organizations logo on the Teams app rail. Links from the Global Navigation bar can also be [imported into the Resources section](edit-viva-home.md#import-sharepoint-links) of Connections.
+Organizations with a [SharePoint home site](home-site-plan.md) that created a [global navigation bar](sharepoint-app-bar.md) can also provide users with links to resources. The global navigation bar can only be accessed outside SharePoint by users through the Connections app on Microsoft Teams by selecting the organizations logo on the Teams app rail. Links from the Global Navigation bar can also be [imported into the Resources section](edit-resources.md#import-sharepoint-links) of Connections.
 
 > [!NOTE]
 >
@@ -229,7 +229,7 @@ Connections gives you and your content creators the tools to provide a curated e
 
 ## Branding
 
-Matching your organizational brand is integral to your users' connection with your company's values and goals. The branding you apply in Teams to the Connections desktop app – including your logo and colors – is automatically applied to the mobile app. For information on how to apply your branding in an app, review [how to customize apps in Microsoft Teams](/microsoftteams/customize-apps). The desktop app offers an opportunity for further branding by [customizing the banner image](edit-viva-home.md#customize-the-banner-image) and [customizing the theme](edit-viva-home.md#customize-the-look).
+Matching your organizational brand is integral to your users' connection with your company's values and goals. The branding you apply in Teams to the Connections desktop app – including your logo and colors – is automatically applied to the mobile app. For information on how to apply your branding in an app, review [how to customize apps in Microsoft Teams](/microsoftteams/customize-apps). The desktop app offers an opportunity for further branding by [customizing the banner image](edit-viva-home.md#customize-the-banner-image) and [customizing the theme](edit-viva-home.md#apply-a-theme-to-your-connections-experience).
 
 > [!NOTE]
 > Organization branding in the Connections app is currently disabled for users on mobile and desktop who have enabled dark mode under their Microsoft Teams Appearance and Accessibility settings.

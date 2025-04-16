@@ -73,7 +73,7 @@ Setting up Viva Connections only takes a few steps but there are some considerat
 
 5. The Viva Connections admin center opens. If you already have a SharePoint home site (intranet portal), Viva Connections displays it as an experience automatically.
 
-## Create a new Viva Connections experience
+## Create a new Connections experience
 
 Create an all-encompassing Connections experience for the entire organization, or for distinct audiences. Optionally, when you create a new experience, you can choose to create a stand-alone Connections experience, or to create a Connections experience and [build off an existing intranet portal (SharePoint home site)](/viva/connections/viva-connections-overview#how-sharepoint-home-sites-and-viva-connections-work-together).
 
@@ -345,7 +345,7 @@ The following settings are available in the Connections experience settings pane
 >
 > - Organizations that aren't Viva Suite or Viva Communications and Communities subscribers are limited to creating one Viva Connections experience.
 
-Viva Connections experiences and SharePoint home sites (also referred to as intranet portals) are two complementary methods to creating powerful user experiences that can be viewed on the web (via SharePoint) and in Teams. Users can choose to create a Viva Connections experience with or without selecting to build from an existing SharePoint communication site. [Learn more about how Connections and homes sites work together](viva-connections-overview.md#how-sharepoint-home-sites-and-viva-connections-work-together).
+Viva Connections experiences and SharePoint home sites (also referred to as intranet portals) are two complementary methods to creating powerful user experiences that can be viewed on the web (via SharePoint) and in Teams. Users can choose to create a Viva Connections experience with or without selecting to build from an existing SharePoint communication site. [Learn more about how Connections and homes sites work together](viva-connections-overview.md#how-sharepoint-home-sites-and-connections-work-together).
 
 If you chose to create a Viva Connections experience without using your own SharePoint communication site as an intranet portal, you can set the special site container that was created to house your content as the home site. Doing so ensures you get the home site features on the existing site, without losing any of the previously configured Connections experience.
 
